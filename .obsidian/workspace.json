@@ -4,18 +4,40 @@
     "type": "split",
     "children": [
       {
-        "id": "c267e8ce80ab444d",
+        "id": "975f9561c96f29a5",
         "type": "tabs",
+        "dimension": 26.677852348993287,
         "children": [
           {
-            "id": "9610a5ee10f36c24",
+            "id": "44319fb716a08796",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Excalidraw/Dark Mindmap Template.excalidraw.md",
+                "mode": "source",
+                "source": false
+              }
+            },
+            "group": "32e9b45b04071075"
+          }
+        ]
+      },
+      {
+        "id": "3bacb9cb0bb72412",
+        "type": "tabs",
+        "dimension": 73.3221476510067,
+        "children": [
+          {
+            "id": "f4d16cfc5dc58b9c",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Drawing 2023-01-28 07.37.43.excalidraw.md"
+                "file": "Excalidraw/Dark Mindmap Template.excalidraw.md"
               }
-            }
+            },
+            "group": "32e9b45b04071075"
           }
         ]
       }
@@ -83,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Drawing 2023-01-28 07.37.43.excalidraw.md",
+                "file": "Excalidraw/Dark Mindmap Template.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Drawing 2023-01-28 07.37.43.excalidraw.md",
+                "file": "Excalidraw/Dark Mindmap Template.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Drawing 2023-01-28 07.37.43.excalidraw.md"
+                "file": "Excalidraw/Dark Mindmap Template.excalidraw.md"
               }
             }
           }
@@ -146,10 +168,16 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9610a5ee10f36c24",
+  "active": "f4d16cfc5dc58b9c",
   "lastOpenFiles": [
-    "Day Planners/Day Planner-20230128.md",
+    "Islamic Stories/Prophet Ibrahim.md",
+    "Excalidraw/Dark Mindmap Template.excalidraw.md",
     "Excalidraw/Drawing 2023-01-28 07.37.43.excalidraw.md",
+    "Pasted image 20230128082055.png",
+    "README.md",
+    "Untitled.canvas",
+    "2023-01-28.md",
+    "Day Planners/Day Planner-20230128.md",
     "Day Planners/Day Planner-2023-01-28.md"
   ]
 }
