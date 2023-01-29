@@ -1,14 +1,14 @@
 {
   "customFolder": "Day Planners",
   "mode": 0,
-  "mermaid": true,
+  "mermaid": false,
   "notesToDates": [
     {
       "notePath": "Day Planners/Day Planner-2023-01-28.md",
       "date": "Sat Jan 28 2023"
     }
   ],
-  "completePastItems": true,
+  "completePastItems": false,
   "circularProgress": true,
   "nowAndNextInStatusBar": false,
   "showTaskNotification": false,

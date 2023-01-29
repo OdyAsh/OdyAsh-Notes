@@ -4,40 +4,18 @@
     "type": "split",
     "children": [
       {
-        "id": "975f9561c96f29a5",
+        "id": "35bcde370dfd08b4",
         "type": "tabs",
-        "dimension": 26.677852348993287,
         "children": [
           {
-            "id": "44319fb716a08796",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Excalidraw/Dark Mindmap Template.excalidraw.md",
-                "mode": "source",
-                "source": false
-              }
-            },
-            "group": "32e9b45b04071075"
-          }
-        ]
-      },
-      {
-        "id": "3bacb9cb0bb72412",
-        "type": "tabs",
-        "dimension": 73.3221476510067,
-        "children": [
-          {
-            "id": "f4d16cfc5dc58b9c",
+            "id": "eda41e28493332a1",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Excalidraw/Dark Mindmap Template.excalidraw.md"
+                "file": "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md"
               }
-            },
-            "group": "32e9b45b04071075"
+            }
           }
         ]
       }
@@ -68,7 +46,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#islam",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Excalidraw/Dark Mindmap Template.excalidraw.md",
+                "file": "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Excalidraw/Dark Mindmap Template.excalidraw.md",
+                "file": "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Excalidraw/Dark Mindmap Template.excalidraw.md"
+                "file": "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md"
               }
             }
           }
@@ -168,16 +146,17 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f4d16cfc5dc58b9c",
+  "active": "eda41e28493332a1",
   "lastOpenFiles": [
-    "Islamic Stories/Prophet Ibrahim.md",
     "Excalidraw/Dark Mindmap Template.excalidraw.md",
-    "Excalidraw/Drawing 2023-01-28 07.37.43.excalidraw.md",
+    "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
+    "Hotkeys/Excalidraw Hotkeys.md",
+    "Day Planners/Day Planner-20230129.md",
+    "Islamic Stories/Prophets Overview/Prophets Overview.excalidraw.md",
+    "Islamic Stories/Prophets Overview/Untitled.md",
+    "Islamic Stories/Prophet Ibrahim/Pasted Image 20230128184504_554.png",
     "Pasted image 20230128082055.png",
-    "README.md",
-    "Untitled.canvas",
-    "2023-01-28.md",
-    "Day Planners/Day Planner-20230128.md",
-    "Day Planners/Day Planner-2023-01-28.md"
+    "Islamic Stories/Prophet Ibrahim/Pasted Image 20230128172343_822.png",
+    "Islamic Stories/Prophet Ibrahim.md"
   ]
 }
