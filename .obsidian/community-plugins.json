@@ -2,7 +2,11 @@
   "table-editor-obsidian",
   "obsidian-excalidraw-plugin",
   "obsidian-git",
-  "obsidian-day-planner",
   "oz-image-plugin",
-  "url-into-selection"
+  "url-into-selection",
+  "obsidian-copy-block-link",
+  "dataview",
+  "excalibrain",
+  "obsidian-kanban",
+  "obsidian-reminder-plugin"
 ]

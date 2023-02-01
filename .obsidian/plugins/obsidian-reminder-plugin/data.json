@@ -1,0 +1,36 @@
+{
+  "scanned": true,
+  "reminders": {
+    "Tasks/Kanban To Do.md": [
+      {
+        "title": "attend 7 habits to success meeting @12PM<br><br>",
+        "time": "2023-02-19 06:00",
+        "rowNumber": 36
+      },
+      {
+        "title": "say HBD to dad",
+        "time": "2023-02-22 17:00",
+        "rowNumber": 37
+      }
+    ]
+  },
+  "debug": false,
+  "settings": {
+    "reminderTime": "09:00",
+    "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
+    "useSystemNotification": false,
+    "autoCompleteTrigger": "(@",
+    "primaryReminderFormat": "ReminderPluginReminderFormat",
+    "enableReminderPluginReminderFormat": true,
+    "dateFormat": "YYYY-MM-DD",
+    "dateTimeFormat": "YYYY-MM-DD HH:mm",
+    "strictDateFormat": false,
+    "linkDatesToDailyNotes": false,
+    "enableTasksPluginReminderFormat": false,
+    "useCustomEmojiForTasksPlugin": false,
+    "removeTagsForTasksPlugin": false,
+    "enableKanbanPluginReminderFormat": true,
+    "editDetectionSec": 10,
+    "reminderCheckIntervalSec": 5
+  }
+}

@@ -15,7 +15,7 @@ To Muhammad (PBUH) ^3ljXekds
 Prophet Ibrahim 
 (Abraham, خليل الله) ^x0IoN67T
 
-Regarding Isaac & Ishmael ^ik6QsFy1
+Regarding Ishaq (Isaac) & Ismail (Ishmael) ^ik6QsFy1
 
 Palestine ^r9h0xcyQ
 
@@ -39,11 +39,11 @@ But Allah protected Sarah from that king by paralyzing him, and so he offered he
 
 So she accepted, he was freed and left her alone, then she and Ibrahim (a.s) went to Palestine with Hagar  ^PciyR7jB
 
-Sarah told Ibrahim (a.s) to marry Hagar (as she couldn't have a child 🔗yet), and so Ishmael was born from Ibrahim & Hagar ^znAh0rhY
+Sarah told Ibrahim (a.s) to marry Hagar (as she couldn't have a child 🔗yet), and so Ismail was born from Ibrahim & Hagar ^znAh0rhY
 
-then, Sarah became jealous, so she (& Allah, as a test) wanted Ibrahim to take Hagar & Ishmael away  ^EN3ehlXt
+then, Sarah became jealous, so she (& Allah, as a test) wanted Ibrahim to take Hagar & Ismail away  ^EN3ehlXt
 
-Due to Allah's orders, Ibrahim went with Hagar & Ishmael to the steep valley called Mecca ^HYv20KnD
+Due to Allah's orders, Ibrahim went with Hagar & Ismail to the steep valley called Mecca ^HYv20KnD
 
 He then left them - even though he didn't want to - and once Hagar knew that this is due to a command from Allah, she accepted her and her son's fate ^dyipymru
 
@@ -55,9 +55,21 @@ Palestine ^m3DlyTLa
 
 So Ibrahim went back to Palestine ^ZXf4Ipcs
 
-The people of Jurhum found zamzam due to 🌐 birds in the skies, and were allowed to drink from it and in return give food to Hagar and her son Ishmael ^94dX3GYN
+The people of Jurhum found zamzam due to birds in the sky 🌐, and were allowed to drink from it and in return gave food to Hagar and her son Ismail ^94dX3GYN
 
 History of Arabs & Jurhum tribe ^77JaG3Fk
+
+Ismail later married a woman from Jurhum's tribe, and became fluent in Arabic and thus his family were Arabized Arabs, as in non-Arabs who mixed with Arabs ^spGYd89q
+
+Since Ismail was a prophet, the people in Mecca at that time followed his monotheistic religion (later known as Islam)   ^EHWdZK6V
+
+Mecca ^LONTbOvH
+
+When Ismail was 16 years old, Allah commanded Ibrahim to build the kaaba in Mecca, so he returned and built it with the help of his son Ismail, noting that this could have been before or after Jurhum came in Mecca ^4LLW3kLs
+
+Allah then commanded Ibrahim to call people to preform pilgrimage around the Kaaba, so he did, and now millions of people visit the Kaaba and reply to his call ^QI9ZszEo
+
+[[The History Of Arabs.excalidraw#^DAAH2WuC]] ^nbWt7GID
 
 
 # Embedded files
@@ -74,8 +86,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 1421,
-			"versionNonce": 1191193660,
+			"version": 1422,
+			"versionNonce": 1281645081,
 			"isDeleted": false,
 			"id": "BUxajvPHFaWIawII1XpZk",
 			"fillStyle": "hachure",
@@ -111,14 +123,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674966021044,
+			"updated": 1675140574032,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 815,
-			"versionNonce": 1738970556,
+			"version": 817,
+			"versionNonce": 1580773367,
 			"isDeleted": false,
 			"id": "x0IoN67T",
 			"fillStyle": "hachure",
@@ -128,7 +140,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"opacity": 100,
 			"angle": 0,
 			"x": -164.77125897694492,
-			"y": -133.26063071973851,
+			"y": -110.26063071973851,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 301,
@@ -137,7 +149,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674967849942,
+			"updated": 1675140574032,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -152,8 +164,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "arrow",
-			"version": 3738,
-			"versionNonce": 1415743036,
+			"version": 3813,
+			"versionNonce": 964837777,
 			"isDeleted": false,
 			"id": "YZrRqeMqarIJ2CrFhrY1K",
 			"fillStyle": "hachure",
@@ -163,16 +175,16 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"opacity": 100,
 			"angle": 0,
 			"x": 211.36729118174327,
-			"y": -168.13959943235665,
+			"y": -168.13959943235832,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 501.4472392595181,
-			"height": 279.05223149253175,
+			"height": 279.0522314925305,
 			"seed": 286377276,
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674967849951,
+			"updated": 1675262490881,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -195,14 +207,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				],
 				[
 					501.4472392595181,
-					-279.05223149253175
+					-279.0522314925305
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1411,
-			"versionNonce": 824900612,
+			"version": 1436,
+			"versionNonce": 296589591,
 			"isDeleted": false,
 			"id": "ctxzOn-0bOi0dt0GYWD2k",
 			"fillStyle": "hachure",
@@ -211,8 +223,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 675.02806913688,
-			"y": 902.3089475796853,
+			"x": 676.5071099719635,
+			"y": 918.6854219975776,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 187,
@@ -238,14 +250,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674968187583,
+			"updated": 1675140574032,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 789,
-			"versionNonce": 888901308,
+			"version": 814,
+			"versionNonce": 1550149593,
 			"isDeleted": false,
 			"id": "r9h0xcyQ",
 			"fillStyle": "hachure",
@@ -254,8 +266,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 723.02806913688,
-			"y": 921.3089475796853,
+			"x": 724.5071099719635,
+			"y": 937.6854219975776,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 91,
@@ -266,7 +278,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187583,
+			"updated": 1675140574032,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -281,8 +293,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4584,
-			"versionNonce": 1443493508,
+			"version": 4807,
+			"versionNonce": 1622225681,
 			"isDeleted": false,
 			"id": "rwBAtyY9ZkSahCxfbsLXM",
 			"fillStyle": "hachure",
@@ -291,12 +303,12 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 488.01547388404447,
-			"y": 920.3686958516137,
+			"x": 489.494514719128,
+			"y": 936.7451702695062,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 175.35941606208416,
-			"height": 4.383060658406777,
+			"width": 175.35941606208405,
+			"height": 4.383060658406748,
 			"seed": 763090564,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
@@ -305,18 +317,18 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674968187954,
+			"updated": 1675262490874,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "wt0TNzegAjFVpmfajgXH2",
-				"focus": 0.017519858865680877,
-				"gap": 11.653179190751871
+				"gap": 11.653179190751985,
+				"focus": 0.017519858865682716
 			},
 			"endBinding": {
 				"elementId": "ctxzOn-0bOi0dt0GYWD2k",
-				"focus": 0.18999659510621558,
-				"gap": 11.653179190751416
+				"gap": 11.653179190751416,
+				"focus": 0.18999659510620875
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -327,15 +339,15 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					0
 				],
 				[
-					175.35941606208416,
-					4.383060658406777
+					175.35941606208405,
+					4.383060658406748
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1529,
-			"versionNonce": 1754421052,
+			"version": 1554,
+			"versionNonce": 1392313529,
 			"isDeleted": false,
 			"id": "wt0TNzegAjFVpmfajgXH2",
 			"fillStyle": "hachure",
@@ -344,8 +356,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 179.3622946932926,
-			"y": 796.7420987532628,
+			"x": 180.84133552837602,
+			"y": 813.118573171155,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 297,
@@ -371,14 +383,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674968187583,
+			"updated": 1675140574032,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 779,
-			"versionNonce": 2031794236,
+			"version": 822,
+			"versionNonce": 1609915039,
 			"isDeleted": false,
 			"id": "v1iVevWY",
 			"fillStyle": "hachure",
@@ -387,8 +399,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 275.8622946932926,
-			"y": 896.7420987532628,
+			"x": 277.341335528376,
+			"y": 913.118573171155,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 104,
@@ -399,14 +411,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187583,
+			"updated": 1675262490874,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 1,
 			"text": "Journey",
 			"rawText": "Journey",
-			"baseline": 25,
+			"baseline": 24,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "wt0TNzegAjFVpmfajgXH2",
@@ -414,8 +426,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4274,
-			"versionNonce": 773511684,
+			"version": 4433,
+			"versionNonce": 1931127025,
 			"isDeleted": false,
 			"id": "ghHQgMe900x-GFrZ9hqAF",
 			"fillStyle": "hachure",
@@ -424,17 +436,17 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 68.03053523637162,
-			"y": 120.98673568855418,
+			"x": 68.00377006182629,
+			"y": 120.98673568855423,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 173.30679889849432,
-			"height": 647.1755813863706,
+			"width": 175.41907327196515,
+			"height": 663.5520558042629,
 			"seed": 1463297596,
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187583,
+			"updated": 1675262490874,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -456,15 +468,15 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					0
 				],
 				[
-					173.30679889849432,
-					647.1755813863706
+					175.41907327196515,
+					663.5520558042629
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1132,
-			"versionNonce": 1801279364,
+			"version": 1133,
+			"versionNonce": 1169259639,
 			"isDeleted": false,
 			"id": "4qZOW0Bx6QaFNeW6unnzI",
 			"fillStyle": "hachure",
@@ -496,14 +508,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674967933826,
+			"updated": 1675140574032,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 493,
-			"versionNonce": 5228292,
+			"version": 495,
+			"versionNonce": 1166797433,
 			"isDeleted": false,
 			"id": "vFvHnR1v",
 			"fillStyle": "hachure",
@@ -512,7 +524,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1403.8691422212096,
+			"x": 1403.8691422212094,
 			"y": 217.69311749264898,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
@@ -524,7 +536,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674967933826,
+			"updated": 1675140574032,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -539,8 +551,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "arrow",
-			"version": 3888,
-			"versionNonce": 1573159228,
+			"version": 3961,
+			"versionNonce": 1537769183,
 			"isDeleted": false,
 			"id": "Jx2J2hTBdwBBxYTO2xv4I",
 			"fillStyle": "hachure",
@@ -563,7 +575,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674967960047,
+			"updated": 1675262490877,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -592,8 +604,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1393,
-			"versionNonce": 1011369604,
+			"version": 1394,
+			"versionNonce": 1702507353,
 			"isDeleted": false,
 			"id": "gvxe-rMGZL0HFWK2hU6sh",
 			"fillStyle": "hachure",
@@ -633,14 +645,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674967933826,
+			"updated": 1675140574032,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 646,
-			"versionNonce": 1670893956,
+			"version": 665,
+			"versionNonce": 1027469905,
 			"isDeleted": false,
 			"id": "s4axrBQd",
 			"fillStyle": "hachure",
@@ -661,14 +673,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674967959155,
+			"updated": 1675262490877,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 1,
 			"text": "Childhood",
 			"rawText": "Childhood",
-			"baseline": 25,
+			"baseline": 24,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "gvxe-rMGZL0HFWK2hU6sh",
@@ -676,8 +688,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "arrow",
-			"version": 3536,
-			"versionNonce": 546896316,
+			"version": 3609,
+			"versionNonce": 1984790577,
 			"isDeleted": false,
 			"id": "PnwPgGcUQbTATd3Y7uaCT",
 			"fillStyle": "hachure",
@@ -700,7 +712,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674967960047,
+			"updated": 1675262490878,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -729,8 +741,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1100,
-			"versionNonce": 157392188,
+			"version": 1101,
+			"versionNonce": 758356951,
 			"isDeleted": false,
 			"id": "7fZRLP7pz7EErMYGemyFd",
 			"fillStyle": "hachure",
@@ -762,14 +774,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674967933826,
+			"updated": 1675140574032,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 274,
-			"versionNonce": 305305020,
+			"version": 275,
+			"versionNonce": 642117913,
 			"isDeleted": false,
 			"id": "D1Lo4NtN",
 			"fillStyle": "hachure",
@@ -790,7 +802,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674967933826,
+			"updated": 1675140574032,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -805,8 +817,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4123,
-			"versionNonce": 1934254652,
+			"version": 4198,
+			"versionNonce": 865047327,
 			"isDeleted": false,
 			"id": "-_TPxz3Xu-nGPhQvjrFBy",
 			"fillStyle": "hachure",
@@ -815,17 +827,17 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 204.42359059359802,
-			"y": 93.81835359714204,
+			"x": 204.42359059359796,
+			"y": 93.83255454637347,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 497.9318709014172,
-			"height": 178.324580651872,
+			"width": 497.93187090141726,
+			"height": 178.31187873509444,
 			"seed": 1300831036,
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674967960047,
+			"updated": 1675262490877,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -847,15 +859,15 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					0
 				],
 				[
-					497.9318709014172,
-					178.324580651872
+					497.93187090141726,
+					178.31187873509444
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1001,
-			"versionNonce": 1591505028,
+			"version": 1002,
+			"versionNonce": 981100025,
 			"isDeleted": false,
 			"id": "PCojDzltWKh_-7LmTtvoT",
 			"fillStyle": "hachure",
@@ -891,14 +903,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674966021044,
+			"updated": 1675140574033,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 386,
-			"versionNonce": 1606666684,
+			"version": 387,
+			"versionNonce": 222417431,
 			"isDeleted": false,
 			"id": "3ljXekds",
 			"fillStyle": "hachure",
@@ -919,7 +931,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674966021044,
+			"updated": 1675140574033,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -934,8 +946,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "arrow",
-			"version": 3614,
-			"versionNonce": 1037411644,
+			"version": 3687,
+			"versionNonce": 836616657,
 			"isDeleted": false,
 			"id": "duB8-PtJ4Ep9qW3fGYaw5",
 			"fillStyle": "hachure",
@@ -958,7 +970,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674967849951,
+			"updated": 1675262490881,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -987,8 +999,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1259,
-			"versionNonce": 614150716,
+			"version": 1260,
+			"versionNonce": 1670215479,
 			"isDeleted": false,
 			"id": "4dIp8Lh41KoYtOWOAGwtJ",
 			"fillStyle": "hachure",
@@ -1028,14 +1040,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674966021044,
+			"updated": 1675140574033,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 550,
-			"versionNonce": 2107444100,
+			"version": 570,
+			"versionNonce": 1206459391,
 			"isDeleted": false,
 			"id": "G3p8x7cE",
 			"fillStyle": "hachure",
@@ -1044,11 +1056,11 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 776.2884660481659,
+			"x": 776.7884660481659,
 			"y": -576.8821064335906,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 230,
+			"width": 229,
 			"height": 70,
 			"seed": 1153527172,
 			"groupIds": [
@@ -1056,14 +1068,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674967849951,
+			"updated": 1675262490881,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 1,
 			"text": "Relation to the \nProphets",
 			"rawText": "Relation to the Prophets",
-			"baseline": 60,
+			"baseline": 59,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "4dIp8Lh41KoYtOWOAGwtJ",
@@ -1071,8 +1083,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "arrow",
-			"version": 3263,
-			"versionNonce": 410581764,
+			"version": 3338,
+			"versionNonce": 428033055,
 			"isDeleted": false,
 			"id": "wkehBPYaA_OIFkzSn8zd5",
 			"fillStyle": "hachure",
@@ -1095,7 +1107,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674967849952,
+			"updated": 1675262490882,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1124,8 +1136,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 970,
-			"versionNonce": 797994940,
+			"version": 971,
+			"versionNonce": 791420057,
 			"isDeleted": false,
 			"id": "caQkrK8SqY4ijhoYcz5JU",
 			"fillStyle": "hachure",
@@ -1161,14 +1173,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674967732323,
+			"updated": 1675140574033,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 214,
-			"versionNonce": 115921724,
+			"version": 240,
+			"versionNonce": 1050957175,
 			"isDeleted": false,
 			"id": "ik6QsFy1",
 			"fillStyle": "hachure",
@@ -1177,35 +1189,35 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 992.4833326675493,
-			"y": -913.4275419646417,
+			"x": 1000.9833326675493,
+			"y": -923.4275419646417,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 157,
-			"height": 40,
+			"width": 140,
+			"height": 60,
 			"seed": 427683772,
 			"groupIds": [
 				"yPP31Nug-r30LjVNnM4Uc"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674966021044,
+			"updated": 1675140574033,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 1,
-			"text": "Regarding Isaac & \nIshmael",
-			"rawText": "Regarding Isaac & Ishmael",
-			"baseline": 34,
+			"text": "Regarding Ishaq \n(Isaac) & Ismail \n(Ishmael)",
+			"rawText": "Regarding Ishaq (Isaac) & Ismail (Ishmael)",
+			"baseline": 54,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "caQkrK8SqY4ijhoYcz5JU",
-			"originalText": "Regarding Isaac & Ishmael"
+			"originalText": "Regarding Ishaq (Isaac) & Ismail (Ishmael)"
 		},
 		{
 			"type": "arrow",
-			"version": 4191,
-			"versionNonce": 1410374844,
+			"version": 4228,
+			"versionNonce": 1629349873,
 			"isDeleted": false,
 			"id": "0WVVp0ze0XiJq8i266Uj0",
 			"fillStyle": "hachure",
@@ -1228,7 +1240,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674967849949,
+			"updated": 1675262490879,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1257,8 +1269,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "image",
-			"version": 295,
-			"versionNonce": 90377148,
+			"version": 296,
+			"versionNonce": 8949399,
 			"isDeleted": false,
 			"id": "6toiGBy8tEO5mV8pDApD7",
 			"fillStyle": "hachure",
@@ -1284,7 +1296,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674966021044,
+			"updated": 1675140574033,
 			"link": "https://noor.kalemasawaa.com/sbeelalislam/www.sbeelalislam.com/Eng/Discover%20Islam/Moh/new_page_15.html",
 			"locked": false,
 			"status": "pending",
@@ -1296,8 +1308,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4239,
-			"versionNonce": 1630206596,
+			"version": 4278,
+			"versionNonce": 1642293311,
 			"isDeleted": false,
 			"id": "aKPoohPiZrE68T_LoHWPQ",
 			"fillStyle": "hachure",
@@ -1320,7 +1332,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674967849952,
+			"updated": 1675262490882,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1349,8 +1361,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "image",
-			"version": 118,
-			"versionNonce": 419574844,
+			"version": 119,
+			"versionNonce": 667460535,
 			"isDeleted": false,
 			"id": "8OkdpbO_VMj6LwIglKlet",
 			"fillStyle": "hachure",
@@ -1376,7 +1388,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674966021044,
+			"updated": 1675140574033,
 			"link": "https://slidetodoc.com/prophet-muhammad-peace-be-upon-him-prophet-of/",
 			"locked": false,
 			"status": "pending",
@@ -1388,8 +1400,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1410,
-			"versionNonce": 1161361796,
+			"version": 1435,
+			"versionNonce": 290314041,
 			"isDeleted": false,
 			"id": "1GKOInLH6csYK_m1aAola",
 			"fillStyle": "hachure",
@@ -1398,8 +1410,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1023.5398079700067,
-			"y": 902.554656954512,
+			"x": 1025.01884880509,
+			"y": 918.9311313724043,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 187,
@@ -1429,14 +1441,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674968187583,
+			"updated": 1675140574033,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 788,
-			"versionNonce": 690186372,
+			"version": 813,
+			"versionNonce": 1418269911,
 			"isDeleted": false,
 			"id": "GmqCADfm",
 			"fillStyle": "hachure",
@@ -1445,8 +1457,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1089.5398079700067,
-			"y": 921.554656954512,
+			"x": 1091.01884880509,
+			"y": 937.9311313724043,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 55,
@@ -1457,7 +1469,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187584,
+			"updated": 1675140574033,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1472,8 +1484,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4736,
-			"versionNonce": 1242596868,
+			"version": 4959,
+			"versionNonce": 1323960415,
 			"isDeleted": false,
 			"id": "QoZmWANwXUkuCPKaCEyHx",
 			"fillStyle": "hachure",
@@ -1482,12 +1494,12 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 863.9146347875702,
-			"y": 934.731632652095,
+			"x": 865.3936756226536,
+			"y": 951.1081070699872,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 157.74409657754313,
-			"height": 0.7567097669748932,
+			"height": 0.7567097669748364,
 			"seed": 1863979652,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
@@ -1496,18 +1508,18 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674968187954,
+			"updated": 1675262490884,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "ctxzOn-0bOi0dt0GYWD2k",
-				"focus": 0.014558069414349183,
-				"gap": 1.8865656506901587
+				"gap": 1.8865656506901587,
+				"focus": 0.014558069414349183
 			},
 			"endBinding": {
 				"elementId": "1GKOInLH6csYK_m1aAola",
-				"focus": -0.05919632505962237,
-				"gap": 1.8810766048933374
+				"gap": 1.8810766048933374,
+				"focus": -0.05919632505962237
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1519,14 +1531,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				],
 				[
 					157.74409657754313,
-					0.7567097669748932
+					0.7567097669748364
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1474,
-			"versionNonce": 489404420,
+			"version": 1499,
+			"versionNonce": 777937399,
 			"isDeleted": false,
 			"id": "Q0fCe4-l9TOAWSB8efB2x",
 			"fillStyle": "hachure",
@@ -1535,8 +1547,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1381.0438998718632,
-			"y": 903.0273289422798,
+			"x": 1382.5229407069467,
+			"y": 919.4038033601721,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 187,
@@ -1566,14 +1578,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674968187584,
+			"updated": 1675140574033,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 862,
-			"versionNonce": 223905540,
+			"version": 887,
+			"versionNonce": 917118201,
 			"isDeleted": false,
 			"id": "wRhx6nat",
 			"fillStyle": "hachure",
@@ -1582,8 +1594,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1429.0438998718632,
-			"y": 915.5273289422798,
+			"x": 1430.5229407069467,
+			"y": 931.9038033601721,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 91,
@@ -1594,7 +1606,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187584,
+			"updated": 1675140574033,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1609,8 +1621,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4744,
-			"versionNonce": 765011332,
+			"version": 4967,
+			"versionNonce": 398053567,
 			"isDeleted": false,
 			"id": "68yasOC4bC8trLICq13c8",
 			"fillStyle": "hachure",
@@ -1619,12 +1631,12 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1212.1623734001955,
-			"y": 933.0719758873231,
+			"x": 1213.641414235279,
+			"y": 949.4484503052154,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 167.56846612866525,
-			"height": 2.2831348379302767,
+			"height": 2.28313483793022,
 			"seed": 1494708484,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
@@ -1633,18 +1645,18 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674968187954,
+			"updated": 1675262490885,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "1GKOInLH6csYK_m1aAola",
-				"focus": 0.009561622957632443,
-				"gap": 1.6225654301888426
+				"gap": 1.6225654301888426,
+				"focus": 0.009561622957632443
 			},
 			"endBinding": {
 				"elementId": "Q0fCe4-l9TOAWSB8efB2x",
-				"focus": -0.055936629628982236,
-				"gap": 1.313060343002462
+				"gap": 1.313060343002462,
+				"focus": -0.055936629628982236
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1656,14 +1668,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				],
 				[
 					167.56846612866525,
-					-2.2831348379302767
+					-2.28313483793022
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1715,
-			"versionNonce": 708380292,
+			"version": 1740,
+			"versionNonce": 690886105,
 			"isDeleted": false,
 			"id": "4mhjoYJ7_ZmTpNMYd0zaK",
 			"fillStyle": "hachure",
@@ -1672,8 +1684,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 691.850980176748,
-			"y": 709.8502305087341,
+			"x": 693.3300210118314,
+			"y": 726.2267049266263,
 			"strokeColor": "#1864ab",
 			"backgroundColor": "transparent",
 			"width": 839,
@@ -1691,14 +1703,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"id": "CS6xc4VI"
 				}
 			],
-			"updated": 1674968187584,
+			"updated": 1675140574033,
 			"link": "https://youtu.be/6o8UmErRVZk?t=488",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1138,
-			"versionNonce": 1990431676,
+			"version": 1165,
+			"versionNonce": 1489604663,
 			"isDeleted": false,
 			"id": "CS6xc4VI",
 			"fillStyle": "hachure",
@@ -1707,11 +1719,11 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 762.3509801767481,
-			"y": 729.8502305087341,
+			"x": 764.3300210118314,
+			"y": 746.2267049266263,
 			"strokeColor": "#1864ab",
 			"backgroundColor": "transparent",
-			"width": 698,
+			"width": 697,
 			"height": 18,
 			"seed": 174718980,
 			"groupIds": [
@@ -1719,7 +1731,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187584,
+			"updated": 1675140574033,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1734,8 +1746,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1557,
-			"versionNonce": 1709020676,
+			"version": 1610,
+			"versionNonce": 1552924383,
 			"isDeleted": false,
 			"id": "OUJqui-rBK3QDVNXgTGAt",
 			"fillStyle": "hachure",
@@ -1744,8 +1756,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 720.5432771424297,
-			"y": 1030.2097139261425,
+			"x": 1018.749501926377,
+			"y": 1039.3134610713073,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 196,
@@ -1771,14 +1783,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674968187584,
+			"updated": 1675141007065,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 918,
-			"versionNonce": 543610044,
+			"version": 989,
+			"versionNonce": 799964721,
 			"isDeleted": false,
 			"id": "Wd7v2jBT",
 			"fillStyle": "hachure",
@@ -1787,26 +1799,26 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 726.0432771424296,
-			"y": 1065.7097139261425,
+			"x": 1024.749501926377,
+			"y": 1074.8134610713073,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 185,
-			"height": 110,
+			"width": 184,
+			"height": 108,
 			"seed": 1705299716,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187584,
+			"updated": 1675262490887,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "Was ruled by a tyrant king\nwho wanted to do \nunspeakable things to \nwomen he found beautiful\nlike Sarah, the wife of \nIbrahim (a.s)",
 			"rawText": "Was ruled by a tyrant king who wanted to do unspeakable things to women he found beautiful like Sarah, the wife of Ibrahim (a.s)",
-			"baseline": 106,
+			"baseline": 104,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "OUJqui-rBK3QDVNXgTGAt",
@@ -1814,8 +1826,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4692,
-			"versionNonce": 1709298948,
+			"version": 4971,
+			"versionNonce": 2079716639,
 			"isDeleted": false,
 			"id": "mqMM2nT4Wg-jKyM_2wya1",
 			"fillStyle": "hachure",
@@ -1824,12 +1836,12 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1043.3616811808242,
-			"y": 972.2160300277287,
+			"x": 1111.2485519165573,
+			"y": 988.592504445621,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 118.54595656164656,
-			"height": 70.92320493631755,
+			"width": 0.9918712943849641,
+			"height": 42.448509148938456,
 			"seed": 1102859908,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
@@ -1838,18 +1850,18 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674968187954,
+			"updated": 1675262490887,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "1GKOInLH6csYK_m1aAola",
-				"focus": 0.0676871583997606,
-				"gap": 6.661373073216737
+				"gap": 6.661373073216737,
+				"focus": 0.0676871583997606
 			},
 			"endBinding": {
 				"elementId": "OUJqui-rBK3QDVNXgTGAt",
-				"focus": -0.08769410770860203,
-				"gap": 8.27244747674797
+				"gap": 8.27244747674797,
+				"focus": -0.08769410770860171
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -1860,15 +1872,15 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					0
 				],
 				[
-					-118.54595656164656,
-					70.92320493631755
+					-0.9918712943849641,
+					42.448509148938456
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1591,
-			"versionNonce": 312794428,
+			"version": 1680,
+			"versionNonce": 854257599,
 			"isDeleted": false,
 			"id": "d0xh0kqh7sb84ZFwPhSy2",
 			"fillStyle": "hachure",
@@ -1877,8 +1889,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1027.2896426300908,
-			"y": 1027.8143755036638,
+			"x": 1015.677752179663,
+			"y": 1290.009109420846,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 196,
@@ -1904,14 +1916,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674968187584,
+			"updated": 1675140875756,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1168,
-			"versionNonce": 800093188,
+			"version": 1276,
+			"versionNonce": 254733727,
 			"isDeleted": false,
 			"id": "C5BNyIdT",
 			"fillStyle": "hachure",
@@ -1920,26 +1932,26 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1033.2896426300908,
-			"y": 1050.3143755036638,
+			"x": 1022.677752179663,
+			"y": 1312.509109420846,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 184,
-			"height": 129,
+			"width": 182,
+			"height": 126,
 			"seed": 1653964164,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187584,
+			"updated": 1675262490888,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "But Allah protected Sarah\nfrom that king by \nparalyzing him, and so he\noffered her a servant, \nHagar, if she prayed Allah\nto free him from this \nparalysis",
 			"rawText": "But Allah protected Sarah from that king by paralyzing him, and so he offered her a servant, Hagar, if she prayed Allah to free him from this paralysis",
-			"baseline": 125,
+			"baseline": 122,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "d0xh0kqh7sb84ZFwPhSy2",
@@ -1947,8 +1959,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1722,
-			"versionNonce": 952352316,
+			"version": 1804,
+			"versionNonce": 1489580753,
 			"isDeleted": false,
 			"id": "i_1jxXum010iEVL3mMD6v",
 			"fillStyle": "hachure",
@@ -1957,8 +1969,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 853.6278991844044,
-			"y": 1264.3887144187022,
+			"x": 1022.3795563192039,
+			"y": 1533.856120122106,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 197,
@@ -1980,14 +1992,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674968187584,
+			"updated": 1675140874614,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1427,
-			"versionNonce": 849909436,
+			"version": 1528,
+			"versionNonce": 1329159601,
 			"isDeleted": false,
 			"id": "PciyR7jB",
 			"fillStyle": "hachure",
@@ -1996,26 +2008,26 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 858.1278991844044,
-			"y": 1308.8887144187022,
+			"x": 1027.3795563192039,
+			"y": 1578.356120122106,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 188,
-			"height": 92,
+			"width": 187,
+			"height": 90,
 			"seed": 875490436,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187584,
+			"updated": 1675262490889,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "So she accepted, he was \nfreed and left her alone, \nthen she and Ibrahim (a.s)\nwent to Palestine with \nHagar ",
 			"rawText": "So she accepted, he was freed and left her alone, then she and Ibrahim (a.s) went to Palestine with Hagar ",
-			"baseline": 88,
+			"baseline": 86,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "i_1jxXum010iEVL3mMD6v",
@@ -2023,8 +2035,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "arrow",
-			"version": 5008,
-			"versionNonce": 6853764,
+			"version": 5415,
+			"versionNonce": 109154321,
 			"isDeleted": false,
 			"id": "VztlnbouP4-EzGKf-FgVb",
 			"fillStyle": "hachure",
@@ -2033,12 +2045,12 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 934.6585085265617,
-			"y": 1119.5831088704408,
+			"x": 1112.706829993428,
+			"y": 1236.4286924554394,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 75.7779198283049,
-			"height": 1.0862619494464525,
+			"width": 0.817036558456266,
+			"height": 36.72720269018237,
 			"seed": 1143389188,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
@@ -2047,18 +2059,18 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674968187954,
+			"updated": 1675262490888,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "OUJqui-rBK3QDVNXgTGAt",
-				"focus": 0.016917526138891716,
-				"gap": 18.115231384132017
+				"gap": 18.115231384132017,
+				"focus": 0.016917526138891734
 			},
 			"endBinding": {
 				"elementId": "d0xh0kqh7sb84ZFwPhSy2",
-				"focus": -0.04068903166580159,
-				"gap": 16.853214275224218
+				"gap": 16.853214275224218,
+				"focus": -0.04068903166580159
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -2069,15 +2081,15 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					0
 				],
 				[
-					75.7779198283049,
-					-1.0862619494464525
+					-0.817036558456266,
+					36.72720269018237
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 5331,
-			"versionNonce": 720069636,
+			"version": 5837,
+			"versionNonce": 1197334975,
 			"isDeleted": false,
 			"id": "agmCwASVselbDF4HOgwld",
 			"fillStyle": "hachure",
@@ -2086,12 +2098,12 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1015.8725359571067,
-			"y": 1188.140851782841,
+			"x": 1113.4082085546397,
+			"y": 1473.2683085074814,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 51.311187279057776,
-			"height": 61.27370388304382,
+			"width": 0.5871028555957309,
+			"height": 48.522699381693656,
 			"seed": 863542148,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
@@ -2100,18 +2112,18 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674968187954,
+			"updated": 1675262490889,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "d0xh0kqh7sb84ZFwPhSy2",
-				"focus": 0.2756904825215608,
-				"gap": 11.417106672984119
+				"gap": 12.259199086635363,
+				"focus": -0.00922202507754313
 			},
 			"endBinding": {
 				"elementId": "i_1jxXum010iEVL3mMD6v",
-				"focus": -0.43271841985270393,
-				"gap": 14.974158752817175
+				"gap": 12.065112232930915,
+				"focus": -0.09326241675280791
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -2122,15 +2134,15 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					0
 				],
 				[
-					-51.311187279057776,
-					61.27370388304382
+					-0.5871028555957309,
+					48.522699381693656
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1599,
-			"versionNonce": 2007450244,
+			"version": 1624,
+			"versionNonce": 605392343,
 			"isDeleted": false,
 			"id": "fLIFYjnNFIpH2tk8RaE-2",
 			"fillStyle": "hachure",
@@ -2139,8 +2151,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1349.7324523262355,
-			"y": 1010.4047722820651,
+			"x": 1351.211493161319,
+			"y": 1026.7812466999574,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 196,
@@ -2166,14 +2178,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674968187584,
+			"updated": 1675140574033,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1121,
-			"versionNonce": 2122629180,
+			"version": 1165,
+			"versionNonce": 736601631,
 			"isDeleted": false,
 			"id": "znAh0rhY",
 			"fillStyle": "hachure",
@@ -2182,35 +2194,35 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1354.7324523262355,
-			"y": 1045.904772282065,
+			"x": 1356.711493161319,
+			"y": 1062.2812466999574,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 186,
-			"height": 114,
+			"width": 185,
+			"height": 108,
 			"seed": 1633847940,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187584,
+			"updated": 1675262490890,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
-			"text": "Sarah told Ibrahim (a.s) to\nmarry Hagar (as she \ncouldn't have a child \n🔗yet), and so Ishmael \nwas born from Ibrahim & \nHagar",
-			"rawText": "Sarah told Ibrahim (a.s) to marry Hagar (as she couldn't have a child 🔗yet), and so Ishmael was born from Ibrahim & Hagar",
-			"baseline": 110,
+			"text": "Sarah told Ibrahim (a.s) to\nmarry Hagar (as she \ncouldn't have a child \n🔗yet), and so Ismail was\nborn from Ibrahim & \nHagar",
+			"rawText": "Sarah told Ibrahim (a.s) to marry Hagar (as she couldn't have a child 🔗yet), and so Ismail was born from Ibrahim & Hagar",
+			"baseline": 104,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "fLIFYjnNFIpH2tk8RaE-2",
-			"originalText": "Sarah told Ibrahim (a.s) to marry Hagar (as she couldn't have a child 🔗yet), and so Ishmael was born from Ibrahim & Hagar"
+			"originalText": "Sarah told Ibrahim (a.s) to marry Hagar (as she couldn't have a child 🔗yet), and so Ismail was born from Ibrahim & Hagar"
 		},
 		{
 			"type": "arrow",
-			"version": 4995,
-			"versionNonce": 728253316,
+			"version": 5218,
+			"versionNonce": 1082425233,
 			"isDeleted": false,
 			"id": "T4KLfwEhsEWIBKhm-ACE_",
 			"fillStyle": "hachure",
@@ -2219,12 +2231,12 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1427.5074767909941,
-			"y": 959.9454039207933,
+			"x": 1428.9865176260776,
+			"y": 976.3218783386856,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 1.3721906496095926,
-			"height": 38.16836431868333,
+			"height": 38.1683643186833,
 			"seed": 87464452,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
@@ -2233,18 +2245,18 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674968187954,
+			"updated": 1675262490889,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "Q0fCe4-l9TOAWSB8efB2x",
-				"focus": 0.48611792490669153,
-				"gap": 6.918074978513459
+				"gap": 6.918074978513459,
+				"focus": 0.48611792490669153
 			},
 			"endBinding": {
 				"elementId": "fLIFYjnNFIpH2tk8RaE-2",
-				"focus": -0.24952824907266855,
-				"gap": 12.291004042588497
+				"gap": 12.291004042588497,
+				"focus": -0.24952824907266855
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -2256,14 +2268,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				],
 				[
 					-1.3721906496095926,
-					38.16836431868333
+					38.1683643186833
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1760,
-			"versionNonce": 1559845052,
+			"version": 1785,
+			"versionNonce": 1316148217,
 			"isDeleted": false,
 			"id": "uYMCIoukCmeJtjkbAsKYj",
 			"fillStyle": "hachure",
@@ -2272,8 +2284,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1345.52306432482,
-			"y": 1254.301875637324,
+			"x": 1347.0021051599035,
+			"y": 1270.6783500552162,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 215,
@@ -2299,14 +2311,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674968187584,
+			"updated": 1675140574033,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1495,
-			"versionNonce": 855629956,
+			"version": 1539,
+			"versionNonce": 533966609,
 			"isDeleted": false,
 			"id": "EN3ehlXt",
 			"fillStyle": "hachure",
@@ -2315,35 +2327,35 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1350.52306432482,
-			"y": 1307.801875637324,
+			"x": 1352.5021051599035,
+			"y": 1324.1783500552162,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 205,
-			"height": 74,
+			"width": 204,
+			"height": 72,
 			"seed": 898820356,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187584,
+			"updated": 1675262490891,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
-			"text": "then, Sarah became jealous,\nso she (& Allah, as a test) \nwanted Ibrahim to take \nHagar & Ishmael away ",
-			"rawText": "then, Sarah became jealous, so she (& Allah, as a test) wanted Ibrahim to take Hagar & Ishmael away ",
-			"baseline": 70,
+			"text": "then, Sarah became jealous,\nso she (& Allah, as a test) \nwanted Ibrahim to take \nHagar & Ismail away ",
+			"rawText": "then, Sarah became jealous, so she (& Allah, as a test) wanted Ibrahim to take Hagar & Ismail away ",
+			"baseline": 68,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "uYMCIoukCmeJtjkbAsKYj",
-			"originalText": "then, Sarah became jealous, so she (& Allah, as a test) wanted Ibrahim to take Hagar & Ishmael away "
+			"originalText": "then, Sarah became jealous, so she (& Allah, as a test) wanted Ibrahim to take Hagar & Ismail away "
 		},
 		{
 			"type": "arrow",
-			"version": 5433,
-			"versionNonce": 1478308612,
+			"version": 5656,
+			"versionNonce": 762022463,
 			"isDeleted": false,
 			"id": "Gjv18CcWbCyolE3cRD0OL",
 			"fillStyle": "hachure",
@@ -2352,12 +2364,12 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1452.7877744278408,
-			"y": 1206.0767589236395,
+			"x": 1454.2668152629242,
+			"y": 1222.4532333415318,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 0.8125429444380643,
-			"height": 34.45040635410635,
+			"height": 34.45040635410646,
 			"seed": 1624713348,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
@@ -2366,18 +2378,18 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674968187954,
+			"updated": 1675262490890,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "fLIFYjnNFIpH2tk8RaE-2",
-				"focus": -0.07551104331337305,
-				"gap": 16.67198664157445
+				"gap": 16.67198664157445,
+				"focus": -0.07551104331337305
 			},
 			"endBinding": {
 				"elementId": "uYMCIoukCmeJtjkbAsKYj",
-				"focus": -0.0317820218124434,
-				"gap": 13.774710359577966
+				"gap": 13.774710359577966,
+				"focus": -0.0317820218124434
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -2389,14 +2401,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				],
 				[
 					-0.8125429444380643,
-					34.45040635410635
+					34.45040635410646
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1983,
-			"versionNonce": 616116228,
+			"version": 2056,
+			"versionNonce": 308820159,
 			"isDeleted": false,
 			"id": "58rthMh4xklgorHgwm6bk",
 			"fillStyle": "hachure",
@@ -2405,8 +2417,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1679.7566656086597,
-			"y": 1006.8938976302106,
+			"x": 1727.2356148910087,
+			"y": 1033.270372048103,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 215,
@@ -2436,14 +2448,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674968187584,
+			"updated": 1675141080396,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1860,
-			"versionNonce": 971505412,
+			"version": 1953,
+			"versionNonce": 1729250015,
 			"isDeleted": false,
 			"id": "HYv20KnD",
 			"fillStyle": "hachure",
@@ -2452,35 +2464,35 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1689.7566656086597,
-			"y": 1060.3938976302106,
+			"x": 1738.7356148910087,
+			"y": 1086.770372048103,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 195,
-			"height": 74,
+			"width": 192,
+			"height": 72,
 			"seed": 1212274564,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187584,
+			"updated": 1675262490892,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
-			"text": "Due to Allah's orders, \nIbrahim went with Hagar & \nIshmael to the steep valley \ncalled Mecca",
-			"rawText": "Due to Allah's orders, Ibrahim went with Hagar & Ishmael to the steep valley called Mecca",
-			"baseline": 70,
+			"text": "Due to Allah's orders, \nIbrahim went with Hagar & \nIsmail to the steep valley \ncalled Mecca",
+			"rawText": "Due to Allah's orders, Ibrahim went with Hagar & Ismail to the steep valley called Mecca",
+			"baseline": 68,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "58rthMh4xklgorHgwm6bk",
-			"originalText": "Due to Allah's orders, Ibrahim went with Hagar & Ishmael to the steep valley called Mecca"
+			"originalText": "Due to Allah's orders, Ibrahim went with Hagar & Ismail to the steep valley called Mecca"
 		},
 		{
 			"type": "arrow",
-			"version": 6152,
-			"versionNonce": 260584068,
+			"version": 6471,
+			"versionNonce": 546153713,
 			"isDeleted": false,
 			"id": "oUM4Vx4xtYcQmCYbcPz8m",
 			"fillStyle": "hachure",
@@ -2489,12 +2501,12 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1563.5484821505502,
-			"y": 1238.3619472733428,
+			"x": 1575.515660716434,
+			"y": 1266.2997761729334,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 93.29730958082837,
-			"height": 132.34921212021055,
+			"width": 128.80908029729358,
+			"height": 148.04616768790265,
 			"seed": 1285834500,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
@@ -2503,18 +2515,18 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674968187954,
+			"updated": 1675262490891,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "uYMCIoukCmeJtjkbAsKYj",
-				"focus": 0.21218729290352145,
-				"gap": 15.939928363981153
+				"gap": 14.205213585935326,
+				"focus": 0.2121872929035241
 			},
 			"endBinding": {
 				"elementId": "58rthMh4xklgorHgwm6bk",
-				"focus": 0.724715154243166,
-				"gap": 22.91087387728112
+				"gap": 22.91087387728112,
+				"focus": 0.7247151542431656
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -2525,15 +2537,15 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					0
 				],
 				[
-					93.29730958082837,
-					-132.34921212021055
+					128.80908029729358,
+					-148.04616768790265
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 6552,
-			"versionNonce": 812073476,
+			"version": 6967,
+			"versionNonce": 178556671,
 			"isDeleted": false,
 			"id": "LTkNgBzZzDByTuHw012QB",
 			"fillStyle": "hachure",
@@ -2542,12 +2554,12 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1787.3864645566196,
-			"y": 1202.102735594624,
+			"x": 1834.9968577288412,
+			"y": 1228.4792100125162,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 0,
-			"height": 36.59413874069804,
+			"width": 0.03779603844986923,
+			"height": 36.5941387406981,
 			"seed": 168609412,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
@@ -2556,18 +2568,18 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674968187954,
+			"updated": 1675262490892,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "58rthMh4xklgorHgwm6bk",
-				"focus": -0.0012074320740455649,
-				"gap": 16.208837964413306
+				"gap": 16.208837964413306,
+				"focus": -0.0012074320740455649
 			},
 			"endBinding": {
 				"elementId": "4xHdK56a5xFZEJOr4IytJ",
-				"focus": -0.03465468789190276,
-				"gap": 12.476914930814473
+				"gap": 12.476914930814473,
+				"focus": -0.03465468789190276
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -2578,15 +2590,15 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					0
 				],
 				[
-					0,
-					36.59413874069804
+					-0.03779603844986923,
+					36.5941387406981
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 2159,
-			"versionNonce": 556178364,
+			"version": 2232,
+			"versionNonce": 1091723583,
 			"isDeleted": false,
 			"id": "4xHdK56a5xFZEJOr4IytJ",
 			"fillStyle": "hachure",
@@ -2595,8 +2607,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1665.7529552309993,
-			"y": 1251.1737892661365,
+			"x": 1713.2319045133484,
+			"y": 1277.5502636840288,
 			"strokeColor": "#d9480f",
 			"backgroundColor": "transparent",
 			"width": 252,
@@ -2626,14 +2638,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674968187584,
+			"updated": 1675141080397,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 2468,
-			"versionNonce": 1002953916,
+			"version": 2560,
+			"versionNonce": 1976982367,
 			"isDeleted": false,
 			"id": "dyipymru",
 			"fillStyle": "hachure",
@@ -2642,26 +2654,26 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1676.7529552309993,
-			"y": 1287.1737892661365,
+			"x": 1724.7319045133484,
+			"y": 1313.5502636840288,
 			"strokeColor": "#d9480f",
 			"backgroundColor": "transparent",
-			"width": 230,
-			"height": 92,
+			"width": 229,
+			"height": 90,
 			"seed": 992474500,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187584,
+			"updated": 1675262490894,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "He then left them - even though \nhe didn't want to - and once \nHagar knew that this is due to a \ncommand from Allah, she \naccepted her and her son's fate",
 			"rawText": "He then left them - even though he didn't want to - and once Hagar knew that this is due to a command from Allah, she accepted her and her son's fate",
-			"baseline": 88,
+			"baseline": 86,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "4xHdK56a5xFZEJOr4IytJ",
@@ -2669,8 +2681,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1533,
-			"versionNonce": 717118724,
+			"version": 1578,
+			"versionNonce": 1630677375,
 			"isDeleted": false,
 			"id": "Qc8bCP1x0hA-xTMEfmtwV",
 			"fillStyle": "hachure",
@@ -2679,8 +2691,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1702.5119058464993,
-			"y": 904.834763356796,
+			"x": 1737.4454255523215,
+			"y": 921.2112377746882,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 187,
@@ -2710,14 +2722,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674968187584,
+			"updated": 1675141086317,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 924,
-			"versionNonce": 944106500,
+			"version": 969,
+			"versionNonce": 561934833,
 			"isDeleted": false,
 			"id": "ALoPVcv8",
 			"fillStyle": "hachure",
@@ -2726,8 +2738,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1765.5119058464993,
-			"y": 917.334763356796,
+			"x": 1800.4454255523215,
+			"y": 933.7112377746882,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 61,
@@ -2738,7 +2750,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187584,
+			"updated": 1675141086317,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -2753,8 +2765,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 2403,
-			"versionNonce": 1214367292,
+			"version": 2476,
+			"versionNonce": 1596213695,
 			"isDeleted": false,
 			"id": "3bg20Q_QhJbHEs_URcmXe",
 			"fillStyle": "hachure",
@@ -2763,8 +2775,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1683.591225787865,
-			"y": 1497.318831663769,
+			"x": 1731.070175070214,
+			"y": 1523.6953060816613,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 216,
@@ -2790,14 +2802,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674968187584,
+			"updated": 1675141080398,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 2529,
-			"versionNonce": 645249796,
+			"version": 2622,
+			"versionNonce": 136242033,
 			"isDeleted": false,
 			"id": "t6CSV4SG",
 			"fillStyle": "hachure",
@@ -2806,26 +2818,26 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1688.591225787865,
-			"y": 1520.318831663769,
+			"x": 1736.570175070214,
+			"y": 1546.6953060816613,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 206,
-			"height": 150,
+			"width": 205,
+			"height": 144,
 			"seed": 1393496964,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187584,
+			"updated": 1675262490897,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "After she was praying and \ngoing to Safa & Marwa \nmountains for anyone to \nhelp, Allah ordered Jibril \n(a.s) to hit with his wing the \nground and explode the well \nwe know today as \n🔗zamzam",
 			"rawText": "After she was praying and going to Safa & Marwa mountains for anyone to help, Allah ordered Jibril (a.s) to hit with his wing the ground and explode the well we know today as 🔗zamzam",
-			"baseline": 146,
+			"baseline": 140,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "3bg20Q_QhJbHEs_URcmXe",
@@ -2833,8 +2845,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "arrow",
-			"version": 7043,
-			"versionNonce": 297296260,
+			"version": 7462,
+			"versionNonce": 1602892767,
 			"isDeleted": false,
 			"id": "myVPTZxsosX9frDIRfIx5",
 			"fillStyle": "hachure",
@@ -2843,11 +2855,11 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1798.0469038695687,
-			"y": 1430.3623358040084,
+			"x": 1845.5390191406154,
+			"y": 1456.7388102219006,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 0,
+			"width": 0.003999500388090382,
 			"height": 50.923380631437794,
 			"seed": 40502020,
 			"groupIds": [
@@ -2857,18 +2869,18 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674968187954,
+			"updated": 1675262490896,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "4xHdK56a5xFZEJOr4IytJ",
-				"focus": -0.049951973321979516,
-				"gap": 17.188546537871844
+				"gap": 17.188546537871844,
+				"focus": -0.049951973321979516
 			},
 			"endBinding": {
 				"elementId": "3bg20Q_QhJbHEs_URcmXe",
-				"focus": 0.05977479705281305,
-				"gap": 16.033115228322913
+				"gap": 16.033115228322913,
+				"focus": 0.05977479705281305
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -2879,15 +2891,15 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					0
 				],
 				[
-					0,
+					-0.003999500388090382,
 					50.923380631437794
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 4879,
-			"versionNonce": 2058981636,
+			"version": 5142,
+			"versionNonce": 1246861183,
 			"isDeleted": false,
 			"id": "rDaKqug3Nd-LWh7BAXiR4",
 			"fillStyle": "hachure",
@@ -2896,12 +2908,12 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1581.758329121259,
-			"y": 930.027524663815,
+			"x": 1583.237369956343,
+			"y": 946.3926854661324,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 108.07043306580863,
-			"height": 0.11528454453554104,
+			"width": 141.5249119365469,
+			"height": 0.13695761585313448,
 			"seed": 2008744580,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
@@ -2910,18 +2922,18 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674968187954,
+			"updated": 1675262490895,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "Q0fCe4-l9TOAWSB8efB2x",
-				"focus": 0.07513321696313989,
-				"gap": 13.714429249395835
+				"gap": 13.71442924939629,
+				"focus": 0.07513321696315797
 			},
 			"endBinding": {
 				"elementId": "Qc8bCP1x0hA-xTMEfmtwV",
-				"focus": -0.016785715633538617,
-				"gap": 12.683143659431607
+				"gap": 12.683143659431607,
+				"focus": -0.016785715633556755
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -2932,15 +2944,15 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					0
 				],
 				[
-					108.07043306580863,
-					0.11528454453554104
+					141.5249119365469,
+					0.13695761585313448
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 4873,
-			"versionNonce": 451465348,
+			"version": 5136,
+			"versionNonce": 1446202705,
 			"isDeleted": false,
 			"id": "6NNDSVbRuaC85IE81jq9a",
 			"fillStyle": "hachure",
@@ -2949,11 +2961,11 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1902.8858620271571,
-			"y": 926.4582723243464,
+			"x": 1937.8193817329793,
+			"y": 942.8347467422386,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 148.96389004744697,
+			"width": 115.50941117670845,
 			"height": 0,
 			"seed": 700453380,
 			"groupIds": [
@@ -2963,18 +2975,18 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674968187954,
+			"updated": 1675262490898,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "Qc8bCP1x0hA-xTMEfmtwV",
-				"focus": -0.13505964129798487,
-				"gap": 13.373956180657842
+				"gap": 13.373956180657842,
+				"focus": -0.13505964129798487
 			},
 			"endBinding": {
 				"elementId": "6gSq4JMnCGnrkWRt3QBFP",
-				"focus": 0.1931429794142059,
-				"gap": 13.621861413157603
+				"gap": 13.621861413157603,
+				"focus": 0.1931429794142059
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -2985,15 +2997,15 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					0
 				],
 				[
-					148.96389004744697,
+					115.50941117670845,
 					0
 				]
 			]
 		},
 		{
 			"type": "arrow",
-			"version": 6247,
-			"versionNonce": 33824772,
+			"version": 6632,
+			"versionNonce": 1375929279,
 			"isDeleted": false,
 			"id": "I43VUZPcKDR1_OPad93cq",
 			"fillStyle": "hachure",
@@ -3002,12 +3014,12 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1780.2593539279637,
-			"y": 963.756336310177,
+			"x": 1826.39691338104,
+			"y": 980.1328107280692,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 1.9931192881290372,
-			"height": 28.1175157881178,
+			"width": 0,
+			"height": 37.13756132003368,
 			"seed": 125251972,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
@@ -3016,18 +3028,18 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1674968187955,
+			"updated": 1675262490895,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "Qc8bCP1x0hA-xTMEfmtwV",
-				"focus": 0.1905813703459423,
-				"gap": 8.921572953380974
+				"gap": 8.921572953380974,
+				"focus": 0.04864718899766389
 			},
 			"endBinding": {
 				"elementId": "58rthMh4xklgorHgwm6bk",
-				"focus": 0.02112311728806431,
-				"gap": 15.020045531915912
+				"gap": 16,
+				"focus": -0.07756931637180298
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -3038,15 +3050,15 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					0
 				],
 				[
-					1.9931192881290372,
-					28.1175157881178
+					0,
+					37.13756132003368
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1576,
-			"versionNonce": 1792985148,
+			"version": 1602,
+			"versionNonce": 45949791,
 			"isDeleted": false,
 			"id": "6gSq4JMnCGnrkWRt3QBFP",
 			"fillStyle": "hachure",
@@ -3055,8 +3067,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2065.4716134877617,
-			"y": 906.2868468097015,
+			"x": 2066.9506543228454,
+			"y": 922.6633212275938,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 187,
@@ -3080,16 +3092,20 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				{
 					"id": "23UH82hyMiaOpBamDQ0Gu",
 					"type": "arrow"
+				},
+				{
+					"id": "BKjOU0OQOY5lSYX5WI0uM",
+					"type": "arrow"
 				}
 			],
-			"updated": 1674968187584,
+			"updated": 1675141053982,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 973,
-			"versionNonce": 881727748,
+			"version": 998,
+			"versionNonce": 2010825689,
 			"isDeleted": false,
 			"id": "m3DlyTLa",
 			"fillStyle": "hachure",
@@ -3098,8 +3114,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2113.4716134877617,
-			"y": 918.7868468097015,
+			"x": 2114.9506543228454,
+			"y": 935.1633212275938,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 91,
@@ -3110,7 +3126,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187584,
+			"updated": 1675140574034,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -3125,8 +3141,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "arrow",
-			"version": 6731,
-			"versionNonce": 403275652,
+			"version": 7087,
+			"versionNonce": 501185329,
 			"isDeleted": false,
 			"id": "23UH82hyMiaOpBamDQ0Gu",
 			"fillStyle": "hachure",
@@ -3135,12 +3151,12 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1924.625799677376,
-			"y": 1239.0968581046957,
+			"x": 1953.3806516086115,
+			"y": 1274.3634486584451,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 156.72497399406075,
-			"height": 269.19256361317935,
+			"width": 206.51424176606497,
+			"height": 288.0826797490363,
 			"seed": 1618276356,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
@@ -3154,18 +3170,18 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"id": "ZXf4Ipcs"
 				}
 			],
-			"updated": 1674968187955,
+			"updated": 1675262490898,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "4xHdK56a5xFZEJOr4IytJ",
-				"focus": 0.45439916800914854,
-				"gap": 12.076931161440825
+				"gap": 3.1868150255836554,
+				"focus": 0.2922807653210362
 			},
 			"endBinding": {
 				"elementId": "6gSq4JMnCGnrkWRt3QBFP",
-				"focus": 0.5102730907350079,
-				"gap": 13.617447681814838
+				"gap": 13.617447681815065,
+				"focus": -0.24346703862453623
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -3176,15 +3192,15 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					0
 				],
 				[
-					156.72497399406075,
-					-269.19256361317935
+					206.51424176606497,
+					-288.0826797490363
 				]
 			]
 		},
 		{
 			"type": "text",
-			"version": 199,
-			"versionNonce": 955013252,
+			"version": 246,
+			"versionNonce": 139689009,
 			"isDeleted": false,
 			"id": "ZXf4Ipcs",
 			"fillStyle": "hachure",
@@ -3193,26 +3209,26 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1947.857564640522,
-			"y": 1082.572514285277,
-			"strokeColor": "#d9480f",
+			"x": 1968.6377724916438,
+			"y": 1112.322108783927,
+			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 176,
-			"height": 37,
+			"height": 36,
 			"seed": 266358660,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1674968187584,
+			"updated": 1675262490893,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "So Ibrahim went back to \nPalestine",
 			"rawText": "So Ibrahim went back to Palestine",
-			"baseline": 33,
+			"baseline": 32,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "23UH82hyMiaOpBamDQ0Gu",
@@ -3220,8 +3236,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 2443,
-			"versionNonce": 1197212548,
+			"version": 2521,
+			"versionNonce": 761728543,
 			"isDeleted": false,
 			"id": "ezdItO7rM7wd9RyG1ePz1",
 			"fillStyle": "hachure",
@@ -3230,8 +3246,8 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1689.1868231534545,
-			"y": 1756.4486428828334,
+			"x": 1736.6657724358035,
+			"y": 1782.8251173007257,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 216,
@@ -3255,16 +3271,24 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 				{
 					"id": "yCMjeQIJ7y3kdskQJu3NF",
 					"type": "arrow"
+				},
+				{
+					"id": "v6xlFuJpSn7v3V7-Lxrau",
+					"type": "arrow"
+				},
+				{
+					"id": "19TSG4Jl7vBRDkkV0Fe4P",
+					"type": "arrow"
 				}
 			],
-			"updated": 1674968321994,
+			"updated": 1675141080398,
 			"link": "https://youtu.be/6o8UmErRVZk?t=1198",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 2767,
-			"versionNonce": 1679935932,
+			"version": 2868,
+			"versionNonce": 1547773151,
 			"isDeleted": false,
 			"id": "94dX3GYN",
 			"fillStyle": "hachure",
@@ -3273,35 +3297,35 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1694.1868231534545,
-			"y": 1797.4486428828334,
+			"x": 1742.1657724358035,
+			"y": 1823.8251173007257,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 206,
+			"width": 205,
 			"height": 108,
 			"seed": 429252228,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
 			],
 			"roundness": null,
-			"boundElements": null,
-			"updated": 1674968406914,
+			"boundElements": [],
+			"updated": 1675262490900,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
-			"text": "The people of Jurhum found \nzamzam due to 🌐 birds in \nthe skies, and were allowed \nto drink from it and in return \ngive food to Hagar and her \nson Ishmael",
-			"rawText": "The people of Jurhum found zamzam due to 🌐 birds in the skies, and were allowed to drink from it and in return give food to Hagar and her son Ishmael",
+			"text": "The people of Jurhum found \nzamzam due to birds in the \nsky 🌐, and were allowed to \ndrink from it and in return \ngave food to Hagar and her \nson Ismail",
+			"rawText": "The people of Jurhum found zamzam due to birds in the sky 🌐, and were allowed to drink from it and in return gave food to Hagar and her son Ismail",
 			"baseline": 104,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "ezdItO7rM7wd9RyG1ePz1",
-			"originalText": "The people of Jurhum found zamzam due to 🌐 birds in the skies, and were allowed to drink from it and in return give food to Hagar and her son Ishmael"
+			"originalText": "The people of Jurhum found zamzam due to birds in the sky 🌐, and were allowed to drink from it and in return gave food to Hagar and her son Ismail"
 		},
 		{
 			"type": "arrow",
-			"version": 7123,
-			"versionNonce": 64429956,
+			"version": 7548,
+			"versionNonce": 581772017,
 			"isDeleted": false,
 			"id": "Skb9iX5ZYGOTqY8cNoi9r",
 			"fillStyle": "hachure",
@@ -3310,12 +3334,12 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1779.3093630991884,
-			"y": 1698.7256288667268,
+			"x": 1826.803913540847,
+			"y": 1725.1021032846195,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 1.2259167143993182,
-			"height": 46.00028492831302,
+			"width": 1.2312779909445908,
+			"height": 46.00028492831325,
 			"seed": 602182276,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
@@ -3323,19 +3347,19 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
-			"updated": 1674968410080,
+			"boundElements": [],
+			"updated": 1675262490899,
 			"link": null,
 			"locked": false,
 			"startBinding": {
 				"elementId": "3bg20Q_QhJbHEs_URcmXe",
-				"gap": 11.406797202957705,
-				"focus": 0.08546050193529657
+				"gap": 11.40679720295816,
+				"focus": 0.08546050193527088
 			},
 			"endBinding": {
 				"elementId": "ezdItO7rM7wd9RyG1ePz1",
-				"gap": 11.722729087793596,
-				"focus": -0.1985633532429786
+				"gap": 11.722729087792914,
+				"focus": -0.1985633532429638
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -3346,25 +3370,25 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					0
 				],
 				[
-					-1.2259167143993182,
-					46.00028492831302
+					-1.2312779909445908,
+					46.00028492831325
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 2495,
-			"versionNonce": 997896324,
+			"version": 2573,
+			"versionNonce": 301947583,
 			"isDeleted": false,
-			"id": "2c_--jqMdKPpRNY4evi1L",
+			"id": "nbWt7GID",
 			"fillStyle": "hachure",
 			"strokeWidth": 1,
 			"strokeStyle": "dotted",
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1337.7007568515924,
-			"y": 1760.2638702850966,
+			"x": 1385.1797061339414,
+			"y": 1786.6403447029888,
 			"strokeColor": "#087f5b",
 			"backgroundColor": "transparent",
 			"width": 216,
@@ -3386,14 +3410,14 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1674968223482,
-			"link": "",
+			"updated": 1675141080398,
+			"link": "[[The History Of Arabs.excalidraw#^DAAH2WuC]]",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 2674,
-			"versionNonce": 627738428,
+			"version": 2789,
+			"versionNonce": 1516216945,
 			"isDeleted": false,
 			"id": "77JaG3Fk",
 			"fillStyle": "hachure",
@@ -3402,35 +3426,35 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1349.7007568515924,
-			"y": 1837.2638702850966,
+			"x": 1398.1797061339414,
+			"y": 1863.6403447029888,
 			"strokeColor": "#087f5b",
 			"backgroundColor": "transparent",
-			"width": 192,
-			"height": 37,
+			"width": 190,
+			"height": 36,
 			"seed": 594586428,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
 			],
 			"roundness": null,
-			"boundElements": null,
-			"updated": 1674968219293,
+			"boundElements": [],
+			"updated": 1675262490901,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "History of Arabs & Jurhum \ntribe",
 			"rawText": "History of Arabs & Jurhum tribe",
-			"baseline": 33,
+			"baseline": 32,
 			"textAlign": "center",
 			"verticalAlign": "middle",
-			"containerId": "2c_--jqMdKPpRNY4evi1L",
+			"containerId": "nbWt7GID",
 			"originalText": "History of Arabs & Jurhum tribe"
 		},
 		{
 			"type": "arrow",
-			"version": 7191,
-			"versionNonce": 1984990980,
+			"version": 7626,
+			"versionNonce": 2074554623,
 			"isDeleted": false,
 			"id": "yCMjeQIJ7y3kdskQJu3NF",
 			"fillStyle": "hachure",
@@ -3439,12 +3463,12 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1569.7106409146759,
-			"y": 1848.3392603175544,
+			"x": 1617.189590197025,
+			"y": 1874.715803314766,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 97.05986732577958,
-			"height": 0.8568404902139264,
+			"width": 97.0598673257798,
+			"height": 0.8568705119294009,
 			"seed": 1368276924,
 			"groupIds": [
 				"g_loUbjHbdJnxZJjPuf4b"
@@ -3452,19 +3476,19 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
-			"updated": 1674968410080,
+			"boundElements": [],
+			"updated": 1675262490900,
 			"link": null,
 			"locked": false,
 			"startBinding": {
-				"elementId": "2c_--jqMdKPpRNY4evi1L",
+				"elementId": "nbWt7GID",
 				"gap": 16.00988406308352,
-				"focus": -0.06075714522755589
+				"focus": -0.06075714522755352
 			},
 			"endBinding": {
 				"elementId": "ezdItO7rM7wd9RyG1ePz1",
 				"gap": 22.41631491299904,
-				"focus": 0.05333351233449624
+				"focus": 0.05333351233449387
 			},
 			"lastCommittedPoint": null,
 			"startArrowhead": null,
@@ -3475,8 +3499,665 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 					0
 				],
 				[
-					97.05986732577958,
-					-0.8568404902139264
+					97.0598673257798,
+					-0.8568705119294009
+				]
+			]
+		},
+		{
+			"type": "rectangle",
+			"version": 2961,
+			"versionNonce": 293505055,
+			"isDeleted": false,
+			"id": "Io0mOKScWpmQPvM9DJd51",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "dotted",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 2081.5857253486547,
+			"y": 2052.7580996317633,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 208,
+			"height": 190,
+			"seed": 1757556215,
+			"groupIds": [
+				"g_loUbjHbdJnxZJjPuf4b"
+			],
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "spGYd89q"
+				},
+				{
+					"id": "v6xlFuJpSn7v3V7-Lxrau",
+					"type": "arrow"
+				}
+			],
+			"updated": 1675142853405,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 3542,
+			"versionNonce": 1390427455,
+			"isDeleted": false,
+			"id": "spGYd89q",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 2087.0857253486547,
+			"y": 2084.7580996317633,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 197,
+			"height": 126,
+			"seed": 507056377,
+			"groupIds": [
+				"g_loUbjHbdJnxZJjPuf4b"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1675262490903,
+			"link": null,
+			"locked": false,
+			"fontSize": 16,
+			"fontFamily": 2,
+			"text": "Ismail later married a \nwoman from Jurhum's tribe,\nand became fluent in \nArabic and thus his family \nwere Arabized Arabs, as in \nnon-Arabs who mixed with \nArabs",
+			"rawText": "Ismail later married a woman from Jurhum's tribe, and became fluent in Arabic and thus his family were Arabized Arabs, as in non-Arabs who mixed with Arabs",
+			"baseline": 122,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "Io0mOKScWpmQPvM9DJd51",
+			"originalText": "Ismail later married a woman from Jurhum's tribe, and became fluent in Arabic and thus his family were Arabized Arabs, as in non-Arabs who mixed with Arabs"
+		},
+		{
+			"type": "arrow",
+			"version": 8487,
+			"versionNonce": 2079537535,
+			"isDeleted": false,
+			"id": "v6xlFuJpSn7v3V7-Lxrau",
+			"fillStyle": "hachure",
+			"strokeWidth": 0.5,
+			"strokeStyle": "dotted",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1972.5105187842855,
+			"y": 2136.1176056533777,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 89.88117339794417,
+			"height": 2.9137920277416924,
+			"seed": 1872664185,
+			"groupIds": [
+				"g_loUbjHbdJnxZJjPuf4b"
+			],
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1675262490903,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "Dsj7Zfq2OtNlS6ym8sab0",
+				"gap": 22.262858307306033,
+				"focus": -0.20659999328689715
+			},
+			"endBinding": {
+				"elementId": "Io0mOKScWpmQPvM9DJd51",
+				"gap": 19.194033166425015,
+				"focus": 0.04811316984596792
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "triangle",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					89.88117339794417,
+					2.9137920277416924
+				]
+			]
+		},
+		{
+			"type": "rectangle",
+			"version": 2818,
+			"versionNonce": 96919025,
+			"isDeleted": false,
+			"id": "Dsj7Zfq2OtNlS6ym8sab0",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "dotted",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1742.2476604769795,
+			"y": 2057.347933617125,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 208,
+			"height": 190,
+			"seed": 536639927,
+			"groupIds": [
+				"g_loUbjHbdJnxZJjPuf4b"
+			],
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "EHWdZK6V"
+				},
+				{
+					"id": "19TSG4Jl7vBRDkkV0Fe4P",
+					"type": "arrow"
+				},
+				{
+					"id": "v6xlFuJpSn7v3V7-Lxrau",
+					"type": "arrow"
+				}
+			],
+			"updated": 1675142859725,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 3563,
+			"versionNonce": 1528193521,
+			"isDeleted": false,
+			"id": "EHWdZK6V",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1747.7476604769795,
+			"y": 2107.347933617125,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 197,
+			"height": 90,
+			"seed": 1198154041,
+			"groupIds": [
+				"g_loUbjHbdJnxZJjPuf4b"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1675262490904,
+			"link": null,
+			"locked": false,
+			"fontSize": 16,
+			"fontFamily": 2,
+			"text": "Since Ismail was a prophet,\nthe people in Mecca at that \ntime followed his \nmonotheistic religion (later \nknown as Islam)  ",
+			"rawText": "Since Ismail was a prophet, the people in Mecca at that time followed his monotheistic religion (later known as Islam)  ",
+			"baseline": 86,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "Dsj7Zfq2OtNlS6ym8sab0",
+			"originalText": "Since Ismail was a prophet, the people in Mecca at that time followed his monotheistic religion (later known as Islam)  "
+		},
+		{
+			"type": "arrow",
+			"version": 8148,
+			"versionNonce": 327433567,
+			"isDeleted": false,
+			"id": "19TSG4Jl7vBRDkkV0Fe4P",
+			"fillStyle": "hachure",
+			"strokeWidth": 0.5,
+			"strokeStyle": "dotted",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1835.220000307348,
+			"y": 1988.3140172896278,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 1.6574001054357268,
+			"height": 49.275004949996855,
+			"seed": 1009751193,
+			"groupIds": [
+				"g_loUbjHbdJnxZJjPuf4b"
+			],
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1675262490903,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "ezdItO7rM7wd9RyG1ePz1",
+				"gap": 15.488899988902176,
+				"focus": 0.051804943845905574
+			},
+			"endBinding": {
+				"elementId": "Dsj7Zfq2OtNlS6ym8sab0",
+				"gap": 19.75891137750034,
+				"focus": -0.1543448652747384
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "triangle",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-1.6574001054357268,
+					49.275004949996855
+				]
+			]
+		},
+		{
+			"type": "rectangle",
+			"version": 1749,
+			"versionNonce": 1903959711,
+			"isDeleted": false,
+			"id": "4Fsbjiajt55ZsXYfY8Q_Y",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "dashed",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 2428.736948023959,
+			"y": 923.3250439710624,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 187,
+			"height": 50,
+			"seed": 1407119639,
+			"groupIds": [
+				"g_loUbjHbdJnxZJjPuf4b"
+			],
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "LONTbOvH"
+				},
+				{
+					"id": "BKjOU0OQOY5lSYX5WI0uM",
+					"type": "arrow"
+				},
+				{
+					"id": "jCNHdPgUpwaJRAzdsi75u",
+					"type": "arrow"
+				}
+			],
+			"updated": 1675141204583,
+			"link": "",
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 1148,
+			"versionNonce": 1653568735,
+			"isDeleted": false,
+			"id": "LONTbOvH",
+			"fillStyle": "hachure",
+			"strokeWidth": 0.5,
+			"strokeStyle": "dotted",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 2491.736948023959,
+			"y": 935.8250439710624,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 61,
+			"height": 25,
+			"seed": 311791577,
+			"groupIds": [
+				"g_loUbjHbdJnxZJjPuf4b"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1675141058707,
+			"link": null,
+			"locked": false,
+			"fontSize": 20,
+			"fontFamily": 1,
+			"text": "Mecca",
+			"rawText": "Mecca",
+			"baseline": 18,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "4Fsbjiajt55ZsXYfY8Q_Y",
+			"originalText": "Mecca"
+		},
+		{
+			"type": "arrow",
+			"version": 5136,
+			"versionNonce": 179764177,
+			"isDeleted": false,
+			"id": "BKjOU0OQOY5lSYX5WI0uM",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "dashed",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 2266.495282076428,
+			"y": 946.6182894668692,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 150.03054043807197,
+			"height": 0,
+			"seed": 2077446719,
+			"groupIds": [
+				"g_loUbjHbdJnxZJjPuf4b"
+			],
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1675262490904,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "6gSq4JMnCGnrkWRt3QBFP",
+				"gap": 12.544627753582517,
+				"focus": -0.04180127042898221
+			},
+			"endBinding": {
+				"elementId": "4Fsbjiajt55ZsXYfY8Q_Y",
+				"gap": 12.21112550945918,
+				"focus": 0.06827018016772854
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "triangle",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					150.03054043807197,
+					0
+				]
+			]
+		},
+		{
+			"type": "rectangle",
+			"version": 3176,
+			"versionNonce": 1485764881,
+			"isDeleted": false,
+			"id": "cgUmIRcTjWRUyne9tL4ss",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "dotted",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 2401.2152141775073,
+			"y": 1064.030717057007,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 252,
+			"height": 190,
+			"seed": 82486481,
+			"groupIds": [
+				"g_loUbjHbdJnxZJjPuf4b"
+			],
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "4LLW3kLs"
+				},
+				{
+					"id": "jCNHdPgUpwaJRAzdsi75u",
+					"type": "arrow"
+				},
+				{
+					"id": "mmpWwcXxBMZXOB-4167Fj",
+					"type": "arrow"
+				}
+			],
+			"updated": 1675141430702,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 4201,
+			"versionNonce": 1185180191,
+			"isDeleted": false,
+			"id": "4LLW3kLs",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 2409.2152141775073,
+			"y": 1096.030717057007,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 236,
+			"height": 126,
+			"seed": 270240959,
+			"groupIds": [
+				"g_loUbjHbdJnxZJjPuf4b"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1675262490906,
+			"link": null,
+			"locked": false,
+			"fontSize": 16,
+			"fontFamily": 2,
+			"text": "When Ismail was 16 years old, \nAllah commanded Ibrahim to \nbuild the kaaba in Mecca, so he \nreturned and built it with the help \nof his son Ismail, noting that this \ncould have been before or after \nJurhum came in Mecca",
+			"rawText": "When Ismail was 16 years old, Allah commanded Ibrahim to build the kaaba in Mecca, so he returned and built it with the help of his son Ismail, noting that this could have been before or after Jurhum came in Mecca",
+			"baseline": 122,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "cgUmIRcTjWRUyne9tL4ss",
+			"originalText": "When Ismail was 16 years old, Allah commanded Ibrahim to build the kaaba in Mecca, so he returned and built it with the help of his son Ismail, noting that this could have been before or after Jurhum came in Mecca"
+		},
+		{
+			"type": "arrow",
+			"version": 8554,
+			"versionNonce": 81066897,
+			"isDeleted": false,
+			"id": "jCNHdPgUpwaJRAzdsi75u",
+			"fillStyle": "hachure",
+			"strokeWidth": 0.5,
+			"strokeStyle": "dotted",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 2519.6935250502056,
+			"y": 988.2732955151571,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 0.1787588125489492,
+			"height": 67.44783764877138,
+			"seed": 1427857631,
+			"groupIds": [
+				"g_loUbjHbdJnxZJjPuf4b"
+			],
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1675262490905,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "4Fsbjiajt55ZsXYfY8Q_Y",
+				"gap": 14.948251544094546,
+				"focus": 0.02606041056120029
+			},
+			"endBinding": {
+				"elementId": "cgUmIRcTjWRUyne9tL4ss",
+				"gap": 8.309583893078525,
+				"focus": -0.06316150183279981
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "triangle",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					-0.1787588125489492,
+					67.44783764877138
+				]
+			]
+		},
+		{
+			"type": "rectangle",
+			"version": 3243,
+			"versionNonce": 2001710833,
+			"isDeleted": false,
+			"id": "x5ivtTbbXArUZMxupMGpg",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "dotted",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 2403.826140077747,
+			"y": 1333.8980419260595,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 252,
+			"height": 190,
+			"seed": 159520063,
+			"groupIds": [
+				"g_loUbjHbdJnxZJjPuf4b"
+			],
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "QI9ZszEo"
+				},
+				{
+					"id": "mmpWwcXxBMZXOB-4167Fj",
+					"type": "arrow"
+				}
+			],
+			"updated": 1675141430702,
+			"link": null,
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 4486,
+			"versionNonce": 1986689329,
+			"isDeleted": false,
+			"id": "QI9ZszEo",
+			"fillStyle": "hachure",
+			"strokeWidth": 2,
+			"strokeStyle": "solid",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 2409.326140077747,
+			"y": 1383.8980419260595,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 241,
+			"height": 90,
+			"seed": 1464082993,
+			"groupIds": [
+				"g_loUbjHbdJnxZJjPuf4b"
+			],
+			"roundness": null,
+			"boundElements": [],
+			"updated": 1675262490907,
+			"link": null,
+			"locked": false,
+			"fontSize": 16,
+			"fontFamily": 2,
+			"text": "Allah then commanded Ibrahim to\ncall people to preform pilgrimage \naround the Kaaba, so he did, and \nnow millions of people visit the \nKaaba and reply to his call",
+			"rawText": "Allah then commanded Ibrahim to call people to preform pilgrimage around the Kaaba, so he did, and now millions of people visit the Kaaba and reply to his call",
+			"baseline": 86,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "x5ivtTbbXArUZMxupMGpg",
+			"originalText": "Allah then commanded Ibrahim to call people to preform pilgrimage around the Kaaba, so he did, and now millions of people visit the Kaaba and reply to his call"
+		},
+		{
+			"type": "arrow",
+			"version": 8606,
+			"versionNonce": 1542442559,
+			"isDeleted": false,
+			"id": "mmpWwcXxBMZXOB-4167Fj",
+			"fillStyle": "hachure",
+			"strokeWidth": 0.5,
+			"strokeStyle": "dotted",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 2518.1550543161093,
+			"y": 1270.2725648679298,
+			"strokeColor": "#000000",
+			"backgroundColor": "transparent",
+			"width": 1.9951702382645635,
+			"height": 54.87642651595888,
+			"seed": 1686351985,
+			"groupIds": [
+				"g_loUbjHbdJnxZJjPuf4b"
+			],
+			"roundness": {
+				"type": 2
+			},
+			"boundElements": [],
+			"updated": 1675262490906,
+			"link": null,
+			"locked": false,
+			"startBinding": {
+				"elementId": "cgUmIRcTjWRUyne9tL4ss",
+				"gap": 16.241847810922764,
+				"focus": 0.1012300908323507
+			},
+			"endBinding": {
+				"elementId": "x5ivtTbbXArUZMxupMGpg",
+				"gap": 8.749050542170835,
+				"focus": -0.045605852450877574
+			},
+			"lastCommittedPoint": null,
+			"startArrowhead": null,
+			"endArrowhead": "triangle",
+			"points": [
+				[
+					0,
+					0
+				],
+				[
+					1.9951702382645635,
+					54.87642651595888
 				]
 			]
 		}
@@ -3484,7 +4165,7 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 	"appState": {
 		"theme": "dark",
 		"viewBackgroundColor": "transparent",
-		"currentItemStrokeColor": "#087f5b",
+		"currentItemStrokeColor": "#000000",
 		"currentItemBackgroundColor": "transparent",
 		"currentItemFillStyle": "hachure",
 		"currentItemStrokeWidth": 2,
@@ -3496,14 +4177,15 @@ c94202588e69996692a5edb8f6db98c10c561ad3: [[Pasted Image 20230128184504_554.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -780.2047845486129,
-		"scrollY": -796.3311059702819,
+		"scrollX": 1755.472559449599,
+		"scrollY": 1264.7828856601036,
 		"zoom": {
-			"value": 0.44999999999999996
+			"value": 0.2
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": null,
 		"colorPalette": {},
+		"currentStrokeOptions": null,
 		"previousGridSize": null
 	},
 	"files": {}
