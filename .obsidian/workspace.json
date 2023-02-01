@@ -57,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "ishmael",
+                "query": "tag:#Islam",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -145,8 +145,17 @@
               "type": "reminder-list",
               "state": {}
             }
+          },
+          {
+            "id": "f389826702bb98f9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -165,12 +174,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "5a5013a0c7b3e87e",
+  "active": "6bdbcbc0f4d6cc2c",
   "lastOpenFiles": [
     "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
-    "Islamic Stories/Prophets Overview/Prophets Overview.excalidraw.md",
-    "Tasks/Kanban To Do.md",
     "Islamic Stories/Arabs/The History Of Arabs.excalidraw.md",
+    "Tasks/Kanban To Do.md",
+    "Islamic Stories/Prophets Overview/Prophets Overview.excalidraw.md",
     "Media/Islamic stories/Pasted Image 20230130072713_320.png",
     "Media/Islamic stories/Pasted Image 20230128172343_822.png",
     "Media/Islamic stories/Pasted Image 20230128184504_554.png",

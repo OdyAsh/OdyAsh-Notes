@@ -53,6 +53,22 @@ He took one of the idols, called Hubal, back to Mecca, and ordered everyone to w
 
 He then ordered for other idols to be manufactured for different purposes (moon, sun, food, etc.), and they were placed around the Kaaba ^TGe7A6ee
 
+Source: 
+Seerah: 
+The 
+Life 
+of 
+the 
+Prophet 
+Muhammad 
+(PBUH) 
+- 
+Part 1 
+By 
+Sheikh 
+Shady 
+Alsuleiman ^s4vPf6ug
+
 [[Prophet Ibrahim.excalidraw#^94dX3GYN]] ^uitcD7XA
 
 [[Islamic Stories/Arabs/The History Of Arabs.excalidraw.md#^Evewm664]] ^Wlyt8WEy
@@ -75,8 +91,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 	"elements": [
 		{
 			"type": "rectangle",
-			"version": 1372,
-			"versionNonce": 802228415,
+			"version": 1373,
+			"versionNonce": 400790111,
 			"isDeleted": false,
 			"id": "BUxajvPHFaWIawII1XpZk",
 			"fillStyle": "hachure",
@@ -108,14 +124,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 620,
-			"versionNonce": 942679729,
+			"version": 621,
+			"versionNonce": 2006746897,
 			"isDeleted": false,
 			"id": "x0IoN67T",
 			"fillStyle": "hachure",
@@ -134,7 +150,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
@@ -149,8 +165,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4248,
-			"versionNonce": 974397553,
+			"version": 4253,
+			"versionNonce": 1134554751,
 			"isDeleted": false,
 			"id": "ghHQgMe900x-GFrZ9hqAF",
 			"fillStyle": "hachure",
@@ -169,7 +185,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493125,
+			"updated": 1675262596112,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -198,8 +214,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4523,
-			"versionNonce": 1371154577,
+			"version": 4524,
+			"versionNonce": 964394225,
 			"isDeleted": false,
 			"id": "RujoPdl4_LlbIBDaWAI7I",
 			"fillStyle": "hachure",
@@ -227,7 +243,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"id": "HyDNr6CP"
 				}
 			],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -256,8 +272,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "text",
-			"version": 33,
-			"versionNonce": 1556555007,
+			"version": 34,
+			"versionNonce": 1270597279,
 			"isDeleted": false,
 			"id": "HyDNr6CP",
 			"fillStyle": "hachure",
@@ -278,7 +294,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -293,8 +309,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4625,
-			"versionNonce": 308866673,
+			"version": 4626,
+			"versionNonce": 868267729,
 			"isDeleted": false,
 			"id": "rT1b3th3tnKo-7bqBM9gS",
 			"fillStyle": "hachure",
@@ -322,7 +338,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"id": "NYR6GSxl"
 				}
 			],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -351,8 +367,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "text",
-			"version": 24,
-			"versionNonce": 1471687967,
+			"version": 25,
+			"versionNonce": 1860672191,
 			"isDeleted": false,
 			"id": "NYR6GSxl",
 			"fillStyle": "hachure",
@@ -373,7 +389,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -388,8 +404,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1381,
-			"versionNonce": 1090779217,
+			"version": 1382,
+			"versionNonce": 151237809,
 			"isDeleted": false,
 			"id": "ctxzOn-0bOi0dt0GYWD2k",
 			"fillStyle": "hachure",
@@ -425,14 +441,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 744,
-			"versionNonce": 999502143,
+			"version": 745,
+			"versionNonce": 1103358687,
 			"isDeleted": false,
 			"id": "r9h0xcyQ",
 			"fillStyle": "hachure",
@@ -453,7 +469,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -468,8 +484,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4700,
-			"versionNonce": 1264818833,
+			"version": 4705,
+			"versionNonce": 485226129,
 			"isDeleted": false,
 			"id": "rwBAtyY9ZkSahCxfbsLXM",
 			"fillStyle": "hachure",
@@ -492,7 +508,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493124,
+			"updated": 1675262596112,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -521,8 +537,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1465,
-			"versionNonce": 1371058527,
+			"version": 1466,
+			"versionNonce": 1893807871,
 			"isDeleted": false,
 			"id": "wt0TNzegAjFVpmfajgXH2",
 			"fillStyle": "hachure",
@@ -566,14 +582,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 740,
-			"versionNonce": 957422367,
+			"version": 742,
+			"versionNonce": 1915812977,
 			"isDeleted": false,
 			"id": "v1iVevWY",
 			"fillStyle": "hachure",
@@ -594,7 +610,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493126,
+			"updated": 1675262596112,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -609,8 +625,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4317,
-			"versionNonce": 530472767,
+			"version": 4322,
+			"versionNonce": 1119878943,
 			"isDeleted": false,
 			"id": "l_tBEUmbKZoySAFHl1LeA",
 			"fillStyle": "hachure",
@@ -633,7 +649,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493126,
+			"updated": 1675262596112,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -662,8 +678,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1294,
-			"versionNonce": 236563953,
+			"version": 1295,
+			"versionNonce": 1218070097,
 			"isDeleted": false,
 			"id": "-lPXuSu9s9_kACPapADXt",
 			"fillStyle": "hachure",
@@ -703,14 +719,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 568,
-			"versionNonce": 1436278769,
+			"version": 570,
+			"versionNonce": 1506853695,
 			"isDeleted": false,
 			"id": "DAAH2WuC",
 			"fillStyle": "hachure",
@@ -731,7 +747,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493129,
+			"updated": 1675262596112,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -746,8 +762,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "image",
-			"version": 649,
-			"versionNonce": 393267153,
+			"version": 650,
+			"versionNonce": 2063553585,
 			"isDeleted": false,
 			"id": "fi5JYdnFNEvdaQXi-yuim",
 			"fillStyle": "hachure",
@@ -781,7 +797,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": "https://www.vectorstock.com/royalty-free-vector/map-of-arabian-peninsula-vector-16385327",
 			"locked": false,
 			"status": "pending",
@@ -793,8 +809,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4339,
-			"versionNonce": 674111327,
+			"version": 4342,
+			"versionNonce": 913572703,
 			"isDeleted": false,
 			"id": "tfN_GU7_5FgrdkiHJcKw6",
 			"fillStyle": "hachure",
@@ -822,7 +838,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"id": "Zv13yPde"
 				}
 			],
-			"updated": 1675262493126,
+			"updated": 1675262596112,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -851,8 +867,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "text",
-			"version": 81,
-			"versionNonce": 2122950065,
+			"version": 82,
+			"versionNonce": 491234833,
 			"isDeleted": false,
 			"id": "Zv13yPde",
 			"fillStyle": "hachure",
@@ -873,7 +889,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -888,8 +904,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "image",
-			"version": 407,
-			"versionNonce": 1150388703,
+			"version": 408,
+			"versionNonce": 2029666175,
 			"isDeleted": false,
 			"id": "HyyxqrlQRd9tNyNlp7YMI",
 			"fillStyle": "hachure",
@@ -919,7 +935,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": "https://twitter.com/tonytohcy/status/1361520274689073152/photo/1",
 			"locked": false,
 			"status": "pending",
@@ -931,8 +947,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "image",
-			"version": 284,
-			"versionNonce": 780912529,
+			"version": 285,
+			"versionNonce": 1516944369,
 			"isDeleted": false,
 			"id": "rUHZ5HnpZii85SEfb8FqS",
 			"fillStyle": "hachure",
@@ -958,7 +974,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": "https://afrinik.com/ancient-great-dam-of-marib-what-quran-said-about-the-empire/",
 			"locked": false,
 			"status": "pending",
@@ -970,8 +986,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 3981,
-			"versionNonce": 648214015,
+			"version": 3982,
+			"versionNonce": 1671690143,
 			"isDeleted": false,
 			"id": "wHvvOuQAxDi8hfxKu-I9I",
 			"fillStyle": "hachure",
@@ -994,7 +1010,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": "",
 			"locked": false,
 			"startBinding": null,
@@ -1015,8 +1031,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1513,
-			"versionNonce": 1101966705,
+			"version": 1514,
+			"versionNonce": 309335505,
 			"isDeleted": false,
 			"id": "lfnuqSAmRFxzvrVZWDVLG",
 			"fillStyle": "hachure",
@@ -1052,14 +1068,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1094,
-			"versionNonce": 366999519,
+			"version": 1096,
+			"versionNonce": 480357311,
 			"isDeleted": false,
 			"id": "LZthZcp1",
 			"fillStyle": "hachure",
@@ -1080,7 +1096,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493130,
+			"updated": 1675262596112,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1095,8 +1111,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1560,
-			"versionNonce": 523884369,
+			"version": 1561,
+			"versionNonce": 946811825,
 			"isDeleted": false,
 			"id": "ymzBSIy2",
 			"fillStyle": "hachure",
@@ -1136,14 +1152,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1272,
-			"versionNonce": 1513715505,
+			"version": 1274,
+			"versionNonce": 806607839,
 			"isDeleted": false,
 			"id": "Evewm664",
 			"fillStyle": "hachure",
@@ -1164,7 +1180,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493132,
+			"updated": 1675262596112,
 			"link": "",
 			"locked": false,
 			"fontSize": 16,
@@ -1179,8 +1195,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4491,
-			"versionNonce": 1609802751,
+			"version": 4496,
+			"versionNonce": 1888458129,
 			"isDeleted": false,
 			"id": "ZFULNyv8WUL13YRZd0She",
 			"fillStyle": "hachure",
@@ -1203,7 +1219,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493131,
+			"updated": 1675262596112,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -1232,8 +1248,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "image",
-			"version": 176,
-			"versionNonce": 33170015,
+			"version": 177,
+			"versionNonce": 1376454655,
 			"isDeleted": false,
 			"id": "iUKSisDGS4HzKrXQRbWu1",
 			"fillStyle": "hachure",
@@ -1259,7 +1275,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994200,
+			"updated": 1675262596112,
 			"link": "https://slideplayer.com/slide/13881718/",
 			"locked": false,
 			"status": "pending",
@@ -1271,8 +1287,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4685,
-			"versionNonce": 1274476305,
+			"version": 4686,
+			"versionNonce": 1846066033,
 			"isDeleted": false,
 			"id": "aZjXRCN-9k5QLjJ5Itx42",
 			"fillStyle": "hachure",
@@ -1300,7 +1316,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"id": "UrFA3dQB"
 				}
 			],
-			"updated": 1675261994201,
+			"updated": 1675262596112,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -1329,8 +1345,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "text",
-			"version": 77,
-			"versionNonce": 1281654399,
+			"version": 78,
+			"versionNonce": 1619505183,
 			"isDeleted": false,
 			"id": "UrFA3dQB",
 			"fillStyle": "hachure",
@@ -1351,7 +1367,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675261994201,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1366,8 +1382,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4447,
-			"versionNonce": 1822906289,
+			"version": 4452,
+			"versionNonce": 287450449,
 			"isDeleted": false,
 			"id": "KY6zl2nJ2tBgJeM1Hs4Av",
 			"fillStyle": "hachure",
@@ -1390,7 +1406,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493129,
+			"updated": 1675262596113,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -1419,8 +1435,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1592,
-			"versionNonce": 1835947679,
+			"version": 1593,
+			"versionNonce": 628773951,
 			"isDeleted": false,
 			"id": "uitcD7XA",
 			"fillStyle": "hachure",
@@ -1452,14 +1468,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994201,
+			"updated": 1675262596113,
 			"link": "[[Prophet Ibrahim.excalidraw#^94dX3GYN]]",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1440,
-			"versionNonce": 418262143,
+			"version": 1442,
+			"versionNonce": 1160991537,
 			"isDeleted": false,
 			"id": "nNr6xcRj",
 			"fillStyle": "hachure",
@@ -1480,7 +1496,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493134,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -1495,8 +1511,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4595,
-			"versionNonce": 2001037585,
+			"version": 4600,
+			"versionNonce": 1489204319,
 			"isDeleted": false,
 			"id": "1LQNO8EedqFt4MqczFYJJ",
 			"fillStyle": "hachure",
@@ -1519,7 +1535,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493133,
+			"updated": 1675262596113,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -1548,8 +1564,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1488,
-			"versionNonce": 1144267953,
+			"version": 1489,
+			"versionNonce": 514049297,
 			"isDeleted": false,
 			"id": "wXuqkbEUFHUqb2hsW-qNl",
 			"fillStyle": "hachure",
@@ -1585,14 +1601,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994201,
+			"updated": 1675262596113,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 775,
-			"versionNonce": 1409275569,
+			"version": 777,
+			"versionNonce": 1647546495,
 			"isDeleted": false,
 			"id": "QHQsqbiM",
 			"fillStyle": "hachure",
@@ -1613,7 +1629,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493137,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
@@ -1628,8 +1644,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4417,
-			"versionNonce": 412239007,
+			"version": 4422,
+			"versionNonce": 954923761,
 			"isDeleted": false,
 			"id": "pBdkGyRaOSWjtbC8w9-BQ",
 			"fillStyle": "hachure",
@@ -1648,7 +1664,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493136,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1677,8 +1693,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1527,
-			"versionNonce": 1792919295,
+			"version": 1528,
+			"versionNonce": 1535846559,
 			"isDeleted": false,
 			"id": "Wlyt8WEy",
 			"fillStyle": "hachure",
@@ -1718,14 +1734,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994201,
+			"updated": 1675262596113,
 			"link": "[[Islamic Stories/Arabs/The History Of Arabs.excalidraw.md#^Evewm664]]",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 897,
-			"versionNonce": 268790897,
+			"version": 898,
+			"versionNonce": 1418753233,
 			"isDeleted": false,
 			"id": "jokTAF1k",
 			"fillStyle": "hachure",
@@ -1746,7 +1762,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675261994201,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1761,8 +1777,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4933,
-			"versionNonce": 940824721,
+			"version": 4938,
+			"versionNonce": 1383775423,
 			"isDeleted": false,
 			"id": "A2m9ZOHdgcrcU0E5r0n9y",
 			"fillStyle": "hachure",
@@ -1785,7 +1801,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493139,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1814,8 +1830,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4421,
-			"versionNonce": 1644994161,
+			"version": 4426,
+			"versionNonce": 892056241,
 			"isDeleted": false,
 			"id": "hqY7A6Il5vA0ujdfmmIeP",
 			"fillStyle": "hachure",
@@ -1838,7 +1854,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493139,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -1867,8 +1883,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1593,
-			"versionNonce": 1240027967,
+			"version": 1594,
+			"versionNonce": 1252183263,
 			"isDeleted": false,
 			"id": "KTpVWuI7",
 			"fillStyle": "hachure",
@@ -1904,14 +1920,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994201,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 955,
-			"versionNonce": 578274353,
+			"version": 956,
+			"versionNonce": 1063531665,
 			"isDeleted": false,
 			"id": "hGwrMnPw",
 			"fillStyle": "hachure",
@@ -1932,7 +1948,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675261994201,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
@@ -1947,8 +1963,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 5035,
-			"versionNonce": 2111469105,
+			"version": 5040,
+			"versionNonce": 2140395775,
 			"isDeleted": false,
 			"id": "mS7kZdvAXzRunGUb1GpA0",
 			"fillStyle": "hachure",
@@ -1971,7 +1987,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493141,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2000,8 +2016,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4643,
-			"versionNonce": 1449483761,
+			"version": 4648,
+			"versionNonce": 1458666097,
 			"isDeleted": false,
 			"id": "lkDfKngtMIh9hP65JYCCi",
 			"fillStyle": "hachure",
@@ -2010,12 +2026,12 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2142.3133156480517,
+			"x": 2142.3133153340423,
 			"y": -483.90926924008266,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 3.689764289952109,
-			"height": 55.20869218657282,
+			"width": 3.6897641761083833,
+			"height": 55.20869218657293,
 			"seed": 458309791,
 			"groupIds": [
 				"hl57cpI8hYpjwpamjtlbL"
@@ -2024,7 +2040,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493142,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2046,15 +2062,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					0
 				],
 				[
-					-3.689764289952109,
-					55.20869218657282
+					-3.6897641761083833,
+					55.20869218657293
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1488,
-			"versionNonce": 137285503,
+			"version": 1489,
+			"versionNonce": 1724801311,
 			"isDeleted": false,
 			"id": "jbAIj8j3_loC_ceUnqoAE",
 			"fillStyle": "hachure",
@@ -2094,14 +2110,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994201,
+			"updated": 1675262596113,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 835,
-			"versionNonce": 1585764831,
+			"version": 837,
+			"versionNonce": 2090533969,
 			"isDeleted": false,
 			"id": "nKfdXFwl",
 			"fillStyle": "hachure",
@@ -2122,7 +2138,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493143,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -2137,8 +2153,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4787,
-			"versionNonce": 1168918015,
+			"version": 4792,
+			"versionNonce": 1908598079,
 			"isDeleted": false,
 			"id": "1-De5x1-HbpjawJtfwhgt",
 			"fillStyle": "hachure",
@@ -2147,11 +2163,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2137.996793321682,
+			"x": 2137.9967937815245,
 			"y": -218.33344874332175,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 4.527849452241753,
+			"width": 4.527849652423811,
 			"height": 63.317177274927985,
 			"seed": 927957041,
 			"groupIds": [
@@ -2161,7 +2177,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493143,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2183,15 +2199,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					0
 				],
 				[
-					-4.527849452241753,
+					-4.527849652423811,
 					63.317177274927985
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1569,
-			"versionNonce": 1300137425,
+			"version": 1570,
+			"versionNonce": 741888561,
 			"isDeleted": false,
 			"id": "k0n4l7RwGj5jufxMMmL_5",
 			"fillStyle": "hachure",
@@ -2227,14 +2243,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994201,
+			"updated": 1675262596113,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1188,
-			"versionNonce": 1379370833,
+			"version": 1190,
+			"versionNonce": 265413983,
 			"isDeleted": false,
 			"id": "p5PWGG5z",
 			"fillStyle": "hachure",
@@ -2255,7 +2271,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493144,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -2270,8 +2286,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1806,
-			"versionNonce": 1747952561,
+			"version": 1807,
+			"versionNonce": 2058413073,
 			"isDeleted": false,
 			"id": "J1caWBZoWhGw3TVtzEWxW",
 			"fillStyle": "hachure",
@@ -2303,14 +2319,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994201,
+			"updated": 1675262596113,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1733,
-			"versionNonce": 533033567,
+			"version": 1735,
+			"versionNonce": 1884021119,
 			"isDeleted": false,
 			"id": "eb3Qw0dg",
 			"fillStyle": "hachure",
@@ -2331,7 +2347,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493145,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -2346,8 +2362,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4818,
-			"versionNonce": 1095529777,
+			"version": 4823,
+			"versionNonce": 1945909745,
 			"isDeleted": false,
 			"id": "4RYb0A4UL61jINXCr8dHY",
 			"fillStyle": "hachure",
@@ -2370,7 +2386,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493144,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2399,8 +2415,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1540,
-			"versionNonce": 444045311,
+			"version": 1541,
+			"versionNonce": 74537375,
 			"isDeleted": false,
 			"id": "DDZ0-J_CykoMifEcW8ouj",
 			"fillStyle": "hachure",
@@ -2436,14 +2452,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994201,
+			"updated": 1675262596113,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1017,
-			"versionNonce": 1457837777,
+			"version": 1019,
+			"versionNonce": 958518225,
 			"isDeleted": false,
 			"id": "WiT8Eypa",
 			"fillStyle": "hachure",
@@ -2464,7 +2480,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493147,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -2479,8 +2495,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4768,
-			"versionNonce": 876990079,
+			"version": 4773,
+			"versionNonce": 1098042815,
 			"isDeleted": false,
 			"id": "7sWoNrUYFo6W9uU-rUk6K",
 			"fillStyle": "hachure",
@@ -2503,7 +2519,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493146,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2532,8 +2548,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1717,
-			"versionNonce": 1110996561,
+			"version": 1718,
+			"versionNonce": 1580806577,
 			"isDeleted": false,
 			"id": "S-XPe1e7nZPJS0RNxQtG8",
 			"fillStyle": "hachure",
@@ -2569,14 +2585,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675262160961,
+			"updated": 1675262596113,
 			"link": "",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1475,
-			"versionNonce": 1872172799,
+			"version": 1477,
+			"versionNonce": 577813983,
 			"isDeleted": false,
 			"id": "lNXeMhIN",
 			"fillStyle": "hachure",
@@ -2597,7 +2613,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493148,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -2612,8 +2628,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 5139,
-			"versionNonce": 1923339441,
+			"version": 5144,
+			"versionNonce": 141153169,
 			"isDeleted": false,
 			"id": "RsnUXTYrMNyAHgf33bIOF",
 			"fillStyle": "hachure",
@@ -2622,11 +2638,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2467.3181826227283,
+			"x": 2467.2280109678595,
 			"y": -224.6673652275772,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 0.15968306145441602,
+			"width": 0.12435665826296827,
 			"height": 52.03834645868429,
 			"seed": 1817692319,
 			"groupIds": [
@@ -2636,7 +2652,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493147,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2658,15 +2674,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					0
 				],
 				[
-					-0.15968306145441602,
+					-0.12435665826296827,
 					52.03834645868429
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1631,
-			"versionNonce": 2075788383,
+			"version": 1632,
+			"versionNonce": 1786489343,
 			"isDeleted": false,
 			"id": "tAeaCA4bDl4Iu8GYlsjKw",
 			"fillStyle": "hachure",
@@ -2702,14 +2718,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261994201,
+			"updated": 1675262596113,
 			"link": "https://www.historyfiles.co.uk/KingListsMiddEast/CanaanAmalekites.htm#:~:text=Ancient%20Levantine%20States-,Amalekites%20(Canaan),-Ancient%20Canaan",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1574,
-			"versionNonce": 59733041,
+			"version": 1576,
+			"versionNonce": 1273706865,
 			"isDeleted": false,
 			"id": "ajwR7QJ5",
 			"fillStyle": "hachure",
@@ -2730,7 +2746,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493149,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -2745,8 +2761,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 5193,
-			"versionNonce": 800710431,
+			"version": 5198,
+			"versionNonce": 647238175,
 			"isDeleted": false,
 			"id": "v9l8-9d_iXAx7re8vFWXm",
 			"fillStyle": "hachure",
@@ -2755,12 +2771,12 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2465.002199082783,
+			"x": 2464.97608396701,
 			"y": 2.1782827221926198,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 0.32524138951112036,
-			"height": 70.60158591798647,
+			"width": 0.33564426720249685,
+			"height": 70.60158591798648,
 			"seed": 1115415039,
 			"groupIds": [
 				"hl57cpI8hYpjwpamjtlbL"
@@ -2769,7 +2785,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493148,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2791,15 +2807,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					0
 				],
 				[
-					0.32524138951112036,
-					70.60158591798647
+					0.33564426720249685,
+					70.60158591798648
 				]
 			]
 		},
 		{
 			"type": "rectangle",
-			"version": 1698,
-			"versionNonce": 1192862129,
+			"version": 1699,
+			"versionNonce": 1241834321,
 			"isDeleted": false,
 			"id": "1vNOGRz01pfpGZwAjywMx",
 			"fillStyle": "hachure",
@@ -2835,14 +2851,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261997787,
+			"updated": 1675262596113,
 			"link": "https://www.al-islam.org/articles/idols-pre-islamic-arabia-yasin-t-al-jibouri#:~:text=other%20pagan%20rituals.-,Hubal%20idol,-Amr%20ibn%20Luhay",
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 1887,
-			"versionNonce": 346937247,
+			"version": 1889,
+			"versionNonce": 1873442367,
 			"isDeleted": false,
 			"id": "MTpoY68g",
 			"fillStyle": "hachure",
@@ -2863,7 +2879,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493151,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -2878,8 +2894,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 4996,
-			"versionNonce": 1590937105,
+			"version": 5001,
+			"versionNonce": 252596529,
 			"isDeleted": false,
 			"id": "_HflJ2XVS7i4JoYjrl6NS",
 			"fillStyle": "hachure",
@@ -2902,7 +2918,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493150,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2931,8 +2947,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1732,
-			"versionNonce": 1539064721,
+			"version": 1733,
+			"versionNonce": 1822381663,
 			"isDeleted": false,
 			"id": "IFk3LXbV3ZoCJiaxRQAnt",
 			"fillStyle": "hachure",
@@ -2964,14 +2980,14 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1675261997787,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false
 		},
 		{
 			"type": "text",
-			"version": 2019,
-			"versionNonce": 1743737777,
+			"version": 2021,
+			"versionNonce": 812581649,
 			"isDeleted": false,
 			"id": "TGe7A6ee",
 			"fillStyle": "hachure",
@@ -2992,7 +3008,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675262493152,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
@@ -3007,8 +3023,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "image",
-			"version": 96,
-			"versionNonce": 902913247,
+			"version": 97,
+			"versionNonce": 339948159,
 			"isDeleted": false,
 			"id": "dk5QCGECn0z5h-7R4BWQ_",
 			"fillStyle": "hachure",
@@ -3027,7 +3043,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1675261994201,
+			"updated": 1675262596113,
 			"link": "https://www.al-islam.org/articles/idols-pre-islamic-arabia-yasin-t-al-jibouri#:~:text=other%20pagan%20rituals.-,Hubal%20idol,-Amr%20ibn%20Luhay",
 			"locked": false,
 			"status": "pending",
@@ -3039,8 +3055,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 5025,
-			"versionNonce": 1366264767,
+			"version": 5030,
+			"versionNonce": 715028721,
 			"isDeleted": false,
 			"id": "HsEupxFF72xhpPeEQsBjG",
 			"fillStyle": "hachure",
@@ -3063,7 +3079,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1675262493151,
+			"updated": 1675262596113,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3089,6 +3105,78 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					46.653228427237764
 				]
 			]
+		},
+		{
+			"type": "rectangle",
+			"version": 2395,
+			"versionNonce": 1590911647,
+			"isDeleted": false,
+			"id": "6OR9miBKVxKv9kA3K8YG0",
+			"fillStyle": "hachure",
+			"strokeWidth": 1,
+			"strokeStyle": "dotted",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1823.0336532019535,
+			"y": -386.0791301352749,
+			"strokeColor": "#1864ab",
+			"backgroundColor": "transparent",
+			"width": 111,
+			"height": 1148,
+			"seed": 1703289233,
+			"groupIds": [
+				"WaZWFKJ3rNIV5mVHeSYzO"
+			],
+			"roundness": {
+				"type": 3
+			},
+			"boundElements": [
+				{
+					"type": "text",
+					"id": "s4vPf6ug"
+				}
+			],
+			"updated": 1675262681660,
+			"link": "https://youtu.be/6o8UmErRVZk?t=488",
+			"locked": false
+		},
+		{
+			"type": "text",
+			"version": 2055,
+			"versionNonce": 880859857,
+			"isDeleted": false,
+			"id": "s4vPf6ug",
+			"fillStyle": "hachure",
+			"strokeWidth": 0.5,
+			"strokeStyle": "dotted",
+			"roughness": 1,
+			"opacity": 100,
+			"angle": 0,
+			"x": 1834.0336532019535,
+			"y": 52.92086986472509,
+			"strokeColor": "#1864ab",
+			"backgroundColor": "transparent",
+			"width": 89,
+			"height": 270,
+			"seed": 915618815,
+			"groupIds": [
+				"WaZWFKJ3rNIV5mVHeSYzO"
+			],
+			"roundness": null,
+			"boundElements": null,
+			"updated": 1675262681660,
+			"link": null,
+			"locked": false,
+			"fontSize": 16,
+			"fontFamily": 2,
+			"text": "Source: \nSeerah: \nThe \nLife \nof \nthe \nProphet \nMuhammad \n(PBUH) \n- \nPart 1 \nBy \nSheikh \nShady \nAlsuleiman",
+			"rawText": "Source: \nSeerah: \nThe \nLife \nof \nthe \nProphet \nMuhammad \n(PBUH) \n- \nPart 1 \nBy \nSheikh \nShady \nAlsuleiman",
+			"baseline": 266,
+			"textAlign": "center",
+			"verticalAlign": "middle",
+			"containerId": "6OR9miBKVxKv9kA3K8YG0",
+			"originalText": "Source: \nSeerah: \nThe \nLife \nof \nthe \nProphet \nMuhammad \n(PBUH) \n- \nPart 1 \nBy \nSheikh \nShady \nAlsuleiman"
 		}
 	],
 	"appState": {
@@ -3106,10 +3194,10 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": 781.9961391899001,
-		"scrollY": 768.1743733032262,
+		"scrollX": -1192.7153160215557,
+		"scrollY": 515.0791883961058,
 		"zoom": {
-			"value": 0.30000000000000004
+			"value": 0.55
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": null,

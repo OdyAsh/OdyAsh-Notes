@@ -1,6 +1,9 @@
 .DS_Store
 .obsidian/appearance.json
 .obsidian/hotkeys.json
+.obsidian/plugins/obsidian-excalidraw-plugin/data.json
+remove.txt
 Day Planners/*
 Secrets/*
 Tasks/*
+
