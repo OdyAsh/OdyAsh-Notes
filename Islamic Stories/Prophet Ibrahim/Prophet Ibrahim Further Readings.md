@@ -1,4 +1,4 @@
-#Islam 
+#Before-Muhammad 
 
 # Ibrahim's Family
 Check [this](https://aboutislam.net/reading-islam/understanding-islam/the-bible-and-the-quran-on-abraham-and-his-sons/) article to know how the family of Ibrahim (a.s) was mentioned in the Quran and in the Bible.

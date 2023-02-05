@@ -3,24 +3,14 @@
   "reminders": {
     "Tasks/Kanban To Do.md": [
       {
-        "title": "sunrise prayer",
-        "time": "2023-02-04 06:30",
-        "rowNumber": 11
-      },
-      {
-        "title": "Explainable A.I @12",
-        "time": "2023-02-04 11:45",
-        "rowNumber": 41
-      },
-      {
         "title": "attend 7 habits to success meeting @12PM<br><br>",
         "time": "2023-02-19 06:00",
-        "rowNumber": 42
+        "rowNumber": 38
       },
       {
         "title": "say HBD to dad",
         "time": "2023-02-22 17:00",
-        "rowNumber": 43
+        "rowNumber": 39
       }
     ]
   },
@@ -28,7 +18,7 @@
   "settings": {
     "reminderTime": "09:00",
     "laters": "In 30 minutes\nIn 1 hour\nIn 3 hours\nTomorrow\nNext week",
-    "useSystemNotification": false,
+    "useSystemNotification": true,
     "autoCompleteTrigger": "(@",
     "primaryReminderFormat": "ReminderPluginReminderFormat",
     "enableReminderPluginReminderFormat": true,

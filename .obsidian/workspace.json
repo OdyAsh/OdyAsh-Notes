@@ -4,32 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "c18e7ab7b6f8a491",
+        "id": "cc3cd9b2dd096650",
         "type": "tabs",
         "children": [
           {
-            "id": "a32b23ea67885b31",
+            "id": "5aeaef2fcec4392e",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Islamic Stories/Arabs/The History Of Arabs.excalidraw.md"
+                "file": "Islamic Stories/Arabs/Before Muhammad.excalidraw.md"
               }
             }
           },
           {
-            "id": "62e635248acfd180",
+            "id": "1a7d8aab91aaa61a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "Islamic Stories/Miscellaneous/The Kaaba.md",
-                "mode": "source",
-                "source": false
+                "file": "Islamic Stories/Arabs/Before Muhammad.excalidraw.md"
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -58,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Islam",
+                "query": "tag:#Pre-Islamic-Arabia",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -95,7 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islamic Stories/Arabs/The History Of Arabs.excalidraw.md",
+                "file": "Islamic Stories/Arabs/Before Muhammad.excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islamic Stories/Arabs/The History Of Arabs.excalidraw.md",
+                "file": "Islamic Stories/Arabs/Before Muhammad.excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +134,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islamic Stories/Arabs/The History Of Arabs.excalidraw.md"
+                "file": "Islamic Stories/Arabs/Before Muhammad.excalidraw.md"
               }
             }
           },
@@ -175,17 +174,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a32b23ea67885b31",
+  "active": "1a7d8aab91aaa61a",
   "lastOpenFiles": [
-    "Islamic Stories/Miscellaneous/The Kaaba.md",
-    "Islamic Stories/Arabs/The History Of Arabs.excalidraw.md",
-    "Tasks/Kanban To Do.md",
-    "Islamic Stories/Terminologies.md",
+    "Islamic Stories/Arabs/Before Muhammad Further Readings.md",
     "Islamic Stories/Prophets Overview/Prophets Overview.excalidraw.md",
+    "Islamic Stories/Miscellaneous/The Kaaba.md",
     "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
     "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
+    "Islamic Stories/Arabs/Before Muhammad.excalidraw.md",
+    "Tasks/Kanban To Do.md",
+    "Islamic Stories/Terminologies.md",
     "Tasks/Adhaan Duas.md",
-    "Media/Islamic stories/Pasted Image 20230130072643_316.png",
-    "Media/Islamic stories/Hubal Idol - Pasted Image 20230201163102_521.png"
+    "Media/Islamic stories/Pasted Image 20230130072643_316.png"
   ]
 }

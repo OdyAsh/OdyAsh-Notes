@@ -1,7 +1,7 @@
 ---
 
 excalidraw-plugin: parsed
-tags: [excalidraw, Islam]
+tags: [excalidraw, Before-Muhammad]
 
 ---
 ==⚠  Switch to EXCALIDRAW VIEW in the MORE OPTIONS menu of this document. ⚠==
@@ -57,7 +57,7 @@ So Ibrahim went back to Palestine ^ZXf4Ipcs
 
 The people of Jurhum found zamzam due to [birds in the sky](https://youtu.be/6o8UmErRVZk?t=1198), and were allowed to drink from it and in return gave food to Hagar and her son Ismail ^94dX3GYN
 
-History of Arabs & [[Islamic Stories/Arabs/The History Of Arabs.excalidraw.md#^jokTAF1k|Jurhum tribe]] ^77JaG3Fk
+History of Arabs & [[Before Muhammad.excalidraw#^jokTAF1k|Jurhum tribe]] ^77JaG3Fk
 
 Ismail later married a woman from Jurhum's tribe, and became fluent in Arabic and thus his family were Arabized Arabs, as in non-Arabs who mixed with Arabs ^spGYd89q
 
