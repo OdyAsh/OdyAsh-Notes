@@ -4,21 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "cc3cd9b2dd096650",
+        "id": "2d415cf6f07e4bbf",
         "type": "tabs",
         "children": [
           {
-            "id": "5aeaef2fcec4392e",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Islamic Stories/Arabs/Before Muhammad.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "1a7d8aab91aaa61a",
+            "id": "31f6e7a5a3f111ec",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
@@ -27,8 +17,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -174,15 +163,15 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "1a7d8aab91aaa61a",
+  "active": "31f6e7a5a3f111ec",
   "lastOpenFiles": [
     "Islamic Stories/Arabs/Before Muhammad Further Readings.md",
-    "Islamic Stories/Prophets Overview/Prophets Overview.excalidraw.md",
-    "Islamic Stories/Miscellaneous/The Kaaba.md",
     "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
-    "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
+    "Islamic Stories/Prophets Overview/Prophets Overview.excalidraw.md",
     "Islamic Stories/Arabs/Before Muhammad.excalidraw.md",
     "Tasks/Kanban To Do.md",
+    "Islamic Stories/Miscellaneous/The Kaaba.md",
+    "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
     "Islamic Stories/Terminologies.md",
     "Tasks/Adhaan Duas.md",
     "Media/Islamic stories/Pasted Image 20230130072643_316.png"
