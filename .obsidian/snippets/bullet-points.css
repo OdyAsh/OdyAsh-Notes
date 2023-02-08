@@ -1,0 +1,10 @@
+/* space between bullet points */
+.markdown-preview-view ul {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.markdown-preview-view li {
+    padding-top: 40px;
+    padding-bottom: 40px;
+}

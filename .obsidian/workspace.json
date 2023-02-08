@@ -4,16 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "2d415cf6f07e4bbf",
+        "id": "641a465a2fa5582f",
         "type": "tabs",
         "children": [
           {
-            "id": "31f6e7a5a3f111ec",
+            "id": "c275ce1939634046",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "kanban",
               "state": {
-                "file": "Islamic Stories/Arabs/Before Muhammad.excalidraw.md"
+                "file": "Tasks/Kanban To Do.md"
+              }
+            }
+          },
+          {
+            "id": "7f123ddd31e048e7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/Azure/Setup Webjobs for Python Programs.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -83,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islamic Stories/Arabs/Before Muhammad.excalidraw.md",
+                "file": "Tasks/Kanban To Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islamic Stories/Arabs/Before Muhammad.excalidraw.md",
+                "file": "Tasks/Kanban To Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islamic Stories/Arabs/Before Muhammad.excalidraw.md"
+                "file": "Tasks/Kanban To Do.md"
               }
             }
           },
@@ -163,17 +175,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "31f6e7a5a3f111ec",
+  "active": "c275ce1939634046",
   "lastOpenFiles": [
-    "Media/Islamic stories/Pasted Image 20230130064536_465.png",
-    "Islamic Stories/Arabs/Before Muhammad.excalidraw.md",
-    "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
+    "Programming/Django/Debugging/Import Problems.md",
     "Tasks/Kanban To Do.md",
+    "Programming/Azure/Setup Webjobs for Python Programs.md",
+    "Programming/Django/Untitled.md",
+    "Islamic Stories/Arabs/Before Muhammad.excalidraw.md",
+    "Media/Islamic stories/Pasted Image 20230130064536_465.png",
+    "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
     "Islamic Stories/Arabs/Before Muhammad Further Readings.md",
     "Islamic Stories/Prophets Overview/Prophets Overview.excalidraw.md",
-    "Islamic Stories/Miscellaneous/The Kaaba.md",
-    "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
-    "Islamic Stories/Terminologies.md",
-    "Tasks/Adhaan Duas.md"
+    "Islamic Stories/Miscellaneous/The Kaaba.md"
   ]
 }
