@@ -4,48 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "641a465a2fa5582f",
+        "id": "55f6af9eea8b97c6",
         "type": "tabs",
         "children": [
           {
-            "id": "c275ce1939634046",
+            "id": "7c888e808a5e6a35",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "excalidraw",
               "state": {
-                "file": "Tasks/Kanban To Do.md"
+                "file": "Islamic Stories/Arabs/Before Muhammad.excalidraw.md"
               }
             }
           },
           {
-            "id": "86197f757300a7e3",
+            "id": "75489aebcdd31001",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Egypt IoT And AI 2023/Innovation Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "e45d1a93dedba75c",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Media/Default/Pasted image 20230208145008.png"
-              }
-            }
-          },
-          {
-            "id": "7f123ddd31e048e7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/Azure/Setup Webjobs for Python Programs.md",
+                "file": "Islamic Stories/Prophet Muhammad/Timeline of Prophet Muhammad.md",
                 "mode": "source",
                 "source": false
               }
@@ -118,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Egypt IoT And AI 2023/Innovation Notes.md",
+                "file": "Islamic Stories/Prophet Muhammad/Timeline of Prophet Muhammad.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Egypt IoT And AI 2023/Innovation Notes.md",
+                "file": "Islamic Stories/Prophet Muhammad/Timeline of Prophet Muhammad.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -158,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Egypt IoT And AI 2023/Innovation Notes.md"
+                "file": "Islamic Stories/Prophet Muhammad/Timeline of Prophet Muhammad.md"
               }
             }
           },
@@ -198,17 +176,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "86197f757300a7e3",
+  "active": "75489aebcdd31001",
   "lastOpenFiles": [
-    "Programming/Scraping/Xpath in Python.md",
+    "Islamic Stories/Arabs/Before Muhammad.excalidraw.md",
+    "Islamic Stories/Prophet Muhammad/Timeline of Prophet Muhammad.md",
+    "Islamic Stories/Prophet Muhammad/Prophet Muhammad.excalidraw.md",
+    "Islamic Stories/Terminologies.md",
+    "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
+    "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
+    "Islamic Stories/Arabs/Before Muhammad Further Readings.md",
+    "Islamic Stories/Miscellaneous/The Kaaba.md",
     "Programming/Azure/Setup Webjobs for Python Programs.md",
-    "Tasks/Kanban To Do.md",
-    "Media/Default/Pasted image 20230208145008.png",
-    "Media/Islamic stories/Pasted Image 20230130072713_320.png",
-    "Media/Default/Pasted image 20230208151751.png",
-    "Media/Default/Pasted image 20230208154359.png",
-    "Media/Default/Pasted image 20230208154305.png",
-    "Media/Default/Pasted image 20230209183846.png",
-    "Media/Islamic stories/Pasted Image 20230130072643_316.png"
+    "Tasks/Kanban To Do.md"
   ]
 }

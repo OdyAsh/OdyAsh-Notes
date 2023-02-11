@@ -1,4 +1,8 @@
 {
   "attachmentFolderPath": "Media/Default",
-  "alwaysUpdateLinks": true
+  "alwaysUpdateLinks": true,
+  "spellcheckDictionary": [
+    "Alsuleiman",
+    "Seerah"
+  ]
 }
