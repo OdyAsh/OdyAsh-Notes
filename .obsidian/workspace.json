@@ -4,33 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "55f6af9eea8b97c6",
+        "id": "437b938650562eb6",
         "type": "tabs",
         "children": [
           {
-            "id": "7c888e808a5e6a35",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Islamic Stories/Arabs/Before Muhammad.excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "75489aebcdd31001",
+            "id": "794adad1b3cf66a7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islamic Stories/Prophet Muhammad/Timeline of Prophet Muhammad.md",
+                "file": "Programming/Azure/Setup Webjobs for Python Programs.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -96,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islamic Stories/Prophet Muhammad/Timeline of Prophet Muhammad.md",
+                "file": "Programming/Azure/Setup Webjobs for Python Programs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islamic Stories/Prophet Muhammad/Timeline of Prophet Muhammad.md",
+                "file": "Programming/Azure/Setup Webjobs for Python Programs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -136,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islamic Stories/Prophet Muhammad/Timeline of Prophet Muhammad.md"
+                "file": "Programming/Azure/Setup Webjobs for Python Programs.md"
               }
             }
           },
@@ -176,7 +165,7 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "75489aebcdd31001",
+  "active": "794adad1b3cf66a7",
   "lastOpenFiles": [
     "Islamic Stories/Arabs/Before Muhammad.excalidraw.md",
     "Islamic Stories/Prophet Muhammad/Timeline of Prophet Muhammad.md",
