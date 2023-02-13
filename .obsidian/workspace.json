@@ -13,13 +13,24 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Azure/Setup Webjobs for Python Programs.md",
+                "file": "Egypt IoT And AI 2023/Innovation Notes.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "f97179a985d58215",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Tasks/Kanban To Do.md"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Azure/Setup Webjobs for Python Programs.md",
+                "file": "Tasks/Kanban To Do.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Azure/Setup Webjobs for Python Programs.md",
+                "file": "Tasks/Kanban To Do.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Azure/Setup Webjobs for Python Programs.md"
+                "file": "Tasks/Kanban To Do.md"
               }
             }
           },
@@ -165,17 +176,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "794adad1b3cf66a7",
+  "active": "f97179a985d58215",
   "lastOpenFiles": [
+    "Egypt IoT And AI 2023/Hybrid Session Smart Village.md",
+    "Egypt IoT And AI 2023/Innovation Notes.md",
+    "Tasks/Kanban To Do.md",
+    "Programming/Azure/Setup Webjobs for Python Programs.md",
     "Islamic Stories/Arabs/Before Muhammad.excalidraw.md",
     "Islamic Stories/Prophet Muhammad/Timeline of Prophet Muhammad.md",
     "Islamic Stories/Prophet Muhammad/Prophet Muhammad.excalidraw.md",
     "Islamic Stories/Terminologies.md",
     "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
-    "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
-    "Islamic Stories/Arabs/Before Muhammad Further Readings.md",
-    "Islamic Stories/Miscellaneous/The Kaaba.md",
-    "Programming/Azure/Setup Webjobs for Python Programs.md",
-    "Tasks/Kanban To Do.md"
+    "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim Further Readings.md"
   ]
 }
