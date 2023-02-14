@@ -28,9 +28,19 @@
                 "file": "Tasks/Kanban To Do.md"
               }
             }
+          },
+          {
+            "id": "41fea589c71e6dba",
+            "type": "leaf",
+            "state": {
+              "type": "kanban",
+              "state": {
+                "file": "Tasks/Kanban To Do.md"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -176,17 +186,17 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f97179a985d58215",
+  "active": "41fea589c71e6dba",
   "lastOpenFiles": [
+    "Programming/UX Design/Google's Foundation of User Design Course 1.md",
+    "Tasks/Kanban To Do.md",
     "Egypt IoT And AI 2023/Hybrid Session Smart Village.md",
     "Egypt IoT And AI 2023/Innovation Notes.md",
-    "Tasks/Kanban To Do.md",
     "Programming/Azure/Setup Webjobs for Python Programs.md",
     "Islamic Stories/Arabs/Before Muhammad.excalidraw.md",
     "Islamic Stories/Prophet Muhammad/Timeline of Prophet Muhammad.md",
     "Islamic Stories/Prophet Muhammad/Prophet Muhammad.excalidraw.md",
     "Islamic Stories/Terminologies.md",
-    "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
-    "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim Further Readings.md"
+    "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md"
   ]
 }
