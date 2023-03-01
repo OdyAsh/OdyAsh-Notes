@@ -10,5 +10,10 @@
   "obsidian-kanban",
   "obsidian-reminder-plugin",
   "mousewheel-image-zoom",
-  "obsidian-languagetool-plugin"
+  "obsidian-languagetool-plugin",
+  "cm-editor-syntax-highlight-obsidian",
+  "obsidian-codemirror-options",
+  "obsidian-style-settings",
+  "highlightr-plugin",
+  "omnisearch"
 ]

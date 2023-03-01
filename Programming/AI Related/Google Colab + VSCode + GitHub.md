@@ -1,0 +1,1 @@
+Check out the steps done under the `Cells for Google Colab` header in [this](https://github.com/OdyAsh/nlp-image-captioning/blob/main/dataset_preprocessing.ipynb) notebook file.

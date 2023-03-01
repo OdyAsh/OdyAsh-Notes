@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "794adad1b3cf66a7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Egypt IoT And AI 2023/Innovation Notes.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f97179a985d58215",
             "type": "leaf",
             "state": {
@@ -28,19 +16,8 @@
                 "file": "Tasks/Kanban To Do.md"
               }
             }
-          },
-          {
-            "id": "41fea589c71e6dba",
-            "type": "leaf",
-            "state": {
-              "type": "kanban",
-              "state": {
-                "file": "Tasks/Kanban To Do.md"
-              }
-            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +83,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks/Kanban To Do.md",
+                "file": "Secrets/Using ChatGBT in Restricted Countries.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +100,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tasks/Kanban To Do.md",
+                "file": "Secrets/Using ChatGBT in Restricted Countries.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +123,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks/Kanban To Do.md"
+                "file": "Secrets/Using ChatGBT in Restricted Countries.md"
               }
             }
           },
@@ -176,6 +153,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -186,17 +164,36 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "41fea589c71e6dba",
+  "active": "6bdbcbc0f4d6cc2c",
   "lastOpenFiles": [
-    "Programming/UX Design/Google's Foundation of User Design Course 1.md",
+    "Secrets/CHANGE DEFAULT MEDIA FOLDER IF YOU'LL ADD IMAGES IN SECRETS FOLDER.md",
+    "Secrets/Using ChatGBT in Restricted Countries.md",
+    "Media/Default/Pasted image 20230301064657.png",
+    "Media/Default/Pasted image 20230225065215.png",
+    "Media/Default/Pasted image 20230208145008.png",
+    "Islam/The Quran/1. Surah Al-Fatiha (الفاتحة).md",
     "Tasks/Kanban To Do.md",
-    "Egypt IoT And AI 2023/Hybrid Session Smart Village.md",
+    "Islam/The Quran",
+    "Programming/AI Related/Model Related.md",
+    "Programming/API Related/API Notes.md",
+    "Programming/Managing Files And Directories/Python OS.md",
+    "Programming/Company Related/Sharing Script for Company-Level Sharing Without Major Alterations.md",
+    "Programming/Django/Tips/Django's manage.py.md",
+    "Islam/Prophet Muhammad/الأئمة الربانيون.md",
+    "Islam/Prophet Muhammad/The Prophet's Companions.md",
+    "Programming/Django/Untitled.md",
+    "Programming/Django/Tips",
+    "Programming/Company Related",
+    "Programming/VS Code/Tips.md",
+    "Programming/Automation/VS Code.md",
+    "Programming/VS Code",
+    "Media/Default/Pasted image 20230224213026.png",
+    "['input_3', 0, 0, {}.md",
+    "Programming/AI Related/Google Colab + VSCode + GitHub.md",
+    "tmp.md",
     "Egypt IoT And AI 2023/Innovation Notes.md",
-    "Programming/Azure/Setup Webjobs for Python Programs.md",
-    "Islamic Stories/Arabs/Before Muhammad.excalidraw.md",
-    "Islamic Stories/Prophet Muhammad/Timeline of Prophet Muhammad.md",
-    "Islamic Stories/Prophet Muhammad/Prophet Muhammad.excalidraw.md",
-    "Islamic Stories/Terminologies.md",
-    "Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md"
+    "Programming/Automation/Browser-Related Automation.md",
+    "Programming/DB/Converting SQLite to pyodbc.md",
+    "Secrets/Quick Hacks/All Medium/Medium For All Extension.md"
   ]
 }

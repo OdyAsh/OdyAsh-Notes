@@ -1,0 +1,2 @@
+# Microsoft Sharepoint
+More info about it [here](https://medium.com/pythoneers/efficient-scripting-with-python-sharepoint-in-microsoft-office-365-41d30b4b199f) and [here](https://www.youtube.com/watch?v=0IxJ1WXAd8U)

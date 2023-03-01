@@ -10,3 +10,19 @@ def newest(path):
     paths = [os.path.join(path, basename) for basename in files]
     return max(paths, key=os.path.getctime)
 ```
+
+# Write Relative Directory Paths Based on CWD
+side-note: cwd --> current working directory
+
+If you have the following folder structure:
+* `project/`
+	* `A.ipynb`
+	* `helpers/`
+		* `B.ipynb`
+	* `dictionaries/`
+		* `C.txt
+
+suppose that A accesses B while the cwd is `project/`, (i.e., we're running A, which is calling B) then:
+if B wants to access C using relative paths, it should obey the relative structure of cwd, not its (i.e., B's location). In other words, what you should write in B to access C is:
+`dictionaries/C.txt` instead of `../dictionaries/C.txt`
+

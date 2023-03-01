@@ -1,0 +1,23 @@
+{
+  "CodeMirror Options@@cm5-minimal-embeds": true,
+  "CodeMirror Options@@cm-theme-selection": "cm-theme-custom",
+  "CodeMirror Options@@cm-background-color@@light": "#262626",
+  "CodeMirror Options@@cm-background-color@@dark": "#262626",
+  "CodeMirror Options@@cm-font-size": "14px",
+  "CodeMirror Options@@cm-font-monospace": "Jetbrains Mono, SFMono-Regular, Consolas, \"Roboto Mono\", monospace",
+  "CodeMirror Options@@cm-font-weight": 300,
+  "CodeMirror Options@@cm-comment@@light": "#5B8647",
+  "CodeMirror Options@@cm-comment@@dark": "#5B8647",
+  "CodeMirror Options@@cm-string@@light": "#CE9178",
+  "CodeMirror Options@@cm-string@@dark": "#CE9178",
+  "CodeMirror Options@@cm-variable@@light": "#9CDCFE",
+  "CodeMirror Options@@cm-variable@@dark": "#9CDCFE",
+  "CodeMirror Options@@cm-property@@light": "#DCDCAA",
+  "CodeMirror Options@@cm-property@@dark": "#DCDCAA",
+  "CodeMirror Options@@cm-number@@light": "#B5CEA8",
+  "CodeMirror Options@@cm-number@@dark": "#B5CEA8",
+  "CodeMirror Options@@cm-keyword@@light": "#569CD6",
+  "CodeMirror Options@@cm-keyword@@dark": "#569CD6",
+  "CodeMirror Options@@cm-def@@light": "#D6D6A3",
+  "CodeMirror Options@@cm-def@@dark": "#D6D6A3"
+}
