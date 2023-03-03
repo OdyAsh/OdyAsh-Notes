@@ -15,5 +15,7 @@
   "obsidian-codemirror-options",
   "obsidian-style-settings",
   "highlightr-plugin",
-  "omnisearch"
+  "omnisearch",
+  "obsidian-custom-frames",
+  "convert-url-to-iframe"
 ]

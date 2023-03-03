@@ -1,0 +1,16 @@
+{
+  "frames": [
+    {
+      "url": "https://sharegpt.com/c/",
+      "displayName": "chatgpt",
+      "icon": "bot",
+      "hideOnMobile": true,
+      "addRibbonIcon": true,
+      "openInCenter": false,
+      "zoomLevel": 0.8,
+      "forceIframe": false,
+      "customCss": "style=\"width:700px\""
+    }
+  ],
+  "padding": 2
+}

@@ -1,4 +1,117 @@
 # General Tips
+## Importing Images and Doing The Train/Val/Test Split
+
+### Using split-folders method
+create `split_dataset_folders.py` file with this code to split the dataset into 3 folders:
+```python
+# source: https://youtu.be/C6wbr1jJvVs
+
+# if you're using a .conda environment, run the following script in the terminal:
+# python split_dataset_folders.py
+
+import splitfolders  # or import split_folders
+
+input_folder = 'dataset/'
+
+# Split with a ratio.
+# To only split into training and validation set, set a tuple to `ratio`, i.e, `(.8, .2)`.
+#Train, val, test
+splitfolders.ratio(input_folder, output="dataset_split", 
+                   seed=42, ratio=(.7, .15, .15), 
+                   group_prefix=None) # default values
+
+
+# Split val/test with a fixed number of items e.g. 100 for each set.
+# To only split into training and validation set, use a single number to `fixed`, i.e., `10`.
+# enable oversampling of imbalanced datasets, works only with fixed
+# splitfolders.fixed(input_folder, output="dataset2", 
+#                    seed=42, fixed=(35, 20), 
+#                    oversample=False, group_prefix=None) 
+```
+
+Then, use the 3 folders like this:
+
+```python
+train_gen = train_datagen.flow_from_directory(f'{dataSplit}train/', classes=None, class_mode='categorical', # classes = None means that the classes will be inferred
+                                        target_size=(306,306), seed=42, batch_size=32, color_mode='rgb', shuffle=True) # will later change to color_mode = grayscale
+
+val_gen = val_datagen.flow_from_directory(f'{dataSplit}val/', classes=None, class_mode='categorical',
+                                        target_size=(306,306), seed=42, batch_size=32, color_mode='rgb', shuffle=True)
+
+test_gen = test_datagen.flow_from_directory(f'{dataSplit}test/', classes=None, class_mode='categorical',
+                                        target_size=(306,306), seed=42, batch_size=32, color_mode='rgb', shuffle=False)
+```
+
+such that the `test_gen` is used for this:
+
+```python
+from sklearn.metrics import classification_report
+yPredOneHotEncoded = model.predict(test_gen, workers=10)
+yTrue = test_gen.labels[:len(yPredOneHotEncoded)]
+crDict = classification_report(yTrue, np.argmax(yPredOneHotEncoded, axis=1), \
+							   target_names=list(test_gen.class_indices.keys()), \
+							   output_dict=True)
+```
+
+## Using `flow_from_directory()` and CSV method
+
+[source](<https://sharegpt.com/c/CjIgS2c#:~:text=can%20use%20the-,flow_from_dataframe,-()%20method%20of>)
+
+```python
+import pandas as pd
+from sklearn.model_selection import train_test_split
+from keras.preprocessing.image import ImageDataGenerator
+
+# Set the path to the directory containing all the image files
+data_dir = '/path/to/dataset'
+
+# Create a dataframe with the file paths and labels of your images
+data = pd.DataFrame({'filepath': [], 'label': []})
+for class_name in os.listdir(data_dir):
+    class_dir = os.path.join(data_dir, class_name)
+    file_names = os.listdir(class_dir)
+    file_paths = [os.path.join(class_dir, file_name) for file_name in file_names]
+    labels = [class_name] * len(file_names)
+    class_data = pd.DataFrame({'filepath': file_paths, 'label': labels})
+    data = pd.concat([data, class_data])
+
+# Split the dataframe into training, validation, and testing sets
+train_data, val_test_data = train_test_split(data, test_size=0.2, random_state=42)
+val_data, test_data = train_test_split(val_test_data, test_size=0.5, random_state=42)
+
+# Create an ImageDataGenerator object
+datagen = ImageDataGenerator(rescale=1./255,
+                             rotation_range=20,
+                             width_shift_range=0.2,
+                             height_shift_range=0.2,
+                             shear_range=0.2,
+                             zoom_range=0.2,
+                             horizontal_flip=True,
+                             fill_mode='nearest')
+
+# Use flow_from_dataframe() to create separate generators for the training, validation, and testing sets
+train_generator = datagen.flow_from_dataframe(dataframe=train_data,
+                                              x_col='filepath',
+                                              y_col='label',
+                                              target_size=(224, 224),
+                                              batch_size=32,
+                                              class_mode='categorical')
+
+val_generator = datagen.flow_from_dataframe(dataframe=val_data,
+                                            x_col='filepath',
+                                            y_col='label',
+                                            target_size=(224, 224),
+                                            batch_size=32,
+                                            class_mode='categorical')
+
+test_generator = datagen.flow_from_dataframe(dataframe=test_data,
+                                             x_col='filepath',
+                                             y_col='label',
+                                             target_size=(224, 224),
+                                             batch_size=32,
+                                             class_mode='categorical')
+```
+
 ## Make Sure To Pre-Process The Input Like What Was Done In The Pre-Trained Model
 Example is found here:
 ```python

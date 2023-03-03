@@ -11,13 +11,28 @@
             "id": "f97179a985d58215",
             "type": "leaf",
             "state": {
-              "type": "kanban",
+              "type": "markdown",
               "state": {
-                "file": "Tasks/Kanban To Do.md"
+                "file": "Islam/The Quran/1. Surah Al-Fatiha (الفاتحة).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "0bd10ce3ff048769",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -83,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Secrets/Using ChatGBT in Restricted Countries.md",
+                "file": "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -100,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Secrets/Using ChatGBT in Restricted Countries.md",
+                "file": "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -123,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Secrets/Using ChatGBT in Restricted Countries.md"
+                "file": "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md"
               }
             }
           },
@@ -164,17 +179,20 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "6bdbcbc0f4d6cc2c",
+  "active": "0bd10ce3ff048769",
   "lastOpenFiles": [
-    "Secrets/CHANGE DEFAULT MEDIA FOLDER IF YOU'LL ADD IMAGES IN SECRETS FOLDER.md",
+    "Islam/The Quran/1. Surah Al-Fatiha (الفاتحة).md",
+    "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
+    "Programming/AI Related/Model Related.md",
+    "Programming/AI Related/iframes/iframe1.md",
+    "Programming/AI Related/iframes",
+    "Tasks/Kanban To Do.md",
     "Secrets/Using ChatGBT in Restricted Countries.md",
+    "Secrets/CHANGE DEFAULT MEDIA FOLDER IF YOU'LL ADD IMAGES IN SECRETS FOLDER.md",
     "Media/Default/Pasted image 20230301064657.png",
     "Media/Default/Pasted image 20230225065215.png",
     "Media/Default/Pasted image 20230208145008.png",
-    "Islam/The Quran/1. Surah Al-Fatiha (الفاتحة).md",
-    "Tasks/Kanban To Do.md",
     "Islam/The Quran",
-    "Programming/AI Related/Model Related.md",
     "Programming/API Related/API Notes.md",
     "Programming/Managing Files And Directories/Python OS.md",
     "Programming/Company Related/Sharing Script for Company-Level Sharing Without Major Alterations.md",
