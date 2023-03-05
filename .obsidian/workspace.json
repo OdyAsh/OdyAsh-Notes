@@ -25,6 +25,18 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "Programming/VS Code/Tips.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "c0973d34b72a4b3d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
                 "mode": "source",
                 "source": false
@@ -32,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -168,6 +180,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-custom-frames:Open chatgpt": false,
       "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -179,22 +192,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0bd10ce3ff048769",
+  "active": "c0973d34b72a4b3d",
   "lastOpenFiles": [
-    "Islam/The Quran/1. Surah Al-Fatiha (الفاتحة).md",
+    "Programming/VS Code/Debugging.md",
+    "Media/Default/Pasted image 20230304163503.png",
+    "Programming/VS Code/Tips.md",
+    "Secrets/Regarding ChatGPT.md",
+    "Secrets/CHANGE DEFAULT MEDIA FOLDER IF YOU'LL ADD IMAGES IN SECRETS FOLDER.md",
+    "Programming/Managing Files And Directories/Python OS And Glob.md",
     "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
+    "Islam/The Quran/1. Surah Al-Fatiha (الفاتحة).md",
     "Programming/AI Related/Model Related.md",
     "Programming/AI Related/iframes/iframe1.md",
     "Programming/AI Related/iframes",
     "Tasks/Kanban To Do.md",
-    "Secrets/Using ChatGBT in Restricted Countries.md",
-    "Secrets/CHANGE DEFAULT MEDIA FOLDER IF YOU'LL ADD IMAGES IN SECRETS FOLDER.md",
     "Media/Default/Pasted image 20230301064657.png",
     "Media/Default/Pasted image 20230225065215.png",
     "Media/Default/Pasted image 20230208145008.png",
     "Islam/The Quran",
     "Programming/API Related/API Notes.md",
-    "Programming/Managing Files And Directories/Python OS.md",
     "Programming/Company Related/Sharing Script for Company-Level Sharing Without Major Alterations.md",
     "Programming/Django/Tips/Django's manage.py.md",
     "Islam/Prophet Muhammad/الأئمة الربانيون.md",
@@ -202,7 +218,6 @@
     "Programming/Django/Untitled.md",
     "Programming/Django/Tips",
     "Programming/Company Related",
-    "Programming/VS Code/Tips.md",
     "Programming/Automation/VS Code.md",
     "Programming/VS Code",
     "Media/Default/Pasted image 20230224213026.png",
