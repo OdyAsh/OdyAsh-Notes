@@ -20,18 +20,6 @@
             }
           },
           {
-            "id": "0bd10ce3ff048769",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/VS Code/Tips.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c0973d34b72a4b3d",
             "type": "leaf",
             "state": {
@@ -42,21 +30,9 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "427d340c7b70c766",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Privacy/Be Careful How You Send Data.md",
-                "mode": "source",
-                "source": false
-              }
-            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -206,23 +182,31 @@
   },
   "active": "c0973d34b72a4b3d",
   "lastOpenFiles": [
-    "Privacy/Be Careful How You Send Data.md",
+    "Islam/The Quran/1. Surah Al-Fatiha (الفاتحة).md",
+    "Programming/VS Code/VS Code Tips.md",
     "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
+    "Programming/Python/Dealing With Arabic.md",
+    "Media/Default/Pasted image 20230308203518.png",
+    "Media/Default/Pasted image 20230308203432.png",
+    "Media/Default/Pasted image 20230308203421.png",
+    "Media/Default/Pasted image 20230308203048.png",
+    "Media/Default/Pasted image 20230308202929.png",
+    "Media/Default/Pasted image 20230308201503.png",
+    "Media/Default/Pasted image 20230308201426.png",
+    "Media/Default/Pasted image 20230308200855.png",
+    "Media/Default/Pasted image 20230308200702.png",
+    "Media/Default/Pasted image 20230308200604.png",
+    "Programming/Python",
+    "Privacy/Be Careful How You Send Data.md",
     "Privacy",
     "Programming/VS Code/Debugging.md",
-    "Media/Default/Pasted image 20230304163503.png",
-    "Programming/VS Code/Tips.md",
     "Secrets/Regarding ChatGPT.md",
     "Secrets/CHANGE DEFAULT MEDIA FOLDER IF YOU'LL ADD IMAGES IN SECRETS FOLDER.md",
     "Programming/Managing Files And Directories/Python OS And Glob.md",
-    "Islam/The Quran/1. Surah Al-Fatiha (الفاتحة).md",
     "Programming/AI Related/Model Related.md",
     "Programming/AI Related/iframes/iframe1.md",
     "Programming/AI Related/iframes",
     "Tasks/Kanban To Do.md",
-    "Media/Default/Pasted image 20230301064657.png",
-    "Media/Default/Pasted image 20230225065215.png",
-    "Media/Default/Pasted image 20230208145008.png",
     "Islam/The Quran",
     "Programming/API Related/API Notes.md",
     "Programming/Company Related/Sharing Script for Company-Level Sharing Without Major Alterations.md",
@@ -234,13 +218,11 @@
     "Programming/Company Related",
     "Programming/Automation/VS Code.md",
     "Programming/VS Code",
-    "Media/Default/Pasted image 20230224213026.png",
     "['input_3', 0, 0, {}.md",
     "Programming/AI Related/Google Colab + VSCode + GitHub.md",
     "tmp.md",
     "Egypt IoT And AI 2023/Innovation Notes.md",
     "Programming/Automation/Browser-Related Automation.md",
-    "Programming/DB/Converting SQLite to pyodbc.md",
-    "Secrets/Quick Hacks/All Medium/Medium For All Extension.md"
+    "Programming/DB/Converting SQLite to pyodbc.md"
   ]
 }
