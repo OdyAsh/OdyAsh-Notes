@@ -8,18 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f97179a985d58215",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Islam/The Quran/1. Surah Al-Fatiha (الفاتحة).md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "c0973d34b72a4b3d",
             "type": "leaf",
             "state": {
@@ -31,8 +19,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -182,27 +169,34 @@
   },
   "active": "c0973d34b72a4b3d",
   "lastOpenFiles": [
-    "Islam/The Quran/1. Surah Al-Fatiha (الفاتحة).md",
+    "Programming/Python/Dealing With Strings.md",
+    "Media/Default/Pasted image 20230310205337.png",
+    "Programming/Python/Virtual Environments/Conda Environment.md",
+    "Programming/Python/Virtual Environments",
+    "Programming/Managing Files And Directories/Python OS And Glob.md",
+    "Programming/Python/Dealing With Images/Understanding Images Viewed In Windows And In Python.md",
+    "Media/Default/Pasted image 20230310100312.png",
+    "Media/Default/Pasted image 20230310100258.png",
+    "Media/Default/Pasted image 20230310100228.png",
+    "Media/Default/Pasted image 20230310100215.png",
+    "Media/Default/Pasted image 20230310094843.png",
+    "Media/Default/Pasted image 20230310094816.png",
+    "Media/Default/Pasted image 20230310094717.png",
+    "Media/Default/Pasted image 20230310091037.png",
+    "Media/Default/Pasted image 20230310090923.png",
+    "Programming/Managing Files And Directories/File Renaming Tools.md",
+    "Programming/Python/Dealing With Images",
     "Programming/VS Code/VS Code Tips.md",
+    "Islam/Prophet Adam/Prophet Adam.md",
     "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
-    "Programming/Python/Dealing With Arabic.md",
-    "Media/Default/Pasted image 20230308203518.png",
-    "Media/Default/Pasted image 20230308203432.png",
-    "Media/Default/Pasted image 20230308203421.png",
-    "Media/Default/Pasted image 20230308203048.png",
-    "Media/Default/Pasted image 20230308202929.png",
-    "Media/Default/Pasted image 20230308201503.png",
-    "Media/Default/Pasted image 20230308201426.png",
-    "Media/Default/Pasted image 20230308200855.png",
-    "Media/Default/Pasted image 20230308200702.png",
-    "Media/Default/Pasted image 20230308200604.png",
+    "Islam/Prophet Adam",
+    "Islam/The Quran/1. Surah Al-Fatiha (الفاتحة).md",
     "Programming/Python",
     "Privacy/Be Careful How You Send Data.md",
     "Privacy",
     "Programming/VS Code/Debugging.md",
     "Secrets/Regarding ChatGPT.md",
     "Secrets/CHANGE DEFAULT MEDIA FOLDER IF YOU'LL ADD IMAGES IN SECRETS FOLDER.md",
-    "Programming/Managing Files And Directories/Python OS And Glob.md",
     "Programming/AI Related/Model Related.md",
     "Programming/AI Related/iframes/iframe1.md",
     "Programming/AI Related/iframes",
@@ -219,10 +213,6 @@
     "Programming/Automation/VS Code.md",
     "Programming/VS Code",
     "['input_3', 0, 0, {}.md",
-    "Programming/AI Related/Google Colab + VSCode + GitHub.md",
-    "tmp.md",
-    "Egypt IoT And AI 2023/Innovation Notes.md",
-    "Programming/Automation/Browser-Related Automation.md",
-    "Programming/DB/Converting SQLite to pyodbc.md"
+    "Programming/AI Related/Google Colab + VSCode + GitHub.md"
   ]
 }

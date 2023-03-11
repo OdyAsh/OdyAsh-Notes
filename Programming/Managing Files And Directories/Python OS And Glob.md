@@ -8,11 +8,12 @@ In the context of the glob function, **/* is a pattern that matches all files an
 
 The recursive=True argument is used to make the glob function search for files recursively. When this argument is set to True, glob will search for files in all subdirectories of the specified path, not just in the top-level directory.
 
+Side note: <mark style="background: #D2B3FFA6;">`glob()` doesn't see hidden folders (e.g., `.stfolder`), while `listdir()` does</mark>
+
 # Get the latest file in a folder
 check [this](<https://stackoverflow.com/questions/39327032/how-to-get-the-latest-file-in-a-folder#:~:text=But%20this%20list%20lists%20only%20the%20filename%20parts%20(a.%20k.%20a.%20%22basenames%22)%2C%20because%20their%20path%20is%20common.%20In%20order%20to%20use%20it%20correctly%2C%20you%20have%20to%20combine%20it%20with%20the%20path%20leading%20to%20it%20(and%20used%20to%20obtain%20it).>)
-Exerpt:
-But this list lists only the filename parts (a. k. a. "basenames"), because their path is common. In order to use it correctly, you have to combine it with the path leading to it (and used to obtain it).
-Such as (untested):
+Excerpt from the source:
+> noting that this list lists only the filename parts (a. k. a. "basename"), because their path is common. In order to use it correctly, you have to combine it with the path leading to it (and used to obtain it). Such as (untested):
 
 ```python
 def newest(path):

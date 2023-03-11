@@ -1,4 +1,13 @@
-# Python Implicitly Reorders RTL
+# Tips
+## Remove Redundant Whitespaces
+
+![[Pasted image 20230310205337.png|475]]
+
+Notice that if we swapped the replace() functions, then one "|" would remain
+
+# Arabic
+
+## Python Implicitly Reorders RTL
 
 note: RLT == Right To Left
 

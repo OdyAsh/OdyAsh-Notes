@@ -14,5 +14,6 @@
     "bacpac",
     "webjob",
     "webapp"
-  ]
+  ],
+  "spellcheck": true
 }
