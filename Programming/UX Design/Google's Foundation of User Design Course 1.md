@@ -1,6 +1,6 @@
-# Types of User Designers
+# Types of UX Designers
 
-![[Pasted image 20230214174237.png|400]]
+![[Pasted image 20230214174237.png|400]] ^8gz369
 
 ![[Pasted image 20230214174307.png|400]]
 
@@ -15,5 +15,64 @@
 
 ![[Pasted image 20230214174514.png|400]]
 
+# Roles That UX Designers Interact With
 
+![[Pasted image 20230314052021.png|400]]
+
+![[Pasted image 20230314052053.png|400]]
+(for example, what to write as label on a button, to make what it does it clear to the user)
+
+![[Pasted image 20230314052221.png|400]]
+ ^kcao74
+("functioning experience", like a website or app)
+
+![[Pasted image 20230314052258.png|400]]
+(they act as a bridge between In [[Google's Foundation of User Design Course 1#^8gz369|Interaction Designers]] and [[Google's Foundation of User Design Course 1#^kcao74|UX engineers]])
+
+![[Pasted image 20230314052619.png|400]]
+(includes setting up goals, and writing project plans)
+
+
+# Product Development Life Cycle
+
+![[Pasted image 20230314053934.png|300]]
+
+Stages of Product Development Life Cycle:
+
+1.  Brainstorm:
+
+-   Active discovery stage
+-   **Generate ideas about the user and potential needs or challenges**
+-   Identify needs or challenges the audience may have
+-   **UX researchers and writers heavily involved**
+-   Conduct interviews with potential users or conduct other research
+
+2.  Define:
+
+-   Use insights from the brainstorm stage
+-   Start to narrow the focus
+-   **Determine concrete ways that the product being developed will impact the user**
+-   **Outline the goals or problems you want to answer with the product design**
+
+3.  Design:
+
+-   UX designers actively develop ideas
+-   Check that all specifications from the define stage are realistic
+-   Generate designs that keep the user top of mind
+-   **Create storyboards, wireframes, prototypes**
+-   Ensure designs are practical and functional
+
+4.  Test:
+
+-   Evaluate product design based on feedback from potential users
+-   Identify areas to refine or improve designs
+-   **Consider interactivity of the design**
+-   **Interaction between UX designers and front-end engineers**
+
+5.  Launch:
+
+-   **Sharing a finished version of the product with the public**
+-   List an app in the Google Play Store or Apple's App Store, make a website go live, or put a physical product on store shelves
+-   Chance to understand how designs will be received in the real world
+-   Opportunity to improve on designs or learn even more about the user experience based on feedback
 

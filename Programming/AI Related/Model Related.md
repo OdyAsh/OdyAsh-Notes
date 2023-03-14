@@ -1,4 +1,8 @@
-# General Tips
+# TensorFlow vs PyTorch
+
+Check out [this](https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/) article
+
+# TensorFlow Tips
 ## Importing Images and Doing The Train/Val/Test Split
 
 ### Using split-folders method
