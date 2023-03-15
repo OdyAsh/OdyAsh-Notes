@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
+                "file": "Programming/UX Design/Google's Foundation of User Design Course 1.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "071c1806066d5b51",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/UX Design/Key Components of Web Design.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
+                "file": "Programming/UX Design/Key Components of Web Design.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
+                "file": "Programming/UX Design/Key Components of Web Design.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md"
+                "file": "Programming/UX Design/Key Components of Web Design.md"
               }
             }
           },
@@ -167,12 +180,14 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "c0973d34b72a4b3d",
+  "active": "071c1806066d5b51",
   "lastOpenFiles": [
+    "Programming/UX Design/Google's Foundation of User Design Course 1.md",
+    "Programming/UX Design/Key Components of Web Design.md",
+    "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
     "Media/Default/Pasted image 20230314055839.png",
     "Media/Default/Pasted image 20230314055804.png",
     "Media/Default/Pasted image 20230314055727.png",
-    "Programming/UX Design/Google's Foundation of User Design Course 1.md",
     "Media/Default/Pasted image 20230314053934.png",
     "Media/Default/Pasted image 20230314053258.png",
     "Media/Default/Pasted image 20230314052619.png",
@@ -182,11 +197,9 @@
     "Media/Default/Pasted image 20230314052021.png",
     "Programming/AI Related/Model Related.md",
     "Programming/Python/Virtual Environments/Conda Environment.md",
-    "Media/Default/Pasted image 20230313190658.png",
     "Programming/VS Code/Debugging.md",
     "used command to get `environment.yml` file.md",
     "Programming/Managing Files And Directories/Python OS And Glob.md",
-    "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
     "Programming/Python/Dealing With Strings.md",
     "Programming/Python/Virtual Environments",
     "Programming/Python/Dealing With Images/Understanding Images Viewed In Windows And In Python.md",

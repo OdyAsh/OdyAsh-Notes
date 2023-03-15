@@ -76,3 +76,11 @@ Stages of Product Development Life Cycle:
 -   Chance to understand how designs will be received in the real world
 -   Opportunity to improve on designs or learn even more about the user experience based on feedback
 
+# Characteristics of A Good UX
+-   Good UX design has primary characteristics: **usable, equitable, enjoyable, and useful**.
+-   Usability means the design is clear, easy to use, and functional for specific tasks.
+-   <mark style="background: #BBFABBA6;">Equity means the design addresses the needs of diverse groups</mark> and ensures a high-quality experience for all users.
+-   Enjoyability means the design creates a positive connection with users and delights them.
+-   Usefulness means the design intentionally solves a user problem and adds value to their experience.
+-   Examples of great UX design can be found in everyday objects, as highlighted by the Google Design team.
+
