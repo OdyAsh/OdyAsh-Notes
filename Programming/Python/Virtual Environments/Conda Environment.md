@@ -10,7 +10,7 @@ But what if you have already a project with both pip and conda installed package
 Then for each time you pip uninstall a package, you must add it to a file called pip-removed.txt , and for each time you conda export an environment.yml file, you must make sure all packages in pip-removed.txt are not in the exported environment.yml file... but that's the easy way...
 
 However, IF you want to lose your soul (or have already lost it), you can do the following (courtesy of the [chat history](https://sharegpt.com/c/zCNgQOx) with ChatGPT):
-1. add `pip_uninstall.py` to your main project's directory, and write this code in it:
+1. add `pip_install.py` to your main project's directory, and write this code in it: ^vi0c08
 
 ```python
 import subprocess

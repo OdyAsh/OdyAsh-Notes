@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "437b938650562eb6",
+        "id": "74c0292bd1d7cd5f",
         "type": "tabs",
         "children": [
           {
-            "id": "c0973d34b72a4b3d",
+            "id": "cc525d7668ef900c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/UX Design/Google's Foundation of User Design Course 1.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "071c1806066d5b51",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/UX Design/Key Components of Web Design.md",
+                "file": "Programming/UX Design/Layout Component.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -61,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#Pre-Islamic-Arabia",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/UX Design/Key Components of Web Design.md",
+                "file": "Programming/UX Design/Layout Component.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/UX Design/Key Components of Web Design.md",
+                "file": "Programming/UX Design/Layout Component.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,16 +125,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/UX Design/Key Components of Web Design.md"
+                "file": "Programming/UX Design/Layout Component.md"
               }
-            }
-          },
-          {
-            "id": "a4be65e3f9ac59f1",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {}
             }
           },
           {
@@ -155,6 +134,14 @@
             "type": "leaf",
             "state": {
               "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "f07397f9519fb7b4",
+            "type": "leaf",
+            "state": {
+              "type": "reminder-list",
               "state": {}
             }
           }
@@ -175,28 +162,40 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "071c1806066d5b51",
+  "active": "cc525d7668ef900c",
   "lastOpenFiles": [
-    "Programming/UX Design/Google's Foundation of User Design Course 1.md",
+    "Media/Default/Pasted image 20230324070237.png",
+    "Media/Default/Pasted image 20230324070228.png",
+    "Media/Default/Pasted image 20230324070217.png",
+    "Media/Default/Pasted image 20230324070207.png",
+    "Media/Default/Pasted image 20230324070200.png",
     "Programming/UX Design/Key Components of Web Design.md",
     "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
+    "Programming/UX Design/Google's Foundation of UX Design - Course 1.md",
+    "Programming/Python/Virtual Environments/Conda Environment.md",
+    "Writing/Vocabulary.md",
+    "Obsidian/Cool Plugins.md",
+    "Media/Default/Pasted image 20230321072509.png",
+    "Obsidian",
+    "Writing",
+    "Programming/Azure/Setup Webjobs for Python Programs.md",
+    "Tasks/Kanban To Do.md",
+    "Programming/UX Design/Layout Component.md",
+    "Programming/Versioning/Git And GitHub.md",
+    "Programming/Versioning",
+    "Programming/Python/Debugging Python Code.md",
+    "Media/Default/Pasted image 20230316054421.png",
+    "Islam/Miscellaneous/Sabians.md",
     "Media/Default/Pasted image 20230314055839.png",
     "Media/Default/Pasted image 20230314055804.png",
     "Media/Default/Pasted image 20230314055727.png",
     "Media/Default/Pasted image 20230314053934.png",
-    "Media/Default/Pasted image 20230314053258.png",
-    "Media/Default/Pasted image 20230314052619.png",
-    "Media/Default/Pasted image 20230314052258.png",
-    "Media/Default/Pasted image 20230314052221.png",
-    "Media/Default/Pasted image 20230314052053.png",
-    "Media/Default/Pasted image 20230314052021.png",
     "Programming/AI Related/Model Related.md",
-    "Programming/Python/Virtual Environments/Conda Environment.md",
     "Programming/VS Code/Debugging.md",
     "used command to get `environment.yml` file.md",
     "Programming/Managing Files And Directories/Python OS And Glob.md",
@@ -214,19 +213,7 @@
     "Privacy",
     "Secrets/Regarding ChatGPT.md",
     "Secrets/CHANGE DEFAULT MEDIA FOLDER IF YOU'LL ADD IMAGES IN SECRETS FOLDER.md",
-    "Programming/AI Related/iframes/iframe1.md",
     "Programming/AI Related/iframes",
-    "Tasks/Kanban To Do.md",
-    "Islam/The Quran",
-    "Programming/API Related/API Notes.md",
-    "Programming/Company Related/Sharing Script for Company-Level Sharing Without Major Alterations.md",
-    "Programming/Django/Tips/Django's manage.py.md",
-    "Islam/Prophet Muhammad/الأئمة الربانيون.md",
-    "Islam/Prophet Muhammad/The Prophet's Companions.md",
-    "Programming/Django/Untitled.md",
-    "Programming/Django/Tips",
-    "Programming/Company Related",
-    "Programming/Automation/VS Code.md",
-    "Programming/VS Code"
+    "Islam/The Quran"
   ]
 }
