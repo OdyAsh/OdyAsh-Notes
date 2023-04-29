@@ -6,7 +6,7 @@ Run the following commands:
 ```cmd
 git lfs install
 
-git lfs track
+git lfs track --filename [file path]
 
 git lfs push --all origin main
 

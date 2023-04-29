@@ -5,6 +5,12 @@
 
 Notice that if we swapped the replace() functions, then one "|" would remain
 
+## pre-allocate space for strings using ":<" in f-strings
+
+```python
+print(f'{var_a:<30}{var_b:<30}{var_c:<30}')
+```
+
 # Arabic
 
 ## Python Implicitly Reorders RTL

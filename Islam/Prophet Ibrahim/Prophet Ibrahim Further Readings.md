@@ -11,3 +11,5 @@ Excerpts:
 ...
 > Putting aside any bias, this shows that there is a clear connection between Abraham, Isaac, Ishmael, Moses, Jesus and Muhammad (peace be upon them all).
 
+Note about Ismail (a.s) ([source](https://youtu.be/LI99lWP1zac?list=PLSSxr3Rf2_X2oKwiy4UhzIdj4ACzB6dee&t=1316)): Since Ismail (a.s) was Non-Arab, but he settled in Mecca and married and Arabian woman, anyone who comes from his lineage is called Adnan (عدنان), while the "100%" Arabs are called (القحتانية) 
+

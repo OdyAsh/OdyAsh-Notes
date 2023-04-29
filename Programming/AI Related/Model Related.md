@@ -1,6 +1,77 @@
+# HuggingFace
+
+## Making HF's `datasets` similar to `flow_from_dataframe()`
+
+Step 1:
+create large df of 2 columns: `filepath` and `label`:
+
+```python
+# Create a dataframe with the file paths and labels of your images
+all_images_df = pd.DataFrame({'filepath': [], 'label': []})
+for class_name in [cn for cn in os.listdir(dataDir) if not cn.startswith('.')]: # to avoid hidden folders
+    class_dir = joinPaths(dataDir, class_name)
+    file_names = os.listdir(class_dir)
+    file_paths = [joinPaths(class_dir, file_name) for file_name in file_names]
+    labels = [class_name] * len(file_names)
+    class_data = pd.DataFrame({'filepath': file_paths, 'label': labels})
+    all_images_df = pd.concat([all_images_df, class_data])
+len(all_images_df), all_images_df['label'].value_counts()
+```
+
+Step 2:
+train/val/test split:
+
+```python
+# Split the dataframe into training (70%), validation (15%), and testing (15%) sets
+train_data, val_test_data = train_test_split(all_images_df, test_size=0.3, random_state=42, shuffle=True)
+val_data, test_data = train_test_split(val_test_data, test_size=0.5, random_state=42, shuffle=True)
+
+train_data.to_csv(dataReDir+'train_datav01.csv', index=False) # uncomment these 3 lines of code if the images are updated
+val_data.to_csv(dataReDir+'val_datav01.csv', index=False) 
+test_data.to_csv(dataReDir+'test_datav01.csv', index=False) 
+```
+
+then you can later load them like so:
+
+```python
+train_data = pd.read_csv(dataReDir+'train_datav01.csv')
+val_data = pd.read_csv(dataReDir+'val_datav01.csv')
+test_data = pd.read_csv(dataReDir+'test_datav01.csv')
+```
+
+Step 3:
+use `load_dataset()` with these arguments:
+
+```python
+from datasets import load_dataset
+
+data_files = {'train': list(train_data[filepath]),
+              'val': list(val_data[filepath]),
+              'test': list(test_data[filepath])}
+
+dataset = load_dataset(r'D:\CS\projects\graduation_project\dataset', name='abc', data_files=data_files, streaming=True)
+```
+
+then it can be iterated from its generator like so:
+
+```python
+next(dataset['train'].iter(batch_size))['image']
+```
+
+however, this technique is flawed, as it doesn't encode the labels of each filepath, so we don't know any of the images' classes.
+
+
+
 # TensorFlow vs PyTorch
 
+## Theoretical
 Check out [this](https://www.assemblyai.com/blog/pytorch-vs-tensorflow-in-2023/) article
+
+## Practical
+### Input to Model
+the input shape of the PyTorch model is `(batch_size, num_channels, height, width)`, where `batch_size` can be any positive integer, unlike in TensorFlow where the input shape is fixed at `(width, height, num_channels)`. This is because PyTorch expects the batch dimension to be specified explicitly in the input tensor, whereas TensorFlow implicitly assumes a batch size of 1.
+
+
 
 # TensorFlow Tips
 ## Importing Images and Doing The Train/Val/Test Split
