@@ -19,7 +19,7 @@ elements.forEach((el)=>{
 	
 	// letterWidth <=> approximate width of letter in sentence
 	var letterWidth = el.width / totalLetters;
-	var startOffset = el.x+el.width; // in arabic, "+" makes text go right.  the last arabic letter is positioned at startOffset location
+	var startOffset = el.x+el.width; // in Arabic, "+" makes text go right. the last Arabic letter is positioned at startOffset location
 	var first = 1;
 	sentence.forEach((word)=>{
 		firstTerm = first*word.length*letterWidth;

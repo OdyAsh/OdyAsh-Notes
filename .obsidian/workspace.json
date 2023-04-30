@@ -4,26 +4,26 @@
     "type": "split",
     "children": [
       {
-        "id": "2dac70e7622f698e",
+        "id": "b694b80b52d3d4a9",
         "type": "tabs",
         "children": [
           {
-            "id": "2a036f4765d7aafa",
+            "id": "1044a38233000051",
             "type": "leaf",
             "state": {
               "type": "excalidraw",
               "state": {
-                "file": "Islam/The Quran/Drawing 2023-04-28 17.23.23.excalidraw.md"
+                "file": "Islam/The Quran/3. Surah An-Najm (النجم).excalidraw.md"
               }
             }
           },
           {
-            "id": "f583b8fcc8a43f93",
+            "id": "e59ff19e6836d8c8",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Excalidraw/Scripts/Downloaded/Split text by space (Arabic).md",
+                "file": "Excalidraw/Scripts/Downloaded/Split text by space (English).md",
                 "mode": "source",
                 "source": false
               }
@@ -95,7 +95,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/The Quran/Drawing 2023-04-28 17.23.23.excalidraw.md",
+                "file": "Islam/The Quran/3. Surah An-Najm (النجم).excalidraw.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +112,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/The Quran/Drawing 2023-04-28 17.23.23.excalidraw.md",
+                "file": "Islam/The Quran/3. Surah An-Najm (النجم).excalidraw.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +135,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/The Quran/Drawing 2023-04-28 17.23.23.excalidraw.md"
+                "file": "Islam/The Quran/3. Surah An-Najm (النجم).excalidraw.md"
               }
             }
           },
@@ -185,17 +185,27 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "2a036f4765d7aafa",
+  "active": "6bdbcbc0f4d6cc2c",
   "lastOpenFiles": [
+    "Obsidian/Workflow Tips/quran notes workflow (2023-04-30_7-05-23).mp4",
+    "Obsidian/Workflow Tips",
+    "Excalidraw/Scripts/Downloaded/Split text by space (English).md",
+    "Islam/The Quran/3. Surah An-Najm (النجم).excalidraw.md",
+    "Excalidraw/Scripts/Downloaded/Split text by lines.md",
     "Excalidraw/Scripts/Downloaded/Split text by space (Arabic).md",
-    "Islam/The Quran/Drawing 2023-04-28 17.23.23.excalidraw.md",
+    "Media/Quran/Pasted Image 20230430050529_624.png",
+    "Media/Quran",
+    "Media/Default/Pasted image 20230208145008.png",
+    "Media/Default/Pasted Image 20230430050444_577.png",
+    "Islam/The Quran/Untitled.canvas",
+    "Islam/The Quran/3. Surah An-Najm (النجم).md",
+    "Excalidraw/Scripts/Downloaded/Rename Image 1.svg",
+    "Excalidraw/Scripts/Downloaded/Rename Image 1.md",
+    "Excalidraw/Scripts/Downloaded/Downloaded",
     "Excalidraw/Scripts/Downloaded/Split text by lines.svg",
     "Excalidraw/Scripts/Downloaded/Add Connector Point.md",
     "Excalidraw/Scripts/Downloaded/Add Connector Point.svg",
     "Excalidraw/Scripts/Downloaded/Add Connector Point 1.md",
-    "Excalidraw/Scripts/Downloaded/Downloaded",
-    "Excalidraw/Scripts/Downloaded/Split text by lines.md",
-    "Islam/The Quran/2. Surah An-Najm (النجم).md",
     "Programming/AI Related/Model Related.md",
     "Excalidraw/Scripts/Downloaded/Rename Image.md",
     "Excalidraw/Scripts/Downloaded/Rename Image.svg",
@@ -220,17 +230,9 @@
     "Islam/Pre-Islamic World/Pre-Islamic World Map.md",
     "Media/Default/Pasted image 20230417181527.png",
     "Islam/The Quran/x. Surah ... (ال) - Template.md",
-    "Islam/Terminologies.md",
     "Media/Default/Pasted image 20230330114749.png",
-    "Programming/Versioning/Git And GitHub.md",
     "Media/Default/how to add citations to word online using mendeley.gif",
-    "Media/Default/Pasted image 20230324070237.png",
-    "Media/Default/Pasted image 20230324070228.png",
-    "Media/Default/Pasted image 20230324070217.png",
-    "Media/Default/Pasted image 20230324070207.png",
     "Obsidian",
-    "Writing",
-    "Programming/Versioning",
-    "Programming/Python/Virtual Environments"
+    "Writing"
   ]
 }
