@@ -1,2 +1,2 @@
-# Islamic-Stories
-Brief overview of Islamic stories that I discover
+# OdyAsh-Notes
+Notes ranging from Programming, and file management to Islamic notes :]
