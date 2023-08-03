@@ -18,7 +18,9 @@
   "omnisearch",
   "obsidian-custom-frames",
   "convert-url-to-iframe",
-  "text-extractor",
   "obsidian-text-format",
-  "obsidian-image-toolkit"
+  "obsidian-image-toolkit",
+  "obsidian-plugin-toc",
+  "text-extractor",
+  "obsidian-editor-shortcuts"
 ]

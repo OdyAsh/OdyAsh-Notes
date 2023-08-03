@@ -1,4 +1,33 @@
-# TIP: Try To `conda install` Instead Of `pip install`
+I highly suggest watching [this](https://www.youtube.com/watch?v=8s5aj3sjuVE) video to understand the difference between conda and pip.
+After that, I suggest checking out [this](https://medium.com/ochrona/understanding-python-package-distribution-types-25d53308a9a) article about the pip packages' (i.e., dependencies') distribution types, and the advantage of using wheel bdist files.
+After that, I suggest checking out [this](https://towardsdatascience.com/requirements-vs-setuptools-python-ae3ee66e28af) article about `requirements.txt` vs `setup.py`
+
+# Mamba
+
+## Creating Environment
+open cmd, go to cwd, then:
+```cmd
+mamba create -p ./.mamba python=3.8
+```
+then
+```cmd
+mamba activate ./.mamba
+```
+to activate it
+then, just in case:
+```cmd
+python.exe -m pip install --upgrade pip
+``` 
+
+# Conda Tips
+
+## Tip 1: Use `mamba` Instead Of `conda` 
+
+To install mamba, follow this (and try to install it for this user only, not admin, and leave the cache option unchecked).
+
+
+## Tip 2: Try `conda install` Then `pip install`
+(If package is provided by PyPi only, check this tip first before using `pip install`)
 
 Why? Because of the following scenario that I previously faced:
 * I installed library "A" using pip
@@ -130,6 +159,32 @@ python pip_uninstall.py exif requrests pillow
 ```
 
 5. Possible to do: find a way for the following logic: if you `pip install` or `pip uninstall`, then a python script `update_env_yml.py` runs which captures the output of this command: `pip list`, and update `env['dependencies'][-1]['pip']` list such that it matches what is outputted by `pip list` (i.e., `package_name==package_version` for each package)
+
+## Tip 3: Build Conda Package From PyPi Package
+
+(source)
+
+steps:
+1. `mamba activate ./ENV-FOLDER-NAME` (obviously) (you can use `conda` instead of `mamba`)
+2. optionally: `mamba install conda-verify`
+3. `mamba skeleton pypi YOUR-PACKAGE`
+	1. If you get a `TypeError` here ([source](https://github.com/conda/conda-build/issues/3246)), then ...
+4. `mamba build YOUR-PACKAGE`
+		1. If you get a `ModuleNotFound` error here for dependency modules (e.g., `poetry`, etc), then open the `meta.yaml` file inside the `YOUR-PACKAGE` directory, go to `host:` subsection under `requirements`, and add the module/package name (that was not found) to the list. ([source](https://github.com/wasdee/thaifin/issues/3#:~:text=requirements%3A%0A%20%20host%3A%0A%20%20%20%20%2D%20python%0A%20%20%20%20%2D%20pip%0A%20%20%20%20%2D%20poetry)) (If this also doesn't work, add it to `run:` list of modules/packages as well)
+		2. If you get a `ModuleNotFound` error here for the actual module/package (i.e., `YOUR-PACKAGE`), then go to the `meta.yaml` file, `source:`, `url:`, then go to `build:`, `script:`, and change the string to `"{{ PYTHON }} -m pip install ./requirements.txt -vv"`, why? because `pip install .` means execute the `setup.py` file found on the GitHub repo, which was probably not made by the developer
+		   (draft: not working: then change the link to the actual link of the tar.gz file (e.g., [this](https://files.pythonhosted.org/packages/af/2b/0b672acf11ab8edf4760d8a01c04db092ed1e41097a7391445f6c5e0027d/simple-hierarchy-1.0.2.tar.gz) one for a package called `simple-hierarchy`). Why do this? because if you open the broken tar.gz file, you'll see `YOUR-PACKAGE.dist-info` directory, but you won't see the actual `YOUR-PACKAGE` directory, which means that the auto generated URL by `meta.yaml` probably was faulty.)
+5. `mamba install --use-local YOUR-PACKAGE`
+6. you'll now see a folder in your project directory called `YOUR-PACKAGE`: open it, and move the `meta.yaml` file of it to `./ENV-FOLDER-NAME/Lib/site-packages/YOUR-PACKAGE.dist-info` then delete that `YOUR-PACKAGE` folder in your project directory
+7. Optionally: `mamba install anaconda-client` , then `anaconda login` and provide your anaconda's username and password (register from [here](https://anaconda.org/odyash/dashboard), then finally: `anaconda upload ./ENV-FOLDER-NAME/conda-bld/win-64/YOUR-PACKAGE-X.X.X-pyXX_X.tar.bz2` 
+8. To automate step 6, run this command before doing steps 2. to 5.: `conda config --set anaconda_upload yes` ([source](https://docs.anaconda.com/free/anacondaorg/user-guide/tasks/work-with-packages/#uploading-packages:~:text=conda%20config%20%2D%2Dset%20anaconda_upload%20no))
+
+## `environment.yaml` Changes When Using `pip install a`
+
+install/uninstall cases: 
+1. Install case: if package `a` was already in `dependencies` section (i.e., installed previously by conda):
+	1. In this case, when you run `pip install a` then `conda env export > environment.yaml`, package `a` will be removed from `dependencies` section and added to `pip` section.
+2. Uninstall case 2: if package `a` was already in `dependencies` section:
+	1. In this case,  when you run `pip uninstall a` then `conda env export > environment.yaml`, package `a` will be removed from `pip` section, and it will not be added to `dependencies` section until you run `conda install a`
 
 # Issues Related To Exporting `environment.yml`
 

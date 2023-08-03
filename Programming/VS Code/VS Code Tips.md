@@ -13,6 +13,36 @@
 
 [source](https://www.grepper.com/tpc/visual+code+collapse+all)
 
+pro tip: if you want to change these shortcuts:
+1. ctrl+shift+p
+2. type shortcuts and choose the user JSON (not the default JSON)
+3. paste the following to the start of that JSON file:
+``` JSON
+    {
+        "key": "ctrl+shift+f", // note: make cursor on function name
+        "command": "editor.foldRecursively",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+g",
+        "command": "editor.unfoldRecursively",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+alt+f", // note: make cursor anywhere in a cell
+        "command": "editor.foldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+    {
+        "key": "ctrl+shift+alt+g",
+        "command": "editor.unfoldAll",
+        "when": "editorTextFocus && foldingEnabled"
+    },
+```
+
+side note: in the default JSON file, you'll see that cktr+k+0 is actually written as: 
+`ctrl+k ctrl+0`
+
 ## Join Lines
 
 1.  Highlight lines

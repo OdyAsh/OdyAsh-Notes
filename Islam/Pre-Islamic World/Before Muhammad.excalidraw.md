@@ -195,7 +195,7 @@ Abraha then came with army and a huge elephant by the name of [[https://www.wiki
 
 They then saw a black cloud coming towards them and hundreds of birds with stones; one on its beaks and two in its claws. The birds then destroyed Abraha and his army with special stones, and that was a sign to all people that the Kaaba was a place protected by Allah (SWT) ^GRNve5Qx
 
-After the destruction of Abraha and his army, Yemen, was led by his two sons, and was then led by the Persian empire (where the king was called [[Terminologies#^uodq5d|Kisra]]) during the time of the Prophet Muhammad ^1mausxOo
+After the destruction of Abraha and his army, Yemen, was led by his two sons, and was then led by the Persian empire (where the king was called [[Islam/Terminologies#^uodq5d|Kisra]]) during the time of the Prophet Muhammad ^1mausxOo
 
 
 # Embedded files
@@ -211,7 +211,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 {
 	"type": "excalidraw",
 	"version": 2,
-	"source": "https://excalidraw.com",
+	"source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/1.8.26",
 	"elements": [
 		{
 			"type": "rectangle",
@@ -250,12 +250,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830628,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 683,
-			"versionNonce": 1338191717,
+			"version": 685,
+			"versionNonce": 1432782766,
 			"isDeleted": false,
 			"id": "x0IoN67T",
 			"fillStyle": "hachure",
@@ -264,33 +267,34 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": -163.82433892674368,
-			"y": -84.97486411817601,
+			"x": -163.50829888768118,
+			"y": -84.47486411817601,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 317,
-			"height": 46,
+			"width": 316.367919921875,
+			"height": 45,
 			"seed": 969751940,
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676089830629,
+			"updated": 1686766655027,
 			"link": null,
 			"locked": false,
 			"fontSize": 36,
 			"fontFamily": 1,
 			"text": "Before Muhammad",
 			"rawText": "Before Muhammad",
-			"baseline": 32,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "BUxajvPHFaWIawII1XpZk",
-			"originalText": "Before Muhammad"
+			"originalText": "Before Muhammad",
+			"lineHeight": 1.25,
+			"baseline": 32
 		},
 		{
 			"type": "arrow",
-			"version": 5136,
-			"versionNonce": 738681701,
+			"version": 5144,
+			"versionNonce": 848007470,
 			"isDeleted": false,
 			"id": "ghHQgMe900x-GFrZ9hqAF",
 			"fillStyle": "hachure",
@@ -309,7 +313,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422835,
+			"updated": 1686771347499,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -370,6 +374,9 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"updated": 1676089830629,
 			"link": "",
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"startBinding": {
 				"elementId": "fi5JYdnFNEvdaQXi-yuim",
 				"gap": 15.346572640412917,
@@ -396,8 +403,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "text",
-			"version": 80,
-			"versionNonce": 1903411211,
+			"version": 81,
+			"versionNonce": 1566667566,
 			"isDeleted": false,
 			"id": "HyDNr6CP",
 			"fillStyle": "hachure",
@@ -406,30 +413,31 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 187.41162774434332,
-			"y": 610.6848961035876,
+			"x": 187.43897149434332,
+			"y": 610.4848961035875,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 201,
-			"height": 18,
+			"width": 200.9453125,
+			"height": 18.4,
 			"seed": 213350489,
 			"groupIds": [
 				"TvzrVxBqn9zgxs4NtSeOj"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676089830629,
+			"updated": 1686766655527,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "Marib vs Ancient Marib Dam",
 			"rawText": "Marib vs Ancient Marib Dam",
-			"baseline": 14,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "RujoPdl4_LlbIBDaWAI7I",
-			"originalText": "Marib vs Ancient Marib Dam"
+			"originalText": "Marib vs Ancient Marib Dam",
+			"lineHeight": 1.15,
+			"baseline": 15
 		},
 		{
 			"type": "arrow",
@@ -465,6 +473,9 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"updated": 1676089830629,
 			"link": "",
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"startBinding": {
 				"elementId": "HyyxqrlQRd9tNyNlp7YMI",
 				"gap": 9.006405754112661,
@@ -491,8 +502,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "text",
-			"version": 72,
-			"versionNonce": 79005355,
+			"version": 73,
+			"versionNonce": 973414066,
 			"isDeleted": false,
 			"id": "NYR6GSxl",
 			"fillStyle": "hachure",
@@ -501,30 +512,31 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 223.5197756476008,
-			"y": 1079.8041231871373,
+			"x": 223.9963381476008,
+			"y": 1079.6041231871372,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 137,
-			"height": 18,
+			"width": 136.046875,
+			"height": 18.4,
 			"seed": 2075952631,
 			"groupIds": [
 				"jCbvchYRmekRKfYY4mgin"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676089830629,
+			"updated": 1686766655529,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "Ancient Marib Dam",
 			"rawText": "Ancient Marib Dam",
-			"baseline": 14,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "rT1b3th3tnKo-7bqBM9gS",
-			"originalText": "Ancient Marib Dam"
+			"originalText": "Ancient Marib Dam",
+			"lineHeight": 1.15,
+			"baseline": 15
 		},
 		{
 			"type": "arrow",
@@ -560,6 +572,9 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"updated": 1676089830629,
 			"link": "",
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"startBinding": {
 				"elementId": "fi5JYdnFNEvdaQXi-yuim",
 				"focus": 0.6084556097838352,
@@ -586,8 +601,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "text",
-			"version": 168,
-			"versionNonce": 1699051851,
+			"version": 169,
+			"versionNonce": 728161646,
 			"isDeleted": false,
 			"id": "UrFA3dQB",
 			"fillStyle": "hachure",
@@ -596,35 +611,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2.1697289434076197,
-			"y": 358.4670180808506,
+			"x": 2.8728539434076197,
+			"y": 358.3670180808506,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 85,
-			"height": 55,
+			"width": 83.59375,
+			"height": 55.199999999999996,
 			"seed": 665138071,
 			"groupIds": [
 				"H0EI-Tw_-gBGzW-lnmuBR"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676089830629,
+			"updated": 1686766655530,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "From \nA Religious\nPerspective",
 			"rawText": "From \nA Religious\nPerspective",
-			"baseline": 51,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "aZjXRCN-9k5QLjJ5Itx42",
-			"originalText": "From \nA Religious\nPerspective"
+			"originalText": "From \nA Religious\nPerspective",
+			"lineHeight": 1.15,
+			"baseline": 52
 		},
 		{
 			"type": "arrow",
-			"version": 5207,
-			"versionNonce": 726008325,
+			"version": 5215,
+			"versionNonce": 59440174,
 			"isDeleted": false,
 			"id": "pBdkGyRaOSWjtbC8w9-BQ",
 			"fillStyle": "hachure",
@@ -643,7 +659,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"groupIds": [],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422843,
+			"updated": 1686771347517,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -715,12 +731,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830629,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1066,
-			"versionNonce": 1073737797,
+			"version": 1068,
+			"versionNonce": 128336046,
 			"isDeleted": false,
 			"id": "r9h0xcyQ",
 			"fillStyle": "hachure",
@@ -729,11 +748,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1112.971315083388,
+			"x": 1113.3713394974504,
 			"y": -93.0540322300892,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 55,
+			"width": 54.199951171875,
 			"height": 25,
 			"seed": 2077150596,
 			"groupIds": [
@@ -741,23 +760,24 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676089830629,
+			"updated": 1686766655035,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
 			"text": "Yemen",
 			"rawText": "Yemen",
-			"baseline": 18,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "ctxzOn-0bOi0dt0GYWD2k",
-			"originalText": "Yemen"
+			"originalText": "Yemen",
+			"lineHeight": 1.25,
+			"baseline": 17
 		},
 		{
 			"type": "arrow",
-			"version": 6162,
-			"versionNonce": 178334725,
+			"version": 6170,
+			"versionNonce": 1241620206,
 			"isDeleted": false,
 			"id": "rwBAtyY9ZkSahCxfbsLXM",
 			"fillStyle": "hachure",
@@ -780,7 +800,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422835,
+			"updated": 1686771347499,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -860,12 +880,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830629,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1086,
-			"versionNonce": 1018907659,
+			"version": 1088,
+			"versionNonce": 868317614,
 			"isDeleted": false,
 			"id": "v1iVevWY",
 			"fillStyle": "hachure",
@@ -874,11 +897,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 634.7180176277226,
+			"x": 635.3380508918827,
 			"y": -107.117565104162,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 132,
+			"width": 130.7599334716797,
 			"height": 35,
 			"seed": 672318780,
 			"groupIds": [
@@ -886,23 +909,24 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422836,
+			"updated": 1686766655043,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 1,
 			"text": "Locations",
 			"rawText": "Locations",
-			"baseline": 24,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "wt0TNzegAjFVpmfajgXH2",
-			"originalText": "Locations"
+			"originalText": "Locations",
+			"lineHeight": 1.25,
+			"baseline": 24
 		},
 		{
 			"type": "arrow",
-			"version": 6010,
-			"versionNonce": 388731563,
+			"version": 6018,
+			"versionNonce": 1837079982,
 			"isDeleted": false,
 			"id": "l_tBEUmbKZoySAFHl1LeA",
 			"fillStyle": "hachure",
@@ -925,7 +949,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422836,
+			"updated": 1686771347502,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -997,12 +1021,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830629,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1000,
-			"versionNonce": 1730389061,
+			"version": 1002,
+			"versionNonce": 1341665966,
 			"isDeleted": false,
 			"id": "DAAH2WuC",
 			"fillStyle": "hachure",
@@ -1011,30 +1038,31 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1061.6576681458225,
-			"y": 98.56988623984091,
+			"x": 1061.4467306458225,
+			"y": 97.96988623984092,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 181,
-			"height": 54,
+			"width": 181.421875,
+			"height": 55.199999999999996,
 			"seed": 1243745284,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422838,
+			"updated": 1686766655058,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "The Arab originated from \nYemen, where they had a\nbig dam called Marib ",
 			"rawText": "The Arab originated from Yemen, where they had a big dam called Marib ",
-			"baseline": 50,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "-lPXuSu9s9_kACPapADXt",
-			"originalText": "The Arab originated from Yemen, where they had a big dam called Marib "
+			"originalText": "The Arab originated from Yemen, where they had a big dam called Marib ",
+			"lineHeight": 1.15,
+			"baseline": 52
 		},
 		{
 			"type": "image",
@@ -1076,6 +1104,9 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"updated": 1676089830629,
 			"link": "https://www.vectorstock.com/royalty-free-vector/map-of-arabian-peninsula-vector-16385327",
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"status": "pending",
 			"fileId": "e1ae7fcf33e15b410ec6ab3ecc9e0e386003085c",
 			"scale": [
@@ -1085,8 +1116,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 6316,
-			"versionNonce": 1427768651,
+			"version": 6320,
+			"versionNonce": 458995694,
 			"isDeleted": false,
 			"id": "tfN_GU7_5FgrdkiHJcKw6",
 			"fillStyle": "hachure",
@@ -1114,9 +1145,12 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"id": "Zv13yPde"
 				}
 			],
-			"updated": 1676090422836,
+			"updated": 1686771347503,
 			"link": "",
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"startBinding": {
 				"elementId": "-lPXuSu9s9_kACPapADXt",
 				"gap": 4.665243506369279,
@@ -1143,8 +1177,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "text",
-			"version": 346,
-			"versionNonce": 1811596555,
+			"version": 347,
+			"versionNonce": 1225947250,
 			"isDeleted": false,
 			"id": "Zv13yPde",
 			"fillStyle": "hachure",
@@ -1153,30 +1187,31 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 761.5154894799122,
-			"y": 252.56036071818858,
+			"x": 761.9022082299122,
+			"y": 252.3603607181886,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 50,
-			"height": 18,
+			"width": 49.2265625,
+			"height": 18.4,
 			"seed": 1206476569,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676089830629,
+			"updated": 1686766655536,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "Yemen",
 			"rawText": "Yemen",
-			"baseline": 14,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "tfN_GU7_5FgrdkiHJcKw6",
-			"originalText": "Yemen"
+			"originalText": "Yemen",
+			"lineHeight": 1.15,
+			"baseline": 15
 		},
 		{
 			"type": "image",
@@ -1214,6 +1249,9 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"updated": 1676089830629,
 			"link": "https://twitter.com/tonytohcy/status/1361520274689073152/photo/1",
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"status": "pending",
 			"fileId": "1e2722148fdf20627e4323a6b72666fe4ff8dbfb",
 			"scale": [
@@ -1253,6 +1291,9 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"updated": 1676089830629,
 			"link": "https://afrinik.com/ancient-great-dam-of-marib-what-quran-said-about-the-empire/",
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"status": "pending",
 			"fileId": "a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc",
 			"scale": [
@@ -1305,12 +1346,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830629,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1503,
-			"versionNonce": 561043909,
+			"version": 1505,
+			"versionNonce": 847932334,
 			"isDeleted": false,
 			"id": "LZthZcp1",
 			"fillStyle": "hachure",
@@ -1319,30 +1363,31 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1041.05090729979,
-			"y": 305.7400652187718,
+			"x": 1040.42981354979,
+			"y": 304.3400652187718,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 174,
-			"height": 126,
+			"width": 175.2421875,
+			"height": 128.79999999999998,
 			"seed": 1816154425,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422840,
+			"updated": 1686766655070,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "Like previous \ncivilizations, they \ndisobeyed Allah and the \ndam was therefore \ndestroyed, so the Arab \ntribes migrated to \nneighboring places ",
 			"rawText": "Like previous civilizations, they disobeyed Allah and the dam was therefore destroyed, so the Arab tribes migrated to neighboring places ",
-			"baseline": 122,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "lfnuqSAmRFxzvrVZWDVLG",
-			"originalText": "Like previous civilizations, they disobeyed Allah and the dam was therefore destroyed, so the Arab tribes migrated to neighboring places "
+			"originalText": "Like previous civilizations, they disobeyed Allah and the dam was therefore destroyed, so the Arab tribes migrated to neighboring places ",
+			"lineHeight": 1.15,
+			"baseline": 125
 		},
 		{
 			"type": "rectangle",
@@ -1389,12 +1434,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830629,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1721,
-			"versionNonce": 199117035,
+			"version": 1723,
+			"versionNonce": 297280686,
 			"isDeleted": false,
 			"id": "Evewm664",
 			"fillStyle": "hachure",
@@ -1403,35 +1451,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1551.6878557682314,
-			"y": 314.4710507772656,
+			"x": 1551.9261370182314,
+			"y": 313.4710507772656,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 165,
-			"height": 90,
+			"width": 164.5234375,
+			"height": 92,
 			"seed": 1846555511,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422841,
+			"updated": 1686766655075,
 			"link": "",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "One of these tribes, \ncalled Jurhum, went to \nMecca, where they \nfound the well of \nzamzam",
 			"rawText": "One of these tribes, called Jurhum, went to Mecca, where they found the well of zamzam",
-			"baseline": 86,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "ymzBSIy2",
-			"originalText": "One of these tribes, called Jurhum, went to Mecca, where they found the well of zamzam"
+			"originalText": "One of these tribes, called Jurhum, went to Mecca, where they found the well of zamzam",
+			"lineHeight": 1.15,
+			"baseline": 88
 		},
 		{
 			"type": "arrow",
-			"version": 6324,
-			"versionNonce": 807098661,
+			"version": 6332,
+			"versionNonce": 1009058606,
 			"isDeleted": false,
 			"id": "ZFULNyv8WUL13YRZd0She",
 			"fillStyle": "hachure",
@@ -1454,7 +1503,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422840,
+			"updated": 1686771347511,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -1513,6 +1562,9 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"updated": 1676089830629,
 			"link": "https://slideplayer.com/slide/13881718/",
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"status": "pending",
 			"fileId": "22491c53547a3642c37c27eac07efc75f3bca345",
 			"scale": [
@@ -1522,8 +1574,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 6294,
-			"versionNonce": 1247876869,
+			"version": 6302,
+			"versionNonce": 2005161646,
 			"isDeleted": false,
 			"id": "KY6zl2nJ2tBgJeM1Hs4Av",
 			"fillStyle": "hachure",
@@ -1546,7 +1598,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422838,
+			"updated": 1686771347507,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -1614,12 +1666,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830629,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 2002,
-			"versionNonce": 938942117,
+			"version": 2004,
+			"versionNonce": 977097006,
 			"isDeleted": false,
 			"id": "nNr6xcRj",
 			"fillStyle": "hachure",
@@ -1628,35 +1683,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1900.4554879266034,
-			"y": 319.81801448561976,
+			"x": 1900.6000191766034,
+			"y": 319.01801448561974,
 			"strokeColor": "#087f5b",
 			"backgroundColor": "transparent",
-			"width": 177,
-			"height": 72,
+			"width": 176.7109375,
+			"height": 73.6,
 			"seed": 1491722545,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422842,
-			"link": "[[Islamic Stories/Prophet Ibrahim/Prophet Ibrahim.excalidraw#^94dX3GYN]]",
+			"updated": 1686766655079,
+			"link": "[[Prophet Ibrahim.excalidraw#^94dX3GYN]]",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "🔗[[So Jurhum settled in\nMecca]], where Hagar \nand her son Ismail were \nliving beforehand",
 			"rawText": "[[Prophet Ibrahim.excalidraw#^94dX3GYN|So Jurhum settled in Mecca]], where Hagar and her son Ismail were living beforehand",
-			"baseline": 68,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "uitcD7XA",
-			"originalText": "🔗[[So Jurhum settled in Mecca]], where Hagar and her son Ismail were living beforehand"
+			"originalText": "🔗[[So Jurhum settled in Mecca]], where Hagar and her son Ismail were living beforehand",
+			"lineHeight": 1.15,
+			"baseline": 70
 		},
 		{
 			"type": "arrow",
-			"version": 6670,
-			"versionNonce": 110883723,
+			"version": 6678,
+			"versionNonce": 156396014,
 			"isDeleted": false,
 			"id": "1LQNO8EedqFt4MqczFYJJ",
 			"fillStyle": "hachure",
@@ -1679,7 +1735,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422841,
+			"updated": 1686771347514,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -1751,12 +1807,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830629,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1077,
-			"versionNonce": 1612469771,
+			"version": 1079,
+			"versionNonce": 604785198,
 			"isDeleted": false,
 			"id": "QHQsqbiM",
 			"fillStyle": "hachure",
@@ -1765,11 +1824,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 790.5737411539615,
+			"x": 791.3137771647037,
 			"y": -554.3903639810321,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 200,
+			"width": 198.51992797851562,
 			"height": 35,
 			"seed": 21316191,
 			"groupIds": [
@@ -1777,18 +1836,19 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422844,
+			"updated": 1686766655093,
 			"link": null,
 			"locked": false,
 			"fontSize": 28,
 			"fontFamily": 1,
 			"text": "Famous Tribes",
 			"rawText": "Famous Tribes",
-			"baseline": 24,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "wXuqkbEUFHUqb2hsW-qNl",
-			"originalText": "Famous Tribes"
+			"originalText": "Famous Tribes",
+			"lineHeight": 1.25,
+			"baseline": 24
 		},
 		{
 			"type": "rectangle",
@@ -1835,12 +1895,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830629,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1576,
-			"versionNonce": 1447763685,
+			"version": 1578,
+			"versionNonce": 193663214,
 			"isDeleted": false,
 			"id": "jokTAF1k",
 			"fillStyle": "hachure",
@@ -1849,11 +1912,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1547.5164600589821,
+			"x": 1547.906047461326,
 			"y": -757.3051762745765,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 193,
+			"width": 192.2208251953125,
 			"height": 25,
 			"seed": 966794449,
 			"groupIds": [
@@ -1861,23 +1924,24 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422845,
+			"updated": 1686766655097,
 			"link": "[[Islamic Stories/Arabs/The History Of Arabs.excalidraw.md#^Evewm664]]",
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
 			"text": "🔗[[Banu Jurhum]]",
 			"rawText": "[[Islamic Stories/Arabs/The History Of Arabs.excalidraw.md#^Evewm664|Banu Jurhum]]",
-			"baseline": 18,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "Wlyt8WEy",
-			"originalText": "🔗[[Banu Jurhum]]"
+			"originalText": "🔗[[Banu Jurhum]]",
+			"lineHeight": 1.25,
+			"baseline": 17
 		},
 		{
 			"type": "arrow",
-			"version": 6745,
-			"versionNonce": 133108261,
+			"version": 6753,
+			"versionNonce": 1733595886,
 			"isDeleted": false,
 			"id": "A2m9ZOHdgcrcU0E5r0n9y",
 			"fillStyle": "hachure",
@@ -1900,7 +1964,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422890,
+			"updated": 1686771347607,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -1929,8 +1993,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "rectangle",
-			"version": 1981,
-			"versionNonce": 519917739,
+			"version": 1982,
+			"versionNonce": 1138828142,
 			"isDeleted": false,
 			"id": "KTpVWuI7",
 			"fillStyle": "hachure",
@@ -1970,14 +2034,17 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1676089830629,
-			"link": null,
-			"locked": false
+			"updated": 1686771379297,
+			"link": "",
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1343,
-			"versionNonce": 1455268741,
+			"version": 1345,
+			"versionNonce": 2073831918,
 			"isDeleted": false,
 			"id": "hGwrMnPw",
 			"fillStyle": "hachure",
@@ -1986,11 +2053,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1572.8682597899872,
+			"x": 1573.1683086181122,
 			"y": -655.7757219748288,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 146,
+			"width": 145.39990234375,
 			"height": 25,
 			"seed": 2033848543,
 			"groupIds": [
@@ -1998,23 +2065,24 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676089830629,
+			"updated": 1686766655101,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
 			"text": "Banu Khuza'ah",
 			"rawText": "Banu Khuza'ah",
-			"baseline": 18,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "KTpVWuI7",
-			"originalText": "Banu Khuza'ah"
+			"originalText": "Banu Khuza'ah",
+			"lineHeight": 1.25,
+			"baseline": 17
 		},
 		{
 			"type": "arrow",
-			"version": 7318,
-			"versionNonce": 397408837,
+			"version": 7328,
+			"versionNonce": 266506162,
 			"isDeleted": false,
 			"id": "mS7kZdvAXzRunGUb1GpA0",
 			"fillStyle": "hachure",
@@ -2037,7 +2105,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422846,
+			"updated": 1686771383874,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2066,8 +2134,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 6503,
-			"versionNonce": 1479935077,
+			"version": 6513,
+			"versionNonce": 1142540658,
 			"isDeleted": false,
 			"id": "lkDfKngtMIh9hP65JYCCi",
 			"fillStyle": "hachure",
@@ -2076,12 +2144,12 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1771.9333187369436,
+			"x": 1771.9333187369439,
 			"y": -648.7144171771087,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 320.87292009614725,
-			"height": 252.90639829977874,
+			"width": 320.872920096147,
+			"height": 252.90639829977863,
 			"seed": 458309791,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
@@ -2090,7 +2158,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422848,
+			"updated": 1686771383874,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2112,8 +2180,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					0
 				],
 				[
-					320.87292009614725,
-					-252.90639829977874
+					320.872920096147,
+					-252.90639829977863
 				]
 			]
 		},
@@ -2162,12 +2230,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1296,
-			"versionNonce": 931381675,
+			"version": 1298,
+			"versionNonce": 1104724718,
 			"isDeleted": false,
 			"id": "nKfdXFwl",
 			"fillStyle": "hachure",
@@ -2176,35 +2247,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2114.306238833091,
-			"y": -1008.7437298210302,
+			"x": 2114.251551333091,
+			"y": -1009.3437298210303,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 184,
-			"height": 54,
+			"width": 184.109375,
+			"height": 55.199999999999996,
 			"seed": 1639830719,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422849,
+			"updated": 1686766655105,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "They fought Banu Jurhum\nfor the leadership of \nMecca and won",
 			"rawText": "They fought Banu Jurhum for the leadership of Mecca and won",
-			"baseline": 50,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "jbAIj8j3_loC_ceUnqoAE",
-			"originalText": "They fought Banu Jurhum for the leadership of Mecca and won"
+			"originalText": "They fought Banu Jurhum for the leadership of Mecca and won",
+			"lineHeight": 1.15,
+			"baseline": 52
 		},
 		{
 			"type": "arrow",
-			"version": 6704,
-			"versionNonce": 949245003,
+			"version": 6712,
+			"versionNonce": 539669742,
 			"isDeleted": false,
 			"id": "1-De5x1-HbpjawJtfwhgt",
 			"fillStyle": "hachure",
@@ -2227,7 +2299,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422849,
+			"updated": 1686771347529,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2295,12 +2367,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1650,
-			"versionNonce": 487433541,
+			"version": 1652,
+			"versionNonce": 1702445486,
 			"isDeleted": false,
 			"id": "p5PWGG5z",
 			"fillStyle": "hachure",
@@ -2309,30 +2384,31 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2113.996848080784,
-			"y": -1291.023640364257,
+			"x": 2114.067160580784,
+			"y": -1292.023640364257,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 178,
-			"height": 90,
+			"width": 177.859375,
+			"height": 92,
 			"seed": 917656081,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422849,
+			"updated": 1686766655109,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "As payback, Banu \nJurhum covered the well \nof Zamzam, and it \nremained hidden for \ncenturies",
 			"rawText": "As payback, Banu Jurhum covered the well of Zamzam, and it remained hidden for centuries",
-			"baseline": 86,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "k0n4l7RwGj5jufxMMmL_5",
-			"originalText": "As payback, Banu Jurhum covered the well of Zamzam, and it remained hidden for centuries"
+			"originalText": "As payback, Banu Jurhum covered the well of Zamzam, and it remained hidden for centuries",
+			"lineHeight": 1.15,
+			"baseline": 88
 		},
 		{
 			"type": "rectangle",
@@ -2371,12 +2447,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 2228,
-			"versionNonce": 1377571883,
+			"version": 2230,
+			"versionNonce": 1545285166,
 			"isDeleted": false,
 			"id": "eb3Qw0dg",
 			"fillStyle": "hachure",
@@ -2385,35 +2464,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2043.6782406687225,
-			"y": -1544.893686276518,
+			"x": 2043.9282406687225,
+			"y": -1545.893686276518,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 318,
-			"height": 90,
+			"width": 317.5,
+			"height": 92,
 			"seed": 1841584081,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422851,
+			"updated": 1686766655112,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "Allah later made a certain person dream \nabout its whereabouts and uncover it. This \nperson was Shaiba ibn Hāshim, also known \nas ʿAbd al-Muṭṭalib who was the grandfather \nof Prophet Muhammad (PBUH)",
 			"rawText": "Allah later made a certain person dream about its whereabouts and uncover it. This person was Shaiba ibn Hāshim, also known as ʿAbd al-Muṭṭalib who was the grandfather of Prophet Muhammad (PBUH)",
-			"baseline": 86,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "J1caWBZoWhGw3TVtzEWxW",
-			"originalText": "Allah later made a certain person dream about its whereabouts and uncover it. This person was Shaiba ibn Hāshim, also known as ʿAbd al-Muṭṭalib who was the grandfather of Prophet Muhammad (PBUH)"
+			"originalText": "Allah later made a certain person dream about its whereabouts and uncover it. This person was Shaiba ibn Hāshim, also known as ʿAbd al-Muṭṭalib who was the grandfather of Prophet Muhammad (PBUH)",
+			"lineHeight": 1.15,
+			"baseline": 88
 		},
 		{
 			"type": "arrow",
-			"version": 6810,
-			"versionNonce": 1158853797,
+			"version": 6818,
+			"versionNonce": 1962463598,
 			"isDeleted": false,
 			"id": "4RYb0A4UL61jINXCr8dHY",
 			"fillStyle": "hachure",
@@ -2436,7 +2516,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422850,
+			"updated": 1686771347532,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2504,12 +2584,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1470,
-			"versionNonce": 634542789,
+			"version": 1472,
+			"versionNonce": 1775531246,
 			"isDeleted": false,
 			"id": "WiT8Eypa",
 			"fillStyle": "hachure",
@@ -2518,35 +2601,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2473.674124688777,
-			"y": -1022.3017839005565,
+			"x": 2474.119437188777,
+			"y": -1023.1017839005565,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 185,
-			"height": 72,
+			"width": 184.109375,
+			"height": 73.6,
 			"seed": 1566024081,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422852,
+			"updated": 1686766655116,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "Later, a respected leader \nof Mecca named Amr ibn \nLuhayy was appointed as\nhead of the tribe in Mecca",
 			"rawText": "Later, a respected leader of Mecca named Amr ibn Luhayy was appointed as head of the tribe in Mecca",
-			"baseline": 68,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "DDZ0-J_CykoMifEcW8ouj",
-			"originalText": "Later, a respected leader of Mecca named Amr ibn Luhayy was appointed as head of the tribe in Mecca"
+			"originalText": "Later, a respected leader of Mecca named Amr ibn Luhayy was appointed as head of the tribe in Mecca",
+			"lineHeight": 1.15,
+			"baseline": 70
 		},
 		{
 			"type": "arrow",
-			"version": 6665,
-			"versionNonce": 830363339,
+			"version": 6673,
+			"versionNonce": 217609134,
 			"isDeleted": false,
 			"id": "7sWoNrUYFo6W9uU-rUk6K",
 			"fillStyle": "hachure",
@@ -2569,7 +2653,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422851,
+			"updated": 1686771347534,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2637,12 +2721,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1977,
-			"versionNonce": 370350411,
+			"version": 1979,
+			"versionNonce": 1509569454,
 			"isDeleted": false,
 			"id": "lNXeMhIN",
 			"fillStyle": "hachure",
@@ -2651,35 +2738,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2433.477219901527,
-			"y": -1306.025902469192,
+			"x": 2433.461594901527,
+			"y": -1307.225902469192,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 265,
-			"height": 108,
+			"width": 265.03125,
+			"height": 110.39999999999999,
 			"seed": 1070335935,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422853,
+			"updated": 1686766655120,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "He was a business man who used to \ntravel between Mecca and Syria \n(called Ash-Sham back then), where \nit was common to go to Syria in \nsummer and Yemen in winter to bring\ntraded resources back to Mecca",
 			"rawText": "He was a business man who used to travel between Mecca and Syria (called Ash-Sham back then), where it was common to go to Syria in summer and Yemen in winter to bring traded resources back to Mecca",
-			"baseline": 104,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "S-XPe1e7nZPJS0RNxQtG8",
-			"originalText": "He was a business man who used to travel between Mecca and Syria (called Ash-Sham back then), where it was common to go to Syria in summer and Yemen in winter to bring traded resources back to Mecca"
+			"originalText": "He was a business man who used to travel between Mecca and Syria (called Ash-Sham back then), where it was common to go to Syria in summer and Yemen in winter to bring traded resources back to Mecca",
+			"lineHeight": 1.15,
+			"baseline": 107
 		},
 		{
 			"type": "arrow",
-			"version": 7118,
-			"versionNonce": 245676581,
+			"version": 7126,
+			"versionNonce": 250994734,
 			"isDeleted": false,
 			"id": "RsnUXTYrMNyAHgf33bIOF",
 			"fillStyle": "hachure",
@@ -2702,7 +2790,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422852,
+			"updated": 1686771347537,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2770,12 +2858,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "https://www.historyfiles.co.uk/KingListsMiddEast/CanaanAmalekites.htm#:~:text=Ancient%20Levantine%20States-,Amalekites%20(Canaan),-Ancient%20Canaan",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 2149,
-			"versionNonce": 1783103397,
+			"version": 2151,
+			"versionNonce": 1497328238,
 			"isDeleted": false,
 			"id": "ajwR7QJ5",
 			"fillStyle": "hachure",
@@ -2784,35 +2875,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2474.5832753210543,
-			"y": -1570.0742484858886,
+			"x": 2474.8176503210543,
+			"y": -1571.4742484858887,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 181,
-			"height": 126,
+			"width": 180.53125,
+			"height": 128.79999999999998,
 			"seed": 653734783,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422854,
+			"updated": 1686766655124,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
-			"text": "So one day he travelled \nto Syria and met with the \nAmalek tribe, where they \nused to worship \nhand-crafted idols and \ntake them as a \nconnection to their Lord",
+			"text": "So one day he travelled \nto Syria and met with the \nAmalek tribe, where they \nused to worship hand-\ncrafted idols and take \nthem as a connection to \ntheir Lord",
 			"rawText": "So one day he travelled to Syria and met with the Amalek tribe, where they used to worship hand-crafted idols and take them as a connection to their Lord",
-			"baseline": 122,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "tAeaCA4bDl4Iu8GYlsjKw",
-			"originalText": "So one day he travelled to Syria and met with the Amalek tribe, where they used to worship hand-crafted idols and take them as a connection to their Lord"
+			"originalText": "So one day he travelled to Syria and met with the Amalek tribe, where they used to worship hand-crafted idols and take them as a connection to their Lord",
+			"lineHeight": 1.15,
+			"baseline": 125
 		},
 		{
 			"type": "arrow",
-			"version": 7418,
-			"versionNonce": 647477227,
+			"version": 7426,
+			"versionNonce": 1625435310,
 			"isDeleted": false,
 			"id": "v9l8-9d_iXAx7re8vFWXm",
 			"fillStyle": "hachure",
@@ -2835,7 +2927,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422853,
+			"updated": 1686771347539,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -2903,12 +2995,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "https://www.al-islam.org/articles/idols-pre-islamic-arabia-yasin-t-al-jibouri#:~:text=other%20pagan%20rituals.-,Hubal%20idol,-Amr%20ibn%20Luhay",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 2465,
-			"versionNonce": 1499654763,
+			"version": 2467,
+			"versionNonce": 1295456558,
 			"isDeleted": false,
 			"id": "MTpoY68g",
 			"fillStyle": "hachure",
@@ -2917,35 +3012,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2475.9454034552527,
-			"y": -1875.9935480650972,
+			"x": 2475.7930597052527,
+			"y": -1877.5935480650971,
 			"strokeColor": "#c92a2a",
 			"backgroundColor": "transparent",
-			"width": 182,
-			"height": 144,
+			"width": 182.3046875,
+			"height": 147.2,
 			"seed": 1916897919,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422855,
+			"updated": 1686766655127,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "So Amr ibn Luhayy took \none of the idols, called \nHubal, back to Mecca, \nand ordered everyone to \nworship this idol, thus \nchanging the Arab's \nreligion from worshipping \nAllah to worshipping idols",
 			"rawText": "So Amr ibn Luhayy took one of the idols, called Hubal, back to Mecca, and ordered everyone to worship this idol, thus changing the Arab's religion from worshipping Allah to worshipping idols",
-			"baseline": 140,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "1vNOGRz01pfpGZwAjywMx",
-			"originalText": "So Amr ibn Luhayy took one of the idols, called Hubal, back to Mecca, and ordered everyone to worship this idol, thus changing the Arab's religion from worshipping Allah to worshipping idols"
+			"originalText": "So Amr ibn Luhayy took one of the idols, called Hubal, back to Mecca, and ordered everyone to worship this idol, thus changing the Arab's religion from worshipping Allah to worshipping idols",
+			"lineHeight": 1.15,
+			"baseline": 144
 		},
 		{
 			"type": "arrow",
-			"version": 7375,
-			"versionNonce": 47366917,
+			"version": 7383,
+			"versionNonce": 1015372078,
 			"isDeleted": false,
 			"id": "_HflJ2XVS7i4JoYjrl6NS",
 			"fillStyle": "hachure",
@@ -2968,7 +3064,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422854,
+			"updated": 1686771347542,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3032,12 +3128,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 2596,
-			"versionNonce": 626820389,
+			"version": 2598,
+			"versionNonce": 1760109998,
 			"isDeleted": false,
 			"id": "TGe7A6ee",
 			"fillStyle": "hachure",
@@ -3046,30 +3145,31 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2469.809699660894,
-			"y": -2120.9870581341756,
+			"x": 2469.755012160894,
+			"y": -2122.1870581341755,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 184,
-			"height": 108,
+			"width": 184.109375,
+			"height": 110.39999999999999,
 			"seed": 107177055,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422856,
+			"updated": 1686766655130,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "He then ordered for other \nidols to be manufactured \nfor different purposes \n(moon, sun, food, etc.), \nand they were placed \naround the Kaaba",
 			"rawText": "He then ordered for other idols to be manufactured for different purposes (moon, sun, food, etc.), and they were placed around the Kaaba",
-			"baseline": 104,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "IFk3LXbV3ZoCJiaxRQAnt",
-			"originalText": "He then ordered for other idols to be manufactured for different purposes (moon, sun, food, etc.), and they were placed around the Kaaba"
+			"originalText": "He then ordered for other idols to be manufactured for different purposes (moon, sun, food, etc.), and they were placed around the Kaaba",
+			"lineHeight": 1.15,
+			"baseline": 107
 		},
 		{
 			"type": "image",
@@ -3107,8 +3207,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 7403,
-			"versionNonce": 1309697291,
+			"version": 7411,
+			"versionNonce": 161965486,
 			"isDeleted": false,
 			"id": "HsEupxFF72xhpPeEQsBjG",
 			"fillStyle": "hachure",
@@ -3131,7 +3231,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422856,
+			"updated": 1686771347545,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3192,12 +3292,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 2888,
-			"versionNonce": 1349880747,
+			"version": 2890,
+			"versionNonce": 5521390,
 			"isDeleted": false,
 			"id": "s4vPf6ug",
 			"fillStyle": "hachure",
@@ -3206,12 +3309,12 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1883.287533805141,
-			"y": -1634.397928342748,
+			"x": 1883.1039629433246,
+			"y": -1632.9582894475425,
 			"strokeColor": "#1864ab",
 			"backgroundColor": "transparent",
-			"width": 100,
-			"height": 285,
+			"width": 100.36714172363281,
+			"height": 282.12072220958925,
 			"seed": 915618815,
 			"groupIds": [
 				"WaZWFKJ3rNIV5mVHeSYzO",
@@ -3219,18 +3322,19 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422858,
+			"updated": 1686766655136,
 			"link": "https://youtu.be/6o8UmErRVZk?list=PL098A450892DEDE98&t=1709",
 			"locked": false,
 			"fontSize": 16.354824475918218,
 			"fontFamily": 2,
 			"text": "🌐[[Source]]: \nSeerah: \nThe \nLife \nof \nthe \nProphet \nMuhammad \n(PBUH) \n- \nPart 1 \nBy \nSheikh \nShady \nAlsuleiman",
 			"rawText": "[[https://youtu.be/6o8UmErRVZk?list=PL098A450892DEDE98&t=1709|Source]]: \nSeerah: \nThe \nLife \nof \nthe \nProphet \nMuhammad \n(PBUH) \n- \nPart 1 \nBy \nSheikh \nShady \nAlsuleiman",
-			"baseline": 281,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "6OR9miBKVxKv9kA3K8YG0",
-			"originalText": "🌐[[Source]]: \nSeerah: \nThe \nLife \nof \nthe \nProphet \nMuhammad \n(PBUH) \n- \nPart 1 \nBy \nSheikh \nShady \nAlsuleiman"
+			"originalText": "🌐[[Source]]: \nSeerah: \nThe \nLife \nof \nthe \nProphet \nMuhammad \n(PBUH) \n- \nPart 1 \nBy \nSheikh \nShady \nAlsuleiman",
+			"lineHeight": 1.15,
+			"baseline": 278
 		},
 		{
 			"type": "rectangle",
@@ -3273,12 +3377,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 2340,
-			"versionNonce": 955775813,
+			"version": 2342,
+			"versionNonce": 1307172526,
 			"isDeleted": false,
 			"id": "n2gpIchX",
 			"fillStyle": "hachure",
@@ -3287,35 +3394,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1014.516339071298,
-			"y": 613.9040187356785,
+			"x": 1013.875714071298,
+			"y": 612.9040187356785,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 236,
-			"height": 90,
+			"width": 237.28125,
+			"height": 92,
 			"seed": 2093340651,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422861,
+			"updated": 1686766655141,
 			"link": "https://www.wikiwand.com/en/Rabiah_Ibn_Nasr",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "🌐A Yemeni king by the name of \n[[Rabia ibn Nasr]] had a bad \ndream, and called for two \nmagicians (i.e., soothsayer) to \ninterpret that dream",
 			"rawText": "A Yemeni king by the name of [Rabia ibn Nasr](https://www.wikiwand.com/en/Rabiah_Ibn_Nasr) had a bad dream, and called for two magicians (i.e., soothsayer) to interpret that dream",
-			"baseline": 86,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "fEG3I7KaabFF0TDqdqch5",
-			"originalText": "🌐A Yemeni king by the name of [[Rabia ibn Nasr]] had a bad dream, and called for two magicians (i.e., soothsayer) to interpret that dream"
+			"originalText": "🌐A Yemeni king by the name of [[Rabia ibn Nasr]] had a bad dream, and called for two magicians (i.e., soothsayer) to interpret that dream",
+			"lineHeight": 1.15,
+			"baseline": 88
 		},
 		{
 			"type": "arrow",
-			"version": 7164,
-			"versionNonce": 616357451,
+			"version": 7172,
+			"versionNonce": 1867153390,
 			"isDeleted": false,
 			"id": "x1Ji5hU3PxtEgOCuaBYTt",
 			"fillStyle": "hachure",
@@ -3343,9 +3451,12 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"id": "tRmhF1Mp"
 				}
 			],
-			"updated": 1676090422859,
+			"updated": 1686771347549,
 			"link": "",
 			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			},
 			"startBinding": {
 				"elementId": "lfnuqSAmRFxzvrVZWDVLG",
 				"gap": 16.625378529455304,
@@ -3372,8 +3483,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "text",
-			"version": 415,
-			"versionNonce": 982931051,
+			"version": 416,
+			"versionNonce": 1640300462,
 			"isDeleted": false,
 			"id": "tRmhF1Mp",
 			"fillStyle": "hachure",
@@ -3382,35 +3493,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1073.0359338580358,
-			"y": 507.85585758764546,
+			"x": 1073.7703088580358,
+			"y": 507.65585758764547,
 			"strokeColor": "#c92a2a",
 			"backgroundColor": "transparent",
-			"width": 116,
-			"height": 18,
+			"width": 114.53125,
+			"height": 18.4,
 			"seed": 953349605,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422839,
+			"updated": 1686766655553,
 			"link": "https://www.facebook.com/ProphetMuhamadBiography/photos/chapter-onemecca-in-the-spotlighttranslated-by-roger-owens-muhammad-qutuzyemen-4/208512189574451/?paipv=0&eav=AfaKSOiSFPO7aAj91OqSp5AGzIzSeQKfJa1nFMNEE1qwXOrrFwqNzA_zac0lpuw-Lcs&_rdr",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "🌐[[Years later]]",
 			"rawText": "[Years later](https://www.facebook.com/ProphetMuhamadBiography/photos/chapter-onemecca-in-the-spotlighttranslated-by-roger-owens-muhammad-qutuzyemen-4/208512189574451/?paipv=0&eav=AfaKSOiSFPO7aAj91OqSp5AGzIzSeQKfJa1nFMNEE1qwXOrrFwqNzA_zac0lpuw-Lcs&_rdr)",
-			"baseline": 14,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "x1Ji5hU3PxtEgOCuaBYTt",
-			"originalText": "🌐[[Years later]]"
+			"originalText": "🌐[[Years later]]",
+			"lineHeight": 1.15,
+			"baseline": 15
 		},
 		{
 			"type": "arrow",
-			"version": 7640,
-			"versionNonce": 1662100837,
+			"version": 7648,
+			"versionNonce": 2024544494,
 			"isDeleted": false,
 			"id": "_iUJIXG3tuv7SwHY24_Pr",
 			"fillStyle": "hachure",
@@ -3433,7 +3545,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422863,
+			"updated": 1686771347555,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -3501,12 +3613,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1092,
-			"versionNonce": 879012843,
+			"version": 1094,
+			"versionNonce": 1311438190,
 			"isDeleted": false,
 			"id": "9vr57mWB",
 			"fillStyle": "hachure",
@@ -3515,11 +3630,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1531.8185617946845,
+			"x": 1532.478580715583,
 			"y": -99.09931527353413,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 61,
+			"width": 59.679962158203125,
 			"height": 25,
 			"seed": 317643077,
 			"groupIds": [
@@ -3527,23 +3642,24 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676089830630,
+			"updated": 1686766655144,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
 			"text": "Mecca",
 			"rawText": "Mecca",
-			"baseline": 18,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "24TL_K14kQePUrw3lhY-L",
-			"originalText": "Mecca"
+			"originalText": "Mecca",
+			"lineHeight": 1.25,
+			"baseline": 17
 		},
 		{
 			"type": "arrow",
-			"version": 6193,
-			"versionNonce": 1564625573,
+			"version": 6201,
+			"versionNonce": 283237486,
 			"isDeleted": false,
 			"id": "9ySKwfa4rRDKdJaNfvHo-",
 			"fillStyle": "hachure",
@@ -3566,7 +3682,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422862,
+			"updated": 1686771347553,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3595,8 +3711,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 6173,
-			"versionNonce": 1447800325,
+			"version": 6181,
+			"versionNonce": 2106072750,
 			"isDeleted": false,
 			"id": "FEYgaY9bCcq9wugm60VUw",
 			"fillStyle": "hachure",
@@ -3619,7 +3735,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422862,
+			"updated": 1686771347553,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -3687,12 +3803,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1758,
-			"versionNonce": 367159819,
+			"version": 1760,
+			"versionNonce": 36340782,
 			"isDeleted": false,
 			"id": "wFV6AoHu",
 			"fillStyle": "hachure",
@@ -3701,30 +3820,31 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1367.2390824577988,
-			"y": 619.092805132648,
+			"x": 1367.0789262077988,
+			"y": 617.8928051326479,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 174,
-			"height": 108,
+			"width": 174.3203125,
+			"height": 110.39999999999999,
 			"seed": 1608094501,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422864,
+			"updated": 1686766655147,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "Both magicians said that\nthere will come a time \nwhere a tribe of black \npeople from Sudan or \nEthiopia will come and \ntake over Yemen",
 			"rawText": "Both magicians said that there will come a time where a tribe of black people from Sudan or Ethiopia will come and take over Yemen",
-			"baseline": 104,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "OWQKh-bPM4RqyVRF-ZygR",
-			"originalText": "Both magicians said that there will come a time where a tribe of black people from Sudan or Ethiopia will come and take over Yemen"
+			"originalText": "Both magicians said that there will come a time where a tribe of black people from Sudan or Ethiopia will come and take over Yemen",
+			"lineHeight": 1.15,
+			"baseline": 107
 		},
 		{
 			"type": "rectangle",
@@ -3767,12 +3887,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1990,
-			"versionNonce": 205867749,
+			"version": 1992,
+			"versionNonce": 2145094382,
 			"isDeleted": false,
 			"id": "DvpWkKTq",
 			"fillStyle": "hachure",
@@ -3781,35 +3904,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1364.494859057988,
-			"y": 846.6713814693118,
+			"x": 1364.272202807988,
+			"y": 845.2713814693118,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 205,
-			"height": 126,
+			"width": 205.4453125,
+			"height": 128.79999999999998,
 			"seed": 216082731,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422865,
+			"updated": 1686766655150,
 			"link": "https://www.wikiwand.com/en/Najran",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "🌐So, Rabia migrated with \nhis family from Yemen to  \n[[Najran]], which was linked \nto Ash-Sham (currently the \ncountries of Syria, Lebanon, \nJordon, & Palestine) ruled by\nthe Roman empire",
 			"rawText": "So, Rabia migrated with his family from Yemen to  [[https://www.wikiwand.com/en/Najran|Najran]], which was linked to Ash-Sham (currently the countries of Syria, Lebanon, Jordon, & Palestine) ruled by the Roman empire",
-			"baseline": 122,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "GpPjKJieUbflhPEFioVH8",
-			"originalText": "🌐So, Rabia migrated with his family from Yemen to  [[Najran]], which was linked to Ash-Sham (currently the countries of Syria, Lebanon, Jordon, & Palestine) ruled by the Roman empire"
+			"originalText": "🌐So, Rabia migrated with his family from Yemen to  [[Najran]], which was linked to Ash-Sham (currently the countries of Syria, Lebanon, Jordon, & Palestine) ruled by the Roman empire",
+			"lineHeight": 1.15,
+			"baseline": 125
 		},
 		{
 			"type": "arrow",
-			"version": 8197,
-			"versionNonce": 968814763,
+			"version": 8205,
+			"versionNonce": 527512942,
 			"isDeleted": false,
 			"id": "kUXalFVkkcle3pH2oHu1M",
 			"fillStyle": "hachure",
@@ -3832,7 +3956,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422864,
+			"updated": 1686771347558,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -3900,12 +4024,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 2207,
-			"versionNonce": 1908917035,
+			"version": 2209,
+			"versionNonce": 504433070,
 			"isDeleted": false,
 			"id": "yPFWPP2F",
 			"fillStyle": "hachure",
@@ -3914,35 +4041,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1025.2577587671879,
-			"y": 872.0526966369661,
+			"x": 1025.0351025171879,
+			"y": 871.2526966369661,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 205,
-			"height": 72,
+			"width": 205.4453125,
+			"height": 73.6,
 			"seed": 69560683,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422866,
+			"updated": 1686766655153,
 			"link": "https://www.wikiwand.com/en/Abu_Karib#introduction",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
-			"text": "🌐Years later, he died and \nhis son [[Abu Karib As'ad \nal-Kamil]] wanted to go back \nto Yemen",
+			"text": "🌐Years later, he died and \nhis son [[Abu Karib As'ad al-\nKamil]] wanted to go back to \nYemen",
 			"rawText": "Years later, he died and his son [[https://www.wikiwand.com/en/Abu_Karib#introduction|Abu Karib As'ad al-Kamil]] wanted to go back to Yemen",
-			"baseline": 68,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "HdMAJmD71IX4-Sw4WaeHD",
-			"originalText": "🌐Years later, he died and his son [[Abu Karib As'ad al-Kamil]] wanted to go back to Yemen"
+			"originalText": "🌐Years later, he died and his son [[Abu Karib As'ad al-Kamil]] wanted to go back to Yemen",
+			"lineHeight": 1.15,
+			"baseline": 70
 		},
 		{
 			"type": "arrow",
-			"version": 8354,
-			"versionNonce": 1703192133,
+			"version": 8362,
+			"versionNonce": 1811493358,
 			"isDeleted": false,
 			"id": "3M47UaSn1ycE_KYLpTCOW",
 			"fillStyle": "hachure",
@@ -3965,7 +4093,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422865,
+			"updated": 1686771347561,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -4037,12 +4165,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 2790,
-			"versionNonce": 1201347365,
+			"version": 2792,
+			"versionNonce": 234865326,
 			"isDeleted": false,
 			"id": "dLy9TPPS",
 			"fillStyle": "hachure",
@@ -4051,35 +4182,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1019.7813885484031,
-			"y": 1139.9798306259934,
+			"x": 1019.6446697984031,
+			"y": 1138.3798306259935,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 255,
-			"height": 144,
+			"width": 255.2734375,
+			"height": 147.2,
 			"seed": 550704299,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422867,
+			"updated": 1686766655157,
 			"link": "https://www.wikiwand.com/en/Medina",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "🌐On his way to Yemen, he \nconquered Yathrib (currently called \n[[Medina]]) and made his son its \ngovernor. Later on he discovered \nthat the people of Yathrib killed his \nson, so he halted his journey to \nYemen, and went back to Yathrib to \navenge his son",
 			"rawText": "On his way to Yemen, he conquered Yathrib (currently called [[https://www.wikiwand.com/en/Medina|Medina]]) and made his son its governor. Later on he discovered that the people of Yathrib killed his son, so he halted his journey to Yemen, and went back to Yathrib to avenge his son",
-			"baseline": 140,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "978SiXoZq0Qfhey5MBaUa",
-			"originalText": "🌐On his way to Yemen, he conquered Yathrib (currently called [[Medina]]) and made his son its governor. Later on he discovered that the people of Yathrib killed his son, so he halted his journey to Yemen, and went back to Yathrib to avenge his son"
+			"originalText": "🌐On his way to Yemen, he conquered Yathrib (currently called [[Medina]]) and made his son its governor. Later on he discovered that the people of Yathrib killed his son, so he halted his journey to Yemen, and went back to Yathrib to avenge his son",
+			"lineHeight": 1.15,
+			"baseline": 144
 		},
 		{
 			"type": "arrow",
-			"version": 8533,
-			"versionNonce": 1574708683,
+			"version": 8541,
+			"versionNonce": 856428142,
 			"isDeleted": false,
 			"id": "hCJD2Ncf3C43oWFFdiB7r",
 			"fillStyle": "hachure",
@@ -4102,7 +4234,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422866,
+			"updated": 1686771347563,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -4170,12 +4302,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 2016,
-			"versionNonce": 863250155,
+			"version": 2018,
+			"versionNonce": 1037785454,
 			"isDeleted": false,
 			"id": "9DU6jMiP",
 			"fillStyle": "hachure",
@@ -4184,30 +4319,31 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1701.7667840103984,
-			"y": 1404.4767137678477,
+			"x": 1701.9542840103984,
+			"y": 1403.6767137678478,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 175,
-			"height": 72,
+			"width": 174.625,
+			"height": 73.6,
 			"seed": 2120807077,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422868,
+			"updated": 1686766655160,
 			"link": "[[Islamic Stories/Arabs/The History Of Arabs.excalidraw.md#^MAKTVCHP]]",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "🔗At that time, [[Yathrib \nhad multiple Jewish \ntribes]]; Banu Qurayza, \nQaynuqa, and Nadir",
 			"rawText": "At that time, [[Islamic Stories/Arabs/The History Of Arabs.excalidraw.md#^MAKTVCHP|Yathrib had multiple Jewish tribes]]; Banu Qurayza, Qaynuqa, and Nadir",
-			"baseline": 68,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "tpYR-kKajgCRpjvczgJDD",
-			"originalText": "🔗At that time, [[Yathrib had multiple Jewish tribes]]; Banu Qurayza, Qaynuqa, and Nadir"
+			"originalText": "🔗At that time, [[Yathrib had multiple Jewish tribes]]; Banu Qurayza, Qaynuqa, and Nadir",
+			"lineHeight": 1.15,
+			"baseline": 70
 		},
 		{
 			"type": "rectangle",
@@ -4250,12 +4386,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1983,
-			"versionNonce": 279741445,
+			"version": 1985,
+			"versionNonce": 428173358,
 			"isDeleted": false,
 			"id": "x7PEQ3wi",
 			"fillStyle": "hachure",
@@ -4264,35 +4403,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1393.745745730119,
-			"y": 1155.3493124740512,
+			"x": 1393.386370730119,
+			"y": 1154.1493124740512,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 176,
-			"height": 108,
+			"width": 176.71875,
+			"height": 110.39999999999999,
 			"seed": 1150383589,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422869,
+			"updated": 1686766655163,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "So by day, Abu Karib \nwould would fight the \npeople of Yathrib, and by\nnight, they would offer \nhim hospitality by giving \nhim food",
 			"rawText": "So by day, Abu Karib would would fight the people of Yathrib, and by night, they would offer him hospitality by giving him food",
-			"baseline": 104,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "Dq_-R0Szx8vsuOGzjF4f6",
-			"originalText": "So by day, Abu Karib would would fight the people of Yathrib, and by night, they would offer him hospitality by giving him food"
+			"originalText": "So by day, Abu Karib would would fight the people of Yathrib, and by night, they would offer him hospitality by giving him food",
+			"lineHeight": 1.15,
+			"baseline": 107
 		},
 		{
 			"type": "arrow",
-			"version": 8647,
-			"versionNonce": 1002836363,
+			"version": 8655,
+			"versionNonce": 1515145646,
 			"isDeleted": false,
 			"id": "LDeBGvRX-UmqMOo18S--7",
 			"fillStyle": "hachure",
@@ -4315,7 +4455,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422868,
+			"updated": 1686771347568,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -4383,12 +4523,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 2175,
-			"versionNonce": 2017948683,
+			"version": 2177,
+			"versionNonce": 1894837998,
 			"isDeleted": false,
 			"id": "ptGIrJu2",
 			"fillStyle": "hachure",
@@ -4397,35 +4540,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1695.8668345790709,
-			"y": 1158.414668969754,
+			"x": 1696.5426158290709,
+			"y": 1157.414668969754,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 173,
-			"height": 90,
+			"width": 171.6484375,
+			"height": 92,
 			"seed": 1062676523,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422870,
+			"updated": 1686766655166,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "This is because the \npeople of Yathrib were \n(and still are) always \nshowing hospitality and \ngenerosity to foreigners!",
 			"rawText": "This is because the people of Yathrib were (and still are) always showing hospitality and generosity to foreigners!",
-			"baseline": 86,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "TZBtCqkb_frB6j8WDfi-d",
-			"originalText": "This is because the people of Yathrib were (and still are) always showing hospitality and generosity to foreigners!"
+			"originalText": "This is because the people of Yathrib were (and still are) always showing hospitality and generosity to foreigners!",
+			"lineHeight": 1.15,
+			"baseline": 88
 		},
 		{
 			"type": "arrow",
-			"version": 8733,
-			"versionNonce": 115850085,
+			"version": 8741,
+			"versionNonce": 151991854,
 			"isDeleted": false,
 			"id": "4giIPC19mT7hy1-PJRMN0",
 			"fillStyle": "hachure",
@@ -4448,7 +4592,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422869,
+			"updated": 1686771347571,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -4509,12 +4653,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 3868,
-			"versionNonce": 690087461,
+			"version": 3870,
+			"versionNonce": 1594941742,
 			"isDeleted": false,
 			"id": "mWtfyK0S",
 			"fillStyle": "hachure",
@@ -4523,12 +4670,12 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 2032.4597486943485,
-			"y": 1924.7473469802135,
+			"x": 2032.276177832532,
+			"y": 1926.186985875419,
 			"strokeColor": "#1864ab",
 			"backgroundColor": "transparent",
-			"width": 100,
-			"height": 285,
+			"width": 100.36714172363281,
+			"height": 282.12072220958925,
 			"seed": 78744677,
 			"groupIds": [
 				"0B2E84ROOB75aa4j9dpE3",
@@ -4536,23 +4683,24 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422872,
+			"updated": 1686766655169,
 			"link": "https://www.youtube.com/watch?v=hZyFrZ-YdpM&list=PL098A450892DEDE98&index=3",
 			"locked": false,
 			"fontSize": 16.354824475918218,
 			"fontFamily": 2,
 			"text": "🌐[[Source]]: \nSeerah: \nThe \nLife \nof \nthe \nProphet \nMuhammad \n(PBUH) \n- \nPart 2 \nBy \nSheikh \nShady \nAlsuleiman",
 			"rawText": "[[https://www.youtube.com/watch?v=hZyFrZ-YdpM&list=PL098A450892DEDE98&index=3|Source]]: \nSeerah: \nThe \nLife \nof \nthe \nProphet \nMuhammad \n(PBUH) \n- \nPart 2 \nBy \nSheikh \nShady \nAlsuleiman",
-			"baseline": 281,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "-6ACUAKIsRNlLIAxmhJ6-",
-			"originalText": "🌐[[Source]]: \nSeerah: \nThe \nLife \nof \nthe \nProphet \nMuhammad \n(PBUH) \n- \nPart 2 \nBy \nSheikh \nShady \nAlsuleiman"
+			"originalText": "🌐[[Source]]: \nSeerah: \nThe \nLife \nof \nthe \nProphet \nMuhammad \n(PBUH) \n- \nPart 2 \nBy \nSheikh \nShady \nAlsuleiman",
+			"lineHeight": 1.15,
+			"baseline": 278
 		},
 		{
 			"type": "arrow",
-			"version": 6967,
-			"versionNonce": 399674597,
+			"version": 6977,
+			"versionNonce": 1757662002,
 			"isDeleted": false,
 			"id": "GAoXMjp2hfPTh3hQREpKW",
 			"fillStyle": "hachure",
@@ -4575,7 +4723,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422892,
+			"updated": 1686771383874,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4643,12 +4791,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1133,
-			"versionNonce": 241360395,
+			"version": 1135,
+			"versionNonce": 1747126254,
 			"isDeleted": false,
 			"id": "JNbFg97W",
 			"fillStyle": "hachure",
@@ -4657,11 +4808,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 779.2499045088576,
+			"x": 779.7599371626662,
 			"y": 1191.4423630881015,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 69,
+			"width": 67.97993469238281,
 			"height": 25,
 			"seed": 1866613547,
 			"groupIds": [
@@ -4669,23 +4820,24 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676089830630,
+			"updated": 1686766655172,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
 			"text": "Yathrib",
 			"rawText": "Yathrib",
-			"baseline": 18,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "7HonG99eUTkvZdW6V5L-g",
-			"originalText": "Yathrib"
+			"originalText": "Yathrib",
+			"lineHeight": 1.25,
+			"baseline": 17
 		},
 		{
 			"type": "arrow",
-			"version": 6419,
-			"versionNonce": 1252776325,
+			"version": 6427,
+			"versionNonce": 421397166,
 			"isDeleted": false,
 			"id": "x5RvNF6uVy9t3cWY5jVyR",
 			"fillStyle": "hachure",
@@ -4708,7 +4860,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422873,
+			"updated": 1686771347575,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4737,8 +4889,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 7990,
-			"versionNonce": 1096835301,
+			"version": 7998,
+			"versionNonce": 1877310702,
 			"isDeleted": false,
 			"id": "7WavhxpCTKeNysFEQ7XO6",
 			"fillStyle": "hachure",
@@ -4761,7 +4913,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422873,
+			"updated": 1686771347576,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -4790,8 +4942,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 7343,
-			"versionNonce": 1103531307,
+			"version": 7351,
+			"versionNonce": 446798190,
 			"isDeleted": false,
 			"id": "Fy2t6gpa1vPvrR7HWoJZa",
 			"fillStyle": "hachure",
@@ -4814,7 +4966,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422876,
+			"updated": 1686771347580,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -4882,12 +5034,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830630,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1946,
-			"versionNonce": 1774425739,
+			"version": 1948,
+			"versionNonce": 54027374,
 			"isDeleted": false,
 			"id": "l8ZoVzwo",
 			"fillStyle": "hachure",
@@ -4896,11 +5051,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1518.9573970117074,
+			"x": 1519.5352244653207,
 			"y": -273.3928508971361,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 207,
+			"width": 205.84434509277344,
 			"height": 25,
 			"seed": 731808261,
 			"groupIds": [
@@ -4908,18 +5063,19 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422875,
+			"updated": 1686766655177,
 			"link": "https://www.wikiwand.com/en/Banu_Qurayza",
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
 			"text": "🌐[[Banu Qurayza]]",
 			"rawText": "[[https://www.wikiwand.com/en/Banu_Qurayza|Banu Qurayza]]",
-			"baseline": 18,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "h6kt-k_rEdGdCYIK-rMYx",
-			"originalText": "🌐[[Banu Qurayza]]"
+			"originalText": "🌐[[Banu Qurayza]]",
+			"lineHeight": 1.25,
+			"baseline": 17
 		},
 		{
 			"type": "rectangle",
@@ -4970,12 +5126,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1490,
-			"versionNonce": 1324200229,
+			"version": 1492,
+			"versionNonce": 369483694,
 			"isDeleted": false,
 			"id": "MAKTVCHP",
 			"fillStyle": "hachure",
@@ -4984,11 +5143,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1212.033980757057,
+			"x": 1212.0435937941663,
 			"y": -401.5999017421765,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 208,
+			"width": 207.98077392578125,
 			"height": 50,
 			"seed": 1801438213,
 			"groupIds": [
@@ -4996,23 +5155,24 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422877,
+			"updated": 1686766655183,
 			"link": "[[Islamic Stories/Arabs/The History Of Arabs.excalidraw.md#^9DU6jMiP]]",
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
 			"text": "🔗[[Jewish tribes in \nYathrib]]",
 			"rawText": "[[Islamic Stories/Arabs/The History Of Arabs.excalidraw.md#^9DU6jMiP|Jewish tribes in Yathrib]]",
-			"baseline": 43,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "EsqQimW9iblbWTpuE6grZ",
-			"originalText": "🔗[[Jewish tribes in Yathrib]]"
+			"originalText": "🔗[[Jewish tribes in Yathrib]]",
+			"lineHeight": 1.25,
+			"baseline": 42
 		},
 		{
 			"type": "arrow",
-			"version": 7759,
-			"versionNonce": 393326539,
+			"version": 7767,
+			"versionNonce": 306723758,
 			"isDeleted": false,
 			"id": "p7gL9gJnQLjVzNSCmDgYs",
 			"fillStyle": "hachure",
@@ -5035,7 +5195,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422876,
+			"updated": 1686771347580,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -5099,12 +5259,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 2060,
-			"versionNonce": 789705291,
+			"version": 2062,
+			"versionNonce": 748178478,
 			"isDeleted": false,
 			"id": "om2sGCXr",
 			"fillStyle": "hachure",
@@ -5113,11 +5276,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1515.4665885038091,
+			"x": 1515.9344077176763,
 			"y": -359.71335466298285,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 207,
+			"width": 206.06436157226562,
 			"height": 25,
 			"seed": 1771944139,
 			"groupIds": [
@@ -5125,18 +5288,19 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422878,
+			"updated": 1686766655187,
 			"link": "https://www.wikiwand.com/en/Banu_Qaynuqa",
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
 			"text": "🌐[[Banu Qaynuqa]]",
 			"rawText": "[[https://www.wikiwand.com/en/Banu_Qaynuqa|Banu Qaynuqa]]",
-			"baseline": 18,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "DtK2xBQgNQxB_WdmQ0GYr",
-			"originalText": "🌐[[Banu Qaynuqa]]"
+			"originalText": "🌐[[Banu Qaynuqa]]",
+			"lineHeight": 1.25,
+			"baseline": 17
 		},
 		{
 			"type": "rectangle",
@@ -5179,12 +5343,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 2148,
-			"versionNonce": 1770563397,
+			"version": 2150,
+			"versionNonce": 836343982,
 			"isDeleted": false,
 			"id": "6wlPjGkB",
 			"fillStyle": "hachure",
@@ -5193,11 +5360,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1541.9632610258257,
+			"x": 1542.531078713814,
 			"y": -437.8379541896362,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 176,
+			"width": 174.86436462402344,
 			"height": 25,
 			"seed": 659050763,
 			"groupIds": [
@@ -5205,23 +5372,24 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422880,
+			"updated": 1686766655190,
 			"link": "https://www.wikiwand.com/en/Banu_Nadir",
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
 			"text": "🌐[[Banu Nadir]]",
 			"rawText": "[[https://www.wikiwand.com/en/Banu_Nadir|Banu Nadir]]",
-			"baseline": 18,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "zO9p9atYV5DAeDMR1UsC4",
-			"originalText": "🌐[[Banu Nadir]]"
+			"originalText": "🌐[[Banu Nadir]]",
+			"lineHeight": 1.25,
+			"baseline": 17
 		},
 		{
 			"type": "arrow",
-			"version": 8008,
-			"versionNonce": 1280536811,
+			"version": 8016,
+			"versionNonce": 2081289390,
 			"isDeleted": false,
 			"id": "y2FutrBFAqJFbFST6_yw9",
 			"fillStyle": "hachure",
@@ -5244,7 +5412,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422880,
+			"updated": 1686771347584,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -5273,8 +5441,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 8118,
-			"versionNonce": 2059814021,
+			"version": 8126,
+			"versionNonce": 820671086,
 			"isDeleted": false,
 			"id": "15sgV7410T3jI4HmxSxBE",
 			"fillStyle": "hachure",
@@ -5297,7 +5465,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422878,
+			"updated": 1686771347582,
 			"link": null,
 			"locked": false,
 			"startBinding": {
@@ -5365,12 +5533,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 2659,
-			"versionNonce": 87880907,
+			"version": 2661,
+			"versionNonce": 935128942,
 			"isDeleted": false,
 			"id": "cv8VEQpx",
 			"fillStyle": "hachure",
@@ -5379,35 +5550,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1352.6934108527034,
-			"y": 1355.0188007966972,
+			"x": 1351.2832546027034,
+			"y": 1353.2188007966972,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 229,
-			"height": 162,
+			"width": 231.8203125,
+			"height": 165.6,
 			"seed": 245481029,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422881,
+			"updated": 1686766655193,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
-			"text": "Two Jewish scholars from Banu \nQurayza came to Abu Karib, \nadvised him not to invade \nYathrib as it is protected by \nAllah because soon a 🔗 \nprophet will reach it, and gave \nhim teachings day by day until \nhe listened to their advice and \nconverted to Judaism",
+			"text": "Two Jewish scholars from Banu \nQurayza came to Abu Karib, \nadvised him not to invade \nYathrib as it is protected by Allah\nbecause soon a 🔗 prophet will \nreach it, and gave him teachings\nday by day until he listened to \ntheir advice and converted to \nJudaism",
 			"rawText": "Two Jewish scholars from Banu Qurayza came to Abu Karib, advised him not to invade Yathrib as it is protected by Allah because soon a 🔗 prophet will reach it, and gave him teachings day by day until he listened to their advice and converted to Judaism",
-			"baseline": 158,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "3r_NTXynbadKhfhC9-UED",
-			"originalText": "Two Jewish scholars from Banu Qurayza came to Abu Karib, advised him not to invade Yathrib as it is protected by Allah because soon a 🔗 prophet will reach it, and gave him teachings day by day until he listened to their advice and converted to Judaism"
+			"originalText": "Two Jewish scholars from Banu Qurayza came to Abu Karib, advised him not to invade Yathrib as it is protected by Allah because soon a 🔗 prophet will reach it, and gave him teachings day by day until he listened to their advice and converted to Judaism",
+			"lineHeight": 1.15,
+			"baseline": 162
 		},
 		{
 			"type": "arrow",
-			"version": 9070,
-			"versionNonce": 249394853,
+			"version": 9078,
+			"versionNonce": 336015086,
 			"isDeleted": false,
 			"id": "gezY_m254-qPBaetKAZCA",
 			"fillStyle": "hachure",
@@ -5430,7 +5602,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422880,
+			"updated": 1686771347586,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -5498,12 +5670,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 2936,
-			"versionNonce": 1677622309,
+			"version": 2938,
+			"versionNonce": 562478638,
 			"isDeleted": false,
 			"id": "TyGNLXTd",
 			"fillStyle": "hachure",
@@ -5512,35 +5687,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1020.1046482263596,
-			"y": 1372.9205741707149,
+			"x": 1019.9327732263596,
+			"y": 1371.5205741707148,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 230,
-			"height": 126,
+			"width": 230.34375,
+			"height": 128.79999999999998,
 			"seed": 1008983851,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422882,
+			"updated": 1686766655198,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "He then went back with the two \nscholars to Yemen, and on the \nway there, he met two Arabs \nwho wanted to plot against him \nand Quraysh, so they told him to\ndestroy the Kaaba to obtain the \njewelry beneath it",
 			"rawText": "He then went back with the two scholars to Yemen, and on the way there, he met two Arabs who wanted to plot against him and Quraysh, so they told him to destroy the Kaaba to obtain the jewelry beneath it",
-			"baseline": 122,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "8r3mNV07aHbgQmj5lmmFI",
-			"originalText": "He then went back with the two scholars to Yemen, and on the way there, he met two Arabs who wanted to plot against him and Quraysh, so they told him to destroy the Kaaba to obtain the jewelry beneath it"
+			"originalText": "He then went back with the two scholars to Yemen, and on the way there, he met two Arabs who wanted to plot against him and Quraysh, so they told him to destroy the Kaaba to obtain the jewelry beneath it",
+			"lineHeight": 1.15,
+			"baseline": 125
 		},
 		{
 			"type": "arrow",
-			"version": 9091,
-			"versionNonce": 1526342507,
+			"version": 9099,
+			"versionNonce": 1669253998,
 			"isDeleted": false,
 			"id": "Ng3MPrK70oYJ4NDWA3ygF",
 			"fillStyle": "hachure",
@@ -5563,7 +5739,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422881,
+			"updated": 1686771347589,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -5631,12 +5807,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 3265,
-			"versionNonce": 2037618155,
+			"version": 3267,
+			"versionNonce": 371852526,
 			"isDeleted": false,
 			"id": "dXotyC0q",
 			"fillStyle": "hachure",
@@ -5645,30 +5824,31 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1014.7083355254681,
-			"y": 1636.2470789019449,
+			"x": 1014.6067730254681,
+			"y": 1634.8470789019448,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 231,
-			"height": 126,
+			"width": 231.203125,
+			"height": 128.79999999999998,
 			"seed": 1795681509,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422884,
+			"updated": 1686766655201,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "However, the two Jewish \nscholars advised him to perform \npilgrim around it instead, as it is \nprotected by Allah, so he killed \nthe two Arabs who were trying \nto deceive him, and performed \npilgrimage ",
 			"rawText": "However, the two Jewish scholars advised him to perform pilgrim around it instead, as it is protected by Allah, so he killed the two Arabs who were trying to deceive him, and performed pilgrimage ",
-			"baseline": 122,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "WcmRICsisGXbNYS_RuYML",
-			"originalText": "However, the two Jewish scholars advised him to perform pilgrim around it instead, as it is protected by Allah, so he killed the two Arabs who were trying to deceive him, and performed pilgrimage "
+			"originalText": "However, the two Jewish scholars advised him to perform pilgrim around it instead, as it is protected by Allah, so he killed the two Arabs who were trying to deceive him, and performed pilgrimage ",
+			"lineHeight": 1.15,
+			"baseline": 125
 		},
 		{
 			"type": "rectangle",
@@ -5711,12 +5891,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 3558,
-			"versionNonce": 1037255941,
+			"version": 3560,
+			"versionNonce": 494519214,
 			"isDeleted": false,
 			"id": "a7ZFjLOP",
 			"fillStyle": "hachure",
@@ -5725,35 +5908,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1352.2996334280094,
-			"y": 1642.2614607388177,
+			"x": 1352.5535396780094,
+			"y": 1641.0614607388177,
 			"strokeColor": "#2b8a3e",
 			"backgroundColor": "transparent",
-			"width": 246,
-			"height": 108,
+			"width": 245.4921875,
+			"height": 110.39999999999999,
 			"seed": 1676777675,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422885,
-			"link": "[[Miscellaneous/The Kaaba]]",
+			"updated": 1686766655204,
+			"link": "[[The Kaaba]]",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "🔗Later on, Abu Karib (known as \nTubban As'ad) [[covered the \nKaaba]] each time he had a dream\nof covering it the day before, and \nthus he became the first one to \nfully cover the Kaaba",
-			"rawText": "Later on, Abu Karib (known as Tubban As'ad) [[Miscellaneous/The Kaaba|covered the Kaaba]] each time he had a dream of covering it the day before, and thus he became the first one to fully cover the Kaaba",
-			"baseline": 104,
+			"rawText": "Later on, Abu Karib (known as Tubban As'ad) [[The Kaaba|covered the Kaaba]] each time he had a dream of covering it the day before, and thus he became the first one to fully cover the Kaaba",
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "5KCYEz1_3D1ihizzRq3qi",
-			"originalText": "🔗Later on, Abu Karib (known as Tubban As'ad) [[covered the Kaaba]] each time he had a dream of covering it the day before, and thus he became the first one to fully cover the Kaaba"
+			"originalText": "🔗Later on, Abu Karib (known as Tubban As'ad) [[covered the Kaaba]] each time he had a dream of covering it the day before, and thus he became the first one to fully cover the Kaaba",
+			"lineHeight": 1.15,
+			"baseline": 107
 		},
 		{
 			"type": "arrow",
-			"version": 9197,
-			"versionNonce": 234856587,
+			"version": 9205,
+			"versionNonce": 1889444974,
 			"isDeleted": false,
 			"id": "OAfMGFwN5WfOfAWtG3ew6",
 			"fillStyle": "hachure",
@@ -5776,7 +5960,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422884,
+			"updated": 1686771347594,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -5844,12 +6028,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "https://www.wikiwand.com/en/Idolatry",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 3621,
-			"versionNonce": 1170309899,
+			"version": 3623,
+			"versionNonce": 1277753966,
 			"isDeleted": false,
 			"id": "3Ckf7VhJ",
 			"fillStyle": "hachure",
@@ -5858,35 +6045,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1685.0562530305565,
-			"y": 1643.2880879257818,
+			"x": 1685.1226592805565,
+			"y": 1642.0880879257818,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 202,
-			"height": 108,
+			"width": 201.8671875,
+			"height": 110.39999999999999,
 			"seed": 29467922,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422886,
+			"updated": 1686766655208,
 			"link": "https://www.wikiwand.com/en/Himyarite_Kingdom",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "🌐When he finally went to \nYemen, the [[Himyar tribes]] \nrefused to let him or his two \nscholars as he embraced \nJudaism instead of [[Idolism \n(الوثنية)]]",
 			"rawText": "When he finally went to Yemen, the [[https://www.wikiwand.com/en/Himyarite_Kingdom|Himyar tribes]] refused to let him or his two scholars as he embraced Judaism instead of [[https://www.wikiwand.com/en/Idolatry|Idolism (الوثنية)]]",
-			"baseline": 104,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "5pXDh0uT8HM8BlMN_6igo",
-			"originalText": "🌐When he finally went to Yemen, the [[Himyar tribes]] refused to let him or his two scholars as he embraced Judaism instead of [[Idolism (الوثنية)]]"
+			"originalText": "🌐When he finally went to Yemen, the [[Himyar tribes]] refused to let him or his two scholars as he embraced Judaism instead of [[Idolism (الوثنية)]]",
+			"lineHeight": 1.15,
+			"baseline": 107
 		},
 		{
 			"type": "arrow",
-			"version": 9166,
-			"versionNonce": 1385133797,
+			"version": 9174,
+			"versionNonce": 1741036078,
 			"isDeleted": false,
 			"id": "tHCdpZoGTYDhWZtH1PtBa",
 			"fillStyle": "hachure",
@@ -5909,7 +6097,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422883,
+			"updated": 1686771347592,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -5938,8 +6126,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 9288,
-			"versionNonce": 1133403237,
+			"version": 9296,
+			"versionNonce": 366403822,
 			"isDeleted": false,
 			"id": "C_kGtIAyhuMVMaNnWnt6D",
 			"fillStyle": "hachure",
@@ -5962,7 +6150,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422885,
+			"updated": 1686771347597,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -6030,12 +6218,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 4020,
-			"versionNonce": 959349221,
+			"version": 4022,
+			"versionNonce": 1875552558,
 			"isDeleted": false,
 			"id": "EDwNfTrs",
 			"fillStyle": "hachure",
@@ -6044,35 +6235,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1668.247404369022,
-			"y": 1894.8069524051662,
+			"x": 1668.009123119022,
+			"y": 1893.2069524051662,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 269,
-			"height": 144,
+			"width": 269.4765625,
+			"height": 147.2,
 			"seed": 381124690,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422888,
+			"updated": 1686766655212,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "When there was a dispute over a \nreligious matter, the Himyarites used \nto open the door of a house that \ncontained a great fire and the two \ndisputing parties would stand far from\neach other near that door, so \nwhichever party gets destroyed by the\nfire is considered as the losing party",
 			"rawText": "When there was a dispute over a religious matter, the Himyarites used to open the door of a house that contained a great fire and the two disputing parties would stand far from each other near that door, so whichever party gets destroyed by the fire is considered as the losing party",
-			"baseline": 140,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "Es6gdYBiuVfVxUI28k81y",
-			"originalText": "When there was a dispute over a religious matter, the Himyarites used to open the door of a house that contained a great fire and the two disputing parties would stand far from each other near that door, so whichever party gets destroyed by the fire is considered as the losing party"
+			"originalText": "When there was a dispute over a religious matter, the Himyarites used to open the door of a house that contained a great fire and the two disputing parties would stand far from each other near that door, so whichever party gets destroyed by the fire is considered as the losing party",
+			"lineHeight": 1.15,
+			"baseline": 144
 		},
 		{
 			"type": "arrow",
-			"version": 9650,
-			"versionNonce": 810740139,
+			"version": 9658,
+			"versionNonce": 1988754798,
 			"isDeleted": false,
 			"id": "4oZb0YVwKth5nnSGHGrO1",
 			"fillStyle": "hachure",
@@ -6095,7 +6287,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422886,
+			"updated": 1686771347599,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -6163,12 +6355,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 4283,
-			"versionNonce": 1981234219,
+			"version": 4285,
+			"versionNonce": 986828782,
 			"isDeleted": false,
 			"id": "ExGqPaxw",
 			"fillStyle": "hachure",
@@ -6177,35 +6372,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1379.718035687956,
-			"y": 1909.3364072535123,
+			"x": 1379.948504437956,
+			"y": 1908.3364072535123,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 173,
-			"height": 90,
+			"width": 172.5390625,
+			"height": 92,
 			"seed": 1536769554,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422889,
+			"updated": 1686766655215,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "The fire then consumed \nthe people of Himyar, so\nupon seeing this, the \npeople of Yemen \nconverted to Judaism",
 			"rawText": "The fire then consumed the people of Himyar, so upon seeing this, the people of Yemen converted to Judaism",
-			"baseline": 86,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "JaahW0KW5Ie3wPjFs-jdm",
-			"originalText": "The fire then consumed the people of Himyar, so upon seeing this, the people of Yemen converted to Judaism"
+			"originalText": "The fire then consumed the people of Himyar, so upon seeing this, the people of Yemen converted to Judaism",
+			"lineHeight": 1.15,
+			"baseline": 88
 		},
 		{
 			"type": "arrow",
-			"version": 9559,
-			"versionNonce": 774831429,
+			"version": 9567,
+			"versionNonce": 1501559278,
 			"isDeleted": false,
 			"id": "jmXPM-uxc5GE5tZ24jW49",
 			"fillStyle": "hachure",
@@ -6228,7 +6424,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422888,
+			"updated": 1686771347602,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -6296,12 +6492,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 4298,
-			"versionNonce": 1334293189,
+			"version": 4300,
+			"versionNonce": 1888579246,
 			"isDeleted": false,
 			"id": "NNGIrgiT",
 			"fillStyle": "hachure",
@@ -6310,35 +6509,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1048.1886526456763,
-			"y": 1904.6305249005713,
+			"x": 1048.4191213956763,
+			"y": 1903.6305249005713,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 173,
-			"height": 90,
+			"width": 172.5390625,
+			"height": 92,
 			"seed": 323122062,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422889,
+			"updated": 1686766655219,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "The fire then consumed \nthe people of Himyar, so\nupon seeing this, the \npeople of Yemen \nconverted to Judaism",
 			"rawText": "The fire then consumed the people of Himyar, so upon seeing this, the people of Yemen converted to Judaism",
-			"baseline": 86,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "VzO3L3JNLUQ6-7sx27eZo",
-			"originalText": "The fire then consumed the people of Himyar, so upon seeing this, the people of Yemen converted to Judaism"
+			"originalText": "The fire then consumed the people of Himyar, so upon seeing this, the people of Yemen converted to Judaism",
+			"lineHeight": 1.15,
+			"baseline": 88
 		},
 		{
 			"type": "arrow",
-			"version": 9384,
-			"versionNonce": 2077523659,
+			"version": 9392,
+			"versionNonce": 1937823342,
 			"isDeleted": false,
 			"id": "UlY1xHRN2rbd4-NNrH6Ew",
 			"fillStyle": "hachure",
@@ -6361,7 +6561,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422889,
+			"updated": 1686771347604,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -6429,12 +6629,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1452,
-			"versionNonce": 520227467,
+			"version": 1454,
+			"versionNonce": 289178990,
 			"isDeleted": false,
 			"id": "jubiE8MG",
 			"fillStyle": "hachure",
@@ -6443,11 +6646,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1253.704704252538,
+			"x": 1254.2347716963857,
 			"y": -638.9131492432025,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 150,
+			"width": 148.9398651123047,
 			"height": 25,
 			"seed": 790853906,
 			"groupIds": [
@@ -6455,18 +6658,19 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676089830631,
+			"updated": 1686766655221,
 			"link": null,
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
 			"text": "Tribes in Yemen",
 			"rawText": "Tribes in Yemen",
-			"baseline": 18,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "f18fCZc4sHXJjrYGKSeO6",
-			"originalText": "Tribes in Yemen"
+			"originalText": "Tribes in Yemen",
+			"lineHeight": 1.25,
+			"baseline": 17
 		},
 		{
 			"type": "rectangle",
@@ -6505,12 +6709,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": null,
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 1453,
-			"versionNonce": 1846861803,
+			"version": 1455,
+			"versionNonce": 1060143598,
 			"isDeleted": false,
 			"id": "0B9OrMpR",
 			"fillStyle": "hachure",
@@ -6519,11 +6726,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 1,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1561.7083759755092,
+			"x": 1562.177957579513,
 			"y": -553.1659575311063,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 186,
+			"width": 185.0608367919922,
 			"height": 25,
 			"seed": 1822887054,
 			"groupIds": [
@@ -6531,23 +6738,24 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422892,
+			"updated": 1686766655224,
 			"link": "[[Islamic Stories/Arabs/The History Of Arabs.excalidraw.md#^3Ckf7VhJ]]",
 			"locked": false,
 			"fontSize": 20,
 			"fontFamily": 1,
 			"text": "🔗[[Banu Himyar]]",
 			"rawText": "[[Islamic Stories/Arabs/The History Of Arabs.excalidraw.md#^3Ckf7VhJ|Banu Himyar]]",
-			"baseline": 18,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "ton30g8JRkYPSp4j2rCQp",
-			"originalText": "🔗[[Banu Himyar]]"
+			"originalText": "🔗[[Banu Himyar]]",
+			"lineHeight": 1.25,
+			"baseline": 17
 		},
 		{
 			"type": "arrow",
-			"version": 6835,
-			"versionNonce": 787711365,
+			"version": 6843,
+			"versionNonce": 291505454,
 			"isDeleted": false,
 			"id": "ZWVQ0arqacHDLTAUibxes",
 			"fillStyle": "hachure",
@@ -6570,7 +6778,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422890,
+			"updated": 1686771347607,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -6599,8 +6807,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 9150,
-			"versionNonce": 864356037,
+			"version": 9158,
+			"versionNonce": 1113866350,
 			"isDeleted": false,
 			"id": "MyfYSz5Ax1WKebi9_ZBr0",
 			"fillStyle": "hachure",
@@ -6623,7 +6831,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422869,
+			"updated": 1686771347571,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -6691,12 +6899,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 4584,
-			"versionNonce": 715528965,
+			"version": 4586,
+			"versionNonce": 1481990318,
 			"isDeleted": false,
 			"id": "KkAUuP9h",
 			"fillStyle": "hachure",
@@ -6705,35 +6916,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1039.5842466352772,
-			"y": 2130.2719322416046,
+			"x": 1039.6272153852772,
+			"y": 2128.6719322416047,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 199,
-			"height": 144,
+			"width": 198.9140625,
+			"height": 147.2,
 			"seed": 597310286,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422893,
+			"updated": 1686766655227,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "Abu Kabir (i.e., As'ad) later \nhad a son called Hassan \nwho became the next king \nof Yemen, and who wanted \nto take over the Arab \npeninsula even if it costs \ngreat sufferings to the army \nof Yemen",
 			"rawText": "Abu Kabir (i.e., As'ad) later had a son called Hassan who became the next king of Yemen, and who wanted to take over the Arab peninsula even if it costs great sufferings to the army of Yemen",
-			"baseline": 140,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "aMchKKlPUS9kwgCX7UlTQ",
-			"originalText": "Abu Kabir (i.e., As'ad) later had a son called Hassan who became the next king of Yemen, and who wanted to take over the Arab peninsula even if it costs great sufferings to the army of Yemen"
+			"originalText": "Abu Kabir (i.e., As'ad) later had a son called Hassan who became the next king of Yemen, and who wanted to take over the Arab peninsula even if it costs great sufferings to the army of Yemen",
+			"lineHeight": 1.15,
+			"baseline": 144
 		},
 		{
 			"type": "arrow",
-			"version": 9519,
-			"versionNonce": 870820491,
+			"version": 9527,
+			"versionNonce": 1355223470,
 			"isDeleted": false,
 			"id": "CjUyIs7rHMWrCn3B2QuFJ",
 			"fillStyle": "hachure",
@@ -6756,7 +6968,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422893,
+			"updated": 1686771347611,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -6785,8 +6997,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 9821,
-			"versionNonce": 812208965,
+			"version": 9829,
+			"versionNonce": 1749382958,
 			"isDeleted": false,
 			"id": "iKp2YOHCdhWzE13vsRtmR",
 			"fillStyle": "hachure",
@@ -6809,7 +7021,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422896,
+			"updated": 1686771347619,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -6877,12 +7089,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 4662,
-			"versionNonce": 2052361483,
+			"version": 4664,
+			"versionNonce": 527284078,
 			"isDeleted": false,
 			"id": "epZp9eDe",
 			"fillStyle": "hachure",
@@ -6891,35 +7106,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1706.4502196012593,
-			"y": 2136.961237636101,
+			"x": 1706.5791258512593,
+			"y": 2135.361237636101,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 203,
-			"height": 144,
+			"width": 202.7421875,
+			"height": 147.2,
 			"seed": 374848334,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422895,
+			"updated": 1686766655230,
 			"link": "https://youtu.be/tEB4xdSkcX4?t=119",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
-			"text": "🌐Amr agreed, killed his \nbrother, then because of his \nguilt went to some fortune \ntellers who told him to kill all\nthe generals that deceived \nhim in order to stop feeling \nguilty, so he killed them all \nexcept [[Dhī Raʿīn (ذي رعين)]]",
+			"text": "🌐Amr agreed, killed his \nbrother, then because of his \nguilt went to some fortune \ntellers who told him to kill all \nthe generals that deceived \nhim in order to stop feeling \nguilty, so he killed them all \nexcept [[Dhī Raʿīn (ذي رعين)]]",
 			"rawText": "Amr agreed, killed his brother, then because of his guilt went to some fortune tellers who told him to kill all the generals that deceived him in order to stop feeling guilty, so he killed them all except [[https://youtu.be/tEB4xdSkcX4?t=119|Dhī Raʿīn (ذي رعين)]]",
-			"baseline": 140,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "LUPtTH7p1ffUS0hPxAOJQ",
-			"originalText": "🌐Amr agreed, killed his brother, then because of his guilt went to some fortune tellers who told him to kill all the generals that deceived him in order to stop feeling guilty, so he killed them all except [[Dhī Raʿīn (ذي رعين)]]"
+			"originalText": "🌐Amr agreed, killed his brother, then because of his guilt went to some fortune tellers who told him to kill all the generals that deceived him in order to stop feeling guilty, so he killed them all except [[Dhī Raʿīn (ذي رعين)]]",
+			"lineHeight": 1.15,
+			"baseline": 144
 		},
 		{
 			"type": "arrow",
-			"version": 9960,
-			"versionNonce": 214475429,
+			"version": 9968,
+			"versionNonce": 1126850926,
 			"isDeleted": false,
 			"id": "beaJON8rHF_b1tI79SZCw",
 			"fillStyle": "hachure",
@@ -6942,7 +7158,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422896,
+			"updated": 1686771347619,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -7010,12 +7226,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "https://www.wikiwand.com/en/Dhu_Nuwas",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 5044,
-			"versionNonce": 1501272037,
+			"version": 5046,
+			"versionNonce": 2056029742,
 			"isDeleted": false,
 			"id": "yyPkcSUk",
 			"fillStyle": "hachure",
@@ -7024,35 +7243,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1675.950648945833,
-			"y": 2399.6167184315177,
+			"x": 1676.185023945833,
+			"y": 2398.416718431518,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 252,
-			"height": 108,
+			"width": 251.53125,
+			"height": 110.39999999999999,
 			"seed": 59032658,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422896,
+			"updated": 1686766655234,
 			"link": "https://www.wikiwand.com/en/Dhu_Shanatir",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "🌐Amr later died of depression, \nand a gangster Hymarite called \n[[Dhu Shanatir (لخنيعة ذي شناتر)]] ruled\nYemen until [[Dhu Nuwas (ذُو نُوَاس)]],\nbrother of Amr and Hassan, \nstabbed him",
 			"rawText": "Amr later died of depression, and a gangster Hymarite called [[https://www.wikiwand.com/en/Dhu_Shanatir|Dhu Shanatir (لخنيعة ذي شناتر)]] ruled Yemen until [[https://www.wikiwand.com/en/Dhu_Nuwas|Dhu Nuwas (ذُو نُوَاس)]], brother of Amr and Hassan, stabbed him",
-			"baseline": 104,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "p7sSIgEK_ecjvtdavCPip",
-			"originalText": "🌐Amr later died of depression, and a gangster Hymarite called [[Dhu Shanatir (لخنيعة ذي شناتر)]] ruled Yemen until [[Dhu Nuwas (ذُو نُوَاس)]], brother of Amr and Hassan, stabbed him"
+			"originalText": "🌐Amr later died of depression, and a gangster Hymarite called [[Dhu Shanatir (لخنيعة ذي شناتر)]] ruled Yemen until [[Dhu Nuwas (ذُو نُوَاس)]], brother of Amr and Hassan, stabbed him",
+			"lineHeight": 1.15,
+			"baseline": 107
 		},
 		{
 			"type": "arrow",
-			"version": 10078,
-			"versionNonce": 838120363,
+			"version": 10086,
+			"versionNonce": 1366411950,
 			"isDeleted": false,
 			"id": "1Z5rwtcBHXRCaS06cZQ-e",
 			"fillStyle": "hachure",
@@ -7075,7 +7295,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422895,
+			"updated": 1686771347616,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -7143,12 +7363,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 4612,
-			"versionNonce": 2072249899,
+			"version": 4614,
+			"versionNonce": 77909230,
 			"isDeleted": false,
 			"id": "ewzGNbI1",
 			"fillStyle": "hachure",
@@ -7157,35 +7380,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1378.061476818434,
-			"y": 2146.6440762691523,
+			"x": 1377.959914318434,
+			"y": 2145.244076269152,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 199,
-			"height": 126,
+			"width": 199.203125,
+			"height": 128.79999999999998,
 			"seed": 1404584846,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422897,
+			"updated": 1686766655237,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "Because of this, all army \ngenerals, except a Hymarite\nman called Dhī Raʿīn (ذي \nرعين), plotted against him by\ndeceiving his brother, Amr, \nto overthrow Hassan and \nbecome king instead",
 			"rawText": "Because of this, all army generals, except a Hymarite man called Dhī Raʿīn (ذي رعين), plotted against him by deceiving his brother, Amr, to overthrow Hassan and become king instead",
-			"baseline": 122,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "Y_ZMMnc2g9_rb7fB4G1Ax",
-			"originalText": "Because of this, all army generals, except a Hymarite man called Dhī Raʿīn (ذي رعين), plotted against him by deceiving his brother, Amr, to overthrow Hassan and become king instead"
+			"originalText": "Because of this, all army generals, except a Hymarite man called Dhī Raʿīn (ذي رعين), plotted against him by deceiving his brother, Amr, to overthrow Hassan and become king instead",
+			"lineHeight": 1.15,
+			"baseline": 125
 		},
 		{
 			"type": "rectangle",
-			"version": 2907,
-			"versionNonce": 291783333,
+			"version": 2908,
+			"versionNonce": 987966578,
 			"isDeleted": false,
 			"id": "4VVd1U6lKlLYTNqclLbW1",
 			"fillStyle": "hachure",
@@ -7199,7 +7423,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 210,
-			"height": 174,
+			"height": 176,
 			"seed": 1934530958,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
@@ -7221,14 +7445,17 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 					"type": "arrow"
 				}
 			],
-			"updated": 1676089830631,
+			"updated": 1686766655240,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 5019,
-			"versionNonce": 1860634821,
+			"version": 5021,
+			"versionNonce": 644402738,
 			"isDeleted": false,
 			"id": "togMdgNK",
 			"fillStyle": "hachure",
@@ -7237,35 +7464,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1376.1588606423966,
-			"y": 2374.396992039329,
+			"x": 1376.3229231423966,
+			"y": 2373.5969920393286,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 196,
-			"height": 162,
+			"width": 195.671875,
+			"height": 165.6,
 			"seed": 564923986,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422899,
+			"updated": 1686766655240,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "Now, magic was an \nimportant aspect for the \nJews of Yemen, so when \none of the main magicians \nof Dhu Nuwas was getting \nold, Dhu Nuwas decided to \nchoose from his town a \nyoung child to learn from \nthis old magician  ",
 			"rawText": "Now, magic was an important aspect for the Jews of Yemen, so when one of the main magicians of Dhu Nuwas was getting old, Dhu Nuwas decided to choose from his town a young child to learn from this old magician  ",
-			"baseline": 158,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "4VVd1U6lKlLYTNqclLbW1",
-			"originalText": "Now, magic was an important aspect for the Jews of Yemen, so when one of the main magicians of Dhu Nuwas was getting old, Dhu Nuwas decided to choose from his town a young child to learn from this old magician  "
+			"originalText": "Now, magic was an important aspect for the Jews of Yemen, so when one of the main magicians of Dhu Nuwas was getting old, Dhu Nuwas decided to choose from his town a young child to learn from this old magician  ",
+			"lineHeight": 1.15,
+			"baseline": 162
 		},
 		{
 			"type": "arrow",
-			"version": 10085,
-			"versionNonce": 219678923,
+			"version": 10093,
+			"versionNonce": 1048052654,
 			"isDeleted": false,
 			"id": "62VbstlAEQ5grS_fRFm6D",
 			"fillStyle": "hachure",
@@ -7275,11 +7503,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1652.4152080958522,
-			"y": 2464.937199239908,
+			"y": 2465.1617144507895,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 55.866433425156856,
-			"height": 1.0374655025925676,
+			"height": 0.7829734654283129,
 			"seed": 124274830,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
@@ -7288,7 +7516,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422897,
+			"updated": 1686771347621,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -7311,7 +7539,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				],
 				[
 					-55.866433425156856,
-					-1.0374655025925676
+					-0.7829734654283129
 				]
 			]
 		},
@@ -7360,12 +7588,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 5345,
-			"versionNonce": 1373776363,
+			"version": 5347,
+			"versionNonce": 1549739314,
 			"isDeleted": false,
 			"id": "jCibZydJ",
 			"fillStyle": "hachure",
@@ -7374,35 +7605,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1043.7899597015482,
-			"y": 2396.2638987038686,
+			"x": 1044.0204284515482,
+			"y": 2395.0638987038687,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 197,
-			"height": 108,
+			"width": 196.5390625,
+			"height": 110.39999999999999,
 			"seed": 174798290,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422900,
+			"updated": 1686766655243,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "On his way to the magician,\nthe child would pass by a \ntent where he heard the \npraying of a Christian \nscholar (who migrated to \nYemen from Najran)",
 			"rawText": "On his way to the magician, the child would pass by a tent where he heard the praying of a Christian scholar (who migrated to Yemen from Najran)",
-			"baseline": 104,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "VeLpJmC-nw3_yPXAuSZb1",
-			"originalText": "On his way to the magician, the child would pass by a tent where he heard the praying of a Christian scholar (who migrated to Yemen from Najran)"
+			"originalText": "On his way to the magician, the child would pass by a tent where he heard the praying of a Christian scholar (who migrated to Yemen from Najran)",
+			"lineHeight": 1.15,
+			"baseline": 107
 		},
 		{
 			"type": "arrow",
-			"version": 10130,
-			"versionNonce": 1827907621,
+			"version": 10138,
+			"versionNonce": 1909551150,
 			"isDeleted": false,
 			"id": "Id4PDCtRrtXBI8PCCbOav",
 			"fillStyle": "hachure",
@@ -7412,11 +7644,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1353.1309239560653,
-			"y": 2456.879427392812,
+			"y": 2457.5068525779734,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 84.17551353601812,
-			"height": 0,
+			"height": 0.24135168897919357,
 			"seed": 13890066,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
@@ -7425,7 +7657,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422899,
+			"updated": 1686771347624,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -7448,7 +7680,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				],
 				[
 					-84.17551353601812,
-					0
+					-0.24135168897919357
 				]
 			]
 		},
@@ -7489,12 +7721,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 5700,
-			"versionNonce": 1253043621,
+			"version": 5702,
+			"versionNonce": 1815675058,
 			"isDeleted": false,
 			"id": "TuQWPI9D",
 			"fillStyle": "hachure",
@@ -7503,35 +7738,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 708.326641668362,
-			"y": 2132.808749104483,
+			"x": 708.228985418362,
+			"y": 2131.208749104483,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 199,
-			"height": 144,
+			"width": 199.1953125,
+			"height": 147.2,
 			"seed": 378401810,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422901,
+			"updated": 1686766655247,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "As a side note, Najran \nbecame dominated by \nChristians when a Christian \nslave by the name of \nFimyon asked Allah (SWT) \nto send a thunder upon a \npalm tree that was \nworshipped at that time",
 			"rawText": "As a side note, Najran became dominated by Christians when a Christian slave by the name of Fimyon asked Allah (SWT) to send a thunder upon a palm tree that was worshipped at that time",
-			"baseline": 140,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "CkL4HoBEuffxFBXHBgc1_",
-			"originalText": "As a side note, Najran became dominated by Christians when a Christian slave by the name of Fimyon asked Allah (SWT) to send a thunder upon a palm tree that was worshipped at that time"
+			"originalText": "As a side note, Najran became dominated by Christians when a Christian slave by the name of Fimyon asked Allah (SWT) to send a thunder upon a palm tree that was worshipped at that time",
+			"lineHeight": 1.15,
+			"baseline": 144
 		},
 		{
 			"type": "arrow",
-			"version": 10407,
-			"versionNonce": 58438795,
+			"version": 10415,
+			"versionNonce": 1096414958,
 			"isDeleted": false,
 			"id": "Ihb8FEVOlP1dKFoQUZeDR",
 			"fillStyle": "hachure",
@@ -7554,7 +7790,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422900,
+			"updated": 1686771347628,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -7622,12 +7858,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 5592,
-			"versionNonce": 988044395,
+			"version": 5594,
+			"versionNonce": 763864562,
 			"isDeleted": false,
 			"id": "qhIVZnUY",
 			"fillStyle": "hachure",
@@ -7636,35 +7875,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1046.7200087287983,
-			"y": 2679.4651077551066,
+			"x": 1046.8371962287983,
+			"y": 2678.265107755107,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 195,
-			"height": 108,
+			"width": 194.765625,
+			"height": 110.39999999999999,
 			"seed": 443726930,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422902,
+			"updated": 1686766655250,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "The child was interested to \nknow more about this \nscholar, so each day, the \nchild would be taught by \nhim then by Dhu Nuwas's \nmagician  ",
 			"rawText": "The child was interested to know more about this scholar, so each day, the child would be taught by him then by Dhu Nuwas's magician  ",
-			"baseline": 104,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "ZMpSsrv3xcAVsUUX8xl4x",
-			"originalText": "The child was interested to know more about this scholar, so each day, the child would be taught by him then by Dhu Nuwas's magician  "
+			"originalText": "The child was interested to know more about this scholar, so each day, the child would be taught by him then by Dhu Nuwas's magician  ",
+			"lineHeight": 1.15,
+			"baseline": 107
 		},
 		{
 			"type": "arrow",
-			"version": 10193,
-			"versionNonce": 739045637,
+			"version": 10201,
+			"versionNonce": 1293478190,
 			"isDeleted": false,
 			"id": "pee-acC4XeiW423vxiN3P",
 			"fillStyle": "hachure",
@@ -7687,7 +7927,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422901,
+			"updated": 1686771347631,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -7755,12 +7995,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830631,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 6017,
-			"versionNonce": 2146289285,
+			"version": 6019,
+			"versionNonce": 769741618,
 			"isDeleted": false,
 			"id": "w2ucNHxm",
 			"fillStyle": "hachure",
@@ -7769,35 +8012,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1361.719968038694,
-			"y": 2655.4650806283703,
+			"x": 1361.942624288694,
+			"y": 2653.8650806283704,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 229,
-			"height": 144,
+			"width": 228.5546875,
+			"height": 147.2,
 			"seed": 39355534,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422903,
+			"updated": 1686766655253,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "Allah then bestowed upon the \nchild the gift of healing people, \nso when Dhu Nuwas asked him \nhow he was more proficient in \nmagic than his magician, the \nchild told him that it wasn't \nbecause of magic, but because \nof Allah (SWT) ",
 			"rawText": "Allah then bestowed upon the child the gift of healing people, so when Dhu Nuwas asked him how he was more proficient in magic than his magician, the child told him that it wasn't because of magic, but because of Allah (SWT) ",
-			"baseline": 140,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "8b2uXAECgQS5dSqHB2Jkn",
-			"originalText": "Allah then bestowed upon the child the gift of healing people, so when Dhu Nuwas asked him how he was more proficient in magic than his magician, the child told him that it wasn't because of magic, but because of Allah (SWT) "
+			"originalText": "Allah then bestowed upon the child the gift of healing people, so when Dhu Nuwas asked him how he was more proficient in magic than his magician, the child told him that it wasn't because of magic, but because of Allah (SWT) ",
+			"lineHeight": 1.15,
+			"baseline": 144
 		},
 		{
 			"type": "arrow",
-			"version": 10369,
-			"versionNonce": 1371700651,
+			"version": 10377,
+			"versionNonce": 1472729070,
 			"isDeleted": false,
 			"id": "HXMXLe5frqgAkrKyrJlwe",
 			"fillStyle": "hachure",
@@ -7820,7 +8064,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422902,
+			"updated": 1686771347633,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -7888,12 +8132,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 6293,
-			"versionNonce": 929446283,
+			"version": 6295,
+			"versionNonce": 1237518450,
 			"isDeleted": false,
 			"id": "lWR0xm2i",
 			"fillStyle": "hachure",
@@ -7902,35 +8149,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1699.7199409119578,
-			"y": 2682.465148445211,
+			"x": 1699.5050971619578,
+			"y": 2681.465148445211,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 229,
-			"height": 90,
+			"width": 229.4296875,
+			"height": 92,
 			"seed": 649934350,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422904,
+			"updated": 1686766655256,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "Upon hearing this, Dhu Nuwas \ngot very angry and ordered his \nsoldiers to search for a Christian\nscholar who might have taught \nthe child about Christianity ",
 			"rawText": "Upon hearing this, Dhu Nuwas got very angry and ordered his soldiers to search for a Christian scholar who might have taught the child about Christianity ",
-			"baseline": 86,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "kU3SPhhwlTPqQV4b7qhyt",
-			"originalText": "Upon hearing this, Dhu Nuwas got very angry and ordered his soldiers to search for a Christian scholar who might have taught the child about Christianity "
+			"originalText": "Upon hearing this, Dhu Nuwas got very angry and ordered his soldiers to search for a Christian scholar who might have taught the child about Christianity ",
+			"lineHeight": 1.15,
+			"baseline": 88
 		},
 		{
 			"type": "arrow",
-			"version": 10397,
-			"versionNonce": 836546021,
+			"version": 10405,
+			"versionNonce": 6021678,
 			"isDeleted": false,
 			"id": "slZgncE2-nIPLOBOVrf6x",
 			"fillStyle": "hachure",
@@ -7953,7 +8201,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422903,
+			"updated": 1686771347635,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -8021,12 +8269,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 6532,
-			"versionNonce": 1124602725,
+			"version": 6534,
+			"versionNonce": 1925825970,
 			"isDeleted": false,
 			"id": "tuojWy2Y",
 			"fillStyle": "hachure",
@@ -8035,35 +8286,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1706.3867432123054,
-			"y": 2943.2429126596203,
+			"x": 1706.1601807123054,
+			"y": 2942.0429126596205,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 229,
-			"height": 108,
+			"width": 229.453125,
+			"height": 110.39999999999999,
 			"seed": 371224334,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422905,
+			"updated": 1686766655260,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "They then brought the \npreviously mentioned scholar to \nDhu Nuwas, and he killed him, \nthen he tried to force the child to\nfollow Judaism instead, but the \nchild refused",
 			"rawText": "They then brought the previously mentioned scholar to Dhu Nuwas, and he killed him, then he tried to force the child to follow Judaism instead, but the child refused",
-			"baseline": 104,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "Vk7qeUSJhMdj_xJLlT8ch",
-			"originalText": "They then brought the previously mentioned scholar to Dhu Nuwas, and he killed him, then he tried to force the child to follow Judaism instead, but the child refused"
+			"originalText": "They then brought the previously mentioned scholar to Dhu Nuwas, and he killed him, then he tried to force the child to follow Judaism instead, but the child refused",
+			"lineHeight": 1.15,
+			"baseline": 107
 		},
 		{
 			"type": "arrow",
-			"version": 10476,
-			"versionNonce": 689754155,
+			"version": 10484,
+			"versionNonce": 238005934,
 			"isDeleted": false,
 			"id": "BFunF4_WRDvx8dWapjaxM",
 			"fillStyle": "hachure",
@@ -8086,7 +8338,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422904,
+			"updated": 1686771347638,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -8154,12 +8406,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 7081,
-			"versionNonce": 1232724651,
+			"version": 7083,
+			"versionNonce": 1135774450,
 			"isDeleted": false,
 			"id": "oybQa8Vn",
 			"fillStyle": "hachure",
@@ -8168,35 +8423,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1353.7200765456384,
-			"y": 2899.131760858406,
+			"x": 1353.6497640456384,
+			"y": 2897.131760858406,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 256,
-			"height": 180,
+			"width": 256.140625,
+			"height": 184,
 			"seed": 1804905298,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422906,
+			"updated": 1686766655264,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "So he ordered his soldiers to drown \nthe child in the middle of the sea, \nbut they died on the way (due to the\nchild's prayers to Allah) and then he\nreturned to Dhu Nuwas, who \nordered other soldiers to throw him \nfrom the peak of a mountain, in \nwhich they failed again for the same\nreason, then the child returned \nagain",
 			"rawText": "So he ordered his soldiers to drown the child in the middle of the sea, but they died on the way (due to the child's prayers to Allah) and then he returned to Dhu Nuwas, who ordered other soldiers to throw him from the peak of a mountain, in which they failed again for the same reason, then the child returned again",
-			"baseline": 176,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "MQNdFl_xHCYmp7ZHPgK5V",
-			"originalText": "So he ordered his soldiers to drown the child in the middle of the sea, but they died on the way (due to the child's prayers to Allah) and then he returned to Dhu Nuwas, who ordered other soldiers to throw him from the peak of a mountain, in which they failed again for the same reason, then the child returned again"
+			"originalText": "So he ordered his soldiers to drown the child in the middle of the sea, but they died on the way (due to the child's prayers to Allah) and then he returned to Dhu Nuwas, who ordered other soldiers to throw him from the peak of a mountain, in which they failed again for the same reason, then the child returned again",
+			"lineHeight": 1.15,
+			"baseline": 180
 		},
 		{
 			"type": "arrow",
-			"version": 10733,
-			"versionNonce": 970612421,
+			"version": 10741,
+			"versionNonce": 1910135598,
 			"isDeleted": false,
 			"id": "9pjIoWnvw8d14qYX0C9Hz",
 			"fillStyle": "hachure",
@@ -8219,7 +8475,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422905,
+			"updated": 1686771347640,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -8287,12 +8543,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 7668,
-			"versionNonce": 397825093,
+			"version": 7670,
+			"versionNonce": 341465138,
 			"isDeleted": false,
 			"id": "YPAdOd7R",
 			"fillStyle": "hachure",
@@ -8301,35 +8560,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1026.2756456645625,
-			"y": 2929.242871969515,
+			"x": 1026.2365831645625,
+			"y": 2927.842871969515,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 248,
-			"height": 126,
+			"width": 248.078125,
+			"height": 128.79999999999998,
 			"seed": 654013138,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422908,
+			"updated": 1686766655267,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "The child then said that the only \nway to kill him, is for Dhu Nuwas to\ntie him up in a tree, gather the \npeople of Yemen around them, \nand get an arrow thrower to say \"in\nthe name of the Lord of this young \nman\" and then shoot him.",
 			"rawText": "The child then said that the only way to kill him, is for Dhu Nuwas to tie him up in a tree, gather the people of Yemen around them, and get an arrow thrower to say \"in the name of the Lord of this young man\" and then shoot him.",
-			"baseline": 122,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "l4k-IeWr1VGDGI-jHz1Eh",
-			"originalText": "The child then said that the only way to kill him, is for Dhu Nuwas to tie him up in a tree, gather the people of Yemen around them, and get an arrow thrower to say \"in the name of the Lord of this young man\" and then shoot him."
+			"originalText": "The child then said that the only way to kill him, is for Dhu Nuwas to tie him up in a tree, gather the people of Yemen around them, and get an arrow thrower to say \"in the name of the Lord of this young man\" and then shoot him.",
+			"lineHeight": 1.15,
+			"baseline": 125
 		},
 		{
 			"type": "arrow",
-			"version": 10912,
-			"versionNonce": 1226724683,
+			"version": 10920,
+			"versionNonce": 186902446,
 			"isDeleted": false,
 			"id": "UpC_PC4y-hEgheDc5FsDp",
 			"fillStyle": "hachure",
@@ -8352,7 +8612,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422907,
+			"updated": 1686771347643,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -8420,12 +8680,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 6648,
-			"versionNonce": 1082120139,
+			"version": 6650,
+			"versionNonce": 230567282,
 			"isDeleted": false,
 			"id": "RuPOCRcE",
 			"fillStyle": "hachure",
@@ -8434,35 +8697,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1037.7201172357427,
-			"y": 3216.520595493822,
+			"x": 1037.4896484857427,
+			"y": 3215.920595493822,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 221,
-			"height": 54,
+			"width": 221.4609375,
+			"height": 55.199999999999996,
 			"seed": 99605906,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422909,
+			"updated": 1686766655269,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "so only when Dhu Nuwas did \nthose things was he able to kill \nthe child",
 			"rawText": "so only when Dhu Nuwas did those things was he able to kill the child",
-			"baseline": 50,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "sYWJzjiaq21sLcGiOa5Qh",
-			"originalText": "so only when Dhu Nuwas did those things was he able to kill the child"
+			"originalText": "so only when Dhu Nuwas did those things was he able to kill the child",
+			"lineHeight": 1.15,
+			"baseline": 52
 		},
 		{
 			"type": "arrow",
-			"version": 11063,
-			"versionNonce": 1691190181,
+			"version": 11071,
+			"versionNonce": 1741968430,
 			"isDeleted": false,
 			"id": "1yNJnOr_XY_xe_Dm8rw8K",
 			"fillStyle": "hachure",
@@ -8485,7 +8749,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422908,
+			"updated": 1686771347646,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -8553,12 +8817,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 6808,
-			"versionNonce": 1056966949,
+			"version": 6810,
+			"versionNonce": 1039862450,
 			"isDeleted": false,
 			"id": "BvZTd6LM",
 			"fillStyle": "hachure",
@@ -8567,35 +8834,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1370.7756592279304,
-			"y": 3216.909511509446,
+			"x": 1370.8850342279304,
+			"y": 3216.309511509446,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 230,
-			"height": 54,
+			"width": 229.78125,
+			"height": 55.199999999999996,
 			"seed": 588539346,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422910,
+			"updated": 1686766655272,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "When the people of Yemen saw \nthat, 20000 of them followed \nChristianity instead of Judaism",
 			"rawText": "When the people of Yemen saw that, 20000 of them followed Christianity instead of Judaism",
-			"baseline": 50,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "rHsYuXAOAAYhyL7XFpCZx",
-			"originalText": "When the people of Yemen saw that, 20000 of them followed Christianity instead of Judaism"
+			"originalText": "When the people of Yemen saw that, 20000 of them followed Christianity instead of Judaism",
+			"lineHeight": 1.15,
+			"baseline": 52
 		},
 		{
 			"type": "arrow",
-			"version": 11003,
-			"versionNonce": 300459627,
+			"version": 11011,
+			"versionNonce": 1135845550,
 			"isDeleted": false,
 			"id": "VJk-Yd4IpdGSlczbt-35P",
 			"fillStyle": "hachure",
@@ -8618,7 +8886,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422909,
+			"updated": 1686771347648,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -8686,12 +8954,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 7001,
-			"versionNonce": 1065916651,
+			"version": 7003,
+			"versionNonce": 743305202,
 			"isDeleted": false,
 			"id": "1afDmb5p",
 			"fillStyle": "hachure",
@@ -8700,35 +8971,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1736.9422716411243,
-			"y": 3208.3539830806276,
+			"x": 1737.0516466411243,
+			"y": 3207.5539830806274,
 			"strokeColor": "#c92a2a",
 			"backgroundColor": "transparent",
-			"width": 227,
-			"height": 72,
+			"width": 226.78125,
+			"height": 73.6,
 			"seed": 1618054930,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422911,
+			"updated": 1686766655275,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "So Dhu Nuwas and his soldiers \ndug up a ditch, filled it with fire, \nand threw anyone who refused \nto go back to Judaism   ",
 			"rawText": "So Dhu Nuwas and his soldiers dug up a ditch, filled it with fire, and threw anyone who refused to go back to Judaism   ",
-			"baseline": 68,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "hCE-kx3YKgAH44gvz_3j1",
-			"originalText": "So Dhu Nuwas and his soldiers dug up a ditch, filled it with fire, and threw anyone who refused to go back to Judaism   "
+			"originalText": "So Dhu Nuwas and his soldiers dug up a ditch, filled it with fire, and threw anyone who refused to go back to Judaism   ",
+			"lineHeight": 1.15,
+			"baseline": 70
 		},
 		{
 			"type": "arrow",
-			"version": 11051,
-			"versionNonce": 1724750981,
+			"version": 11059,
+			"versionNonce": 143248686,
 			"isDeleted": false,
 			"id": "vGdBazDF7I2o0EynxBUlI",
 			"fillStyle": "hachure",
@@ -8751,7 +9023,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422910,
+			"updated": 1686771347650,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -8819,12 +9091,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 7418,
-			"versionNonce": 1698476549,
+			"version": 7420,
+			"versionNonce": 1830018354,
 			"isDeleted": false,
 			"id": "qVzcW8Tk",
 			"fillStyle": "hachure",
@@ -8833,35 +9108,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1730.6081491767272,
-			"y": 3428.722917821612,
+			"x": 1730.6354929267272,
+			"y": 3427.122917821612,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 229,
-			"height": 144,
+			"width": 228.9453125,
+			"height": 147.2,
 			"seed": 790163858,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422912,
+			"updated": 1686766655278,
 			"link": "https://abdurrahman.org/2014/01/31/storyofboyandking/#:~:text=was%20known%20as-,Daws%20Dhu%20Tha%60laban,-.%20He%20escaped%20on",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "🌐Only one man, called [[Daws \nDhu Tha`laban (ذو ثعلبان)]], fled \nfrom Yemen to Caesar, the \nRoman emperor of Ash-Sham, \nwho wrote to An-Najashi, the \nking of Abyssinia (Euthopia), \nwho sent a Christian army of \n70000 man to Yemen",
 			"rawText": "Only one man, called [[https://abdurrahman.org/2014/01/31/storyofboyandking/#:~:text=was%20known%20as-,Daws%20Dhu%20Tha%60laban,-.%20He%20escaped%20on|Daws Dhu Tha`laban (ذو ثعلبان)]], fled from Yemen to Caesar, the Roman emperor of Ash-Sham, who wrote to An-Najashi, the king of Abyssinia (Euthopia), who sent a Christian army of 70000 man to Yemen",
-			"baseline": 140,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "L1PZM-Vt4cfko1fmxlMgw",
-			"originalText": "🌐Only one man, called [[Daws Dhu Tha`laban (ذو ثعلبان)]], fled from Yemen to Caesar, the Roman emperor of Ash-Sham, who wrote to An-Najashi, the king of Abyssinia (Euthopia), who sent a Christian army of 70000 man to Yemen"
+			"originalText": "🌐Only one man, called [[Daws Dhu Tha`laban (ذو ثعلبان)]], fled from Yemen to Caesar, the Roman emperor of Ash-Sham, who wrote to An-Najashi, the king of Abyssinia (Euthopia), who sent a Christian army of 70000 man to Yemen",
+			"lineHeight": 1.15,
+			"baseline": 144
 		},
 		{
 			"type": "arrow",
-			"version": 11689,
-			"versionNonce": 1887191947,
+			"version": 11697,
+			"versionNonce": 1310644654,
 			"isDeleted": false,
 			"id": "n-u3bhdMJFX4d3c68CqfH",
 			"fillStyle": "hachure",
@@ -8884,7 +9160,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422911,
+			"updated": 1686771347652,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -8952,12 +9228,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 6837,
-			"versionNonce": 1867818507,
+			"version": 6839,
+			"versionNonce": 902419058,
 			"isDeleted": false,
 			"id": "s6NxiY21",
 			"fillStyle": "hachure",
@@ -8966,35 +9245,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1375.0776079624395,
-			"y": 3465.8445360550877,
+			"x": 1374.7104204624395,
+			"y": 3465.0445360550875,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 229,
-			"height": 72,
+			"width": 229.734375,
+			"height": 73.6,
 			"seed": 430726162,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422913,
+			"updated": 1686766655281,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "This army was lead by Aryat \nand Abraha, and was able to \nrescue Yemen from Dhu Nuwas \n(who tried to flee but drowned)",
 			"rawText": "This army was lead by Aryat and Abraha, and was able to rescue Yemen from Dhu Nuwas (who tried to flee but drowned)",
-			"baseline": 68,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "mlgalOwx7I4ypmw-uJrDZ",
-			"originalText": "This army was lead by Aryat and Abraha, and was able to rescue Yemen from Dhu Nuwas (who tried to flee but drowned)"
+			"originalText": "This army was lead by Aryat and Abraha, and was able to rescue Yemen from Dhu Nuwas (who tried to flee but drowned)",
+			"lineHeight": 1.15,
+			"baseline": 70
 		},
 		{
 			"type": "arrow",
-			"version": 11762,
-			"versionNonce": 1967270245,
+			"version": 11770,
+			"versionNonce": 1513801262,
 			"isDeleted": false,
 			"id": "IaqqdrcPlUMOqkdGuBHJ-",
 			"fillStyle": "hachure",
@@ -9017,7 +9297,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422912,
+			"updated": 1686771347655,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -9085,12 +9365,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 7109,
-			"versionNonce": 269733605,
+			"version": 7111,
+			"versionNonce": 1896665010,
 			"isDeleted": false,
 			"id": "R9l9lqZH",
 			"fillStyle": "hachure",
@@ -9099,35 +9382,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1027.5858792239844,
-			"y": 3435.577879790899,
+			"x": 1027.2890042239844,
+			"y": 3434.1778797908987,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 252,
-			"height": 126,
+			"width": 252.59375,
+			"height": 128.79999999999998,
 			"seed": 1830131214,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422914,
+			"updated": 1686766655284,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "Aryat was now leading Yemen, but \nbecause of his cruelty, Abraha \nkilled him and became the leader \ninstead, so when An-Najashi heard \nthis, he made an oath to go to \nYemen, cut the hair of Abrahah, \nand step on it",
 			"rawText": "Aryat was now leading Yemen, but because of his cruelty, Abraha killed him and became the leader instead, so when An-Najashi heard this, he made an oath to go to Yemen, cut the hair of Abrahah, and step on it",
-			"baseline": 122,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "QUOO-InzyOmCEYUVTFTRT",
-			"originalText": "Aryat was now leading Yemen, but because of his cruelty, Abraha killed him and became the leader instead, so when An-Najashi heard this, he made an oath to go to Yemen, cut the hair of Abrahah, and step on it"
+			"originalText": "Aryat was now leading Yemen, but because of his cruelty, Abraha killed him and became the leader instead, so when An-Najashi heard this, he made an oath to go to Yemen, cut the hair of Abrahah, and step on it",
+			"lineHeight": 1.15,
+			"baseline": 125
 		},
 		{
 			"type": "arrow",
-			"version": 11591,
-			"versionNonce": 562670763,
+			"version": 11599,
+			"versionNonce": 547721902,
 			"isDeleted": false,
 			"id": "2a8lgdF8gmpR-NXRpAaID",
 			"fillStyle": "hachure",
@@ -9150,7 +9434,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422913,
+			"updated": 1686771347658,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -9218,12 +9502,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 7426,
-			"versionNonce": 1884585771,
+			"version": 7428,
+			"versionNonce": 1385813234,
 			"isDeleted": false,
 			"id": "7t3VM5ME",
 			"fillStyle": "hachure",
@@ -9232,30 +9519,31 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1028.452415682318,
-			"y": 3678.5111480200653,
+			"x": 1028.440696932318,
+			"y": 3677.1111480200652,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 252,
-			"height": 126,
+			"width": 252.0234375,
+			"height": 128.79999999999998,
 			"seed": 471845970,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422916,
+			"updated": 1686766655288,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "So when Abraha heard of this \nnews, he sent a diplomatic letter to \nAn-Najashi along with a bag of his \nshaved hair and sand of Yemen for \nAn-Najashi to fulfill his oath by \nstepping on it instead of killing \nAbraha",
 			"rawText": "So when Abraha heard of this news, he sent a diplomatic letter to An-Najashi along with a bag of his shaved hair and sand of Yemen for An-Najashi to fulfill his oath by stepping on it instead of killing Abraha",
-			"baseline": 122,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "WLUl_eWGjhjtRJ-5lEutj",
-			"originalText": "So when Abraha heard of this news, he sent a diplomatic letter to An-Najashi along with a bag of his shaved hair and sand of Yemen for An-Najashi to fulfill his oath by stepping on it instead of killing Abraha"
+			"originalText": "So when Abraha heard of this news, he sent a diplomatic letter to An-Najashi along with a bag of his shaved hair and sand of Yemen for An-Najashi to fulfill his oath by stepping on it instead of killing Abraha",
+			"lineHeight": 1.15,
+			"baseline": 125
 		},
 		{
 			"type": "rectangle",
@@ -9298,12 +9586,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 7695,
-			"versionNonce": 1283252165,
+			"version": 7697,
+			"versionNonce": 1800266290,
 			"isDeleted": false,
 			"id": "Yq5ISJwm",
 			"fillStyle": "hachure",
@@ -9312,35 +9603,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1370.585797843776,
-			"y": 3689.0112294002734,
+			"x": 1370.277204093776,
+			"y": 3687.8112294002735,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 252,
-			"height": 108,
+			"width": 252.6171875,
+			"height": 110.39999999999999,
 			"seed": 957209618,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422917,
+			"updated": 1686766655291,
 			"link": "https://www.wikiwand.com/en/Al-Qalis_Church,_Sanaa",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "🌐So An-Najashi endorsed him, \nand Abraha wanted to maintain that\nendorsement by building a massive\nchurch in Yemen called [[Al-Qalis]], \nand by turning the people away \nfrom the Kaaba",
 			"rawText": "So An-Najashi endorsed him, and Abraha wanted to maintain that endorsement by building a massive church in Yemen called [[https://www.wikiwand.com/en/Al-Qalis_Church,_Sanaa|Al-Qalis]], and by turning the people away from the Kaaba",
-			"baseline": 104,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "3pNJHk425l5zZtRZZmP44",
-			"originalText": "🌐So An-Najashi endorsed him, and Abraha wanted to maintain that endorsement by building a massive church in Yemen called [[Al-Qalis]], and by turning the people away from the Kaaba"
+			"originalText": "🌐So An-Najashi endorsed him, and Abraha wanted to maintain that endorsement by building a massive church in Yemen called [[Al-Qalis]], and by turning the people away from the Kaaba",
+			"lineHeight": 1.15,
+			"baseline": 107
 		},
 		{
 			"type": "arrow",
-			"version": 11654,
-			"versionNonce": 1961011781,
+			"version": 11662,
+			"versionNonce": 1126645550,
 			"isDeleted": false,
 			"id": "OK7SZBzE5m2p3LeX5buBw",
 			"fillStyle": "hachure",
@@ -9363,7 +9655,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422915,
+			"updated": 1686771347661,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -9392,8 +9684,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 11729,
-			"versionNonce": 1668374987,
+			"version": 11737,
+			"versionNonce": 294112174,
 			"isDeleted": false,
 			"id": "wK5xvtuQ8YC5OB7EDLfnk",
 			"fillStyle": "hachure",
@@ -9416,7 +9708,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422916,
+			"updated": 1686771347663,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -9445,8 +9737,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 11847,
-			"versionNonce": 1740021541,
+			"version": 11855,
+			"versionNonce": 160380974,
 			"isDeleted": false,
 			"id": "EFhGR3Idxq9hYhJYN4D6n",
 			"fillStyle": "hachure",
@@ -9469,7 +9761,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422917,
+			"updated": 1686771347666,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -9537,12 +9829,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 7165,
-			"versionNonce": 212378699,
+			"version": 7167,
+			"versionNonce": 1025898354,
 			"isDeleted": false,
 			"id": "pdmXjW9C",
 			"fillStyle": "hachure",
@@ -9551,35 +9846,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1735.9524970625264,
-			"y": 3696.511107329962,
+			"x": 1735.5345283125264,
+			"y": 3695.511107329962,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 229,
-			"height": 90,
+			"width": 229.8359375,
+			"height": 92,
 			"seed": 1053629586,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422918,
+			"updated": 1686766655294,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "The Arab didn't like this news to \nthe point that one of them dud \nhis natural call in Al-Qalis \nchurch and spread his faeces \naround its walls",
 			"rawText": "The Arab didn't like this news to the point that one of them dud his natural call in Al-Qalis church and spread his faeces around its walls",
-			"baseline": 86,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "GOJ5cghzEUm2dGBg7nYkV",
-			"originalText": "The Arab didn't like this news to the point that one of them dud his natural call in Al-Qalis church and spread his faeces around its walls"
+			"originalText": "The Arab didn't like this news to the point that one of them dud his natural call in Al-Qalis church and spread his faeces around its walls",
+			"lineHeight": 1.15,
+			"baseline": 88
 		},
 		{
 			"type": "arrow",
-			"version": 11996,
-			"versionNonce": 1749279467,
+			"version": 12004,
+			"versionNonce": 1459979438,
 			"isDeleted": false,
 			"id": "43IsTtlYZswB2GXU1ysZv",
 			"fillStyle": "hachure",
@@ -9602,7 +9898,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422919,
+			"updated": 1686771347668,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -9670,12 +9966,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 7401,
-			"versionNonce": 482305189,
+			"version": 7403,
+			"versionNonce": 1329534130,
 			"isDeleted": false,
 			"id": "PWQI2k3R",
 			"fillStyle": "hachure",
@@ -9684,30 +9983,31 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1730.6951131193066,
-			"y": 3935.1806764162498,
+			"x": 1730.1208943693066,
+			"y": 3934.3806764162496,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 239,
-			"height": 72,
+			"width": 240.1484375,
+			"height": 73.6,
 			"seed": 2145089806,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422920,
+			"updated": 1686766655298,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "When Abraha knew about this, he\nwent out with his great army to \ndestroy the Kaaba, and would \ndestroy every tribe that fights him",
 			"rawText": "When Abraha knew about this, he went out with his great army to destroy the Kaaba, and would destroy every tribe that fights him",
-			"baseline": 68,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "TsDjlRyCJwQKwg0auAJFF",
-			"originalText": "When Abraha knew about this, he went out with his great army to destroy the Kaaba, and would destroy every tribe that fights him"
+			"originalText": "When Abraha knew about this, he went out with his great army to destroy the Kaaba, and would destroy every tribe that fights him",
+			"lineHeight": 1.15,
+			"baseline": 70
 		},
 		{
 			"type": "rectangle",
@@ -9750,12 +10050,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "https://www.wikiwand.com/ar/%D8%A3%D8%A8%D9%88_%D8%B1%D8%BA%D8%A7%D9%84",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 7797,
-			"versionNonce": 706844011,
+			"version": 7799,
+			"versionNonce": 1104558578,
 			"isDeleted": false,
 			"id": "7xVJBsra",
 			"fillStyle": "hachure",
@@ -9764,35 +10067,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1373.4283487963899,
-			"y": 3914.3584107912493,
+			"x": 1373.1978800463899,
+			"y": 3913.1584107912495,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 254,
-			"height": 108,
+			"width": 254.4609375,
+			"height": 110.39999999999999,
 			"seed": 701772622,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422921,
+			"updated": 1686766655302,
 			"link": "https://www.wikiwand.com/en/Taif",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "🌐Along the way, he went to [[Taif]] \nwhere its tribe surrendered to him, \nand one of them by the name of \n[[Abu Ru'al (أبو رغال)]] guided him to \nthe place of the Kaaba, but he died \nand got buried on the way there",
 			"rawText": "Along the way, he went to [[https://www.wikiwand.com/en/Taif|Taif]] where its tribe surrendered to him, and one of them by the name of [[https://www.wikiwand.com/ar/%D8%A3%D8%A8%D9%88_%D8%B1%D8%BA%D8%A7%D9%84|Abu Ru'al (أبو رغال)]] guided him to the place of the Kaaba, but he died and got buried on the way there",
-			"baseline": 104,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "JYmm6WDCBkDXVrWNx-7Tp",
-			"originalText": "🌐Along the way, he went to [[Taif]] where its tribe surrendered to him, and one of them by the name of [[Abu Ru'al (أبو رغال)]] guided him to the place of the Kaaba, but he died and got buried on the way there"
+			"originalText": "🌐Along the way, he went to [[Taif]] where its tribe surrendered to him, and one of them by the name of [[Abu Ru'al (أبو رغال)]] guided him to the place of the Kaaba, but he died and got buried on the way there",
+			"lineHeight": 1.15,
+			"baseline": 107
 		},
 		{
 			"type": "arrow",
-			"version": 12357,
-			"versionNonce": 454395909,
+			"version": 12365,
+			"versionNonce": 1404219694,
 			"isDeleted": false,
 			"id": "nkNuUBbvi5-AqT4vrbrgq",
 			"fillStyle": "hachure",
@@ -9815,7 +10119,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422920,
+			"updated": 1686771347670,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -9883,12 +10187,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676090464703,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 7775,
-			"versionNonce": 120731013,
+			"version": 7777,
+			"versionNonce": 1648912178,
 			"isDeleted": false,
 			"id": "tp3f7IBX",
 			"fillStyle": "hachure",
@@ -9897,35 +10204,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1036.4950805672236,
-			"y": 3903.0140097495823,
+			"x": 1035.0380493172236,
+			"y": 3901.4140097495824,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 239,
-			"height": 144,
+			"width": 241.9140625,
+			"height": 147.2,
 			"seed": 312810002,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090483327,
+			"updated": 1686766655306,
 			"link": "https://www.wikiwand.com/en/Abd_al-Muttalib",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
-			"text": "🌐Later, Abraha found Mecca \nand camped on its borders, \nwhere he ordered his soldiers to \ntake the life stock of the people of\nMecca. From among those, 200 \ncamels were taken that belong to \n[[Shaiba ibn Hashim (known as \nAbd al-Muttalib)]]",
+			"text": "🌐Later, Abraha found Mecca \nand camped on its borders, where\nhe ordered his soldiers to take the\nlife stock of the people of Mecca. \nFrom among those, 200 camels \nwere taken that belong to \n[[Shaiba ibn Hashim (known as \nAbd al-Muttalib)]]",
 			"rawText": "Later, Abraha found Mecca and camped on its borders, where he ordered his soldiers to take the life stock of the people of Mecca. From among those, 200 camels were taken that belong to [[https://www.wikiwand.com/en/Abd_al-Muttalib|Shaiba ibn Hashim (known as Abd al-Muttalib)]]",
-			"baseline": 140,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "j3m4HSP3ZUXivCKjw5QL5",
-			"originalText": "🌐Later, Abraha found Mecca and camped on its borders, where he ordered his soldiers to take the life stock of the people of Mecca. From among those, 200 camels were taken that belong to [[Shaiba ibn Hashim (known as Abd al-Muttalib)]]"
+			"originalText": "🌐Later, Abraha found Mecca and camped on its borders, where he ordered his soldiers to take the life stock of the people of Mecca. From among those, 200 camels were taken that belong to [[Shaiba ibn Hashim (known as Abd al-Muttalib)]]",
+			"lineHeight": 1.15,
+			"baseline": 144
 		},
 		{
 			"type": "arrow",
-			"version": 12400,
-			"versionNonce": 1982715915,
+			"version": 12408,
+			"versionNonce": 123649454,
 			"isDeleted": false,
 			"id": "T_Zorg7vRyRpb4RDbqkrz",
 			"fillStyle": "hachure",
@@ -9948,7 +10256,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090483325,
+			"updated": 1686771347673,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -10016,12 +10324,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676090462998,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 7997,
-			"versionNonce": 1423403339,
+			"version": 7999,
+			"versionNonce": 1058184306,
 			"isDeleted": false,
 			"id": "K8GFYGZk",
 			"fillStyle": "hachure",
@@ -10030,30 +10341,31 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1017.3348105935984,
-			"y": 4149.16606240884,
+			"x": 1016.9832480935984,
+			"y": 4147.56606240884,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 267,
-			"height": 144,
+			"width": 267.703125,
+			"height": 147.2,
 			"seed": 1130548302,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422924,
+			"updated": 1686766655310,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
-			"text": "After collecting life stock, Abraha met \nthe leader of Mecca, who was Abd \nal-Muttalib, and Abraha asked him \nwhat he wants. Abd al-Muttalib said \nhe wanted his camels back, so \nAbraha was shocked and asked him \nhow he did not think about his town \nand only mentioned his camels",
+			"text": "After collecting life stock, Abraha met \nthe leader of Mecca, who was Abd al-\nMuttalib, and Abraha asked him what \nhe wants. Abd al-Muttalib said he \nwanted his camels back, so Abraha \nwas shocked and asked him how he \ndid not think about his town and only \nmentioned his camels",
 			"rawText": "After collecting life stock, Abraha met the leader of Mecca, who was Abd al-Muttalib, and Abraha asked him what he wants. Abd al-Muttalib said he wanted his camels back, so Abraha was shocked and asked him how he did not think about his town and only mentioned his camels",
-			"baseline": 140,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "L-uHgXU1xcf3A9aeGnMIP",
-			"originalText": "After collecting life stock, Abraha met the leader of Mecca, who was Abd al-Muttalib, and Abraha asked him what he wants. Abd al-Muttalib said he wanted his camels back, so Abraha was shocked and asked him how he did not think about his town and only mentioned his camels"
+			"originalText": "After collecting life stock, Abraha met the leader of Mecca, who was Abd al-Muttalib, and Abraha asked him what he wants. Abd al-Muttalib said he wanted his camels back, so Abraha was shocked and asked him how he did not think about his town and only mentioned his camels",
+			"lineHeight": 1.15,
+			"baseline": 144
 		},
 		{
 			"type": "rectangle",
@@ -10096,12 +10408,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 8506,
-			"versionNonce": 1178906533,
+			"version": 8508,
+			"versionNonce": 1003608498,
 			"isDeleted": false,
 			"id": "BPT7sdRc",
 			"fillStyle": "hachure",
@@ -10110,35 +10425,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1370.5015857672095,
-			"y": 4176.666075972205,
+			"x": 1370.5562732672095,
+			"y": 4175.866075972205,
 			"strokeColor": "#d9480f",
 			"backgroundColor": "transparent",
-			"width": 234,
-			"height": 72,
+			"width": 233.890625,
+			"height": 73.6,
 			"seed": 1254301010,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422925,
+			"updated": 1686766655314,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "So Abd al-Muttalib told Abraha \nthat he is the lord (i.e., owner) of \nthese camels, while this Kaaba, \nhas a Lord that will look after it ",
 			"rawText": "So Abd al-Muttalib told Abraha that he is the lord (i.e., owner) of these camels, while this Kaaba, has a Lord that will look after it ",
-			"baseline": 68,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "hm5LtkIk9nbB5RY-LQqSr",
-			"originalText": "So Abd al-Muttalib told Abraha that he is the lord (i.e., owner) of these camels, while this Kaaba, has a Lord that will look after it "
+			"originalText": "So Abd al-Muttalib told Abraha that he is the lord (i.e., owner) of these camels, while this Kaaba, has a Lord that will look after it ",
+			"lineHeight": 1.15,
+			"baseline": 70
 		},
 		{
 			"type": "arrow",
-			"version": 12646,
-			"versionNonce": 676464619,
+			"version": 12654,
+			"versionNonce": 416511662,
 			"isDeleted": false,
 			"id": "JM6LR3sxCoBfZ3r3rpaji",
 			"fillStyle": "hachure",
@@ -10161,7 +10477,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422924,
+			"updated": 1686771347678,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -10229,12 +10545,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 8423,
-			"versionNonce": 1131756139,
+			"version": 8425,
+			"versionNonce": 625155826,
 			"isDeleted": false,
 			"id": "5LI511fb",
 			"fillStyle": "hachure",
@@ -10243,35 +10562,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1732.2237537359595,
-			"y": 4169.666109880627,
+			"x": 1732.3175037359595,
+			"y": 4168.666109880627,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 267,
-			"height": 90,
+			"width": 266.8125,
+			"height": 92,
 			"seed": 188089038,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422926,
+			"updated": 1686766655317,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "Upon hearing this, Abraha returned \nhis camels, and Abd al-Muttalib went \nback to Mecca and told its people to \ntemporarily leave Mecca and head to \nits surrounding mountains",
 			"rawText": "Upon hearing this, Abraha returned his camels, and Abd al-Muttalib went back to Mecca and told its people to temporarily leave Mecca and head to its surrounding mountains",
-			"baseline": 86,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "qcXb98c_P8L3swlUVgPPv",
-			"originalText": "Upon hearing this, Abraha returned his camels, and Abd al-Muttalib went back to Mecca and told its people to temporarily leave Mecca and head to its surrounding mountains"
+			"originalText": "Upon hearing this, Abraha returned his camels, and Abd al-Muttalib went back to Mecca and told its people to temporarily leave Mecca and head to its surrounding mountains",
+			"lineHeight": 1.15,
+			"baseline": 88
 		},
 		{
 			"type": "arrow",
-			"version": 12693,
-			"versionNonce": 465138437,
+			"version": 12701,
+			"versionNonce": 1814831918,
 			"isDeleted": false,
 			"id": "QCsVNDJ5Gp_VsGl68Zrbj",
 			"fillStyle": "hachure",
@@ -10294,7 +10614,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422925,
+			"updated": 1686771347680,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -10362,12 +10682,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 8718,
-			"versionNonce": 474564741,
+			"version": 8720,
+			"versionNonce": 1162046514,
 			"isDeleted": false,
 			"id": "yZwgcLWy",
 			"fillStyle": "hachure",
@@ -10376,35 +10699,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1733.5658349467215,
-			"y": 4428.765178236492,
+			"x": 1733.3509911967215,
+			"y": 4427.565178236492,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 273,
-			"height": 108,
+			"width": 273.4296875,
+			"height": 110.39999999999999,
 			"seed": 585212434,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422927,
+			"updated": 1686766655320,
 			"link": "https://www.wikiwand.com/en/Year_of_the_Elephant",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "🌐Abraha then came with army and a \nhuge elephant by the name of \n[[Mahmud]] to destroy the Kaaba, but \nwhenever Mahmud was looking \ntowards the Kaaba and getting near it,\nhe would stop moving",
 			"rawText": "Abraha then came with army and a huge elephant by the name of [[https://www.wikiwand.com/en/Year_of_the_Elephant|Mahmud]] to destroy the Kaaba, but whenever Mahmud was looking towards the Kaaba and getting near it, he would stop moving",
-			"baseline": 104,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "gMlHWPQmfjQNfZE3s9TK9",
-			"originalText": "🌐Abraha then came with army and a huge elephant by the name of [[Mahmud]] to destroy the Kaaba, but whenever Mahmud was looking towards the Kaaba and getting near it, he would stop moving"
+			"originalText": "🌐Abraha then came with army and a huge elephant by the name of [[Mahmud]] to destroy the Kaaba, but whenever Mahmud was looking towards the Kaaba and getting near it, he would stop moving",
+			"lineHeight": 1.15,
+			"baseline": 107
 		},
 		{
 			"type": "arrow",
-			"version": 12773,
-			"versionNonce": 1633203467,
+			"version": 12781,
+			"versionNonce": 1638117294,
 			"isDeleted": false,
 			"id": "3LEqjtJuMK29PImNu8obx",
 			"fillStyle": "hachure",
@@ -10427,7 +10751,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422926,
+			"updated": 1686771347683,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -10456,8 +10780,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		},
 		{
 			"type": "arrow",
-			"version": 12904,
-			"versionNonce": 2071457765,
+			"version": 12912,
+			"versionNonce": 1728191534,
 			"isDeleted": false,
 			"id": "_UQens9QjiB9imH5W0uC0",
 			"fillStyle": "hachure",
@@ -10480,7 +10804,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422927,
+			"updated": 1686771347685,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -10548,12 +10872,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 8810,
-			"versionNonce": 866932619,
+			"version": 8812,
+			"versionNonce": 1993326962,
 			"isDeleted": false,
 			"id": "GRNve5Qx",
 			"fillStyle": "hachure",
@@ -10562,35 +10889,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1358.3993039137354,
-			"y": 4411.209649807672,
+			"x": 1358.2078976637354,
+			"y": 4409.609649807671,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 270,
-			"height": 144,
+			"width": 270.3828125,
+			"height": 147.2,
 			"seed": 234265870,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422928,
+			"updated": 1686766655323,
 			"link": null,
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "They then saw a black cloud coming \ntowards them and hundreds of birds \nwith stones; one on its beaks and two \nin its claws. The birds then destroyed \nAbraha and his army with special \nstones, and that was a sign to all \npeople that the Kaaba was a place \nprotected by Allah (SWT)",
 			"rawText": "They then saw a black cloud coming towards them and hundreds of birds with stones; one on its beaks and two in its claws. The birds then destroyed Abraha and his army with special stones, and that was a sign to all people that the Kaaba was a place protected by Allah (SWT)",
-			"baseline": 140,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "EasrYQXw1WzUWaph_1Bh0",
-			"originalText": "They then saw a black cloud coming towards them and hundreds of birds with stones; one on its beaks and two in its claws. The birds then destroyed Abraha and his army with special stones, and that was a sign to all people that the Kaaba was a place protected by Allah (SWT)"
+			"originalText": "They then saw a black cloud coming towards them and hundreds of birds with stones; one on its beaks and two in its claws. The birds then destroyed Abraha and his army with special stones, and that was a sign to all people that the Kaaba was a place protected by Allah (SWT)",
+			"lineHeight": 1.15,
+			"baseline": 144
 		},
 		{
 			"type": "arrow",
-			"version": 13119,
-			"versionNonce": 854535723,
+			"version": 13127,
+			"versionNonce": 403663022,
 			"isDeleted": false,
 			"id": "c9eL4swSaoJGPYr8SWMp0",
 			"fillStyle": "hachure",
@@ -10600,11 +10928,11 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"opacity": 100,
 			"angle": 0,
 			"x": 1337.8785302418087,
-			"y": 4478.571951099989,
+			"y": 4478.571945924078,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
 			"width": 65.9343561628018,
-			"height": 0.8623106124987316,
+			"height": 0.8623087840051085,
 			"seed": 2030474898,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
@@ -10613,7 +10941,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				"type": 2
 			},
 			"boundElements": [],
-			"updated": 1676090422929,
+			"updated": 1686771347688,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -10636,7 +10964,7 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 				],
 				[
 					-65.9343561628018,
-					-0.8623106124987316
+					-0.8623087840051085
 				]
 			]
 		},
@@ -10677,12 +11005,15 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			],
 			"updated": 1676089830632,
 			"link": "",
-			"locked": false
+			"locked": false,
+			"customData": {
+				"legacyTextWrap": true
+			}
 		},
 		{
 			"type": "text",
-			"version": 9233,
-			"versionNonce": 427974149,
+			"version": 9235,
+			"versionNonce": 2078248178,
 			"isDeleted": false,
 			"id": "1mausxOo",
 			"fillStyle": "hachure",
@@ -10691,35 +11022,36 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roughness": 0,
 			"opacity": 100,
 			"angle": 0,
-			"x": 1043.2219111666802,
-			"y": 4406.880181258102,
+			"x": 1043.2180049166802,
+			"y": 4405.280181258102,
 			"strokeColor": "#000000",
 			"backgroundColor": "transparent",
-			"width": 209,
-			"height": 144,
+			"width": 209.0078125,
+			"height": 147.2,
 			"seed": 1020916818,
 			"groupIds": [
 				"9HwHbtlJ09Kgb84KNKldd"
 			],
 			"roundness": null,
 			"boundElements": [],
-			"updated": 1676090422930,
+			"updated": 1686766655326,
 			"link": "[[Terminologies#^uodq5d]]",
 			"locked": false,
 			"fontSize": 16,
 			"fontFamily": 2,
 			"text": "🔗After the destruction of \nAbraha and his army, Yemen,\nwas led by his two sons, and \nwas then led by the Persian \nempire (where the king was \ncalled [[Kisra]]) during the \ntime of the Prophet \nMuhammad",
 			"rawText": "After the destruction of Abraha and his army, Yemen, was led by his two sons, and was then led by the Persian empire (where the king was called [[Terminologies#^uodq5d|Kisra]]) during the time of the Prophet Muhammad",
-			"baseline": 140,
 			"textAlign": "center",
 			"verticalAlign": "middle",
 			"containerId": "b5437IiP4hjo3Oceb2w2-",
-			"originalText": "🔗After the destruction of Abraha and his army, Yemen, was led by his two sons, and was then led by the Persian empire (where the king was called [[Kisra]]) during the time of the Prophet Muhammad"
+			"originalText": "🔗After the destruction of Abraha and his army, Yemen, was led by his two sons, and was then led by the Persian empire (where the king was called [[Kisra]]) during the time of the Prophet Muhammad",
+			"lineHeight": 1.15,
+			"baseline": 144
 		},
 		{
 			"type": "arrow",
-			"version": 12479,
-			"versionNonce": 443326123,
+			"version": 12487,
+			"versionNonce": 1220031598,
 			"isDeleted": false,
 			"id": "J0Sb9h50qTRLM7xcZmN1k",
 			"fillStyle": "hachure",
@@ -10741,8 +11073,8 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 			"roundness": {
 				"type": 2
 			},
-			"boundElements": null,
-			"updated": 1676090483325,
+			"boundElements": [],
+			"updated": 1686771347675,
 			"link": "",
 			"locked": false,
 			"startBinding": {
@@ -10785,10 +11117,10 @@ a7b84d77cb00e1e244246aae4e14a1d0dd7c6fdc: [[Pasted Image 20230130070434_800.png]
 		"currentItemTextAlign": "left",
 		"currentItemStartArrowhead": null,
 		"currentItemEndArrowhead": "arrow",
-		"scrollX": -852.5612695837638,
-		"scrollY": -3660.0062859237146,
+		"scrollX": -1125.3228796940957,
+		"scrollY": 1118.7047657803996,
 		"zoom": {
-			"value": 0.9225603299050772
+			"value": 0.9000000000000002
 		},
 		"currentItemRoundness": "sharp",
 		"gridSize": null,

@@ -8,22 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "1044a38233000051",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "Islam/The Quran/3. Surah An-Najm (النجم).excalidraw.md"
-              }
-            }
-          },
-          {
-            "id": "e59ff19e6836d8c8",
+            "id": "2f63a80a62a14dd1",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Excalidraw/Scripts/Downloaded/Split text by space (English).md",
+                "file": "Programming/HTML And CSS/CSS New Info.md",
                 "mode": "source",
                 "source": false
               }
@@ -58,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "cuda",
+                "query": "css",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -72,6 +62,14 @@
             "type": "leaf",
             "state": {
               "type": "starred",
+              "state": {}
+            }
+          },
+          {
+            "id": "a905cf30debbcec2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
               "state": {}
             }
           }
@@ -95,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/The Quran/3. Surah An-Najm (النجم).excalidraw.md",
+                "file": "Programming/HTML And CSS/CSS New Info.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -112,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/The Quran/3. Surah An-Najm (النجم).excalidraw.md",
+                "file": "Programming/HTML And CSS/CSS New Info.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -135,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/The Quran/3. Surah An-Najm (النجم).excalidraw.md"
+                "file": "Programming/HTML And CSS/CSS New Info.md"
               }
             }
           },
@@ -168,13 +166,10 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-custom-frames:Open chatgpt": false,
-      "omnisearch:Omnisearch": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
@@ -182,57 +177,59 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-custom-frames:Open chatgpt": false,
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "6bdbcbc0f4d6cc2c",
+  "active": "2f63a80a62a14dd1",
   "lastOpenFiles": [
+    "Media/Default/Pasted image 20230803061936.png",
+    "Media/Default/Pasted image 20230803055253.png",
+    "Media/Default/Pasted image 20230803052150.png",
+    "Media/Default/Pasted image 20230803051343.png",
+    "Media/Default/Pasted image 20230803051320.png",
+    "Media/Default/Pasted image 20230803050847.png",
+    "Media/Default/Pasted image 20230803045913.png",
+    "Media/Default/Pasted image 20230803045714.png",
+    "Programming/Python/Virtual Environments/Conda Environment.md",
+    "Programming/Managing Names, Files And Directories/Python OS And Glob.md",
+    "Islam/The Quran/Terminologies.md",
+    "Tasks/Kanban To Do.md",
+    "Islam/Prophet Muhammad/The Prophet's Companions.md",
+    "Islam/Prophet Muhammad/الأئمة الربانيون.md",
+    "ابن جرير الطبري.md",
+    "Programming/HTML And CSS/CSS New Info.md",
+    "Media/Default/Pasted image 20230723211003.png",
+    "Media/Default/Pasted image 20230723202441.png",
+    "Media/Default/Pasted image 20230723201858.png",
+    "Programming/HTML And CSS/HTML New Info.md",
+    "Programming/Docker/Docker Basics.md",
+    "Programming/HTML And CSS",
+    "Programming/UX Design/Figma Notes.md",
+    "Programming/Docker",
+    "Programming/UX Design/Screen Units.md",
+    "Programming/UX Design/Layout Component.md",
+    "Programming/UX Design/Key Components of Web Design.md",
+    "Programming/Django/Tips/Django's manage.py.md",
+    "Islam/Prophet Muhammad/Battles.md",
+    "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
+    "^hGwrMnPw.md",
+    "Islam/Prophet Muhammad/Prophet Muhammad.excalidraw.md",
+    "Programming/AI Related/Model Related.md",
+    "Writing/Blogs/How to log EVERYTHING in PyTorch Lightning - A Manual Approach.md",
+    "Writing/Blogs/Nested List and Dict Comprehension - Unravelling Confusing Syntax.md",
+    "Writing/Blogs",
+    "Programming/VS Code/VS Code Tips.md",
+    "Islam/The Quran/x. Surah ... (ال) - Template.md",
+    "Islam/The Quran/51. Surah Adh-Dhariyat (الذاريات).md",
     "Obsidian/Workflow Tips/quran notes workflow (2023-04-30_7-05-23).mp4",
     "Obsidian/Workflow Tips",
-    "Excalidraw/Scripts/Downloaded/Split text by space (English).md",
-    "Islam/The Quran/3. Surah An-Najm (النجم).excalidraw.md",
-    "Excalidraw/Scripts/Downloaded/Split text by lines.md",
-    "Excalidraw/Scripts/Downloaded/Split text by space (Arabic).md",
-    "Media/Quran/Pasted Image 20230430050529_624.png",
     "Media/Quran",
-    "Media/Default/Pasted image 20230208145008.png",
-    "Media/Default/Pasted Image 20230430050444_577.png",
     "Islam/The Quran/Untitled.canvas",
-    "Islam/The Quran/3. Surah An-Najm (النجم).md",
-    "Excalidraw/Scripts/Downloaded/Rename Image 1.svg",
-    "Excalidraw/Scripts/Downloaded/Rename Image 1.md",
     "Excalidraw/Scripts/Downloaded/Downloaded",
-    "Excalidraw/Scripts/Downloaded/Split text by lines.svg",
-    "Excalidraw/Scripts/Downloaded/Add Connector Point.md",
-    "Excalidraw/Scripts/Downloaded/Add Connector Point.svg",
-    "Excalidraw/Scripts/Downloaded/Add Connector Point 1.md",
-    "Programming/AI Related/Model Related.md",
-    "Excalidraw/Scripts/Downloaded/Rename Image.md",
-    "Excalidraw/Scripts/Downloaded/Rename Image.svg",
     "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts/Split text by line.md",
-    "Excalidraw/Dark Mindmap Template.excalidraw.md",
-    "Excalidraw/Scripts/Split text by lines.md",
     "Excalidraw/Scripts/Split text by lines.js",
-    "Excalidraw/Scripts/New Text Document.txt",
-    "Excalidraw/Scripts",
-    "Psychology/Regulatory Focus Theory.md",
-    "Psychology",
-    "Programming/UX Design/Layout Component.md",
-    "Programming/UX Design/Google's Foundation of UX Design - Course 1.md",
-    "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
-    "Programming/Managing Names, Files And Directories/File Renaming Tools.md",
-    "Programming/Python/Virtual Environments/Conda Environment.md",
-    "Programming/Managing Names, Files And Directories/Regex.md",
-    "Programming/Managing Names, Files And Directories/Windows Tips.md",
-    "Programming/Python/Dealing With Strings.md",
-    "Islam/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
-    "Islam/Pre-Islamic World/Pre-Islamic World Map.md",
-    "Media/Default/Pasted image 20230417181527.png",
-    "Islam/The Quran/x. Surah ... (ال) - Template.md",
-    "Media/Default/Pasted image 20230330114749.png",
-    "Media/Default/how to add citations to word online using mendeley.gif",
-    "Obsidian",
-    "Writing"
+    "Excalidraw/Scripts/New Text Document.txt"
   ]
 }
