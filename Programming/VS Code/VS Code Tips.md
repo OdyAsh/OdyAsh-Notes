@@ -19,22 +19,22 @@ pro tip: if you want to change these shortcuts:
 3. paste the following to the start of that JSON file:
 ``` JSON
     {
-        "key": "ctrl+shift+f", // note: make cursor on function name
+        "key": "ctrl+shift+g", // note: make cursor on function name
         "command": "editor.foldRecursively",
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "ctrl+shift+g",
+        "key": "ctrl+shift+h",
         "command": "editor.unfoldRecursively",
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "ctrl+shift+alt+f", // note: make cursor anywhere in a cell
+        "key": "ctrl+shift+alt+g", // note: make cursor anywhere in a cell
         "command": "editor.foldAll",
         "when": "editorTextFocus && foldingEnabled"
     },
     {
-        "key": "ctrl+shift+alt+g",
+        "key": "ctrl+shift+alt+h",
         "command": "editor.unfoldAll",
         "when": "editorTextFocus && foldingEnabled"
     },

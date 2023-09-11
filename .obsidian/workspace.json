@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/HTML And CSS/CSS New Info.md",
+                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "css",
+                "query": "shortcu",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/HTML And CSS/CSS New Info.md",
+                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/HTML And CSS/CSS New Info.md",
+                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/HTML And CSS/CSS New Info.md"
+                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md"
               }
             }
           },
@@ -184,14 +184,23 @@
   },
   "active": "2f63a80a62a14dd1",
   "lastOpenFiles": [
+    "Islam/Terminologies.md",
+    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+    "Programming/VS Code/VS Code Tips.md",
+    "Islam/Marriage",
+    "Programming/Scraping/Xpath in Python.md",
+    "Programming/Automation/Browser-Related Automation.md",
+    "Programming/HTML And CSS/CSS New Info.md",
+    "Media/Default/Pasted image 20230804143448.png",
+    "Media/Default/Pasted image 20230804105720.png",
+    "Media/Default/Pasted image 20230804105714.png",
+    "Media/Default/Pasted image 20230804105526.png",
+    "Media/Default/Pasted image 20230804101043.png",
+    "Media/Default/Pasted image 20230804101001.png",
+    "Media/Default/Pasted image 20230804100928.png",
+    "Media/Default/Pasted image 20230804100854.png",
     "Media/Default/Pasted image 20230803061936.png",
     "Media/Default/Pasted image 20230803055253.png",
-    "Media/Default/Pasted image 20230803052150.png",
-    "Media/Default/Pasted image 20230803051343.png",
-    "Media/Default/Pasted image 20230803051320.png",
-    "Media/Default/Pasted image 20230803050847.png",
-    "Media/Default/Pasted image 20230803045913.png",
-    "Media/Default/Pasted image 20230803045714.png",
     "Programming/Python/Virtual Environments/Conda Environment.md",
     "Programming/Managing Names, Files And Directories/Python OS And Glob.md",
     "Islam/The Quran/Terminologies.md",
@@ -199,10 +208,6 @@
     "Islam/Prophet Muhammad/The Prophet's Companions.md",
     "Islam/Prophet Muhammad/الأئمة الربانيون.md",
     "ابن جرير الطبري.md",
-    "Programming/HTML And CSS/CSS New Info.md",
-    "Media/Default/Pasted image 20230723211003.png",
-    "Media/Default/Pasted image 20230723202441.png",
-    "Media/Default/Pasted image 20230723201858.png",
     "Programming/HTML And CSS/HTML New Info.md",
     "Programming/Docker/Docker Basics.md",
     "Programming/HTML And CSS",
@@ -218,18 +223,13 @@
     "Islam/Prophet Muhammad/Prophet Muhammad.excalidraw.md",
     "Programming/AI Related/Model Related.md",
     "Writing/Blogs/How to log EVERYTHING in PyTorch Lightning - A Manual Approach.md",
-    "Writing/Blogs/Nested List and Dict Comprehension - Unravelling Confusing Syntax.md",
     "Writing/Blogs",
-    "Programming/VS Code/VS Code Tips.md",
-    "Islam/The Quran/x. Surah ... (ال) - Template.md",
-    "Islam/The Quran/51. Surah Adh-Dhariyat (الذاريات).md",
     "Obsidian/Workflow Tips/quran notes workflow (2023-04-30_7-05-23).mp4",
     "Obsidian/Workflow Tips",
     "Media/Quran",
     "Islam/The Quran/Untitled.canvas",
     "Excalidraw/Scripts/Downloaded/Downloaded",
     "Excalidraw/Scripts/Downloaded",
-    "Excalidraw/Scripts/Split text by lines.js",
-    "Excalidraw/Scripts/New Text Document.txt"
+    "Excalidraw/Scripts/Split text by lines.js"
   ]
 }

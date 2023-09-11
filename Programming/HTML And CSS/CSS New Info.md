@@ -71,6 +71,30 @@ then:
 but if `border-box` then In the border box model, the content's dimension has to subtract the border and padding from the element's dimension. Specifically, the content's width is 200 - 5 * 2 - 10 * 2 = 170px:
 ![[Pasted image 20230723195355.png|475]]
 
+### Use `border-box` in `* {}`
+[source](https://www.w3schools.com/css/css3_box-sizing.asp)
+
+width + padding + border = actual width of an element  
+height + padding + border = actual height of an element
+
+This means: When you set the width/height of an element, the element often appears bigger than you have set (because the element's border and padding are added to the element's specified width/height).
+
+![[Pasted image 20230804105714.png|475]]
+
+The `box-sizing` property allows us to include the padding and border in an element's total width and height.
+
+If you set `box-sizing: border-box;` on an element, padding and border are included in the width and height:
+
+![[Pasted image 20230804105720.png|500]]
+
+so instead of writing `box-sizing: border-box;` in each tag, we can do it at start of css file like this:
+
+```css
+* {
+  box-sizing: border-box;
+}
+```
+
 ## Selectors
 ![[Pasted image 20230723201858.png]]
 
@@ -98,8 +122,38 @@ but if `border-box` then In the border box model, the content's dimension has to
 
 ![[Pasted image 20230723202441.png]]
 
-## ::before and ::after
+### Order of Pseudo-Classes
+
+[source](https://stackoverflow.com/a/34239875/13626137)
+Pseudo-classes must be declared in a specific order.
+The mnemonic **L**o**V**e **HA**te is always useful for remembering the correct order:
+
+```xml
+:link
+:visited
+:hover
+:active
+```
+
+Each pseudo-class corresponds to an event which can only happen later in the timeline than the one before.
+
+That is to say:
+
+1. A link is unvisited before it is visited.
+    
+2. A link is visited before it is hovered over.
+    
+3. A link is hovered over before it is in active use.
+
+
+### ::before and ::after
 check [this](https://www.youtube.com/watch?v=zGiirUiWslI) out
+
+## :not() Trick
+
+![[Pasted image 20230804143448.png]]
+
+
 
 ## Border vs Outline
 
@@ -282,6 +336,16 @@ check [this](https://www.w3schools.com/css/css_font_pairings.asp) for possible f
 
 my recommendation (personal taste): Helvetica and Garamond
 
+## margin:auto & max-width vs width (Make divs responsive)
+[source](https://www.w3schools.com/css/css_max-width.asp)
+
+![[Pasted image 20230804100928.png]]
+
+on mobile, width vs max-width:
+![[Pasted image 20230804101001.png|244]]
+
+if you horizontally scroll a little:
+![[Pasted image 20230804101043.png|254]]
 
 
 # Cheat Sheet
@@ -292,6 +356,11 @@ Responsive Image
 <img src="img_girl.jpg" style="max-width:100%;height:auto;">
 ```
 image will get smaller in responsive design
+
+# Transitions
+[source](https://www.youtube.com/watch?v=SgmNxE9lWcY)
+
+
 
 # Debugging Tips
 
