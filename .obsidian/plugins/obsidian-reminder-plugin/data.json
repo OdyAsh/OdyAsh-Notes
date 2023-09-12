@@ -1,19 +1,6 @@
 {
   "scanned": true,
-  "reminders": {
-    "Tasks/Kanban To Do.md": [
-      {
-        "title": "connect x 35",
-        "time": "2023-03-06 06:00",
-        "rowNumber": 43
-      },
-      {
-        "title": "delete kali and ubuntu images unless you want to use linux when working",
-        "time": "2023-06-15",
-        "rowNumber": 44
-      }
-    ]
-  },
+  "reminders": {},
   "debug": false,
   "settings": {
     "reminderTime": "09:00",

@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "shortcu",
+                "query": "mamba",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -73,7 +73,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -105,6 +106,17 @@
             }
           },
           {
+            "id": "791db778f6819cf6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
             "id": "6f775ce3b3334d64",
             "type": "leaf",
             "state": {
@@ -113,17 +125,6 @@
                 "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "791db778f6819cf6",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
               }
             }
           },
@@ -184,8 +185,11 @@
   },
   "active": "2f63a80a62a14dd1",
   "lastOpenFiles": [
-    "Islam/Terminologies.md",
+    "Programming/Python/Virtual Environments/Conda Environment.md",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+    "Tasks/Adhaan Duas.md",
+    "Tasks/Kanban To Do.md",
+    "Islam/Terminologies.md",
     "Programming/VS Code/VS Code Tips.md",
     "Islam/Marriage",
     "Programming/Scraping/Xpath in Python.md",
@@ -201,10 +205,8 @@
     "Media/Default/Pasted image 20230804100854.png",
     "Media/Default/Pasted image 20230803061936.png",
     "Media/Default/Pasted image 20230803055253.png",
-    "Programming/Python/Virtual Environments/Conda Environment.md",
     "Programming/Managing Names, Files And Directories/Python OS And Glob.md",
     "Islam/The Quran/Terminologies.md",
-    "Tasks/Kanban To Do.md",
     "Islam/Prophet Muhammad/The Prophet's Companions.md",
     "Islam/Prophet Muhammad/الأئمة الربانيون.md",
     "ابن جرير الطبري.md",
@@ -222,7 +224,6 @@
     "^hGwrMnPw.md",
     "Islam/Prophet Muhammad/Prophet Muhammad.excalidraw.md",
     "Programming/AI Related/Model Related.md",
-    "Writing/Blogs/How to log EVERYTHING in PyTorch Lightning - A Manual Approach.md",
     "Writing/Blogs",
     "Obsidian/Workflow Tips/quran notes workflow (2023-04-30_7-05-23).mp4",
     "Obsidian/Workflow Tips",

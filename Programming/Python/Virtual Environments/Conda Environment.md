@@ -9,12 +9,11 @@ open cmd, go to cwd, then:
 ```cmd
 mamba create -p ./.mamba python=3.8
 ```
-then
+then, to activate it:
 ```cmd
 mamba activate ./.mamba
 ```
-to activate it
-then, just in case:
+then, just in case, upgrade pip:
 ```cmd
 python.exe -m pip install --upgrade pip
 ``` 
@@ -23,7 +22,7 @@ python.exe -m pip install --upgrade pip
 
 ## Tip 1: Use `mamba` Instead Of `conda` 
 
-To install mamba, follow this (and try to install it for this user only, not admin, and leave the cache option unchecked).
+To install mamba, follow [this](https://biapol.github.io/blog/mara_lampert/getting_started_with_mambaforge_and_python/readme.html) (and try to install it for this user only, not admin, and leave the cache option unchecked).
 
 
 ## Tip 2: Try `conda install` Then `pip install`
