@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "d87c828de34b6952",
+        "id": "9d5eddd7e1b061d0",
         "type": "tabs",
         "children": [
           {
-            "id": "d28b781f159eeb8e",
+            "id": "2d8bdf740e147c26",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/AI Related/Power BI.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/AI Related/Power BI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +116,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/AI Related/Power BI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -132,9 +126,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programming/AI Related/Power BI.md"
-              }
+              "state": {}
             }
           },
           {
@@ -186,28 +178,27 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-custom-frames:Open chatgpt": false,
-      "omnisearch:Omnisearch": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "d28b781f159eeb8e",
+  "active": "2d8bdf740e147c26",
   "lastOpenFiles": [
-    "Programming/AI Related/Power BI Questions.md",
     "Programming/AI Related/Power BI.md",
-    "Media/Default/Pasted image 20231004205818.png",
-    "Programming/AI Related/Data Analytics Notes.md",
-    "Media/Default/Pasted image 20231004131654.png",
-    "Media/Default/Pasted image 20231004131317.png",
-    "Media/Default/Pasted image 20231004113636.png",
-    "Media/Default/Pasted image 20231004100904.png",
-    "Media/Default/Pasted image 20231003225344.png",
-    "Media/Default/Pasted image 20231003225255.png",
-    "Media/Default/Pasted image 20231003190519.png",
-    "Media/Default/Pasted image 20231003183435.png",
     "Media/Default/Pasted image 20231002225012.png",
+    "Media/Default/Pasted image 20231002223748.png",
+    "Media/Default/Pasted image 20231002223600.png",
+    "Media/Default/Pasted image 20231002222904.png",
+    "Media/Default/Pasted image 20231002222712.png",
+    "Media/Default/Pasted image 20231002222143.png",
+    "Media/Default/Pasted image 20231002221621.png",
+    "Media/Default/Pasted image 20231002221601.png",
+    "Media/Default/Pasted image 20231002221458.png",
+    "Media/Default/Pasted image 20231002204342.png",
     "[[Power.md",
+    "Programming/AI Related/Data Analytics Notes.md",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
     "Programming/Python/Virtual Environments/Conda Environment.md",
     "tmp/post 3.md",

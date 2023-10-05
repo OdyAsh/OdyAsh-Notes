@@ -2,6 +2,15 @@ I highly suggest watching [this](https://www.youtube.com/watch?v=8s5aj3sjuVE) vi
 After that, I suggest checking out [this](https://medium.com/ochrona/understanding-python-package-distribution-types-25d53308a9a) article about the pip packages' (i.e., dependencies') distribution types, and the advantage of using wheel bdist files.
 After that, I suggest checking out [this](https://towardsdatascience.com/requirements-vs-setuptools-python-ae3ee66e28af) article about `requirements.txt` vs `setup.py`
 
+# Libmamba
+
+Read more about it and follow installation steps from [here](https://www.anaconda.com/blog/a-faster-conda-for-a-growing-community). To summarize the commands:
+```cmd
+conda update -n base conda
+conda install -n base conda-libmamba-solver
+conda config --set solver libmamba
+```
+
 # Mamba
 
 ## Creating Environment

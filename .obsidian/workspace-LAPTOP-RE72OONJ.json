@@ -8,14 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d28b781f159eeb8e",
+            "id": "aa48a3b494efad01",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "image",
               "state": {
-                "file": "Programming/AI Related/Power BI.md",
-                "mode": "source",
-                "source": false
+                "file": "Media/Default/Pasted image 20230208154305.png"
               }
             }
           }
@@ -93,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/AI Related/Power BI.md",
+                "file": "Media/Default/Pasted image 20230208154305.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/AI Related/Power BI.md",
+                "file": "Media/Default/Pasted image 20230208154305.png",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/AI Related/Power BI.md"
+                "file": "Media/Default/Pasted image 20230208154305.png"
               }
             }
           },
@@ -186,29 +184,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-custom-frames:Open chatgpt": false,
-      "omnisearch:Omnisearch": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false
+      "omnisearch:Omnisearch": false
     }
   },
-  "active": "d28b781f159eeb8e",
+  "active": "aa48a3b494efad01",
   "lastOpenFiles": [
-    "Programming/AI Related/Power BI Questions.md",
-    "Programming/AI Related/Power BI.md",
-    "Media/Default/Pasted image 20231004205818.png",
-    "Programming/AI Related/Data Analytics Notes.md",
-    "Media/Default/Pasted image 20231004131654.png",
-    "Media/Default/Pasted image 20231004131317.png",
-    "Media/Default/Pasted image 20231004113636.png",
-    "Media/Default/Pasted image 20231004100904.png",
-    "Media/Default/Pasted image 20231003225344.png",
-    "Media/Default/Pasted image 20231003225255.png",
-    "Media/Default/Pasted image 20231003190519.png",
-    "Media/Default/Pasted image 20231003183435.png",
-    "Media/Default/Pasted image 20231002225012.png",
-    "[[Power.md",
+    "Media/Default/Pasted image 20230208154359.png",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+    "Programming/Azure/Setup Webjobs for Python Programs.md",
+    "Media/Default/Pasted image 20230208154305.png",
     "Programming/Python/Virtual Environments/Conda Environment.md",
     "tmp/post 3.md",
     "tmp/post 1.md",
@@ -223,6 +210,14 @@
     "Islam/Marriage",
     "Programming/Automation/Browser-Related Automation.md",
     "Programming/HTML And CSS/CSS New Info.md",
+    "Media/Default/Pasted image 20230804143448.png",
+    "Media/Default/Pasted image 20230804105720.png",
+    "Media/Default/Pasted image 20230804105714.png",
+    "Media/Default/Pasted image 20230804105526.png",
+    "Media/Default/Pasted image 20230804101043.png",
+    "Media/Default/Pasted image 20230804101001.png",
+    "Media/Default/Pasted image 20230804100928.png",
+    "Media/Default/Pasted image 20230804100854.png",
     "Programming/Managing Names, Files And Directories/Python OS And Glob.md",
     "Islam/The Quran/Terminologies.md",
     "Islam/Prophet Muhammad/The Prophet's Companions.md",
@@ -234,6 +229,8 @@
     "Programming/UX Design/Figma Notes.md",
     "Programming/Docker",
     "Programming/UX Design/Screen Units.md",
+    "Programming/UX Design/Layout Component.md",
+    "Programming/UX Design/Key Components of Web Design.md",
     "Writing/Blogs",
     "Obsidian/Workflow Tips/quran notes workflow (2023-04-30_7-05-23).mp4",
     "Obsidian/Workflow Tips",
