@@ -1,7 +1,32 @@
+# Power BI Basics
+## Power BI Core Components
 
-# Reports vs Dashboards vs Apps
+[Microsoft Source](https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/5-summary-cleanup)
+
+**Microsoft Power BI** is a comprehensive set of software tools, apps, and connectors that transform data into interactive insights. It accommodates various data sources and can be tailored to match your organization's complexity.
+
+- **Power BI Desktop** for authoring reports made up of datasets and visualizations.
+- **Power BI service** for creating dashboards from published reports and distributing content with apps.
+- **Power BI Mobile** for on-the-go access to the Power BI service content, designed for mobile.
+
+## Selecting a Storage Mode
+
+[M source](https://learn.microsoft.com/en-us/training/modules/get-data/6-storage-mode)
+
+The most popular way to use data in Power BI is to **import it into a Power BI dataset**. Importing the data means that the data is stored in the Power BI file and gets published along with the Power BI reports.
+
+The three different types of storage modes you can choose from:
+- Import
+	- Create a local Power BI copy of your datasets from your data source. You can use all Power BI service features with this storage mode, including Q&A and Quick Insights. Data refreshes can be scheduled or on-demand.
+		- This "local copy" is stored using Microsoft's ***VertiPaq*** compression engine; As soon as the data is loaded in Power BI, Vertipaq engine performs a series of algorithms on the data to compress it as much as possible. This optimizes the memory footprint and DAX query time in Power BI ([source](https://powerbitraining.com.au/vertipaq-engine-and-best-practices-in-dax/#:~:text=Vertipaq%20is%20the%20compression%20engine,query%20time%20in%20Power%20BI.)). 
+- DirectQuery
+	- query the specific tables that you'll need by using native Power BI queries, and the required data will be retrieved from the underlying data source.
+- Dual (Composite)
+	- identify some data to be directly imported and other data that must be queried. Any table that is brought in to your report is a product of both Import and DirectQuery modes. Using the Dual mode allows Power BI to choose the most efficient form of data retrieval.
+
+## Reports vs Dashboards vs Apps
 [Microsoft source 1](https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/3-building-blocks-of-power-bi) and [2](https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/4-exercise-touring-and-using-power-bi)
-## Reports vs Dashboards
+### Reports vs Dashboards
 
 ![[Pasted image 20230929210107.png]]
 ([source](https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards))
@@ -9,7 +34,7 @@
 ![[Pasted image 20230929210329.png]]
 ([source](https://k21academy.com/microsoft-azure/data-analyst/dashboards-vs-reports-in-power-bi/))
 
-## Dashboards vs Apps
+### Dashboards vs Apps
 
 ![[Pasted image 20230929210445.png]]
 ([source](https://www.coatesdatastrategies.com/blog/why-use-a-power-bi-app))
@@ -36,7 +61,7 @@ An App:
 Put briefly, Dashboards are OK for small implementations, but Apps are more scalable, secure and manageable for larger solutions.
 ([source](https://community.fabric.microsoft.com/t5/Service/Power-BI-dashboard-vs-Power-BI-app/m-p/2738348))
 
-## Visualizing The Three
+### Visualizing The Three
 
 App example:
 ![[Pasted image 20230929211052.png]]
@@ -48,16 +73,6 @@ Dashboard example is the same as the image above, but only the dashboard tab:
 Report example:
 ![[Pasted image 20230929211134.png]]
 (note: the "Top 100 Contributors" is a page in the report, so the report contains 6 pages in total)
-
-# Power BI Core Components
-
-[Microsoft Source](https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/5-summary-cleanup)
-
-**Microsoft Power BI** is a comprehensive set of software tools, apps, and connectors that transform data into interactive insights. It accommodates various data sources and can be tailored to match your organization's complexity.
-
-- **Power BI Desktop** for authoring reports made up of datasets and visualizations.
-- **Power BI service** for creating dashboards from published reports and distributing content with apps.
-- **Power BI Mobile** for on-the-go access to the Power BI service content, designed for mobile.
 
 # Parameter Value Types
 
@@ -75,50 +90,12 @@ https://www.youtube.com/watch?v=ynr9VE9QQXc
 # Change The Source File
 
 [M source](https://learn.microsoft.com/en-us/training/modules/get-data/2-data-files#:~:text=Change%20the%20source,select%20Close.)
-
-# Load JSON Using Expander
-
-when loading NoSQL data (from Cosmos DB for example), data will initially look like this:
-![[Pasted image 20230930080619.png]]
-
-So click load, then click on the expander button, then uncheck prefix option, then apply:
-![[Pasted image 20230930080722.png]]
-
-# Selecting a Storage Mode
-
-([Microsoft source](https://learn.microsoft.com/en-us/training/modules/get-data/6-storage-mode))
-
-The most popular way to use data in Power BI is to **import it into a Power BI dataset**. Importing the data means that the data is stored in the Power BI file and gets published along with the Power BI reports.
-
-The three different types of storage modes you can choose from:
-- Import
-	- Create a local Power BI copy of your datasets from your data source. You can use all Power BI service features with this storage mode, including Q&A and Quick Insights. Data refreshes can be scheduled or on-demand.
-- DirectQuery
-	- query the specific tables that you'll need by using native Power BI queries, and the required data will be retrieved from the underlying data source.
-- Dual (Composite)
-	- identify some data to be directly imported and other data that must be queried. Any table that is brought in to your report is a product of both Import and DirectQuery modes. Using the Dual mode allows Power BI to choose the most efficient form of data retrieval.
-
-
 # Querying Methods
 
 ## SQL vs T-SQL
 
 ([source](https://pediaa.com/what-is-the-difference-between-sql-and-tsql/))
 ![[Pasted image 20230930081913.png]]
-
-# Fixing Performance Issues
-
-[Microsoft source](https://learn.microsoft.com/en-us/training/modules/get-data/8-performance-issues)
-
-Tips: 
-* **Separate date and time, if bound together.** If any of your tables have columns that combine date and time, make sure that you separate them into distinct columns before importing them into Power BI. This approach will increase compression abilities.
-* **Process as much data as possible in the original data source.** Power Query and Power Query Editor allow you to process the data; however, the processing power that is required to complete this task might lower performance in other areas of your reports. Generally, a good practice is to process, as much as possible, in the native data source.
-## Query Folding
-
-ChatGPT:
-Query Folding is a performance optimization feature in Power BI that allows the Power Query engine to push data transformation operations back to the data source, such as a database or web service, instead of performing them locally within Power BI. This can significantly improve query performance by reducing the amount of data transferred over the network and processed locally.
-
-Example: Let's say you have a Power BI report that connects to a SQL database. You want to filter the data to only include records where the sales amount is greater than $1,000 and then aggregate the results. Without query folding, Power BI might first retrieve all the data from the database and then apply the filter and aggregation operations locally. With query folding, Power BI sends a SQL query to the database that includes the filter and aggregation operations, and the database performs these operations. This results in faster and more efficient data processing.
 
 # Import Errors
 
@@ -312,7 +289,7 @@ Visualized example:
 
 Each Power BI model table (except calculated tables) has a storage mode property. The storage mode property can be either **Import**, **DirectQuery**, or <mark style="background: #D2B3FFA6;">Dual</mark>, and it determines whether table data is stored in the model.
 
-## Model framework
+### Model framework
 
 <mark style="background: #FF5582A6;">Table storage mode settings determine the model framework</mark>, which can be either import, DirectQuery, or <mark style="background: #D2B3FFA6;">composite</mark>. The following units in this module describe each of these frameworks and provides guidance on their use.
 
@@ -322,7 +299,7 @@ Each Power BI model table (except calculated tables) has a storage mode property
 
 check [this](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/6-choose-model-framework), only after you finish the subsequent sections, to see the guidelines of choosing the right model framework.
 
-### Import Model
+#### Import Model
 
 Benefits: almost everything in terms of performance and functionality.
 
@@ -339,7 +316,7 @@ Limitations:
 	* When your data source supports incremental refresh, it can result in faster and more reliable refreshes, and reduced resource consumption of Power BI and source systems.
 	* Advanced data modelers can customize their own partitioning strategy. Automation scripts can create, manage, and refresh table partitions. For more information, see [Power BI usage scenarios: Advanced data model management](https://learn.microsoft.com/en-us/power-bi/guidance/powerbi-implementation-planning-usage-scenario-advanced-data-model-management). This usage scenario describes using the XMLA endpoint available with Power BI Premium.
 
-### DirectQuery Model
+#### DirectQuery Model
 
 [M source](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/4-determine-when-to-develop-directquery-model)
 
@@ -348,6 +325,8 @@ Limitations:
 	* Import source group: set of import storage mode tables related to a data source. ^v8cl9b
 	* DirectQuery source group: set of DirectQuery storage mode tables related to a data source.
 	* Side note: if we have more than one source group, then the model framework we're currently using is called a composite model.
+
+![[Pasted image 20231007123300.png]]
 
 Benefits:
 * Model large or fast-changing data sources
@@ -362,19 +341,27 @@ Benefits:
 
 Limitations:
 - Not all data sources are supported. Typically, only major relational database systems are supported. Power BI datasets and Azure Analysis Services models are supported too.
-    
 - <mark style="background: #FF5582A6;">All Power Query (M) transformations are not possible</mark>, because these queries must translate to native queries that are understood by source systems. So, for example, <mark style="background: #FF5582A6;">it’s not possible to use pivot or unpivot transformations</mark>.
-    
 - Analytic query performance can be slow, especially if source systems aren’t optimized (with indexes or materialized views), or there are insufficient resources for the analytic workload.
-    
 - Analytic queries can impact on source system performance. It could result in a slower experience for all workloads, including OLTP operations.
+- the number of users who are opening the reports at any one time will impact the load that is placed on the data source. For example, if your report has 20 visuals in it and 10 people are using the report, 200 queries or more will exist on the data source because each visual will issue one or more queries.
 
-In regards to optimizing the performance issues, you can use **DirectQuery user-defined aggregation tables** by adding user-defined aggregation tables to a DirectQuery model. 
-User-defined aggregation tables are special model tables that are hidden (from users, calculations, and RLS). They work best when they satisfy higher-grain analytic queries over large fact tables. When you set the aggregation table to use DirectQuery storage mode, it can query a materialized view in the data source. You can also set an aggregation table to use import storage mode or enable automatic aggregations, and these options are described in Unit 4.
+##### Behavior of DirectQuery Connections 
 
-For more information, see [DirectQuery model guidance in Power BI Desktop](https://learn.microsoft.com/en-us/power-bi/guidance/directquery-model-guidance).
+[M source](https://learn.microsoft.com/en-us/training/modules/optimize-model-power-bi/5-directquery-models#:~:text=Behavior%20of%20DirectQuery%20connections)
 
-### Composite Model
+When you use DirectQuery to connect to data in Power BI Desktop, that connection behaves in the following way:
+
+- When you initially use the **Get Data** feature in Power BI Desktop, you will select the source. If you connect to a relational source, you can select a set of tables and each one will define a query that logically returns a set of data. If you select a multidimensional source, such as SAP BW, you can only select the source.
+- When you load the data, <mark style="background: #FF5582A6;">no data is imported into the Power BI Desktop, only the schema is loaded</mark>. 
+	- When you build a visual within Power BI Desktop, queries are sent to the underlying source to retrieve the necessary data. 
+	- The time it takes to refresh the visual depends on the performance of the underlying data source.
+- If changes are made to the underlying data, they won't be immediately reflected in the existing visuals in Power BI due to caching. 
+	- <mark style="background: #FF5582A6;">You need to carry out a refresh to see those changes.</mark> The necessary queries are present for each visual, and the visuals are updated accordingly.
+	- Regarding refreshing in dashboards, similar logic applies: You can pin visuals, or entire report pages, as dashboard tiles. The tiles are automatically refreshed on a schedule, for example, every hour. You can control the frequency of this refresh to meet your requirements. When you open a dashboard, the tiles reflect the data at the time of the last refresh and might not include the latest changes that are made to the underlying data source. You can always refresh an open dashboard to ensure that it's up-to-date.
+- When you publish the report to the Power BI service, it will result in a dataset in Power BI service, the same as for import. However, **no data is included with that dataset**.
+- When you open an existing report in Power BI service, or build a new one, the underlying source is again queried to retrieve the necessary data. Depending on the location of the original source, you might have to configure an on-premises data gateway.
+#### Composite Model
 
  [M source](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/5-determine-when-to-develop-composite-model)
 
@@ -396,17 +383,17 @@ Limitations:
 * When chaining models, modifications made to upstream models can break downstream models. Be sure to assess the impact of modifications by performing [dataset impact analysis](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-dataset-impact-analysis) first.
 * Relationships between tables from different source groups are known as limited relationships. A model relationship is limited when the Power BI can’t determine a “one” side of a relationship. Limited relationships may result in different evaluations of model queries and calculations. For more information, see [[Power BI#Relationship Evaluation Advanced|Relationship evaluation]] (its [M source](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand)).
 
-#### Boost DirectQuery model performance with import data
+##### Boost DirectQuery model performance with import data
 
 When there’s a justification to develop a DirectQuery model, you can mitigate some limitations by using specific Power BI features that involve import tables.
 
-##### Import aggregation tables
+###### Import aggregation tables
 
 * Enable automatic aggregations to direct fact queries to a cached aggregation. 
 * ensure that related dimension tables are set to use dual storage mode.
 * Automatic aggregations are a Premium feature. For more information, see [Automatic aggregations](https://learn.microsoft.com/en-us/power-bi/enterprise/aggregations-auto).
 
-##### Dual storage mode
+###### Dual storage mode
 
 A dual storage mode table is set to use both import and DirectQuery storage modes. At query time, Power BI determines the most efficient mode to use. Whenever possible, Power BI attempts to satisfy analytic queries by using cached data.
 
@@ -414,7 +401,7 @@ Dual storage mode tables work well with import aggregation tables.
 
 Slicer visuals and filter card lists, which are often based on dimension table columns, render more quickly because they’re queried from cached data.
 
-#### Deliver real-time data from an import model
+###### Deliver real-time data from an import model
 
 When you set up an import table with incremental refresh, you can enable the **Get the latest data in real-time with DirectQuery** option.
 
@@ -427,6 +414,15 @@ When Power BI queries a hybrid table, the query uses the cache for older data, a
 This option is only available with a Premium license.
 
 For more information, see [Configure incremental refresh and real-time data](https://learn.microsoft.com/en-us/power-bi/connect-data/incremental-refresh-configure).
+
+### Load JSON Using Expander
+
+when loading NoSQL data (from Cosmos DB for example), data will initially look like this:
+![[Pasted image 20230930080619.png]]
+
+So click load, then click on the expander button, then uncheck prefix option, then apply:
+![[Pasted image 20230930080722.png]]
+
 
 # Relationship Evaluation (Advanced)
 
@@ -526,10 +522,13 @@ Otherwise, use the other two methods.
 #### Using DAX (Data Analysis Expression)
 
 Use one one of the following DAX functions:
-* CALENDAR()
+* CALENDAR
 	* returns a contiguous range of dates based on a start and end date that are entered as arguments in the function.
-* CALENDARAUTO()
+* [CALENDARAUTO](https://learn.microsoft.com/en-us/dax/calendarauto-function-dax)
 	* returns a contiguous, complete range of dates that are automatically determined from your dataset (using earliest and last dates of found in your dataset. However, ending date [can be even later than that](<https://learn.microsoft.com/en-us/training/modules/design-model-power-bi/3-date-table#:~:text=plus%20data%20that%20has%20been%20populated%20to%20the%20fiscal%20month%20that%20you%20can%20choose%20to%20include%20as%20an%20argument%20in%20the%20CALENDARAUTO()%20function.>))
+	* Note ([M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/1-introduction#:~:text=The%20CALENDARAUTO%20DAX%20function%20takes,would%20be%20June%2030%2C%202022.)): when passing an optional argument called `fiscal_year_end_month`, then the returned date values change. The following example illustrates this: Suppose the MinDate and MaxDate in the data model are July 1, 2010 and June 30, 2011. Then:
+		* `CALENDARAUTO()` will return all dates between January 1, 2010 and December 31, 2011.
+		* `CALENDARAUTO(3)` will return all dates between April 1, 2010 and March 31, 2012.
 
 ##### CALENDAR()
 
@@ -569,6 +568,8 @@ ADDCOLUMNS (
 ```
 
 the expression above can be used instead of just applying `CALENDARAUTO()` so that we get the relevant start/end dates only using `MinYear` and `MaxYear`.
+
+Note: if you don't understand this syntax, refer to [[#Calculated Tables|Calculated Tables]] and [[#DAX Syntax|DAX Syntax]] headers.
 #### Using Power Query's M Language
 
 Open Power Query from here:
@@ -593,7 +594,18 @@ Follow these steps:
 ![[Pasted image 20231002201213.png]]
 then choose the date column.
 
-Note:
+Note 1 ([M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/1-introduction#:~:text=The%20table%20must,have%20missing%20dates.)):
+to mark a table as date table, the following requirements must  be met:
+- The table must include a column of data type Date.
+- The date column ([M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/2-functions#:~:text=Date%20table%20requirement)): 
+	- must span full years. A year isn't necessarily a calendar year (January-December).
+	- must not have missing dates.
+	- must contain unique values.
+	- must not contain BLANKs.
+
+
+
+Note 2:
 Selecting **Mark as date table** <mark style="background: #D2B3FFA6;">will remove autogenerated hierarchies from the **Date** field in the table that you marked as a date table</mark>. For other date fields, the auto hierarchy will still be present until you establish a relationship between that field and the date table or until you turn off the **Auto Date/Time** feature. You can manually add a hierarchy to your common date table by right-clicking the year, month, week, or day columns in the **Fields** pane and then selecting **New hierarchy.** This process is further discussed later.
 
 ### Establishing Relationships
@@ -734,6 +746,94 @@ For many-to-many relationships, you can choose to filter in a single direction o
 
 Also, check out [this](https://learn.microsoft.com/en-us/training/modules/design-model-power-bi/6-relationships-cardinality#:~:text=Create%20many%2Dto%2Dmany%20relationships) example on creating a many to many relationship (even though I don't fully understand why it's a M:M relationship, since the customer ID is unique in the Customer table)
 
+# Context Types (Row, Query, Filter Contexts)
+
+[M source](https://support.microsoft.com/en-au/office/context-in-dax-formulas-2728fae0-8309-45b6-9d32-1d600440a7ad)
+
+[TDS source](https://medium.com/analytics-vidhya/concept-of-context-in-dax-with-examples-in-power-bi-chapter-3-14fe6ab3ce32)
+
+![[Pasted image 20231006100849.png]]
+([source](https://thedatalabs.org/filter-context/))
+
+* Context is what makes it possible to perform dynamic analysis.
+* “Context is how DAX applies layers of filtering to tables used in your calculations so that they return results that are relevant for every value.”
+* There are different types of context: row context, query context, and filter context.
+	* Filter context is the set of values allowed in each column, based on filter constraints that were applied to the row or that are defined by filter expressions within the formula.
+	* Row context can be thought of as "the current row.” 
+		* If you have created a **[[#Calculated Columns|calculated column]]**, the row context consists of the values in each individual row and values in columns that are related to the current row. 
+		* There are also some functions ([EARLIER](https://docs.microsoft.com/dax/earlier-function-dax) and [EARLIEST](https://docs.microsoft.com/en-us/dax/earliest-function-dax)) that get a value from the current row and then use that value while performing an operation over an entire table.
+	* Query context refers to the subset of data that is implicitly created for each cell in a PivotTable, depending on the row and column headers.
+
+## Filter Context
+
+Filter context means when you are applying **filters** on the set of **values** of **columns** or **tables** using **DAX calculations**.
+
+There are some items on which filter context applied. For example,
+
+1. attributes in rows or columns
+2. by slicer
+3. through filter pane
+4. to the calculated measure
+	1. This is done using [`CALCULATE`](https://learn.microsoft.com/en-us/dax/calculate-function-dax/) and [`FILTER`](https://learn.microsoft.com/en-us/dax/filter-function-dax/) DAX functions, as explained in [this](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-modify-filter/2-modify-filter-context) Microsoft source, which is referenced later in the [[#Filter Context Functions|Filter Context Functions]] section.
+
+> “Filter context applies on top of other contexts, such as row context or query context.”
+
+* Filter context is the context that is applied to a whole table or column when a formula is evaluated ([source](https://www.linkedin.com/pulse/row-context-filter-dax-essentials-ayush-mittal/)).
+	* Filter context is usually created by slicers, visuals, or filters that limit the data that is available for calculation.
+		* For example, if you have a slicer that lets you select a product category, and you want to calculate the average sales for each product category, you can use a formula like this: `Average Sales = AVERAGE(Total Sales)`, then it will calculate the average of the total sales column for each product category. **The filter context in this case could be determined by the slicer that filters the sales table by product category**.
+
+Visualized example of filter context ([source](https://www.statslab-bi.co.nz/project/row-filter-context-dax/)):
+![[Pasted image 20231006101604.png]]
+
+You can learn more about filter contexts from [this](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-modify-filter/1-introduction) Microsoft source.
+
+### Filter Behavior When Adding Filter Expressions
+
+[M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-modify-filter/2-modify-filter-context#:~:text=Two%20possible%20standard%20outcomes%20occur%20when%20you%20add%20filter%20expressions%20to%20the%20CALCULATE%20function)
+
+Two possible standard outcomes occur when you add filter expressions to the `CALCULATE` function:
+
+- If the columns (or tables) aren't in filter context, then new filters will be added to the filter context to evaluate the `CALCULATE` expression.
+- If the columns (or tables) are already in filter context, the existing filters will be overwritten by the new filters to evaluate the `CALCULATE` expression.
+
+Example to illustrate this:
+Given this DAX formula (mentioned in a later sub-section in [[#Filter Context Functions|Filter Context Functions]]):
+```EXCEL
+Revenue Red = CALCULATE([Revenue], 'Product'[Color] = "Red")
+```
+and given that we add that measure to a table to get this:
+![[Pasted image 20231006112010.png|417]]
+If we now change the table's first column `Region` to the column `Color` (of `Product` table), then we'll get something like this:
+![[Pasted image 20231006112247.png|433]]
+
+The following bullet points are explanation of the two cases above:
+* Case 1: Because no filter is applied on the **Color** column in the **Product** table, the evaluation of the measure adds a new filter to filter context. 
+	* In the first row, the value of $2,681,324.79 is for red products that were sold in the Australian region.
+* Case 2: Because we switched the first column of the table visual from **Region** to **Color**, the **Color** column will now be in filter context. 
+	* Consequently, in this visual that groups by color, the measure formula overwrites the filter context with a new filter.
+	* This result might or might not be what you want. Thus [`KEEPFILTERS`](https://learn.microsoft.com/en-us/dax/keepfilters-function-dax/) DAX function is introduced later, 
+		* KEEPFILTERS is a filter modification function that you can use to preserve filters rather than overwrite them.
+
+
+
+
+
+## Row Context
+
+* **Row Context** is related to **current rows.**
+	* If you create a calculation using the **[[#Calculated Columns|calculated column]]**, the row context involves the **values of all** columns from the **current** row.
+		* If that table [[Power BI#^128yfb|has a relationship with the other table]], then it includes all the **related** values from the other table for that row.
+	* There are some [[#Iterator (X) Related Functions|iterative functions]] in **DAX** over a table. Those functions involve **multiple** rows during calculation and each with its own **row context**.
+
+Visualized example of row context in a calculated column ([source](https://powerbidocs.com/2021/01/07/filter-context-and-row-context-in-power-bi/)):
+![[Pasted image 20231006101527.png]]
+
+A visualized example of row context in an iterator function is shown later in the [[#Iterator (X) Related Functions|Iterator Functions]] section.
+
+## Query Context
+
+The combination of row and filters create the final query for DAX. You can define this is as query context. Users explicitly mention row and filter context for DAX, and DAX implicitly creates the query context from that filter and row context.
+
 # DAX (Data Analysis Expression)
 
 ## DAX Calculation Types
@@ -741,43 +841,12 @@ Also, check out [this](https://learn.microsoft.com/en-us/training/modules/design
 [M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-write-formulas/1-introduction)
 
 By using Data Analysis Expressions (DAX), you can add three types of calculations to your data model:
-- Calculated tables
-- Calculated columns
 - Measures
+- Calculated columns
+- Calculated tables
 
 Note:
 DAX can also be used to define row-level security (RLS) rules, which are expressions that enforce filters over model tables. However, rules aren't considered to be model calculations so they're out of scope for this module. More information will be shown later, but for now, see [Row-level security (RLS) with Power BI](https://learn.microsoft.com/en-us/power-bi/admin/service-admin-rls/).
-
-### Calculated Tables
-
-* The formula can duplicate or transform _existing model data_, or create a series of data, to produce a new table.
-* Calculated table data is always imported into your model, so it increases the model storage size and can prolong data refresh time.
-
-Note
-A calculated table can't connect to external data; you need to use Power Query to accomplish that task.
-
-Calculated tables can be useful in various scenarios:
-- [[#Creating a Date Table|Date tables]]
-- [[#Role-Playing Dimensions|Role-playing dimensions]]
-- What-if analysis
-
-#### What-If Analysis (Disconnected Tables)
-
-When you create a [What-if parameter](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-what-if/), a calculated table is automatically added to your model. Example ([source](https://www.youtube.com/watch?v=6a_5uderwAg)):
-![[Pasted image 20231004113636.png]]
-
-What-if parameters allow report users to select or filter by values that are stored in the calculated table. Measure formulas can use selected value(s) in a meaningful way. In the example above, the what-if parameter is the chosen numeric range in `Pct Sales Forecast`, and the measure formula is to multiply this numeric value by the `Total Sales` column to get the `Total Sales Forecast` bars in the bar chart above.
-
-Notably, what-if calculated tables aren't related to other model tables because they're not used to propagate filters. For this reason, they're sometimes called _disconnected tables_.
-
-### Calculated Columns
-
-* write a DAX formula to add a calculated column to any table in your model. 
-	* The formula is evaluated for each table row and it returns a single value.
-* Increases the storage size of your model.
-
-Its appearance is like this:
-![[Pasted image 20231004131317.png]]
 
 ### Measures
 
@@ -839,7 +908,7 @@ Note that all these measure types are not mutually exclusive.
 	* Are calculations that you can add to your model.
 * Implicit measures:
 	* created by clicking inside Power BI's interface; where we click simple summarization methods like sum, count, etc.
-	* Are identified in the Fields pane because they're shown with the sigma symbol ( ∑ ).
+	* Are identified in the Fields pane because they're shown with the sigma symbol.
 		* Note: Any column can be summarized when added to a visual. Therefore, whether they're shown with the sigma symbol or not, when they're added to a visual, they can be set up as implicit measures.
 	* Are automatic behaviors that allow visuals to summarize model column data.
 
@@ -854,7 +923,92 @@ Regarding the word "calculated":
 
 TLDR; Power Query doesn't have the concept of a measure.
 
-### Calculated Columns vs Measures
+### Calculated Columns
+
+* write a DAX formula to add a calculated column to any table in your model. 
+	* The formula is evaluated for each table row and it returns a single value.
+* Increases the storage size of your model.
+
+Its appearance is like this:
+![[Pasted image 20231004131317.png]]
+
+Note 1: Check out DAX examples of calculated columns and how to deal with fiscal years [here](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/2-calculated-columns).
+
+Note 2 (M source): If your DAX formula needs to reference columns **in other tables**, you have two options:  ^128yfb
+* If the tables are related, directly or indirectly, you can use the [`RELATED`](https://learn.microsoft.com/en-us/dax/related-function-dax/) or [`RELATEDTABLE`](https://learn.microsoft.com/en-us/dax/relatedtable-function-dax/) DAX function. The `RELATED` function retrieves the value at the one-side of the relationship, while the `RELATEDTABLE` retrieves values on the many-side. The `RELATEDTABLE` function returns a table object.
+- When the tables aren't related, you can use the [`LOOKUPVALUE`](https://learn.microsoft.com/en-us/dax/lookupvalue-function-dax/) DAX function.
+
+Generally, try to use the `RELATED` function whenever possible. It will usually perform better than the `LOOKUPVALUE` function due to the ways that relationship and column data is stored and indexed.
+
+Example: suppose you have the following 2 tables:
+![[Pasted image 20231005184103.png|550]]
+(source: [Adventure Works DW 2020 M03.pbix](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/raw/main/activities/Adventure%20Works%20DW%202020%20M03.pbix) file)
+
+and now the calculated column definition below adds the **Discount Amount** column to the **Sales** table:
+```EXCEL
+Discount Amount =
+(
+    Sales[Order Quantity]
+        * RELATED('Product'[List Price])
+) - Sales[Sales Amount]
+```
+Power BI evaluates the calculated column formula for each row of the **Sales** table. The values for the **Order Quantity** and **Sales Amount** columns are retrieved within row context. However, because the **List Price** column belongs to the **Product** table, the `RELATED` function is required to retrieve the list price value _for the sale product_.
+
+Note: as you can see: Per row, Power BI knows the corresponding row in the `Product` table, as they are joined using the `ProductKey`.
+### Calculated Tables
+
+* DAX formula can duplicate or transform _existing model data_, or create a series of data, to produce a new table.
+* Calculated table data is always imported into your model, so it increases the model storage size and can prolong data refresh time.
+
+Note
+A calculated table can't connect to external data; you need to use Power Query to accomplish that task.
+
+Calculated tables can be useful in various scenarios:
+- [[#Creating a Date Table|Date tables]]
+- [[#Role-Playing Dimensions|Role-playing dimensions]]
+- [[#What-If Analysis (Disconnected Tables)|What-if analysis]]
+
+#### Avoiding Multi-Relationships by Using Calculated Tables
+
+[M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/1-introduction)
+
+Consider the following scenario:
+![[Pasted image 20231005134733.png]]
+Notice that the **Sales** table has three relationships to the **Date** table.
+**In this case**, the active relationship filters the **OrderDateKey** column in the **Sales** table. **Thus**, filters that are applied to the Date table will propagate to the Sales table to **filter by order date; they'll never filter by ship date or due date**. 
+
+Therefore, we can enhance the current model structure by doing the following steps:
+* Delete the inactive relationships;
+	* `Date['Date']` -> `Sales['ShipDateKey']`
+	* `Date['Date']` -> `Sales['DueDateKey']`
+* Create Calculated tables that will act like "mirrors" of `Date` table, so we'll have at the end something like this:
+	* `Ship Date['Ship Date']` -> `Sales['ShipDateKey']`
+	* `Due Date['Due Date']` -> `Sales['DueDateKey']`
+	* Side note: "Mirror" is a term I personally came up with, which refers to the following:
+		* when the **Date** table data refreshes, the **Ship Date** & **Due Date** tables recalculate, so they'll always be in sync ([M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/1-introduction#:~:text=When%20the%20Date%20table%20data%20refreshes%2C%20the%20Ship%C2%A0Date%20table%20recalculates%2C%20so%20they%27ll%20always%20be%20in%20sync.)). So for example, <mark style="background: #FF5582A6;">The Due Date calculated table will recalculate each time a table (Sales or Date tables) that contains a date column refreshes.</mark> In other words, when a row is loaded into the **Sales** table with an order date of July 1, 2022, the **Due Date** table will automatically extend to include dates through to the end of the next year: June 30, 2023 ([M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/1-introduction#:~:text=The%20Due%C2%A0Date%20calculated%20table%20will,the%20next%20year%3A%20June%2030%2C%202023.)).
+
+check [this](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/1-introduction#:~:text=to%20refreshed%20tables.-,Duplicate%20a%20table,-The%20following%20section) and [this](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/1-introduction#:~:text=time%20intelligence.-,Create%20a%20date%20table,-In%20the%20next) to see the full steps of how to create `Ship Date` and `Due Date` tables respectively.
+
+But to summarize, either duplicate the `Date` table by clicking here:
+![[Pasted image 20231005135916.png]]
+then executing this: `Ship Date = 'Date'`
+then organizing the columns to be meaningful like this:
+![[Pasted image 20231005140033.png|375]]
+then marking table as date table on `Ship Date` column.
+
+Or, you can create new table using `CALENDARAUTO` DAX function like this: `Due Date = CALENDARAUTO(6)` (assuming that the financial year for your company ends on June 30 of each year).
+Then follow similar organizing steps as previously mentioned.
+#### What-If Analysis (Disconnected Tables)
+
+When you create a [What-if parameter](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-what-if/), a calculated table is automatically added to your model. Example ([source](https://www.youtube.com/watch?v=6a_5uderwAg)):
+![[Pasted image 20231004113636.png]]
+
+What-if parameters allow report users to select or filter by values that are stored in the calculated table. Measure formulas can use selected value(s) in a meaningful way. In the example above, the what-if parameter is the chosen numeric range in `Pct Sales Forecast`, and the measure formula is to multiply this numeric value by the `Total Sales` column to get the `Total Sales Forecast` bars in the bar chart above.
+
+Notably, what-if calculated tables aren't related to other model tables because they're not used to propagate filters. For this reason, they're sometimes called _disconnected tables_.
+
+### Comparisons
+#### Calculated Columns vs Measures
 
 [M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-measures/5-compare-calculated-columns-measures)
 
@@ -865,7 +1019,26 @@ Calculated columns and measures differ in the following points:
 - **Storage** - Calculated columns (in Import storage mode tables) store a value for each row in the table, but a measure never stores values in the model.
 - **Visual use** - Calculated columns (like any column) can be used to filter, group, or summarize (as an implicit measure), whereas measures are designed to summarize.
 
-## DAX Syntax
+#### Calculated Columns vs Custom Columns
+
+[M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/4-technique)
+
+There are three techniques that you can use to add columns to a model table:
+- Add columns to a view or table (as a persisted column), and then source them in Power Query. This option only makes sense when your data source is a relational database and if you have the skills and permissions to do so. However, it's a good option because it supports ease of maintenance and allows reuse of the column logic in other models or reports.
+- Add custom columns (using M) to Power Query queries.
+- Add calculated columns (using DAX) to model tables.
+
+Best practices:
+* Use calculated columns only when:
+	* You need to create a column for a **calculated table** 
+	* The calculated column's DAX formula:
+		* Depends on summarized model data.
+		* Needs to use specialized modeling functions that are only available in DAX, such as the `RELATED` and `RELATEDTABLE` functions. 
+			* Side note: Specialized functions can also include the [DAX parent and child hierarchies](https://learn.microsoft.com/en-us/dax/understanding-functions-for-parent-child-hierarchies-in-dax/), which are designed to naturalize a recursive relationship into columns.
+				* For example, in an employee table where each row stores a reference to the row of the manager (who is also an employee).
+* Otherwise, try to always use custom columns, as they load to the model in a more compact and optimal way.
+
+## DAX Basic Syntax
 
 [M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-write-formulas/2-formulas)
 
@@ -887,7 +1060,7 @@ So, the result of this expression can be:
 
 Tip: use [this](https://www.daxformatter.com/) DAX formatter to properly format DAX code.
 
-Note: check out logical operators [here](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-write-formulas/5-operators#:~:text=%26%20%27Product%27%5BColor%5D-,Logical%20operators,-Use%20logical%20operators). Moreover, here's an example of `IN` operator:
+Note 1: check out logical operators [here](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-write-formulas/5-operators#:~:text=%26%20%27Product%27%5BColor%5D-,Logical%20operators,-Use%20logical%20operators). Moreover, here's an example of `IN` operator:
 Side note: the `IN` operator creates a logical OR condition between each row that is being compared to a table. Note: The table constructor syntax uses braces.
 ```EXCEL
 ANZ Revenue =
@@ -900,7 +1073,10 @@ CALCULATE(
 )
 ```
 
-### BLANK Data Type
+Note 2 ([M source](<https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/2-calculated-columns#:~:text=The%20addition%20operator%20(%2B)%20is%20evaluated%20before%20the%20text%20concatenation%20operator%20(%26).>)): <mark style="background: #FFB8EBA6;">The addition operator (+) is evaluated before the text concatenation operator (&).</mark>
+
+Note 3: check out info about `FORMAT`'s date/time strings [here](https://learn.microsoft.com/en-us/dax/format-function-dax#custom-datetime-formats).
+## DAX BLANK Data Type
 
 * DAX uses BLANK for both database NULL and for blank cells in Excel. 
 * BLANK doesn't mean zero.
@@ -911,7 +1087,7 @@ CALCULATE(
 	* It's different to how databases (SQL) treat NULL.
 	* <mark style="background: #D2B3FFA6;">BLANK is treated as zero when acted on by arithmetic operators and as an empty string when concatenated to a string.</mark>
 
-### DAX Variables
+## DAX Variables
 
 When creating one or more variables (using `VAR`), a `RETURN` clause is used to define the expression, which then refers to the variables.
 
@@ -931,7 +1107,7 @@ DIVIDE(
 )
 ```
 
-Notice how the `CALCULATE(...)` part is repeated twice. So, to run this definition formula in at least half the time, let's define this part as a variable like so:
+Notice how the `CALCULATE(...)` part is repeated twice. So, to run this definition formula in at least half the time, let's define this part as a variable like so: ^4lu9ab
 ```EXCEL
 Revenue YoY % =
 VAR RevenuePriorYear =
@@ -946,10 +1122,9 @@ RETURN
     )
 ```
 
+## DAX Functions
 
-### DAX Confusing Functions
-
-#### COUNT Related Functions
+### COUNT Related Functions
 
 * [Count](https://learn.microsoft.com/en-us/dax/count-function-dax): Counts the number of rows **in** the specified **column** that contain **non-blank** values.
 * [COUNTROWS](https://learn.microsoft.com/en-us/dax/countrows-function-dax): counts the number of rows **in** the specified **table**, or in a table defined by an expression.
@@ -969,5 +1144,1057 @@ imagine you have a table called `Customer` that looks like this:
 Then, `COUNT(Customer['cust_name'])` will be 3, while `COUNTROWS(Customer)` will be 5
 (I think)
 
+### Iterator (X) Related Functions
+
+[M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-iterator-functions/1-introduction)
+
+* Iterator functions enumerate all rows of a given table and evaluate a given expression for each row.
+* For any iterator function, you must pass in a table and an expression.
+	* The table can be a model table reference or an expression that returns a table object.
+	* The expression must evaluate to a scalar (single) value.
+* Side note: Single-column summarization functions (e.g., SUM) are implicitly converted to their iterator counterpart (e.g., SUMX)
+
+The following example illustrates different aspects of an iterator function (filter and row contexts) (M source: the video found [here](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-iterator-functions/1-introduction)):
+![[Pasted image 20231006082949.png]]
+Side note: In Power BI's UI, if we didn't add the InventoryKey -> 5,6 filter, then the returned sales table would've contained all the table.
+
+#### Changing AVERAGEX Count of Values to Get Higher Grain Summarizations
+
+Suppose we have the following tables:
+![[Pasted image 20231006085044.png]]
+Such that `Sales Order`:
+![[Pasted image 20231006085717.png]]
+and `Sales`:
+![[Pasted image 20231006085743.png]]
+
+Now, suppose the required task is the following: "get the average revenue".
+We know that the average means the sum of values divided by the count of values. However, that theory raises a question: What does the count of values represent?
+
+If we'd like the "count of values" to be the count of sales order lines, then we'll get the following measure using DAX:
+```EXCEL
+Revenue Avg =
+AVERAGEX(
+    Sales,
+    Sales[Order Quantity] * Sales[Unit Price] * (1 - Sales[Unit Price Discount Pct])
+)
+```
+because each row in the **Sales** table records a sales order line, it can be more precisely described as _revenue per order line_. Accordingly, you should rename the **Revenue Avg** measure as **Revenue Avg Order Line** so that it's clear to report users about what's being used as the average base.
+The result (if visualized in a table matrix) will be something like this:
+![[Pasted image 20231006090256.png]]
+
+Moreover, if we'd like to raise the granularity to the sales order level (a sales order consists of one or more order lines), then we'll add the following measure:
+```EXCEL
+Revenue Avg Order =
+AVERAGEX(
+    VALUES('Sales Order'[Sales Order]),
+    [Revenue]
+)
+```
+Result:
+![[Pasted image 20231006090308.png]]
+
+As expected, the average revenue for an order is always higher than the average revenue for a single order line.
+
+Notes:
+* Regarding how iterator functions count values: 
+	* the count of values is the number of expressions that doesn't evaluate to BLANK.
+* Regarding the [`VALUES`](https://learn.microsoft.com/en-us/dax/values-function-dax/) DAX function:
+	* When the input parameter is a column name, returns a one-column table that contains the distinct values from the specified column. Duplicate values are removed and only unique values are returned. A BLANK value can be added.
+		* So in our example above, the passed argument is a column name, so the table returned contains the distinct `Sales Order` values (e.g., `SO43659`, `SO43660`, `SO43661`), so the average's denominator in that case is 3 instead of 8 (the count of the sales order lines)
+	* When the input parameter is a table name, returns the rows from the specified table. Duplicate rows are preserved. A BLANK row can be added.
+	* Remark: When you use the VALUES function in a context that has been filtered, the unique values returned by VALUES are affected by the filter.
+		* To disregard existing filters, use [ALL](https://learn.microsoft.com/en-us/dax/all-function-dax) function instead.
 
 
+#### RANKX Function
+
+[M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-iterator-functions/3-calculate-ranks)
+
+Syntax:
+```EXCEL
+RANKX(<table>, <expression>[, <value>[, <order>[, <ties>]]])
+```
+read it's [documentation](https://learn.microsoft.com/en-us/dax/rankx-function-dax) to understand each of its arguments.
+
+Example: to rank products by their quantity, add the following measure to a table:
+```EXCEL
+Product Quantity Rank =
+RANKX(
+    ALL('Product'[Product]),
+    [Quantity]
+)
+```
+Result:
+![[Pasted image 20231006092316.png]]
+Couple of things to notice:
+* We use [`ALL`](https://learn.microsoft.com/en-us/dax/all-function-dax/), not [`VALUES`](https://learn.microsoft.com/en-us/dax/values-function-dax/), in RANKX, because the table visual will group by product (which is a filter on the **Product** table).
+* In the screenshot above, notice that we have the following ranks: `10, 10, 12`. This is because we didn't pass a `<ties>` argument, so it defaulted to `'Skip'`.
+	* If we don't want this, then execute this instead: `Product Quantity Rank = RANKX( ALL('Product'[Product]), [Quantity], , , DENSE )`.
+		* The result in that case will be `10, 10, 11`.
+
+Now, at the end of the screenshot above, we'll have something like this:
+![[Pasted image 20231006092701.png]]
+The reason is because the total for all products is ranked. 
+It's not appropriate to rank total products, so you will now use the following logic to modify the measure definition to return BLANK, unless a single product is filtered:
+```EXCEL
+Product Quantity Rank =
+IF(
+    HASONEVALUE('Product'[Product]),
+    RANKX(
+        ALL('Product'[Product]),
+        [Quantity],
+        ,
+        ,
+        DENSE
+    )
+)
+```
+
+Filter context and the `HASONEVALUE` function will be introduced later when talking about filter context.
+
+### Filter Context Functions
+
+#### CALCULATE and FILTER Functions
+
+You can use the [`CALCULATE`](https://learn.microsoft.com/en-us/dax/calculate-function-dax/) DAX function to modify filter context in your formulas.
+Syntax:
+```EXCEL
+CALCULATE(<expression>, [[<filter1>], <filter2>]…)
+```
+Filters can be:
+* Boolean expressions, which must have the following rules:
+	* They can reference only a single column.
+	- They cannot reference measures.
+	- They cannot use functions that scan or return a table that includes aggregation functions like `SUM`.
+	- Example: `Revenue Red = CALCULATE([Revenue], 'Product'[Color] = "Red")`
+* table expressions
+	* A table expression filter applies a table object as a filter.
+		* it's likely a DAX function that returns a table object.
+		* Its rows are a subset of those rows that were passed in, meaning the rows where the expression evaluated as `TRUE`.
+	* Commonly, you'll use the [`FILTER`](https://learn.microsoft.com/en-us/dax/filter-function-dax/) DAX function to apply complex filter conditions, including those that can't be defined by a Boolean filter expression. The `FILTER` function is classed as an [[#Iterator (X) Related Functions|iterator function]], and so you would pass in a table, or table expression, and an expression to evaluate for each row of that table.
+	* Example: the use of `FILTER` here:
+```EXCEL
+Revenue Red =
+CALCULATE(
+	[Revenue],
+	FILTER(
+		'Product',
+		'Product'[Color] = "Red"
+	)
+)
+```
+
+Note 1: from the two `Revenue Red` DAX formula examples above, we can see that All filter expressions that are passed in to the `CALCULATE` function are table filter expressions. A Boolean filter expression is a shorthand notation to improve the writing and reading experience. Internally, <mark style="background: #FFB8EBA6;">Microsoft Power BI translates Boolean filter expressions to table filter expressions</mark>, which is how it translates your **Revenue Red** measure definition.
+
+Other side notes:
+* When you have multiple filters, they're evaluated by using the `AND` logical operator
+* The [`CALCULATETABLE`](https://learn.microsoft.com/en-us/dax/calculatetable-function-dax/) DAX function is similar to `CALCULATE`, however, its return value is the value that is the result of the expression **but wrapped in a table**.
+
+#### Using CALCULATE for Context Transitions
+
+[M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-modify-filter/5-context-transition)
+
+Case scenario: 
+Suppose you're writing a calculated column formula or an iterator function (where both use row context). Now, in the middle of this formula, you realize that you need to evaluate a measure expression, but since measures are using filter context, you'll need to make a context transition from filter context to row context.
+
+Illustration:
+In the following example, you will add a calculated column to the **Customer** table to classify customers into a loyalty class. The scenario is simple: When the revenue that is produced by the customer is less than $2500, the customer is classified as **Low**; otherwise they're classified as **High**. We'll write all possible DAX expressions, and then explain the results of each one
+
+```EXCEL
+Customer Segment Broken =
+VAR CustomerRevenue = SUM(Sales[Sales Amount])
+RETURN
+    IF(CustomerRevenue < 2500, "Low", "High")
+
+Customer Segment With Calculate =
+VAR CustomerRevenue = CALCULATE(SUM(Sales[Sales Amount])) // [*]
+RETURN
+    IF(CustomerRevenue < 2500, "Low", "High")
+
+Customer Segment With Measure = 
+VAR CustomerRevenue = [Revenue] // where Revenue is a previously made measure of [*]
+RETURN
+    IF(CustomerRevenue < 2500, "Low", "High")
+
+```
+
+Result of `Customer Segment Broken`:
+![[Pasted image 20231006161034.png]]
+Result of `Customer Segment With Calculate` or `Customer Segment With Measure`:
+![[Pasted image 20231006161412.png]]
+
+Explanations:
+* Case 1: the calculated column formula produces an incorrect result: Each customer is assigned the value of **High** because the expression `SUM(Sales[Sales Amount])` isn't evaluated in a filter context. Instead, it's evaluated in a row context, so each customer is assessed on the sum of _every_ **Sales Amount** column value in the **Sales** table.
+*  Case 2: Fixes case 1 by forcing the evaluation of the `SUM(Sales[Sales Amount])` expression _for each customer_ using `CALCULATE` to make a context transition that applies the row context column values to filter context. Alternatively, if you've a previously defined measure (e.g., `Revenue`) and evaluate that in row context, context transition will happen automatically. Thus, you don't need to pass measure references to the `CALCULATE` function.
+
+Now, recall in the example of sales commission mentioned in the [[#VALUES, HASONEVALUE, and SELECTEDVALUE Functions (to Examine Filter Context)|VALUES-HASONEVALUE-SELECTEDVALUE section]], we can now modify this example to display the total sales commission like so:
+![[Pasted image 20231006162041.png]]
+
+Using iterator function `SUMX` in this DAX expression:
+```EXCEL
+Sales Commission =
+SUMX(
+    VALUES('Sales Territory'[Region]),
+    CALCULATE(
+        [Revenue]
+        * IF(
+            VALUES('Sales Territory'[Country]) = "United States",
+            0.15,
+            0.1
+        )
+    )
+)
+```
+Note: it is meaningless to replace the inner `VALUES` with `SELECTEDVALUE` in this case, as it is no longer needed to test whether a single Country column value in the Sales Territory table is in filter context because it's known to be filtering by a single country (because it's iterating over the regions in filter context and a region belongs to only one country).
+
+#### REMOVEFILTERS Function
+
+[M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-modify-filter/3-filter-modifier-functions)
+
+* Use the [`REMOVEFILTERS`](https://learn.microsoft.com/en-us/dax/removefilters-function-dax/) DAX function as a `CALCULATE` filter expression to remove filters from filter context. It can remove filters from one or more columns or from all columns of a single table.
+	* Side note: The `REMOVEFILTERS` function is relatively new. In previous versions of DAX, you removed filters by using the [`ALL`](https://learn.microsoft.com/en-us/dax/all-function-dax/) DAX function or variants including the [`ALLEXCEPT`](https://learn.microsoft.com/en-us/dax/allexcept-function-dax/) and the [`ALLNOBLANKROW`](https://learn.microsoft.com/en-us/dax/allnoblankrow-function-dax/) DAX functions.
+
+Example to illustrate:
+Suppose we have this table:
+![[Pasted image 20231006145032.png]]
+When looking at the `Revenue` measure, we notice that the `SUM` of this measure is filtered based on the `Group`, `Country`, and `Region` columns of the `Sales Territory` table. Now, what if we want to get the total `SUM` that is not filtered by any of these columns? Answer: we remove all filters related to `Sales Territory` like so:
+```EXCEL
+Revenue Total Region = CALCULATE([Revenue], REMOVEFILTERS('Sales Territory'))
+```
+The result of this DAX expression can be seen in the `Revenue Total Region` measure in the screenshot above.  Now, while this result on its own isn't useful, when it's used as a denominator in a ratio, it calculates a percent of grand total. Therefore, you will now overwrite the **Revenue Total Region** measure definition with the following definition:
+```EXCEL
+Revenue % Total Region =
+VAR CurrentRegionRevenue = [Revenue]
+VAR TotalRegionRevenue =
+    CALCULATE(
+        [Revenue],
+        REMOVEFILTERS('Sales Territory')
+    )
+RETURN
+    DIVIDE(
+        CurrentRegionRevenue,
+        TotalRegionRevenue
+    )
+```
+Result is shown in the `Revenue % Total Region` measure above.
+
+Now, what if we want to calculate the ratio of revenue for a region divided by its country's revenue? Answer: Remove `Region` filter only in `Sales Territory` table like so:
+```EXCEL
+Revenue % Total Country =
+VAR CurrentRegionRevenue = [Revenue]
+VAR TotalCountryRevenue =
+    CALCULATE(
+        [Revenue],
+        REMOVEFILTERS('Sales Territory'[Region])
+    )
+RETURN
+    DIVIDE(
+        CurrentRegionRevenue,
+        TotalCountryRevenue
+    )
+```
+The result can be seen in the `Revenue % Total Country` measure above.
+
+Similarly, we can calculate the region revenue as a ratio of its group's revenue by adding `'Sales Territory'[Country]` as a second REMOVEFILTERS argument to the code above, where the result can be seen in the `Revenue % Total Group` measure above.
+
+#### KEEPFILTERS Function
+
+[M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-modify-filter/3-filter-modifier-functions#:~:text=its%20group%27s%20revenue.-,Preserve%20filters,-You%20can%20use)
+
+You can use the [`KEEPFILTERS`](https://learn.microsoft.com/en-us/dax/keepfilters-function-dax/) DAX function as a filter expression in the `CALCULATE` function to preserve filters.
+
+The following example illustrates KEEPFILTERS vs FILTER vs CALCULATE functions:
+Suppose you have this table (source: a personally modified version of [this](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/raw/main/activities/Adventure%20Works%20DW%202020%20M06.pbix) file ):
+![[Pasted image 20231006145313.png]]
+Lets' see how each of the 3 measures are calculated:
+```EXCEL
+Revenue Red With CALCULATE Only = 
+CALCULATE ( 
+ [Revenue], 
+ Product[Color] = "Red"
+)
+
+Revenue Red With KEEPFILTERS = 
+CALCULATE(
+    [Revenue],
+    KEEPFILTERS(Product[Color] = "Red")
+)
+
+Revenue Red With FILTERS = 
+CALCULATE(
+    [Revenue],
+    FILTER(
+        'Product',
+        Product[Color] = "Red"
+    )
+)
+```
+
+Now, [this](https://community.fabric.microsoft.com/t5/Desktop/Conceptual-Question-FILTER-vs-KEEPFILTERS-vs-neither-What-is-the/m-p/1444071/highlight/true#M606196) great article explains in depth the inner-workings of each of these functions (which also talks about using [VALUES](https://learn.microsoft.com/en-us/dax/values-function-dax) function), but to summarize, let's see how Power BI internally transforms these expressions:
+```EXCEL
+INTERNAL Revenue Red With CALCULATE Only = 
+CALCULATE ( 
+ [Revenue], 
+ FILTER(
+  ALL(Product[Color]),
+  Product[Color] = "Red"
+ )
+)
+
+INTERNAL Revenue Red With KEEPFILTERS = 
+CALCULATE(
+    [Revenue],
+    KEEPFILTERS(
+     FILTER(
+      ALL(Product[Color]),
+      Product[Color] = "Red"
+     )
+    )
+)
+
+INTERNAL Revenue Red With FILTERS = 
+CALCULATE(
+    [Revenue],
+    FILTER(
+        'Product', // note: VALUES(Product[Color]) can be used here as well
+        Product[Color] = "Red"
+    )
+)
+```
+
+Now, we notice the following:
+* `Revenue Red With CALCULATE Only` is the only measure that spans the result over all rows.
+	* This is because internally, Power BI uses [ALL](https://learn.microsoft.com/en-us/dax/all-function-dax) function which ignores any filters that might have been applied (so in our case, the filter applied by the `Color` column is ignored).
+* `KEEPFILTERS` and `FILTER` return the same result with the same appearance in the table above, however:
+	* The **FILTER()** uses two queries as opposed to the **KEEPFILTERS()** which uses only one query. Therefore, KEEPFILTERS is faster, and is therefore preferable ([source](<https://michalmolka.medium.com/dax-keepfilters-vs-filter-8f3fb519ccaf#:~:text=The%20FILTER()%20uses%20two,values%20from%20the%20function's%20arguments.>)). ^a8h0ge
+
+#### USRELATIONSHIP Function (for Inactive Relationships)
+
+An inactive model relationship can only propagate filters when the [`USERELATIONSHIP`](https://learn.microsoft.com/en-us/dax/userelationship-function-dax/) DAX function is passed as a filter expression to the `CALCULATE` function. When you use this function to engage an inactive relationship, the active relationship will automatically become inactive.
+
+Review an example of a measure definition that uses an inactive relationship to calculate the **Revenue** measure by shipped dates:
+```EXCEL
+Revenue Shipped =
+CALCULATE (
+    [Revenue],
+    USERELATIONSHIP('Date'[DateKey], Sales[ShipDateKey])
+)
+Mod
+```
+
+Side note: 
+* You can modify the model relationship behavior when an expression is evaluated by passing the [`CROSSFILTER`](https://learn.microsoft.com/en-us/dax/crossfilter-function/) DAX function as a filter expression to the `CALCULATE` function. It's an advanced capability.
+	* The `CROSSFILTER` function can modify filter directions (from both to single or from single to both) and even disable a relationship.
+
+#### VALUES, HASONEVALUE, and SELECTEDVALUE Functions (to Examine Filter Context)
+
+[M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-modify-filter/4-examine-filter-context)
+
+The [`VALUES`](https://learn.microsoft.com/en-us/dax/values-function-dax/) DAX function lets your formulas determine what values are in filter context. Syntax: `VALUES(<TableNameOrColumnName>)`
+
+* The `VALUES` function always returns a table object
+	* When a returned table contains multiple rows, we won't be able to test if a specific value is in the filter context.
+		* To fix this, our formula must first test that the `VALUES` function returns a single row. Two functions can help us with this: the [`HASONEVALUE`](https://learn.microsoft.com/en-us/dax/hasonevalue-function-dax/) and the [`SELECTEDVALUE`](https://learn.microsoft.com/en-us/dax/selectedvalue-function/) DAX functions.
+
+The following measure example illustrates how to HASONEVALUE:
+```EXCEL
+Sales Commission =
+[Revenue]
+    * IF(
+        HASONEVALUE('Sales Territory'[Country]),
+        IF(
+            VALUES('Sales Territory'[Country]) = "United States",
+            0.15,
+            0.1
+        )
+    )
+```
+
+Note: it is preferable to replace `VALUES` with `SELECTEDVALUE` whenever applicable ([M source](https://learn.microsoft.com/en-us/dax/best-practices/dax-selectedvalue)), so the code above could be updated to be the following:
+```EXCEL
+Sales Commission =
+[Revenue]
+    * IF(
+		SELECTEDVALUE('Sales Territory'[Country]) = "United States"),
+		0.15,
+		0.1
+    )
+```
+Result:
+![[Pasted image 20231006153817.png]]
+Notice that the total Sales Commission result is BLANK. The reason is because multiple values are in filter context for the Country column in the Sales Territory table. In this case, the HASONEVALUE function returns FALSE, which results in the Revenue measure being multiplied by BLANK (a value multiplied by BLANK is BLANK). Side note: to produce a total, you will need to use an iterator function, which is explained later in this module.
+
+Note: Three other functions that you can use to test filter state are:
+- [`ISFILTERED`](https://learn.microsoft.com/en-us/dax/isfiltered-function-dax/) - Returns `TRUE` when a passed-in column reference is _directly_ filtered.
+- [`ISCROSSFILTERED`](https://learn.microsoft.com/en-us/dax/iscrossfiltered-function-dax/) - Returns `TRUE` when a passed-in column reference is _indirectly_ filtered. A column is cross-filtered when a filter that is applied to another column in the same table, or in a related table, affects the reference column by filtering it.
+- [`ISINSCOPE`](https://learn.microsoft.com/en-us/dax/isinscope-function-dax/) - Returns `TRUE` when a passed-in column reference is the level in a hierarchy of levels.
+
+Example that uses `ISINSCOPE`: 
+```EXCEL
+Revenue % Total Country =
+VAR CurrentRegionRevenue = [Revenue]
+VAR TotalCountryRevenue =
+    CALCULATE(
+        [Revenue],
+        REMOVEFILTERS('Sales Territory'[Region])
+    )
+RETURN
+    IF(
+        ISINSCOPE('Sales Territory'[Region]),
+        DIVIDE(
+            CurrentRegionRevenue,
+            TotalCountryRevenue
+        )
+    )
+```
+Result:
+![[Pasted image 20231006154002.png]]
+In the matrix visual, notice that Revenue % Total Country values are now only displayed when a region is in scope.
+
+### Time Intelligence Functions
+
+[M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/1-introduction)
+
+* Time intelligence relates to calculations over time <mark style="background: #FFB86CA6;">using measures, not calculated columns</mark>.
+* In DAX, time intelligence means **_modifying the filter context for date filters_**.
+* They can help you answer these time-related questions like:
+	* What's the accumulation of revenue for the year, quarter, or month?
+	- What revenue was produced for the same period last year?
+	- What growth in revenue has been achieved over the same period last year?
+	- How many new customers made their first order in each month?
+	- What's the inventory stock on-hand value for the company's products?
+* Important note: Many DAX time intelligence functions are ***concerned with standard date periods***, specifically years, quarters, and months. <mark style="background: #FFB8EBA6;">If you have "irregular time periods", or you need to work with weeks or time periods, then you'll need to use the `CALCULATE` function and pass in hand-crafted date or time filters.</mark> More about CALCULATE function [[#CALCULATE and FILTER Functions|here]].
+	*  Side note: An Example of an "irregular time period" are financial months that begin mid-way through the calendar month.
+
+#### Summarizations Over Time Functions
+
+[M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/2-functions)
+
+One group of DAX time intelligence functions is concerned with summarizations over time:
+
+- [`DATESYTD`](https://learn.microsoft.com/en-us/dax/datesytd-function-dax/) - Returns a single-column table that contains dates for the year-to-date (YTD) in the current filter context. This group also includes the [`DATESMTD`](https://learn.microsoft.com/en-us/dax/datesmtd-function-dax/) and [`DATESQTD`](https://learn.microsoft.com/en-us/dax/datesqtd-function-dax/) DAX functions for month-to-date (MTD) and quarter-to-date (QTD). You can pass these functions as filters into the [`CALCULATE`](https://learn.microsoft.com/en-us/dax/calculate-function-dax/) DAX function.
+- [`TOTALYTD`](https://learn.microsoft.com/en-us/dax/totalytd-function-dax/) - Evaluates an expression for YTD in the current filter context.
+- [`DATESBETWEEN`](https://learn.microsoft.com/en-us/dax/datesbetween-function-dax/) - Returns a table that contains a column of dates that begins with a given start date and continues until a given end date.
+- [`DATESINPERIOD`](https://learn.microsoft.com/en-us/dax/datesinperiod-function-dax/) - Returns a table that contains a column of dates that begins with a given start date and continues for the specified number of intervals.
+
+Important note:
+While the `TOTALYTD` function is simple to use, you are limited to passing in one filter expression. If you need to apply multiple filter expressions, use the `CALCULATE` function and then pass the `DATESYTD` function in as one of the filter expressions.
+
+##### Using TOTALYTD
+
+Example syntax:
+```EXCEL
+TOTALYTD(<expression>, <dates>, [, <filter>][, <year_end_date>])
+```
+Example with values:
+```EXCEL
+Revenue YTD = TOTALYTD([Revenue], 'Date'[Date], "6-30")
+```
+note: The year-end date value of `"6-30"` represents June 30.
+Result when adding `Revenue YTD` column to the table in the screenshot below:
+![[Pasted image 20231005220605.png]]
+Notice that it produces a summarization (i.e., accumulation) of the revenue amounts from the beginning of the year through to the filtered month.
+
+##### Using DATESBETWEEN
+
+[M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/3-calculations)
+
+* We need to calculate the number of new customers for a time period.
+	* A new customer is counted in the time period in which they **made their first purchase**.
+		* silly example for illustration: suppose that in each of the following days, we had these customer ids of purchases:
+			* day 1 -> 1, 2, 3
+			* day 2 -> 1, 4, 5
+			* day 3 -> 1, 6, 7
+		* Then:
+			* DISTINCTCOUNT of day 1 -> 3
+			* DISTINCTCOUNT of days 1 and 2 -> 5
+			* DISTINCTCOUNT of days 1, 2, and 3 -> 7
+		* Then, to get the number of customers who made **their very first purchases** on the third day, we do: 7 - 5 = 2 (which are ids 6 and 7)
+		* side note: we can't just get the DISTINCTCOUNT of day 3 alone, because that will give us 3, but customer id 1 has already made a purchase before
+* Now, to get that, we need to first get the number of distinct customers life-to-date (`CustomersLTD`)
+	* Life-to-date means from the beginning of time until the last date in filter context.
+* Then, we subtract the count of distinct customers before the time period in filter context (`CustomersPrior`) from `CustomersLTD`.
+
+DAX expression for this:
+```EXCEL
+New Customers By Sub From Prior =
+VAR CustomersLTD =
+    CALCULATE(
+        DISTINCTCOUNT(Sales[CustomerKey]),
+        DATESBETWEEN(
+            'Date'[Date],
+            BLANK(),
+            MAX('Date'[Date])
+        ),
+    'Sales Order'[Channel] = "Internet"
+    )
+VAR CustomersPrior =
+    CALCULATE(
+        DISTINCTCOUNT(Sales[CustomerKey]),
+        DATESBETWEEN(
+            'Date'[Date],
+            BLANK(),
+            MIN('Date'[Date]) - 1
+        ),
+        'Sales Order'[Channel] = "Internet"
+    )
+RETURN
+    CustomersLTD - CustomersPrior
+```
+Result:
+![[Pasted image 20231006181644.png]]
+Notes: 
+* `Customers LTD` measure is a DAX formula of just the `CustomersLTD` DAX variable
+* (In the purple highlight) Notice how Power BI is intelligent enough to add the values when we're not accumulating, and to display the last value when we're accumulating (in both cases, `2459` is returned)
+* The `New Customers By Using MIN and MAX` measure was a fault attempt by me to replicate the DAX formula of `NEW Customers By Sub From Prior`, where I tried to use `MIN` and `MAX` instead. This logically won't work, and you can check the reason [here](https://community.fabric.microsoft.com/t5/DAX-Commands-and-Tips/Question-About-Behavior-of-DATESBETWEEN/m-p/3464080/thread-id/132158#M132162).
+
+#### Using `LASTDATE` Function for Snapshot Calculations
+
+[M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/3-calculations#:~:text=Snapshot%20calculations)
+
+* Occasionally, fact data is stored as snapshots in time. Common examples include inventory stock levels or account balances. A snapshot of values is loaded into the table on a periodic basis.
+* Since each date has its own values which could be overlapping with previous dates' values, it doesn't logically make sense to summarize valuues across date.
+	* Example: Adding stock level counts across product categories produces a meaningful summary, but adding stock level counts across dates does not.
+		* In other words, Adding yesterday's stock level to today's stock level isn't a useful operation to perform
+
+Example: add a measure to the Inventory table that sums the UnitsBalance value for a single date. The date will be the last date of each time period:
+```EXCEL
+Stock on Hand =
+CALCULATE(
+    SUM(Inventory[UnitsBalance]),
+    LASTDATE('Date'[Date])
+)
+```
+<mark style="background: #FFB8EBA6;">Technical note</mark>: recall that `LASTDATE` returns a single row of the last date in the current filter context. However, we still have to "aggregate" that row using `SUM`, since measures don't allow direct references to columns.
+Result:
+![[Pasted image 20231006182745.png]]
+The measure returns BLANKs for June 2020 because no record exists for the last date in June. According to the data, it hasn't happened yet. To solve this, use the [`LASTNONBLANK`](https://learn.microsoft.com/en-us/dax/lastnonblank-function-dax/) DAX function:
+```EXCEL
+Stock on Hand =
+CALCULATE(
+    SUM(Inventory[UnitsBalance]),
+    LASTNONBLANK(
+        'Date'[Date],
+        CALCULATE(SUM(Inventory[UnitsBalance]))
+    )
+)
+```
+Result:
+![[Pasted image 20231006182825.png]]
+Note:
+* The `LASTNONBLANK` function is an iterator function:
+	* It returns the last date that produces a non-BLANK result. 
+		* It achieves this result by iterating through all dates in filter context _in descending chronological order_.
+			* When it encounters a non-BLANK result, the function returns the date. That date is then used to filter the `CALCULATE` function.
+	* <mark style="background: #FF5582A6;">Technical note</mark>: The LASTNONBLANK function evaluates its expression in row context. The CALCULATE function must be used to [[#Using CALCULATE for Context Transitions|transition the row context to filter context]] to correctly evaluate the expression.
+
+
+
+#### Comparions Over Time Functions
+
+Another group of DAX time intelligence functions is concerned with shifting time periods:
+- [`DATEADD`](https://learn.microsoft.com/en-us/dax/dateadd-function-dax/) - Returns a table that contains a column of dates, shifted either forward or backward in time by the specified number of intervals from the dates in the current filter context.
+- [`PARALLELPERIOD`](https://learn.microsoft.com/en-us/dax/parallelperiod-function-dax/) - Returns a table that contains a column of dates that represents a period that is parallel to the dates in the specified dates column, in the current filter context, with the dates shifted a number of intervals either forward in time or back in time.
+- [`SAMEPERIODLASTYEAR`](https://learn.microsoft.com/en-us/dax/sameperiodlastyear-function-dax/) - Returns a table that contains a column of dates that are shifted one year back in time from the dates in the specified dates column, in the current filter context.
+- Many helper DAX functions for navigating backward or forward for specific time periods, all of which returns a table of dates. These helper functions include [`NEXTDAY`](https://learn.microsoft.com/en-us/dax/nextday-function-dax/), [`NEXTMONTH`](https://learn.microsoft.com/en-us/dax/nextmonth-function-dax/), [`NEXTQUARTER`](https://learn.microsoft.com/en-us/dax/nextquarter-function-dax/), [`NEXTYEAR`](https://learn.microsoft.com/en-us/dax/nextyear-function-dax/), and [`PREVIOUSDAY`](https://learn.microsoft.com/en-us/dax/previousday-function-dax/), [`PREVIOUSMONTH`](https://learn.microsoft.com/en-us/dax/previousmonth-function-dax/), [`PREVIOUSQUARTER`](https://learn.microsoft.com/en-us/dax/previousquarter-function-dax/), and [`PREVIOUSYEAR`](https://learn.microsoft.com/en-us/dax/previousyear-function-dax/).
+
+Example: add a measure to the **Sales** table that calculates revenue for the prior year by using the `SAMEPERIODLASTYEAR` function:
+```EXCEL
+Revenue PY =
+VAR RevenuePriorYear = CALCULATE([Revenue], SAMEPERIODLASTYEAR('Date'[Date]))
+RETURN
+    RevenuePriorYear
+```
+When adding to table:
+![[Pasted image 20231005220808.png|380]]
+Notice that it produces results that are similar to the previous year's revenue amounts.
+
+Another example of calculating the yearly change ratio is shown [here](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/2-functions#:~:text=to%20calculate%20the-,change%20ratio,-.%20Be%20sure%20to).
+
+# Fixing Performance Issues
+
+[M source](https://learn.microsoft.com/en-us/training/modules/optimize-model-power-bi/1-introduction)
+
+## Using Performance analyzer to Find Bottlenecks
+
+[M source](https://learn.microsoft.com/en-us/training/modules/optimize-model-power-bi/2-performance)
+
+You can use Performance analyzer in Power BI Desktop to help you find out how each of your report elements are performing when users interact with them. To use this tool, we have to follow these prerequisites:
+* Create a new empty page and focus on it.
+* Close Power BI desktop, then reopen it (done to clear [visual cache](https://learn.microsoft.com/en-us/training/modules/optimize-model-power-bi/2-performance#:~:text=data%20engine%20cache.-,Visual%20cache,-%2D%20When%20you%20load))
+* If we just want to clear the [data engine cache](https://learn.microsoft.com/en-us/training/modules/optimize-model-power-bi/2-performance#:~:text=the%20blank%20page.-,Data%20engine%20cache,-%2D%20When%20a%20query), then we can connect DAX Studio to the data model and then call Clear Cache.
+
+Then:
+![[Pasted image 20231007112753.png]]
+Then we select the page of the report that we want to analyze, and interact with the elements of the report that we want to measure. We will see the results of your interactions display in the Performance analyzer pane as we work. When we are finished, we'll select the Stop button.
+
+For more detailed information, see [Use Performance Analyzer to examine report element performance](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-performance-analyzer/).
+
+To review the tasks in order of duration, longest to shortest, right-click the **Sort** icon next to the **Duration (ms)** column header, and then select **Total time** in **Descending** order:
+![[Pasted image 20231007112954.png]]
+
+The log information for each visual shows how much time it took (duration) to complete the following categories of tasks:
+![[Pasted image 20231007113032.png]]
+- **DAX query** - The time it took for the visual to send the query, along with the time it took Analysis Services to return the results.
+	- To analyze your queries in more detail, you can use DAX Studio, which is a free, open-source tool that is provided by another service.
+- **Visual display** - The time it took for the visual to render on the screen, including the time required to retrieve web images or geocoding.
+- **Other** - The time it took the visual to prepare queries, wait for other visuals to complete, or perform other background processing tasks. 
+	- If this category displays a long duration, the only real way to reduce this duration is to **optimize DAX queries for other visuals, or reduce the number of visuals in the report**.
+
+
+
+## General Tips
+
+[M source 1](https://learn.microsoft.com/en-us/training/modules/optimize-model-power-bi/2-performance), [M source 2](https://learn.microsoft.com/en-us/training/modules/get-data/8-performance-issues)
+
+Tips on how to optimize Power BI performance (i.e., decrease the time it takes to render report pages and update visuals): 
+* Regarding original data source:
+	* **Process as much data as possible in the original data source.** Power Query and Power Query Editor allow you to process the data; however, the processing power that is required to complete this task might lower performance in other areas of your reports. Generally, a good practice is to process, as much as possible, in the native data source. For example, if you have large data models, or data that is anticipated to quickly grow over time, you can follow one of these options:
+		* use a summary (i.e., aggregation) table from the data source ([M source](https://learn.microsoft.com/en-us/training/modules/optimize-model-power-bi/6-aggregations)).
+			* Example: a detail table might contain every transaction, a summary table would contain one record per day, per week, or per month. It might be an average of all of the transactions per day, for instance.
+			* You can create aggregations in different ways and each method will yield the same results, for example:
+				* If you have access to the database, you could either create a table or a view with the aggregation and then import that into Power BI
+				* If not, you can use Power Query Editor to create the aggregations step-by-step (example is found [here](https://learn.microsoft.com/en-us/training/modules/optimize-model-power-bi/6-aggregations#:~:text=step%2Dby%2Dstep.-,In%20this%20example,-%2C%20you%20open%20a), and in-depth info is found [here](https://learn.microsoft.com/en-us/power-bi/enterprise/aggregations-auto)).
+		* Use a Mixed mode design (to produce a composite model).
+			* set the **Storage Mode** property to **DirectQuery** for larger fact-type tables.
+			* This is done when we want to mitigate the disadvantage of losing the ability to drill into data because the detail no longer exists when we fully rely on summary tables ([M source](https://learn.microsoft.com/en-us/training/modules/optimize-model-power-bi/4-reduce-cardinality#:~:text=disadvantage%20is%20that,or%20DirectQuery.)).
+		* Instead of performing complex column calculations in Power BI, perform them in the original data source ([M source](https://learn.microsoft.com/en-us/training/modules/optimize-model-power-bi/5-directquery-models#:~:text=Avoid%20the%20use%20of%20complex%20calculated%20columns%20because%20the%20calculation%20expression%20will%20be%20embedded%20into%20the%20source%20queries.%20It%20is%20more%20efficient%20to%20push%20the%20expression%20back%20to%20the%20source%20because%20it%20avoids%20the%20push%20down)).
+		* Add surrogate key columns to dimension-type tables when applicable.
+		* In the original data source, review the indexes and verify that the current indexing is correct. If you need to create new indexes, ensure that they are appropriate ([M source](https://learn.microsoft.com/en-us/training/modules/optimize-model-power-bi/5-directquery-models#:~:text=Review%20the%20indexes%20and%20verify%20that%20the%20current%20indexing%20is%20correct.%20If%20you%20need%20to%20create%20new%20indexes%2C%20ensure%20that%20they%20are%20appropriate.)).
+* Regarding options from Power BI UI itself:
+	* It is generally recommended to keep the auto date/time feature, however, if the schema already has a table which is marked as date table, then you can disable this feature by going to File > Options and settings > Options, and then select "Current File" page, and unchecking the option.
+	* When using **DirectQuery** storage mode, we can apply one of the following **query reduction options**:
+		* *Reduce number of queries sent by* - By default, every visual interacts with every other visual. Selecting this check box disables that default interaction. You can then optionally choose which visuals interact with each other by using the **Edit interactions** feature.
+		* *Slicers* - By default, the Instantly apply slicer changes option is selected. To force the report users to manually apply slicer changes, select the **Add an apply button to each slicer to apply changes when you're ready** option. ^e1vpye
+		* *Filters* - By default, the Instantly apply basic filter changes option is selected. To force the report users to manually apply filter changes, select one of the alternative options:
+			* Add an apply button to all basic filters to apply changes when you're ready
+			* Add a single apply button to the filter pane to apply changes at once (preview)
+			  ![[Pasted image 20231007122635.png]]
+* Regarding visuals:
+	* Per report page, try to limit the number of visuals to the important ones only.
+		* If all the information is important, see if you can present that info as drill-through pages and/or report page tooltips.
+	* Per visual, limit the number of fields (measures or columns) to 100 or less.
+* Regarding DAX
+	* Optimize the DAX code by using more efficient functions.
+		* Example: [[Power BI#^a8h0ge|replacing FILTER with KEEPFILTERS whenever possible]]. Other examples are found [here](https://medium.com/@technologIT/optimizing-dax-code-for-directquery-tips-and-tricks-ab1b5e6fd91f) and [here](https://towardsdatascience.com/analyze-performance-when-aggregating-data-in-power-bi-and-dax-queries-fc00027950a3).
+	* Try to use variables [[Power BI#^4lu9ab|when repeated code is found]] to decrease run time.
+* Regarding the data model
+	* Do not import columns that you don't need in any visuals or relationships.
+	* make sure the columns' data types are correct.
+	* Remove any useless rows found at the top/bottom of a table.
+	* Make sure that each column is 100% valid and has 0% errors.
+		* To make sure that this scan is done properly, at the bottom left status bar of Power Query, click on `Column profiling based on top 1000 rows` and change it to be for the whole table.
+	* In columns, **Separate date and time, if bound together.** 
+		* If any of your tables have columns that combine date and time, make sure that you separate them into distinct columns before importing them into Power BI. This approach will increase compression abilities ([Microsoft source](https://learn.microsoft.com/en-us/training/modules/get-data/8-performance-issues)).
+	* Check that relationship cardinality properties are correctly configured. 
+		* For example, a one-side column that contains unique values might be incorrectly configured as a many-side column.
+		* Side note: Cardinality is also used in the context of the relationships between two tables, where it describes the direction of the relationship.
+	*  Reduce the number of high cardinally columns (i.e., high unique column values) in your dataset, as lower cardinality leads to more optimized performance. ([M source](https://learn.microsoft.com/en-us/training/modules/optimize-model-power-bi/4-reduce-cardinality)).
+	* ensure that both of the columns that you are using to participate in any relationship **are sharing the same data type** ([M source](https://learn.microsoft.com/en-us/training/modules/optimize-model-power-bi/4-reduce-cardinality#:~:text=ensure%20that%20both%20of%20the%20columns%20that%20you%20are%20using%20to%20participate%20in%20a%20relationship%20are%20sharing%20the%20same%20data%20type.)).
+
+### Aggregations
+
+In regards to optimizing the performance issues for **DirectQuery** storage mode:
+we can use **DirectQuery user-defined aggregation tables** by adding user-defined aggregation tables to a DirectQuery model. 
+User-defined aggregation tables are special model tables that are hidden (from users, calculations, and RLS). They work best when they satisfy higher-grain analytic queries over large fact tables. When you set the aggregation table to use DirectQuery storage mode, it can query a materialized view in the data source. You can also set an aggregation table to use import storage mode or enable automatic aggregations, and these options are described in Unit 4.
+
+For more information, see [DirectQuery model guidance in Power BI Desktop](https://learn.microsoft.com/en-us/power-bi/guidance/directquery-model-guidance).
+
+## Query Folding
+
+ChatGPT:
+Query Folding is a performance optimization feature in Power BI that allows the Power Query engine to push data transformation operations back to the data source, such as a database or web service, instead of performing them locally within Power BI. This can significantly improve query performance by reducing the amount of data transferred over the network and processed locally.
+
+Example: Let's say you have a Power BI report that connects to a SQL database. You want to filter the data to only include records where the sales amount is greater than $1,000 and then aggregate the results. Without query folding, Power BI might first retrieve all the data from the database and then apply the filter and aggregation operations locally. With query folding, Power BI sends a SQL query to the database that includes the filter and aggregation operations, and the database performs these operations. This results in faster and more efficient data processing.
+
+
+# Enforcing Security
+
+[M source](https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/1-introduction)
+
+* We can enforce model security by restricting access to subset of data, and by restricting access to specific model tables and columns.
+* Achieving this requirement commonly involves setting up row-level security (RLS), which involves defining roles and rules in that filter data model. We can also set up object-level security (OLS), to restrict access to entire tables or columns.
+
+## Row-Level Security (RLS)
+
+[M source](https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/2-restrict-access-to-power-bi-model-data)
+
+* set up RLS by creating one or more roles.
+	* A role has a unique name in the model.
+	* A role can include 0 or more rules.
+		* Rules enforce filters on model tables by using Data Analysis Expressions (DAX) filter expressions.
+		* 0 rules mean that the role has access to all model data.
+		* Rule expressions are evaluated within [[#Row Context|row context]].
+			* When the expression returns TRUE, the user can “see” the row.
+		* Rules can be static or dynamic
+			* Static rules use DAX expressions that refer to constants. 
+				* Example 1: `'Region'[Region] = "Midwest"`. This has the following cascading effect ([M source](https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/2-restrict-access-to-power-bi-model-data#:~:text=The%20following%20steps%20explain%20how%20Power%20BI%20enforces%20the%20rule)): `Region` table is filtered -> the `Region` table filter is propagated to `State` table -> same thing but from `State` to `Sales`. This propagation happen automatically due to the model relationships between these tables.
+				* Example 2: To restrict access to all table rows, apply the following rule to a table: `FALSE()`
+			* Dynamic rules use special DAX functions that return environmental values. Example functions include:
+			* [USERNAME](https://learn.microsoft.com/en-us/dax/username-function-dax) or [USERPRINCIPALNAME](https://learn.microsoft.com/en-us/dax/userprincipalname-function-dax) – Returns the Power BI authenticated user as a text value.
+				* <mark style="background: #FF5582A6;">Important note</mark> ([M source](https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/2-restrict-access-to-power-bi-model-data#:~:text=Be%20aware%20that,principal%20name%20format.)): it is preferable to use the latter function, as the former returns `DOMAIN\username` in Power BI Desktop and `username@adventureworks.com` (i.e., User Principal Name (UPN)) in Power BI service. However, the latter function always return UPN.
+			* [CUSTOMDATA](https://learn.microsoft.com/en-us/dax/customdata-function-dax) - Returns the **CustomData** property passed in the connection string. Non-Power BI reporting tools that connect to the dataset by using a connection string can set this property, like Microsoft Excel.
+			* Example rule that restricts data access to the region(s) of the authenticated user: `'AppUser'[UserName] = USERPRINCIPALNAME()`. Thiss will compare the current user's UPN with the ones in the `AppUser` table which will map that user to a specific region, as can be seen by the image below:
+			  ![[Pasted image 20231007170636.png]]
+	* 0 roles mean that users have access to all model data..
+	* Creation/Validation/Management of roles can be done in the following environments:
+		* SQL Server Data Tools (SSDT), if the models are from Azure Analysis Services or SQL Server Analysis Services
+		* SQL Server Management Studio (SSMS) or third-party tools like [Tabular Editor](https://tabulareditor.com/) otherwise.
+* It is better to apply a [[#Star schema design|start schema design]] to enforce rules that filter dimension tables, allowing [model relationships](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand) to efficiently propagate those filters to fact tables.
+* Validate roles to ensure they apply the correct filters.
+  ![[Pasted image 20231007171243.png]]
+
+### Set up Role Mappings
+
+* Role mappings must be set up in advance of users accessing Power BI content. 
+* Role mapping involves assigning Azure Active Directory (Azure AD) security objects to roles. 
+	* Security objects can be user accounts or security groups.
+	* Note: it’s a good practice to map roles to security groups. That way, there will be fewer mappings, and you can delegate the group membership management to the network administrators.
+* Use Power BI service for role mapping if the models were developed in Power BI Desktop.
+* Use SSMS for role mapping if the models were developed in Azure Analysis Services or SQL Server Analysis Services.
+* More information can be found here: [Row-level security (RLS) guidance in Power BI Desktop](https://learn.microsoft.com/en-us/power-bi/guidance/rls-guidance)
+
+### Use Single Sign-On (SSO) for DirectQuery Sources
+
+<mark style="background: #FF5582A6;">Important note</mark>: ***Calculated tables and calculated columns*** that reference a DirectQuery table from a data source with SSO authentication ***aren’t supported in the Power BI service***.
+
+When your data model has DirectQuery tables and their data source supports SSO, the data source can enforce data permissions.
+
+Example scenario:
+Consider that Adventure Works has an Azure SQL Database for their sales operations that resides in the same tenant as Power BI. The database enforces RLS to control access to rows in various database tables. You can create a DirectQuery model that connects to this database without roles and publish it to the Power BI service. ***When you set the data source credentials in the Power BI service, you [enable SSO](https://learn.microsoft.com/en-us/power-bi/connect-data/service-azure-sql-database-with-direct-connect).*** When report consumers open Power BI reports, Power BI passes their identity to the data source. The data source then enforces RLS based on the identity of the report consumer. To enable this option:
+![[Pasted image 20231007171725.png]]
+For information about Azure SQL Database RLS, see [Row-level security](https://learn.microsoft.com/en-us/sql/relational-databases/security/row-level-security).
+For more information about data sources that support SSO, see [Single sign-on (SSO) for DirectQuery sources](https://learn.microsoft.com/en-us/power-bi/connect-data/power-bi-data-sources).
+
+## Object-Level Security (OLS)
+
+[M source](https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/3-restrict-access-to-power-bi-model-objects)
+
+* <mark style="background: #FF5582A6;">OLS is available in Power BI Premium, and is not available in Power BI Desktop</mark> (read more about this [here](<https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/3-restrict-access-to-power-bi-model-objects#:~:text=OLS%20is%20a%20feature%20inherited%20from%20Azure%20Analysis%20Services%20(AAS)%20and%20SQL%20Server%20Analysis%20Services%20(SSAS).%20The%20feature%20is%20available%20in%20Power%20BI%20Premium%20to%20provide%20backward%20compatibility%20for%20models%20migrated%20to%20Power%20BI.%20For%20this%20reason%2C%20it%E2%80%99s%20not%20possible%20to%20completely%20set%20up%20OLS%20in%20Power%20BI%20Desktop.>))
+* Object-level security (OLS) can restrict access to specific tables and columns, and their metadata.
+	* When you secure metadata, it’s not possible to retrieve information about secured tables and columns by using [Dynamic Management Views (DMVs)](https://learn.microsoft.com/en-us/analysis-services/instances/use-dynamic-management-views-dmvs-to-monitor-analysis-services).
+		* Tabular models can hide tables and columns (and other objects) by using a [perspective](https://learn.microsoft.com/en-us/analysis-services/tabular-models/perspectives-ssas-tabular). A perspective defines viewable subsets of model objects to help provide a specific focus for report authors. However, a user can still query a table or column even when it’s not visible to them.
+
+To set up OLS:
+* Create roles like what we did in RLS.
+* Next, add OLS rules to the roles.
+	* This capability isn’t supported by Power BI Desktop, so we will circumvent this issue by using [XML for Analysis (XMLA) endpoint](https://learn.microsoft.com/en-us/power-bi/enterprise/service-premium-connect-tools).
+		* XMLA provides access to the Analysis Services engine in the Power BI service (read more about it [here](https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/3-restrict-access-to-power-bi-model-objects#:~:text=You%20add%20OLS,and%20managing%20models.)).
+* Once you’ve added the OLS rules, you can publish the model to the Power BI service. Use the same process for RLS to map accounts and security groups to the roles.
+
+Notes:
+* when a user doesn’t have permission to access a table or column, they get this:
+  ![[Pasted image 20231007181745.png]]
+* Instead of using OLS, a better approach might be to create a ***separate set of models or reports*** for the different report consumer requirements.
+* We can’t mix RLS and OLS in the same role.
+	* If we need to apply RLS and OLS in the same model, we'll need to create separate roles dedicated to each type.
+* We can’t set table-level security if it breaks a relationship chain:
+  ![[Pasted image 20231007181924.png]]
+	* However, model relationships that reference a secured column will work, providing that the column’s table isn’t secured.
+* While it isn’t possible to secure measures, a measure that references secured objects is automatically restricted.
+
+For more information, see [Object-level security](https://learn.microsoft.com/en-us/analysis-services/tabular-models/object-level-security).
+
+## Good Modeling Practices
+
+[M source](https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/4-apply-good-modeling-practices)
+
+Some of good development practices to apply include:
+
+- Define fewer datasets (data models) with well-designed roles.
+- Create fewer roles by using dynamic rules. A data-driven solution is easier to maintain because you don’t need to add new roles.
+- When possible, create rules that filter dimension tables instead of fact tables. It will help to deliver faster query performance.
+- Validate that the model design, including its relationships and relationship properties, are correctly set up.
+- Use the `USERPRINCIPALNAME` function instead of `USERNAME` function. It provides consistency when validating the roles in Power BI Desktop and the Power BI service.
+- Rigorously validate RLS and OLS by testing all roles.
+- Ensure that the Power BI Desktop data source connection uses the same credentials that will be applied when set up in the Power BI service.
+
+
+# Report Design
+
+## Report Design Requirements
+
+[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-requirements/1-introduction)
+
+The three broad report consumer audiences are ([M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-requirements/2-identify)):
+- Executive
+	- C-levels like CEO, CTO, etc.
+	- Charged with making plans and decisions that often involve a medium or long-term focus.
+- Analyst
+	- Provides guidance to the organization.
+	- Determines the effectiveness of business strategies.
+	- Improves processes.
+- Information worker
+	- Uses data to help make decisions or take actions that are operational in that they are done on a daily basis.
+
+Audience needs can be met by one, or possibly a combination, of four report types ([M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-requirements/3-determine)):
+- Dashboard
+	- interpret the story as quickly as possible.
+	- UX is limited by insights that are highly curated toward the audience.
+	- focused, self-explanatory, and clearly labeled.
+	- Dashboards help answer questions such as "How are we doing?" or "Are we there yet?" (recall [[Data Analytics Notes#Types of Analytics|descriptive analysis]]).
+- Analytical
+	- High level of UX to discover answers to a broad array of questions.
+	- help answer questions such as "Why did that happen?" or "What might happen next?" (recall [[Data Analytics Notes#Types of Analytics|diagnostic analysis]]).
+	- More info on how to design this report type is shown in a [[#Analytical Report Design|later section]].
+- Operational
+	- monitor current or real-time data, make decisions, and act on those decisions.
+	- include buttons that allow the report consumer to navigate within the report and also beyond the report to perform actions in external systems.
+	- minimize the number of analytical features to ensure that focus remains on the operation that it's designed to serve.
+- Educational
+	- provide clear narrative detail and guidance to help with understanding the data.
+Each of these types has a different approach to UI and UX requirements.
+
+![[Pasted image 20231008112343.png|550]]
+
+Recommendation: check out different report designs in the embedded Power BI report [here](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-requirements/6-explore-designs).
+
+## Report Structure
+
+[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/1-introduction)
+
+A Power BI report:
+*  Connects to a single dataset (data model)
+* has at least one report page.
+	* On each page, _report objects_ are laid out. Report objects include:
+		*  **Visuals** - Visualizations of dataset data.
+		*  **Elements -** Provide visual interest but don't use dataset data. Elements include text boxes, buttons, shapes, and images.
+![[Pasted image 20231008144830.png]]
+
+### Analytical Report Design
+
+[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/2-design-layout)
+
+* Avoid combining subjects or opposing objectives on the same page.
+* consider design principles of:
+	* placement
+	  ![[Pasted image 20231008145104.png|425]]
+	  ![[Pasted image 20231008145113.png|425]]
+	* balance
+		* Symmetrical: achieved by distributing the weight evenly on both halves of the page.
+		* Asymmetrical: achieved through contrast. Example of this is done using the golden ratio:
+		  ![[Pasted image 20231008145315.png|425]]
+	* contrast
+	* proximity
+	* repition
+
+### Design Visually Appealing Reports
+
+[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/3-design-reports)
+
+Important aspects to be aware of:
+* Space: Spacing applies to the report page margins and the spacing between report objects.
+	* Margins
+	  ![[Pasted image 20231008145553.png]]
+	* Object spacing: 
+		* Ensure that you provide sufficient space surrounding, or within, report objects.
+		* Consider using different space depth to visually separate sections of related objects.
+* Size: related to the page size and visual size.
+	* Page size:
+		* you can set custom dimensions that are larger than the available screen size so that the report consumer will need to interact with scrollbars to view the entire page.
+		* However, a large page size that is filled with visuals might take time to render, and visuals might not render in a top-to-bottom order.
+	* Visual size: 
+		* the more important the visual, the larger its size.
+		* Focus mode can help consumers better interpret the data or more easily interact with the visual, such as expanding into levels of a matrix or decomposition tree visual.
+* Alignment:
+	* <mark style="background: #FF5582A6;">Important tip</mark>: Use the alignment commands on the Format tab, which will help you quickly and accurately align visuals.
+	* Consider laying out the report page with different sections and aligning visuals appropriately within the sections. Sections can be _implied_ or _explicit_:
+		* Implied sections: Define implied sections by aligning groups of visuals in close proximity:
+		  ![[Pasted image 20231008145940.png]]
+		* Explicit sections: define explicit sections by using colored shapes and overlaying aligned visuals on those shapes:
+		  ![[Pasted image 20231008150013.png]]
+* Color: Ensure that colors are sufficiently contrasting. Color contrast is especially important to create accessible reports for report consumers who have low vision.
+* Consistency:
+	* The quickest way to enforce consistency is to use a report theme. A report theme applies format settings to your entire report, ensuring consistent application of colors, fonts, pages, and visual format options, including the Filters pane styles.
+	* Tip: You can use an external site like [powerbi.tips](https://powerbi.tips/) to generate a theme. The site will guide you through building a color palette and setting property values for all core visual types.
+	* For more information, see [Use report themes in Power BI Desktop](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-report-themes/).
+
+### Report Objects
+
+Report objects are laid out on each report page and include:
+- **Visuals** - Visualizations of dataset data (check the steps to create visuals [here](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/4-report-objects#:~:text=You%20can%20use,a%20report%20visual.)).
+- **Elements** - Provide visual interest but don't use dataset data.
+	- The text box deserves a special mention because it's capable of embedding _dynamic values_ that are sourced from the report dataset into paragraphs of text. When the page is filtered, dynamic values are filtered. Technically, the text box isn't a visual. However, in this instance, it behaves like one. It's also available as the _smart narrative_ visual, which automatically summarizes data by using text descriptions and insights.
+	  ![[Pasted image 20231008171105.png]]
+	  At design time, you can start with a text box, or you can add the smart narrative visual from the **Visualizations** pane. However you start, the end result will be the same. Then, you can add a dynamic value by using Q&A to ask a question. Additionally, you can format the values.
+
+### Selecting Report Visuals
+
+[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/5-report-visuals)
+
+Visual types:
+* Categorical visuals
+	* bar or column charts are good choices when you need to show data across multiple categories.
+* Time Series Visuals
+	* Visuals that you can use for time series data include:
+		* Stacked column chart
+		* Area chart
+		* Line and stacked column chart
+		* Ribbon chart, which has the added benefit of showing rank changes over time
+	* Line charts work well with a consistent flow of data, such as when sales are recorded for every period. If no sales are recorded for some periods, the line chart visual will fill such gaps with a straight line that connects the values of the previous and next periods.
+		* If missing values are a possibility, a column chart might be a better visual choice because it will help to avoid the interpretation of a non-existent trend:
+		  ![[Pasted image 20231008172013.png]]
+* Proportional visuals
+	* Proportional visuals show data as part of a whole. They effectively communicate how a value is distributed across a dimension. 
+	* Visuals that you can use for proportionality:
+		* 100% Stacked Column chart
+		* Funnel chart
+		* Treemap
+		* Pie chart
+		* Doughnut chart
+	* Proportional visuals can't plot a mix of positive and negative values. They should be used when all values are positive or all values are negative
+	* In the following example, a 100% Stacked Bar chart visual shows proportional sales across four stores:
+	  ![[Pasted image 20231008190221.png]]
+	  Notice that the actual sales value isn't shown. Instead, the proportion of sales is shown.
+* Numeric visuals
+	* Example:
+	  ![[Pasted image 20231008190500.png]]
+* Grid visuals
+	* tables and matrices can effectively convey a lot of detailed information.
+		* Tables have a fixed number of columns, and each column can express grouped or summarized data.
+		* Matrices can have groups on columns and rows.
+			* matrices provide one of the best experiences for hierarchical navigation. They allow users to drill down, on the columns or rows, to discover detailed data points of interest.
+			* In the following example, a table visual shows sales and units sold by product. Showing these metrics together in a single visual can be a challenge because ***the scale of values for sales and units is so different***. But by applying conditional formatting, data bars help report consumers quickly ***understand the distribution of values***:
+			  ![[Pasted image 20231008214400.png]]
+			  In the next example, a matrix visual displays inventory by product and by store. It uses conditional formatting to show indicators, which provide visual cues to understanding the data:
+			  ![[Pasted image 20231008214442.png]]
+	* Note 1: Adding conditional formatting options, such as background colors, font colors, or icons, can enhance values with visual indicators.
+	* Note 2: Check [this](https://medium.com/@raghu.949/power-bi-table-vs-matrix-9512c2da90ab) article to see difference between tables and matrices.
+* Geospatial visuals
+	* Tip: Depending on the granularity level, choose either map or filled map (more info [here](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/5-report-visuals#:~:text=In%20the%20following%20example%2C%20sales,by%20interpreting%20the%20color%20graduations.))
+* Performance visuals
+	* Visuals that can be used to show performance include:
+		* Gauge
+		* KPI (Key Performance Indicators)
+		* Table, with conditional formatting
+		* Matrix, with conditional formatting
+	* To use a KPI, we need three pieces of information ([M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/8-kpi)):
+		* A unit of measurement that we want to track (e.g., total sales).
+		* A goal for the measurement as a comparison with current progress.
+		* A time series.
+	* Now, to select a KPI:
+		* Click this visual:
+		  ![[Pasted image 20231008215633.png]]
+		* Enter fields for said visual like this:
+		  ![[Pasted image 20231008215703.png]]
+		* Result will look something like this (changes based on value of `Trend axis`):
+		  ![[Pasted image 20231008215718.png]]
+
+### Format and Configure Visualizations Using Tooltips
+
+[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/7-format)
+
+One of the options for customizing how your selected visualizations look is to use *tooltip* feature of Power BI:
+
+* When you add a visual, the default tooltip displays the data point's value and category, but you can customize this information to suit your needs.
+* One way to use tooltips is to display ***graphical information***. To do so, follow the steps [here](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/7-format#:~:text=Another%20way%20to,tooltip%20will%20display.).
+	* Note: the final output could look like this (when hovering over the doughnut visual):
+	  ![[Pasted image 20231008215346.png]]
+
+## Applying Filters to Reports
+
+[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-filters/1-introduction)
+
+* Filtering can occur at five different levels of a Microsoft Power BI report:
+	- Dataset (RLS)
+	- Report
+	- Page
+	- Visual
+	- Measure
+		- Implementation note: At report design time in Microsoft Power BI Desktop, **you can create measures except when the model is a live connection to SQL Server Analysis Services multidimensional model**. These measures belong to the report, and so **they're called report-level measures**.
+- Report, page, and visual level filters apply to the structure of the report:
+  ![[Pasted image 20231011072601.png]]
+
+### Filters Pane
+
+[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-filters/2-report-structure)
+
+Use the **Filters** pane to apply filters to the report structure:
+![[Pasted image 20231011072831.png|202]]
+
+The Filters pane has three **sections**:
+- Filters on all pages
+	- defines _report-level filters_ (i.e., global filters).
+- Filters on this page
+	- defines _page-level filters_.
+- Filters on this visual
+	- defines _visual-level filters_.
+	- is the only one that can be defined using measures.
+		- When a measure filters a visual, it's used to eliminate groups. 
+		- For example, consider a column chart visual that groups by store. A measure filter could eliminate groups (stores) where the total store sales are less than a certain amount.
+
+Filters apply to a single field and use **one of following filter types**:
+* Basic
+	* select items from a list of distinct values that are found in the field.
+- Advanced
+	- create more complex conditions by using data type-specific operators:
+		- **Text field operators** - Test for conditions such as "contains," "starts with," "is blank," "is empty," and others.
+		- **Numeric field operators** - Test for conditions such as "is less than," "is less than or equal to," and others.
+		- **Date field operators** - Test for conditions such as "is after," "is on or after," and others.
+	- combine multiple tests by using a logical AND/OR operator.
+- Top N
+	- only in visual-level filters.
+	- applies to text and date fields.
+	- must pass in a field that's summarized, like sales revenue.
+	- example: top five products by revenue.
+- Relative date and Relative time
+	- allow the report consumer to filter by past, present, or future time periods based on the current date and time.
+
+Filter visibility notes:
+* You can lock filters to ensure that report consumers can't remove or modify them.
+* You can hide filters. A hidden filter isn't visible to report consumers:
+  ![[Pasted image 20231011073529.png]]
+* You can hide the entire **Filters** pane to ensure that report consumers can't open it:
+  ![[Pasted image 20231011073553.png]]
+
+For more information, see [Format filters in Power BI reports](https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-report-filter/).
+
+### Applying Slicers to Reports
+
+[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-filters/3-slicers)
+
+The [slicer](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-slicers) is a core visual with one purpose: <mark style="background: #FF5582A6;">filter other visuals</mark>.
+
+Regarding the slicer's scope of filtering visuals, that scope can be:
+* between chosen visuals of a single page.
+* on an an entire page (default).
+* synced across multiple pages.
+	* For more information, see [Sync slicers across pages in Power BI reports](https://learn.microsoft.com/en-us/power-bi/developer/visuals/enable-sync-slicers).
+
+You can configure a slicer by using one or more fields from the same table or a hierarchy. <mark style="background: #FFB8EBA6;">When configured to use multiple fields or a hierarchy, the slicer presents an expandable tree structure of items.</mark>
+
+The following section mentions different field data types, and possible slicer layouts for each of them:
+* Text field
+	* List (default)
+	* Dropdown
+* Numeric field
+	* Between (default)
+	* Less than or equal to
+	* Greater than or equal to
+	* List
+	* Dropdown
+* Date field
+	* Between (default)
+	* Before
+	* After
+	* Relative date
+	* Relative time
+	* List
+	* Dropdown
+
+Slicer layout notes:
+* List and dropdown
+	* support format options to control the selection of items (e.g., **single select**).
+* Dropdown
+	* use much less space on the report page.
+	* <mark style="background: #D2B3FFA6;">only query the dataset when expanded open. Therefore, they can also help expedite report page rendering.</mark>
+		* Note: other slicer types can have this advantage as well based on [[Power BI#^e1vpye|how you configure Power BI settings to gain performance boost]].
+* Numeric and date ranges (between, after, less than, etc.)
+	* support format options to select a single value that acts as the lower or upper boundary of the filter.
+	* The reason why numeric and date slicers have additional layouts is because these data types represent continuous values. Therefore, the slicer layouts allow filtering by ranges of continuous values.
+
+
+Note: To change the slicer style, select Format your visual > Slicer settings > Visual > Options > Style:
+![[Pasted image 20231011075824.png]]
+
+Check different slicer layouts by watching the video in [this](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-filters/3-slicers#:~:text=Other%20configuration%20options%20are%20available%20for%20you%20to%20modify%20slicer%20behavior%20and%20its%20look.%20To%20learn%20more%2C%20watch%20the%20following%20video%20that%20demonstrates%20how%20to%20configure%20and%20style%20slicers.) Microsoft source.

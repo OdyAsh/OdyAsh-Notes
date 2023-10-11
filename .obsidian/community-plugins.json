@@ -2,7 +2,6 @@
   "table-editor-obsidian",
   "obsidian-excalidraw-plugin",
   "obsidian-git",
-  "oz-image-plugin",
   "url-into-selection",
   "obsidian-copy-block-link",
   "dataview",
@@ -19,8 +18,12 @@
   "obsidian-custom-frames",
   "convert-url-to-iframe",
   "obsidian-text-format",
-  "obsidian-image-toolkit",
   "obsidian-plugin-toc",
   "text-extractor",
-  "obsidian-editor-shortcuts"
+  "obsidian-editor-shortcuts",
+  "obsidian-outliner",
+  "obsidian-quiet-outline",
+  "obsidian-image-toolkit",
+  "oz-image-plugin",
+  "obsidian-pandoc"
 ]

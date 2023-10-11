@@ -8,25 +8,11 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f1057e01458cef64",
+            "id": "a00a5fb335432af1",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/AI Related/Power BI.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "b5f5f32a73cd86f7",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Media/Default/Pasted image 20230929210107.png"
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -58,7 +44,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "mamba",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -98,19 +84,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "663b36946512b5f1",
+            "id": "6eebee22fe68f97c",
             "type": "leaf",
             "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
-            "id": "f389826702bb98f9",
-            "type": "leaf",
-            "state": {
-              "type": "git-view",
-              "state": {}
+              "type": "backlink",
+              "state": {
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           },
           {
@@ -125,13 +111,30 @@
             }
           },
           {
+            "id": "6f775ce3b3334d64",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
             "id": "7e86c7e358fec7c9",
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Programming/AI Related/Power BI.md"
-              }
+              "state": {}
+            }
+          },
+          {
+            "id": "f389826702bb98f9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
             }
           },
           {
@@ -139,6 +142,14 @@
             "type": "leaf",
             "state": {
               "type": "reminder-list",
+              "state": {}
+            }
+          },
+          {
+            "id": "cd0a8497069dc5d6",
+            "type": "leaf",
+            "state": {
+              "type": "custom-frames-chatgpt",
               "state": {}
             }
           },
@@ -151,37 +162,9 @@
                 "sortOrder": "frequency"
               }
             }
-          },
-          {
-            "id": "e9ec5e6e3f5172be",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Programming/AI Related/Power BI.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "b9a9d28c97d4c081",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "file": "Programming/AI Related/Power BI.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
           }
-        ]
+        ],
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -201,33 +184,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f1057e01458cef64",
+  "active": "a00a5fb335432af1",
   "lastOpenFiles": [
-    "Media/Default/Pasted image 20231011075824.png",
-    "Media/Default/Pasted image 20231011073553.png",
-    "Media/Default/Pasted image 20231011073529.png",
-    "Media/Default/Pasted image 20231011072831.png",
-    "Media/Default/Pasted image 20231011072601.png",
-    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
     "Programming/AI Related/Power BI.md",
-    "Media/Default/Pasted image 20231008215718.png",
-    "Media/Default/Pasted image 20231008215703.png",
-    "Media/Default/Pasted image 20231008215633.png",
-    "Media/Default/Pasted image 20231008215346.png",
-    "Media/Default/Pasted image 20231008215225.png",
-    "Media/Default/Pasted image 20231008214651.png",
-    "Programming/AI Related/Power BI Questions.md",
-    "Programming/AI Related/Power BI Questions.rst",
-    "Programming/AI Related/Power BI Questions.html",
-    "Programming/AI Related/Power BI Questions.docx",
-    "Programming/AI Related/Power BI Questions.pdf",
-    "Programming/AI Related/Power BI.docx",
-    "Programming/AI Related/Power BI-media",
-    "Obsidian/Workflow Tips/quran notes workflow (2023-04-30_7-05-23).mp4",
-    "Obsidian/Cool Plugins.md",
-    "Obsidian/UI Tips.md",
+    "Media/Default/Pasted image 20231003225344.png",
+    "Media/Default/Pasted image 20231003225255.png",
+    "Media/Default/Pasted image 20231003190519.png",
+    "Media/Default/Pasted image 20231003183435.png",
+    "Media/Default/Pasted image 20231002225012.png",
+    "Media/Default/Pasted image 20231002223748.png",
+    "Media/Default/Pasted image 20231002223600.png",
+    "Media/Default/Pasted image 20231002222904.png",
+    "Media/Default/Pasted image 20231002222712.png",
+    "Media/Default/Pasted image 20231002222143.png",
     "[[Power.md",
     "Programming/AI Related/Data Analytics Notes.md",
+    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
     "Programming/Python/Virtual Environments/Conda Environment.md",
     "tmp/post 3.md",
     "tmp/post 1.md",
@@ -248,7 +220,17 @@
     "Islam/Prophet Muhammad/الأئمة الربانيون.md",
     "ابن جرير الطبري.md",
     "Programming/HTML And CSS/HTML New Info.md",
+    "Programming/Docker/Docker Basics.md",
     "Programming/HTML And CSS",
-    "Islam/The Quran/Untitled.canvas"
+    "Programming/UX Design/Figma Notes.md",
+    "Programming/Docker",
+    "Programming/UX Design/Screen Units.md",
+    "Writing/Blogs",
+    "Obsidian/Workflow Tips/quran notes workflow (2023-04-30_7-05-23).mp4",
+    "Obsidian/Workflow Tips",
+    "Media/Quran",
+    "Islam/The Quran/Untitled.canvas",
+    "Excalidraw/Scripts/Downloaded/Downloaded",
+    "Excalidraw/Scripts/Downloaded"
   ]
 }
