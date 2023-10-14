@@ -71,3 +71,44 @@ Relationships can only be created between tables that contain the same number of
 
 -> <mark style="background: #FF5582A6;">Relationships can be created between tables that contain different types of data</mark>.
 Correct. A working relationship can be created as long as there is at least one common column between them.
+
+## Effective User Experience
+
+[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/11-check)
+
+1. At the Contoso Skateboard Company, Sanjay is authoring a report that will be distributed to sales managers. The report contains some sensitive data that shouldn’t be exported. Which report design feature can Sanjay configure to ensure that data isn’t exported?
+
+Bookmark
+
+Drillthrough page
+
+Page tooltip
+
+-> Visual header
+The answer is correct. <mark style="background: #D2B3FFA6;">By disabling the More options (…) icon, report consumers can’t export data.</mark>
+
+
+2. At the Contoso Skateboard Company, Arun is building a report that will help sales managers explore sales revenue by different dimensions. Dimensions include Date, Product, Customer, Territory, and Marketing Campaign. The <mark style="background: #FFB8EBA6;">experience should involve a single data visual and provide guidance on which dimensions to explore</mark>. Which visual should Arun use?
+
+-> <mark style="background: #FFB8EBA6;">Decomposition tree</mark>
+The answer is correct. The Decomposition Tree visual helps report consumers visualize data across multiple dimensions. By using AI splits, the visual can recommend the next dimension to drill to.
+
+Key influencers
+
+Paginated reports
+
+Q&A
+
+
+## Power BI Analytic Capabilities
+
+[M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/11-check)
+
+1. Where are time series charts located?
+
+The filter pane is where all filters on visuals and pages are located.
+
+-> <mark style="background: #D2B3FFA6;">Time series charts can be imported from AppSource</mark>.
+
+The fields pane is where all charts are located.
+

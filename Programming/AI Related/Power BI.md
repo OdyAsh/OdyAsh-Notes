@@ -823,12 +823,12 @@ The following bullet points are explanation of the two cases above:
 * **Row Context** is related to **current rows.**
 	* If you create a calculation using the **[[#Calculated Columns|calculated column]]**, the row context involves the **values of all** columns from the **current** row.
 		* If that table [[Power BI#^128yfb|has a relationship with the other table]], then it includes all the **related** values from the other table for that row.
-	* There are some [[#Iterator (X) Related Functions|iterative functions]] in **DAX** over a table. Those functions involve **multiple** rows during calculation and each with its own **row context**.
+	* There are some [[#Iterator Functions|iterative functions]] in **DAX** over a table. Those functions involve **multiple** rows during calculation and each with its own **row context**.
 
 Visualized example of row context in a calculated column ([source](https://powerbidocs.com/2021/01/07/filter-context-and-row-context-in-power-bi/)):
 ![[Pasted image 20231006101527.png]]
 
-A visualized example of row context in an iterator function is shown later in the [[#Iterator (X) Related Functions|Iterator Functions]] section.
+A visualized example of row context in an iterator function is shown later in the [[#Iterator Functions|Iterator Functions]] section.
 
 ## Query Context
 
@@ -998,14 +998,16 @@ then marking table as date table on `Ship Date` column.
 
 Or, you can create new table using `CALENDARAUTO` DAX function like this: `Due Date = CALENDARAUTO(6)` (assuming that the financial year for your company ends on June 30 of each year).
 Then follow similar organizing steps as previously mentioned.
-#### What-If Analysis (Disconnected Tables)
+#### What-If Analysis
+
+You can use _what-if_ parameters to run scenarios and scenario-type analysis on your data. What-if parameters are powerful additions to your Power BI data models and reports because they enable you to look at historical data to analyze potential outcomes if a different scenario had occurred. Additionally, what-if parameters can help you look forward, to predict or forecast what could happen in the future ([M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/8-what-if-parameters)).
 
 When you create a [What-if parameter](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-what-if/), a calculated table is automatically added to your model. Example ([source](https://www.youtube.com/watch?v=6a_5uderwAg)):
 ![[Pasted image 20231004113636.png]]
 
 What-if parameters allow report users to select or filter by values that are stored in the calculated table. Measure formulas can use selected value(s) in a meaningful way. In the example above, the what-if parameter is the chosen numeric range in `Pct Sales Forecast`, and the measure formula is to multiply this numeric value by the `Total Sales` column to get the `Total Sales Forecast` bars in the bar chart above.
 
-Notably, what-if calculated tables aren't related to other model tables because they're not used to propagate filters. For this reason, they're sometimes called _disconnected tables_.
+Notably, what-if calculated tables aren't related to other model tables because they're not used to propagate filters. For this reason, they're sometimes called _disconnected tables_. Side note: Every what-if table is a *disconnected table*, but the reverse is not true.
 
 ### Comparisons
 #### Calculated Columns vs Measures
@@ -1144,7 +1146,7 @@ imagine you have a table called `Customer` that looks like this:
 Then, `COUNT(Customer['cust_name'])` will be 3, while `COUNTROWS(Customer)` will be 5
 (I think)
 
-### Iterator (X) Related Functions
+### Iterator Functions
 
 [M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-iterator-functions/1-introduction)
 
@@ -1157,6 +1159,15 @@ Then, `COUNT(Customer['cust_name'])` will be 3, while `COUNTROWS(Customer)` will
 The following example illustrates different aspects of an iterator function (filter and row contexts) (M source: the video found [here](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-iterator-functions/1-introduction)):
 ![[Pasted image 20231006082949.png]]
 Side note: In Power BI's UI, if we didn't add the InventoryKey -> 5,6 filter, then the returned sales table would've contained all the table.
+
+Important note: pleas understand the filter context part (1) in the image above. Consider this other example for illustrating this concept ([M source 1](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/2-statistical-summary#:~:text=Start%20by%20creating%20a%20new%20measure%20called%20Top%2010%20Products.%20Then%2C%20use%20the%20TOPN%20function%2C%20along%20with%20the%20SUMX%20function%2C%20to%20calculate%20your%20top%2010%20products%20by%20total%20sales%2C%20as%20follows), [M source 2](https://learn.microsoft.com/en-us/dax/topn-function-dax)):
+```EXCEL
+Top 10 Products =
+SUMX(TOPN(10, Product, Product[Total Sales]), [Total Sales])
+```
+The DAX expression above is useful if we want to present the top 10 in a different context, such as how much of the top 10 best-selling products contributed toward the overall total sales:
+![[Pasted image 20231014122341.png]]
+So in the image above, notice that because the selected visual filters the `Product` table by country, the `Product` part of the DAX expression above will change depending on the current country filter applied. For example, to visualize the first bar, the expression above was evaluated such that the `Product` table only contains rows related to `United States` value in the `Country` column. 
 
 #### Changing AVERAGEX Count of Values to Get Higher Grain Summarizations
 
@@ -1271,7 +1282,7 @@ Filters can be:
 	* A table expression filter applies a table object as a filter.
 		* it's likely a DAX function that returns a table object.
 		* Its rows are a subset of those rows that were passed in, meaning the rows where the expression evaluated as `TRUE`.
-	* Commonly, you'll use the [`FILTER`](https://learn.microsoft.com/en-us/dax/filter-function-dax/) DAX function to apply complex filter conditions, including those that can't be defined by a Boolean filter expression. The `FILTER` function is classed as an [[#Iterator (X) Related Functions|iterator function]], and so you would pass in a table, or table expression, and an expression to evaluate for each row of that table.
+	* Commonly, you'll use the [`FILTER`](https://learn.microsoft.com/en-us/dax/filter-function-dax/) DAX function to apply complex filter conditions, including those that can't be defined by a Boolean filter expression. The `FILTER` function is classed as an [[#Iterator Functions|iterator function]], and so you would pass in a table, or table expression, and an expression to evaluate for each row of that table.
 	* Example: the use of `FILTER` here:
 ```EXCEL
 Revenue Red =
@@ -1936,7 +1947,7 @@ Audience needs can be met by one, or possibly a combination, of four report type
 - Analytical
 	- High level of UX to discover answers to a broad array of questions.
 	- help answer questions such as "Why did that happen?" or "What might happen next?" (recall [[Data Analytics Notes#Types of Analytics|diagnostic analysis]]).
-	- More info on how to design this report type is shown in a [[#Analytical Report Design|later section]].
+	- More info on how to design this report type is shown in a [[#Report Design Principles|later section]].
 - Operational
 	- monitor current or real-time data, make decisions, and act on those decisions.
 	- include buttons that allow the report consumer to navigate within the report and also beyond the report to perform actions in external systems.
@@ -1949,6 +1960,16 @@ Each of these types has a different approach to UI and UX requirements.
 
 Recommendation: check out different report designs in the embedded Power BI report [here](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-requirements/6-explore-designs).
 
+Don't forget to design reports with built-in assistance ([M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/7-design-built-in-assistance)). In other words, provide a "no training required" experience. Relevant design techniques for this:
+* Information page
+	* Dedicate an entire report page that includes instructions and definitions.
+	* Consider adding a back button to the page. Then, add a button in a consistent location on each page that navigates to the information page. Configure these buttons to use the **Information** or **Help** icon.
+* [[Power BI#^fupz9h|Visual header tooltip icon]]
+* [[Power BI#^0zoeia|Button with overlay]]
+
+Don't forget to design a mobile report layout ([M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/9-reports-mobile)). Check out the illustration below:
+![[Pasted image 20231014115252.png]]
+Note that to publish a mobile-optimized version of your report, we can publish the main report as you did previously; the web and mobile versions are published at the same time.
 ## Report Structure
 
 [M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/1-introduction)
@@ -1961,7 +1982,7 @@ A Power BI report:
 		*  **Elements -** Provide visual interest but don't use dataset data. Elements include text boxes, buttons, shapes, and images.
 ![[Pasted image 20231008144830.png]]
 
-### Analytical Report Design
+### Report Design Principles
 
 [M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/2-design-layout)
 
@@ -1978,11 +1999,7 @@ A Power BI report:
 	* proximity
 	* repition
 
-### Design Visually Appealing Reports
-
-[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/3-design-reports)
-
-Important aspects to be aware of:
+Important aspects to be aware of ([M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/3-design-reports)):
 * Space: Spacing applies to the report page margins and the spacing between report objects.
 	* Margins
 	  ![[Pasted image 20231008145553.png]]
@@ -2079,17 +2096,29 @@ Visual types:
 		  ![[Pasted image 20231008215703.png]]
 		* Result will look something like this (changes based on value of `Trend axis`):
 		  ![[Pasted image 20231008215718.png]]
+* AI visuals
+	* Mentioned in the [[#Power BI Analytic Capabilities]] section.
 
-### Format and Configure Visualizations Using Tooltips
+### Visual Headers
 
-[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/7-format)
+[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/6-visual-headers)
 
-One of the options for customizing how your selected visualizations look is to use *tooltip* feature of Power BI:
+* All report objects, including visuals and elements (like buttons), have a visual header. 
+* The visual header appears when you hover the cursor over the report object, and they can launch actions like focus mode, drill up, or drill down. 
+	* You can also access the **More options** menu by selecting the ellipsis (**...**) button. This menu includes sorting options, export, spotlight, and many others.
+* Illustration of visual headers:
+  ![[Pasted image 20231014113536.png]]
+	* Side note: Always leave sufficient space for the visual headers to appear in the upper-right section of objects, like the image above.
+* Regarding visual header tooltip icons ([M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/7-design-built-in-assistance#:~:text=or%20Help%20icon.-,Visual%20header%20tooltip%20icon,-Within%20the%20visual)) ^fupz9h
+	* we can enable the visual header tooltip. This adds the **Help** (**?**) icon to the visual header. Illustration:
+	  ![[Pasted image 20231014114158.png]]
+* Best practices on when to hide visual headers:
+	* when the report consumer isn't familiar with Power BI and you don't intend on teaching them
+		* hide all visual headers
+	*  when a report object doesn't need it
+		* hide visual header for that report object
+* For more information, see [Using improved visual headers in Power BI reports](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-visual-elements-for-reports#using-improved-visual-headers-in-power-bi-reports).
 
-* When you add a visual, the default tooltip displays the data point's value and category, but you can customize this information to suit your needs.
-* One way to use tooltips is to display ***graphical information***. To do so, follow the steps [here](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/7-format#:~:text=Another%20way%20to,tooltip%20will%20display.).
-	* Note: the final output could look like this (when hovering over the doughnut visual):
-	  ![[Pasted image 20231008215346.png]]
 
 ## Applying Filters to Reports
 
@@ -2149,7 +2178,7 @@ Filter visibility notes:
 
 For more information, see [Format filters in Power BI reports](https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-report-filter/).
 
-### Applying Slicers to Reports
+### Slicers
 
 [M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-filters/3-slicers)
 
@@ -2198,3 +2227,436 @@ Note: To change the slicer style, select Format your visual > Slicer settings > 
 ![[Pasted image 20231011075824.png]]
 
 Check different slicer layouts by watching the video in [this](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-filters/3-slicers#:~:text=Other%20configuration%20options%20are%20available%20for%20you%20to%20modify%20slicer%20behavior%20and%20its%20look.%20To%20learn%20more%2C%20watch%20the%20following%20video%20that%20demonstrates%20how%20to%20configure%20and%20style%20slicers.) Microsoft source.
+
+### Visual Interactions
+
+[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-filters/4-advanced-filtering)
+
+* when report consumers interact with visuals, filters are propagated to other visuals on the report page. This way, visuals behave like slicers.
+	* For example, a report consumer can select a column of a column chart visual to filter other visuals on the page.
+	* To remove the cross filters, they can either select the column again or select a different visual.
+	* To add cross filters from same or other visuals, press the **ctrl** key.
+* Example of disabling cross filters for a certain visual (from video found [here](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-filters/4-advanced-filtering#:~:text=To%20gain%20a%20better%20understanding%20of%20visual%20interactions%2C%20watch%20the%20following%20video%20that%20describes%20a%20use%20case%20and%20shows%20how%20to%20configure%20it.)):
+  ![[Pasted image 20231011092414.png]]
+  To find filters currently a visual:
+  ![[Pasted image 20231011092518.png]]
+
+For more information, see [Filters and highlighting in Power BI reports](https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-reports-filters-and-highlighting/).
+
+### Drillthrough
+
+Allow report consumers to drill from visuals to other pages which are called drillthrough pages.
+
+For more information, see [Set up drillthrough in Power BI reports](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-drillthrough/).
+
+Example: right clicking a bar value then choosing the drillthrough page like here:
+![[Pasted image 20231011092806.png]]
+
+Steps include:
+* create a _target report page_ that has the visuals you want for the type of entity that you're going to provide drillthrough for.
+* on that created page, drag the field for which you want to enable drillthrough here:
+  ![[Pasted image 20231011093048.png]]
+* Now users can right-click a data point on the other source pages in your report, and get a context menu that supports drillthrough to that target page.
+
+Note 1: we can pass all applied filters to the drillthrough target page by going to the destination page then clicking here:
+![[Pasted image 20231011104446.png]]
+Side note: the filters shown in *italic* above are filters applied from the source page.
+
+Note 2: we can also add a measure or a summarized numeric column to the drillthrough area:
+![[Pasted image 20231011104607.png]]
+When you add a measure or summarized numeric column, you can drill through to the page when the field is used in the _Value_ area of a visual.
+
+### Tooltips
+
+[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/7-format)
+
+One of the options for customizing how your selected visualizations look is to use *tooltip* feature of Power BI:
+
+* When you add a visual, the default tooltip displays the data point's value and category, but you can customize this information to suit your needs.
+* One way to use tooltips is to display ***graphical information***. To do so, follow the steps [here](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/7-format#:~:text=Another%20way%20to,tooltip%20will%20display.).
+	* Note: the final output could look like this (when hovering over the doughnut visual):
+	  ![[Pasted image 20231008215346.png]]
+
+For more information, see [Create tooltips based on report pages in Power BI Desktop](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-tooltips/).
+
+By default, the report tooltip receives all filters that apply to the visual ([M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-filters/4-advanced-filtering#:~:text=By%20default%2C%20the%20report%20tooltip%20receives%20all%20filters%20that%20apply%20to%20the%20visual.)).
+
+### Bookmarks
+
+- Bookmarks capture a specific view of a report, including filters, slicers, the page selection, and the state of visuals.
+	- Bookmarks that are created by a report consumer are known as _personal bookmarks_.
+- You can invoke bookmarks directly from the **Bookmarks** pane, or you can invoke them indirectly by selecting a button, image, or shape.
+- Illustration on how to create a bookmark ([M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/4-bookmarks#:~:text=watch%20the%20following%20video.)):
+  ![[Pasted image 20231014110924.png]]
+	- Bookmark State: captures different state, relating to data, display, and the current page
+		- The **Data** state captures anything that impacts the queries that Power BI sends to the dataset. (e.g., slicer, sort order, drill depth, etc.)
+		- The **Display** state is related to the visibility of a report object.
+		- The **Current page** state determines whether the bookmark will direct the report consumer to the bookmarked page or apply the current page.
+	- Bookmark Scope: makes a bookmark apply to all page visuals or specific visuals that you select.
+		- The **All visuals** scope is turned on by default, meaning that the bookmark applies to all report objects, even if hidden.
+		- The **Selected visuals** scope will target only those visuals that are selected when the bookmark was updated.
+			- Side note: visuals can be selected by pressing **ctrl** and left clicking the needed visuals, or using the **selection pane**.
+- Bookmark examples ([M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/4-bookmarks#:~:text=the%20following%20video.-,Bookmark%20examples,-By%20combining%20different)):
+	-  Reset slicers. Steps:
+		- Capture the **Data** state.
+		- **Ctrl** click the slicer visual(s) to select them.
+		- Use the **Selected visuals** scope on the selected visuals.
+		- Set the slicers to the default values.
+		- Update the bookmark.
+		- Assign the bookmark to a button action.
+	- Swap visuals. Steps for the two required bookmarks:
+		- Capture the **Display** state but not the **Data** state.
+		- **Ctrl** click the initially visible visual and the hidden visual to select them.
+		- Use the **Selected visuals** scope on the selected visuals.
+		- Update the first bookmark, with one visual as visible and the other as hidden.
+		- Update the second bookmark by using the inverse visibility state.
+		- Assign the bookmarks to button actions.
+		- Side note: No performance is impacted by having hidden visuals on a page. Hidden visuals don't run queries.
+	- Drill down multiple visuals and direct depth navigation. Steps shown [here](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/4-bookmarks#:~:text=Configure%20each%20bookmark%20to%20capture%20the%20Data,Assign%20the%20bookmarks%20to%20button%20actions.).
+	- Pop-up overlays. Illustration:
+	  ![[Pasted image 20231014112341.png]]
+	  Steps for the two required bookmarks: ^0zoeia
+		- Configure the first bookmark to capture the **Display** state.
+		- Ensure that the overlay object is visible, and then update the bookmark.
+		- Assign the bookmark to a **Help** button action.
+		- Configure the second bookmark to capture the **Display** state.
+		- Ensure that the overlay object is hidden, and then update the bookmark.
+		- Assign the bookmark to the overlay object.
+- For more information on bookmarks, see [Bookmarks in Power BI service](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-bookmarks/).
+### Report Options
+
+With report options, you can:
+- Disable persistent filters. (covered in a later section).
+- Hide visual headers for all visuals or for a specific visual.
+	- This will prevent report consumers from determining the filters that are applied to a visual by using the filter icon (covered in a later section).
+- Hide the **Filter** icon for a specific visual.
+- Restrict report consumers from changing filter types (for example, basic to advanced) in the **Filters** pane.
+- Remove the search box in the **Filters** pane.
+
+#### Query Reduction Options
+
+Reduce the number of queries that are sent to the dataset by doing one of the following:
+* Disable cross highlighting/filtering by default.
+* Add an **Apply** button to (mentioned in [[#General Tips|general performance tips section]]):
+	* Slicers.
+	* All basic filters in the filters pane.
+	* The filters pane.
+
+### Consumption-Time Filtering
+
+[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-filters/5-consumption-time)
+
+In reading view, report consumers can use many different filter techniques when viewing a Power BI report, such as:
+- Using slicers.
+- [[#Consumer Uses Filters|Using filters]].
+- [[#Interactive Filtering Actions|Applying interactive filtering actions]].
+- Determining applied filters.
+- Working with persistent filters.
+
+As a report author, use these filter techniques to design reports that take advantage of these capabilities, and at times, disable them (when you have good reason to do so).
+
+#### Consumer Uses Filters
+
+- consumer capabilities:
+	- Select the eraser icon to **clear** the filter
+		- but they **can't remove** that filter.
+	- Apply a new ***filter selection***
+		- but they can't add a new **filter**.
+			- However, a filter can be added/removed using [query string parameters in the URL](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-url-filters)
+		- also can't enforce or disable single selection
+	- Change the filter type, such as from basic to advanced (unless disabled for the report)
+		- but they can't change it to **Top N**, or **relative date or time** 
+	- Use the search box to search for values to filter by (unless disabled for the report).
+
+#### Interactive Filtering Actions
+
+Many report consumer interactions apply filters. These interactions can:
+- Slice to propagate filters to other visuals.
+- Include/exclude filters.
+	- These filters appear in the Filters pane as filter cards titled **Included** or **Excluded**. The report consumer can use the **Filters** pane to view, modify, or remove them.
+- Cross filter.
+	- Note ([M source](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-interactions#cross-filter-and-cross-highlight)): **Cross-filtering** removes data that doesn't apply. **Cross-highlighting** retains all the original data points but dims the portion that doesn't apply to your selection.
+- Drill through to a report page.
+- Apply bookmarks.
+
+#### Determine Applied Filters
+
+Occasionally, report consumers want to know (or verify) what filters apply to a specific visual. To do so: Hover the cursor over the Filter icon in the visual header, a pop-up window will then appear, describing the filters that affect the visual:
+![[Pasted image 20231011125447.png]]
+
+Note 1: Hidden filters aren't visible in the pop-up window.
+
+Note 2: If the **Filter** icon isn't available for a visual, it could be because one of the reasons mentioned in the [[#Report Options|report options section]].
+
+For more information, see [Take a tour of the report Filters pane](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-report-filter#view-only-those-filters-applied-to-a-visual).
+
+#### Persistent Filters
+
+_Persistent filters_ is a feature that saves report consumer's slicer and filter settings. It automatically applies the settings when the report consumer reopens the report. It can be reset from here:
+![[Pasted image 20231011135812.png]]
+
+### Design Choices: Filters vs Slicers vs Visual Interactions
+
+[M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-filters/6-filter-techniques)
+
+Check the link above for full list of advantages and disadvantages of both. Here, we'll mention brief points:
+* Filters allow us to configure advanced filter types, like **Top N**, or allow us to use more complex expressions, like "contains," "does not contain," "is blank," and others.
+	* However, we can filter slicers as you would any visual. For example, we can apply a filter to a slicer to remove the BLANK item.
+* Filters result in faster report rendering because no visual rendering is required, unlike slicers.
+* We can create hierarchical slicers (based on a hierarchy or by using multiple fields that are sourced from the same table).
+* Synced slicers can filter other pages in the report.
+
+Alternatively, we can enable filtering by using visuals. However, a downside to this approach is that some report consumers might not be aware that visuals can cross filter other visuals. 
+Example: In the following bar chart, the report page is filtered by the product Excel:
+![[Pasted image 20231011141228.png]]
+
+Tips when designing a report: 
+* Consistency: use either filters or slicers.
+* In the **Filters** pane, consider locking or hiding visual-level filters to avoid confusing report consumers. (Often, report consumer shouldn't modify or see visual-level filters.)
+* Create a bookmark to reset all slicers to default values. Then, add a button to the page to invoke the bookmark. For example, the button could be captioned as **Reset slicers**.
+* When a requirement is in place to lay out many slicers, consider creating a page that is dedicated to showing all slicers. For example, the page could be named **Slicers**. Sync the slicers to other pages and then set the slicers as hidden on those pages.
+* Consider using other visuals in place of slicers. Be sure to teach report consumers how to cross filter by using these visuals.
+
+For more information, see [Create buttons in Power BI reports](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-buttons/) and [Create page navigation](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-buttons#create-page-navigation).
+
+
+# Power BI Analytic Capabilities
+
+[M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/1-introduction)
+
+## Statistical Summaries
+
+[M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/2-statistical-summary)
+
+* To create statistical functions, you have the following options:
+	* create **quick statistics** from the Visualizations pane:
+	  ![[Pasted image 20231014134042.png]]
+	* create statistics using DAX: `Average Qty = AVERAGE(Sales[Order Qty])`
+		* Side note: apparently, using DAX is better in terms of performance ([M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/2-statistical-summary#:~:text=However%2C%20to%20avoid%20performance%20issues%2C%20it%27s%20better%20to%20create%20the%20statistical%20measures%20yourself%20by%20using%20DAX%20functions%20to%20calculate%20average%2C%20sum%2C%20min%2C%20max%2C%20and%20so%20on.))
+* Using histograms is the most common way to display statistics about your datasets.
+	* Histograms are created using the **bar (column) chart** or the **area chart** visuals:
+	  ![[Pasted image 20231014134529.png]]
+	* A typical bar or column chart visual in Power BI **relates two data points: a measure and a dimension.** A **histogram** differs slightly from a standard bar chart in that it **only visualizes a single data point**.
+	* you can use grouping/binning techniques to create a clustered column chart. This is mentioned in a later section called [[#Group and Bin Data]].
+* Performing Top N analysis is a great way to present data that might be important, such as the top 10 selling products. This can be done in 3 ways:
+	* Q&A Visual
+	  ![[Pasted image 20231014134808.png]]
+	  ![[Pasted image 20231014134811.png]]
+	  Side note: Q&A is explained later in the [[#Q&A|Q&A section]]. ^uhio1l
+	* Top N filter type
+	  ![[Pasted image 20231014134858.png]]
+	* TOPN DAX function
+		* Example of this is mentioned in the [[#Iterator Functions|Iterator Functions section]]
+
+For more information about the statistical capabilities of Power BI, see [Statistical Functions - DAX](https://learn.microsoft.com/en-us/dax/statistical-functions-dax/).
+
+## Outliers Detection
+
+[M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/3-visuals)
+
+* The best visual to use for identifying outliers is the scatter chart;
+	* It shows the relationship between two numerical values. 
+	* It displays patterns in large sets of data and is, therefore, ideal for displaying outliers.
+	* Basic way of identifying outliers:
+		* choose scatter chart from visualizations pane
+		* add fields of interests:
+		  ![[Pasted image 20231014135443.png]]
+		* Identify the outliers by yourself:
+		  ![[Pasted image 20231014135503.png]]
+	* Advanced way of identifying outliers (on a different example than the one above) ([source](https://www.youtube.com/watch?v=kc3ztxkj0Tc)):
+		* Suppose you want to see the outliers here:
+		  ![[Pasted image 20231014140104.png]]
+		  and suppose the business logic dictates that outliers are considered to be customers with `Profit Margins` above 35% **and** with `Total Sales` above 55,000. ^kmz928
+		* Therefore, if we want to manually see where the outliers are, we'll have to look at the x and y axes to see them:
+		  ![[Pasted image 20231014140513.png]]
+		* But what if we want to automate this process by separating the y axis (i.e., `Total Sales`) into two groups (i.e., outliers, and non outliers)? Illustration:
+		  ![[Pasted image 20231014140700.png]]
+		* Solution: follow these steps: 
+			* Create a *detached table* called `Outlier Detection Logic` (at minute 3:50, 5:00):
+			  ![[Pasted image 20231014135610.png]]
+			  ![[Pasted image 20231014135709.png]]
+		* create DAX measure called `Outlier Sales` that will follow the business logic discussed [[Power BI#^kmz928|above]] in order to sum the `Total Sales` of the outlier customers only (explained at [6:00](https://youtu.be/kc3ztxkj0Tc?t=362)):
+		  ![[Pasted image 20231014141124.png]]
+		* create complimentary logic for `Non Outlier Sales` measure:
+		  ![[Pasted image 20231014142039.png]]
+		* As you can see, these are two DAX formulas. However, we need to use only one DAX formula called `Sales Grouping` to display in the y-axis of the scatter chart. To do so, we use this DAX formula (explained at [8:25](https://youtu.be/kc3ztxkj0Tc?t=503)):
+		  ![[Pasted image 20231014143127.png]]
+		* Finally, we add the created measures as fields to the scatter chart:
+		  ![[Pasted image 20231014144229.png]]
+		  Note that `Customer Name` and `Grouping` are from `Customers` and `Outlier Detection Logic` tables respectively, while `Profit Margins` (not explicitly explained in [the video](https://www.youtube.com/watch?v=kc3ztxkj0Tc)) and `Sales Grouping` are measures created and stored in its own logical folder:
+		  ![[Pasted image 20231014144750.png]]
+
+## Group and Bin Data
+
+[M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/4-group-data)
+
+Grouping vs binning ([M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/4-group-data#:~:text=Grouping%20is%20used%20for%20categories%20of%20data.%20Binning%20is%20similar%20to%20grouping%2C%20but%20it%20is%20used%20for%20grouping%20continuous%20fields%2C%20such%20as%20numbers%20and%20dates.)):
+* Grouping is for discrete values
+* Binning is for continuous values
+
+
+General steps to create groups/bins ([source](https://www.youtube.com/watch?v=D1LO8syugMA)):
+* Prepare your visual. For example:
+  ![[Pasted image 20231014145625.png]]
+* Add the <mark style="background: #FF5582A6;">group field</mark> to the `Axis` well like so:
+  ![[Pasted image 20231014145456.png]]
+* You'll now see the visual properly grouped/binned on the chosen axis like so:
+  ![[Pasted image 20231014145542.png]]
+
+Now, regarding the ***group field***, it can be created as a:
+* Measure (using DAX)
+	* Create measure using this DAX expression (at minute 1:07)
+	  ![[Pasted image 20231014150002.png]]
+* Group (using Power BI's UI) (at 2:02)
+	* click on any of these two options:
+	  ![[Pasted image 20231014150205.png]]
+	* now, in the new window that opens, you have 2 group types to choose from:
+		* List (at 2:21):
+		  ![[Pasted image 20231014150331.png]]
+		*  Bins (screenshot is from another [video](https://youtu.be/BRvdZSfO0DY?t=257)):
+		  ![[Pasted image 20231014150805.png]]
+* Column (using Power Query) (at [3:12](https://youtu.be/D1LO8syugMA?t=192))
+	* Open Power Query
+		* This can be done in multiple ways, when of them is to right click the table of interest and clicking "Edit Query"
+	* Highlight the column that you want to bin, then click "Column from examples":
+	  ![[Pasted image 20231014151033.png]]
+	* At the first row, type a bin size like "20-40":
+	  ![[Pasted image 20231014151111.png]]
+	* Result:
+	  ![[Pasted image 20231014151129.png]]
+
+
+## Clustering
+
+[M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/5-clustering-techniques)
+
+Clustering allows you to identify a segment (cluster) of data that is similar to each other but dissimilar to the rest of the data. The process of clustering is different to that of grouping, which you accomplished previously.
+
+[This video](https://www.youtube.com/watch?v=NjdZjozKboA) summarizes how to use clustering feature of Power BI, so check it out for details. However, one important thing to note (at minute [1:10](https://youtu.be/NjdZjozKboA?t=70)) is that the fields of the visual (e.g., scatter chart) have to adhere through a certain setup as shown in the image below:
+![[Pasted image 20231014152650.png]]
+
+## Time Series Analysis
+
+[M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/6-time-series-analysis)
+
+* Time series analysis involves:
+	* analyzing a series of data in time order to identify meaningful information and trends and make predictions. 
+	* the use of visuals such as line chart, area chart, or scatter chart.
+		* These let us view how your data is progressing over time, which can be helpful in making observations like major events disrupting our data.
+* The result of time series analysis is the best data that you can use for forecasting activities.
+* We can also import a time series custom visual into Power BI Desktop from Microsoft AppSource. Example ([M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/6-time-series-analysis#:~:text=When%20you%20have%20set%20up%20the%20Play%20Axis%20visual%20to%20meet%20your%20requirements%2C%20you%20are%20ready%20to%20use%20it%20with%20your%20other%20visuals.%20Select%20the%20Play%20button%20and%20then%20watch%20how%20the%20data%20in%20each%20visual%20on%20the%20page%20evolves%20over%20the%20time.%20You%20can%20use%20the%20control%20buttons%20to%20pause%20the%20animation%2C%20restart%20it%2C%20and%20so%20on.)):
+	  ![[line chart auto play.gif]]
+	* Steps for using **Play Axis (Dynamic Slicer)** visual can be found [here](https://www.youtube.com/watch?v=8G8y5H-MMnQ) or [here](https://www.youtube.com/watch?v=0K-6rKN_xnY).
+
+## Analyze Feature
+
+[M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/7-analyze-feature)
+
+* The **Analyze** feature provides additional analysis that is generated by Power BI for a selected data point. 
+* Determines if Power BI has found something that we haven't seen before, or if we want Power BI to give you a different insight into your data. 
+* This feature is particularly useful for <mark style="background: #FFB8EBA6;">explaining the increase and analyzing why the data distribution looks the way that it does</mark>.
+* Example:
+  ![[Pasted image 20231014161057.png]]
+  ![[Pasted image 20231014161105.png]]
+  If you find this analysis useful, you can add the new visual to your report so that other users can view it. Select the plus (**+**) icon in the upper-right corner of the visual to add it to your report.
+* For more information about the Analyze feature, see [Apply insights in Power BI Desktop to discover where distributions vary (preview)](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-insights-find-where-different/).
+
+
+## Specialized AI Visuals
+
+[M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/9-use-specialized-visuals)
+
+Tip: When adding an AI visual to your report, make sure that you size it to become as large as possible. That way, report consumers can fully interact with and explore the data in the visual.
+
+### Key Influencers
+
+* The **Key influencers** visual helps report consumers understand the factors that drive a particular metric, like sales revenue. 
+* By using AI, Power BI will analyze the data, rank the factors that matter, and then present them as key influencers.
+* Example ([M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/9-use-specialized-visuals#:~:text=The%20capabilities%20of%20the%20Key%20influencers%20visual%20are%20best%20described%20by%20following%20an%20example.%20For%20a%20demonstration%20of%20the%20Key%20influencers%20visual%2C%20watch%20the%20following%20video.)): 
+  ![[Pasted image 20231014172359.png]]
+* Essentially, the **Key influencers** visual is many visuals inside one frame. When you select a key influencer, an adjacent visual will show a representation of the influencer as a comparison against the remainder of the data. 
+	* Additionally, the **Key influencers** visual includes the **Top segments** view, which shows the highest-ranking segments that contribute to a particular metric.
+* For more information, see [Create key influencers visualizations](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers).
+
+### Decomposition Tree
+
+* The **Decomposition Tree** visual helps report consumers visualize data across multiple dimensions. 
+* It automatically aggregates data and enables consumers to drill down into dimensions in any order. 
+	* As a result, it's a valuable tool for ad hoc exploration and conducting root cause analysis. 
+* As an AI visual, a decomposition tree provides a guided exploration experience that helps by finding the next dimension for consumers to drill down into.
+* Example ([M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/9-use-specialized-visuals#:~:text=The%20capabilities%20of%20the%20Decomposition%20Tree%20visual%20are%20best%20described%20by%20following%20an%20example.%20For%20a%20demonstration%20of%20the%20Decomposition%20Tree%20visual%2C%20watch%20the%20following%20video.)):
+  ![[Pasted image 20231014172809.png]]
+* For more information, see [Create and view decomposition tree visuals in Power BI](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-decomposition-tree).
+
+### Q&A
+
+Side note: Q&A can be used in top N analysis as mentioned in the [[Power BI#^uhio1l|Statistical Summaries section]]
+
+* To optimize the Q&A experience:
+	* ensure that the data field names are user-friendly. 
+	* enhance the data model with synonyms and terms. 
+	* hide fields, such as fields that are used in model relationships, to restrict their use in Q&A. 
+	* add suggested questions that become prompts in the **Q&A** visual. 
+	* These optimizations can be done by clicking at the cog icon of the Q&A visual ([M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/9-use-specialized-visuals#:~:text=For%20a%20demonstration%20of%20the%20Q%26A%20visual%2C%20watch%20the%20following%20video.)):
+	  ![[Pasted image 20231014173326.png]]
+* For more information, see [Use Power BI Q&A to explore your data and create visuals](https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-tutorial-q-and-a).
+
+# Paginated Reports
+
+[M source](https://learn.microsoft.com/en-us/training/modules/create-paginated-reports-power-bi/1-introduction)
+
+Paginated reports are:
+* used for operational reports with tables of details and optional headers and footers.
+* used when we want to print the report on paper or when we want an e-receipt, a purchase order, or an invoice.
+* used to render tabular data exceedingly well.
+	* Therefore, ideal for creating sales invoices, receipts, purchase orders, and tabular data.
+* descendants of SQL Server Reporting Services (SSRS), which was first introduced in 2004. 
+	* Power BI paginated reports and SSRS have a lot in common. 
+	* <mark style="background: #BBFABBA6;">If you're looking for information on paginated reports and can't find it, search the internet and Microsoft documentation on SSRS.</mark>
+* shared with either a Power BI Pro or a Power BI premium license.
+* not created in Power BI Desktop; they are built by using [Power BI Report Builder](https://www.microsoft.com/en-us/download/details.aspx?id=58158).
+
+Illustrative example:
+  ![[Pasted image 20231014174719.png]]
+
+### Getting Data to Paginated Reports
+
+[M source](https://learn.microsoft.com/en-us/training/modules/create-paginated-reports-power-bi/2-get-data)
+
+Paginated reports:
+* do not use Power Query when connecting to data sources.
+* do not involve data cleaning steps.
+* do not store a Power BI paginated report dataset.
+	* When data is refreshed on the report, it is retrieved in an unaltered form from the data source, according to the query that was used to retrieve it.
+* can be collected from multiple data sources, including Microsoft Excel, Oracle, SQL Server, and many more.
+	* However, after the data has been collected, the different data sources cannot be merged into a single data model.
+	* Each source must be used for a different purpose. 
+		* For instance, data from an Excel source can be used for a chart, while data from SQL Server can be used for a table on a single report.
+* have an expression language that can be used to look up data in different datasets, but it is nothing like Power Query.
+* can use a dataset from Power BI service. 
+	* These datasets have used Power Query to clean and alter the data. 
+	* The difference is that this work was done in Power BI Desktop or SQL Server Data Tools prior to using Power BI Report Builder.
+
+#### Create and Configure a Data Source
+
+To create and configure a **data source**:
+* From **Getting Started** screen -> "New Report" -> "blank report"
+* Then:
+  ![[Pasted image 20231014175857.png]]
+* Then:
+  ![[Pasted image 20231014175930.png]]
+* Regarding (3), the **Connection Properties** screen will appear, so follow these steps:
+  ![[Pasted image 20231014180013.png]]
+
+#### Create and Configure a Dataset
+
+<mark style="background: #FFF3A3A6;">data source vs dataset</mark> definitions in paginated reports (and probably in [[#DirectQuery Model]]):
+* A data source is the **connection information to a particular resource**, like SQL Server.
+* A dataset is the **saved information of the query against the data source**, not the data. 
+	* The data always resides in its original location.
+
+Now, to create and configure a **dataset**:
+* Right-click **Datasets** in the **Report View** window and select **Add Dataset**.
+* Follow these steps:
+  ![[Pasted image 20231014180346.png]]
+

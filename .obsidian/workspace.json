@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "dd12b99d9cb16a4b",
+        "id": "d75932a8131b4e91",
         "type": "tabs",
         "children": [
           {
-            "id": "f1057e01458cef64",
+            "id": "af8428f0f0a3e0aa",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -16,16 +16,6 @@
                 "file": "Programming/AI Related/Power BI.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "b5f5f32a73cd86f7",
-            "type": "leaf",
-            "state": {
-              "type": "image",
-              "state": {
-                "file": "Media/Default/Pasted image 20230929210107.png"
               }
             }
           }
@@ -201,22 +191,22 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f1057e01458cef64",
+  "active": "af8428f0f0a3e0aa",
   "lastOpenFiles": [
-    "Media/Default/Pasted image 20231011075824.png",
-    "Media/Default/Pasted image 20231011073553.png",
-    "Media/Default/Pasted image 20231011073529.png",
-    "Media/Default/Pasted image 20231011072831.png",
-    "Media/Default/Pasted image 20231011072601.png",
-    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
-    "Programming/AI Related/Power BI.md",
-    "Media/Default/Pasted image 20231008215718.png",
-    "Media/Default/Pasted image 20231008215703.png",
-    "Media/Default/Pasted image 20231008215633.png",
-    "Media/Default/Pasted image 20231008215346.png",
-    "Media/Default/Pasted image 20231008215225.png",
-    "Media/Default/Pasted image 20231008214651.png",
+    "Media/Default/Pasted image 20231014180346.png",
+    "Media/Default/Pasted image 20231014180013.png",
+    "Media/Default/Pasted image 20231014175930.png",
+    "Media/Default/Pasted image 20231014175927.png",
+    "Media/Default/Pasted image 20231014175857.png",
+    "Media/Default/Pasted image 20231014174719.png",
     "Programming/AI Related/Power BI Questions.md",
+    "Programming/AI Related/Power BI.md",
+    "Media/Default/Pasted image 20231014173326.png",
+    "Media/Default/Pasted image 20231014172809.png",
+    "Media/Default/Pasted image 20231014172359.png",
+    "Media/Default/Pasted image 20231014161105.png",
+    "Media/Default/Pasted image 20231014161057.png",
+    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
     "Programming/AI Related/Power BI Questions.rst",
     "Programming/AI Related/Power BI Questions.html",
     "Programming/AI Related/Power BI Questions.docx",
