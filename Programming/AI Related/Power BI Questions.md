@@ -112,3 +112,16 @@ The filter pane is where all filters on visuals and pages are located.
 
 The fields pane is where all charts are located.
 
+## Power BI Paginated Reports
+
+[M source](https://learn.microsoft.com/en-us/training/modules/create-paginated-reports-power-bi/7-check)
+
+1. Why are parameters important in Power BI paginated reports?
+
+They allow the report developer to control the refresh interval of the report.
+
+-> They allow the user to control aspects of how the report is rendered when the report is run.
+Parameters can be used in the report dataset, the report design surface, and other places. Users insert values into the available parameters, and the report author uses those values in the appropriate location in the report.
+
+They are required so that Power BI can call the paginated report.
+

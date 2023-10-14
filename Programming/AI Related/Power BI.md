@@ -78,10 +78,19 @@ Report example:
 
 ([source](https://www.youtube.com/watch?v=twBUmqVOGgg))
 There are two types: 
-1. Power BI Query Parameters.
-	1. By changing these you can **change the data that is loaded** in it your Power BI model.
-2. Parameters used in Power BI Reports.
-	1.  by changing these parameters users can **change what is shown on the report**.
+* Power BI Query Parameters.
+	* By changing these you can **change the data that is loaded** in it your Power BI model.
+* Parameters used in Power BI Reports.
+	* by changing these parameters users can **change what is shown on the report**.
+	* Example ([source](https://www.youtube.com/watch?v=1eurc0EY2Xg)):
+	  ![[Pasted image 20231014212908.png]]
+	  then:
+	  ![[Pasted image 20231014212949.png]]
+	  then, repeat the two images' steps above to create `Y Axis` parameter. Then, create an empty bar chart visual, and the parameters as fields:
+	  ![[Pasted image 20231014213104.png]]
+	  Result:
+	  ![[Pasted image 20231014213148.png]]
+
 
 # Custom Invoke Functions
 
@@ -2614,10 +2623,24 @@ Paginated reports are:
 	* Power BI paginated reports and SSRS have a lot in common. 
 	* <mark style="background: #BBFABBA6;">If you're looking for information on paginated reports and can't find it, search the internet and Microsoft documentation on SSRS.</mark>
 * shared with either a Power BI Pro or a Power BI premium license.
+	* To publish your report, select **File >** **Save as** and then select **Power BI Service**. Your report will now appear in Power BI service ([M source](https://learn.microsoft.com/en-us/training/modules/create-paginated-reports-power-bi/5-publish)). For more information, go to [Publish datasets and reports from Power BI Desktop](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-upload-desktop-files/).
 * not created in Power BI Desktop; they are built by using [Power BI Report Builder](https://www.microsoft.com/en-us/download/details.aspx?id=58158).
 
 Illustrative example:
   ![[Pasted image 20231014174719.png]]
+
+Best practices ([M source](https://learn.microsoft.com/en-us/training/modules/create-paginated-reports-power-bi/5-publish)):
+* provide guidance to the user by documenting why this report was created.
+	* Adding a report implementation date and time is an excellent practice.
+	* People who are looking at a report won't know that they're looking at an older version unless that fact is highlighted in a footer.
+* Put important information, like totals, at the top of the report.
+* The way people read dates varies across different countries/regions. Localize data formats to the appropriate target user.
+* test the appropriate delivery format and ensure that the report is rendering correctly in that format. Does the user want the report:
+	* sent to them in an email message?
+	* in a printable format?
+	* in a web browser?
+* Pay attention to the height and width of the report page. Verify that the report isn't running off the page when the report renders for the user.
+* Create reports that are easy on the data source. Neglecting this overburden the data source and affect performance.
 
 ### Getting Data to Paginated Reports
 
@@ -2659,4 +2682,48 @@ Now, to create and configure a **dataset**:
 * Right-click **Datasets** in the **Report View** window and select **Add Dataset**.
 * Follow these steps:
   ![[Pasted image 20231014180346.png]]
+
+### Creating a Paginated Table/Matrix and Adding Parameters
+
+[M source](https://learn.microsoft.com/en-us/training/modules/create-paginated-reports-power-bi/3-paginated-report)
+
+* Follow the Microsoft source above to see the steps of creating a table
+* Follow the video [here](https://youtu.be/hEGDJ6SxJEk?t=461) (starting from 7:40) to see the steps of creating a matrix:
+  ![[Pasted image 20231014211345.png]]
+
+To create a parameter:
+* Follow the steps [here](https://learn.microsoft.com/en-us/training/modules/create-paginated-reports-power-bi/3-paginated-report#:~:text=add%20a%20parameter.-,Add%20parameters,-To%20add%20a).
+* Or follow the steps in the same video referenced above starting from [10:00](https://youtu.be/hEGDJ6SxJEk?t=604):
+  ![[Pasted image 20231014211141.png]]
+  when clicking "Run":
+  ![[Pasted image 20231014211221.png]]
+
+
+### Creating Charts in a Paginated Report
+
+[M source](https://learn.microsoft.com/en-us/training/modules/create-paginated-reports-power-bi/4-charts)
+
+* First method of adding charts:
+  ![[Pasted image 20231014211618.png]]
+* Second method of adding charts:
+  ![[Pasted image 20231014211625.png]]
+
+Next, choose the type and style of your chart, then, it the chart will be added to the design surface.
+
+When you select the chart, a new window appears to the right. The **Chart Data** screen allows you to format the chart according to the values and axis properties.
+
+Select the plus (**+**) sign beside each section to select the required columns:
+![[Pasted image 20231014211720.png]]
+
+For more information on working with charts, you can search Microsoft documentation regarding SSRS reports. All of the material in the SSRS documentation will apply to Power BI paginated reports.
+
+# Managing Workspaces and Datasets
+
+[M source](https://learn.microsoft.com/en-us/training/modules/create-manage-workspaces-power-bi/1-introduction)
+
+Workspaces offer the following benefits:
+- Focused collaboration efforts. 
+	- You can use workspaces to house reports and dashboards for use by multiple teams.
+- Ability to share and present reports and dashboards in a single environment.
+- Assurance that the highest level of security is maintained by controlling who can access datasets, reports, and dashboards.
 
