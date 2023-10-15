@@ -2727,3 +2727,76 @@ Workspaces offer the following benefits:
 - Ability to share and present reports and dashboards in a single environment.
 - Assurance that the highest level of security is maintained by controlling who can access datasets, reports, and dashboards.
 
+## Creating a Workspace and Workspace Roles
+
+[M source](https://learn.microsoft.com/en-us/training/modules/create-manage-workspaces-power-bi/2-distribute-report-dashboard)
+
+Most of the details are in the Microsoft source above. Therefore, we'll mention a few notes here.
+
+When creating a workspace:
+* A **contact list** refers to users who will receive notifications if issues with the workspace occur.
+	* By default, these users are the workspace admins, but we can also add specific users.
+* We can add optionally add the workspace to a specific OneDrive and then choose whether this workspace will be a part of a dedicated capacity or not.
+	* Dedicated capacities are Power BI Premium features that ensure that your workspace will have its own computational resources as opposed to sharing resources with other users.
+
+Regarding workspace roles:
+* **Admin**
+    - Workspaces: Update and delete them
+    - People: Add or remove them, including other admins
+- **Member**
+    - People: Add members or others with lower permissions
+    - <mark style="background: #D2B3FFA6;">Apps: Publish, unpublish, and change permissions</mark>
+- **Contributor**
+    - Workspace content: Create, edit, and delete
+        - E.g., reports, dashboards, datasets
+    - <mark style="background: #D2B3FFA6;">Reports: Publish them to the workspace</mark>
+    - See **usage metric reports**
+- **Viewer**
+    - View and interact with an item
+    - Read data that's stored in workspace dataflows
+- Note:  full permissions, review the [Roles in workspaces documentation](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces#workspace-roles). It is mentioned here also:
+  ![[Pasted image 20231015072419.png]]
+
+To assign these roles to users, go to the workspace that you've created and, in the upper-left corner of the ribbon, select **Access**:
+![[Pasted image 20231015072458.png]]
+
+Notes regarding [building your app section in the Microsoft source](https://learn.microsoft.com/en-us/training/modules/create-manage-workspaces-power-bi/2-distribute-report-dashboard#:~:text=Create%20and%20configure%20an%20app): 
+* We need a Power BI Pro license to publish an App.
+* Use the **Contact Information** and **Support Site** fields to help users contact the appropriate person(s) and how to find help for the app.
+* Regarding the **Manage Audience Access** section:
+	* We can **Grant access to** the _Entire organization_ or _Specific users or groups_. 
+		* For Specific users or groups, we can enter any mail-enabled account accessible within our Power BI tenant.
+	* We can allow people to share the datasets in the app audience.
+	* We can allow people to build content with the datasets in the app audience
+	* Lastly, notice that **Workspace users** are already included in the audience by default. This goes back to the roles we covered earlier.
+
+
+## Usage Metric Reports
+
+[M source](https://learn.microsoft.com/en-us/training/modules/create-manage-workspaces-power-bi/3-monitor-usage-performance)
+
+In the **Report usage** tab, you can view such details as:
+* **Viewers per day**, **Unique viewers per day** (which doesn't include users who returned to the same reports multiple times), and **Shares per day** charts
+- **Total Views**, **Total Viewers**, and **Total Shares** KPI cards
+- **Total views and shares ranking** 
+	- (compares how your report is doing in comparison to other reports in the app)
+- **Views by Users** 
+	- (details about each specific user that viewed the dashboard)
+
+We can also filter by the distribution method of the report (for example, through sharing or from the workspace directly) and platform type (for example, mobile or web).
+
+We can also view performance metrics on the **Report performance** tab, as shown in the following screenshot:
+![[Pasted image 20231015080346.png]]
+
+On the **Report performance** tab, we can view metrics such as:
+- **Typical opening time**
+	- How long it takes, at the fiftieth percentile, to open the report.
+- **Opening time trend**
+	- How the typical opening time changes over time. This metric can tell you how the report is performing as the number of users starts to grow.
+- **Daily/7-Day Performance** charts
+	- Highlight the performance for 10, 50, and 90 percent of the open-report actions every day and over a seven-day period.
+- Filters for date
+	- so you can see how the performance changes according to the day.
+
+For more information, see [Monitor Usage Metrics](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-modern-usage-metrics/).
+
