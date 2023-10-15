@@ -2800,4 +2800,4 @@ On the **Report performance** tab, we can view metrics such as:
 
 For more information, see [Monitor Usage Metrics](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-modern-usage-metrics/).
 
-test text
+

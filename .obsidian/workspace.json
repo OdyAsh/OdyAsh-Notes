@@ -18,8 +18,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f469dc48fd291127",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/AI Related/Power BI.md",
+                "mode": "source",
+                "source": true
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -191,8 +204,9 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "55aba6f6a6928026",
+  "active": "f469dc48fd291127",
   "lastOpenFiles": [
+    "conflict-files-obsidian-git.md",
     "Programming/AI Related/Power BI.md",
     "Media/Default/Pasted image 20230929210107.png",
     "Media/Default/line chart auto play.gif",
