@@ -1856,13 +1856,24 @@ Example: Let's say you have a Power BI report that connects to a SQL database. Y
 			* [CUSTOMDATA](https://learn.microsoft.com/en-us/dax/customdata-function-dax) - Returns the **CustomData** property passed in the connection string. Non-Power BI reporting tools that connect to the dataset by using a connection string can set this property, like Microsoft Excel.
 			* Example rule that restricts data access to the region(s) of the authenticated user: `'AppUser'[UserName] = USERPRINCIPALNAME()`. Thiss will compare the current user's UPN with the ones in the `AppUser` table which will map that user to a specific region, as can be seen by the image below:
 			  ![[Pasted image 20231007170636.png]]
-	* 0 roles mean that users have access to all model data..
-	* Creation/Validation/Management of roles can be done in the following environments:
-		* SQL Server Data Tools (SSDT), if the models are from Azure Analysis Services or SQL Server Analysis Services
+			* Another example ([M source](https://learn.microsoft.com/en-us/training/modules/row-level-security-power-bi/3-dynamic-method)):
+			  ![[Pasted image 20231017150459.png]]
+			  then:
+			  ![[Pasted image 20231017150411.png]] 
+	* Role management (creation, validation, etc.) can be done in the following environments:
+		* SQL Server Data Tools (SSDT), if the models are from the Analysis Services of Azure or SQL Server
 		* SQL Server Management Studio (SSMS) or third-party tools like [Tabular Editor](https://tabulareditor.com/) otherwise.
 * It is better to apply a [[#Star schema design|start schema design]] to enforce rules that filter dimension tables, allowing [model relationships](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand) to efficiently propagate those filters to fact tables.
 * Validate roles to ensure they apply the correct filters.
   ![[Pasted image 20231007171243.png]]
+* To add members to the role in Power BI service ([M source](https://learn.microsoft.com/en-us/training/modules/row-level-security-power-bi/2-static-method)):
+	* go to our workspace in Power BI service. 
+	* Find the dataset that we created with the same name as our report
+	* Click here:
+	  ![[Pasted image 20231017150849.png]]
+	* Then add Microsoft Entra ID users and security groups to the security role. 
+		* When members are added to this role, the DAX filter that you previously defined will be applied to them.
+	* To test the roles in Power BI service, click on (...) icon next to the role that you want to test, then select "Test as role".
 
 ### Set up Role Mappings
 
@@ -2610,6 +2621,11 @@ Side note: Q&A can be used in top N analysis as mentioned in the [[Power BI#^uhi
 	  ![[Pasted image 20231014173326.png]]
 * For more information, see [Use Power BI Q&A to explore your data and create visuals](https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-tutorial-q-and-a).
 
+Note: The Q&A visual consists of three main elements ([M source](https://learn.microsoft.com/en-us/training/modules/create-dashboards-power-bi/3-explore-data#:~:text=The%20Q%26A%20visual%20consists%20of%20three%20main%20elements%3A)):
+* Question box
+* Pre-populated suggestion tiles
+* Pin visual icon
+	* appears in Power BI service in order to pin the visual to a [[#Dashboards|dashboard]].
 # Paginated Reports
 
 [M source](https://learn.microsoft.com/en-us/training/modules/create-paginated-reports-power-bi/1-introduction)
@@ -2743,6 +2759,7 @@ Regarding workspace roles:
 * **Admin**
     - Workspaces: Update and delete them ^68di4d
     - People: Add or remove them, including other admins
+    - Change [[Power BI#^u7k3wc|data classifications]] that could be applied to a dashboard.
 - **Member**
     - People: Add members or others with lower permissions
     - <mark style="background: #D2B3FFA6;">Apps: Publish, unpublish, and change permissions</mark>
@@ -3102,8 +3119,8 @@ Use case scenario:
 			* users expected to see a sales report and are now looking at a product report instead. We should direct users users to the datasets that they should be accessing
 		* ***Certification will require users to have special access*** before they can view the Sales dashboards, so no confusion will occur when sharing multiple reports.
 		* Requirements:
-			* Request certification for a promoted dataset.
-				* Only authorized users can certify content. Other users can request content certification.
+			* Request certification for a promoted dataset from the dataset's owner.
+				* Only authorized users (i.e., content owners) can certify content. Other users can request content certification.
 			* Certification can be a highly selective process, so only the truly reliable and authoritative datasets are used across the organization.
 		* Steps:
 			* To request certification:
@@ -3140,6 +3157,76 @@ Regarding query caching:
 		* If many datasets have query caching enabled, and a refresh occurs, a reduction in performance might occur because a large number of queries are being processed at once.
 
 For more information, see [Query Caching in Power BI](https://learn.microsoft.com/en-us/power-bi/connect-data/power-bi-query-caching/).
+
+# Dashboards
+
+[M source](https://learn.microsoft.com/en-us/training/modules/create-dashboards-power-bi/1-introduction)
+
+Dashboard characteristics:
+* Can be created from multiple datasets or reports.
+* Can't make edits on the dashboard tiles.
+	* Dashboards do not have the **Filter**, **Visualization**, and **Fields** panes, so we can't add new filters and slicers.
+* Can only be a single page (canvas).
+* Can't see the underlying dataset directly in a dashboard.
+* Both dashboards and reports can be refreshed to show the latest data.
+* Its tiles can be sourced from a multitude of places including reports, datasets, other dashboards, Microsoft Excel, SQL Server Reporting Services, and more.
+	* A report element pinned in the dashboard acts as a direct connection between the dashboard and the report that the snapshot came from.
+		* To pin a report to a dashboard, go to the report visual that you want to pin, then:
+		  ![[Pasted image 20231017110035.png]]
+		  then:
+		  ![[Pasted image 20231017110044.png]]
+	* Dashboard tiles can also be created from ***custom streaming data*** like so ([M source](https://learn.microsoft.com/en-us/training/modules/create-dashboards-power-bi/7-configure-real-time-dashboard)):
+	  ![[Pasted image 20231017133847.png]]
+	  this is useful for the following use case scenario: sensors on machines constantly send a stream of data to "IoT hub", where they'll be housed in their native, messy format. From there, we can use a stream insight job to aggregate the data, meaning that it will clean the data and quiet the noisy messages. Then, we can retrieve the data into Power BI as a streaming dataset, where we can consume the information and build the required visuals. This process can be illustrated like this:
+	  ![[Pasted image 20231017134036.png]]
+	  For more information, see [Real-time streaming in Power BI](https://learn.microsoft.com/en-us/power-bi/connect-data/service-real-time-streaming).
+* Can pin an entire page of a report (i.e., live page)
+	* Any changes that we make to the report will automatically show on the dashboard when the page is refreshed. In Power BI Desktop, we can make changes to our visuals or data as needed and then ***deploy to the appropriate workspace file, which will update the report and simultaneously update the dashboard as well***.
+* Can create data alerts for pinned visuals:
+	* Steps:
+	  ![[Pasted image 20231017123245.png]]
+	  Then:
+	  ![[Pasted image 20231017123254.png]]
+	* Note: <mark style="background: #FFB8EBA6;">data alerts are available to whomever has access to the dashboard, not just the dashboard owner</mark>.
+		* I.e., each user can have their own set of alerts.
+	* For more information, see [Data Alerts in Power BI service](https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts).
+* Can get quick insights on the dataset
+	* Steps:
+	  ![[Pasted image 20231017132825.png]]
+	  Then, this appears:
+	  ![[Pasted image 20231017132838.png]]
+	  Clicking on "View insights" will open the **Quick Insights** page for the selected dataset, which contains up to 32 separate insight cards. Illustration of a single insight card:
+	  ![[Pasted image 20231017132934.png]]
+	  Clicking on an insight card will make us enter **Focus mode**, where we can:
+		* Filter the visualization using the filters pane.
+		* Pin the insight card to a dashboard.
+		* Run insights on the card (scoped insights) by selecting Get insights in the upper-right corner. 
+			* The scoped insights allow you to drill into your data.
+		* Return to the original insights canvas by selecting Exit Focus mode in the upper-left corner.
+* Can have different dashboard themes
+	* Steps:
+	  ![[Pasted image 20231017133236.png]]
+	  where "Custom" will give us these options:
+	  ![[Pasted image 20231017133326.png]]
+* Can perform data classification ([M source](https://learn.microsoft.com/en-us/training/modules/create-dashboards-power-bi/8-configure-data-classification))
+	* This will raise security awareness to viewers of a dashboard so that they know what level of security should be considered when viewing or sharing a dashboard. 
+	* This will not enforce policies because data protection does.
+	* Requirements:
+		* Only the **dashboard owner who is a Power BI service Admin** can change the dashboard's classification. ^u7k3wc
+	* Classification types: **High Impact**, **Low Impact**, and **Medium Impact**
+	* Steps:
+	  ![[Pasted image 20231017134847.png]]
+	  then:
+	  ![[Pasted image 20231017134907.png]]
+	  Result:
+	  ![[Pasted image 20231017135034.png]]
+* Can set up mobile view
+	* This can be done either from Power BI desktop **for reports**, or from Power BI service **for dashboards**.
+	* Note: in a 2020 June release of Power BI, a new grid has been added to this view so that we can orient our visuals with more ease and overlay visuals on top of each other. This feature can be useful if we want to insert a visual on top of an image.
+	* For more information, see [Optimize a dashboard for mobile phones](https://learn.microsoft.com/en-us/power-bi/create-reports/service-create-dashboard-mobile-phone-view).
+
+
+
 
 
 
