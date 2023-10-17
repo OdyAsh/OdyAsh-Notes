@@ -2717,7 +2717,7 @@ Select the plus (**+**) sign beside each section to select the required columns:
 
 For more information on working with charts, you can search Microsoft documentation regarding SSRS reports. All of the material in the SSRS documentation will apply to Power BI paginated reports.
 
-# Managing Workspaces and Datasets
+# Managing Workspaces
 
 [M source](https://learn.microsoft.com/en-us/training/modules/create-manage-workspaces-power-bi/1-introduction)
 
@@ -2741,7 +2741,7 @@ When creating a workspace:
 
 Regarding workspace roles:
 * **Admin**
-    - Workspaces: Update and delete them
+    - Workspaces: Update and delete them ^68di4d
     - People: Add or remove them, including other admins
 - **Member**
     - People: Add members or others with lower permissions
@@ -2750,7 +2750,8 @@ Regarding workspace roles:
     - Workspace content: Create, edit, and delete
         - E.g., reports, dashboards, datasets
     - <mark style="background: #D2B3FFA6;">Reports: Publish them to the workspace</mark>
-    - See **usage metric reports**
+    - See **[[#Usage Metric Reports|usage metric reports]]**
+    - See **lineage view**
 - **Viewer**
     - View and interact with an item
     - Read data that's stored in workspace dataflows
@@ -2799,5 +2800,348 @@ On the **Report performance** tab, we can view metrics such as:
 	- so you can see how the performance changes according to the day.
 
 For more information, see [Monitor Usage Metrics](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-modern-usage-metrics/).
+
+## Development Life Cycle Strategy
+
+[M source](https://learn.microsoft.com/en-us/training/modules/create-manage-workspaces-power-bi/4-development-lifecycle-strategy)
+
+The **deployment pipeline feature**:
+* manages content (dashboards, etc.) between different environments in the development life cycle.
+* lets us develop and test Power BI content in one centralized location and streamline the process before deploying the final content to users.
+* requires that we're a Power BI premium user, and that we're a capacity admin.
+* has the following advantages:
+	* Increased productivity
+		* reuse previous deployment pipelines, ensuring that efforts aren't duplicated.
+	* Faster delivery of content
+		* Report development becomes more streamlined
+	* Lower human intervention required
+		* decreased human error when moving content from one environment to another.
+* consists of 3 stages/environments:
+	* Development
+		* The location in which dashboard developers or data modelers can build new content with other developers.
+	* Test
+		* Where a small group of users and user acceptance testers can see and review new reports, provide feedback, and test the reports with larger datasets for bugs and data inconsistencies before it goes into production.
+	* Production
+		* Where an expansive user audience can use tested reports that are reliable and accurate.
+	* Side note: if business needs dictate so, the development stage can be omitted.
+
+Steps to create a deployment pipeline:
+* click here:
+  ![[Pasted image 20231015140500.png]]
+* After creating the pipeline, you'll see this page:
+  ![[Pasted image 20231015140528.png]]
+* assign workspaces to each of these stages using the "Assign a workspace" button. Notes:
+	* Only workspaces that are assigned to a Premium capacity will appear. 
+	* we can only assign a single workspace to each pipeline. Power BI will auto generate the two other workspaces that are used in the pipeline.
+* At every stage, you have the option to publish the associated workspace as an app by selecting **Publish app**.
+
+Testing phase:
+* After finishing the development workspace, Select **Deploy to test**, which will create a new workspace. 
+	* This workspace, by default, has the same name as the initial workspace but includes the **Test** suffix.
+	* Testing should emulate conditions that objects will experience after they've been deployed for users. 
+		* Therefore, Power BI allows you to change the source of data that is used during testing by clicking here:
+		  ![[Pasted image 20231015140908.png]]
+		  In this example, <mark style="background: #FFB8EBA6;">we want our dataset to be used for testing but with a different data source. To do so we have the following 2 options</mark>:
+			* Create parameters in Power Query Parameters (mentioned in a later section)
+			* Add a new rule:
+			  ![[Pasted image 20231015141111.png]]
+			  Then:
+			  ![[Pasted image 20231015141133.png]]
+			* Note: we do the steps above again, but this time to transition from the **Test** phase to the **Production** phase.
+
+Notes about additional operations in development phase (logically similar to "git pull"):
+* Suppose we receive a notification that one of the other developers has modified a report. To see the changes to this report:
+  ![[Pasted image 20231015141555.png]]
+  Result:
+  ![[Pasted image 20231015141612.png]]
+* The difference is typically registered as added or removed objects. If we decide that the changes shouldn't be deployed to the next phase, we can choose to ignore the changes. by selecting a specific report and then selecting **Deploy to test**.
+	* Exercise caution with this tool. Reports are dependent on their datasets. If a dataset has changed, but you don't deploy it with an associated report, the report will not behave correctly.
+
+For more information, see [Deployment Pipelines Best Practices](https://learn.microsoft.com/en-us/power-bi/create-reports/deployment-pipelines-best-practices/).
+
+## Data Lineage View
+
+[M source](https://learn.microsoft.com/en-us/training/modules/create-manage-workspaces-power-bi/5-troubleshoot-data)
+
+Data lineage view:
+* requires a Power BI Pro license and is only available for app workspaces.
+* accessible to **Admin**, **Contributor**, and **Member** roles only.
+* Refers to the path that data takes from the data source to the destination.
+	* Example:
+	  ![[Pasted image 20231015143231.png]] ^zfkx72
+	* Typically, the flow would be **data sources > datasets/dataflows > reports > dashboards**.
+* Simplifies the troubleshooting process
+	* By seeing how data flows from source to destination and determining pain points and bottlenecks.
+* Allows us to observe the impact of a single change in one dataset to reports and dashboards.
+* Easily identifies reports/dashboards that haven't been refreshed.
+
+
+To use lineage view:
+* Go to a workspace, then:
+  ![[Pasted image 20231015143628.png]]
+  This will show the graph that is shown [[Power BI#^zfkx72|above]].
+
+Now, regarding each card in the lineage view:
+* Data source card
+	* Example:
+	  ![[Pasted image 20231015143854.png]]
+	* The card tells us the type and the gateway of the data source.
+		* If you are connected to the data through an on-premises data gateway, this card will tell you more information about the gateway. 
+			* Additionally, if you double-click the card, you will get more details about the data source, such as the file path and the connection status.
+	* Selecting the lower-right icon on the card will highlight the path from the data source to the destination:
+	  ![[Pasted image 20231015144005.png]]
+
+
+Dataset/Dataflow cards:
+* Example:
+  ![[Pasted image 20231015144348.png]]
+* The impact analysis window displays how many workspaces, reports, and dashboards that this dataset is a part of and how many views that this dataset has gathered. We can select **Notify contacts**, which allows you to notify dataset owners (or any other user) of changes in the dataset:
+  ![[Pasted image 20231015144514.png]]
+* When double clicking this card, we see the following metadata:
+  ![[Pasted image 20231015144251.png]]
+	* <mark style="background: #FFB8EBA6;">Impact analysis is useful because it allows you to pinpoint datasets that aren't being used or looked at.</mark>
+
+Reports and Dashboards cards:
+* When double clicking:
+  ![[Pasted image 20231015144649.png]]
+* when clicking on the ellipsis (...) icon:
+  ![[Pasted image 20231015144706.png]]
+
+For more information, see [Data Lineage](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-data-lineage/).
+
+## Data Protection Using Sensitivity (Security) Labels
+
+[M source](https://learn.microsoft.com/en-us/training/modules/create-manage-workspaces-power-bi/6-data-protection)
+
+To ensure that sensitive data is secure, do one of the following:
+* Use Microsoft sensitivity labels on assets (dashboards, reports, datasets, and dataflows).
+	* Labels are configured externally to Power BI
+* Add encryption and watermarks when exporting the data.
+* Use Microsoft Cloud App Security to monitor and investigate activities in Power BI.
+
+Before we begin, we should ensure that we have the appropriate licensing, as shown [here](https://learn.microsoft.com/en-us/power-bi/admin/service-security-data-protection-overview/).
+
+Regarding sensitivity labels:
+* Specifies which data can be exported.
+* Protects content even outside of Power BI
+* To enable it:
+  ![[Pasted image 20231016213638.png]]
+  then:
+  ![[Pasted image 20231016213647.png]]
+* Possible labels:
+	* None
+	* Personal
+	* General
+	* Confidential
+	* Highly confidential
+	* User defined labels from [Microsoft 365 Security Center](https://security.microsoft.com/homepage/)
+* When exporting a labeled dataset:
+	* it could appear like this if we're an authorized user:
+	  ![[Pasted image 20231016213819.png]]
+	* Otherwise, we would be denied access to see the data.
+* For more information, see [Apply Data Sensitivity Labels in Power BI](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-security-apply-data-sensitivity-labels).
+
+
+# Managing Datasets
+
+[M source](https://learn.microsoft.com/en-us/training/modules/manage-datasets-power-bi/1-introduction)
+
+Managing datasets is important when we want to:
+* make the reports more dynamic so that they can filter the data themselves.
+* run what-if scenarios.
+* guarantee the coherency and integrity of our datasets.
+* make the datasets available in one place.
+* automate the refresh process to ensure that the data is kept up to date.
+
+## Power BI Gateways
+
+[M source](https://learn.microsoft.com/en-us/training/modules/manage-datasets-power-bi/4-power-bi-gateway)
+
+Gateway software allows us to:
+* retain databases/data-sources on-premise, then access them in cloud services.
+* flow from a user in the cloud, to the on-premise data, then back to the cloud:
+  ![[Pasted image 20231016214604.png]]
+	* Behind the scenes, the following actions occur:
+	  ![[Pasted image 20231016215420.png]]
+		* <mark style="background: #FFB8EBA6;">The cloud service</mark> :
+			* creates a query and the encrypted credentials for the on-premises data source. 
+			* sends them to the gateway queue for processing.
+		* <mark style="background: #FFB8EBA6;">The gateway cloud service</mark>:
+			* analyzes the query.
+			* pushes the request to Microsoft Azure Service Bus.
+		* The Service Bus:
+			* sends the pending requests to the gateway.
+		* <mark style="background: #FFB8EBA6;">The on-premises data gateway</mark>:
+			* decrypts the credentials.
+			* connects to the data source(s) with those credentials.
+			* sends the query to the data source to be run.
+		* The data source:
+			* sends the results back to the on-premises gateway and then back to the gateway cloud service, which shows these results to the user.
+	* Note ([M source](https://learn.microsoft.com/en-us/training/modules/manage-datasets-power-bi/8-troubleshoot-connectivity)): All of the above applies if we want to connect a user to an on-premise data source. However, if the user is solely dealing with cloud services, like SharePoint, then they do not require a gateway because the data is already in the cloud; they only need to provide authorization credentials to set up a data source connection. So, if a report fails to refresh, they should ensure that the data source credentials are up to date. For more information, see [Troubleshooting refresh scenarios](https://learn.microsoft.com/en-us/power-bi/connect-data/refresh-troubleshooting-refresh-scenarios/).
+
+
+There are two types of on-premises data gateways:
+* Organization mode
+	* multiple users -> multiple on-premises data sources
+* Personal mode
+	* one user -> multiple on-premises data sources.
+	* suitable in situations where you're the only one in your organization who creates reports;
+		* You will install the gateway on your local computer, which needs to stay online for the gateway to work.
+
+To use an on-premises gateway:
+* [Install the on-premises data gateway](https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-install/)
+* Make an admin configure it based on organizational needs.
+* sign in by using your Microsoft 365 organization account.
+
+To troubleshoot an on-premises data gateway:
+* Run a network port test, see [Adjust communication settings for the on-premises data gateway](https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-communication#network-ports-test/?azure-portal=true).
+* Provide proxy information for your gateway, see [Configure proxy settings for the on-premises data gateway](https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-proxy/).
+* Find the current data center region that you're in, see [Set the data center region](https://learn.microsoft.com/en-us/data-integration/gateway/service-gateway-data-region/).
+
+## Dataset Scheduled Refresh
+
+[M source](https://learn.microsoft.com/en-us/training/modules/manage-datasets-power-bi/5-dataset-refresh)
+
+The **Scheduled refresh** feature allows us to:
+* define the frequency and time slots to refresh a particular dataset.
+
+Scheduled refresh creation steps:
+* create a gateway connection.
+* select the **Schedule refresh** icon:
+  ![[Pasted image 20231016220639.png]]
+	* Side note: the on-demand refresh doesn't affect the next scheduled refresh time.
+* Do the following:
+  ![[Pasted image 20231016220543.png]]
+
+Limitations:
+* Maximum numbers of daily scheduled refreshes:
+	* Dataset is on a shared capacity -> **8**
+	* Power BI Premium -> **48**
+* Refresh might not take place at that exact time
+	* The goal is to initiate the refresh within **15** minutes of the scheduled time slot
+	* A delay of up to **one hour** can occur if the service can't allocate the required resources sooner.
+
+To check the refresh status you can either:
+* Check it from here:
+  ![[Pasted image 20231016221038.png]]
+* Or from the refresh history page of the dataset's settings window:
+  ![[Pasted image 20231016221105.png]]
+
+## Dataset Incremental Refresh
+
+[M source](https://learn.microsoft.com/en-us/training/modules/manage-datasets-power-bi/6-incremental-refresh)
+
+Incremental refresh benefits:
+* refresh large datasets quickly and often, without having to reload historical data each time.
+* Quicker refreshes
+	* Only data that needs to be changed gets refreshed. For example, if you have five years' worth of data, and you only need to refresh the last 10 days because that is the only data that has changed, the incremental refresh will refresh only those 10 days of data.
+* More reliable refreshes
+	* no need to keep your long-running data connections open to schedule a refresh.
+* Reduced resource consumption
+	* only need to refresh the smaller the amount of data, the overall consumption of memory and other resources is reduced.
+
+Use case scenario:
+* It isn't feasible for to manually refresh the data by adding a new file because:
+	* the refreshes need to happen regularly to match the frequency of the live transactions that are occurring. 
+	* the manual refresh task is becoming more difficult because the datasets have millions of rows. 
+	* the PBIX file is limited by the memory resources that are available on the desktop computer, so importing large datasets is not an option.
+* Consequently, you need to implement a better data refresh solution; incremental data refresh.
+
+To define an incremental refresh policy, follow these steps:
+* Define the filter parameters.
+	* These are built-in (keyword) parameters called <mark style="background: #FFB8EBA6;">RangeStart and RangeEnd. These are used as</mark>:
+		* a <mark style="background: #FFB8EBA6;">filtering window</mark> because they restrict the used data pulled into Power BI desktop to the specified range.
+		* a <mark style="background: #FFB8EBA6;">sliding window</mark> to determine what data to pull into Power BI service.
+	* Definition steps:
+	  ![[Pasted image 20231016222315.png]]
+* Use the parameters to apply a filter.
+	* Steps:
+		* Right click a chosen column, then select **custom filter**:
+		  ![[Pasted image 20231016222446.png]]
+		* Then, in the **Filter Rows** window that displays:
+		  ![[Pasted image 20231016222531.png]]
+		* We should now see a subset of the dataset in Power BI Desktop.
+* Define the incremental refresh policy.
+* Publish changes to Power BI service.
+
+To define the incremental refresh policy, follow these steps:
+* Right click the chosen table which you've applied the filter for, then:
+  ![[Pasted image 20231016222655.png]]
+* Then, configure the refresh as required. In this example, you will define a refresh policy to store data for five full calendar years, plus data for the current year up to the current date, and incrementally refresh 10 days of data:
+  ![[Pasted image 20231016222734.png]]
+* The two refresh operations above will apply the following logic (from top to bottom):
+	* <mark style="background: #FFB8EBA6;">load the historical data</mark> for the last five years.
+	* <mark style="background: #FFB8EBA6;">incrementally refresh the data</mark> that was changed in the last 10 days up to the current date <mark style="background: #FFB8EBA6;">and remove calendar years that are older than five years prior to the current date</mark>.
+* Then, to apply that refresh policy, you need to publish the report to Power BI service.
+
+For more information, see [Incremental refresh on Power BI](https://learn.microsoft.com/en-us/power-bi/service-premium-incremental-refresh/).
+
+
+## Dataset Promotion and Certification
+
+[M source](https://learn.microsoft.com/en-us/training/modules/manage-datasets-power-bi/7-manage-datasets)
+
+Use case scenario: 
+* the organization has many datasets that can be accessed by many users.
+* We should direct users to the most up-to-date and highest-quality datasets in our workspaces.
+* This is done by endorsing those optimized datasets as the ***one source of truth***. Endorsement can be done using promotion or certification:
+	* Promotion
+		* Promote your datasets when they're **ready for broad usage**.
+		* Requirements:
+			* write permissions on the workspace containing the content to be promoted. I.e., an [[Power BI#^68di4d|Admin]].
+		* Steps:
+			* In Power BI Service:
+			  ![[Pasted image 20231017073316.png]]
+			* Then:
+			  ![[Pasted image 20231017073336.png]]
+			* Result:
+			  ![[Pasted image 20231017073421.png]]
+			  This indicates that the dataset ready for viewing by all users.
+	* Certification
+		* Use case scenario: 
+			* users expected to see a sales report and are now looking at a product report instead. We should direct users users to the datasets that they should be accessing
+		* ***Certification will require users to have special access*** before they can view the Sales dashboards, so no confusion will occur when sharing multiple reports.
+		* Requirements:
+			* Request certification for a promoted dataset.
+				* Only authorized users can certify content. Other users can request content certification.
+			* Certification can be a highly selective process, so only the truly reliable and authoritative datasets are used across the organization.
+		* Steps:
+			* To request certification:
+			  ![[Pasted image 20231017073558.png]]
+			  If it is greyed out, the organization's admins will provide details in a link titled, _"How do I get my dataset certified?"_ in the **Certified** section.
+
+For more information, see [Promote your dataset](https://learn.microsoft.com/en-us/power-bi/service-datasets-promote/) or [Certify datasets](https://learn.microsoft.com/en-us/power-bi/service-datasets-certify/).
+
+## Query Caching
+
+[M source](https://learn.microsoft.com/en-us/training/modules/manage-datasets-power-bi/9-query-caching)
+
+Use case scenario:
+* Normally, we rely on the dataset to calculate queries, which when overloaded can reduce performance. This can lead to long loading times of reports and dashboards. To solve this, one might use query caching.
+
+Regarding query caching:
+* It is only available to users with Power BI Premium or Power BI Embedded.
+* It can only be used on a specific page of a report at a time.
+* Benefits:
+	* It reduces loading time and increases query speed especially for datasets that are not refreshed often and are accessed frequently.
+	* It respects bookmarks and default filters, so even if we enable query caching, any bookmarks that we have created still exist.
+	* It caches query results to a specific user at a time.
+	* It follows [[#Data Protection Using Sensitivity (Security) Labels|security labels]].
+	* It reduces the load on your dedicated capacity by using cloud resources on your premium capacities on Power BI service to load the report.
+* Steps:
+	* Click here:
+	  ![[Pasted image 20231017075030.png]]
+	* ThenSelect the **Datasets** tab and expand the **Query Caching** options to see this:
+	  ![[Pasted image 20231017075100.png]]
+	* choose one of the available options. The default option is that query caching is turned off; however, we can also select **Off**, which turns off query caching for the specific dataset in question. If we select **On**, <mark style="background: #FFB8EBA6;">query caching will be turned on for this specific dataset only</mark>.
+	* Side notes:
+		* Switching from **On** to **Off** will clear all previously saved query results.
+		* When turning off query caching, a small delay will occur in query loading because the report queries are running against the dataset and it does not have saved queries to fall back on.
+		* If many datasets have query caching enabled, and a refresh occurs, a reduction in performance might occur because a large number of queries are being processed at once.
+
+For more information, see [Query Caching in Power BI](https://learn.microsoft.com/en-us/power-bi/connect-data/power-bi-query-caching/).
+
+
+
 
 

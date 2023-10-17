@@ -252,3 +252,33 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 		* إذا كان هناك سؤالا أو استفسارا اسأل من تثق بدينه الرجال مع الرجال والنساء مع النساء
 
 
+# The Prophet Muhammed as a Husband (محمد كزوج)
+
+[مصدر 1](https://www.youtube.com/watch?v=1ikRT2CW0O8&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=16)
+
+[مصدر 2](https://www.youtube.com/watch?v=gvig7mftxWk&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=17)
+
+كان الرسول صلى الله عليه وسلم في بيته كزوج يتحلى بعشر صفات:
+* يحب زوجته ويخبرها أنه يحبها ([8:30](https://youtu.be/1ikRT2CW0O8?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=511))
+*  يلاطف زوجته ويمازحها ([12:35](https://youtu.be/1ikRT2CW0O8?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=757))
+* يعين زوجته ويكون معها في البيت في حاجاتها ([14:12](https://youtu.be/1ikRT2CW0O8?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=852))
+* وفيا مع زوجته ([18:38](https://www.youtube.com/watch?v=1ikRT2CW0O8&t=1118s))
+* يحترم زوجته ويشاورها في أموره الخاصة والعامة ([6:25](https://www.youtube.com/watch?v=gvig7mftxWk&t=385s))
+* يتجمل لزوجته ([14:25](https://www.youtube.com/watch?v=gvig7mftxWk&t=865s))
+* يعلّم زوجته ([17:17](https://www.youtube.com/watch?v=gvig7mftxWk&t=1037s))
+* حليم على زوجته ([19:58](https://www.youtube.com/watch?v=gvig7mftxWk&t=1198s))
+* يعدل بين زوجاته 
+* ماضرب رسول الله صل الله عليه وسلم بيده امرأة قط
+
+قال النبي صل الله عليه وسلم:
+* خيركم خيركم لأهله ،وانا خيركم لأهله محمد صل الله عليه وسلم
+* ([25:00](https://youtu.be/gvig7mftxWk?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=1502))
+
+# Wife Responsibilities (مسؤوليات الزوجة)
+
+[مصدر](https://www.youtube.com/watch?v=5-Ws3CDGvSo&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=21)
+
+الرسول صلي الله عليه و سلم يطلب من الزوجة 4 أشياء:
+* ([14:00](https://youtu.be/5-Ws3CDGvSo?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=844)) الطاعة بالمعروف ([6:45](https://youtu.be/5-Ws3CDGvSo?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v))
+	* مساعد كابتين الطيارة عليه بطاعة الكابتن, رغم أن كلاهما سواء في العلم ([7:20](https://youtu.be/5-Ws3CDGvSo?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=436))
+* 

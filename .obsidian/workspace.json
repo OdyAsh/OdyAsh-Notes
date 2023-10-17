@@ -18,21 +18,8 @@
                 "source": false
               }
             }
-          },
-          {
-            "id": "f469dc48fd291127",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Programming/AI Related/Power BI.md",
-                "mode": "source",
-                "source": true
-              }
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -188,7 +175,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 302.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,21 +191,27 @@
       "omnisearch:Omnisearch": false
     }
   },
-  "active": "f469dc48fd291127",
+  "active": "55aba6f6a6928026",
   "lastOpenFiles": [
-    "conflict-files-obsidian-git.md",
-    "Programming/AI Related/Power BI.md",
-    "Media/Default/Pasted image 20230929210107.png",
-    "Media/Default/line chart auto play.gif",
-    "Media/Default/Pasted image 20231014213148.png",
-    "Media/Default/Pasted image 20231014213104.png",
-    "Media/Default/Pasted image 20231014212949.png",
-    "Media/Default/Pasted image 20231014212941.png",
-    "Media/Default/Pasted image 20231014212908.png",
-    "Media/Default/Pasted image 20231014211755.png",
-    "Media/Default/Pasted image 20231014211720.png",
-    "Media/Default/Pasted image 20231014211636.png",
+    "Media/Default/Pasted image 20231017075100.png",
+    "Media/Default/Pasted image 20231017075030.png",
+    "Media/Default/Pasted image 20231017073558.png",
+    "Media/Default/Pasted image 20231017073421.png",
+    "Media/Default/Pasted image 20231017073336.png",
+    "Media/Default/Pasted image 20231017073316.png",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+    "Programming/AI Related/Power BI.md",
+    "Media/Default/Pasted image 20231016222734.png",
+    "Media/Default/Pasted image 20231016222655.png",
+    "Media/Default/Pasted image 20231016222531.png",
+    "Media/Default/Pasted image 20231016222446.png",
+    "Media/Default/Pasted image 20231016222315.png",
+    "Islam/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
+    "Islam/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
+    "Islam/Books/Disease and Cure (داء و دواء).md",
+    "Islam/Books",
+    "Islam/Untitled.md",
+    "conflict-files-obsidian-git.md",
     "Programming/AI Related/Power BI Questions.md",
     "Programming/AI Related/Power BI Questions.rst",
     "Programming/AI Related/Power BI Questions.html",
@@ -246,12 +239,6 @@
     "Programming/Automation/Browser-Related Automation.md",
     "Programming/HTML And CSS/CSS New Info.md",
     "Programming/Managing Names, Files And Directories/Python OS And Glob.md",
-    "Islam/The Quran/Terminologies.md",
-    "Islam/Prophet Muhammad/The Prophet's Companions.md",
-    "Islam/Prophet Muhammad/الأئمة الربانيون.md",
-    "ابن جرير الطبري.md",
-    "Programming/HTML And CSS/HTML New Info.md",
-    "Programming/HTML And CSS",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
