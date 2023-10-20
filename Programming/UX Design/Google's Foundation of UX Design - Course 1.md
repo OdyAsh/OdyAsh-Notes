@@ -1,41 +1,41 @@
 # Types of UX Designers
 
-![[Pasted image 20230214174237.png|400]] ^8gz369
+![400](../../Media/Default/Pasted%20image%2020230214174237.png) ^8gz369
 
-![[Pasted image 20230214174307.png|400]]
+![400](../../Media/Default/Pasted%20image%2020230214174307.png)
 
-![[Pasted image 20230214174336.png|400]]
+![400](../../Media/Default/Pasted%20image%2020230214174336.png)
 
-![[Pasted image 20230214174358.png|400]]
+![400](../../Media/Default/Pasted%20image%2020230214174358.png)
 
 ## Graphic vs User Designers
 **Graphic** designers usually work on the appearance of a **physical product**, like an invitation or a poster, while **UX** designers **focus on how users interact** with the product.
 
-![[Pasted image 20230214174457.png|400]]
+![400](../../Media/Default/Pasted%20image%2020230214174457.png)
 
-![[Pasted image 20230214174514.png|400]]
+![400](../../Media/Default/Pasted%20image%2020230214174514.png)
 
 # Roles That UX Designers Interact With
 
-![[Pasted image 20230314052021.png|400]]
+![400](../../Media/Default/Pasted%20image%2020230314052021.png)
 
-![[Pasted image 20230314052053.png|400]]
+![400](../../Media/Default/Pasted%20image%2020230314052053.png)
 (for example, what to write as label on a button, to make what it does it clear to the user)
 
-![[Pasted image 20230314052221.png|400]]
+![400](../../Media/Default/Pasted%20image%2020230314052221.png)
  ^kcao74
 ("functioning experience", like a website or app)
 
-![[Pasted image 20230314052258.png|400]]
-(they act as a bridge between In [[Google's Foundation of UX Design - Course 1#^8gz369|Interaction Designers]] and [[Google's Foundation of UX Design - Course 1#^kcao74|UX engineers]])
+![400](../../Media/Default/Pasted%20image%2020230314052258.png)
+(they act as a bridge between In [](.md#^8gz369|Interaction%20Designers) and [](.md#^kcao74|UX%20engineers))
 
-![[Pasted image 20230314052619.png|400]]
+![400](../../Media/Default/Pasted%20image%2020230314052619.png)
 (includes setting up goals, and writing project plans)
 
 
 # Product Development Life Cycle
 
-![[Pasted image 20230314053934.png|300]]
+![300](../../Media/Default/Pasted%20image%2020230314053934.png)
 
 Stages of Product Development Life Cycle:
 
@@ -86,7 +86,7 @@ Stages of Product Development Life Cycle:
 
 # Specialist Vs Generalist Vs T-Shaped
 
-![[Pasted image 20230316054421.png|475]]
+![475](../../Media/Default/Pasted%20image%2020230316054421.png)
 ([source](https://www.coursera.org/learn/foundations-user-experience-design/supplement/5O2hO/the-role-of-a-beginner-ux-designer))
 
 -   UX designers can choose to specialize in a certain area or keep their skill set more broad

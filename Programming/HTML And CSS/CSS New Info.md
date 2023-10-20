@@ -33,16 +33,16 @@ body {  background-image: url('img_girl.jpg');
 to stretch it, change `cover` to `100% 100%`
 
 regarding `border-style` possible values:
-![[Pasted image 20230723105251.png|450]]
+![450](../../Media/Default/Pasted%20image%2020230723105251.png)
 
 Regarding table width and height:
-![[Pasted image 20230723105336.png|575]]
+![575](../../Media/Default/Pasted%20image%2020230723105336.png)
 
 regarding zebra effect in table using `nth-child`:
-![[Pasted image 20230723105817.png|525]]
+![525](../../Media/Default/Pasted%20image%2020230723105817.png)
 
 to hide certain columns in table:
-![[Pasted image 20230723110216.png|700]]
+![700](../../Media/Default/Pasted%20image%2020230723110216.png)
 
 Notes:
 A block-level element always **takes up the full width available** (stretches out to the left and right as far as it can).
@@ -67,9 +67,9 @@ Now, if:
 }
 ```
 then:
-![[Pasted image 20230723195329.png|475]]
+![475](../../Media/Default/Pasted%20image%2020230723195329.png)
 but if `border-box` then In the border box model, the content's dimension has to subtract the border and padding from the element's dimension. Specifically, the content's width is 200 - 5 * 2 - 10 * 2 = 170px:
-![[Pasted image 20230723195355.png|475]]
+![475](../../Media/Default/Pasted%20image%2020230723195355.png)
 
 ### Use `border-box` in `* {}`
 [source](https://www.w3schools.com/css/css3_box-sizing.asp)
@@ -79,13 +79,13 @@ height + padding + border = actual height of an element
 
 This means: When you set the width/height of an element, the element often appears bigger than you have set (because the element's border and padding are added to the element's specified width/height).
 
-![[Pasted image 20230804105714.png|475]]
+![475](../../Media/Default/Pasted%20image%2020230804105714.png)
 
 The `box-sizing` property allows us to include the padding and border in an element's total width and height.
 
 If you set `box-sizing: border-box;` on an element, padding and border are included in the width and height:
 
-![[Pasted image 20230804105720.png|500]]
+![500](../../Media/Default/Pasted%20image%2020230804105720.png)
 
 so instead of writing `box-sizing: border-box;` in each tag, we can do it at start of css file like this:
 
@@ -96,7 +96,7 @@ so instead of writing `box-sizing: border-box;` in each tag, we can do it at sta
 ```
 
 ## Selectors
-![[Pasted image 20230723201858.png]]
+![Pasted image 20230723201858](../../Media/Default/Pasted%20image%2020230723201858.png)
 
 ```css
 /* A href that contains "example.com" */
@@ -115,12 +115,12 @@ so instead of writing `box-sizing: border-box;` in each tag, we can do it at sta
 }
 ```
 
-![[Pasted image 20230723211003.png]]
+![Pasted image 20230723211003](../../Media/Default/Pasted%20image%2020230723211003.png)
 
 
 ## pseudo-classes and pseudo-elements
 
-![[Pasted image 20230723202441.png]]
+![Pasted image 20230723202441](../../Media/Default/Pasted%20image%2020230723202441.png)
 
 ### Order of Pseudo-Classes
 
@@ -151,18 +151,18 @@ check [this](https://www.youtube.com/watch?v=zGiirUiWslI) out
 
 ## :not() Trick
 
-![[Pasted image 20230804143448.png]]
+![Pasted image 20230804143448](../../Media/Default/Pasted%20image%2020230804143448.png)
 
 
 
 ## Border vs Outline
 
 **Note:** Outline differs from [borders](https://www.w3schools.com/css/css_border.asp)! Unlike border, the outline is drawn outside the element's border, and may overlap other content. Also, the outline is NOT a part of the element's dimensions; the element's total width and height is not affected by the width of the outline. ([source](https://www.w3schools.com/css/css_outline.asp)):
-![[Pasted image 20230803045714.png|575]]
+![575](../../Media/Default/Pasted%20image%2020230803045714.png)
 
 ### Outline Offset (Space Between Border & Offset)
 
-![[Pasted image 20230803045913.png]]
+![Pasted image 20230803045913](../../Media/Default/Pasted%20image%2020230803045913.png)
 
 ## Text Transform
 
@@ -178,7 +178,7 @@ word-spacing: words      change      like     this
 
 `white-space: nowrap;` example:
 
-![[Pasted image 20230803050847.png]]
+![Pasted image 20230803050847](../../Media/Default/Pasted%20image%2020230803050847.png)
 
 ## Generic Font Families
 
@@ -191,10 +191,10 @@ In CSS there are five generic font families:
 5. **Fantasy** fonts are decorative/playful fonts.
 
 All the different font names belong to one of the generic font families:
-![[Pasted image 20230803051320.png|375]]
+![375](../../Media/Default/Pasted%20image%2020230803051320.png)
 
 Difference Between Serif and Sans-serif Fonts:
-![[Pasted image 20230803051343.png|273]]
+![273](../../Media/Default/Pasted%20image%2020230803051343.png)
 
 **Tip:** The `font-family` property should hold several font names as a "fallback" system, to ensure maximum compatibility between browsers/operating systems. Start with the font you want, and end with a generic family (to let the browser pick a similar font in the generic family, if no other fonts are available). The font names should be separated with comma. Example:
 `.p1 {  font-family: "Times New Roman", Times, serif; }`
@@ -223,7 +223,7 @@ Check how each font looks [here](https://www.w3schools.com/css/css_font_websafe.
 makes lower-case upper-case but smaller than original upper-case:
 css:
 `p.normal {font-variant: normal;}`
-![[Pasted image 20230803052150.png]]
+![Pasted image 20230803052150](../../Media/Default/Pasted%20image%2020230803052150.png)
 
 ## Font-Size Units
 
@@ -253,7 +253,7 @@ Think of it this way: 1.5em is 1.5 _times_ larger, and 150% is 150 percent of 
 ### Comparison
 
 Here is what happens if you increase the <mark style="background: #FFF3A3A6;">base font size</mark> from 100% to 120%.
-![[Pasted image 20230803055253.png]]
+![Pasted image 20230803055253](../../Media/Default/Pasted%20image%2020230803055253.png)
 
 check [this](https://www.linkedin.com/pulse/font-size-units-responsive-web-design-kristen-joseph/#:~:text=In%20the%20example,in%20some%20instances.) to see caveat about using "em" in body font size and changing text-size property.
 
@@ -328,7 +328,7 @@ To add effects, change link to be like this:
 ```
 
 result:
-![[Pasted image 20230803061936.png]]
+![Pasted image 20230803061936](../../Media/Default/Pasted%20image%2020230803061936.png)
 
 ## Font Pairings
 
@@ -339,13 +339,13 @@ my recommendation (personal taste): Helvetica and Garamond
 ## margin:auto & max-width vs width (Make divs responsive)
 [source](https://www.w3schools.com/css/css_max-width.asp)
 
-![[Pasted image 20230804100928.png]]
+![Pasted image 20230804100928](../../Media/Default/Pasted%20image%2020230804100928.png)
 
 on mobile, width vs max-width:
-![[Pasted image 20230804101001.png|244]]
+![244](../../Media/Default/Pasted%20image%2020230804101001.png)
 
 if you horizontally scroll a little:
-![[Pasted image 20230804101043.png|254]]
+![254](../../Media/Default/Pasted%20image%2020230804101043.png)
 
 
 # Cheat Sheet
@@ -365,5 +365,5 @@ image will get smaller in responsive design
 # Debugging Tips
 
 When element has multiple classes which have common properties, the styles of the class **last displayed in the css file** will override the rest of the common properties' values. Example: 
-![[Pasted image 20230723110942.png]]
+![Pasted image 20230723110942](../../Media/Default/Pasted%20image%2020230723110942.png)
 

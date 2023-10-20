@@ -2,7 +2,7 @@
 # Finding Bottlenecks in Functions
 
 1. `pip install line_profiler`  
-   (if you're in a conda environment, either use `conda install line_profiler` or check out [[Conda Environment#^vi0c08|pip_install.py]] file)
+   (if you're in a conda environment, either use `conda install line_profiler` or check out [](Virtual%20Environments/Conda%20Environment.md#^vi0c08|pip_install.py) file)
 
 2. Close your IDE and open it up again
 

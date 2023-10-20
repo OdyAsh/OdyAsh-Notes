@@ -799,7 +799,7 @@ Note: some questions are paraphrased for me to easily understand.
 
 1
 given this model:
-![[Pasted image 20231018110806.png]]
+![Pasted image 20231018110806](../../Media/Default/Pasted%20image%2020231018110806.png)
 and these refresh specifications:
 * Sales -> real time
 * Customer -> daily
@@ -815,7 +815,7 @@ Answer (in same order of tables):
 * Dual
 
 reason for using Dual can be visualized like this:
-![[Pasted image 20231018111418.png]]
+![Pasted image 20231018111418](../../Media/Default/Pasted%20image%2020231018111418.png)
 So `Date` is queried as DirectQuery when dealing with `Sales` and as Import when dealing with `SalesAggregate`
 
 2
@@ -833,7 +833,7 @@ C. Dataverse
 
 3
 Suppose you have these tables:
-![[Pasted image 20231018115643.png]]
+![Pasted image 20231018115643](../../Media/Default/Pasted%20image%2020231018115643.png)
 You need to perform the following analyses:  
 * Orders sold over time that include a measure of the total order value  
 * Orders by attributes of products sold
@@ -886,7 +886,7 @@ You have a folder that contains 100 CSV files.
 You need to make the file metadata available as a single dataset by using Power BI. The solution must NOT store the data of the CSV files.  
 Which three actions should you perform in sequence. To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
 Select and Place:
-![[Pasted image 20231018134226.png]]
+![Pasted image 20231018134226](../../Media/Default/Pasted%20image%2020231018134226.png)
 Answer (I think):
 Get data and select folder -> expand attributes -> remove content (note, last two could be switched, I don't know)
 Explanation (source):
@@ -897,24 +897,24 @@ You publish a dataset that contains data from an on-premises Microsoft SQL Serve
 The dataset must be refreshed daily.  
 You need to ensure that the Power BI service can connect to the database and refresh the dataset.  
 Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order:
-![[Pasted image 20231018140245.png]]
+![Pasted image 20231018140245](../../Media/Default/Pasted%20image%2020231018140245.png)
 Answer:
-![[Pasted image 20231018140256.png]]
+![Pasted image 20231018140256](../../Media/Default/Pasted%20image%2020231018140256.png)
 Explanation: Check [this](https://youtu.be/iq9M_ncz0tw?t=338) video.
 
 9 (Q19)
 Note: if you have this:
-![[Pasted image 20231018140821.png]]
+![Pasted image 20231018140821](../../Media/Default/Pasted%20image%2020231018140821.png)
 and you want to unpivot, answer will be:
-![[Pasted image 20231018140901.png]]
+![Pasted image 20231018140901](../../Media/Default/Pasted%20image%2020231018140901.png)
 
 
 10 (Q20)
 You are using Power BI Desktop to connect to an Azure SQL database.
 The connection is configured as follows:
-![[Pasted image 20231018141140.png]]
+![Pasted image 20231018141140](../../Media/Default/Pasted%20image%2020231018141140.png)
 what is true in the following statements?:
-![[Pasted image 20231018141156.png]]
+![Pasted image 20231018141156](../../Media/Default/Pasted%20image%2020231018141156.png)
 Answer:
 10mins, only data (bec. full hierarchy is not checked. If it was checked, then "all the tables")
 
@@ -940,7 +940,7 @@ Each workbook contains a table named Sales. The tables have the same data struct
 You plan to use Power BI to combine both Sales tables into a single table and create visuals based on the data in the table. The solution must ensure that you can publish a separate report and dataset.  
 Which storage mode should you use for the report file and the dataset file? To answer, drag the appropriate modes to the correct files. Each mode may be used once, more than once, or not at all.
 
-![[Pasted image 20231018151039.png]]
+![Pasted image 20231018151039](../../Media/Default/Pasted%20image%2020231018151039.png)
 Answer:
 <mark style="background: #ABF7F7A6;">Import, DirectQuery</mark>
 
@@ -987,10 +987,10 @@ Answer:
 
 32 (T2, Q7)
 You have this Power BI dataset:
-![[Pasted image 20231018205026.png]]
+![Pasted image 20231018205026](../../Media/Default/Pasted%20image%2020231018205026.png)
 You need to make the table available as an ***organizational data type in Microsoft Excel***.   (i.e., ***featured tables in Power BI***)
 How should you configure the properties of the table? To answer, select the appropriate options in the answer area:
-![[Pasted image 20231018205049.png]]
+![Pasted image 20231018205049](../../Media/Default/Pasted%20image%2020231018205049.png)
 
 Answers:
 ID, Name, Yes
@@ -999,7 +999,7 @@ ID, Name, Yes
 
 33 (T2, Q8)
 You have the Power BI model:
-![[Pasted image 20231018214848.png]]
+![Pasted image 20231018214848](../../Media/Default/Pasted%20image%2020231018214848.png)
 A manager can represent only a single country.  
 You need to use row-level security (RLS) to meet the following requirements:  
 * The managers must only see the data of their respective country.  
@@ -1019,23 +1019,23 @@ Explanation is in [this](https://asankap.wordpress.com/2018/05/28/how-does-row-l
 
 34 (T2, Q9)
 You have a Power BI imported dataset that contains this data model:
-![[Pasted image 20231018221248.png]]
+![Pasted image 20231018221248](../../Media/Default/Pasted%20image%2020231018221248.png)
 Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic:
-![[Pasted image 20231018221259.png]]
+![Pasted image 20231018221259](../../Media/Default/Pasted%20image%2020231018221259.png)
 
 Answer:
 <mark style="background: #D2B3FFA6;">Cross filter direction</mark>, star schema
 Notes:
 * Cross filter direction was chosen as all of the relationships are bi-directionals (look at the red rectangles), and assuming this is a star schema, we usually filter the fact table by dimension tables, and not vice versa.
 	* Also, "Assume Referential Integrity" is for DirectQuery models only, but this model is imported.
-* People debated whether the model is star schema or [snowflake](https://www.integrate.io/blog/snowflake-schemas-vs-star-schemas-what-are-they-and-how-are-they-different/#:~:text=number%20of%20levels.%E2%80%9D-,Snowflake%20Schema%20Diagram,-Before%20we%20go), I personally think it is star schema, under the assumption that `Employee` is a [[Power BI#^zuytek|factless fact table]].
+* People debated whether the model is star schema or [snowflake](https://www.integrate.io/blog/snowflake-schemas-vs-star-schemas-what-are-they-and-how-are-they-different/#:~:text=number%20of%20levels.%E2%80%9D-,Snowflake%20Schema%20Diagram,-Before%20we%20go), I personally think it is star schema, under the assumption that `Employee` is a [](Power%20BI.md#^zuytek|factless%20fact%20table).
 
 
 35 (T2, Q10)
 You have a Power BI model that contains a table named Sales and a related date table. Sales contains a measure named Total Sales.  
 You need to create a measure that calculates the total sales from the equivalent month of the previous year.  
 How should you complete the calculation? To answer, select the appropriate options in the answer area:
-![[Pasted image 20231018222930.png]]
+![Pasted image 20231018222930](../../Media/Default/Pasted%20image%2020231018222930.png)
 
 Answer:
 CALCULATE -> SAMEPERIODLASTYEAR -> 'Date'[Date]

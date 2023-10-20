@@ -240,7 +240,7 @@ Common steps:
 3. Add c:/program_files/nvidia_something_gpu/v11.6/bin to PATH windows environment variable
 
 if you're installing using pip, then, after doing the steps above, install torch, etc from [here](https://pytorch.org/get-started/locally/):
-![[Pasted image 20230313190435.png|500]]
+![500](../../../Media/Default/Pasted%20image%2020230313190435.png)
 but if you're using conda, just change "pip" to "conda" and copy the command generated to your environment's terminal
 
 then, restart your computer and run this:
@@ -255,7 +255,7 @@ and don't forget to periodically run this:
 torch.cuda.empty_cache() # to free up gpu memory space if you've ran the model before (doesn't completly free memory though; you have to restart the kernel for that)
 ```
 between model trainings, because otherwise, the gpu's dedicated memory will remain used:
-![[Pasted image 20230313190658.png|575]]
+![575](../../../Media/Default/Pasted%20image%2020230313190658.png)
 
 # Installing Cupy
 

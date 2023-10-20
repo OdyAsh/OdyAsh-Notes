@@ -3,4 +3,4 @@ Whenever accessing any API, make sure to check its documentation, and if the pag
 
 # Unanswered Questions
 
-![[Pasted image 20230224213026.png]]
+![Pasted image 20230224213026](../../Media/Default/Pasted%20image%2020230224213026.png)

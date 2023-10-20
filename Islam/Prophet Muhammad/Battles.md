@@ -4,7 +4,7 @@ https://www.youtube.com/watch?v=XPql-o9tQ0s&t=1s
 
 26:00
 نعيم بن مسعود
-he lied to [[Before Muhammad.excalidraw#^hGwrMnPw|Banu Kuraizah]] then to the people of Quraysh and has thus caused a dispute/un-trust between these two parties.
+he lied to [](../Pre-Islamic%20World/Before%20Muhammad.excalidraw.md#^hGwrMnPw|Banu%20Kuraizah) then to the people of Quraysh and has thus caused a dispute/un-trust between these two parties.
 
 36:00
 The Prophet (PBUH) asked if anyone would be willing to cross the trench and see the status of the enemies, and promised paradise to whoever agrees; no one stood up for the task, until the Prophet asked [حذيفة](https://www.wikiwand.com/en/Hudhayfah_ibn_al-Yaman) to do so.
