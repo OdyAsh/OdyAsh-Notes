@@ -37,7 +37,7 @@ To put it simply: it is similar to K-means, but instead of creating a centroid a
 ## Density-Based Clustering
 
 Sometimes, we want to cluster data points based on their densities. Example ([source](https://pberba.github.io/stats/2020/07/08/intro-hdbscan/)):
-![Pasted image 20231020083622](../../Media/Default/Pasted%20image%2020231020083622.png)
+![Pasted image 20231020083622|550](../../Media/Default/Pasted%20image%2020231020083622.png)
 
 Visualizing the density landscape:
 ![Pasted image 20231020083643](../../Media/Default/Pasted%20image%2020231020083643.png)
