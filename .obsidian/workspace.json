@@ -4,22 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "a02408526b25fc17",
+        "id": "0c9cf5db2917c653",
         "type": "tabs",
         "children": [
           {
-            "id": "55aba6f6a6928026",
+            "id": "1dd52c727d4fed73",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/AI Related/Power BI Questions.md",
+                "file": "Programming/AI Related/Clustering Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "508da8450930550d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/AI Related/Clustering Algorithms.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -120,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/AI Related/Power BI Questions.md"
+                "file": "Programming/AI Related/Clustering Algorithms.md"
               }
             }
           },
@@ -148,7 +161,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/AI Related/Power BI Questions.md",
+                "file": "Programming/AI Related/Clustering Algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +178,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/AI Related/Power BI Questions.md",
+                "file": "Programming/AI Related/Clustering Algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -186,26 +199,35 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-custom-frames:Open chatgpt": false,
-      "omnisearch:Omnisearch": false
+      "omnisearch:Omnisearch": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "55aba6f6a6928026",
+  "active": "508da8450930550d",
   "lastOpenFiles": [
-    "Programming/AI Related/Power BI.md",
+    "Media/Default/Pasted image 20231020083847.png",
+    "Media/Default/Pasted image 20231020083643.png",
+    "Media/Default/Pasted image 20231020083622.png",
+    "Media/Default/Pasted image 20231020083221.png",
+    "Media/Default/Pasted image 20231020083201.png",
+    "Media/AI/k-medoids-odyash-coedacademy.mp4",
+    "Programming/AI Related/k-medoids.excalidraw.md",
+    "Programming/AI Related/Clustering Algorithms.md",
+    "Media/Default/Pasted image 20231020075812.png",
+    "Media/AI/k-means-coedacademy.mp4",
+    "Media/AI",
+    "Media/New folder",
+    "Media/Default/Pasted image 20231020074752.png",
+    "Programming/AI Related/Model Libraries.md",
     "Programming/AI Related/Power BI Questions.md",
-    "Media/Default/Pasted image 20231017150849.png",
-    "Media/Default/Pasted image 20231017150459.png",
-    "Media/Default/Pasted image 20231017150457.png",
-    "Media/Default/Pasted image 20231017150411.png",
-    "Media/Default/Pasted image 20231017150409.png",
-    "Media/Default/Pasted image 20231017135034.png",
-    "Media/Default/Pasted image 20231017134907.png",
-    "Media/Default/Pasted image 20231017134847.png",
-    "Media/Default/Pasted image 20231017134036.png",
-    "Media/Default/Pasted image 20231017133847.png",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+    "Media/Default/Pasted image 20231018222930.png",
+    "Programming/AI Related/Power BI.md",
+    "[[Power BI.md",
+    "Media/Default/Pasted image 20231018221259.png",
+    "Media/Default/Pasted image 20231018221248.png",
+    "Media/Default/Pasted image 20231018221225.png",
     "Islam/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
     "Islam/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
     "Islam/Books/Disease and Cure (داء و دواء).md",
@@ -217,8 +239,6 @@
     "Programming/AI Related/Power BI Questions.docx",
     "Programming/AI Related/Power BI Questions.pdf",
     "Programming/AI Related/Power BI.docx",
-    "Programming/AI Related/Power BI-media",
-    "Obsidian/Workflow Tips/quran notes workflow (2023-04-30_7-05-23).mp4",
     "Obsidian/Cool Plugins.md",
     "Obsidian/UI Tips.md",
     "[[Power.md",
@@ -227,17 +247,11 @@
     "tmp/post 3.md",
     "tmp/post 1.md",
     "tmp/post 0.md",
-    "tmp",
     "Programming/Scraping/General Tips.md",
     "Programming/Scraping/Xpath in Python.md",
     "Tasks/Adhaan Duas.md",
     "Tasks/Kanban To Do.md",
     "Islam/Terminologies.md",
-    "Programming/VS Code/VS Code Tips.md",
-    "Islam/Marriage",
-    "Programming/Automation/Browser-Related Automation.md",
-    "Programming/HTML And CSS/CSS New Info.md",
-    "Programming/Managing Names, Files And Directories/Python OS And Glob.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

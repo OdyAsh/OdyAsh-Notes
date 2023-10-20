@@ -746,8 +746,36 @@ Tip:
 
 With **both cross-filter directions** or **bi-directional cross-filtering**:
 
-- One table in a relationship can be used to filter the other. For instance, a dimension table can be filtered through the fact table, and the fact tables can be filtered through the dimension table.
-- You might have lower performance when using bi-directional cross-filtering with many-to-many relationships.
+- One table in a relationship can be used to filter the other. For instance, a dimension table can be filtered through the fact table, and the fact tables can be filtered through the dimension table. There are three cases where you might find bi-directional cross-filtering used ([Microsoft Documentation source](https://learn.microsoft.com/en-us/power-bi/guidance/relationships-bidirectional-filtering)):
+	- [Special model relationships](https://learn.microsoft.com/en-us/power-bi/guidance/relationships-bidirectional-filtering#special-model-relationships)
+	- [Slicer items "with data"](https://learn.microsoft.com/en-us/power-bi/guidance/relationships-bidirectional-filtering#slicer-items-with-data)
+	- [Dimension-to-dimension analysis](https://learn.microsoft.com/en-us/power-bi/guidance/relationships-bidirectional-filtering#dimension-to-dimension-analysis)
+- Note: to figure out if a relationship is bi-directional or not by only looking at the model view, check for this:
+  ![[Pasted image 20231018220316.png]]
+- You might have lower performance when using bi-directional cross-filtering with many-to-many relationships. This is why each of the three cases above have alternatives:
+	- Case 1 alternative: 
+		- Convert 1:1 relationship by making it a single table
+		- Convert M:M relationship by using a bridging table (i.e., factless fact table) ([MD source](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema#factless-fact-tables:~:text=A%20more%20compelling,bridging%20table.)). Example ([source](https://learn.microsoft.com/en-us/power-bi/guidance/relationships-many-to-many#relate-many-to-many-dimensions:~:text=Two%20one%2Dto%2Dmany%20relationships%20are%20added%20to%20relate%20the%20tables.%20Here%27s%20an%20updated%20model%20diagram%20of%20the%20related%20tables.%20A%20fact%2Dtype%20table%20named%20Transaction%20has%20been%20added.%20It%20records%20account%20transactions.%20The%20bridging%20table%20and%20all%20ID%20columns%20have%20been%20hidden.)):
+		  ![[Pasted image 20231018220516.png]] ^zuytek
+	- Case 2 alternative: After creating the slicer (let's assume it's made from a measure called `Total Quantity`), do this in the filter pane ([source](https://learn.microsoft.com/en-us/power-bi/guidance/relationships-bidirectional-filtering#:~:text=To%20show%20the%20Product%20slicer%20items%20%22with%20data%22%2C%20it%20simply%20needs%20to%20be%20filtered%20by%20the%20Total%20Quantity%20measure%20using%20the%20%22is%20not%20blank%22%20condition.)):  
+	  ![[Pasted image 20231018214209.png]]
+	- Case 3 alternative: Use CROSSJOIN DAX function. Example: assuming we have a data model like this:
+	  ![[Pasted image 20231018214441.png]]
+	  and let's say you want to create a table visual like this:
+	  ![[Pasted image 20231018214507.png]]
+	  this requires that the `Product` dimension table filters the `Sales` fact table, which in turn filters the `Customer` dimension table, in order to properly use `Country-Region` column to get the `Different Countries Sold` values in the visual. To do this, we can use `CROSSJOIN` to temporarily create bi-directional filtering between `Sales` and `Customer`: 
+
+```EXCEL
+Different Countries Sold =
+CALCULATE(
+    DISTINCTCOUNT(Customer[Country-Region]),
+    CROSSFILTER(
+        Customer[CustomerCode],
+        Sales[CustomerCode],
+        BOTH
+    )
+)
+```
 
 You should not enable bi-directional cross-filtering relationships unless you fully understand the ramifications of doing so.
 

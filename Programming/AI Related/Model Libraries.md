@@ -166,7 +166,7 @@ set this `num_sanity_val_steps=0` (default: 2) if you're planning to use an inte
 
 #### Getting A `history` Dictionary Similar To That in TF
 
-1. follow [[Model Related#When Designing YourModel pl LightningModule|these]] steps
+1. follow [[Model Libraries#When Designing YourModel pl LightningModule|these]] steps
 2. train the model
 3. run the following:
 ```python

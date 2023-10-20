@@ -176,12 +176,12 @@ An on-premises SharePoint server requires the use of a Power BI gateway since it
 
 
 2. You manage a Power BI workspace.
-You need to delegate the task to schedule data refreshes. The solution must use the principle of least privilege.
+You need to delegate the task to <mark style="background: #FF5582A6;">schedule data refreshes</mark>. The solution must use the principle of least privilege.
 Which role should you use?
 
 Admin
 
--> Contributor
+-> <mark style="background: #FF5582A6;">Contributor</mark>
 
 Member
 
@@ -190,6 +190,21 @@ Viewer
 The Contributor role is the least privileged role that grants permissions to schedule data refreshes. The Member role grants permission to schedule data refreshes but is more privileged than Contributor. The Admin role grants the permissions to schedule data refreshes but is more privileged than Member. The Viewer role does not grant the permissions to schedule data refreshes.
 [Distribute a report or dashboard - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/create-manage-workspaces-power-bi/2-distribute-report-dashboard)
 
+3. You manage a Power BI workspace.
+You need to delegate the task to <mark style="background: #FF5582A6;">update workspace metadata</mark>. The solution must use the principle of least privilege.
+Which role should you use?
+Select only one answer.
+
+-> <mark style="background: #FF5582A6;">Admin</mark>
+
+Contributor
+
+Member
+
+Viewer
+
+The Admin role is the only one that has the permission to update workspace metadata.
+[Distribute a report or dashboard - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/create-manage-workspaces-power-bi/2-distribute-report-dashboard)
 
 3. You have several on-premises Microsoft SQL Server databases.
 You need to provide Power BI Service users access to the data sources without exposing the database servers directly to the internet.
@@ -707,4 +722,342 @@ In the Power Query Editor window, modify the Query Settings.
 
 By default, Power BI uses the top 1,000 rows for profiling. To ensure that column distribution considers all rows in the Excel file, you need to modify the Power Query Editor profiling status setting. The Power Query Editor settings, Advanced settings, and Permissions settings have no bearing on the profiling characteristics.
 [Profile data in Power BI - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/clean-data-power-bi/6-profile-data)
+
+
+33. In Power BI Desktop, you plan to use M-language to define a common date table spanning a period of 10 years.
+You need identify the M language function that would allow you to specify that rows in the table should represent consecutive days within the date range you designated. Your solution must minimize administrative effort.
+Which syntax should you use?
+Select only one answer.
+
+`#date`
+
+-> `#duration`
+
+`List.Combine`
+
+`List.Durations`
+
+The `#duration` function of the M language allows you to specify the datetime values that will be entered into individual rows of a date table. The `#date` function creates a date value based on the date parameters you specify. The `List.Combine()` combines multiple lists into one. `List.Durations` returns a list of count duration values, rather than dates.
+[Create a date table - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/design-model-power-bi/3-date-table)
+[Power Query M function reference - PowerQuery M | Microsoft Learn](https://learn.microsoft.com/powerquery-m/power-query-m-function-reference)
+
+
+34. You create a data model in Power BI Desktop that contains DAX calculated columns and measures. You now need to create a report.
+In which two places can a ***DAX calculated column be used, but a DAX calculated measure cannot be used?*** Each correct answer presents a complete solution.
+Select all answers that apply.
+
+-> <mark style="background: #ABF7F7A6;">as a filter in the “Filters on this page” well of the Filters pane</mark>
+
+as a filter in the “Filters on this visual” well of the Filters pane
+
+as an item in the “Add drill-through fields here” well of the Visualizations pane
+
+-> as an item in the Fields well of a slicer
+
+Unlike a measure, a calculated column can be used in a slicer to place filter options on the report page. DAX measures cannot be placed in the “Filters on this page” well. They can only be placed per visual, in the “Filters on this visual” well of the Filters Pane. Both DAX columns and measures may be used as a visual-level filter. Both DAX columns and measures can be used in the drillthrough well.
+[Introduction to DAX - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/create-measures-dax-power-bi/1-introduction)
+
+36. In Power BI Desktop, you need to create a measure.
+Which two interfaces can you use? Each correct answer presents a complete the solution.
+Select all answers that apply.
+
+-> Data view
+
+Model view
+
+Page view
+
+-> Power Query Editor (but description says it's incorrect, and it really IS incorrect)
+
+Report view (but description says it's correct, and it really IS correct)
+
+**The Report view provides the ability to create measures**. To create a measure, use the context sensitive menu of the Fields list or the Calculations section of the ribbon. The Data view provides access to data within a dataset and includes the option to create a measure in the Calculations section of the ribbon. Model view, Page view, and **Power Query Editor do not include the option to create a measure**.
+[Introduction to DAX - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/create-measures-dax-power-bi/1-introduction)
+
+37. From the Power Query Editor, you import data from a .csv file. The data includes a column named ZIP that contains postal codes from the United States.
+You notice that Power Query Editor automatically applies the Whole Number data type to the ZIP column.
+You need to ensure that the ZIP column uses the Text data type and that all values remain 5 characters long.
+What should you do?
+Select only one answer.
+
+From the data view in Power BI Desktop, change the column data type from number to text.
+
+From Power Query Editor, add a new applied step at the end of the query to convert the ZIP column from number back to text.
+
+From Power Query Editor, delete the changed type step.
+
+-> From Power Query Editor, update the current changed type step and replace convert from number to text for the ZIP column.
+
+To correctly update the data to text you need to replace the number type conversion with a text conversion, and to keep all other data type column transformations. This needs to be done in the Power Query Editor. <mark style="background: #D2B3FFA6;">Adding a new applied step at the end of the query would result in loosing zip codes that start with 0</mark>. Changing the data type in Data View is equivalent to adding an applied step at the end of the query and would not preserve leading zeros. Deleting the changed type step would not set the data type to Text.
+[Evaluate and change column data types - Training | Microsoft Learn](https://learn.microsoft.com/training/modules/clean-data-power-bi/4-column-data-types)
+
+# From Examtopics
+
+[Source](https://www.examtopics.com/exams/microsoft/pl-300/view/), 2023-10-2 update
+
+Note: some questions are paraphrased for me to easily understand.
+
+1
+given this model:
+![[Pasted image 20231018110806.png]]
+and these refresh specifications:
+* Sales -> real time
+* Customer -> daily
+* SalesAggregate -> Weekly
+* Date -> every three years
+
+mention the storage mode for each table.
+
+Answer (in same order of tables):
+* DirectQuery
+* Dual
+* Import
+* Dual
+
+reason for using Dual can be visualized like this:
+![[Pasted image 20231018111418.png]]
+So `Date` is queried as DirectQuery when dealing with `Sales` and as Import when dealing with `SalesAggregate`
+
+2
+You have a project management app that is fully hosted in **Microsoft Teams**. The app was developed by using Microsoft Power Apps.  
+You need to create a Power BI report that connects to the project management app.  
+Which connector should you select?  
+
+- A. Microsoft Teams Personal Analytics
+- B. SQL Server database
+- C. Dataverse
+- D. Dataflows
+
+Answer:
+C. Dataverse
+
+3
+Suppose you have these tables:
+![[Pasted image 20231018115643.png]]
+You need to perform the following analyses:  
+* Orders sold over time that include a measure of the total order value  
+* Orders by attributes of products sold
+The solution must minimize update times when interacting with visuals in the report.  
+What should you do first?
+
+- A. From Power Query, merge the Order Line Items query and the Products query.
+- B. Create a calculated column that adds a list of product categories to the Orders table by using a DAX function.
+- C. Calculate the count of orders per product by using a DAX function.
+- D. From Power Query, merge the Orders query and the Order Line Items query.
+
+Answer:
+D. 
+Explanation:
+the 2 latter tables are both fact tables (Header/Detail schema), so they should be first merged to one fact table, so that star schema is applied. Check out [this](https://www.sqlbi.com/articles/header-detail-vs-star-schema-models-in-tabular-and-power-bi/) article for details. 
+
+4
+You have a Microsoft SharePoint Online site that contains several document libraries.  
+One of the document libraries contains manufacturing reports saved as Microsoft Excel files. All the manufacturing reports have the same data structure.  
+You need to use Power BI Desktop to load only the manufacturing reports to a table for analysis.  
+What should you do?  
+
+- A. Get data from a SharePoint folder and enter the site URL Select Transform, then filter by the folder path to the manufacturing reports library.
+- B. Get data from a SharePoint list and enter the site URL. Select Combine & Transform, then filter by the folder path to the manufacturing reports library.
+- C. Get data from a SharePoint folder, enter the site URL, and then select Combine & Load.
+- D. Get data from a SharePoint list, enter the site URL, and then select Combine & Load.
+
+Answer:
+A.
+Explanation/Demonstration can be found in [this](https://www.youtube.com/watch?v=XuLnSYjmsJo) video.
+
+5
+You have a Microsoft Excel file in a Microsoft OneDrive folder.  
+The file must be imported to a Power BI dataset.  
+You need to ensure that the dataset can be refreshed in powerbi.com.  
+Which two connectors can you use to connect to the file? Each correct answer presents a complete solution.  
+NOTE: Each correct selection is worth one point.
+
+- A. Excel Workbook
+- B. Text/CSV
+- C. Folder
+- D. SharePoint folder
+- E. Web
+
+Answer:
+Examtopics says A. & C., [another website](https://zhuanlan.zhihu.com/p/601138239) says D. & E.
+
+6
+You have a folder that contains 100 CSV files.  
+You need to make the file metadata available as a single dataset by using Power BI. The solution must NOT store the data of the CSV files.  
+Which three actions should you perform in sequence. To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
+Select and Place:
+![[Pasted image 20231018134226.png]]
+Answer (I think):
+Get data and select folder -> expand attributes -> remove content (note, last two could be switched, I don't know)
+Explanation (source):
+PowerBI has added two additional columns of content, content and attribute. Attribute contains metadata, including the file type, whether it is a temporary file, and when the file was last modified. Content is the data in the csv table. Therefore, content needs to be removed and attributes expanded.
+
+7
+You publish a dataset that contains data from an on-premises Microsoft SQL Server database.    
+The dataset must be refreshed daily.  
+You need to ensure that the Power BI service can connect to the database and refresh the dataset.  
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order:
+![[Pasted image 20231018140245.png]]
+Answer:
+![[Pasted image 20231018140256.png]]
+Explanation: Check [this](https://youtu.be/iq9M_ncz0tw?t=338) video.
+
+9 (Q19)
+Note: if you have this:
+![[Pasted image 20231018140821.png]]
+and you want to unpivot, answer will be:
+![[Pasted image 20231018140901.png]]
+
+
+10 (Q20)
+You are using Power BI Desktop to connect to an Azure SQL database.
+The connection is configured as follows:
+![[Pasted image 20231018141140.png]]
+what is true in the following statements?:
+![[Pasted image 20231018141156.png]]
+Answer:
+10mins, only data (bec. full hierarchy is not checked. If it was checked, then "all the tables")
+
+11 (Q25)
+From Power Query Editor, you attempt to execute a query and receive the following error message.  
+Datasource.Error: Could not find file.  
+What are two possible causes of the error? Each correct answer presents a complete solution.
+
+- A. You do not have permissions to the file.
+- B. An incorrect privacy level was used for the data source.
+- C. The file is locked.
+- D. The referenced file was moved to a new location.
+
+Answer:
+<mark style="background: #ABF7F7A6;">A</mark>. & D.
+
+You have a CSV file that contains user complaints. The file contains a column named Logged. Logged contains the date and time each complaint occurred. The data in Logged is in the following format: 2018-12-31 at 08:59.
+You have a CSV file that contains user complaints. The file contains a column named Logged. Logged contains the date and time each complaint occurred. The data in Logged is in the following format: 2018-12-31 at 08:59.
+
+28
+You have two Microsoft Excel workbooks in a Microsoft OneDrive folder.  
+Each workbook contains a table named Sales. The tables have the same data structure in both workbooks.  
+You plan to use Power BI to combine both Sales tables into a single table and create visuals based on the data in the table. The solution must ensure that you can publish a separate report and dataset.  
+Which storage mode should you use for the report file and the dataset file? To answer, drag the appropriate modes to the correct files. Each mode may be used once, more than once, or not at all.
+
+![[Pasted image 20231018151039.png]]
+Answer:
+<mark style="background: #ABF7F7A6;">Import, DirectQuery</mark>
+
+29
+You are creating a report in Power BI Desktop.  
+You load a data extract that includes a free text field named coll.  
+You need to analyze the frequency distribution of the string lengths in col1. The solution must not affect the size of the model.  
+What should you do?  
+
+- A. In the report, add a DAX calculated column that calculates the length of col1
+- B. In the report, add a DAX function that calculates the average length of col1
+- C. From Power Query Editor, add a column that calculates the length of col1
+- D. From Power Query Editor, change the distribution for the Column profile to group by length for col1
+
+Answer:
+D.
+
+30 (T2, Q3)
+You need to provide a user with the ability to add members to a workspace. The solution must use the principle of least privilege.  
+Which role should you assign to the user?  
+
+- A. Viewer
+- B. Admin
+- C. Contributor
+- D. Member
+
+Answer:
+<mark style="background: #FF5582A6;">D.</mark>
+
+
+31 (T2, Q6)
+You have a custom connector that returns ID, From, To, Subject, Body, and Has Attachments for every email sent during the past year. More than 10 million records are returned.  
+You build a report analyzing the internal networks of employees based on whom they send emails to.  
+You need to prevent report recipients from reading the analyzed emails. ***The solution must minimize the model size***.  
+What should you do?  
+
+- A. From Model view, set the Subject and Body columns to Hidden.
+- B. Remove the Subject and Body columns during the import.
+- C. Implement row-level security (RLS) so that the report recipients can only see results based on the emails they sent.
+
+Answer:
+<mark style="background: #FFB8EBA6;">B.</mark>
+
+
+32 (T2, Q7)
+You have this Power BI dataset:
+![[Pasted image 20231018205026.png]]
+You need to make the table available as an ***organizational data type in Microsoft Excel***.   (i.e., ***featured tables in Power BI***)
+How should you configure the properties of the table? To answer, select the appropriate options in the answer area:
+![[Pasted image 20231018205049.png]]
+
+Answers:
+ID, Name, Yes
+[Demonstration video](https://www.youtube.com/watch?v=FE3jgq1exRM)
+
+
+33 (T2, Q8)
+You have the Power BI model:
+![[Pasted image 20231018214848.png]]
+A manager can represent only a single country.  
+You need to use row-level security (RLS) to meet the following requirements:  
+* The managers must only see the data of their respective country.  
+* The number of RLS roles must be minimized.  
+Which two actions should you perform?
+
+- A. Create a single role that filters Country[Manager_Email] by using the USERNAME DAX function.
+- B. Create a single role that filters Country[Manager_Email] by using the USEROBJECTID DAX function.
+- C. For the relationship between Purchase Detail and Purchase, select Apply security filter in both directions.
+- D. Create one role for each country.
+- E. For the relationship between Purchase and Purchase Detail, change the Cross filter direction to Single.
+
+Answer:
+A. & <mark style="background: #FFB8EBA6;">C.</mark> 
+Explanation is in [this](https://asankap.wordpress.com/2018/05/28/how-does-row-level-security-works-when-there-is-a-bi-directional-filter-in-power-bi-tabular-model/) article.
+
+
+34 (T2, Q9)
+You have a Power BI imported dataset that contains this data model:
+![[Pasted image 20231018221248.png]]
+Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic:
+![[Pasted image 20231018221259.png]]
+
+Answer:
+<mark style="background: #D2B3FFA6;">Cross filter direction</mark>, star schema
+Notes:
+* Cross filter direction was chosen as all of the relationships are bi-directionals (look at the red rectangles), and assuming this is a star schema, we usually filter the fact table by dimension tables, and not vice versa.
+	* Also, "Assume Referential Integrity" is for DirectQuery models only, but this model is imported.
+* People debated whether the model is star schema or [snowflake](https://www.integrate.io/blog/snowflake-schemas-vs-star-schemas-what-are-they-and-how-are-they-different/#:~:text=number%20of%20levels.%E2%80%9D-,Snowflake%20Schema%20Diagram,-Before%20we%20go), I personally think it is star schema, under the assumption that `Employee` is a [[Power BI#^zuytek|factless fact table]].
+
+
+35 (T2, Q10)
+You have a Power BI model that contains a table named Sales and a related date table. Sales contains a measure named Total Sales.  
+You need to create a measure that calculates the total sales from the equivalent month of the previous year.  
+How should you complete the calculation? To answer, select the appropriate options in the answer area:
+![[Pasted image 20231018222930.png]]
+
+Answer:
+CALCULATE -> SAMEPERIODLASTYEAR -> 'Date'[Date]
+
+
+36 (T2, Q15)
+You have a Microsoft Power BI data model that contains three tables named Orders, Date, and City. There is a one-to-many relationship between Date and  
+Orders and between City and Orders.  
+The model contains two row-level security (RLS) roles named Role1 and Role2. Role1 contains the following filter.  
+City[State Province] = "Kentucky"  
+Role2 contains the following filter.  
+Date[Calendar Year] = 2020 -  
+If a user is a member of both Role1 and Role2, what data will they see in a report that uses the model?  
+
+- A. The user will see data for which the State Province value is Kentucky or where the Calendar Year is 2020.
+- B. The user will receive an error and will not be able to see the data in the report.
+- C. The user will only see data for which the State Province value is Kentucky.
+- D. The user will only see data for which the State Province value is Kentucky and the Calendar Year is 2020.
+
+Answer:
+<mark style="background: #D2B3FFA6;">A.</mark>
+Explanation ([MD source](https://learn.microsoft.com/en-us/power-bi/guidance/rls-guidance#:~:text=When%20a%20report%20user%20is%20assigned%20to%20multiple%20roles%2C%20RLS%20filters%20become%20additive.%20It%20means%20report%20users%20can%20see%20table%20rows%20that%20represent%20the%20union%20of%20those%20filters.)):
+When a report user is assigned to multiple roles, <mark style="background: #D2B3FFA6;">RLS filters become additive</mark>. It means report users can see table rows that represent the union of those filters.
+
 
