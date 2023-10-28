@@ -17,7 +17,7 @@ jobs:
       - name: Replace API Key
         run: |
           API_KEY=${{ secrets.TASKBONEAPIKEY }}
-          echo API_KEY
+          echo $API_KEY
           find . -type f -exec sed -i "s/$API_KEY//g" {} \;
       # Note: if you want to run on a specific file, replace the "find" line above with this:
       # sed -i "s/$API_KEY//g" path/to/data.json
