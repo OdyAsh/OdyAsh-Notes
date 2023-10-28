@@ -30,8 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "9711a7f0c2a026ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "conflict-files-obsidian-git.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -123,7 +136,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "conflict-files-obsidian-git.md"
+              }
             }
           },
           {
@@ -150,6 +165,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -166,6 +182,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "conflict-files-obsidian-git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -191,10 +208,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f389826702bb98f9",
+  "active": "9711a7f0c2a026ea",
   "lastOpenFiles": [
-    "Programming/AI Related/Power BI Questions.md",
     "Programming/AI Related/Clustering Algorithms.md",
+    "conflict-files-obsidian-git.md",
+    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+    "Programming/AI Related/Power BI Questions.md",
     "Untitled 1.md",
     "Media/Default/Pasted image 20231028203614.png",
     "Media/Default/Pasted image 20231028201729.png",
@@ -206,7 +225,6 @@
     "Media/Default/Pasted image 20231028171750.png",
     "Media/Default/Pasted image 20231028171731.png",
     "Media/Default/Pasted image 20231028165320.png",
-    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
     "Media/AI/opitcs-algo-vis.mp4",
     "Media/AI/opitcs-algo-vis.mp4.crdownload",
     "Programming/AI Related/Power BI.md",
@@ -229,7 +247,6 @@
     "Islam/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
     "Islam/Books/Disease and Cure (داء و دواء).md",
     "Islam/Untitled.md",
-    "conflict-files-obsidian-git.md",
     "Obsidian/Cool Plugins.md",
     "Obsidian/UI Tips.md",
     "[[Power.md",
