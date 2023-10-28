@@ -168,7 +168,7 @@
   "showNewVersionNotification": true,
   "latexBoilerplate": "\\color{blue}",
   "taskboneEnabled": false,
-  "taskboneAPIkey":  "ab2a376b-3175-458c-90fa-15a3eb24a4f2",
+  "taskboneAPIkey": "ab2a376b-3175-458c-90fa-15a3eb24a4f2",
   "pinnedScripts": [],
   "customPens": [
     {
