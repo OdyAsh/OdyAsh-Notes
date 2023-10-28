@@ -1,0 +1,22 @@
+name: Replace API Key
+# on: Controls when the workflow will run
+# [push]: Triggers the workflow on push
+on: [push]
+# A workflow run is made up of one or more jobs that can run sequentially or in parallel
+jobs:
+  # This workflow contains a single job called "build"
+  build:
+    # The type of runner that the job will run on
+    runs-on: ubuntu-latest
+    # Steps represent a sequence of tasks that will be executed as part of the job
+    steps:
+      # Checks-out your repository under $GITHUB_WORKSPACE, so your job can access it
+      - uses: actions/checkout@v2
+      # Runs a set of 2 commands (separated by a new line) using the runners shell
+      # Explanation of these commands can be found here: https://chat.openai.com/share/fcdd3614-9c9c-4f3e-bbcf-5ac2631a4351
+      - name: Replace API Key
+        run: |
+          API_KEY=${{ secrets.TASKBONEAPIKEY }}
+          find . -type f -exec sed -i "s/$API_KEY//g" {} \;
+      # Note: if you want to run on a specific file, replace the "find" line above with this:
+      # sed -i "s/$API_KEY//g" path/to/data.json
