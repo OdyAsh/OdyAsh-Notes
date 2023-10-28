@@ -795,9 +795,11 @@ To correctly update the data to text you need to replace the number type convers
 
 [Source](https://www.examtopics.com/exams/microsoft/pl-300/view/), 2023-10-2 update
 
-Note: some questions are paraphrased for me to easily understand.
+Note 1: some questions are paraphrased for me to easily understand.
 
-1
+Note 2: T1 means Topic 1, etc.
+
+1 (T1)
 given this model:
 ![Pasted image 20231018110806](../../Media/Default/Pasted%20image%2020231018110806.png)
 and these refresh specifications:
@@ -818,7 +820,7 @@ reason for using Dual can be visualized like this:
 ![Pasted image 20231018111418](../../Media/Default/Pasted%20image%2020231018111418.png)
 So `Date` is queried as DirectQuery when dealing with `Sales` and as Import when dealing with `SalesAggregate`
 
-2
+2 (T1)
 You have a project management app that is fully hosted in **Microsoft Teams**. The app was developed by using Microsoft Power Apps.  
 You need to create a Power BI report that connects to the project management app.  
 Which connector should you select?  
@@ -831,7 +833,7 @@ Which connector should you select?
 Answer:
 C. Dataverse
 
-3
+3 (T1)
 Suppose you have these tables:
 ![Pasted image 20231018115643](../../Media/Default/Pasted%20image%2020231018115643.png)
 You need to perform the following analyses:  
@@ -850,7 +852,7 @@ D.
 Explanation:
 the 2 latter tables are both fact tables (Header/Detail schema), so they should be first merged to one fact table, so that star schema is applied. Check out [this](https://www.sqlbi.com/articles/header-detail-vs-star-schema-models-in-tabular-and-power-bi/) article for details. 
 
-4
+4 (T1)
 You have a Microsoft SharePoint Online site that contains several document libraries.  
 One of the document libraries contains manufacturing reports saved as Microsoft Excel files. All the manufacturing reports have the same data structure.  
 You need to use Power BI Desktop to load only the manufacturing reports to a table for analysis.  
@@ -865,7 +867,7 @@ Answer:
 A.
 Explanation/Demonstration can be found in [this](https://www.youtube.com/watch?v=XuLnSYjmsJo) video.
 
-5
+5 (T1)
 You have a Microsoft Excel file in a Microsoft OneDrive folder.  
 The file must be imported to a Power BI dataset.  
 You need to ensure that the dataset can be refreshed in powerbi.com.  
@@ -881,7 +883,7 @@ NOTE: Each correct selection is worth one point.
 Answer:
 Examtopics says A. & C., [another website](https://zhuanlan.zhihu.com/p/601138239) says D. & E.
 
-6
+6 (T1)
 You have a folder that contains 100 CSV files.  
 You need to make the file metadata available as a single dataset by using Power BI. The solution must NOT store the data of the CSV files.  
 Which three actions should you perform in sequence. To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
@@ -892,7 +894,7 @@ Get data and select folder -> expand attributes -> remove content (note, last tw
 Explanation (source):
 PowerBI has added two additional columns of content, content and attribute. Attribute contains metadata, including the file type, whether it is a temporary file, and when the file was last modified. Content is the data in the csv table. Therefore, content needs to be removed and attributes expanded.
 
-7
+7 (T1)
 You publish a dataset that contains data from an on-premises Microsoft SQL Server database.    
 The dataset must be refreshed daily.  
 You need to ensure that the Power BI service can connect to the database and refresh the dataset.  
@@ -902,14 +904,14 @@ Answer:
 ![Pasted image 20231018140256](../../Media/Default/Pasted%20image%2020231018140256.png)
 Explanation: Check [this](https://youtu.be/iq9M_ncz0tw?t=338) video.
 
-9 (Q19)
+9 (Q19) (T1)
 Note: if you have this:
 ![Pasted image 20231018140821](../../Media/Default/Pasted%20image%2020231018140821.png)
 and you want to unpivot, answer will be:
 ![Pasted image 20231018140901](../../Media/Default/Pasted%20image%2020231018140901.png)
 
 
-10 (Q20)
+10 (Q20) (T1)
 You are using Power BI Desktop to connect to an Azure SQL database.
 The connection is configured as follows:
 ![Pasted image 20231018141140](../../Media/Default/Pasted%20image%2020231018141140.png)
@@ -918,7 +920,7 @@ what is true in the following statements?:
 Answer:
 10mins, only data (bec. full hierarchy is not checked. If it was checked, then "all the tables")
 
-11 (Q25)
+11 (Q25) (T1)
 From Power Query Editor, you attempt to execute a query and receive the following error message.  
 Datasource.Error: Could not find file.  
 What are two possible causes of the error? Each correct answer presents a complete solution.
@@ -934,7 +936,7 @@ Answer:
 You have a CSV file that contains user complaints. The file contains a column named Logged. Logged contains the date and time each complaint occurred. The data in Logged is in the following format: 2018-12-31 at 08:59.
 You have a CSV file that contains user complaints. The file contains a column named Logged. Logged contains the date and time each complaint occurred. The data in Logged is in the following format: 2018-12-31 at 08:59.
 
-28
+28 (T1)
 You have two Microsoft Excel workbooks in a Microsoft OneDrive folder.  
 Each workbook contains a table named Sales. The tables have the same data structure in both workbooks.  
 You plan to use Power BI to combine both Sales tables into a single table and create visuals based on the data in the table. The solution must ensure that you can publish a separate report and dataset.  
@@ -944,7 +946,7 @@ Which storage mode should you use for the report file and the dataset file? To a
 Answer:
 <mark style="background: #ABF7F7A6;">Import, DirectQuery</mark>
 
-29
+29 (T1)
 You are creating a report in Power BI Desktop.  
 You load a data extract that includes a free text field named coll.  
 You need to analyze the frequency distribution of the string lengths in col1. The solution must not affect the size of the model.  
@@ -1059,5 +1061,275 @@ Answer:
 <mark style="background: #D2B3FFA6;">A.</mark>
 Explanation ([MD source](https://learn.microsoft.com/en-us/power-bi/guidance/rls-guidance#:~:text=When%20a%20report%20user%20is%20assigned%20to%20multiple%20roles%2C%20RLS%20filters%20become%20additive.%20It%20means%20report%20users%20can%20see%20table%20rows%20that%20represent%20the%20union%20of%20those%20filters.)):
 When a report user is assigned to multiple roles, <mark style="background: #D2B3FFA6;">RLS filters become additive</mark>. It means report users can see table rows that represent the union of those filters.
+
+
+37 (T2, Q16)
+You are modeling data by using Microsoft Power BI. Part of the data model is a large Microsoft SQL Server table named Order that has more than 100 million records.  
+During the development process, you need to import a sample of the data from the Order table.  
+Solution: From Power Query Editor, you import the table and then add a filter step to the query.  
+Does this meet the goal?
+
+- A. Yes
+- B. No
+
+Answer:
+A. Yes
+Explanation:
+Since it is a Microsoft SQL Server table, query folding can be applied to imported data (and must be imported to DirectQuery and Dual storage modes, but that's besides the point), therefore Power BI will attempt to fold the filtering step into the original query used to get the data from the data source. [M source 1](<https://learn.microsoft.com/en-us/power-query/power-query-folding#sources-that-support-folding:~:text=Filtering%20rows%2C%20with%20static%20values%20or%20Power%20Query%20parameters%20(WHERE%20clause%20predicates).>), [M source 2](https://learn.microsoft.com/en-us/power-query/native-database-query)
+
+
+38 (T2, Q19)
+You connect to the data stored in a Microsoft Excel spreadsheet by using Power Query Editor as shown here:
+![[Pasted image 20231020222727.png]]
+You need to prepare the data to support the following:  
+✑ Visualizations that include all measures in the data over time  
+✑ Year-over-year calculations for all the measures  
+Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order:
+![[Pasted image 20231020222741.png]]
+Answer1:
+Transpose -> use first row as headers -> unpivot -> rename measure to Year.
+Answer2 (I think this is the correct one):
+***use first row as headers -> unpivot -> rename "Attribute" to Year --> change datatype to Date*** (as "Date" type is used by DAX Time Intelligent functions like year-over-year (YOY)).
+Explanation:
+if answer1
+then:
+original data (short version):
+![[Pasted image 20231020221600.png]]
+Transpose then use first row as header:
+![[Pasted image 20231020221658.png]]
+
+Unpivot other columns than "m":
+![[Pasted image 20231020221729.png]]
+then, rename "m" to "Year".
+
+However, if answer2
+then:
+original table (short version):
+![[Pasted image 20231020221600.png]]
+
+use first row as header:
+![[Pasted image 20231020221914.png]]
+
+unpivot columns other than "m":
+![[Pasted image 20231020222405.png]]
+
+then, Rename "Attribute" to "Year", then change its datatype to "Date".
+
+39 (T2, Q21)
+You plan to create Power BI dataset to analyze attendance at a school. Data will come from two separate views named View1 and View2 in an Azure SQL database.  
+View1 contains the columns shown in the following table:
+![[Pasted image 20231021110418.png]]
+View2 contains the columns shown in the following table:
+![[Pasted image 20231021110427.png]]
+The views can be related based on the Class ID column.  
+Class ID is the unique identifier for the specified class, period, teacher, and school year. For example, the same class can be taught by the same teacher during two different periods, but the class will have a different class ID.  
+You need to design a star schema data model by using the data in both views. The solution must facilitate the following analysis:  
+✑ The count of classes that occur by period  
+✑ The count of students in attendance by period by day  
+✑ The average number of students attending a class each month  
+In which table should you include the Teacher First Name and Period Number fields? To answer, select the appropriate options in the answer area:
+![[Pasted image 20231021110447.png]]
+
+Answer:
+Teacher Dim., ***Class Dim***.
+Explanation:
+The catch here is Count of Classes occur by Period; As soon as we call it by period it is referring to Dimension Period which will be static with Start Time & End Time hence it will go in Class Dimension rather than Fact. 
+Another explanation:
+Period number should be considered in Class dim, because it is a duplicate and is an attribute of the class in the first place. So a class has a period number even before any attendance is recorded.
+
+40 (T2, Q27)
+You are creating a Microsoft Power BI data model that has the tables shown in the following table:
+![[Pasted image 20231021190550.png]]
+The Products table is related to the ProductCategory table through the ProductCategoryID column. Each product has one product category.  
+You need to ensure that you can analyze ***sales by product category***.  
+How should you configure the relationship ***from ProductCategory to Products***? To answer, select the appropriate options in the answer area:
+![[Pasted image 20231021190617.png]]
+
+Solution:
+one-to-many, single
+Explanation for single:
+recall the question:
+"analyze ***sales by product category***", so ProductCategory -> Products -> Sales
+and single cross-filtering always goes from 1 (i.e., ProductCategory) to many (i.e., Products), so no need to enable filtering in the other direction (i.e., ProductCategory <- Products)
+
+
+41 (T2, Q28)
+You import a Power BI dataset that contains the following tables:  
+✑ Date  
+✑ Product  
+✑ Product Inventory  
+The Product Inventory table contains 25 million rows. A sample of the data is shown in the following table:
+![[Pasted image 20231021191113.png]]
+The Product Inventory table relates to the Date table by using the DateKey column. The Product Inventory table relates to the Product table by using the  
+ProductKey column.  
+You need to reduce the size of the data model ***without losing information***.  
+What should you do?
+- A. Change Summarization for DateKey to Don't Summarize.
+- B. Remove the relationship between Date and Product Inventory
+- C. Change the data type of UnitCost to Integer.
+- D. Remove MovementDate.
+
+Answer:
+D. 
+Explanation:
+The <mark style="background: #D2B3FFA6;">DateKey and MovementDate columns have the same information</mark>. Movementdate can be removed.
+
+
+42 (T2, Q31)
+You have a Power BI report that imports a date table and a sales table from an Azure SQL database data source. The sales table has the following date foreign keys:  
+✑ Due Date  
+✑ Order Date  
+✑ Delivery Date  
+You need to support the analysis of sales over time ***based on all the date foreign keys***.  
+Solution: For each date foreign key, you ***add inactive relationships*** between the sales table and the date table.  
+**Does this meet the goal**?
+
+- A. Yes
+- B. No
+
+Answer:
+<mark style="background: #D2B3FFA6;">B. No</mark>
+Explanation:
+1. only adding inactive relationships isn't the full solution; only a part of it, so technically, this didn't meet the entire goal
+2. Even if it is implicitly assumed that we use USERRELATIONSHIP, this only enables one relationship at a time.
+	1. Therefore, if we want to simultaneously use all relationships at the same time, we would need to rename the date table as Due Date and then use a DAX expression to create Order Date and Delivery Date as calculated tables. This is known as [[Power BI#Role-Playing Dimensions|role-playing dimension modelling]]
+
+
+43 (T2, Q35)
+You have a Power BI report named Orders that supports the following analysis:  
+✑ Total sales over time  
+✑ The count of orders over time  
+✑ New and repeat customer counts  
+The data model size is nearing the limit for a dataset in shared capacity.  
+The model view for the dataset is shown in the following exhibit:
+![[Pasted image 20231022215109.png]]
+The data view for the Orders table is shown in the following exhibit:
+![[Pasted image 20231022215135.png]]
+The Orders table relates to the Customers table by using the CustomerID column.  
+The Orders table relates to the Date table by using the OrderDate column.  
+For each of the following statements, select Yes if the statement is true, Otherwise, select No:
+![[Pasted image 20231022215206.png]]
+
+Answer:
+No, No, Yes
+Explanation for first NO:
+NOtice how `OrderID` and `ProductID` always change even for the same customer `TORTU`, this would make us assume that the system's logic directs each product purchased by a customer to a different `OrderID`, which would mean that grouping by `OrderID` and the other keys <mark style="background: #FF5582A6;">won't decrease the model size, as OrderID is now considered a unique column</mark>.
+
+
+43 (T2, Q35)
+You are creating a Power BI model that contains a table named Store. Store contains the following fields:
+![[Pasted image 20231023212641.png]]
+You plan to create a map visual that will show store locations and provide the ability to drill down from Country to State/Province to City.  
+What should you do to ensure that the locations are mapped properly?
+- A. Change the data type of City, State/Province, and Country.
+- B. Set Summarization for City, State/Province, and Country to Don't summarize.
+- C. Set the data category of City, State/Province, and Country.
+- D. Create a calculated column that concatenates the values in City, State/Province, and Country.
+
+Answer:
+C.
+Explanation:
+Setting the <mark style="background: #FFF3A3A6;">data category</mark> for these fields will allow Power BI to recognize them as <mark style="background: #FFF3A3A6;">location-related fields</mark>, enabling proper mapping and drilling down capabilities.
+
+
+44 (T2, Q44)
+You have a table named Sales that contains the following fields:
+![[Pasted image 20231024204745.png]]
+You have a table named Transaction Size that contains the following data:
+![[Pasted image 20231024204758.png]]
+You need to create a calculated column to classify each transaction as small, medium, or large based on the value in Sales Amount.  
+How should you complete the code? To answer, drag the appropriate values to the correct targets. ***Each value may be used once, more than once, or not at all***:
+![[Pasted image 20231024204826.png]]
+
+Answer:
+FILTER, AND, <mark style="background: #FFB8EBA6;">CALCULATE</mark>
+Explanation:
+CALCULATE evaluates an expression in a modified filter context.  
+Syntax: `CALCULATE(<expression>[, <filter1> [, <filter2> [, ג€¦]]])`
+The expression used as the first parameter is essentially the same as a measure.  
+Filters can be:  
+  
+Boolean filter expressions -  
+  
+Table filter expressions -  
+  
+Filter modification functions -  
+  
+Table filter expression -  
+A table expression filter applies a table object as a filter. It could be a reference to a model table, but more likely it's a function that returns a table object. You can use the FILTER function to apply complex filter conditions, including those that cannot be defined by a Boolean filter expression.
+
+
+45 (T2, Q47)
+You are creating a quick measure as shown in the following exhibit:
+![[Pasted image 20231025222401.png]]
+You need to create a **monthly rolling average measure for Sales over time**.  
+How should you configure the quick measure calculation?:
+![[Pasted image 20231025222418.png]]
+
+Answer:
+<mark style="background: #FFB8EBA6;">Total Sales</mark>, Date, Months
+
+
+46 (T2, Q50)
+From Power Query Editor, you profile the data shown in the following exhibit:
+![[Pasted image 20231025223109.png]]
+The IoT GUID and IoT ID columns are unique to each row in the query.  
+You need to **analyze IoT events by the hour and day of the year**. The solution **must improve dataset performance**.  
+Q50: Solution: You **split** the IoT DateTime column into a column named Date and a column named Time.  
+(Another question (Q51)): Solution: You remove the IoT GUID column and retain the IoT ID column.
+Does this meet the goal?
+
+For Q50:
+- A. Yes
+- B. No
+
+For Q51:
+- A. Yes
+- B. No
+
+Answer:
+Q50: in Examtopics, B., however, 85% of users answered with A., as "splitting DateTime into date and time columns" should increase performance. However, I personally think B. should be correct for two reasons:
+* Only splitting the column won't "meet the goal"; we need to create measures as well.
+* We didn't delete the original datetime column, so technically the performance shouldn't have increased.
+However, I think Microsoft wants us to neglect the first bullet point, and automatically assume that the second bullet point is implicitly applied. Therefore, if this comes up in the exam, I (personally) will probably answer with A.
+Q51: in Examtopics,  A., moreover, most people chose A., but a lot of people have answered B. too. Therefore, if this comes up in the exam, I (personally) will probably answer with A.
+
+
+47 (T2, Q54)
+You have a Power BI data model that contains two tables named Products and Sales.  
+A one-to-many relationship exists between the tables.  
+You have a report that contains a report-level filter for Products.  
+You need to create a measure that will return the percent of total sales for each product. ***The measure must respect the report-level filter when calculating the total***.  
+How should you complete the DAX measure? To answer, drag the appropriate DAX functions to the correct targets. Each function may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
+![[Pasted image 20231026220638.png]]
+
+Answer:
+CALCULATE, <mark style="background: #FF5582A6;">ALLSELECTED</mark>.
+Explanation:
+The tricky thing here is that the report contains a report-level filter for Products and you need to calculate all sales (for all products) for the divisor. So here's both functions' definitiond from dax.guide: 
+* ALLSELECTED: Returns all the rows in a table, or all the values in a column, ignoring any filters that might have been applied inside the query, ***but keeping filters that come from outside***. 
+* ALL: Returns all the rows in a table, or all the values in a column, ignoring any filters that might have been applied.
+The key point is: The measure must respect the report-level filter when calculating the total.
+Therefore, I think it should be ALLSELECTED.
+
+
+48 (T2, Q55)
+You have a Power BI data model that analyzes product sales over time. The data model contains the following tables:
+![[Pasted image 20231026221147.png]]
+A one-to-many relationship exists between the tables.  
+The auto date/time option for the data model is enabled.  
+***You need to reduce the size of the data model while maintaining the ability to analyze product sales by month and quarter.***  
+Which two actions should you perform? Each correct answer presents part of the solution:
+
+- A. Create a relationship between the Date table and the Sales table.
+- B. Disable the auto date/time option.
+- C. Create a Date table and select Mark as Date Table.
+- D. Disable the load on the Date table.
+- E. Remove the relationship between the Product table and the Sales table.
+
+Answer:
+A. and C.
+Explanation:
+According to [this M source](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-date-tables), <mark style="background: #FFF3A3A6;">marking a table as a Date Table automatically removes the auto-generated date table</mark>.
 
 

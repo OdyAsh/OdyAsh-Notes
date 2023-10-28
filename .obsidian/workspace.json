@@ -4,23 +4,35 @@
     "type": "split",
     "children": [
       {
-        "id": "0c9cf5db2917c653",
+        "id": "5c0da918d17b3b21",
         "type": "tabs",
         "children": [
           {
-            "id": "1dd52c727d4fed73",
+            "id": "7f188b0d71232b72",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/AI Related/Clustering Algorithms.md",
+                "file": "Programming/AI Related/Power BI Questions.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "508da8450930550d",
+            "id": "b0ab9b2b2398ca8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aada6bea6f4b9613",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -32,7 +44,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -188,7 +200,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 302.5
+    "width": 291.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -204,54 +216,54 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "508da8450930550d",
+  "active": "aada6bea6f4b9613",
   "lastOpenFiles": [
-    "Media/Default/Pasted image 20231020083847.png",
-    "Media/Default/Pasted image 20231020083643.png",
-    "Media/Default/Pasted image 20231020083622.png",
-    "Media/Default/Pasted image 20231020083221.png",
-    "Media/Default/Pasted image 20231020083201.png",
-    "Media/AI/k-medoids-odyash-coedacademy.mp4",
-    "Programming/AI Related/k-medoids.excalidraw.md",
-    "Programming/AI Related/Clustering Algorithms.md",
-    "Media/Default/Pasted image 20231020075812.png",
-    "Media/AI/k-means-coedacademy.mp4",
-    "Media/AI",
-    "Media/New folder",
-    "Media/Default/Pasted image 20231020074752.png",
-    "Programming/AI Related/Model Libraries.md",
-    "Programming/AI Related/Power BI Questions.md",
+    "Media/Default/Pasted image 20231028203614.png",
+    "Media/Default/Pasted image 20231028201729.png",
+    "Media/Default/Pasted image 20231028200909.png",
+    "Media/Default/Pasted image 20231028200716.png",
+    "Media/Default/Pasted image 20231028200612.png",
+    "Media/Default/Pasted image 20231028171955.png",
+    "Media/Default/Pasted image 20231028171946.png",
+    "Media/Default/Pasted image 20231028171750.png",
+    "Media/Default/Pasted image 20231028171731.png",
+    "Media/Default/Pasted image 20231028165320.png",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
-    "Media/Default/Pasted image 20231018222930.png",
+    "Programming/AI Related/Clustering Algorithms.md",
+    "Media/Default/Pasted image 20231027202959.png",
+    "Media/AI/opitcs-algo-vis.mp4",
+    "Media/AI/opitcs-algo-vis.mp4.crdownload",
+    "Programming/AI Related/Power BI Questions.md",
     "Programming/AI Related/Power BI.md",
-    "[[Power BI.md",
-    "Media/Default/Pasted image 20231018221259.png",
-    "Media/Default/Pasted image 20231018221248.png",
-    "Media/Default/Pasted image 20231018221225.png",
-    "Islam/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
+    "Untitled.md",
+    "Media/AI/opitcs-algo-vis.gif.crdownload",
+    "Media/AI/dbscan-better-vis.mp4",
+    "Media/AI/dbscan-better-vis.mp4.crdownload",
+    "Media/AI/dbscan-better-vis.gif.crdownload",
+    "Media/AI/Sng870.tmp.mp4",
+    "Media/AI/Sng85C.tmp.mp4",
+    "Media/AI/dbscan-vis-with-steps.mp4",
+    "Media/AI/2023-10-20_17-32-25.mp4",
+    "Programming/AI Related/Data Analytics Notes.md",
     "Islam/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
+    "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
+    "Islam/Prophet Muhammad/Prophet Muhammad.excalidraw.md",
+    "Programming/AI Related/k-medoids.excalidraw.md",
+    "Programming/AI Related/Model Libraries.md",
+    "[[Power BI.md",
+    "Islam/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
     "Islam/Books/Disease and Cure (داء و دواء).md",
-    "Islam/Books",
     "Islam/Untitled.md",
     "conflict-files-obsidian-git.md",
-    "Programming/AI Related/Power BI Questions.rst",
-    "Programming/AI Related/Power BI Questions.html",
-    "Programming/AI Related/Power BI Questions.docx",
-    "Programming/AI Related/Power BI Questions.pdf",
-    "Programming/AI Related/Power BI.docx",
     "Obsidian/Cool Plugins.md",
     "Obsidian/UI Tips.md",
     "[[Power.md",
-    "Programming/AI Related/Data Analytics Notes.md",
     "Programming/Python/Virtual Environments/Conda Environment.md",
     "tmp/post 3.md",
     "tmp/post 1.md",
     "tmp/post 0.md",
     "Programming/Scraping/General Tips.md",
     "Programming/Scraping/Xpath in Python.md",
-    "Tasks/Adhaan Duas.md",
-    "Tasks/Kanban To Do.md",
-    "Islam/Terminologies.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

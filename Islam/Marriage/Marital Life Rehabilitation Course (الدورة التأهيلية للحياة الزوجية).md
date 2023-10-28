@@ -1,5 +1,5 @@
 
-# Marriage Motives (دوافع الزواج)
+# دوافع الزواج (Marriage Motives)
 
 There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t=249)):
 
@@ -10,15 +10,15 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 5. Psychological motives ([19:05](https://youtu.be/SEGvDTEvXPE?t=1146))
 6. Personal (own) motives ([25:20](https://youtu.be/SEGvDTEvXPE?t=1525))
 
-# Psychological rehabilitation for Married Couples (التأهيل النفسي للمتزوجين)
+# التأهيل النفسي للمتزوجين (Psychological rehabilitation for Married Couples)
 
 [source](https://www.youtube.com/watch?v=zxFwWS5UM8U&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=4)
-## Marriage is a Responsibility (الزواج مسؤولية)
+## الزواج مسؤولية (Marriage is a Responsibility)
 
 قال تعالى {الرجال قوامون على النساء بما فضل الله بعضهم على بعض وبما أنفقوا من أموالهم فالصالحات قانتات حافظات للغيب بماحفظ الله}
 النساء 34
 
-### Men's Responsibilities (مسؤولية الرجال)
+### مسؤولية الرجال (Men's Responsibilities)
 
 * القوامة
 	* ان يقوم على رعاية زوجته
@@ -27,7 +27,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 * النفقة 
 	* المرأة ملكة اذا كانت صغيرة نفقتها على أبوها ثم زوجها ثم أولادها أو أخوانها إذا مات زوجها وان كانت الزوجة موظفة براتب أعلى منك لايلزمها قانون أو شرعا بالنفقة على البيت 
 
-### Women's Responsibilities (مسؤولية المرأة)
+### مسؤولية المرأة (Women's Responsibilities)
 
 * طاعة الزوج وطاعة الله
 	* ان الله تعالى قال فيما يرويه النبي صل ّ الله عليه وسلم
@@ -38,13 +38,13 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 * حفظ البيت
 	* وراء كل عظيم امرأة عظيمة
 
-## Marriage is a Sacrifice (الزواج تضحية)
+## الزواج تضحية (Marriage is a Sacrifice)
 
 
-## Marriage is Accepting Other's Differences (الزواج قبول للإختلاف)
+## الزواج قبول للإختلاف (Marriage is Accepting Other's Differences)
 
 
-# 5 Topics Around Marriage (خمس نقاط حول الزواج)
+# خمس نقاط حول الزواج (Five Topics Around Marriage)
 
 [source](https://www.youtube.com/watch?v=kJ33TCqPlRE)
 
@@ -56,7 +56,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 
 
 
-# Choosing The Wife (اختيار الزوجة)
+# اختيار الزوجة (Choosing The Wife)
 
 [source1](https://www.youtube.com/watch?v=IN34wWBsOe8), [source2](https://www.youtube.com/watch?v=eKKceF50rto)
 
@@ -92,7 +92,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 * ماذا تعمل أمها؟
 * كم لها من الأخوات البنات؟
 
-# Choosing The Husband (اختيار الزوج)
+# اختيار الزوج (Choosing The Husband)
 
 1. الإسلام
 2. الصلاح ([12:00](https://youtu.be/AMbXpuKSjyk?t=723))
@@ -102,7 +102,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 5. الجمال
 
 
-# The Engagement (الخطبة)
+# الخطبة (The Engagement)
 
 ([source](https://www.youtube.com/watch?v=3QE1N0D_cLc))
 
@@ -131,7 +131,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 لا يصح أن تخطب على خطبة أخيك أو أمرأة في عدة الطلاق
 ولا يصح الخطبة في الحج أو العمرة وهي تؤدي مناسك
 
-# Istikhara (الإستخارة الشرعية)
+# الإستخارة الشرعية (Istikhara)
 
 إذا همّ أحدكم أمرا فليركع ركعتين من غير الفريضة ثم يدعو دعاء الإستخارة
 
@@ -139,7 +139,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 
 "قال النبي صل الله عليه وسلم"ماخاب من استخار وماندم من استشار
 
-# Marriage Contract (العقد, الزواج, كتب الكتاب)
+# العقد, الزواج, كتب الكتاب (Marriage Contract)
 
 يستحب أن يكون الزواج بين العيدين اقتداء بالنبي
 
@@ -186,7 +186,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 	* ثبوت نسب الأولاد من الزوج
 	* ثبوت حق الإرث بين الزوجين
 
-# The Period Between The Contract and The Wedding (الفترة بين العقد والعرس)
+# الفترة بين العقد والعرس (The Period Between The Contract and The Wedding)
 
 [مصدر](https://www.youtube.com/watch?v=3DOJKX-tryw&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=14)
 
@@ -229,7 +229,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 		* (اذا كان الله بين الزوجين فهو سيتولى التوفيق بينهما)
 
 
-# Wedding Night (ليلة العرس)
+# ليلة العرس (Wedding Night)
 
 [مصدر](https://www.youtube.com/watch?v=U8qiJ585n1Q&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=19)
 
@@ -252,7 +252,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 		* إذا كان هناك سؤالا أو استفسارا اسأل من تثق بدينه الرجال مع الرجال والنساء مع النساء
 
 
-# The Prophet Muhammed as a Husband (محمد كزوج)
+# محمد كزوج (The Prophet Muhammed as a Husband)
 
 [مصدر 1](https://www.youtube.com/watch?v=1ikRT2CW0O8&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=16)
 
@@ -274,7 +274,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 * خيركم خيركم لأهله ،وانا خيركم لأهله محمد صل الله عليه وسلم
 * ([25:00](https://youtu.be/gvig7mftxWk?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=1502))
 
-# Wife Responsibilities (مسؤوليات الزوجة)
+# مسؤوليات الزوجة (Wife Responsibilities)
 
 [مصدر](https://www.youtube.com/watch?v=5-Ws3CDGvSo&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=21)
 
@@ -288,7 +288,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 		* لَا يَحِلُّ لِلْمَرْأَةِ أَنْ تَصُومَ وَزَوْجُهَا شَاهِدٌ إِلَّا بِإِذْنِهِ
 
 
-# What The Wife Needs from The Husband (and Vice Versa) (ماذا تريد الزوجة من زوجها؟)
+# الذي تريده الزوجة من زوجها, و العكس (What The Wife Needs from The Husband and Vice Versa)
 
 [مصدر](https://www.youtube.com/watch?v=xu5cH55rHEg)
 
@@ -335,4 +335,194 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 * توفير المال
 	* 8%
 
+
+# كيف تسعد من حولك (How to Bring Joy to Others)
+
+[مصدر](https://www.youtube.com/watch?v=SWHyCn4SeL8&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=20)
+
+* حسن الاستهلال و الاستقبال ([3:50](https://youtu.be/SWHyCn4SeL8?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=232))
+	* ادخل منشرح الصدر و بعطر طيب
+	* استقبليه و انت مبتسمع و ضميه اليك
+* نداءه باسم دلع تكونين انت فقط من تنادينه به و هو كذلك لكن في البيت فقط ليس في السوق او في مكان العمل ([6:35](https://youtu.be/SWHyCn4SeL8?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=396))
+* الإناس و التسلية و حسن الإستماع ([7:45](https://youtu.be/SWHyCn4SeL8?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=466))
+	* عندما يرجع الزوج الى بيته, يحاول أن يستمع إلى زوجته
+* التعاون المنزلي ([9:50](https://youtu.be/SWHyCn4SeL8?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=591))
+* التشاور ([11:10](https://youtu.be/SWHyCn4SeL8?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=672))
+* اصطحاب الزوج زوجته عند زيارة الاقارب و اهل الخير و عند الخروج و المشي ([13:20](https://youtu.be/SWHyCn4SeL8?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=798))
+* النفقة بالمعروف حسب المقدرة و الكرم و الهدايا بين الحين و الاخر و اكرام الاهل ([15:45](https://youtu.be/SWHyCn4SeL8?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=945))
+* التطيب و التزين و التجمل و [حسن التبعل](https://www.islamweb.net/ar/fatwa/98265/%D9%85%D8%B9%D9%86%D9%89-%D8%AD%D8%B3%D9%86-%D8%A7%D9%84%D8%AA%D8%A8%D8%B9%D9%84#:~:text=%D8%AA%D8%AD%D8%B3%D9%86%20%D8%A7%D9%84%D9%85%D8%B1%D8%A3%D8%A9%20%D8%B9%D8%B4%D8%B1%D8%A9%20%D8%B2%D9%88%D8%AC%D9%87%D8%A7%20%D9%88%D8%AA%D8%B7%D9%8A%D8%B9%D9%87%20%D9%81%D9%8A%20%D8%BA%D9%8A%D8%B1%20%D9%85%D8%B9%D8%B5%D9%8A%D8%A9%20%D8%A7%D9%84%D9%84%D9%87%20%D8%AA%D8%B9%D8%A7%D9%84%D9%89) ([17:35](https://youtu.be/SWHyCn4SeL8?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=1058))
+	* الأولوية في التزين تكون لأهل البيت, لا لخارج البيت
+* اكرمي اهله و من يزوره من اصحابه و حسن معاملتهم ([21:10](https://youtu.be/SWHyCn4SeL8?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=1272))
+	* الاطمىنان على والده جلب هدية لامه و العكس
+* المشاركة في العبادات ([22:25](https://youtu.be/SWHyCn4SeL8?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=1346))
+	*  في صلاة الفرض و النافلة 
+	* في جلسات الذكر 
+	* في تلاوة و استماع القران 
+	* في صيام النوافل
+	* اما ترك العبادة في البيوت يسهل على الشيطان ان يوقع بينكما و يجعل في قلبيكما ضيقا من الاخر
+
+# كيف تؤثر في قلوب الناس القريبين منك (How to Make a Difference to Those Who Are Close to You) 
+
+[مصدر 1](https://www.youtube.com/watch?v=6V9b2lZRkFY&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=21)
+
+[مصدر 2](https://www.youtube.com/watch?v=lGjnwcsPMXc&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=22)
+
+* تقوى الله
+* الابتسامة
+	* نساء لا يحبهم الرجال
+		* المسيطرة
+		* الكذوب 
+		* الشرسة 
+		* الانعزالية 
+		* السلبية 
+		* العنيدة 
+		* الروتينية
+		* النكدية
+	* رجال لا يحبهن النساء
+		* البخيل 
+		* الجبان 
+		* الوسخ 
+		* الغادر 
+		* الفاجر 
+		* الساذج 
+		* الغليظ
+		*  و الذي لا يغار عليها
+* افشاء السلام
+* الهدية البسيطة مصحوبة بكلمة طيبة افضل من الذهب
+* حسن الاستماع
+	* الالتفات الكامل
+	* ترديد الكلمتين الاخيرتين للمتكلم لحثه على مواصلة الكلام
+	* التجاوب معه بالعينين و اشارة الرأس
+* بذل المعروف و قضاء الحوائج
+	* الانسان عبد الاحسان
+	* من يسر علي معسر, يسر الله عليه, و الله في عون العبد ما كان العبد في عون أخيه ([11:20](https://youtu.be/lGjnwcsPMXc?t=681))
+* حسن المظهر و جمال اللباس و طيب الرائحة
+* احسان الظن و الاعتذار عند الخطأ
+* اعلان المحبة و المودة للاخرين حتى و ان لم تكن تحبها يجوز الكذب في كذا مواقف
+	* حالات الكذب المقبولة من الرسول ([22:25](https://youtu.be/lGjnwcsPMXc?t=1345))
+		* في الإصلاح بين الناس
+		* للعدو, إذا كان المسلم أسيرا
+		* الكذب الذي يزيد العلاقة الجيدة
+* المداراة 
+	* ان تتقبل الناس على ما هم عليه و ان ترضى بهم و ان تتعايش معهم
+
+
+# قواعد مهمة في احتواء المشاكل الزوجية (Rules to Deal with Marriage Problems) 
+
+[1 مصدر](https://www.youtube.com/watch?v=_KAfHJda3F8&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=23)
+[مصدر 2](https://www.youtube.com/watch?v=GY23yFbGtmI&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=24&pp=iAQB)
+
+  
+قواعد مهمة في احتواء المشاكل الزوجية:
+* اصلح ما بينك و بين الله يصلح الله ما بينك و بين الناس
+* المشاكل الزوجية ليست شر كلها
+	* تكفير للذنوب
+	* التذكير بحقيقة الدنيا
+	* زيادة الحب و التفاهم و التقارب بين الزوجين فبعد كل محنة منحة
+* اذا حدثت بينكما مشاكل لا تلجأ ابدا الى 7 امور
+	* الطلاق
+	*  الدعاء بالهلاك
+	*  التهديد بالزوجة الثانية
+	*  الضرب و السب و اللعن
+	*  الهجر و ترك المنزل و نشر المشكلة على الاقارب
+	*  ادخال الاولاد في الخلاف او الشجار امامهم
+	*  السحر و الشعوذة
+* اجلسوا جلسة نقاش
+	* علي انفراد
+	* بعيدة عن الغضب, كي تسيطر علي الغضب
+		* استعذ بالله
+		* غير وضعية الجلوس ، و حاول أن تقترب من الأرض
+		* توضأ
+			* أي اغتسل بمادة أقرب من البرودة
+			* ((إنما الغضب من الشيطان وهو من النار فأطفئه بالماء))
+		* لا تتكلم أثناء الغضب
+		* اكظم هذا الغيظ
+	* واجه المشكلة
+	* إبدأ النقاش ب (أنا) و ليس (أنت)
+		* مثال لهذا مذكور في نقطة (انتقد الفعل لا الشخص)
+	* لا تذكر مشاكل سابقة
+		* الزواج يحتاج الي ممحاة
+		* هذه صفة الحليم: لا يذكر كل الشرور
+	* انتقد الفعل لا الشخص
+		* مثال تقوله: انا لا أجد طعام قبل النزول إلي العمل, وهذا يحزنني
+		* مثال لا تقوله: أنت لا تحضري لي الطعام قبل أن أذهب إلي العمل
+	* أن تتكلم وتتركها تتكلم
+	* إختم الجلسة بمجموعة من الاقتراحات و فيها الحلول كي تختاروها
+		* مثال لا تفعليه: لا يجب أن تخيريه بينك وبين أمه
+		* البديل: إذا كانت امه في البيت مثلا نقول ما رأيك أن ننقل الغرفة لغرفة اخري ، ما رأيك أن تاخذ عطلة لاسبوع انت وامك حتي ترتاح، ما رأيك أن أخذ راحة عند بيت اهلي
+* الوقت كفيل لحل كثير من المشاكل ([21:45](https://youtu.be/GY23yFbGtmI?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=1303))
+	* ارضي بالحل الصغير في خطوة نحو حل شامل
+	* التعايش مع المشكلة
+		* مش كل المشاكل تحل في نفس الوقت
+		* هناك مشاكل مزمنة لا تُعالج
+* استشير(ي) من تثق(ي) به بعيدا عن الأهل و الأصدقاء (بسبب طغيان المشاعر)
+
+
+# ميزانية الأسرة (Family's Financial Status)
+
+[مصدر 1](https://www.youtube.com/watch?v=5JIxAq6uq6E&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=25)
+[مصدر 2](https://www.youtube.com/watch?v=II_W8ZLr2NU&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=26&pp=iAQB)
+
+ميزانية الأسرة:
+* الزوج هو المسؤول عن النفقة شرعاً، والمرأة مع الزوج مسؤولان عن التبدبر
+	* حديث: [4:34](https://www.youtube.com/watch?v=5JIxAq6uq6E&t=274s)
+	* أنتَ مأجور على هذه النفقة
+		* حديث: [9:27](https://www.youtube.com/watch?v=5JIxAq6uq6E&t=567s)
+			* (دينار أنفقته في سبيل الله ودينار أنفقته في رقبة ودينار تصدقت به على مسكين ودينار أنفقته على أهلك ... فخيرها دينار تصدقت به على أهلك)
+* الإسراف ممقوت والبخل مذموم وكن وسطاً بين الأمرين لا إفراط ولا تفريط
+* المحافظة على قليل النعمة، كما نحافظ على كثيرها
+* التنفير من الاستدانة 
+	* هو الدّين (الابتعاد عن البيع والشراء بالتقسيط)
+	* درّب نفسك أن تنفق بمقدار دخلك بدون دّين ،إلا ماكان ضرورياً جداً جداً ومن أسس الحياة 
+	* حديث: [23:09](https://www.youtube.com/watch?v=5JIxAq6uq6E&t=1389s)
+		* يغفر للشهيد كل شئ .... إلا الدين ....
+* المحافظة على الاصول الثابتة كالبيت و السيارة
+	* إذا اردت ان تبيع بيتك, فإشتري بيت آخر مباشرةً ([14:00](https://youtu.be/II_W8ZLr2NU?t=839))
+* ترك الترف و التوسع في الملذات
+	* مثال: لا تشتري هاتف بأضعاف ثمن مرتبك الشهرى ([15:30](https://youtu.be/II_W8ZLr2NU?t=932))
+* الحذر عند التسوق
+	* حدد الاشياء التي تريد شراءها قبل الذهاب الى السوق مع ترتيب الاولويات
+	* خصص مبلغ محدد للتسوق تنزل به إلى السوق
+	* اختار الوقت المناسب للتسوق كوقت التنزيلات (التخفيضات)
+	* لا تشتري فوق حاجتك و لو كان الثمن رخيصاً
+	* لا تلتفت كثيراً الى الاعلانات المغرية
+	* السوق ليس منتزها ولا مكان للترفيه
+	* قل أدعية السوق  
+		* اللهم اني اعوذ بك من يمين فاجرة و من صفقة خاسرة
+		* لا إله إلا الله وحده لا شريك له، له الملك وله الحمد يحي ويميت وهو حي لا يموت، بيده الخير وهو على كل شيء قدير
+			* من دخل السوق فقالها, كتب الله له ألف ألف حسنة، ومحا عنه ألف ألف سيئة، ورفع له ألف ألف درجة ([مصدر](https://www.islamweb.net/ar/fatwa/22644/%D8%AF%D8%B9%D8%A7%D8%A1-%D8%AF%D8%AE%D9%88%D9%84-%D8%A7%D9%84%D8%B3%D9%88%D9%82#:~:text=%D9%81%D9%81%D9%8A%20%D8%B3%D9%86%D9%86%20%D8%A7%D9%84%D8%AA%D8%B1%D9%85%D8%B0%D9%8A%20%D8%B9%D9%86%20%D8%B9%D8%A8%D8%AF,%D9%88%D8%B1%D9%81%D8%B9%20%D9%84%D9%87%20%D8%A3%D9%84%D9%81%20%D8%A3%D9%84%D9%81%20%D8%AF%D8%B1%D8%AC%D8%A9.))
+	* لا تذهب الى السوق و انت (أو إبنك) جائع
+
+
+# الطلاق (Divorce)
+
+[مصدر](https://www.youtube.com/watch?v=S6tH-k_bOFM&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=27)
+
+7 9 15 20 23
+
+* قال الرسول ﷺ: إن أبغض الحلال, الطلاق ([7:40](https://youtu.be/S6tH-k_bOFM?t=459))
+	* قال الرسول ﷺ: أيما امرأة سألت زوجها طلاقاً من غير بأس فحرام عليها رائحة الجنة ([7:50](https://youtu.be/S6tH-k_bOFM?t=467))
+* من علامات يوم القيامة: تفكك العائلات ([8:50](https://youtu.be/S6tH-k_bOFM?t=529))
+	* الإبن يبر صديقه و يعصي أباه
+	* إن من أشراط الساعة أن يرفع العلم ويظهر الجهل، ويفشو الزنا، ويشرب الخمر، ويذهب الرجال وتبقى النساء حتى يكون لخمسين امرأة قيم واحد ([مصدر](https://www.islamweb.net/ar/fatwa/106933/%D9%85%D9%86-%D8%A3%D8%B4%D8%B1%D8%A7%D8%B7-%D8%A7%D9%84%D8%B3%D8%A7%D8%B9%D8%A9-%D8%A3%D9%86-%D9%8A%D9%83%D9%88%D9%86-%D8%A7%D9%84%D8%B1%D8%AC%D9%84-%D9%82%D9%8A%D9%85%D8%A7-%D9%84%D8%AE%D9%85%D8%B3%D9%8A%D9%86-%D8%A7%D9%85%D8%B1%D8%A3%D8%A9))
+		* في إشارةٍ أن الشباب لا يتزوجوا
+		* في إشارةٍ أن النساء يطلقن فيرجعن الى بيوت الأب
+	* أن تلد الأمَةُ ربتها
+		* قال بعض من شرح هذا الحديث: تصبح البنت تأمر و تنهى أُمَّها كإن البنت هي السيدة و الأُم هي العبدة
+* معني الطلاق اللغوي: حل القيد ([15:30](https://youtu.be/S6tH-k_bOFM?t=929))
+	* في الإصطلاح الشرعي: هو حل **قيد النكاح** بألفاظ مخصوصة
+	* النكاح (الزواج) قيد
+		* بالعامية, لما نقول "لبّسها المحبس" مناها لبّسها الخاتم
+		* الزواج عقد على التأبيد ([22:45](https://youtu.be/S6tH-k_bOFM?t=1365))
+			* حتي مع الموت, هي زوجتك. إن القرآن الكريم يقول إن زوجتك الصالحة ستذهب معك إلى الجنة
+				* قول الله تعالى: جَنَّاتُ عَدْنٍ يَدْخُلُونَهَا وَمَنْ صَلَحَ مِنْ آَبَائِهِمْ وَأَزْوَاجِهِمْ وَذُرِّيَّاتِهِمْ {الرعد: 23}.
+				* وقوله تعالى: ادْخُلُوا الْجَنَّةَ أَنْتُمْ وَأَزْوَاجُكُمْ تُحْبَرُونَ {الزخرف: 70}
+*   قال الرسول ﷺ: لا قيلولة (إقالة) في الزواج ([20:50](https://youtu.be/S6tH-k_bOFM?t=1250))
+	* في كتب المعاملات, معني بحث الإقالة (أو القيلولة) بمثال: تشتري سلعة, ثم تندم, فتقول لصاحب السلعة "أقلني بيعتي", فيرد لك مالك و ترد البضاعة لصاحبها 
+* أركان الطلاق ([24:00](https://youtu.be/S6tH-k_bOFM?t=1442))
+	* من قال "زوجتي طالق", إنتهى الأمر: حل العقد ولا إقالة في الزواج
+* قال رسول الله ﷺ: ([26:15](https://youtu.be/S6tH-k_bOFM?t=1570))
+	* (ثلاث جدهن جد وهزلهن جد: النكاح والطلاق والرجعة)
+		* معنى الحديث أنه لو طلق أو نكح أو راجع وقال: كنت فيه لاعباً هازلاً, لا ينفعه قوله هذا ([مصدر](https://www.islamweb.net/ar/fatwa/22349/%D8%B4%D8%B1%D8%AD-%D8%AD%D8%AF%D9%8A%D8%AB-%D8%AB%D9%84%D8%A7%D8%AB-%D8%AC%D8%AF%D9%87%D9%86-%D8%AC%D8%AF))
+		* الرجعة: هي عود المطلقة إلى العصمة (زوجها) جبرا عنها, بشرط أن تكون في فطرة العدة
 
