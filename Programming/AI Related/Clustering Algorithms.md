@@ -107,8 +107,6 @@ So we should try density-based methods (like HDBSCAN shown on the right graph).
 	- Definition 2 ([source 1](https://towardsdatascience.com/dbscan-make-density-based-clusters-by-hand-2689dc335120#:~:text=3.%20Density%20Connected%3A%20Two%20points%20are%20called%20density%20connected%20if%20there%20is%20a%20core%20point%20which%20is%20density%20reachable%20from%20both%20the%20points.), [source 2](https://www.geeksforgeeks.org/ml-dbscan-reachability-and-connectivity/#:~:text=from%20object%20q.-,Connectivity,-%E2%80%93)): If there're two points *p* and *q* that are ***reachable*** from a ***core point*** *o*, then *p* and *q* are ***connected***.
 	- Note: definition 1 and 2 both mean the same thing; they're just different ways of defining a **connected point**.
 
-Example 1 of directly reachable points vs reachable points is the visualization shown in the previous section ([[#Epsilon (ε) and minPoints (minPts)]]): at `minPoints <= 3`, `b` is directly reachable from `a`, while `c` is reachable from `a`. Note: the reason we chose `minPoints <= 3` is for `b` to considered a core point. Otherwise, `c` will not be reachable from `a`, since "the path" from `a` to `c` isn't formed of core points. 
-
 Example 2:
 ![[Pasted image 20231025212504.png]]
 
@@ -219,6 +217,13 @@ OPTICS:
   ([source: slide 2 and 7](https://pt.slideshare.net/rpiryani/optics-ordering-points-to-identify-the-clustering-structure?next_slideshow=true))
 * Is considered a generalization of DBSCAN that relaxes the `eps` requirement from a single value to a value range. ([scikit-learn source](https://scikit-learn.org/stable/modules/clustering.html#optics))
 	* The key difference between DBSCAN and OPTICS is that the OPTICS algorithm builds a [[#Reachability Plot (Graph)|reachability graph]], which assigns each sample both a reachability_ [[#Types of Distances (Core, Reachability)|distance]], and a spot within the cluster `ordering_` [[Clustering Algorithms#^6t454f|attribute]]; these two attributes are assigned when the model is fitted, and are used to determine cluster membership. 
+
+##### OPTICS Algorithm Details
+
+TODO: add images from youtube video
+
+
+TODO: move bullet points below to section after the algo details section
 * scikit-learn implementation details: 
 	* `cluster_method` argument, `xi`, and `dbscan` values ([source](https://scikit-learn.org/stable/modules/generated/sklearn.cluster.OPTICS.html#:~:text=cluster_methodstr%2C%20default,xi%E2%80%9D%20and%20%E2%80%9Cdbscan%E2%80%9D.))
 		* `cluster_method`:  
