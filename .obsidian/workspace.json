@@ -43,8 +43,7 @@
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -113,14 +112,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "663b36946512b5f1",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
             "id": "f389826702bb98f9",
             "type": "leaf",
             "state": {
@@ -145,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/AI Related/Clustering Algorithms.md"
+                "file": "Programming/AI Related/Power BI Questions.md"
               }
             }
           },
@@ -173,7 +164,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/AI Related/Clustering Algorithms.md",
+                "file": "Programming/AI Related/Power BI Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -190,7 +181,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/AI Related/Clustering Algorithms.md",
+                "file": "Programming/AI Related/Power BI Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -216,10 +207,10 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "aada6bea6f4b9613",
+  "active": "7f188b0d71232b72",
   "lastOpenFiles": [
-    "Untitled 1.md",
     "Programming/AI Related/Clustering Algorithms.md",
+    "Untitled 1.md",
     "Media/Default/Pasted image 20231028203614.png",
     "Media/Default/Pasted image 20231028201729.png",
     "Media/Default/Pasted image 20231028200909.png",

@@ -1,0 +1,58 @@
+{
+  "obsidian-excalidraw-plugin:Split text by space": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "D"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Split text by lines": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "F"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Split text by space (Arabic)": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "S"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Rename Image": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "R"
+    }
+  ],
+  "obsidian-excalidraw-plugin:Split text by space (English)": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "A"
+    }
+  ],
+  "link-with-alias:create-link-with-alias": [
+    {
+      "modifiers": [
+        "Mod",
+        "Shift"
+      ],
+      "key": "C"
+    }
+  ],
+  "obsidian-editor-shortcuts:deleteLine": [],
+  "table-editor-obsidian:table-control-bar": [],
+  "editor:delete-paragraph": [],
+  "editor:open-link-in-new-leaf": [],
+  "editor:toggle-checklist-status": []
+}

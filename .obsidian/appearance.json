@@ -1,0 +1,10 @@
+{
+  "accentColor": "",
+  "theme": "obsidian",
+  "baseFontSize": 18,
+  "enabledCssSnippets": [
+    "image-details",
+    "bullet-points"
+  ],
+  "translucency": false
+}
