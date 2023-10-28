@@ -15,9 +15,8 @@ jobs:
       # Runs a set of 2 commands (separated by a new line) using the runners shell
       # Explanation of these commands can be found here: https://chat.openai.com/share/fcdd3614-9c9c-4f3e-bbcf-5ac2631a4351
       - name: Replace API Key
-        run: |
-          API_KEY=${{ secrets.TASKBONEAPIKEY }}
-          echo $API_KEY
-          find . -type f -exec sed -i "s/$API_KEY//g" {} \;
-      # Note: if you want to run on a specific file, replace the "find" line above with this:
-      # sed -i "s/$API_KEY//g" path/to/data.json
+        uses: jacobtomlinson/gha-find-replace@v3
+        with:
+          find: ${{ secrets.TASKBONEAPIKEY }}
+          replace: ""
+          regex: false
