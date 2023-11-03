@@ -19,8 +19,8 @@ jobs:
       - name: Replace API Key
         uses: jacobtomlinson/gha-find-replace@v3
         with:
-          find: ${{ secrets.TASKBONEAPIKEY }}
+          find: (${{ secrets.TASKBONEAPIKEY }}|${{ secrets.SIMPLETEX }})
           replace: "YOUR-API-KEY"
-          regex: false
+          regex: true
       - name: Push changes
         uses: stefanzweifel/git-auto-commit-action@v4
