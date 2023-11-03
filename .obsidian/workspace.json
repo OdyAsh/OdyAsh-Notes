@@ -183,8 +183,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -206,8 +205,8 @@
   },
   "active": "65039f349b3cb176",
   "lastOpenFiles": [
-    "Programming/VS Code/VS Code Tips.md",
     "consistency-report.md",
+    "Programming/VS Code/VS Code Tips.md",
     "Programming/AI Related/Clustering Algorithms.md",
     "README.md",
     "Untitled 1.md",
