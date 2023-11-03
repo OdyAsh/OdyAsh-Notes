@@ -11,9 +11,9 @@ A vector is:
 	  ![[Pasted image 20231103144158.png]]
 	* for example:
 	  $$\eqalignno{
-a &= 2 &(\dagger) \\
-3x - 4y &= 5   &(\dagger) \\
-x  +  7 &= -2y &(\ddagger) \\
+a &= 2 &(\dagger) \cr
+3x - 4y &= 5   &(\dagger) \cr
+x  +  7 &= -2y &(\ddagger) \cr
 z &= 2
 }$$
 	* Another example:
