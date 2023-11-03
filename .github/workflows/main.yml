@@ -22,5 +22,5 @@ jobs:
           find: (${{ secrets.TASKBONEAPIKEY }}|${{ secrets.SIMPLETEX }}|ababab)
           replace: "YOUR-API-KEY"
           regex: true
-      # - name: Push changes
-        # uses: stefanzweifel/git-auto-commit-action@v4
+      - name: Push changes
+        uses: stefanzweifel/git-auto-commit-action@v4
