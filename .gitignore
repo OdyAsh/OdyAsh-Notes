@@ -1,6 +1,8 @@
 # be sure to add data.json for plugins that contain API keys
-.obsidian\plugins\image2latex\data.json
+.obsidian/plugins/image2latex/data.json
 
+
+.obsidian/plugins/obsidian-completr/scanned_words.txt
 
 Day Planners/*
 Secrets/*

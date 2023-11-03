@@ -18,6 +18,18 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "f604961b3b80bd08",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/VS Code/VS Code Tips.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ]
       }
@@ -77,8 +89,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3cf6ea7704bfbf22",
@@ -89,18 +100,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "663b36946512b5f1",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {}
-            }
-          },
-          {
             "id": "f389826702bb98f9",
             "type": "leaf",
             "state": {
               "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "663b36946512b5f1",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
               "state": {}
             }
           },
@@ -172,12 +183,12 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 291.5,
-    "collapsed": true
+    "width": 291.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -195,11 +206,15 @@
   },
   "active": "65039f349b3cb176",
   "lastOpenFiles": [
-    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+    "Programming/VS Code/VS Code Tips.md",
+    "consistency-report.md",
     "Programming/AI Related/Clustering Algorithms.md",
+    "README.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
     "Programming/AI Related/Power BI Questions.md",
     "Programming/AI Related/Power BI.md",
-    "consistency-report.md",
     "Islam/Marriage/Media/Pasted image 20231103174301.png",
     "Competitions/Egypt IoT And AI 2023/Innovation Notes.md",
     "Writing/Blogs/How to log EVERYTHING in PyTorch Lightning - A Manual Approach.md.crdownload",
@@ -229,7 +244,6 @@
     "Media/Default/Pasted image 20231028200909.png",
     "Media/Default/Pasted image 20231028200716.png",
     "Media/Default/Pasted image 20231028200612.png",
-    "Untitled.md",
     "Programming/AI Related/Data Analytics Notes.md",
     "Islam/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
     "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
@@ -238,8 +252,6 @@
     "Programming/AI Related/Model Libraries.md",
     "[[Power BI.md",
     "Islam/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
-    "Islam/Books/Disease and Cure (داء و دواء).md",
-    "Islam/Untitled.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
