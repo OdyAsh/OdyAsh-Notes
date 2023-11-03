@@ -28,5 +28,7 @@
   "obsidian-pandoc",
   "obsidian-link-converter",
   "quick-latex",
-  "obsidian-math-plus"
+  "latex-matrices",
+  "image2latex",
+  "obsidian-hide-sidebars-when-narrow"
 ]
