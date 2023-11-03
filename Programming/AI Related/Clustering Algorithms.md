@@ -5,7 +5,7 @@
 # Clustering Algorithms Types (Overview)
 
 Types of clustering algorithms ([source1](https://link.springer.com/chapter/10.1007/978-981-13-7403-6_9), [source2](https://iprathore71.medium.com/clustering-975f8bc58af0)):
-![Pasted image 20231020075812](../../Media/Default/Pasted%20image%2020231020075812.png)
+![Pasted image 20231020075812](Attachments%20-%20Clustering%20Algorithms/Pasted%20image%2020231020075812.png)
 Side note: these are a subset of algorithms from 2019, new algorithms are always emerging :]
 
 A lot of the basic algorithms of each type have a time-series version.
@@ -17,22 +17,22 @@ The following subsections contain brief explanation of basic algorithms.
 Illustrations:
 
 [Source](https://computing4all.com/courses/introductory-data-science/lessons/a-few-types-of-clustering-algorithms/)
-![375](../../Media/Default/Pasted%20image%2020231020083201.png)
+![375](Attachments%20-%20Clustering%20Algorithms/Pasted%20image%2020231020083201.png)
 
 [Source](https://www.researchgate.net/figure/Partitional-Clustering_fig2_312590567)
-![475](../../Media/Default/Pasted%20image%2020231020083221.png)
+![475](Attachments%20-%20Clustering%20Algorithms/Pasted%20image%2020231020083221.png)
 
 ## K-Means
 
 [Source](https://www.codecademy.com/learn/machine-learning/modules/dspath-clustering/cheatsheet)
-![k-means-coedacademy](../../Media/AI/k-means-coedacademy.mp4)
+![k-means-coedacademy](Attachments%20-%20Clustering%20Algorithms/k-means-coedacademy.mp4)
 
 Also check source above to understand ***Inertia*** metric measure and how to graph it in order to find optimal K value.
 
 ## K-Medoids
 
 [source](https://medium.com/@ozturkfemre/unsupervised-learning-in-r-k-medoids-clustering-8645a6521e4)
-![k-medoids-odyash-coedacademy](../../Media/AI/k-medoids-odyash-coedacademy.mp4)
+![k-medoids-odyash-coedacademy](Attachments%20-%20Clustering%20Algorithms/k-medoids-odyash-coedacademy.mp4)
 
 To put it simply: it is similar to K-means, but instead of creating a centroid at a new coordinates, we choose an existing data sample to be the centroid.
 
@@ -45,15 +45,15 @@ To put it simply: it is similar to K-means, but instead of creating a centroid a
 ## When to Use Density-Based Clustering
 
 Sometimes, we want to cluster data points based on their densities. Example ([source](https://pberba.github.io/stats/2020/07/08/intro-hdbscan/)):
-![Pasted image 20231020083622|550](../../Media/Default/Pasted%20image%2020231020083622.png)
+![Pasted image 20231020083622|550](Attachments%20-%20Clustering%20Algorithms/Pasted%20image%2020231020083622.png)
 
 Visualizing the density landscape:
-![Pasted image 20231020083643](../../Media/Default/Pasted%20image%2020231020083643.png)
+![Pasted image 20231020083643](Attachments%20-%20Clustering%20Algorithms/Pasted%20image%2020231020083643.png)
 
 So, we want to get around 5 clusters (visualized in red in the above graph). 
 
 If we try partitional-based methods (e.g., K-means), it won't give us optimal results:
-![Pasted image 20231020083847](../../Media/Default/Pasted%20image%2020231020083847.png)
+![Pasted image 20231020083847](Attachments%20-%20Clustering%20Algorithms/Pasted%20image%2020231020083847.png)
 
 So we should try density-based methods (like HDBSCAN shown on the right graph).
 

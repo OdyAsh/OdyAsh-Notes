@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "65039f349b3cb176",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "consistency-report.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "f604961b3b80bd08",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/VS Code/VS Code Tips.md",
+                "file": "Programming/AI Related/Power BI.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "Pasted image 20231028171955",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -132,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "consistency-report.md"
+                "file": "Programming/AI Related/Power BI.md"
               }
             }
           },
@@ -160,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "consistency-report.md",
+                "file": "Programming/AI Related/Power BI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -177,13 +165,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "consistency-report.md",
+                "file": "Programming/AI Related/Power BI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -200,14 +189,30 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-custom-frames:Open chatgpt": false,
       "omnisearch:Omnisearch": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "65039f349b3cb176",
+  "active": "f604961b3b80bd08",
   "lastOpenFiles": [
     "consistency-report.md",
-    "Programming/VS Code/VS Code Tips.md",
     "Programming/AI Related/Clustering Algorithms.md",
+    "Programming/AI Related/Attachments - Clustering Algorithms/opitcs-algo-vis.gif",
+    "Programming/AI Related/Attachments - Clustering Algorithms/dbscan-vis-with-steps.gif",
+    "Programming/AI Related/Attachments - Clustering Algorithms/dbscan-better-vis.gif",
+    "Programming/VS Code/VS Code Tips.md",
+    "Programming/UX Design/Screen Units.md",
+    "Programming/UX Design/Attachments - Screen Units/Pasted image 20230704113308.png",
+    "Competitions/Egypt IoT And AI 2023/Attachments - Innovation Notes",
+    "Islam/Pre-Islamic World/Attachments - Before Muhammad.excalidraw",
+    "Islam/Pre-Islamic World/Attachments - Pre-Islamic World Map",
+    "Islam/Prophet Ibrahim/Attachments - Prophet Ibrahim.excalidraw",
+    "Islam/Prophet Muhammad/Attachments - Prophet Muhammad.excalidraw",
+    "Islam/Prophet Muhammad/Attachments - The Prophet's Companions",
+    "Islam/Prophets Overview/Attachments - Prophets Overview.excalidraw",
+    "Islam/The Quran/Attachments - 1. Surah Al-Fatiha (الفاتحة)",
+    "Islam/The Quran/Attachments - 2. Surah Al-Baqarah (البقرة)",
+    "Islam/The Quran/Attachments - 53. Surah An-Najm (النجم).excalidraw",
     "README.md",
     "Untitled 1.md",
     "Untitled.md",
@@ -216,41 +221,25 @@
     "Programming/AI Related/Power BI.md",
     "Islam/Marriage/Media/Pasted image 20231103174301.png",
     "Competitions/Egypt IoT And AI 2023/Innovation Notes.md",
-    "Writing/Blogs/How to log EVERYTHING in PyTorch Lightning - A Manual Approach.md.crdownload",
-    "Writing/Word Document Tips.md.crdownload",
-    "OdyAsh OdyAsh-Notes 2ad4aeb39f6dda2ef23a6f4f611af7f6ca296d79 Programming.zip",
-    "OdyAsh OdyAsh-Notes 2ad4aeb39f6dda2ef23a6f4f611af7f6ca296d79 Programming.zip.crdownload",
-    "Obsidian/Cool Plugins.md.crdownload",
-    "OdyAsh OdyAsh-Notes 2ad4aeb39f6dda2ef23a6f4f611af7f6ca296d79 Islam.zip",
-    "OdyAsh OdyAsh-Notes 2ad4aeb39f6dda2ef23a6f4f611af7f6ca296d79 Islam.zip.crdownload",
-    "Competitions/Egypt IoT And AI 2023/Innovation Notes.md.crdownload",
     "Secrets/APIs.md",
     "Mathematics/Linear Algebra/Vectors.md",
     "conflict-files-obsidian-git.md",
     "Programming/UX Design/Google's Foundation of UX Design - Course 1.md",
-    "Islam/Marriage/Media",
-    "Media/Default/Pasted image 20231103144158.png",
+    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231103144158.png",
     "Writing/Vocabulary.md",
-    "Mathematics/Linear Algebra",
-    "Writing/Blogs/Nested List and Dict Comprehension - Unravelling Confusing Syntax.md",
+    "Writing/Blogs/Attachments - How to log EVERYTHING in PyTorch Lightning - A Manual Approach/Nested List and Dict Comprehension - Unravelling Confusing Syntax.md",
     "Writing/Blogs/How to log EVERYTHING in PyTorch Lightning - A Manual Approach.md",
     "Competitions/Egypt IoT And AI 2023/Hybrid Session Smart Village.md",
-    "Media/Default/Pasted image 20231031085940.png",
-    "Media/Default/Pasted image 20231031085921.png",
-    "Media/Default/Pasted image 20231031083237.png",
-    "Media/Default/Pasted image 20231028203614.png",
-    "Media/Default/Pasted image 20231028201729.png",
-    "Media/Default/Pasted image 20231028200909.png",
-    "Media/Default/Pasted image 20231028200716.png",
-    "Media/Default/Pasted image 20231028200612.png",
+    "Programming/AI Related/Attachments - Power BI Questions/Pasted image 20231031085940.png",
+    "Programming/AI Related/Attachments - Power BI Questions/Pasted image 20231031085921.png",
+    "Programming/AI Related/Attachments - Power BI Questions/Pasted image 20231031083237.png",
+    "Programming/AI Related/Attachments - Clustering Algorithms/Pasted image 20231028203614.png",
     "Programming/AI Related/Data Analytics Notes.md",
     "Islam/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
     "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
     "Islam/Prophet Muhammad/Prophet Muhammad.excalidraw.md",
     "Programming/AI Related/k-medoids.excalidraw.md",
     "Programming/AI Related/Model Libraries.md",
-    "[[Power BI.md",
-    "Islam/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
