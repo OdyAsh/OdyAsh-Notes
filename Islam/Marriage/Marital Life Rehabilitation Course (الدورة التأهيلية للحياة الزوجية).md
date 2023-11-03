@@ -565,3 +565,4 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 		* عليه الحرام ([19:40](https://youtu.be/Qp8PZU7fGVo?t=1011))
 			* أكنه يقول: زوجته عليه حرام
 
+2wl shart: 

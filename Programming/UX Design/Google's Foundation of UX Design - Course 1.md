@@ -27,7 +27,7 @@
 ("functioning experience", like a website or app)
 
 ![400](../../Media/Default/Pasted%20image%2020230314052258.png)
-(they act as a bridge between In [](.md#^8gz369|Interaction%20Designers) and [](.md#^kcao74|UX%20engineers))
+(they act as a bridge between In interaction designers and UX Engineers)
 
 ![400](../../Media/Default/Pasted%20image%2020230314052619.png)
 (includes setting up goals, and writing project plans)

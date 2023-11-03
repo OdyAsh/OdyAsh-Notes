@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "Media/Default",
+  "attachmentFolderPath": "./Media",
   "alwaysUpdateLinks": true,
   "spellcheckDictionary": [
     "Alsuleiman",
@@ -23,5 +23,8 @@
     "margin": "0",
     "downscalePercent": 100
   },
-  "newLinkFormat": "shortest"
+  "newLinkFormat": "shortest",
+  "showUnsupportedFiles": true,
+  "useMarkdownLinks": true,
+  "showLineNumber": true
 }

@@ -26,9 +26,13 @@
   "obsidian-image-toolkit",
   "oz-image-plugin",
   "obsidian-pandoc",
-  "obsidian-link-converter",
   "quick-latex",
   "latex-matrices",
   "image2latex",
-  "obsidian-hide-sidebars-when-narrow"
+  "obsidian-hide-sidebars-when-narrow",
+  "obsidian-completr",
+  "media-extended",
+  "mathlinks",
+  "math-booster",
+  "consistent-attachments-and-links"
 ]

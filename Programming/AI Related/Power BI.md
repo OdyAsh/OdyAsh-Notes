@@ -517,7 +517,7 @@ Benefits:
 * Create specialized datasets
 	* Typically, DirectQuery mode supports relational database sources. That’s because Power BI must translate analytic queries to native queries understood by the data source.
 	* However, there’s one powerful exception. You can connect to a Power BI dataset (or Azure Analysis Services model) and convert it to a DirectQuery local model. A local model is a relative term that describes a model’s relationship to another model. In this case, the original dataset is a remote model, and the new dataset is the local model. These models are chained, which is term used to describe related models. You can chain up to three models in this way.
-	* This capability to chain models supports the potential to personalize and/or extend a remote model. The simplest thing you can do is rename objects, like tables or columns, or add measures to the local model. You can also extend the model with calculated columns or calculated tables, or add new import or DirectQuery tables. However, these extensions result in the creation of new source groups, which means the model becomes a [](.md#Composite%20Model|composite%20model). That scenario is described in [Unit 5](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/5-determine-when-to-develop-composite-model).
+	* This capability to chain models supports the potential to personalize and/or extend a remote model. The simplest thing you can do is rename objects, like tables or columns, or add measures to the local model. You can also extend the model with calculated columns or calculated tables, or add new import or DirectQuery tables. However, these extensions result in the creation of new source groups, which means the model becomes a [Composite Model](#Composite%20Model). That scenario is described in [Unit 5](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/5-determine-when-to-develop-composite-model).
 	* For more information, see [Using DirectQuery for Power BI datasets and Azure Analysis Services](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-directquery-datasets-azure-analysis-services).
 
 Limitations:
@@ -546,7 +546,7 @@ When you use DirectQuery to connect to data in Power BI Desktop, that connection
 
  [M source](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/5-determine-when-to-develop-composite-model)
 
-A composite model comprises more than one [](.md#^ngupkb|source%20group). Typically, there’s always the import source group and a DirectQuery source group:
+A composite model comprises more than one [source group](#^ngupkb). Typically, there’s always the import source group and a DirectQuery source group:
 ![Pasted image 20230930134927](../../Media/Default/Pasted%20image%2020230930134927.png)
 
 Benefits:
@@ -562,7 +562,7 @@ Limitations:
 	* set related dimension tables to use dual storage mode. 
 	* This scenario is described later
 * When chaining models, modifications made to upstream models can break downstream models. Be sure to assess the impact of modifications by performing [dataset impact analysis](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-dataset-impact-analysis) first.
-* Relationships between tables from different source groups are known as limited relationships. A model relationship is limited when the Power BI can’t determine a “one” side of a relationship. Limited relationships may result in different evaluations of model queries and calculations. For more information, see [](.md#Relationship%20Evaluation%20Advanced|Relationship%20evaluation) (its [M source](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand)).
+* Relationships between tables from different source groups are known as limited relationships. A model relationship is limited when the Power BI can’t determine a “one” side of a relationship. Limited relationships may result in different evaluations of model queries and calculations. For more information, see [Relationship Evaluation (Advanced)](#Relationship%20Evaluation%20(Advanced)) (its [M source](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand)).
 
 ##### Boost DirectQuery model performance with import data
 
