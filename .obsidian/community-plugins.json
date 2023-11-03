@@ -26,5 +26,7 @@
   "obsidian-image-toolkit",
   "oz-image-plugin",
   "obsidian-pandoc",
-  "obsidian-link-converter"
+  "obsidian-link-converter",
+  "quick-latex",
+  "obsidian-math-plus"
 ]

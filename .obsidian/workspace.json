@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "b0ab9b2b2398ca8b",
+            "id": "7f188b0d71232b72",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -18,8 +18,33 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "aada6bea6f4b9613",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/AI Related/Clustering Algorithms.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3fcb638027d515f7",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Linear Algebra/Vectors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -77,7 +102,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3cf6ea7704bfbf22",
@@ -87,6 +113,14 @@
         "id": "bec558081e6a4499",
         "type": "tabs",
         "children": [
+          {
+            "id": "663b36946512b5f1",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
           {
             "id": "f389826702bb98f9",
             "type": "leaf",
@@ -112,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md"
+                "file": "Mathematics/Linear Algebra/Vectors.md"
               }
             }
           },
@@ -140,7 +174,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+                "file": "Mathematics/Linear Algebra/Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -157,7 +191,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+                "file": "Mathematics/Linear Algebra/Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -167,7 +201,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 291.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,19 +218,25 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b0ab9b2b2398ca8b",
+  "active": "3fcb638027d515f7",
   "lastOpenFiles": [
-    "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
-    "Islam/Pre-Islamic World/Before Muhammad Further Readings.md",
-    "Islam/Prophet Muhammad/The Prophet's Companions.md",
-    "Islam/Prophets Overview/Prophets Overview.excalidraw.md",
-    "Islam/The Quran/2. Surah Al-Baqarah (البقرة).md",
-    "Islam/Prophet Muhammad/Timeline of Prophet Muhammad.md",
-    "Programming/AI Related/Clustering Algorithms.md",
-    "conflict-files-obsidian-git.md",
-    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+    "Media/Default/Pasted image 20231103144158.png",
+    "Writing/Vocabulary.md",
+    "Mathematics/Linear Algebra/Vectors.md",
+    "Mathematics/Linear Algebra",
+    "Writing/Blogs/Nested List and Dict Comprehension - Unravelling Confusing Syntax.md",
+    "Writing/Blogs/How to log EVERYTHING in PyTorch Lightning - A Manual Approach.md",
+    "Competitions/Egypt IoT And AI 2023/Innovation Notes.md",
+    "Mathematics",
+    "Competitions",
+    "Competitions/Egypt IoT And AI 2023/Hybrid Session Smart Village.md",
     "Programming/AI Related/Power BI Questions.md",
-    "Untitled 1.md",
+    "Media/Default/Pasted image 20231031085940.png",
+    "Media/Default/Pasted image 20231031085921.png",
+    "Media/Default/Pasted image 20231031083237.png",
+    "Programming/AI Related/Power BI.md",
+    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+    "Programming/AI Related/Clustering Algorithms.md",
     "Media/Default/Pasted image 20231028203614.png",
     "Media/Default/Pasted image 20231028201729.png",
     "Media/Default/Pasted image 20231028200909.png",
@@ -203,12 +244,7 @@
     "Media/Default/Pasted image 20231028200612.png",
     "Media/Default/Pasted image 20231028171955.png",
     "Media/Default/Pasted image 20231028171946.png",
-    "Media/Default/Pasted image 20231028171750.png",
-    "Media/Default/Pasted image 20231028171731.png",
-    "Media/Default/Pasted image 20231028165320.png",
     "Media/AI/opitcs-algo-vis.mp4",
-    "Media/AI/opitcs-algo-vis.mp4.crdownload",
-    "Programming/AI Related/Power BI.md",
     "Untitled.md",
     "Media/AI/opitcs-algo-vis.gif.crdownload",
     "Media/AI/dbscan-better-vis.mp4",
@@ -216,10 +252,9 @@
     "Media/AI/dbscan-better-vis.gif.crdownload",
     "Media/AI/Sng870.tmp.mp4",
     "Media/AI/Sng85C.tmp.mp4",
-    "Media/AI/dbscan-vis-with-steps.mp4",
-    "Media/AI/2023-10-20_17-32-25.mp4",
     "Programming/AI Related/Data Analytics Notes.md",
     "Islam/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
+    "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
     "Islam/Prophet Muhammad/Prophet Muhammad.excalidraw.md",
     "Programming/AI Related/k-medoids.excalidraw.md",
     "Programming/AI Related/Model Libraries.md",
@@ -227,10 +262,10 @@
     "Islam/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
     "Islam/Books/Disease and Cure (داء و دواء).md",
     "Islam/Untitled.md",
+    "conflict-files-obsidian-git.md",
     "Obsidian/Cool Plugins.md",
     "Obsidian/UI Tips.md",
     "[[Power.md",
-    "Programming/Python/Virtual Environments/Conda Environment.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

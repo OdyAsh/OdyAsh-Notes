@@ -1333,3 +1333,40 @@ Explanation:
 According to [this M source](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-date-tables), <mark style="background: #FFF3A3A6;">marking a table as a Date Table automatically removes the auto-generated date table</mark>.
 
 
+49 (T2, Q57)
+You have a Power BI data model that contains a table named Stores. The table has the following columns:  
+• Store Name  
+• Open Date  
+• Status  
+• State  
+• City  
+You need to create a calculated column named Active Store Name that meets the following requirements:  
+• When the value of the Status column is “A”, the value in the Store Name column must be returned.  
+• When the value of the Status column is NOT “A”, the value in the Store Name column that is prefixed with "Inactive - " must be returned.  
+How should you complete the DAX expression? To answer, select the appropriate options in the answer area:
+![[Pasted image 20231031083237.png]]
+
+Answer:
+IF, &.
+Explanation:
+* <mark style="background: #FFB8EBA6;">&& Is the same for AND</mark> function in DAX
+* <mark style="background: #FFB8EBA6;">& is the same for concatenate</mark> on Excel.
+
+
+50 (T2, Q63)
+You have the Power BI data model shown in the following exhibit:
+![[Pasted image 20231031085921.png]]
+You need to create a measure to count the number of product categories that had products sold during a selected period.  
+How should you complete the DAX expression? To answer, select the appropriate options in the answer area:
+![[Pasted image 20231031085940.png]]
+Answer:
+CALCULATE(DISTINCTCOUNT('Product'[ProductCategory]), 'Sales')
+Explanation (my attempt):
+"to count num. of prod. categories" -> DISTINCTCOUNT('Product'[ProductCategory])
+"had products sold" -> therefore, we want the filter to be the table sales, so that if a product ID is not found in sales table, then this ID's product category will not be counted in DISTINCTCOUNT
+"during a selected period" -> I think this means we can "select" the desired period from a slicer in the report's page, or in the **Filters** pane, so this filter will automatically propagate to this DAX formula.
+
+
+
+stopped here:
+https://www.examtopics.com/exams/microsoft/pl-300/view/21/
