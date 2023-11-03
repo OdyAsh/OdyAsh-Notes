@@ -12,5 +12,5 @@ After installing & enabling it in community plugins menu:
 
 After installing & enabling it in community plugins menu, click `hotkeys`, then add this:
 
-![550](../Media/Default/Pasted%20image%2020230321072509.png)
+![[Pasted image 20230321072509.png|550]]
 

@@ -1,3 +1,7 @@
+# be sure to add data.json for plugins that contain API keys
+.obsidian\plugins\image2latex\data.json
+
+
 Day Planners/*
 Secrets/*
 Tasks/*

@@ -1,7 +1,7 @@
 # Tips
 ## Remove Redundant Whitespaces
 
-![475](../../Media/Default/Pasted%20image%2020230310205337.png)
+![[Pasted image 20230310205337.png|475]]
 
 Notice that if we swapped the replace() functions, then one "|" would remain
 
@@ -17,47 +17,47 @@ print(f'{var_a:<30}{var_b:<30}{var_c:<30}')
 
 note: RLT == Right To Left
 
-![225](../../Media/Default/Pasted%20image%2020230308200432.png)
+![[Pasted image 20230308200432.png|225]]
 so if first element is in arabic, then jupyter notebook actually flips the content of the list when it is displayed, yet the indexing is the based on what was written in the code.
 
 another example:
-![275](../../Media/Default/Pasted%20image%2020230308200604.png)
+![[Pasted image 20230308200604.png|275]]
 numbers also apply:
-![275](../../Media/Default/Pasted%20image%2020230308200702.png)
+![[Pasted image 20230308200702.png|275]]
 
 A little caveat about symbols:
-![275](../../Media/Default/Pasted%20image%2020230308201426.png)
+![[Pasted image 20230308201426.png|275]]
 but when extending other arabic letters:
-![300](../../Media/Default/Pasted%20image%2020230308201503.png)
+![[Pasted image 20230308201503.png|300]]
 
 
 however, if we introduce a non-arabic letter, notebook displays the continuous blocks of arabic letters from RTL, even though they are still indexed as what is seen in code:
-![275](../../Media/Default/Pasted%20image%2020230308200855.png)
+![[Pasted image 20230308200855.png|275]]
 
 This can lead to impossible-to-debug outputs:
-![450](../../Media/Default/Pasted%20image%2020230308203432.png)
+![[Pasted image 20230308203432.png|450]]
 
 solution: don't ever use english letters in arabic strings/lists (replace them with symbols or numbers or remove them, for example "a" here is switched to "1"):
-![400](../../Media/Default/Pasted%20image%2020230308203518.png)
+![[Pasted image 20230308203518.png|400]]
 (now this is kind of debug-able :D)
 
 Other examples:
 
-![200](../../Media/Default/Pasted%20image%2020230308193435.png)
+![[Pasted image 20230308193435.png|200]]
 
 
-![200](../../Media/Default/Pasted%20image%2020230308193440.png)
+![[Pasted image 20230308193440.png|200]]
 
-![200](../../Media/Default/Pasted%20image%2020230308193444.png)
+![[Pasted image 20230308193444.png|200]]
 
 A more complex example:
 
-![Pasted image 20230308194442](../../Media/Default/Pasted%20image%2020230308194442.png)
+![[Pasted image 20230308194442.png]]
 
-![Pasted image 20230308194953](../../Media/Default/Pasted%20image%2020230308194953.png)
+![[Pasted image 20230308194953.png]]
 
 output:
-![Pasted image 20230308195032](../../Media/Default/Pasted%20image%2020230308195032.png)
+![[Pasted image 20230308195032.png]]
 
 
 but if we remove {score:0.2f}, output will be:

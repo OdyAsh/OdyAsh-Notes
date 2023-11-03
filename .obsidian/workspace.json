@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "5c0da918d17b3b21",
+        "id": "4e21f64cb4b1a1f9",
         "type": "tabs",
         "children": [
           {
-            "id": "3fcb638027d515f7",
+            "id": "65039f349b3cb176",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Linear Algebra/Vectors.md",
+                "file": "consistency-report.md",
                 "mode": "source",
                 "source": false
               }
@@ -77,7 +77,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3cf6ea7704bfbf22",
@@ -120,7 +121,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Linear Algebra/Vectors.md"
+                "file": "consistency-report.md"
               }
             }
           },
@@ -148,7 +149,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Linear Algebra/Vectors.md",
+                "file": "consistency-report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,18 +166,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Linear Algebra/Vectors.md",
+                "file": "consistency-report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 291.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -192,27 +193,34 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3fcb638027d515f7",
+  "active": "65039f349b3cb176",
   "lastOpenFiles": [
+    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+    "Programming/AI Related/Clustering Algorithms.md",
+    "Programming/AI Related/Power BI Questions.md",
+    "Programming/AI Related/Power BI.md",
+    "consistency-report.md",
+    "Islam/Marriage/Media/Pasted image 20231103174301.png",
+    "Competitions/Egypt IoT And AI 2023/Innovation Notes.md",
+    "Writing/Blogs/How to log EVERYTHING in PyTorch Lightning - A Manual Approach.md.crdownload",
+    "Writing/Word Document Tips.md.crdownload",
+    "OdyAsh OdyAsh-Notes 2ad4aeb39f6dda2ef23a6f4f611af7f6ca296d79 Programming.zip",
+    "OdyAsh OdyAsh-Notes 2ad4aeb39f6dda2ef23a6f4f611af7f6ca296d79 Programming.zip.crdownload",
+    "Obsidian/Cool Plugins.md.crdownload",
+    "OdyAsh OdyAsh-Notes 2ad4aeb39f6dda2ef23a6f4f611af7f6ca296d79 Islam.zip",
+    "OdyAsh OdyAsh-Notes 2ad4aeb39f6dda2ef23a6f4f611af7f6ca296d79 Islam.zip.crdownload",
+    "Competitions/Egypt IoT And AI 2023/Innovation Notes.md.crdownload",
+    "Secrets/APIs.md",
     "Mathematics/Linear Algebra/Vectors.md",
     "conflict-files-obsidian-git.md",
-    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
-    "consistency-report.md",
-    "Programming/AI Related/Power BI.md",
-    "Programming/AI Related/Clustering Algorithms.md",
     "Programming/UX Design/Google's Foundation of UX Design - Course 1.md",
-    "Islam/Marriage/Media/Pasted image 20231103174301.png",
     "Islam/Marriage/Media",
     "Media/Default/Pasted image 20231103144158.png",
     "Writing/Vocabulary.md",
     "Mathematics/Linear Algebra",
     "Writing/Blogs/Nested List and Dict Comprehension - Unravelling Confusing Syntax.md",
     "Writing/Blogs/How to log EVERYTHING in PyTorch Lightning - A Manual Approach.md",
-    "Competitions/Egypt IoT And AI 2023/Innovation Notes.md",
-    "Mathematics",
-    "Competitions",
     "Competitions/Egypt IoT And AI 2023/Hybrid Session Smart Village.md",
-    "Programming/AI Related/Power BI Questions.md",
     "Media/Default/Pasted image 20231031085940.png",
     "Media/Default/Pasted image 20231031085921.png",
     "Media/Default/Pasted image 20231031083237.png",
@@ -221,13 +229,7 @@
     "Media/Default/Pasted image 20231028200909.png",
     "Media/Default/Pasted image 20231028200716.png",
     "Media/Default/Pasted image 20231028200612.png",
-    "Media/AI/opitcs-algo-vis.mp4",
     "Untitled.md",
-    "Media/AI/opitcs-algo-vis.gif.crdownload",
-    "Media/AI/dbscan-better-vis.mp4",
-    "Media/AI/dbscan-better-vis.mp4.crdownload",
-    "Media/AI/dbscan-better-vis.gif.crdownload",
-    "Media/AI/Sng870.tmp.mp4",
     "Programming/AI Related/Data Analytics Notes.md",
     "Islam/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
     "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
@@ -238,8 +240,6 @@
     "Islam/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
     "Islam/Books/Disease and Cure (داء و دواء).md",
     "Islam/Untitled.md",
-    "Obsidian/Cool Plugins.md",
-    "Obsidian/UI Tips.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

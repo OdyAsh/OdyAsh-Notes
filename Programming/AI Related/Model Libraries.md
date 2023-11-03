@@ -166,7 +166,7 @@ set this `num_sanity_val_steps=0` (default: 2) if you're planning to use an inte
 
 #### Getting A `history` Dictionary Similar To That in TF
 
-1. follow [](.md#When%20Designing%20YourModel%20pl%20LightningModule|these) steps
+1. follow [[Model Libraries#When Designing YourModel pl LightningModule|these]] steps
 2. train the model
 3. run the following:
 ```python
@@ -184,7 +184,7 @@ Useful snippets to understand how the code works:
 import torchmetrics
 import torch
 ff = torchmetrics.F1Score('multiclass', num_classes=3, average=None, top_k=1, threshold=0.5)
-ff(torch.tensor([.2, .70001, .70002](.2,%20.70001,%20.70002)), torch.tensor([2, 2]))
+ff(torch.tensor([[.2, .70001, .70002], [.2, .7001, .7000]]), torch.tensor([2, 2]))
 # output: tensor([0.0000, 0.0000, 0.6667])
 ```
 
@@ -192,9 +192,9 @@ ff(torch.tensor([.2, .70001, .70002](.2,%20.70001,%20.70002)), torch.tensor([2, 
 import torchmetrics
 import torch
 ff = torchmetrics.Accuracy('multiclass', num_classes=3, average=None, top_k=1, threshold=0.5)
-ff.update(torch.tensor([.2, .70001, .70002](.2,%20.70001,%20.70002)), torch.tensor([2]))
-ff.update(torch.tensor([.7005, .7001, .7002](.7005,%20.7001,%20.7002)), torch.tensor([2]))
-ff.update(torch.tensor([.2, .7003, .7002](.2,%20.7003,%20.7002)), torch.tensor([1]))
+ff.update(torch.tensor([[.2, .70001, .70002]]), torch.tensor([2]))
+ff.update(torch.tensor([[.7005, .7001, .7002]]), torch.tensor([2]))
+ff.update(torch.tensor([[.2, .7003, .7002]]), torch.tensor([1]))
 res = ff.compute()
 ff.reset()
 res
@@ -211,7 +211,7 @@ res
 2. What worked for me personally (if you want to install using conda/mamba): don't install from the generated conda command in [this](https://pytorch.org/get-started/locally/#:~:text=Compute%20Platform-,Run%20this%20Command,-%3A) webpage. Instead, use the following command ([source](https://pytorch.org/get-started/previous-versions/#:~:text=conda%20install%20pytorch%3D%3D1.13.1%20torchvision%3D%3D0.14.1%20torchaudio%3D%3D0.13.1%20%2Dc%20pytorch)) (side note: if you want to use PyTorch Lightning, then conda install it first):
 `conda install pytorch==x.x.x torchvision torchaudio -c pytorch`
 
-verify by running this block (`cudnn` is optional I believe, but you should [](../Python/Virtual%20Environments/Conda%20Environment.md#Installing%20CUDA|get%20it)):
+verify by running this block (`cudnn` is optional I believe, but you should [[Conda Environment#Installing CUDA|get it]]):
 ``` python
 import torch
 print(torch.__version__)
@@ -249,23 +249,23 @@ from bs4 import BeautifulSoup
 ## PyTorch Vs PyTorch Lightning
 
 PyTorch:
-![250](../../Media/Default/Pasted%20image%2020230503065504.png)
+![[Pasted image 20230503065504.png|250]]
 Example implementation:
-![Pasted image 20230503070424](../../Media/Default/Pasted%20image%2020230503070424.png)
+![[Pasted image 20230503070424.png]]
 
 PyTorch Lightning:
-![Pasted image 20230503065442](../../Media/Default/Pasted%20image%2020230503065442.png)
+![[Pasted image 20230503065442.png]]
 Example Implementation:
-![Pasted image 20230503070708](../../Media/Default/Pasted%20image%2020230503070708.png)
+![[Pasted image 20230503070708.png]]
 
-![Pasted image 20230503070749](../../Media/Default/Pasted%20image%2020230503070749.png)
+![[Pasted image 20230503070749.png]]
 
 Which is this:
 
-![Pasted image 20230503070759](../../Media/Default/Pasted%20image%2020230503070759.png)
+![[Pasted image 20230503070759.png]]
 
 Final look:
-![Pasted image 20230503070942](../../Media/Default/Pasted%20image%2020230503070942.png)
+![[Pasted image 20230503070942.png]]
 
 # HuggingFace
 
@@ -507,7 +507,7 @@ def encode(imgPath):
 which is taken from [here](https://towardsdatascience.com/image-captioning-with-keras-teaching-computers-to-describe-pictures-c88a46a311b8#:~:text=feature%20vector%20as-,follows,-%3A), and is explicitly talked about [here](<https://stackoverflow.com/questions/59305025/why-does-keras-inceptionv3-preprocess-input-and-plt-imshowimg-make-pictures-so#:~:text=The%20preprocessing%20is%20(supposed%20to%20be)%20exactly%20the%20one%20used%20to%20train%20the%20Inception%20model.%20So%2C%20if%20you%20are%20going%20to%20use%20a%20pretrained%20Inception%2C%20it%27s%20essential%20to%20have%20this%20preprocessing%2C%20otherwise%20the%20Inception%20model%20will%20have%20terrible%20performance>)
 
 ## Installation Notes
-(Quick note: if you're planning to use GPU, you have to make sure you have the CUDA/cudnn support on your platform that are compatible with the TF version that you will install based on the two options below, you can check more about how to get CUDA/cudnn [](../Python/Virtual%20Environments/Conda%20Environment.md#Installing%20CUDA|here))
+(Quick note: if you're planning to use GPU, you have to make sure you have the CUDA/cudnn support on your platform that are compatible with the TF version that you will install based on the two options below, you can check more about how to get CUDA/cudnn [[Conda Environment#Installing CUDA|here]])
 
 ([source](https://stackoverflow.com/questions/41402409/tensorflow-doesnt-seem-to-see-my-gpu?answertab=modifieddesc#tab-top:~:text=conda%20install%20tensorflow%3D2*%3Dgpu*))
 run this command in CMD while in a conda/mamba activated environment:
@@ -546,7 +546,7 @@ def dataGenerator(imgToCaptions, imgToFeatures, wordToIdx, vocabSize, maxCaption
                     y.append(outSeq)
             # yield the batch data
             if n == imgsBatchSize:
-                yield [](np.array(X1),%20np.array(X2)],%20np.array(y)]%20#%20"yield"%20saves%20the%20function's%20state,%20returns%20[[..), then continues function from that statement when function is called again
+                yield [[np.array(X1), np.array(X2)], np.array(y)] # "yield" saves the function's state, returns [[..]], then continues function from that statement when function is called again
                 X1, X2, y = list(), list(), list()
                 n=0
 ```
@@ -572,23 +572,23 @@ When a `yield` statement is encountered inside a generator function, it temporar
 ## Show Details About The Model
 
 Given this structure from `model.summary()`:
-![Pasted image 20230223120308](../../Media/Default/Pasted%20image%2020230223120308.png)
+![[Pasted image 20230223120308.png]]
 ...
 
-![Pasted image 20230223120620](../../Media/Default/Pasted%20image%2020230223120620.png)
+![[Pasted image 20230223120620.png]]
 
 Typing this:
 ```python
 model.get_config()['layers'][1]['inbound_nodes']
 ```
 will give us this:
-`[['input_3', 0, 0, {}](['input_3',%200,%200,%20{})]` 
+`[[['input_3', 0, 0, {}]]]` 
 while typing this:
 ```python
 model.get_config()['layers'][-3]['inbound_nodes']
 ```
 will give us this:
-`[['activation_273', 0, 0, {}](['activation_273',%200,%200,%20{})]`
+`[[['activation_273', 0, 0, {}], ['mixed9_1', 0, 0, {}], ['concatenate_5', 0, 0, {}], ['activation_281', 0, 0, {}]]]`
 
 # Code in The Wild
 `summary_writer.add_image(caption, transforms.ToTensor()(real_im), epoch)`

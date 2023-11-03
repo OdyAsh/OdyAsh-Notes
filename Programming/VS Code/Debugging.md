@@ -2,7 +2,7 @@
 
 Possible fix: Make sure to hit the "collapse all" button here:
 
-![Pasted image 20230304163503](../../Media/Default/Pasted%20image%2020230304163503.png)
+![[Pasted image 20230304163503.png]]
 
 # VS Code Makes Files Added To `.gitignore` Ready For `git commit`
 

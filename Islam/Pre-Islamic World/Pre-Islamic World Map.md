@@ -1,5 +1,5 @@
 # Overview
-![Pasted image 20230417181527](../../Media/Default/Pasted%20image%2020230417181527.png)
+![[Pasted image 20230417181527.png]]
 ([source](https://smarthistory.org/pre-islamic-arabia/))
 
 Note: "Persian" == الفرس

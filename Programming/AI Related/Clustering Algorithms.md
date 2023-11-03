@@ -1,8 +1,8 @@
+
 # Table of Contents
+...
 
-
-
-# Clustering Algorithms Overview
+# Clustering Algorithms Types (Overview)
 
 Types of clustering algorithms ([source1](https://link.springer.com/chapter/10.1007/978-981-13-7403-6_9), [source2](https://iprathore71.medium.com/clustering-975f8bc58af0)):
 ![Pasted image 20231020075812](../../Media/Default/Pasted%20image%2020231020075812.png)
@@ -12,7 +12,7 @@ A lot of the basic algorithms of each type have a time-series version.
 
 The following subsections contain brief explanation of basic algorithms.
 
-## Partitional Clustering
+# Partitional Clustering
 
 Illustrations:
 
@@ -22,27 +22,27 @@ Illustrations:
 [Source](https://www.researchgate.net/figure/Partitional-Clustering_fig2_312590567)
 ![475](../../Media/Default/Pasted%20image%2020231020083221.png)
 
-### K-Means
+## K-Means
 
 [Source](https://www.codecademy.com/learn/machine-learning/modules/dspath-clustering/cheatsheet)
 ![k-means-coedacademy](../../Media/AI/k-means-coedacademy.mp4)
 
 Also check source above to understand ***Inertia*** metric measure and how to graph it in order to find optimal K value.
 
-### K-Medoids
+## K-Medoids
 
 [source](https://medium.com/@ozturkfemre/unsupervised-learning-in-r-k-medoids-clustering-8645a6521e4)
 ![k-medoids-odyash-coedacademy](../../Media/AI/k-medoids-odyash-coedacademy.mp4)
 
 To put it simply: it is similar to K-means, but instead of creating a centroid at a new coordinates, we choose an existing data sample to be the centroid.
 
-### Kernel K-Means
+## Kernel K-Means
 
 
 
-## Density-Based Clustering
+# Density-Based Clustering
 
-### When to Use Density-Based Clustering
+## When to Use Density-Based Clustering
 
 Sometimes, we want to cluster data points based on their densities. Example ([source](https://pberba.github.io/stats/2020/07/08/intro-hdbscan/)):
 ![Pasted image 20231020083622|550](../../Media/Default/Pasted%20image%2020231020083622.png)
@@ -57,11 +57,11 @@ If we try partitional-based methods (e.g., K-means), it won't give us optimal re
 
 So we should try density-based methods (like HDBSCAN shown on the right graph).
 
-### Terminologies
+## Terminologies
 
 [Main Source](https://www.atlantbh.com/clustering-algorithms-dbscan-vs-optics/)
 
-#### Epsilon (ε) and minPoints (minPts)
+### Epsilon (ε) and minPoints (minPts)
 
 - **Epsilon (ε)**
 	- the maximum "distance" between two points for one to be considered as in the neighborhood of the other. 
@@ -74,7 +74,7 @@ So we should try density-based methods (like HDBSCAN shown on the right graph).
 		- For example in the visualization above, if `minPoints <= 4`, then the pink point is considered a **core point**
 		- Notice that this definition is closely tied to the definition of **core point** (mentioned below)
 
-#### Types of Points (Core, (Directly) (Density) Reachable, Noise, Connected)
+### Types of Points (Core, (Directly) (Density) Reachable, Noise, Connected)
 
 - **Core point**
 	- a point _p_ is called a core point if at least **minPoints** (including itself) are within distance **ε** of it.
@@ -110,7 +110,7 @@ So we should try density-based methods (like HDBSCAN shown on the right graph).
 Example 2:
 ![[Pasted image 20231025212504.png]]
 
-#### Types of Distances (Core, Reachability)
+### Types of Distances (Core, Reachability)
 
 * **Core distance**
 	* Given a **minPoints** value, it is the minimum distance required for _p_ to be considered a core point.
@@ -131,7 +131,7 @@ Example 2:
 	* Example:
 	  ![[Pasted image 20231025215910.png]]
 
-#### Reachability Plot (Graph)
+### Reachability Plot (Graph)
 
 * The reachability plot is a visualization that shows the **reachability distance** of each point <mark style="background: #FFB8EBA6;">with respect to</mark> its **nearest core point** ([source](https://cdanielaam.medium.com/understanding-optics-clustering-hands-on-with-scikit-learn-1786bddc71f5#:~:text=the%20reachability%20plot.-,Reachability%20plot,-%E2%86%92%20Represents%20distance%20to))
 * This plot helps us visualize the density hierarchy of clusters. For example ([source](https://youtu.be/CV0mWaHOTA8?t=1488)), in the plot below, we can see that the right-most yellow cluster could be further divided into 3 highly dense clusters:
@@ -155,7 +155,7 @@ Illustration 2 ([source](<https://www.atlantbh.com/clustering-algorithms-dbscan-
 ![[opitcs-algo-vis.mp4]]
 side note: I don't think the `Reachability` column in the last video frame is correct, but was altered to make the [reachability plot](https://www.atlantbh.com/clustering-algorithms-dbscan-vs-optics/#:~:text=Figure%205.%20Reachability%20plot%20(Anja%20Plakalovic)) obvious looking, so take this example with a grain of salt.
 
-### DBSCAN
+## DBSCAN
 
 Stands for: Density-Based Spatial Clustering of Applications with Noise
 
@@ -208,7 +208,7 @@ Disadvantages of the DBSCAN algorithm:
 		* The ***constant distance value (ε)*** issue (i.e., global parameter *(ε)*) can be avoided by extending DBSCAN to use [[#OPTICS Ordering (Sorting) Algorithm|OPTICS]] algorithm.
 * Can be sensitive to the scale of the data and the number of dataset samples, so we might need to iterate over several values of 𝜀 to get good results ([source](https://pberba.github.io/stats/2020/01/17/hdbscan/#:~:text=Note%20that%20this%20can%20be%20sensitive%20to%20the%20scale%20of%20the%20data%20and%20the%20sample%20size.%20You%20might%20need%20to%20iterate%20over%20several%20values%20of%20%F0%9D%9C%80%20to%20get%20good%20results.)).
 
-#### OPTICS Ordering (Sorting) Algorithm
+### OPTICS Ordering (Sorting) Algorithm
 
 OPTICS:
 * Stands for *Ordering Points To Identify Clustering Structure*.
@@ -218,7 +218,7 @@ OPTICS:
 * Is considered a generalization of DBSCAN that relaxes the `eps` requirement from a single value to a value range. ([scikit-learn source](https://scikit-learn.org/stable/modules/clustering.html#optics))
 	* The key difference between DBSCAN and OPTICS is that the OPTICS algorithm builds a [[#Reachability Plot (Graph)|reachability graph]], which assigns each sample both a reachability_ [[#Types of Distances (Core, Reachability)|distance]], and a spot within the cluster `ordering_` [[Clustering Algorithms#^6t454f|attribute]]; these two attributes are assigned when the model is fitted, and are used to determine cluster membership. 
 
-##### OPTICS Algorithm Details
+#### OPTICS Algorithm Details
 
 TODO: add images from youtube video
 
@@ -249,7 +249,7 @@ TODO: move bullet points below to section after the algo details section
 
 
 
-### HDBSCAN
+## HDBSCAN
 
 [Amazing Source](https://pberba.github.io/stats/2020/07/08/intro-hdbscan/), [Phenomenal Source that is an in-depth explanation of the Amazing Source](https://pberba.github.io/stats/2020/01/17/hdbscan/)
 
@@ -265,7 +265,7 @@ Note: we use this dataset as a recurring example throughout the upcoming section
 ![[Pasted image 20231021113546.png]]
 Let's call it ***the HDBSCAN dataset***. ^mo6nvm
 
-#### The Two Methods of Estimating Densities
+### The Two Methods of Estimating Densities
 
 * To estimate the density of a group of data, there are two methods ([source](https://pberba.github.io/stats/2020/01/17/hdbscan/#:~:text=We%20need%20other%20ways%20to%20get%20the%20empirical%20PDF.%20Here%20are%20two%20ways%3A)):
 	* Using minPts based on a given eps (𝜀-radius)
@@ -284,7 +284,7 @@ Let's call it ***the HDBSCAN dataset***. ^mo6nvm
 			* Side note 2: the right graph above is called a *density landscape*, but represented in 2D.
 
 
-#### Visualizing HDBSCAN Density Landscape and Level-Sets
+### Visualizing HDBSCAN Density Landscape and Level-Sets
 
 Now, coming back to [[Clustering Algorithms#^mo6nvm|the HDBSCAN dataset]], we can visualize its ***3D density landscape*** like this:
 
@@ -295,9 +295,9 @@ Now, we said that we'll use HDBSCAN's ***core distance*** method to estimate den
 For example, the visualizations below have the following 3 K values: 30, 25, 20, which will give us the average core distances: 0.025, 0.045, 0.6 ("average", as core distances change from a point to another, as seen in the [[Clustering Algorithms#^x0k7le|estimating densities section]]):
 ![[Pasted image 20231021150434.png]]
 
-#### Cluster Selection
+### Cluster Selection
 
-#### Using Global Threshold (Which is Incorrect)
+### Using Global Threshold (Which is Incorrect)
 
 Important question: how "highly dense" should a group of data be to be considered a cluster? In other words, what's the threshold? Answer always depends of the data, but instead of manual hyper parameter tuning, HDBSCAN tries to find the optimal threshold value for us :]
 
@@ -326,7 +326,7 @@ These questions are why ***global thresholding don't work, and why we should ass
 
 <mark style="background: #FF5582A6;">HDBSCAN splitting strategy</mark> aims to fix this issue.
 
-#### HDBSCAN Splitting Strategy
+### HDBSCAN Splitting Strategy
 
 HDBSCAN splitting strategy is used to select clusters ***from varying densities***.
 

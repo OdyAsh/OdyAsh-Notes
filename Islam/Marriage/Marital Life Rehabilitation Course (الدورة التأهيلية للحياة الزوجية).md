@@ -1,5 +1,5 @@
 
-# دوافع الزواج (Marriage Motives)
+# Marriage Motives (دوافع الزواج)
 
 There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t=249)):
 
@@ -10,15 +10,15 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 5. Psychological motives ([19:05](https://youtu.be/SEGvDTEvXPE?t=1146))
 6. Personal (own) motives ([25:20](https://youtu.be/SEGvDTEvXPE?t=1525))
 
-# التأهيل النفسي للمتزوجين (Psychological rehabilitation for Married Couples)
+# Psychological rehabilitation for Married Couples (التأهيل النفسي للمتزوجين)
 
 [source](https://www.youtube.com/watch?v=zxFwWS5UM8U&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=4)
-## الزواج مسؤولية (Marriage is a Responsibility)
+## Marriage is a Responsibility (الزواج مسؤولية)
 
 قال تعالى {الرجال قوامون على النساء بما فضل الله بعضهم على بعض وبما أنفقوا من أموالهم فالصالحات قانتات حافظات للغيب بماحفظ الله}
 النساء 34
 
-### مسؤولية الرجال (Men's Responsibilities)
+### Men's Responsibilities (مسؤولية الرجال)
 
 * القوامة
 	* ان يقوم على رعاية زوجته
@@ -27,7 +27,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 * النفقة 
 	* المرأة ملكة اذا كانت صغيرة نفقتها على أبوها ثم زوجها ثم أولادها أو أخوانها إذا مات زوجها وان كانت الزوجة موظفة براتب أعلى منك لايلزمها قانون أو شرعا بالنفقة على البيت 
 
-### مسؤولية المرأة (Women's Responsibilities)
+### Women's Responsibilities (مسؤولية المرأة)
 
 * طاعة الزوج وطاعة الله
 	* ان الله تعالى قال فيما يرويه النبي صل ّ الله عليه وسلم
@@ -38,13 +38,13 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 * حفظ البيت
 	* وراء كل عظيم امرأة عظيمة
 
-## الزواج تضحية (Marriage is a Sacrifice)
+## Marriage is a Sacrifice (الزواج تضحية)
 
 
-## الزواج قبول للإختلاف (Marriage is Accepting Other's Differences)
+## Marriage is Accepting Other's Differences (الزواج قبول للإختلاف)
 
 
-# خمس نقاط حول الزواج (Five Topics Around Marriage)
+# 5 Topics Around Marriage (خمس نقاط حول الزواج)
 
 [source](https://www.youtube.com/watch?v=kJ33TCqPlRE)
 
@@ -56,7 +56,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 
 
 
-# اختيار الزوجة (Choosing The Wife)
+# Choosing The Wife (اختيار الزوجة)
 
 [source1](https://www.youtube.com/watch?v=IN34wWBsOe8), [source2](https://www.youtube.com/watch?v=eKKceF50rto)
 
@@ -92,7 +92,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 * ماذا تعمل أمها؟
 * كم لها من الأخوات البنات؟
 
-# اختيار الزوج (Choosing The Husband)
+# Choosing The Husband (اختيار الزوج)
 
 1. الإسلام
 2. الصلاح ([12:00](https://youtu.be/AMbXpuKSjyk?t=723))
@@ -102,7 +102,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 5. الجمال
 
 
-# الخطبة (The Engagement)
+# The Engagement (الخطبة)
 
 ([source](https://www.youtube.com/watch?v=3QE1N0D_cLc))
 
@@ -131,7 +131,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 لا يصح أن تخطب على خطبة أخيك أو أمرأة في عدة الطلاق
 ولا يصح الخطبة في الحج أو العمرة وهي تؤدي مناسك
 
-# الإستخارة الشرعية (Istikhara)
+# Istikhara (الإستخارة الشرعية)
 
 إذا همّ أحدكم أمرا فليركع ركعتين من غير الفريضة ثم يدعو دعاء الإستخارة
 
@@ -139,7 +139,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 
 "قال النبي صل الله عليه وسلم"ماخاب من استخار وماندم من استشار
 
-# العقد, الزواج, كتب الكتاب (Marriage Contract)
+# Marriage Contract (العقد, الزواج, كتب الكتاب)
 
 يستحب أن يكون الزواج بين العيدين اقتداء بالنبي
 
@@ -186,7 +186,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 	* ثبوت نسب الأولاد من الزوج
 	* ثبوت حق الإرث بين الزوجين
 
-# الفترة بين العقد والعرس (The Period Between The Contract and The Wedding)
+# The Period Between The Contract and The Wedding (الفترة بين العقد والعرس)
 
 [مصدر](https://www.youtube.com/watch?v=3DOJKX-tryw&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=14)
 
@@ -229,7 +229,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 		* (اذا كان الله بين الزوجين فهو سيتولى التوفيق بينهما)
 
 
-# ليلة العرس (Wedding Night)
+# Wedding Night (ليلة العرس)
 
 [مصدر](https://www.youtube.com/watch?v=U8qiJ585n1Q&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=19)
 
@@ -252,7 +252,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 		* إذا كان هناك سؤالا أو استفسارا اسأل من تثق بدينه الرجال مع الرجال والنساء مع النساء
 
 
-# محمد كزوج (The Prophet Muhammed as a Husband)
+# The Prophet Muhammed as a Husband (محمد كزوج)
 
 [مصدر 1](https://www.youtube.com/watch?v=1ikRT2CW0O8&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=16)
 
@@ -274,7 +274,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 * خيركم خيركم لأهله ،وانا خيركم لأهله محمد صل الله عليه وسلم
 * ([25:00](https://youtu.be/gvig7mftxWk?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=1502))
 
-# مسؤوليات الزوجة (Wife Responsibilities)
+# Wife Responsibilities (مسؤوليات الزوجة)
 
 [مصدر](https://www.youtube.com/watch?v=5-Ws3CDGvSo&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=21)
 
@@ -288,7 +288,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 		* لَا يَحِلُّ لِلْمَرْأَةِ أَنْ تَصُومَ وَزَوْجُهَا شَاهِدٌ إِلَّا بِإِذْنِهِ
 
 
-# الذي تريده الزوجة من زوجها, و العكس (What The Wife Needs from The Husband and Vice Versa)
+# What The Wife Needs from The Husband (and Vice Versa) (ماذا تريد الزوجة من زوجها؟)
 
 [مصدر](https://www.youtube.com/watch?v=xu5cH55rHEg)
 
@@ -334,7 +334,6 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 * تبادل الأحاديث
 * توفير المال
 	* 8%
-
 
 # كيف تسعد من حولك (How to Bring Joy to Others)
 

@@ -26,15 +26,15 @@ when designing a website for optimal visual hierarchy (source: [this](https://99
 -   Remember that the ultimate goal of visual hierarchy is to guide the viewer towards important information and actions on the page.
 
 Related screenshots:
-![450](../../Media/Default/Pasted%20image%2020230324070200.png)
+![[Pasted image 20230324070200.png|450]]
 
-![450](../../Media/Default/Pasted%20image%2020230324070207.png)
+![[Pasted image 20230324070207.png|450]]
 
-![425](../../Media/Default/Pasted%20image%2020230324070217.png)
+![[Pasted image 20230324070217.png|425]]
 
-![425](../../Media/Default/Pasted%20image%2020230324070228.png)
+![[Pasted image 20230324070228.png|425]]
 
-![425](../../Media/Default/Pasted%20image%2020230324070237.png)
+![[Pasted image 20230324070237.png|425]]
 
 # The 6 principles of visual hierarchy
 
