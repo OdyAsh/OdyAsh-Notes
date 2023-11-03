@@ -20038,7 +20038,7 @@ var lodash = createCommonjsModule(function (module, exports) {
      * // => '***'
      *
      * _.repeat('abc', 2);
-     * // => 'abcabc'
+     * // => 'YOUR-API-KEY'
      *
      * _.repeat('abc', 0);
      * // => ''
