@@ -19,20 +19,11 @@ Basic vector characteristics:
 
 again:
 
-$\vec{v}=\left(5,0\right)=\left[\begin{array}{l}{5}\cr{0}\end{array}\right]$
+$\vec{v}=\left(5,0\right)=\begin{bmatrix}5\cr0\end{bmatrix}$
+Again:
+$$\vec{v}=\left(5,0\right)=\begin{bmatrix}5\cr0\end{bmatrix}$$
 
 $$\vec{v}=\left(5,0\right)=\left[\begin{array}{l}{5}\cr{0}\end{array}\right]$$
-
-$$
-\vec{v}
-=\left(5,0\right)
-=\left[
-\begin{array}{l}{5}\cr{0}\end{array}\right
-]
-$$
-
-
-$$\left[\begin{array}{l}{5}\cr{0}\end{array}\right]$$
 
 ## Vector Addition
 
