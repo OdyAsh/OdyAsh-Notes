@@ -16,6 +16,7 @@ Basic vector characteristics:
 * It can be [added](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/adding-vectors) and [multiplied (by scalers)](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/multiplying-vector-by-scalar)
 
 again:
+
 $\vec{v}=\left(5,0\right)=\left[\begin{array}{l}{5}\cr{0}\end{array}\right]$
 
 $$\vec{v}=\left(5,0\right)=\left[\begin{array}{l}{5}\cr{0}\end{array}\right]$$
