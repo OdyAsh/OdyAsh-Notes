@@ -8,12 +8,15 @@ sources:
 It is something that has a magnitude and a direction.
 
 Intuitive example ([source](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)):
+
 ![](Attachments%20-%20Vectors/Pasted%20image%2020231104130417.png)
 
 # Vector Notation
 
 It has notation like the following: 
+
 $$\vec{v}=\left(5,0\right)=\left[\begin{array}{l}{5}\cr{0}\end{array}\right]=5i+0j$$
+
 Such that:
 * $5$ and $0$ are called ***components*** of a vector, while $(5,0)$ is called a ***2-tuple*** in a 2-D real coordinate space $\left(\mathbb{R}^2\right)$ ([source](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/real-coordinate-spaces)).
 	* Side note 1: $\mathbb{R}^2$ is also called a ***set***, such that $\vec{v}\in\mathbb{R}^2$ is called " vector $\vec{v}$  belongs in the set $\mathbb{R}^2$ "
