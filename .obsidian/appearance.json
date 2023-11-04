@@ -4,7 +4,8 @@
   "baseFontSize": 18,
   "enabledCssSnippets": [
     "image-details",
-    "bullet-points"
+    "bullet-points",
+    "spaces-between-paragraphs"
   ],
   "translucency": false
 }

@@ -1,8 +1,7 @@
 
-# Marriage Motives (دوافع الزواج)
+# دوافع الزواج (Marriage Motives)
 
 There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t=249)):
-
 1. Religious motives ([4:34](https://youtu.be/SEGvDTEvXPE?t=274))
 2. Social motives ([6:42](https://youtu.be/SEGvDTEvXPE?t=402))
 3. Sexual motives ([10:24](https://youtu.be/SEGvDTEvXPE?t=625))
@@ -10,15 +9,15 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 5. Psychological motives ([19:05](https://youtu.be/SEGvDTEvXPE?t=1146))
 6. Personal (own) motives ([25:20](https://youtu.be/SEGvDTEvXPE?t=1525))
 
-# Psychological rehabilitation for Married Couples (التأهيل النفسي للمتزوجين)
+# التأهيل النفسي للمتزوجين (Psychological rehabilitation for Married Couples)
 
 [source](https://www.youtube.com/watch?v=zxFwWS5UM8U&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=4)
-## Marriage is a Responsibility (الزواج مسؤولية)
+## الزواج مسؤولية (Marriage is a Responsibility)
 
 قال تعالى {الرجال قوامون على النساء بما فضل الله بعضهم على بعض وبما أنفقوا من أموالهم فالصالحات قانتات حافظات للغيب بماحفظ الله}
 النساء 34
 
-### Men's Responsibilities (مسؤولية الرجال)
+### مسؤولية الرجال (Men's Responsibilities)
 
 * القوامة
 	* ان يقوم على رعاية زوجته
@@ -27,7 +26,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 * النفقة 
 	* المرأة ملكة اذا كانت صغيرة نفقتها على أبوها ثم زوجها ثم أولادها أو أخوانها إذا مات زوجها وان كانت الزوجة موظفة براتب أعلى منك لايلزمها قانون أو شرعا بالنفقة على البيت 
 
-### Women's Responsibilities (مسؤولية المرأة)
+### مسؤولية المرأة (Women's Responsibilities)
 
 * طاعة الزوج وطاعة الله
 	* ان الله تعالى قال فيما يرويه النبي صل ّ الله عليه وسلم
@@ -38,13 +37,13 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 * حفظ البيت
 	* وراء كل عظيم امرأة عظيمة
 
-## Marriage is a Sacrifice (الزواج تضحية)
+## الزواج تضحية (Marriage is a Sacrifice)
 
 
-## Marriage is Accepting Other's Differences (الزواج قبول للإختلاف)
+## الزواج قبول للإختلاف (Marriage is Accepting Other's Differences)
 
 
-# 5 Topics Around Marriage (خمس نقاط حول الزواج)
+# خمس نقاط حول الزواج (Five Topics Around Marriage)
 
 [source](https://www.youtube.com/watch?v=kJ33TCqPlRE)
 
@@ -56,7 +55,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 
 
 
-# Choosing The Wife (اختيار الزوجة)
+# اختيار الزوجة (Choosing The Wife)
 
 [source1](https://www.youtube.com/watch?v=IN34wWBsOe8), [source2](https://www.youtube.com/watch?v=eKKceF50rto)
 
@@ -92,7 +91,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 * ماذا تعمل أمها؟
 * كم لها من الأخوات البنات؟
 
-# Choosing The Husband (اختيار الزوج)
+# اختيار الزوج (Choosing The Husband)
 
 1. الإسلام
 2. الصلاح ([12:00](https://youtu.be/AMbXpuKSjyk?t=723))
@@ -102,7 +101,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 5. الجمال
 
 
-# The Engagement (الخطبة)
+# الخطبة (The Engagement)
 
 ([source](https://www.youtube.com/watch?v=3QE1N0D_cLc))
 
@@ -131,7 +130,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 لا يصح أن تخطب على خطبة أخيك أو أمرأة في عدة الطلاق
 ولا يصح الخطبة في الحج أو العمرة وهي تؤدي مناسك
 
-# Istikhara (الإستخارة الشرعية)
+# الإستخارة الشرعية (Istikhara)
 
 إذا همّ أحدكم أمرا فليركع ركعتين من غير الفريضة ثم يدعو دعاء الإستخارة
 
@@ -139,7 +138,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 
 "قال النبي صل الله عليه وسلم"ماخاب من استخار وماندم من استشار
 
-# Marriage Contract (العقد, الزواج, كتب الكتاب)
+# العقد, الزواج, كتب الكتاب (Marriage Contract)
 
 يستحب أن يكون الزواج بين العيدين اقتداء بالنبي
 
@@ -186,7 +185,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 	* ثبوت نسب الأولاد من الزوج
 	* ثبوت حق الإرث بين الزوجين
 
-# The Period Between The Contract and The Wedding (الفترة بين العقد والعرس)
+# الفترة بين العقد والعرس (The Period Between The Contract and The Wedding)
 
 [مصدر](https://www.youtube.com/watch?v=3DOJKX-tryw&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=14)
 
@@ -229,7 +228,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 		* (اذا كان الله بين الزوجين فهو سيتولى التوفيق بينهما)
 
 
-# Wedding Night (ليلة العرس)
+# ليلة العرس (Wedding Night)
 
 [مصدر](https://www.youtube.com/watch?v=U8qiJ585n1Q&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=19)
 
@@ -252,7 +251,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 		* إذا كان هناك سؤالا أو استفسارا اسأل من تثق بدينه الرجال مع الرجال والنساء مع النساء
 
 
-# The Prophet Muhammed as a Husband (محمد كزوج)
+# محمد كزوج (The Prophet Muhammed as a Husband)
 
 [مصدر 1](https://www.youtube.com/watch?v=1ikRT2CW0O8&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=16)
 
@@ -274,7 +273,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 * خيركم خيركم لأهله ،وانا خيركم لأهله محمد صل الله عليه وسلم
 * ([25:00](https://youtu.be/gvig7mftxWk?list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&t=1502))
 
-# Wife Responsibilities (مسؤوليات الزوجة)
+# مسؤوليات الزوجة (Wife Responsibilities)
 
 [مصدر](https://www.youtube.com/watch?v=5-Ws3CDGvSo&list=PLuUMLXxxQ8fh8hN7M5QPAiJkvgyuYIJ7v&index=21)
 
@@ -288,7 +287,7 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 		* لَا يَحِلُّ لِلْمَرْأَةِ أَنْ تَصُومَ وَزَوْجُهَا شَاهِدٌ إِلَّا بِإِذْنِهِ
 
 
-# What The Wife Needs from The Husband (and Vice Versa) (ماذا تريد الزوجة من زوجها؟)
+# ماذا تريد الزوجة من زوجها و العكس (What The Wife Needs from The Husband, and Vice Versa)
 
 [مصدر](https://www.youtube.com/watch?v=xu5cH55rHEg)
 
@@ -564,4 +563,11 @@ There are 6 common motives for marriage ([source](https://youtu.be/SEGvDTEvXPE?t
 		* عليه الحرام ([19:40](https://youtu.be/Qp8PZU7fGVo?t=1011))
 			* أكنه يقول: زوجته عليه حرام
 
-2wl shart: 
+# كيف الطلاق الشرعى (How to Legally Divorce)
+
+[مصدر](https://www.youtube.com/watch?v=lUFNtnumcKA)
+
+الطلاق الشرعي يتم عند توافق أربعة أُمور:
+* أن يكون الطلاق لسبب معتَبَر شرعي ([7:25](https://youtu.be/lUFNtnumcKA?t=424))
+	* 
+* 

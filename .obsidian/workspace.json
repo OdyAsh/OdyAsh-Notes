@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/AI Related/Power BI.md",
+                "file": "consistency-report.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +120,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/AI Related/Power BI.md"
+                "file": "consistency-report.md"
               }
             }
           },
@@ -148,7 +148,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/AI Related/Power BI.md",
+                "file": "consistency-report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,7 +165,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/AI Related/Power BI.md",
+                "file": "consistency-report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -195,7 +195,16 @@
   },
   "active": "f604961b3b80bd08",
   "lastOpenFiles": [
+    "Programming/AI Related/Power BI.md",
     "consistency-report.md",
+    "Obsidian/Debugging Obsidian.md",
+    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+    "Obsidian/Media/Pasted image 20231104065550.png",
+    "Obsidian/Attachments - Debugging Obsidian",
+    "Obsidian/Attachments - Debugging Obsidian/Pasted image 20231104065706.png",
+    "Obsidian/Attachments - Debugging Obsidian/Pasted image 20231104065626.png",
+    "Obsidian/Media",
+    "Obsidian/UI Tips.md",
     "Programming/AI Related/Clustering Algorithms.md",
     "Programming/AI Related/Attachments - Clustering Algorithms/opitcs-algo-vis.gif",
     "Programming/AI Related/Attachments - Clustering Algorithms/dbscan-vis-with-steps.gif",
@@ -211,14 +220,10 @@
     "Islam/Prophet Muhammad/Attachments - The Prophet's Companions",
     "Islam/Prophets Overview/Attachments - Prophets Overview.excalidraw",
     "Islam/The Quran/Attachments - 1. Surah Al-Fatiha (الفاتحة)",
-    "Islam/The Quran/Attachments - 2. Surah Al-Baqarah (البقرة)",
-    "Islam/The Quran/Attachments - 53. Surah An-Najm (النجم).excalidraw",
     "README.md",
     "Untitled 1.md",
     "Untitled.md",
-    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
     "Programming/AI Related/Power BI Questions.md",
-    "Programming/AI Related/Power BI.md",
     "Islam/Marriage/Media/Pasted image 20231103174301.png",
     "Competitions/Egypt IoT And AI 2023/Innovation Notes.md",
     "Secrets/APIs.md",
@@ -231,15 +236,10 @@
     "Writing/Blogs/How to log EVERYTHING in PyTorch Lightning - A Manual Approach.md",
     "Competitions/Egypt IoT And AI 2023/Hybrid Session Smart Village.md",
     "Programming/AI Related/Attachments - Power BI Questions/Pasted image 20231031085940.png",
-    "Programming/AI Related/Attachments - Power BI Questions/Pasted image 20231031085921.png",
-    "Programming/AI Related/Attachments - Power BI Questions/Pasted image 20231031083237.png",
-    "Programming/AI Related/Attachments - Clustering Algorithms/Pasted image 20231028203614.png",
     "Programming/AI Related/Data Analytics Notes.md",
     "Islam/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
     "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
     "Islam/Prophet Muhammad/Prophet Muhammad.excalidraw.md",
-    "Programming/AI Related/k-medoids.excalidraw.md",
-    "Programming/AI Related/Model Libraries.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
