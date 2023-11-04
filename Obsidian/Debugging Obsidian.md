@@ -25,3 +25,13 @@ Now, if for some reason, you want to remove the `<br>` tags surrounding images, 
 and this in replace:
 `$2`
 
+# MathJax/Latex Compatibility with GitHub
+
+check out [commits](https://github.com/OdyAsh/OdyAsh-Notes/commits/main/Mathematics/Linear%20Algebra/Vectors.md) on Nov 4, 2023, on the [Vectors.md](../Mathematics/Linear%20Algebra/Vectors.md) file, what I deduced from all these attempts are the following:
+
+* Probably any equations that contain any form of matrix/vector (square brackets, parentheses. etc.) can NOT be rendered on the same line of text EVEN IF we're using `$$` instead of `$`.
+	* In that case, you have to start a new line (that has `newline` before and after the equation), make it use `$$`, and it can NOT be in a bullet point.
+* Use `\cr` instead of `\\` to signify `newline` in latex.
+
+
+
