@@ -1,5 +1,5 @@
 {
-  "attachmentFolderPath": "./Media",
+  "attachmentFolderPath": "./Media-Temp",
   "alwaysUpdateLinks": true,
   "spellcheckDictionary": [
     "Alsuleiman",
@@ -26,5 +26,6 @@
   "newLinkFormat": "relative",
   "showUnsupportedFiles": true,
   "useMarkdownLinks": true,
-  "showLineNumber": true
+  "showLineNumber": true,
+  "newFileLocation": "current"
 }

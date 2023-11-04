@@ -7,3 +7,17 @@ Then disabling this plugin might help:
 
 Also, this "Typewriter Scroll" might be responsible for Obsidian being slow when editing large markdown files.
 
+# Images Appear in The Same Line When Viewing from GitHub
+
+Example:
+![](Media/Pasted%20image%2020231104084943.png)
+
+Solution:
+Install [this](https://github.com/Gru80/obsidian-regex-replace) plugin from obsidian, then type the following in find:
+`(\!\[.*?\]\(.*?\.\w{3}\)|\[\[.*?\.\w{3}\]\])`
+(without the backtick symbols at the start and the end)
+and type the following in replace:
+`<br>$1<br>`
+(without the backtick symbols at the start and the end)
+
+

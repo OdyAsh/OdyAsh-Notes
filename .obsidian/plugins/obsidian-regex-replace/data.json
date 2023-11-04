@@ -1,0 +1,10 @@
+{
+  "findText": "(\\!\\[.*?\\]\\(.*?\\.\\w{3}\\)|\\[\\[.*?\\.\\w{3}\\]\\])",
+  "replaceText": "<br>$1<br>",
+  "useRegEx": true,
+  "selOnly": false,
+  "caseInsensitive": false,
+  "processLineBreak": true,
+  "processTab": false,
+  "prefillFind": true
+}

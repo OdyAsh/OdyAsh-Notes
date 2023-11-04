@@ -36,5 +36,6 @@
   "consistent-attachments-and-links",
   "obsidian-git",
   "obsidian-trash-explorer",
-  "obsidian-link-converter"
+  "obsidian-link-converter",
+  "obsidian-regex-replace"
 ]
