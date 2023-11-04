@@ -10,8 +10,8 @@ Basic vector characteristics:
 	* Intuitive example ([source](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)):
 	  ![[Pasted image 20231103144158.png]]
 * It has the following notation: $\vec{v}=\left(5,0\right)=\left[\begin{array}{c}{5}\cr{0}\end{array}\right]$ 
-	* $5$ and $0$ are called ***components*** of a vector, while $\left(5,0\right)$ is called a ***2-tuple*** in a 2-D real coordinate space $\left(\mathbb{R}^2\right)$ ([source](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/real-coordinate-spaces)).
-		* Side note 1: $\mathbb{R}^2$ is also called a ***set***, such that $\overrightarrow{x}\in\mathbb{R}^2$ is called "vector $\overrightarrow{x}$  belongs in the set $\mathbb{R}^2$"
+	* $5$ and $0$ are called ***components*** of a vector, while $(5,0)$ is called a ***2-tuple*** in a 2-D real coordinate space $\left(\mathbb{R}^2\right)$ ([source](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/real-coordinate-spaces)).
+		* Side note 1: $\mathbb{R}^2$ is also called a ***set***, such that $\vec{v}\in\mathbb{R}^2$ is called "vector $\vec{v}$  belongs in the set $\mathbb{R}^2$"
 		* Side note 2: it can also be represented using unit vectors $i$ and $j$ , as explained in the [Unit vector](#Unit%20vector) section.
 * It can be [added](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/adding-vectors) and [multiplied (by scalers)](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/multiplying-vector-by-scalar)
 
