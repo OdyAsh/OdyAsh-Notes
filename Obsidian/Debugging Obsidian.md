@@ -14,10 +14,14 @@ Example:
 
 Solution:
 Install [this](https://github.com/Gru80/obsidian-regex-replace) plugin from obsidian, then type the following in find:
-`(\!\[.*?\]\(.*?\.\w{3}\)|\[\[.*?\.\w{3}\]\])`
+`(?<!<br>)(\!\[.*?\]\(.*?\.\w{3}\)|\[\[.*?\.\w{3}\]\])(?<!<br>)`
 (without the backtick symbols at the start and the end)
 and type the following in replace:
 `<br>$1<br>`
 (without the backtick symbols at the start and the end)
 
+Now, if for some reason, you want to remove the `<br>` tags surrounding images, type this in find:
+`(<br>)(\!\[.*?\]\(.*?\.\w{3}\)|\[\[.*?\.\w{3}\]\])(<br>)`
+and this in replace:
+`$2`
 
