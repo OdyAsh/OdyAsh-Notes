@@ -143,10 +143,7 @@ Specifically, in cartesian coordinates, <mark style="background: #FF5582A6;">the
 
 $$\begin{aligned}
 \hat{i}&=
-\left[\begin{array}{c}{1}\cr{0}\cr\end{array}\right] 
-
-\cr \cr
-
+\left[\begin{array}{c}{1}\cr{0}\cr\end{array}\right] \cr\cr
 \hat{j}&=
 \left[\begin{array}{c}{0}\cr{1}\cr\end{array}\right]
 \end{aligned}$$
