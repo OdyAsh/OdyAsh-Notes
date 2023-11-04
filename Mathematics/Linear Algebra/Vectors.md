@@ -141,7 +141,7 @@ Definition:
 
 Specifically, in cartesian coordinates, <mark style="background: #FF5582A6;">the unit vectors along the axis are denoted by i and j respectively</mark>. Their formulae:
 
-$$ \begin{aligned}
+$$\begin{aligned}
 \hat{i}&=
 \left[\begin{matrix}{1}\cr{0}\cr\end{matrix}\right] 
 
