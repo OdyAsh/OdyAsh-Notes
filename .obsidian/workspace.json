@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7b8a01945d6b0a58",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Linear Algebra/Vectors.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "8ad07a4fedd140fb",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Obsidian/Debugging Obsidian.md",
+                "file": "Mathematics/Linear Algebra/Vectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -215,12 +203,13 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "7b8a01945d6b0a58",
+  "active": "8ad07a4fedd140fb",
   "lastOpenFiles": [
+    "Obsidian/Debugging Obsidian.md",
+    "Mathematics/Linear Algebra/Vectors.md",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104112617.png",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104112518.png",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104112236.png",
-    "Mathematics/Linear Algebra/Vectors.md",
     "Programming/AI Related/Power BI.md",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104110053.png",
     "Mathematics/Linear Algebra/Attachments - Vectors/vector-addition.mp4",
@@ -231,7 +220,6 @@
     "Mathematics/Linear Algebra/Attachments - Vectors/vector-scalar-multiplication.gif",
     "Mathematics/Linear Algebra/Attachments - Vectors/vector-scalar-multiplication.gif.crdownload",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104104131.png",
-    "Obsidian/Debugging Obsidian.md",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104093754.png",
     "Mathematics/Linear Algebra/Media-Temp",
     "Programming/AI Related/Data Analytics Notes.md",
@@ -240,7 +228,6 @@
     "Obsidian/Media/Pasted image 20231104084943.png",
     "Obsidian/Media",
     "Obsidian/Attachments - Debugging Obsidian/Pasted image 20231104082158.png",
-    "Obsidian/Media/Pasted image 20231104082059.png",
     "Programming/Python/Virtual Environments/Conda Environment.md",
     "Virtual Environments/ Conda Environment.md",
     "Virtual Environments",
