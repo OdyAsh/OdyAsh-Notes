@@ -1,4 +1,3 @@
-# Power BI Basics
 ## Power BI Core Components
 
 [Microsoft Source](https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/5-summary-cleanup)
@@ -345,7 +344,7 @@ Benefits:
 * Create specialized datasets
 	* Typically, DirectQuery mode supports relational database sources. That’s because Power BI must translate analytic queries to native queries understood by the data source.
 	* However, there’s one powerful exception. You can connect to a Power BI dataset (or Azure Analysis Services model) and convert it to a DirectQuery local model. A local model is a relative term that describes a model’s relationship to another model. In this case, the original dataset is a remote model, and the new dataset is the local model. These models are chained, which is term used to describe related models. You can chain up to three models in this way.
-	* This capability to chain models supports the potential to personalize and/or extend a remote model. The simplest thing you can do is rename objects, like tables or columns, or add measures to the local model. You can also extend the model with calculated columns or calculated tables, or add new import or DirectQuery tables. However, these extensions result in the creation of new source groups, which means the model becomes a [](Power%20BI.md#Composite%20Model|composite%20model). That scenario is described in [Unit 5](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/5-determine-when-to-develop-composite-model).
+	* This capability to chain models supports the potential to personalize and/or extend a remote model. The simplest thing you can do is rename objects, like tables or columns, or add measures to the local model. You can also extend the model with calculated columns or calculated tables, or add new import or DirectQuery tables. However, these extensions result in the creation of new source groups, which means the model becomes a [composite model](#Composite%20Model). That scenario is described in [MS Unit 5](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/5-determine-when-to-develop-composite-model). 
 	* For more information, see [Using DirectQuery for Power BI datasets and Azure Analysis Services](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-directquery-datasets-azure-analysis-services).
 
 Limitations:
@@ -374,7 +373,7 @@ When you use DirectQuery to connect to data in Power BI Desktop, that connection
 
  [M source](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/5-determine-when-to-develop-composite-model)
 
-A composite model comprises more than one [](Power%20BI.md#^ngupkb|source%20group). Typically, there’s always the import source group and a DirectQuery source group:
+A composite model comprises more than one [source group](#DirectQuery%20Model). Typically, there’s always the import source group and a DirectQuery source group:
 ![Pasted image 20230930134927](./Attachments%20-%20Power%20BI/Pasted%20image%2020230930134927.png)
 
 Benefits:
@@ -390,7 +389,7 @@ Limitations:
 	* set related dimension tables to use dual storage mode. 
 	* This scenario is described later
 * When chaining models, modifications made to upstream models can break downstream models. Be sure to assess the impact of modifications by performing [dataset impact analysis](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-dataset-impact-analysis) first.
-* Relationships between tables from different source groups are known as limited relationships. A model relationship is limited when the Power BI can’t determine a “one” side of a relationship. Limited relationships may result in different evaluations of model queries and calculations. For more information, see [](Power%20BI.md#Relationship%20Evaluation%20Advanced|Relationship%20evaluation) (its [M source](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand)).
+* Relationships between tables from different source groups are known as limited relationships. A model relationship is limited when the Power BI can’t determine a “one” side of a relationship. Limited relationships may result in different evaluations of model queries and calculations. For more information, see [Relationship Evaluation (Advanced)](#Relationship%20Evaluation%20(Advanced)) (its [M source](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand)).
 
 ##### Boost DirectQuery model performance with import data
 
@@ -437,9 +436,9 @@ So click load, then click on the expander button, then uncheck prefix option, th
 
 [M source](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand#relationship-evaluation)
 
-first of all, an example of a [](Power%20BI.md#Composite%20Model|composite%20model):
+first of all, an example of a [composite model](#Composite%20Model):
 ![Pasted image 20230930140506](./Attachments%20-%20Power%20BI/Pasted%20image%2020230930140506.png)
-(side note: vertipaq is just a case scenario name for an [](Power%20BI.md#^v8cl9b|import%20source%20group)).
+(side note: vertipaq is just a case scenario name for an [import source group](#DirectQuery%20Model)).
 
 Relationships can be evaluated into one of the following two types:
 ### Regular relationships
@@ -485,7 +484,7 @@ Note, Power BI indicates a limited relationship by the parentheses `( )` here:
 # Working With Tables (Power BI Model View)
 
 [M source](https://learn.microsoft.com/en-us/training/modules/design-model-power-bi/2-tables)
-## Configuring Data Model and Building relationships between tables
+## Configuring Data Model and Building relationships between Tables
 
 click here:
 ![Pasted image 20231002142905](./Attachments%20-%20Power%20BI/Pasted%20image%2020231002142905.png)
@@ -621,7 +620,7 @@ Selecting **Mark as date table** <mark style="background: #D2B3FFA6;">will rem
 
 The final step to build your visuals is to establish a relationship between this new common date table and the other tables that contain dates (e.g., Sales and Orders tables).
 
-To do this, access the `manage relationships` menu by following the steps previously described in "[](Power%20BI.md#Configure%20data%20model%20and%20build%20relationships%20between%20tables|Configure%20data%20model%20and%20build%20relationships%20between%20tables)" header, such that the final menu configuration looks similar to this:
+To do this, access the `manage relationships` menu by following the steps previously described in "[configure data model](#Configuring%20Data%20Model%20and%20Building%20relationships%20between%20Tables)" header, such that the final menu configuration looks similar to this:
 ![Pasted image 20231002204342](./Attachments%20-%20Power%20BI/Pasted%20image%2020231002204342.png)
 
 Alternatively, you can just drag and drop the date column into the other required tables from the model view as shown [here](https://youtu.be/-li7sxUxEqA?t=180) (at 3:00)
@@ -859,7 +858,7 @@ The following bullet points are explanation of the two cases above:
 
 * **Row Context** is related to **current rows.**
 	* If you create a calculation using the **[calculated column](#Calculated%20Columns)**, the row context involves the **values of all** columns from the **current** row.
-		* If that table [](Power%20BI.md#^128yfb|has%20a relationship with%20the other%20table), then it includes all the **related** values from the other table for that row.
+		* If that table [has a relationship with the other table](#Calculated%20Columns), then it includes all the **related** values from the other table for that row.
 	* There are some [iterative functions](#Iterator%20Functions) in **DAX** over a table. Those functions involve **multiple** rows during calculation and each with its own **row context**.
 
 Visualized example of row context in a calculated column ([source](https://powerbidocs.com/2021/01/07/filter-context-and-row-context-in-power-bi/)):
@@ -1824,8 +1823,8 @@ Tips on how to optimize Power BI performance (i.e., decrease the time it takes t
 	* Per visual, limit the number of fields (measures or columns) to 100 or less.
 * Regarding DAX
 	* Optimize the DAX code by using more efficient functions.
-		* Example: [](Power%20BI.md#^a8h0ge|replacing%20FILTER%20with%20KEEPFILTERS%20whenever%20possible). Other examples are found [here](https://medium.com/@technologIT/optimizing-dax-code-for-directquery-tips-and-tricks-ab1b5e6fd91f) and [here](https://towardsdatascience.com/analyze-performance-when-aggregating-data-in-power-bi-and-dax-queries-fc00027950a3).
-	* Try to use variables [](Power%20BI.md#^4lu9ab|when%20repeated%20code%20is%20found) to decrease run time.
+		* Example: [replacing FILTER with KEEPFILTERS whenever possible](#KEEPFILTERS%20Function). Other examples are found [here](https://medium.com/@technologIT/optimizing-dax-code-for-directquery-tips-and-tricks-ab1b5e6fd91f) and [here](https://towardsdatascience.com/analyze-performance-when-aggregating-data-in-power-bi-and-dax-queries-fc00027950a3).
+	* Try to use variables [when repeated code is found](#DAX%20Variables) to decrease run time.
 * Regarding the data model
 	* Do not import columns that you don't need in any visuals or relationships.
 	* make sure the columns' data types are correct.
@@ -2012,8 +2011,8 @@ Don't forget to design reports with built-in assistance ([M source](https://lear
 * Information page
 	* Dedicate an entire report page that includes instructions and definitions.
 	* Consider adding a back button to the page. Then, add a button in a consistent location on each page that navigates to the information page. Configure these buttons to use the **Information** or **Help** icon.
-* [](Power%20BI.md#^fupz9h|Visual%20header%20tooltip%20icon)
-* [](Power%20BI.md#^0zoeia|Button%20with%20overlay)
+* [Visual header tooltip icon](#Visual%20Headers)
+* [Button with overlay](#Bookmarks)
 
 Don't forget to design a mobile report layout ([M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/9-reports-mobile)). Check out the illustration below:
 ![Pasted image 20231014115252](./Attachments%20-%20Power%20BI/Pasted%20image%2020231014115252.png)
@@ -2265,7 +2264,7 @@ Slicer layout notes:
 * Dropdown
 	* use much less space on the report page.
 	* <mark style="background: #D2B3FFA6;">only query the dataset when expanded open. Therefore, they can also help expedite report page rendering.</mark>
-		* Note: other slicer types can have this advantage as well based on [](Power%20BI.md#^e1vpye|how%20you%20configure%20Power%20BI%20settings%20to%20gain%20performance%20boost).
+		* Note: other slicer types can have this advantage as well based on [how you configure Power BI settings to gain performance boost](#General%20Tips) (paragraph id: "e1vpye").
 * Numeric and date ranges (between, after, less than, etc.)
 	* support format options to select a single value that acts as the lower or upper boundary of the filter.
 	* The reason why numeric and date slicers have additional layouts is because these data types represent continuous values. Therefore, the slicer layouts allow filtering by ranges of continuous values.
@@ -2523,7 +2522,7 @@ For more information about the statistical capabilities of Power BI, see [Stati
 			* Create a *detached table* called `Outlier Detection Logic` (at minute 3:50, 5:00):
 			  ![Pasted image 20231014135610](./Attachments%20-%20Power%20BI/Pasted%20image%2020231014135610.png)
 			  ![Pasted image 20231014135709](./Attachments%20-%20Power%20BI/Pasted%20image%2020231014135709.png)
-		* create DAX measure called `Outlier Sales` that will follow the business logic discussed [](Power%20BI.md#^kmz928|above) in order to sum the `Total Sales` of the outlier customers only (explained at [6:00](https://youtu.be/kc3ztxkj0Tc?t=362)):
+		* create DAX measure called `Outlier Sales` that will follow the business logic discussed above (image with id "kmz928") in order to sum the `Total Sales` of the outlier customers only (explained at [6:00](https://youtu.be/kc3ztxkj0Tc?t=362)):
 		  ![Pasted image 20231014141124](./Attachments%20-%20Power%20BI/Pasted%20image%2020231014141124.png)
 		* create complimentary logic for `Non Outlier Sales` measure:
 		  ![Pasted image 20231014142039](./Attachments%20-%20Power%20BI/Pasted%20image%2020231014142039.png)
@@ -2638,7 +2637,7 @@ Tip: When adding an AI visual to your report, make sure that you size it to beco
 
 ### Q&A
 
-Side note: Q&A can be used in top N analysis as mentioned in the [](Power%20BI.md#^uhio1l|Statistical%20Summaries%20section)
+Side note: Q&A can be used in top N analysis as mentioned in the [statistical summaries section](#Statistical%20Summaries)
 
 * To optimize the Q&A experience:
 	* ensure that the data field names are user-friendly. 
@@ -2787,7 +2786,7 @@ Regarding workspace roles:
 * **Admin**
     - Workspaces: Update and delete them ^68di4d
     - People: Add or remove them, including other admins
-    - Change [](Power%20BI.md#^u7k3wc|data%20classifications) that could be applied to a dashboard.
+    - Change [data classifications](#Dashboards) (under the "can perform data classification" bullet point) that could be applied to a dashboard.
 - **Member**
     - People: Add members or others with lower permissions
     - <mark style="background: #D2B3FFA6;">Apps: Publish, unpublish, and change permissions</mark>
@@ -2924,7 +2923,7 @@ Data lineage view:
 To use lineage view:
 * Go to a workspace, then:
   ![Pasted image 20231015143628](./Attachments%20-%20Power%20BI/Pasted%20image%2020231015143628.png)
-  This will show the graph that is shown [](Power%20BI.md#^zfkx72|above).
+  This will show the graph that is shown [above](#Data%20Lineage%20View).
 
 Now, regarding each card in the lineage view:
 * Data source card
@@ -3133,7 +3132,7 @@ Use case scenario:
 	* Promotion
 		* Promote your datasets when they're **ready for broad usage**.
 		* Requirements:
-			* write permissions on the workspace containing the content to be promoted. I.e., an [](Power%20BI.md#^68di4d|Admin).
+			* write permissions on the workspace containing the content to be promoted. I.e., an Admin (paragraph id: "68di4d").
 		* Steps:
 			* In Power BI Service:
 			  ![Pasted image 20231017073316](./Attachments%20-%20Power%20BI/Pasted%20image%2020231017073316.png)

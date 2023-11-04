@@ -1,7 +1,5 @@
-# Bad links (1 files)
-[Programming/Python/Debugging Python Code.md](Programming/Python/Debugging%20Python%20Code.md): 
-- (line 5): `Conda Environment.md#^vi0c08|pip_install.py`
-
+# Bad links 
+No problems found
 
 
 
