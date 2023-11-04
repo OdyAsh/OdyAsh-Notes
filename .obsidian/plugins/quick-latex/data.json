@@ -1,6 +1,6 @@
 {
   "moveIntoMath_toggle": true,
-  "autoCloseMath_toggle": true,
+  "autoCloseMath_toggle": false,
   "autoCloseRound_toggle": true,
   "autoCloseSquare_toggle": true,
   "autoCloseCurly_toggle": true,
