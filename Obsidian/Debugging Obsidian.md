@@ -32,6 +32,7 @@ check out [commits](https://github.com/OdyAsh/OdyAsh-Notes/commits/main/Mathemat
 * Probably any equations that contain any form of matrix/vector (square brackets, parentheses. etc.) can NOT be rendered on the same line of text EVEN IF we're using `$$` instead of `$`.
 	* In that case, you have to start a new line (that has `newline` before and after the equation), make it use `$$`, and it can NOT be in a bullet point.
 * Use `\cr` instead of `\\` to signify `newline` in latex.
-
-
-
+* don't add spaces around `$$`, and don't add `newlines` between Latex. Example:
+  
+  ![](Media-Temp/Pasted%20image%2020231104170701.png)
+   

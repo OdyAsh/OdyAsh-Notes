@@ -139,7 +139,7 @@ Definition:
 * **A vector that has a magnitude of 1** is a unit vector. 
 * It is also known as Direction Vector.
 
-Specifically, in cartesian coordinates, <mark style="background: #FF5582A6;">the unit vectors along the axis are denoted by i and j respectively</mark>. Their formulae:
+Specifically, in cartesian coordinates, <mark style="background: #FF5582A6;">the unit vectors along the axis are denoted by i and j respectively</mark>. Their formulae (in $\mathbb{R}^2$):
 
 $$\begin{aligned}
 \hat{i}&=
@@ -148,6 +148,8 @@ $$\begin{aligned}
 \left[\begin{matrix}{0}\cr{1}\cr\end{matrix}\right]
 \end{aligned}$$
 
+Visualization:
 
 ![](Media-Temp/Pasted%20image%2020231104154916.png)
 ([source](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/intro-unit-vector-notation))
+

@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Linear Algebra/Vectors.md",
+                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "3cf6ea7704bfbf22",
@@ -128,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Linear Algebra/Vectors.md"
+                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md"
               }
             }
           },
@@ -156,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Linear Algebra/Vectors.md",
+                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Linear Algebra/Vectors.md",
+                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -184,7 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 291.5
+    "width": 294.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -203,19 +204,22 @@
   },
   "active": "8ad07a4fedd140fb",
   "lastOpenFiles": [
+    "Islam/Marriage/Media-Temp/Pasted image 20231104174200.png",
+    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+    "Islam/Marriage/Media-Temp/Pasted image 20231104174159.png",
+    "Islam/Marriage/Media-Temp/Pasted image 20231104174151.png",
+    "Islam/Marriage/Media-Temp/Pasted image 20231104174148.png",
+    "Islam/Marriage/Media-Temp",
+    "Mathematics/Linear Algebra/Vectors.md",
+    "Obsidian/Debugging Obsidian.md",
+    "Obsidian/Media-Temp/Pasted image 20231104170701.png",
+    "Obsidian/Media-Temp/Pasted image 20231104170638.png",
+    "Obsidian/Media-Temp/Pasted image 20231104170619.png",
+    "Obsidian/Media-Temp",
+    "Obsidian/Cool Plugins.md",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104163904.png",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104163743.png",
-    "Mathematics/Linear Algebra/Vectors.md",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104163010.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104162712.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104162559.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104162552.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104162448.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104162158.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104162015.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104161011.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104160832.png",
-    "Obsidian/Debugging Obsidian.md",
     "Mathematics/Linear Algebra/Media-Temp",
     "Programming/AI Related/Power BI.md",
     "Mathematics/Linear Algebra/Attachments - Vectors/vector-addition.mp4",
@@ -230,13 +234,10 @@
     "Programming/Python/Virtual Environments/Conda Environment.md",
     "Virtual Environments/ Conda Environment.md",
     "Virtual Environments",
-    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
-    "Obsidian/Attachments - Debugging Obsidian",
     "Obsidian/UI Tips.md",
     "Programming/AI Related/Clustering Algorithms.md",
     "Programming/VS Code/VS Code Tips.md",
     "Programming/UX Design/Screen Units.md",
-    "Competitions/Egypt IoT And AI 2023/Attachments - Innovation Notes",
     "README.md",
     "Untitled 1.md",
     "Untitled.md",
