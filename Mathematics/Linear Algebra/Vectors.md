@@ -143,15 +143,15 @@ Specifically, in cartesian coordinates, <mark style="background: #FF5582A6;">the
 
 $$\begin{aligned}
 \hat{i}&=
-\left[\begin{matrix}{1}\cr{0}\cr\end{matrix}\right] 
+\left[\begin{array}{c}{1}\cr{0}\cr\end{array}\right] 
 
 \cr \cr
 
 \hat{j}&=
-\left[\begin{matrix}{0}\cr{1}\cr\end{matrix}\right]
+\left[\begin{array}{c}{0}\cr{1}\cr\end{array}\right]
 \end{aligned}$$
 
 
-.
+
 ![](Media-Temp/Pasted%20image%2020231104154916.png)
 ([source](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/intro-unit-vector-notation))
