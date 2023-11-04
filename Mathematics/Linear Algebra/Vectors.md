@@ -8,7 +8,7 @@ sources:
 Basic vector characteristics:
 * It is something that has a magnitude and a direction.
 	* Intuitive example ([source](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)):
-	  ![Pasted image 20231103144158](Attachments%20-%20Vectors/Pasted%20image%2020231103144158.png) 
+	   ![](Attachments%20-%20Vectors/Pasted%20image%2020231104130417.png)
 * It has the following notation: 
 	* $$\vec{v}=\left(5,0\right)=\left[\begin{array}{l}{5}\cr{0}\end{array}\right]$$
 	* $5$ and $0$ are called ***components*** of a vector, while $(5,0)$ is called a ***2-tuple*** in a 2-D real coordinate space $\left(\mathbb{R}^2\right)$ ([source](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/real-coordinate-spaces)).
@@ -33,10 +33,10 @@ Formula of a scalar-multiplied vector's magnitude: $||c\cdot \vec v||=|c|\cdot |
 To get the reverse direction of a vector, add 180 to its direction.
 
 Example ([source](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/e/scaling_vectors)):
-![](Media-Temp/Pasted%20image%2020231104110053.png)
+![](Attachments%20-%20Vectors/Pasted%20image%2020231104110053.png)
 Answer:
-![](Media-Temp/Pasted%20image%2020231104112518.png)
-![](Media-Temp/Pasted%20image%2020231104112617.png)
+![](Attachments%20-%20Vectors/Pasted%20image%2020231104112518.png)
+![](Attachments%20-%20Vectors/Pasted%20image%2020231104112617.png)
 
 
 ## Unit vector

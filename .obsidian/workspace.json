@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3cf6ea7704bfbf22",
@@ -205,14 +204,15 @@
   },
   "active": "8ad07a4fedd140fb",
   "lastOpenFiles": [
+    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231104130417.png",
     "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231103144158.png",
     "Mathematics/Linear Algebra/Vectors.md",
     "Obsidian/Debugging Obsidian.md",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104112617.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104112518.png",
+    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231104112617.png",
+    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231104112518.png",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104112236.png",
     "Programming/AI Related/Power BI.md",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104110053.png",
+    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231104110053.png",
     "Mathematics/Linear Algebra/Attachments - Vectors/vector-addition.mp4",
     "Mathematics/Linear Algebra/Attachments - Vectors/ezgif-4-94bf7cbcbf.mp4",
     "Mathematics/Linear Algebra/Attachments - Vectors/ezgif-4-94bf7cbcbf.mp4.crdownload",
@@ -228,7 +228,6 @@
     "consistency-report.md",
     "Obsidian/Media/Pasted image 20231104084943.png",
     "Obsidian/Media",
-    "Obsidian/Attachments - Debugging Obsidian/Pasted image 20231104082158.png",
     "Programming/Python/Virtual Environments/Conda Environment.md",
     "Virtual Environments/ Conda Environment.md",
     "Virtual Environments",
