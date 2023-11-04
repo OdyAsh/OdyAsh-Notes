@@ -13,7 +13,43 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "consistency-report.md",
+                "file": "Programming/AI Related/Power BI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "86bcfb22868c62c9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/AI Related/Power BI.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "35ea60e99b3a4398",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/AI Related/Data Analytics Notes.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b7acad0bb9f53ccb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Programming/AI Related/Data Analytics Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -120,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "consistency-report.md"
+                "file": "Programming/AI Related/Power BI.md"
               }
             }
           },
@@ -148,7 +184,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "consistency-report.md",
+                "file": "Programming/AI Related/Power BI.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -165,14 +201,13 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "consistency-report.md",
+                "file": "Programming/AI Related/Power BI.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -195,8 +230,10 @@
   },
   "active": "f604961b3b80bd08",
   "lastOpenFiles": [
+    "Programming/AI Related/Attachments - Power BI/Pasted image 20230929210107.png",
     "Programming/AI Related/Power BI.md",
     "consistency-report.md",
+    "Programming/AI Related/Data Analytics Notes.md",
     "Obsidian/Debugging Obsidian.md",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
     "Obsidian/Media/Pasted image 20231104065550.png",
@@ -236,7 +273,6 @@
     "Writing/Blogs/How to log EVERYTHING in PyTorch Lightning - A Manual Approach.md",
     "Competitions/Egypt IoT And AI 2023/Hybrid Session Smart Village.md",
     "Programming/AI Related/Attachments - Power BI Questions/Pasted image 20231031085940.png",
-    "Programming/AI Related/Data Analytics Notes.md",
     "Islam/Prophet Ibrahim/Prophet Ibrahim.excalidraw.md",
     "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
     "Islam/Prophet Muhammad/Prophet Muhammad.excalidraw.md",

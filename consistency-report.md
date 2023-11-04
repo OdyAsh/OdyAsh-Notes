@@ -8,10 +8,259 @@ No problems found
 
 
 
-# Bad embeds 
-No problems found
+# Bad embeds (2 files)
+[Programming/AI Related/Power BI.md](Programming/AI%20Related/Power%20BI.md): 
+- (line 31): `Pasted image 20230929210107.png`
+- (line 34): `Pasted image 20230929210329.png`
+- (line 39): `Pasted image 20230929210445.png`
+- (line 67): `Pasted image 20230929211052.png`
+- (line 71): `Pasted image 20230929211103.png`
+- (line 74): `Pasted image 20230929211134.png`
+- (line 86): `Pasted image 20231014212908.png`
+- (line 88): `Pasted image 20231014212949.png`
+- (line 90): `Pasted image 20231014213104.png`
+- (line 92): `Pasted image 20231014213148.png`
+- (line 107): `Pasted image 20230930081913.png`
+- (line 145): `Pasted image 20230930120652.png`
+- (line 147): `Pasted image 20230930120706.png`
+- (line 157): `Pasted image 20230930112405.png`
+- (line 166): `Pasted image 20230930112607.png`
+- (line 169): `Pasted image 20230930112648.png`
+- (line 175): `Pasted image 20230930112845.png`
+- (line 177): `Pasted image 20230930112732.png`
+- (line 179): `Pasted image 20230930113000.png`
+- (line 181): `Pasted image 20230930113130.png`
+- (line 197): `Pasted image 20230930114800.png`
+- (line 200): `Pasted image 20230930114834.png`
+- (line 203): `Pasted image 20230930114849.png`
+- (line 210): `Pasted image 20230930120218.png`
+- (line 217): `Pasted image 20230930115755.png`
+- (line 295): `Pasted image 20230930123719.png`
+- (line 338): `Pasted image 20231007123300.png`
+- (line 378): `Pasted image 20230930134927.png`
+- (line 430): `Pasted image 20230930080619.png`
+- (line 433): `Pasted image 20230930080722.png`
+- (line 441): `Pasted image 20230930140506.png`
+- (line 449): `Pasted image 20230930140913.png`
+- (line 456): `Pasted image 20230930141221.png`
+- (line 468): `Pasted image 20230930141641.png`
+- (line 483): `Pasted image 20230930141911.png`
+- (line 491): `Pasted image 20231002142905.png`
+- (line 494): `Pasted image 20231002143006.png`
+- (line 497): `Pasted image 20231002143900.png`
+- (line 546): `Pasted image 20231002193841.png`
+- (line 585): `Pasted image 20231002194510.png`
+- (line 588): `Pasted image 20231002194725.png`
+- (line 591): `Pasted image 20231002194828.png`
+- (line 594): `Pasted image 20231002195914.png`
+- (line 598): `Pasted image 20231002200143.png`
+- (line 603): `Pasted image 20231002201213.png`
+- (line 625): `Pasted image 20231002204342.png`
+- (line 642): `Pasted image 20231002221458.png`
+- (line 645): `Pasted image 20231002222143.png`
+- (line 648): `Pasted image 20231002222712.png`
+- (line 654): `Pasted image 20231002222904.png`
+- (line 662): `Pasted image 20231002223748.png`
+- (line 685): `Pasted image 20231004100904.png`
+- (line 692): `Pasted image 20231002225012.png`
+- (line 712): `Pasted image 20231003183435.png`
+- (line 717): `Pasted image 20231003190519.png`
+- (line 726): `Pasted image 20231003225255.png`
+- (line 729): `Pasted image 20231003225344.png`
+- (line 754): `Pasted image 20231018220316.png`
+- (line 759): `Pasted image 20231018220516.png`
+- (line 761): `Pasted image 20231018214209.png`
+- (line 763): `Pasted image 20231018214441.png`
+- (line 765): `Pasted image 20231018214507.png`
+- (line 792): `Pasted image 20231006100849.png`
+- (line 823): `Pasted image 20231006101604.png`
+- (line 842): `Pasted image 20231006112010.png`
+- (line 844): `Pasted image 20231006112247.png`
+- (line 866): `Pasted image 20231006101527.png`
+- (line 898): `Pasted image 20231004131654.png`
+- (line 934): `Pasted image 20231004205818.png`
+- (line 970): `Pasted image 20231004131317.png`
+- (line 981): `Pasted image 20231005184103.png`
+- (line 1013): `Pasted image 20231005134733.png`
+- (line 1030): `Pasted image 20231005135916.png`
+- (line 1033): `Pasted image 20231005140033.png`
+- (line 1043): `Pasted image 20231004113636.png`
+- (line 1197): `Pasted image 20231006082949.png`
+- (line 1206): `Pasted image 20231014122341.png`
+- (line 1212): `Pasted image 20231006085044.png`
+- (line 1214): `Pasted image 20231006085717.png`
+- (line 1216): `Pasted image 20231006085743.png`
+- (line 1231): `Pasted image 20231006090256.png`
+- (line 1242): `Pasted image 20231006090308.png`
+- (line 1276): `Pasted image 20231006092316.png`
+- (line 1284): `Pasted image 20231006092701.png`
+- (line 1370): `Pasted image 20231006161034.png`
+- (line 1372): `Pasted image 20231006161412.png`
+- (line 1379): `Pasted image 20231006162041.png`
+- (line 1407): `Pasted image 20231006145032.png`
+- (line 1456): `Pasted image 20231006145313.png`
+- (line 1572): `Pasted image 20231006153817.png`
+- (line 1599): `Pasted image 20231006154002.png`
+- (line 1643): `Pasted image 20231005220605.png`
+- (line 1693): `Pasted image 20231006181644.png`
+- (line 1718): `Pasted image 20231006182745.png`
+- (line 1731): `Pasted image 20231006182825.png`
+- (line 1757): `Pasted image 20231005220808.png`
+- (line 1776): `Pasted image 20231007112753.png`
+- (line 1782): `Pasted image 20231007112954.png`
+- (line 1785): `Pasted image 20231007113032.png`
+- (line 1820): `Pasted image 20231007122635.png`
+- (line 1886): `Pasted image 20231007170636.png`
+- (line 1888): `Pasted image 20231017150459.png`
+- (line 1890): `Pasted image 20231017150411.png`
+- (line 1896): `Pasted image 20231007171243.png`
+- (line 1901): `Pasted image 20231017150849.png`
+- (line 1924): `Pasted image 20231007171725.png`
+- (line 1946): `Pasted image 20231007181745.png`
+- (line 1951): `Pasted image 20231007181924.png`
+- (line 2007): `Pasted image 20231008112343.png`
+- (line 2019): `Pasted image 20231014115252.png`
+- (line 2031): `Pasted image 20231008144830.png`
+- (line 2040): `Pasted image 20231008145104.png`
+- (line 2041): `Pasted image 20231008145113.png`
+- (line 2045): `Pasted image 20231008145315.png`
+- (line 2053): `Pasted image 20231008145553.png`
+- (line 2068): `Pasted image 20231008145940.png`
+- (line 2070): `Pasted image 20231008150013.png`
+- (line 2083): `Pasted image 20231008171105.png`
+- (line 2101): `Pasted image 20231008172013.png`
+- (line 2112): `Pasted image 20231008190221.png`
+- (line 2116): `Pasted image 20231008190500.png`
+- (line 2123): `Pasted image 20231008214400.png`
+- (line 2125): `Pasted image 20231008214442.png`
+- (line 2142): `Pasted image 20231008215633.png`
+- (line 2144): `Pasted image 20231008215703.png`
+- (line 2146): `Pasted image 20231008215718.png`
+- (line 2158): `Pasted image 20231014113536.png`
+- (line 2162): `Pasted image 20231014114158.png`
+- (line 2183): `Pasted image 20231011072601.png`
+- (line 2190): `Pasted image 20231011072831.png`
+- (line 2223): `Pasted image 20231011073529.png`
+- (line 2225): `Pasted image 20231011073553.png`
+- (line 2275): `Pasted image 20231011075824.png`
+- (line 2288): `Pasted image 20231011092414.png`
+- (line 2290): `Pasted image 20231011092518.png`
+- (line 2301): `Pasted image 20231011092806.png`
+- (line 2306): `Pasted image 20231011093048.png`
+- (line 2310): `Pasted image 20231011104446.png`
+- (line 2314): `Pasted image 20231011104607.png`
+- (line 2326): `Pasted image 20231008215346.png`
+- (line 2338): `Pasted image 20231014110924.png`
+- (line 2365): `Pasted image 20231014112341.png`
+- (line 2433): `Pasted image 20231011125447.png`
+- (line 2444): `Pasted image 20231011135812.png`
+- (line 2459): `Pasted image 20231011141228.png`
+- (line 2481): `Pasted image 20231014134042.png`
+- (line 2486): `Pasted image 20231014134529.png`
+- (line 2491): `Pasted image 20231014134808.png`
+- (line 2492): `Pasted image 20231014134811.png`
+- (line 2495): `Pasted image 20231014134858.png`
+- (line 2511): `Pasted image 20231014135443.png`
+- (line 2513): `Pasted image 20231014135503.png`
+- (line 2516): `Pasted image 20231014140104.png`
+- (line 2519): `Pasted image 20231014140513.png`
+- (line 2521): `Pasted image 20231014140700.png`
+- (line 2524): `Pasted image 20231014135610.png`
+- (line 2525): `Pasted image 20231014135709.png`
+- (line 2527): `Pasted image 20231014141124.png`
+- (line 2529): `Pasted image 20231014142039.png`
+- (line 2531): `Pasted image 20231014143127.png`
+- (line 2533): `Pasted image 20231014144229.png`
+- (line 2535): `Pasted image 20231014144750.png`
+- (line 2548): `Pasted image 20231014145625.png`
+- (line 2550): `Pasted image 20231014145456.png`
+- (line 2552): `Pasted image 20231014145542.png`
+- (line 2557): `Pasted image 20231014150002.png`
+- (line 2560): `Pasted image 20231014150205.png`
+- (line 2563): `Pasted image 20231014150331.png`
+- (line 2565): `Pasted image 20231014150805.png`
+- (line 2570): `Pasted image 20231014151033.png`
+- (line 2572): `Pasted image 20231014151111.png`
+- (line 2574): `Pasted image 20231014151129.png`
+- (line 2584): `Pasted image 20231014152650.png`
+- (line 2596): `line chart auto play.gif`
+- (line 2607): `Pasted image 20231014161057.png`
+- (line 2608): `Pasted image 20231014161105.png`
+- (line 2624): `Pasted image 20231014172359.png`
+- (line 2636): `Pasted image 20231014172809.png`
+- (line 2649): `Pasted image 20231014173326.png`
+- (line 2674): `Pasted image 20231014174719.png`
+- (line 2712): `Pasted image 20231014175857.png`
+- (line 2714): `Pasted image 20231014175930.png`
+- (line 2716): `Pasted image 20231014180013.png`
+- (line 2728): `Pasted image 20231014180346.png`
+- (line 2736): `Pasted image 20231014211345.png`
+- (line 2741): `Pasted image 20231014211141.png`
+- (line 2743): `Pasted image 20231014211221.png`
+- (line 2751): `Pasted image 20231014211618.png`
+- (line 2753): `Pasted image 20231014211625.png`
+- (line 2760): `Pasted image 20231014211720.png`
+- (line 2804): `Pasted image 20231015072419.png`
+- (line 2807): `Pasted image 20231015072458.png`
+- (line 2835): `Pasted image 20231015080346.png`
+- (line 2875): `Pasted image 20231015140500.png`
+- (line 2877): `Pasted image 20231015140528.png`
+- (line 2888): `Pasted image 20231015140908.png`
+- (line 2892): `Pasted image 20231015141111.png`
+- (line 2894): `Pasted image 20231015141133.png`
+- (line 2899): `Pasted image 20231015141555.png`
+- (line 2901): `Pasted image 20231015141612.png`
+- (line 2916): `Pasted image 20231015143231.png`
+- (line 2926): `Pasted image 20231015143628.png`
+- (line 2932): `Pasted image 20231015143854.png`
+- (line 2937): `Pasted image 20231015144005.png`
+- (line 2942): `Pasted image 20231015144348.png`
+- (line 2944): `Pasted image 20231015144514.png`
+- (line 2946): `Pasted image 20231015144251.png`
+- (line 2951): `Pasted image 20231015144649.png`
+- (line 2953): `Pasted image 20231015144706.png`
+- (line 2973): `Pasted image 20231016213638.png`
+- (line 2975): `Pasted image 20231016213647.png`
+- (line 2985): `Pasted image 20231016213819.png`
+- (line 3008): `Pasted image 20231016214604.png`
+- (line 3010): `Pasted image 20231016215420.png`
+- (line 3056): `Pasted image 20231016220639.png`
+- (line 3059): `Pasted image 20231016220543.png`
+- (line 3071): `Pasted image 20231016221038.png`
+- (line 3073): `Pasted image 20231016221105.png`
+- (line 3101): `Pasted image 20231016222315.png`
+- (line 3105): `Pasted image 20231016222446.png`
+- (line 3107): `Pasted image 20231016222531.png`
+- (line 3114): `Pasted image 20231016222655.png`
+- (line 3116): `Pasted image 20231016222734.png`
+- (line 3139): `Pasted image 20231017073316.png`
+- (line 3141): `Pasted image 20231017073336.png`
+- (line 3143): `Pasted image 20231017073421.png`
+- (line 3155): `Pasted image 20231017073558.png`
+- (line 3178): `Pasted image 20231017075030.png`
+- (line 3180): `Pasted image 20231017075100.png`
+- (line 3203): `Pasted image 20231017110035.png`
+- (line 3205): `Pasted image 20231017110044.png`
+- (line 3207): `Pasted image 20231017133847.png`
+- (line 3209): `Pasted image 20231017134036.png`
+- (line 3215): `Pasted image 20231017123245.png`
+- (line 3217): `Pasted image 20231017123254.png`
+- (line 3223): `Pasted image 20231017132825.png`
+- (line 3225): `Pasted image 20231017132838.png`
+- (line 3227): `Pasted image 20231017132934.png`
+- (line 3236): `Pasted image 20231017133236.png`
+- (line 3238): `Pasted image 20231017133326.png`
+- (line 3246): `Pasted image 20231017134847.png`
+- (line 3248): `Pasted image 20231017134907.png`
+- (line 3250): `Pasted image 20231017135034.png`
 
-# Wiki links (17 files)
+
+[Obsidian/Debugging Obsidian.md](Obsidian/Debugging%20Obsidian.md): 
+- (line 4): `Pasted image 20231104065626.png`
+- (line 6): `Pasted image 20231104065706.png`
+
+
+# Wiki links (16 files)
 [Writing/Blogs/How to log EVERYTHING in PyTorch Lightning - A Manual Approach.md](Writing/Blogs/How%20to%20log%20EVERYTHING%20in%20PyTorch%20Lightning%20-%20A%20Manual%20Approach.md): 
 - (line 4): `[[Nested List and Dict Comprehension - Unravelling Confusing Syntax]]`
 
@@ -23,58 +272,6 @@ No problems found
 
 [Programming/Python/Debugging Python Code.md](Programming/Python/Debugging%20Python%20Code.md): 
 - (line 5): `[[Conda Environment#^vi0c08|pip_install.py]]`
-
-
-[Programming/AI Related/Power BI.md](Programming/AI%20Related/Power%20BI.md): 
-- (line 348): `[[Power BI#Composite Model|composite model]]`
-- (line 377): `[[Power BI#^ngupkb|source group]]`
-- (line 393): `[[Power BI#Relationship Evaluation Advanced|Relationship evaluation]]`
-- (line 440): `[[Power BI#Composite Model|composite model]]`
-- (line 442): `[[Power BI#^v8cl9b|import source group]]`
-- (line 581): `[[#Calculated Tables|Calculated Tables]]`
-- (line 581): `[[#DAX Syntax|DAX Syntax]]`
-- (line 624): `[[Power BI#Configure data model and build relationships between tables|Configure data model and build relationships between tables]]`
-- (line 800): `[[#Calculated Columns|calculated column]]`
-- (line 814): `[[#Filter Context Functions|Filter Context Functions]]`
-- (line 837): `[[#Filter Context Functions|Filter Context Functions]]`
-- (line 861): `[[#Calculated Columns|calculated column]]`
-- (line 862): `[[Power BI#^128yfb|has a relationship with the other table]]`
-- (line 863): `[[#Iterator Functions|iterative functions]]`
-- (line 868): `[[#Iterator Functions|Iterator Functions]]`
-- (line 1004): `[[#Creating a Date Table|Date tables]]`
-- (line 1005): `[[#Role-Playing Dimensions|Role-playing dimensions]]`
-- (line 1006): `[[#What-If Analysis (Disconnected Tables)|What-if analysis]]`
-- (line 1322): `[[#Iterator Functions|iterator function]]`
-- (line 1378): `[[#VALUES, HASONEVALUE, and SELECTEDVALUE Functions (to Examine Filter Context)|VALUES-HASONEVALUE-SELECTEDVALUE section]]`
-- (line 1614): `[[#CALCULATE and FILTER Functions|here]]`
-- (line 1737): `[[#Using CALCULATE for Context Transitions|transition the row context to filter context]]`
-- (line 1827): `[[Power BI#^a8h0ge|replacing FILTER with KEEPFILTERS whenever possible]]`
-- (line 1828): `[[Power BI#^4lu9ab|when repeated code is found]]`
-- (line 1875): `[[#Row Context|row context]]`
-- (line 1894): `[[#Star schema design|start schema design]]`
-- (line 1994): `[[Data Analytics Notes#Types of Analytics|descriptive analysis]]`
-- (line 1997): `[[Data Analytics Notes#Types of Analytics|diagnostic analysis]]`
-- (line 1998): `[[#Report Design Principles|later section]]`
-- (line 2015): `[[Power BI#^fupz9h|Visual header tooltip icon]]`
-- (line 2016): `[[Power BI#^0zoeia|Button with overlay]]`
-- (line 2148): `[[#Power BI Analytic Capabilities]]`
-- (line 2268): `[[Power BI#^e1vpye|how you configure Power BI settings to gain performance boost]]`
-- (line 2388): `[[#General Tips|general performance tips section]]`
-- (line 2399): `[[#Consumer Uses Filters|Using filters]]`
-- (line 2400): `[[#Interactive Filtering Actions|Applying interactive filtering actions]]`
-- (line 2437): `[[#Report Options|report options section]]`
-- (line 2488): `[[#Group and Bin Data]]`
-- (line 2493): `[[#Q&A|Q&A section]]`
-- (line 2497): `[[#Iterator Functions|Iterator Functions section]]`
-- (line 2526): `[[Power BI#^kmz928|above]]`
-- (line 2641): `[[Power BI#^uhio1l|Statistical Summaries section]]`
-- (line 2656): `[[#Dashboards|dashboard]]`
-- (line 2720): `[[#DirectQuery Model]]`
-- (line 2790): `[[Power BI#^u7k3wc|data classifications]]`
-- (line 2798): `[[#Usage Metric Reports|usage metric reports]]`
-- (line 2927): `[[Power BI#^zfkx72|above]]`
-- (line 3136): `[[Power BI#^68di4d|Admin]]`
-- (line 3174): `[[#Data Protection Using Sensitivity (Security) Labels|security labels]]`
 
 
 [Programming/AI Related/Power BI Questions.md](Programming/AI%20Related/Power%20BI%20Questions.md): 
@@ -192,7 +389,7 @@ No problems found
 
 
 
-# Wiki embeds (30 files)
+# Wiki embeds (29 files)
 [Writing/Word Document Tips.md](Writing/Word%20Document%20Tips.md): 
 - (line 7): `![[how to add citations to word online using mendeley.gif]]`
 
@@ -244,6 +441,12 @@ No problems found
 - (line 24): `![[Pasted image 20230704180645.png|550]]`
 
 
+[Programming/Scraping/Xpath in Python.md](Programming/Scraping/Xpath%20in%20Python.md): 
+- (line 4): `![[Pasted image 20230209183846.png]]`
+- (line 8): `![[Pasted image 20230209184311.png]]`
+- (line 9): `![[Pasted image 20230209184412.png|500]]`
+
+
 [Programming/Python/Virtual Environments/Conda Environment.md](Programming/Python/Virtual%20Environments/Conda%20Environment.md): 
 - (line 243): `![[Pasted image 20230313190435.png|500]]`
 - (line 258): `![[Pasted image 20230313190658.png|575]]`
@@ -276,12 +479,6 @@ No problems found
 - (line 28): `![[Pasted image 20230310094816.png|250]]`
 - (line 31): `![[Pasted image 20230310094843.png|400]]`
 - (line 37): `![[Pasted image 20230310100312.png|200]]`
-
-
-[Programming/Scraping/Xpath in Python.md](Programming/Scraping/Xpath%20in%20Python.md): 
-- (line 4): `![[Pasted image 20230209183846.png]]`
-- (line 8): `![[Pasted image 20230209184311.png]]`
-- (line 9): `![[Pasted image 20230209184412.png|500]]`
 
 
 [Programming/Managing Names, Files And Directories/Windows Tips.md](Programming/Managing%20Names,%20Files%20And%20Directories/Windows%20Tips.md): 
@@ -374,256 +571,6 @@ No problems found
 
 [Programming/Automation/Browser-Related Automation.md](Programming/Automation/Browser-Related%20Automation.md): 
 - (line 4): `![[Pasted image 20230215070625.png|525]]`
-
-
-[Programming/API Related/API Notes.md](Programming/API%20Related/API%20Notes.md): 
-- (line 6): `![[Pasted image 20230224213026.png]]`
-
-
-[Programming/AI Related/Power BI.md](Programming/AI%20Related/Power%20BI.md): 
-- (line 31): `![[Pasted image 20230929210107.png]]`
-- (line 34): `![[Pasted image 20230929210329.png]]`
-- (line 39): `![[Pasted image 20230929210445.png]]`
-- (line 67): `![[Pasted image 20230929211052.png]]`
-- (line 71): `![[Pasted image 20230929211103.png]]`
-- (line 74): `![[Pasted image 20230929211134.png]]`
-- (line 86): `![[Pasted image 20231014212908.png]]`
-- (line 88): `![[Pasted image 20231014212949.png]]`
-- (line 90): `![[Pasted image 20231014213104.png]]`
-- (line 92): `![[Pasted image 20231014213148.png]]`
-- (line 107): `![[Pasted image 20230930081913.png]]`
-- (line 145): `![[Pasted image 20230930120652.png]]`
-- (line 147): `![[Pasted image 20230930120706.png]]`
-- (line 157): `![[Pasted image 20230930112405.png]]`
-- (line 166): `![[Pasted image 20230930112607.png]]`
-- (line 169): `![[Pasted image 20230930112648.png]]`
-- (line 175): `![[Pasted image 20230930112845.png]]`
-- (line 177): `![[Pasted image 20230930112732.png]]`
-- (line 179): `![[Pasted image 20230930113000.png]]`
-- (line 181): `![[Pasted image 20230930113130.png]]`
-- (line 197): `![[Pasted image 20230930114800.png]]`
-- (line 200): `![[Pasted image 20230930114834.png]]`
-- (line 203): `![[Pasted image 20230930114849.png]]`
-- (line 210): `![[Pasted image 20230930120218.png]]`
-- (line 217): `![[Pasted image 20230930115755.png]]`
-- (line 295): `![[Pasted image 20230930123719.png]]`
-- (line 338): `![[Pasted image 20231007123300.png]]`
-- (line 378): `![[Pasted image 20230930134927.png]]`
-- (line 430): `![[Pasted image 20230930080619.png]]`
-- (line 433): `![[Pasted image 20230930080722.png]]`
-- (line 441): `![[Pasted image 20230930140506.png]]`
-- (line 449): `![[Pasted image 20230930140913.png]]`
-- (line 456): `![[Pasted image 20230930141221.png]]`
-- (line 468): `![[Pasted image 20230930141641.png]]`
-- (line 483): `![[Pasted image 20230930141911.png]]`
-- (line 491): `![[Pasted image 20231002142905.png]]`
-- (line 494): `![[Pasted image 20231002143006.png]]`
-- (line 497): `![[Pasted image 20231002143900.png]]`
-- (line 546): `![[Pasted image 20231002193841.png]]`
-- (line 585): `![[Pasted image 20231002194510.png]]`
-- (line 588): `![[Pasted image 20231002194725.png]]`
-- (line 591): `![[Pasted image 20231002194828.png]]`
-- (line 594): `![[Pasted image 20231002195914.png]]`
-- (line 598): `![[Pasted image 20231002200143.png]]`
-- (line 603): `![[Pasted image 20231002201213.png]]`
-- (line 625): `![[Pasted image 20231002204342.png]]`
-- (line 642): `![[Pasted image 20231002221458.png]]`
-- (line 645): `![[Pasted image 20231002222143.png]]`
-- (line 648): `![[Pasted image 20231002222712.png]]`
-- (line 654): `![[Pasted image 20231002222904.png|625]]`
-- (line 662): `![[Pasted image 20231002223748.png|550]]`
-- (line 685): `![[Pasted image 20231004100904.png]]`
-- (line 692): `![[Pasted image 20231002225012.png|450]]`
-- (line 712): `![[Pasted image 20231003183435.png]]`
-- (line 717): `![[Pasted image 20231003190519.png|324]]`
-- (line 726): `![[Pasted image 20231003225255.png|450]]`
-- (line 729): `![[Pasted image 20231003225344.png|700]]`
-- (line 754): `![[Pasted image 20231018220316.png]]`
-- (line 759): `![[Pasted image 20231018220516.png]]`
-- (line 761): `![[Pasted image 20231018214209.png]]`
-- (line 763): `![[Pasted image 20231018214441.png]]`
-- (line 765): `![[Pasted image 20231018214507.png]]`
-- (line 792): `![[Pasted image 20231006100849.png]]`
-- (line 823): `![[Pasted image 20231006101604.png]]`
-- (line 842): `![[Pasted image 20231006112010.png|417]]`
-- (line 844): `![[Pasted image 20231006112247.png|433]]`
-- (line 866): `![[Pasted image 20231006101527.png]]`
-- (line 898): `![[Pasted image 20231004131654.png]]`
-- (line 934): `![[Pasted image 20231004205818.png]]`
-- (line 970): `![[Pasted image 20231004131317.png]]`
-- (line 981): `![[Pasted image 20231005184103.png|550]]`
-- (line 1013): `![[Pasted image 20231005134733.png]]`
-- (line 1030): `![[Pasted image 20231005135916.png]]`
-- (line 1033): `![[Pasted image 20231005140033.png|375]]`
-- (line 1043): `![[Pasted image 20231004113636.png]]`
-- (line 1197): `![[Pasted image 20231006082949.png]]`
-- (line 1206): `![[Pasted image 20231014122341.png]]`
-- (line 1212): `![[Pasted image 20231006085044.png]]`
-- (line 1214): `![[Pasted image 20231006085717.png]]`
-- (line 1216): `![[Pasted image 20231006085743.png]]`
-- (line 1231): `![[Pasted image 20231006090256.png]]`
-- (line 1242): `![[Pasted image 20231006090308.png]]`
-- (line 1276): `![[Pasted image 20231006092316.png]]`
-- (line 1284): `![[Pasted image 20231006092701.png]]`
-- (line 1370): `![[Pasted image 20231006161034.png]]`
-- (line 1372): `![[Pasted image 20231006161412.png]]`
-- (line 1379): `![[Pasted image 20231006162041.png]]`
-- (line 1407): `![[Pasted image 20231006145032.png]]`
-- (line 1456): `![[Pasted image 20231006145313.png]]`
-- (line 1572): `![[Pasted image 20231006153817.png]]`
-- (line 1599): `![[Pasted image 20231006154002.png]]`
-- (line 1643): `![[Pasted image 20231005220605.png]]`
-- (line 1693): `![[Pasted image 20231006181644.png]]`
-- (line 1718): `![[Pasted image 20231006182745.png]]`
-- (line 1731): `![[Pasted image 20231006182825.png]]`
-- (line 1757): `![[Pasted image 20231005220808.png|380]]`
-- (line 1776): `![[Pasted image 20231007112753.png]]`
-- (line 1782): `![[Pasted image 20231007112954.png]]`
-- (line 1785): `![[Pasted image 20231007113032.png]]`
-- (line 1820): `![[Pasted image 20231007122635.png]]`
-- (line 1886): `![[Pasted image 20231007170636.png]]`
-- (line 1888): `![[Pasted image 20231017150459.png]]`
-- (line 1890): `![[Pasted image 20231017150411.png]]`
-- (line 1896): `![[Pasted image 20231007171243.png]]`
-- (line 1901): `![[Pasted image 20231017150849.png]]`
-- (line 1924): `![[Pasted image 20231007171725.png]]`
-- (line 1946): `![[Pasted image 20231007181745.png]]`
-- (line 1951): `![[Pasted image 20231007181924.png]]`
-- (line 2007): `![[Pasted image 20231008112343.png|550]]`
-- (line 2019): `![[Pasted image 20231014115252.png]]`
-- (line 2031): `![[Pasted image 20231008144830.png]]`
-- (line 2040): `![[Pasted image 20231008145104.png|425]]`
-- (line 2041): `![[Pasted image 20231008145113.png|425]]`
-- (line 2045): `![[Pasted image 20231008145315.png|425]]`
-- (line 2053): `![[Pasted image 20231008145553.png]]`
-- (line 2068): `![[Pasted image 20231008145940.png]]`
-- (line 2070): `![[Pasted image 20231008150013.png]]`
-- (line 2083): `![[Pasted image 20231008171105.png]]`
-- (line 2101): `![[Pasted image 20231008172013.png]]`
-- (line 2112): `![[Pasted image 20231008190221.png]]`
-- (line 2116): `![[Pasted image 20231008190500.png]]`
-- (line 2123): `![[Pasted image 20231008214400.png]]`
-- (line 2125): `![[Pasted image 20231008214442.png]]`
-- (line 2142): `![[Pasted image 20231008215633.png]]`
-- (line 2144): `![[Pasted image 20231008215703.png]]`
-- (line 2146): `![[Pasted image 20231008215718.png]]`
-- (line 2158): `![[Pasted image 20231014113536.png]]`
-- (line 2162): `![[Pasted image 20231014114158.png]]`
-- (line 2183): `![[Pasted image 20231011072601.png]]`
-- (line 2190): `![[Pasted image 20231011072831.png|202]]`
-- (line 2223): `![[Pasted image 20231011073529.png]]`
-- (line 2225): `![[Pasted image 20231011073553.png]]`
-- (line 2275): `![[Pasted image 20231011075824.png]]`
-- (line 2288): `![[Pasted image 20231011092414.png]]`
-- (line 2290): `![[Pasted image 20231011092518.png]]`
-- (line 2301): `![[Pasted image 20231011092806.png]]`
-- (line 2306): `![[Pasted image 20231011093048.png]]`
-- (line 2310): `![[Pasted image 20231011104446.png]]`
-- (line 2314): `![[Pasted image 20231011104607.png]]`
-- (line 2326): `![[Pasted image 20231008215346.png]]`
-- (line 2338): `![[Pasted image 20231014110924.png]]`
-- (line 2365): `![[Pasted image 20231014112341.png]]`
-- (line 2433): `![[Pasted image 20231011125447.png]]`
-- (line 2444): `![[Pasted image 20231011135812.png]]`
-- (line 2459): `![[Pasted image 20231011141228.png]]`
-- (line 2481): `![[Pasted image 20231014134042.png]]`
-- (line 2486): `![[Pasted image 20231014134529.png]]`
-- (line 2491): `![[Pasted image 20231014134808.png]]`
-- (line 2492): `![[Pasted image 20231014134811.png]]`
-- (line 2495): `![[Pasted image 20231014134858.png]]`
-- (line 2511): `![[Pasted image 20231014135443.png]]`
-- (line 2513): `![[Pasted image 20231014135503.png]]`
-- (line 2516): `![[Pasted image 20231014140104.png]]`
-- (line 2519): `![[Pasted image 20231014140513.png]]`
-- (line 2521): `![[Pasted image 20231014140700.png]]`
-- (line 2524): `![[Pasted image 20231014135610.png]]`
-- (line 2525): `![[Pasted image 20231014135709.png]]`
-- (line 2527): `![[Pasted image 20231014141124.png]]`
-- (line 2529): `![[Pasted image 20231014142039.png]]`
-- (line 2531): `![[Pasted image 20231014143127.png]]`
-- (line 2533): `![[Pasted image 20231014144229.png]]`
-- (line 2535): `![[Pasted image 20231014144750.png]]`
-- (line 2548): `![[Pasted image 20231014145625.png]]`
-- (line 2550): `![[Pasted image 20231014145456.png]]`
-- (line 2552): `![[Pasted image 20231014145542.png]]`
-- (line 2557): `![[Pasted image 20231014150002.png]]`
-- (line 2560): `![[Pasted image 20231014150205.png]]`
-- (line 2563): `![[Pasted image 20231014150331.png]]`
-- (line 2565): `![[Pasted image 20231014150805.png]]`
-- (line 2570): `![[Pasted image 20231014151033.png]]`
-- (line 2572): `![[Pasted image 20231014151111.png]]`
-- (line 2574): `![[Pasted image 20231014151129.png]]`
-- (line 2584): `![[Pasted image 20231014152650.png]]`
-- (line 2596): `![[line chart auto play.gif]]`
-- (line 2607): `![[Pasted image 20231014161057.png]]`
-- (line 2608): `![[Pasted image 20231014161105.png]]`
-- (line 2624): `![[Pasted image 20231014172359.png]]`
-- (line 2636): `![[Pasted image 20231014172809.png]]`
-- (line 2649): `![[Pasted image 20231014173326.png]]`
-- (line 2674): `![[Pasted image 20231014174719.png]]`
-- (line 2712): `![[Pasted image 20231014175857.png]]`
-- (line 2714): `![[Pasted image 20231014175930.png]]`
-- (line 2716): `![[Pasted image 20231014180013.png]]`
-- (line 2728): `![[Pasted image 20231014180346.png]]`
-- (line 2736): `![[Pasted image 20231014211345.png]]`
-- (line 2741): `![[Pasted image 20231014211141.png]]`
-- (line 2743): `![[Pasted image 20231014211221.png]]`
-- (line 2751): `![[Pasted image 20231014211618.png]]`
-- (line 2753): `![[Pasted image 20231014211625.png]]`
-- (line 2760): `![[Pasted image 20231014211720.png]]`
-- (line 2804): `![[Pasted image 20231015072419.png]]`
-- (line 2807): `![[Pasted image 20231015072458.png]]`
-- (line 2835): `![[Pasted image 20231015080346.png]]`
-- (line 2875): `![[Pasted image 20231015140500.png]]`
-- (line 2877): `![[Pasted image 20231015140528.png]]`
-- (line 2888): `![[Pasted image 20231015140908.png]]`
-- (line 2892): `![[Pasted image 20231015141111.png]]`
-- (line 2894): `![[Pasted image 20231015141133.png]]`
-- (line 2899): `![[Pasted image 20231015141555.png]]`
-- (line 2901): `![[Pasted image 20231015141612.png]]`
-- (line 2916): `![[Pasted image 20231015143231.png]]`
-- (line 2926): `![[Pasted image 20231015143628.png]]`
-- (line 2932): `![[Pasted image 20231015143854.png]]`
-- (line 2937): `![[Pasted image 20231015144005.png]]`
-- (line 2942): `![[Pasted image 20231015144348.png]]`
-- (line 2944): `![[Pasted image 20231015144514.png]]`
-- (line 2946): `![[Pasted image 20231015144251.png]]`
-- (line 2951): `![[Pasted image 20231015144649.png]]`
-- (line 2953): `![[Pasted image 20231015144706.png]]`
-- (line 2973): `![[Pasted image 20231016213638.png]]`
-- (line 2975): `![[Pasted image 20231016213647.png]]`
-- (line 2985): `![[Pasted image 20231016213819.png]]`
-- (line 3008): `![[Pasted image 20231016214604.png]]`
-- (line 3010): `![[Pasted image 20231016215420.png]]`
-- (line 3056): `![[Pasted image 20231016220639.png]]`
-- (line 3059): `![[Pasted image 20231016220543.png]]`
-- (line 3071): `![[Pasted image 20231016221038.png]]`
-- (line 3073): `![[Pasted image 20231016221105.png]]`
-- (line 3101): `![[Pasted image 20231016222315.png]]`
-- (line 3105): `![[Pasted image 20231016222446.png]]`
-- (line 3107): `![[Pasted image 20231016222531.png]]`
-- (line 3114): `![[Pasted image 20231016222655.png]]`
-- (line 3116): `![[Pasted image 20231016222734.png]]`
-- (line 3139): `![[Pasted image 20231017073316.png]]`
-- (line 3141): `![[Pasted image 20231017073336.png]]`
-- (line 3143): `![[Pasted image 20231017073421.png]]`
-- (line 3155): `![[Pasted image 20231017073558.png]]`
-- (line 3178): `![[Pasted image 20231017075030.png]]`
-- (line 3180): `![[Pasted image 20231017075100.png]]`
-- (line 3203): `![[Pasted image 20231017110035.png]]`
-- (line 3205): `![[Pasted image 20231017110044.png]]`
-- (line 3207): `![[Pasted image 20231017133847.png]]`
-- (line 3209): `![[Pasted image 20231017134036.png]]`
-- (line 3215): `![[Pasted image 20231017123245.png]]`
-- (line 3217): `![[Pasted image 20231017123254.png]]`
-- (line 3223): `![[Pasted image 20231017132825.png]]`
-- (line 3225): `![[Pasted image 20231017132838.png]]`
-- (line 3227): `![[Pasted image 20231017132934.png]]`
-- (line 3236): `![[Pasted image 20231017133236.png]]`
-- (line 3238): `![[Pasted image 20231017133326.png]]`
-- (line 3246): `![[Pasted image 20231017134847.png]]`
-- (line 3248): `![[Pasted image 20231017134907.png]]`
-- (line 3250): `![[Pasted image 20231017135034.png]]`
 
 
 [Programming/AI Related/Power BI Questions.md](Programming/AI%20Related/Power%20BI%20Questions.md): 
@@ -724,12 +671,16 @@ No problems found
 - (line 322): `![[Pasted image 20231021133948.png]]`
 
 
-[Obsidian/Cool Plugins.md](Obsidian/Cool%20Plugins.md): 
-- (line 15): `![[Pasted image 20230321072509.png|550]]`
+[Programming/API Related/API Notes.md](Programming/API%20Related/API%20Notes.md): 
+- (line 6): `![[Pasted image 20230224213026.png]]`
 
 
 [Mathematics/Linear Algebra/Vectors.md](Mathematics/Linear%20Algebra/Vectors.md): 
 - (line 11): `![[Pasted image 20231103144158.png]]`
+
+
+[Obsidian/Cool Plugins.md](Obsidian/Cool%20Plugins.md): 
+- (line 15): `![[Pasted image 20230321072509.png|550]]`
 
 
 [Islam/The Quran/2. Surah Al-Baqarah (البقرة).md](Islam/The%20Quran/2.%20Surah%20Al-Baqarah%20(البقرة).md): 

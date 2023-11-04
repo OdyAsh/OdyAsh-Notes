@@ -28,15 +28,15 @@ The three different types of storage modes you can choose from:
 [Microsoft source 1](https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/3-building-blocks-of-power-bi) and [2](https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/4-exercise-touring-and-using-power-bi)
 ### Reports vs Dashboards
 
-![[Pasted image 20230929210107.png]]
+![Pasted image 20230929210107](Pasted%20image%2020230929210107.png)
 ([source](https://learn.microsoft.com/en-us/power-bi/create-reports/service-dashboards))
 
-![[Pasted image 20230929210329.png]]
+![Pasted image 20230929210329](Pasted%20image%2020230929210329.png)
 ([source](https://k21academy.com/microsoft-azure/data-analyst/dashboards-vs-reports-in-power-bi/))
 
 ### Dashboards vs Apps
 
-![[Pasted image 20230929210445.png]]
+![Pasted image 20230929210445](Pasted%20image%2020230929210445.png)
 ([source](https://www.coatesdatastrategies.com/blog/why-use-a-power-bi-app))
 
 A Dashboard:
@@ -64,14 +64,14 @@ Put briefly, Dashboards are OK for small implementations, but Apps are more sca
 ### Visualizing The Three
 
 App example:
-![[Pasted image 20230929211052.png]]
+![Pasted image 20230929211052](Pasted%20image%2020230929211052.png)
 ([source](https://learn.microsoft.com/en-us/training/modules/get-started-with-power-bi/4-exercise-touring-and-using-power-bi))
 
 Dashboard example is the same as the image above, but only the dashboard tab:
-![[Pasted image 20230929211103.png]]
+![Pasted image 20230929211103](Pasted%20image%2020230929211103.png)
 
 Report example:
-![[Pasted image 20230929211134.png]]
+![Pasted image 20230929211134](Pasted%20image%2020230929211134.png)
 (note: the "Top 100 Contributors" is a page in the report, so the report contains 6 pages in total)
 
 # Parameter Value Types
@@ -83,13 +83,13 @@ There are two types:
 * Parameters used in Power BI Reports.
 	* by changing these parameters users can **change what is shown on the report**.
 	* Example ([source](https://www.youtube.com/watch?v=1eurc0EY2Xg)):
-	  ![[Pasted image 20231014212908.png]]
+	  ![Pasted image 20231014212908](Pasted%20image%2020231014212908.png)
 	  then:
-	  ![[Pasted image 20231014212949.png]]
+	  ![Pasted image 20231014212949](Pasted%20image%2020231014212949.png)
 	  then, repeat the two images' steps above to create `Y Axis` parameter. Then, create an empty bar chart visual, and the parameters as fields:
-	  ![[Pasted image 20231014213104.png]]
+	  ![Pasted image 20231014213104](Pasted%20image%2020231014213104.png)
 	  Result:
-	  ![[Pasted image 20231014213148.png]]
+	  ![Pasted image 20231014213148](Pasted%20image%2020231014213148.png)
 
 
 # Custom Invoke Functions
@@ -104,7 +104,7 @@ https://www.youtube.com/watch?v=ynr9VE9QQXc
 ## SQL vs T-SQL
 
 ([source](https://pediaa.com/what-is-the-difference-between-sql-and-tsql/))
-![[Pasted image 20230930081913.png]]
+![Pasted image 20230930081913](Pasted%20image%2020230930081913.png)
 
 # Import Errors
 
@@ -142,9 +142,9 @@ When you work in Power Query Editor, all steps that you take to shape your data 
 
 Each cleaning step that you made was likely created by using the graphical interface, but Power Query uses the M language behind the scenes.
 After creating steps to clean data, select the **View** ribbon of Power Query and then select **Advanced Editor**:
-![[Pasted image 20230930120652.png]]
+![Pasted image 20230930120652](Pasted%20image%2020230930120652.png)
 You should see something like this:
-![[Pasted image 20230930120706.png]]
+![Pasted image 20230930120706](Pasted%20image%2020230930120706.png)
 
 You might notice that M code is written top-down. Later steps in the process can refer to previous steps by the variable name to the left of the equal sign. Be careful about reordering these steps because it could ruin the statement dependencies. Write to a query formula step by using the **in** statement. Generally, the last query step is used as the **in final data set** result.
 
@@ -154,7 +154,7 @@ You might notice that M code is written top-down. Later steps in the process can
 Pivot meaning: **Moving rows to columns or columns to rows** (or "pivoting") to see different summaries of the source data. Filtering, sorting, grouping, and conditionally formatting the most useful and interesting subset of data enabling you to focus on just the information you want. ([source](https://support.microsoft.com/en-gb/office/overview-of-pivottables-and-pivotcharts-527c8fa3-02c0-445a-a2db-7794676bce96#:~:text=Moving%20rows%20to%20columns%20or,just%20the%20information%20you%20want.))
 
 pivot visualization:
-![[Pasted image 20230930112405.png]]
+![Pasted image 20230930112405](Pasted%20image%2020230930112405.png)
 ([source](http://jalammar.github.io/visualizing-pandas-pivoting-and-reshaping/))
 
 Regarding [Microsoft source](https://learn.microsoft.com/en-us/training/modules/clean-data-power-bi/2-shape-data):
@@ -163,22 +163,22 @@ Regarding [Microsoft source](https://learn.microsoft.com/en-us/training/modules/
 
 If Pivot dataset is like this:
 
-![[Pasted image 20230930112607.png]]
+![Pasted image 20230930112607](Pasted%20image%2020230930112607.png)
 
 Then to unpivot it, select the **Transform** tab in Power Query, and then select **Unpivot**:
-![[Pasted image 20230930112648.png]]
+![Pasted image 20230930112648](Pasted%20image%2020230930112648.png)
 
 ### Pivot Columns
 
 To pivot a flat file (dataset):
 first select column that you'd like to be aggregated, in the case below, "Subcategory Name":
-![[Pasted image 20230930112845.png]]
+![Pasted image 20230930112845](Pasted%20image%2020230930112845.png)
 then:
-![[Pasted image 20230930112732.png]]
+![Pasted image 20230930112732](Pasted%20image%2020230930112732.png)
 then:
-![[Pasted image 20230930113000.png]]
+![Pasted image 20230930113000](Pasted%20image%2020230930113000.png)
 then you'll see it transformed like so:
-![[Pasted image 20230930113130.png]]
+![Pasted image 20230930113130](Pasted%20image%2020230930113130.png)
 
 
 ## Combining Tables
@@ -194,27 +194,27 @@ Go to **Home** on the Power Query Editor ribbon and select the **Merge Querie
 
 Case scenario: you have tables that contain certain columns that are common in all the tables, for example, (id, company, name, phone). If this is the case:
 Before you begin combining queries, you can remove extraneous columns that you don't need for this task from your tables. To complete this task, format each table to have only four columns with your pertinent information, and rename them so they all have the same column headers. The following is visualization of the tables after they've been renamed to have the same 4 column names:
-![[Pasted image 20230930114800.png]]
+![Pasted image 20230930114800](Pasted%20image%2020230930114800.png)
 
 Then, on the **Home** tab on the Power Query Editor ribbon, select the drop-down list for **Append Queries**:
-![[Pasted image 20230930114834.png]]
+![Pasted image 20230930114834](Pasted%20image%2020230930114834.png)
 
 Then, the final appended table will look like this:
-![[Pasted image 20230930114849.png]]
+![Pasted image 20230930114849](Pasted%20image%2020230930114849.png)
 
 ## Profiling Data to Find Data Anomalies and Data Statistics
 
 [Microsoft source](https://learn.microsoft.com/en-us/training/modules/clean-data-power-bi/6-profile-data)
 
 Power Query Editor determines data anomalies by using the **Column Distribution** feature.
-![[Pasted image 20230930120218.png]]
+![Pasted image 20230930120218](Pasted%20image%2020230930120218.png)
 
 By default, Power Query examines the first 1000 rows of your data set. To change this, <mark style="background: #D2B3FFA6;">select the profiling status in the status bar and select Column profiling based on entire data set</mark>.
 
 Distinct values are all the different values in a column, including duplicates and null values, while unique values do not include duplicates or nulls. Therefore, **distinct** in this table tells you the total count of how many values are present, while **unique** tells you how many of those values only appear once.
 
 Side note: before doing all of this, it is important to see the underlying data structures that data is organized in which can be done by clicking **Model** tab see something like this:
-![[Pasted image 20230930115755.png]]
+![Pasted image 20230930115755](Pasted%20image%2020230930115755.png)
 
 # Power BI Model Terms
 
@@ -292,7 +292,7 @@ A Power BI model is a tabular model. A tabular model comprises one or more table
 * In an analytic query, dimensions table columns filter or group. Fact table columns are summarized.
 
 Visualized example:
-![[Pasted image 20230930123719.png]]
+![Pasted image 20230930123719](Pasted%20image%2020230930123719.png)
 
 ## Table storage mode
 
@@ -335,7 +335,7 @@ Limitations:
 	* DirectQuery source group: set of DirectQuery storage mode tables related to a data source.
 	* Side note: if we have more than one source group, then the model framework we're currently using is called a composite model.
 
-![[Pasted image 20231007123300.png]]
+![Pasted image 20231007123300](Pasted%20image%2020231007123300.png)
 
 Benefits:
 * Model large or fast-changing data sources
@@ -345,7 +345,7 @@ Benefits:
 * Create specialized datasets
 	* Typically, DirectQuery mode supports relational database sources. That’s because Power BI must translate analytic queries to native queries understood by the data source.
 	* However, there’s one powerful exception. You can connect to a Power BI dataset (or Azure Analysis Services model) and convert it to a DirectQuery local model. A local model is a relative term that describes a model’s relationship to another model. In this case, the original dataset is a remote model, and the new dataset is the local model. These models are chained, which is term used to describe related models. You can chain up to three models in this way.
-	* This capability to chain models supports the potential to personalize and/or extend a remote model. The simplest thing you can do is rename objects, like tables or columns, or add measures to the local model. You can also extend the model with calculated columns or calculated tables, or add new import or DirectQuery tables. However, these extensions result in the creation of new source groups, which means the model becomes a [[Power BI#Composite Model|composite model]]. That scenario is described in [Unit 5](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/5-determine-when-to-develop-composite-model).
+	* This capability to chain models supports the potential to personalize and/or extend a remote model. The simplest thing you can do is rename objects, like tables or columns, or add measures to the local model. You can also extend the model with calculated columns or calculated tables, or add new import or DirectQuery tables. However, these extensions result in the creation of new source groups, which means the model becomes a [](Power%20BI.md#Composite%20Model|composite%20model). That scenario is described in [Unit 5](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/5-determine-when-to-develop-composite-model).
 	* For more information, see [Using DirectQuery for Power BI datasets and Azure Analysis Services](https://learn.microsoft.com/en-us/power-bi/connect-data/desktop-directquery-datasets-azure-analysis-services).
 
 Limitations:
@@ -374,8 +374,8 @@ When you use DirectQuery to connect to data in Power BI Desktop, that connection
 
  [M source](https://learn.microsoft.com/en-us/training/modules/choose-power-bi-model-framework/5-determine-when-to-develop-composite-model)
 
-A composite model comprises more than one [[Power BI#^ngupkb|source group]]. Typically, there’s always the import source group and a DirectQuery source group:
-![[Pasted image 20230930134927.png]]
+A composite model comprises more than one [](Power%20BI.md#^ngupkb|source%20group). Typically, there’s always the import source group and a DirectQuery source group:
+![Pasted image 20230930134927](Pasted%20image%2020230930134927.png)
 
 Benefits:
 * design flexibility.
@@ -390,7 +390,7 @@ Limitations:
 	* set related dimension tables to use dual storage mode. 
 	* This scenario is described later
 * When chaining models, modifications made to upstream models can break downstream models. Be sure to assess the impact of modifications by performing [dataset impact analysis](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-dataset-impact-analysis) first.
-* Relationships between tables from different source groups are known as limited relationships. A model relationship is limited when the Power BI can’t determine a “one” side of a relationship. Limited relationships may result in different evaluations of model queries and calculations. For more information, see [[Power BI#Relationship Evaluation Advanced|Relationship evaluation]] (its [M source](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand)).
+* Relationships between tables from different source groups are known as limited relationships. A model relationship is limited when the Power BI can’t determine a “one” side of a relationship. Limited relationships may result in different evaluations of model queries and calculations. For more information, see [](Power%20BI.md#Relationship%20Evaluation%20Advanced|Relationship%20evaluation) (its [M source](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand)).
 
 ##### Boost DirectQuery model performance with import data
 
@@ -427,33 +427,33 @@ For more information, see [Configure incremental refresh and real-time data](ht
 ### Load JSON Using Expander
 
 when loading NoSQL data (from Cosmos DB for example), data will initially look like this:
-![[Pasted image 20230930080619.png]]
+![Pasted image 20230930080619](Pasted%20image%2020230930080619.png)
 
 So click load, then click on the expander button, then uncheck prefix option, then apply:
-![[Pasted image 20230930080722.png]]
+![Pasted image 20230930080722](Pasted%20image%2020230930080722.png)
 
 
 # Relationship Evaluation (Advanced)
 
 [M source](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand#relationship-evaluation)
 
-first of all, an example of a [[Power BI#Composite Model|composite model]]:
-![[Pasted image 20230930140506.png]]
-(side note: vertipaq is just a case scenario name for an [[Power BI#^v8cl9b|import source group]]).
+first of all, an example of a [](Power%20BI.md#Composite%20Model|composite%20model):
+![Pasted image 20230930140506](Pasted%20image%2020230930140506.png)
+(side note: vertipaq is just a case scenario name for an [](Power%20BI.md#^v8cl9b|import%20source%20group)).
 
 Relationships can be evaluated into one of the following two types:
 ### Regular relationships
 A model relationship is _regular_ when the query engine can determine the "one" side of relationship. It has confirmation that the "one" side column contains unique values.
 
 Example (denoted by "R"):
-![[Pasted image 20230930140913.png]]
+![Pasted image 20230930140913](Pasted%20image%2020230930140913.png)
 
 Benefits:
 * Upon refreshing the data of imported models, data structures (DSs) are created for each regular relationship 
 	* These DSs consist of indexed mappings of all column-to-column values
 	* their purpose is to accelerate joining tables at query time.
 * At query time, table expansion happens, example:
-![[Pasted image 20230930141221.png]]
+![Pasted image 20230930141221](Pasted%20image%2020230930141221.png)
 	side note: the columns highlighted in red and green are the columns used to join Sales with Product and Product with Category respectively.
 	The expanded table is effectively a denormalized perspective of the data contained in the three tables. This is beneficial for increasing performance of analytical queries. In the example above, a new row is added to the **Sales** table, and it has a production identifier value (9) that has no matching value in the **Product** table. It's a referential integrity violation. In the expanded table, the new row has (Blank) values for the **Category** and **Product** table columns.
 
@@ -465,7 +465,7 @@ A model relationship is _limited_ when there's no guaranteed "one" side. A lim
 - The relationship is cross source group (which can only ever be the case for composite models).
 
 Example (limited relationships are indicated by "L"):
-![[Pasted image 20230930141641.png]]
+![Pasted image 20230930141641](Pasted%20image%2020230930141641.png)
 
 The benefits of regular relationships are now gone:
 * data structures are never created for limited relationships. 
@@ -480,7 +480,7 @@ There are other restrictions related to limited relationships:
 - Enforcing RLS has topology restrictions.
 
 Note, Power BI indicates a limited relationship by the parentheses `( )` here:
-![[Pasted image 20230930141911.png]]
+![Pasted image 20230930141911](Pasted%20image%2020230930141911.png)
 
 # Working With Tables (Power BI Model View)
 
@@ -488,13 +488,13 @@ Note, Power BI indicates a limited relationship by the parentheses `( )` here:
 ## Configuring Data Model and Building relationships between tables
 
 click here:
-![[Pasted image 20231002142905.png]]
+![Pasted image 20231002142905](Pasted%20image%2020231002142905.png)
 
 then, to manage relationships, click here:
-![[Pasted image 20231002143006.png]]
+![Pasted image 20231002143006](Pasted%20image%2020231002143006.png)
 
 then press `auto detect` if the tables have common column names. Otherwise, press `new` to display this:
-![[Pasted image 20231002143900.png]]
+![Pasted image 20231002143900](Pasted%20image%2020231002143900.png)
 note 1: the configuration above will change depending on the scenario of your data.
 note 2: read more about "Cross filter direction" [here](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand)
 
@@ -543,7 +543,7 @@ Use one one of the following DAX functions:
 
 Follow these steps to create a date table called `Dates`:
 
-![[Pasted image 20231002193841.png]]
+![Pasted image 20231002193841](Pasted%20image%2020231002193841.png)
 the formula above creates `Dates` table from 2011-5-31 until 2022-12-31
 
 Then, if you want to add other columns, select "New column" (next to "New table"), and execute the following DAX expressions:
@@ -578,29 +578,29 @@ ADDCOLUMNS (
 
 the expression above can be used instead of just applying `CALENDARAUTO()` so that we get the relevant start/end dates only using `MinYear` and `MaxYear`.
 
-Note: if you don't understand this syntax, refer to [[#Calculated Tables|Calculated Tables]] and [[#DAX Syntax|DAX Syntax]] headers.
+Note: if you don't understand this syntax, refer to [Calculated Tables](#Calculated%20Tables) and [DAX Syntax](#DAX%20Syntax) headers.
 #### Using Power Query's M Language
 
 Open Power Query from here:
-![[Pasted image 20231002194510.png]]
+![Pasted image 20231002194510](Pasted%20image%2020231002194510.png)
 
 Then, in the left pane of the power query:
-![[Pasted image 20231002194725.png]]
+![Pasted image 20231002194725](Pasted%20image%2020231002194725.png)
 
 Then execute the following query:
-![[Pasted image 20231002194828.png]]
+![Pasted image 20231002194828](Pasted%20image%2020231002194828.png)
 
 Then, to convert to table:
-![[Pasted image 20231002195914.png]]
+![Pasted image 20231002195914](Pasted%20image%2020231002195914.png)
 Then select the delimiter as "none" and the extra columns to "show errors" (or other options if you find them useful :])
 
 Then, to add columns from that date column (e.g., year):
-![[Pasted image 20231002200143.png]]
+![Pasted image 20231002200143](Pasted%20image%2020231002200143.png)
 
 ### Marking as Official Date Table
 
 Follow these steps:
-![[Pasted image 20231002201213.png]]
+![Pasted image 20231002201213](Pasted%20image%2020231002201213.png)
 then choose the date column.
 
 Note 1 ([M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/1-introduction#:~:text=The%20table%20must,have%20missing%20dates.)):
@@ -621,8 +621,8 @@ Selecting **Mark as date table** <mark style="background: #D2B3FFA6;">will rem
 
 The final step to build your visuals is to establish a relationship between this new common date table and the other tables that contain dates (e.g., Sales and Orders tables).
 
-To do this, access the `manage relationships` menu by following the steps previously described in "[[Power BI#Configure data model and build relationships between tables|Configure data model and build relationships between tables]]" header, such that the final menu configuration looks similar to this:
-![[Pasted image 20231002204342.png]]
+To do this, access the `manage relationships` menu by following the steps previously described in "[](Power%20BI.md#Configure%20data%20model%20and%20build%20relationships%20between%20tables|Configure%20data%20model%20and%20build%20relationships%20between%20tables)" header, such that the final menu configuration looks similar to this:
+![Pasted image 20231002204342](Pasted%20image%2020231002204342.png)
 
 Alternatively, you can just drag and drop the date column into the other required tables from the model view as shown [here](https://youtu.be/-li7sxUxEqA?t=180) (at 3:00)
 
@@ -639,19 +639,19 @@ One can use use hierarchies as one source to help you find detail in dimension t
 Power BI automatically enters values of the date type as a hierarchy (if the table has not been marked as a date table).
 
 Follow these steps to create a hierarchy:
-![[Pasted image 20231002221458.png]]
+![Pasted image 20231002221458](Pasted%20image%2020231002221458.png)
 
 Then, add the sub-columns to the main hierarchy column by following these steps:
-![[Pasted image 20231002222143.png]]
+![Pasted image 20231002222143](Pasted%20image%2020231002222143.png)
 
 Then, you can do whatever you want with this hierarchy:
-![[Pasted image 20231002222712.png]]
+![Pasted image 20231002222712](Pasted%20image%2020231002222712.png)
 for example, use as x-axis of a visualization.
 
 #### Flattening a Parent-Child Hierarchy
 
 In the example below, `Manager ID` is logically a parent of `Employee ID`.
-![[Pasted image 20231002222904.png|625]]
+![625](Pasted%20image%2020231002222904.png)
 But the two columns above just show us the first level of the hierarchy (for example, they will show us that 1013 -> 1011, but they won't show us that 1013 -> 1011 -> 1010). Therefore, <mark style="background: #FF5582A6;">to visualize all the hierarchy levels, we have to flatten it</mark>.
 
 To flatten the hierarchy, right click the table of interest, then click "new column", then execute the following DAX expression:
@@ -659,7 +659,7 @@ To flatten the hierarchy, right click the table of interest, then click "new col
 Path = PATH(Employee[Employee ID], Employee[Manager ID])
 ```
 its output is the "Path" column in the table below:
-![[Pasted image 20231002223748.png|550]]
+![550](Pasted%20image%2020231002223748.png)
 
 then, create columns of all the possible levels of this path by executing the following DAX expressions:
 ```EXCEL
@@ -682,14 +682,14 @@ Previously, you've considered dimensions that have only one relationship with a 
 
 Example 1 ([M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-write-formulas/1-introduction#:~:text=CALENDARAUTO%20DAX%20functions.-,Role%2Dplaying%20dimensions,-When%20two%20model)):
 When two model tables have multiple relationships, it could be because your model has a role-playing dimension. For example, if you have a table named **Sales** that includes two date columns, **OrderDateKey** and **ShipDateKey**, both columns are related to the **Date** column in the **Date** table. In this case, the **Date** table is described as a role-playing dimension because it could play the role of _order date_ or _ship date_.
-![[Pasted image 20231004100904.png]]
+![Pasted image 20231004100904](Pasted%20image%2020231004100904.png)
 
 Now, Microsoft Power BI models only allow one active relationship between tables, which in the model diagram is indicated as a solid line. The active relationship is used by default to propagate filters, which in this case would be from the **Date** table to the **OrderDateKey** column in the **Sales** table. Any remaining relationships between the two tables are inactive. In a model diagram, the relationships are represented as dashed lines. Inactive relationships are only used when they're expressly requested in a calculated formula by using the [`USERELATIONSHIP`](https://learn.microsoft.com/en-us/dax/userelationship-function-dax/) DAX function.
 
 Perhaps a better model design could have two date tables, each with an active relationship to the **Sales** table. Thus, report users can filter by order date or ship date, or both at the same time. A calculated table can duplicate the **Date** table data to create the **Ship Date** table.
 
 Example 2:
-![[Pasted image 20231002225012.png|450]]
+![450](Pasted%20image%2020231002225012.png)
 The preceding visual shows the Calendar, Sales, and Order tables. Calendar is the dimension table, while Sales and Order are fact tables. The dimension table has two relationships: one with Sales and one with Order. This example is of a role-playing dimension because the Calendar table can be used to group data in both Sales and Order. 
 If you wanted to build a visual in which the Calendar table references the Order and the Sales tables, the Calendar table would act as a role-playing dimension.
 
@@ -709,12 +709,12 @@ In this scenario, you might want to import the data by using a daily average for
 
 consider that you're building reports for the Sales team at Tailwind Traders. You've been asked to build a matrix of total sales and budget over time by using the Calendar, Sales, and Budget tables. You notice that the lowest level of time-based detail that the Sales table goes into is by day, for instance 5/1/2020, 6/7/2020, and 6/18/2020. The Budget table only goes to the monthly level, for instance, the budget data is 5/2020 and 6/2020:
 
-![[Pasted image 20231003183435.png]]
+![Pasted image 20231003183435](Pasted%20image%2020231003183435.png)
 
 Therefore, we need to define same granularity level for both tables, which can be done by transforming the **Year** and **Month** columns in the Calendar table into a new column, and do the same transformation in the Budget table, you can match the format of the **Date** column in the Calendar table. Then, you can establish a relationship between the two columns. To complete this task, you'll concatenate the **Year** and **Month** columns and then change the format. This can be done like so:
 
 Select **Transform Data** on the ribbon. On **Applied Steps**, on the right pane, right-click the last step and then select **Insert Step After**:
-![[Pasted image 20231003190519.png|324]]
+![324](Pasted%20image%2020231003190519.png)
 
 Under **Add Column** on the Home ribbon, select **Custom Column**. Enter the following equation, which will concatenate the **Year** and **Month** columns, and then add a dash in between the column names.
 
@@ -723,10 +723,10 @@ Column = Table.AddColumn(#"Renamed Columns", "Custom", each [Year] & "-" &[Month
 ```
 
 Then, change the data type to **Date** and then rename the column. Your Budget table should resemble the following figure:
-![[Pasted image 20231003225255.png|450]]
+![450](Pasted%20image%2020231003225255.png)
 
 Now, you can create a relationship between the Budget and the Calendar tables like so (in the [M source](https://learn.microsoft.com/en-us/training/modules/design-model-power-bi/5-data-granularity#:~:text=create%20the%20relationship%20on%20the%20Date%20column), it is said that the relationship is on the `Date` column, however, I think they meant the `MonthYear` column?):
-![[Pasted image 20231003225344.png|700]]
+![700](Pasted%20image%2020231003225344.png)
 
 Now, check [this](https://learn.microsoft.com/en-us/training/modules/design-model-power-bi/5-data-granularity#:~:text=Now%2C%20you%20need,budgets%20over%20time.) to see how to build a matrix of the total sales and budgets over time.
 
@@ -751,18 +751,18 @@ With **both cross-filter directions** or **bi-directional cross-filtering**:
 	- [Slicer items "with data"](https://learn.microsoft.com/en-us/power-bi/guidance/relationships-bidirectional-filtering#slicer-items-with-data)
 	- [Dimension-to-dimension analysis](https://learn.microsoft.com/en-us/power-bi/guidance/relationships-bidirectional-filtering#dimension-to-dimension-analysis)
 - Note: to figure out if a relationship is bi-directional or not by only looking at the model view, check for this:
-  ![[Pasted image 20231018220316.png]]
+  ![Pasted image 20231018220316](Pasted%20image%2020231018220316.png)
 - You might have lower performance when using bi-directional cross-filtering with many-to-many relationships. This is why each of the three cases above have alternatives:
 	- Case 1 alternative: 
 		- Convert 1:1 relationship by making it a single table
 		- Convert M:M relationship by using a bridging table (i.e., factless fact table) ([MD source](https://learn.microsoft.com/en-us/power-bi/guidance/star-schema#factless-fact-tables:~:text=A%20more%20compelling,bridging%20table.)). Example ([source](https://learn.microsoft.com/en-us/power-bi/guidance/relationships-many-to-many#relate-many-to-many-dimensions:~:text=Two%20one%2Dto%2Dmany%20relationships%20are%20added%20to%20relate%20the%20tables.%20Here%27s%20an%20updated%20model%20diagram%20of%20the%20related%20tables.%20A%20fact%2Dtype%20table%20named%20Transaction%20has%20been%20added.%20It%20records%20account%20transactions.%20The%20bridging%20table%20and%20all%20ID%20columns%20have%20been%20hidden.)):
-		  ![[Pasted image 20231018220516.png]] ^zuytek
+		  ![Pasted image 20231018220516](Pasted%20image%2020231018220516.png) ^zuytek
 	- Case 2 alternative: After creating the slicer (let's assume it's made from a measure called `Total Quantity`), do this in the filter pane ([source](https://learn.microsoft.com/en-us/power-bi/guidance/relationships-bidirectional-filtering#:~:text=To%20show%20the%20Product%20slicer%20items%20%22with%20data%22%2C%20it%20simply%20needs%20to%20be%20filtered%20by%20the%20Total%20Quantity%20measure%20using%20the%20%22is%20not%20blank%22%20condition.)):  
-	  ![[Pasted image 20231018214209.png]]
+	  ![Pasted image 20231018214209](Pasted%20image%2020231018214209.png)
 	- Case 3 alternative: Use CROSSJOIN DAX function. Example: assuming we have a data model like this:
-	  ![[Pasted image 20231018214441.png]]
+	  ![Pasted image 20231018214441](Pasted%20image%2020231018214441.png)
 	  and let's say you want to create a table visual like this:
-	  ![[Pasted image 20231018214507.png]]
+	  ![Pasted image 20231018214507](Pasted%20image%2020231018214507.png)
 	  this requires that the `Product` dimension table filters the `Sales` fact table, which in turn filters the `Customer` dimension table, in order to properly use `Country-Region` column to get the `Different Countries Sold` values in the visual. To do this, we can use `CROSSJOIN` to temporarily create bi-directional filtering between `Sales` and `Customer`: 
 
 ```EXCEL
@@ -789,7 +789,7 @@ Also, check out [this](https://learn.microsoft.com/en-us/training/modules/design
 
 [TDS source](https://medium.com/analytics-vidhya/concept-of-context-in-dax-with-examples-in-power-bi-chapter-3-14fe6ab3ce32)
 
-![[Pasted image 20231006100849.png]]
+![Pasted image 20231006100849](Pasted%20image%2020231006100849.png)
 ([source](https://thedatalabs.org/filter-context/))
 
 * Context is what makes it possible to perform dynamic analysis.
@@ -797,7 +797,7 @@ Also, check out [this](https://learn.microsoft.com/en-us/training/modules/design
 * There are different types of context: row context, query context, and filter context.
 	* Filter context is the set of values allowed in each column, based on filter constraints that were applied to the row or that are defined by filter expressions within the formula.
 	* Row context can be thought of as "the current row.” 
-		* If you have created a **[[#Calculated Columns|calculated column]]**, the row context consists of the values in each individual row and values in columns that are related to the current row. 
+		* If you have created a **[calculated column](#Calculated%20Columns)**, the row context consists of the values in each individual row and values in columns that are related to the current row. 
 		* There are also some functions ([EARLIER](https://docs.microsoft.com/dax/earlier-function-dax) and [EARLIEST](https://docs.microsoft.com/en-us/dax/earliest-function-dax)) that get a value from the current row and then use that value while performing an operation over an entire table.
 	* Query context refers to the subset of data that is implicitly created for each cell in a PivotTable, depending on the row and column headers.
 
@@ -811,7 +811,7 @@ There are some items on which filter context applied. For example,
 2. by slicer
 3. through filter pane
 4. to the calculated measure
-	1. This is done using [`CALCULATE`](https://learn.microsoft.com/en-us/dax/calculate-function-dax/) and [`FILTER`](https://learn.microsoft.com/en-us/dax/filter-function-dax/) DAX functions, as explained in [this](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-modify-filter/2-modify-filter-context) Microsoft source, which is referenced later in the [[#Filter Context Functions|Filter Context Functions]] section.
+	1. This is done using [`CALCULATE`](https://learn.microsoft.com/en-us/dax/calculate-function-dax/) and [`FILTER`](https://learn.microsoft.com/en-us/dax/filter-function-dax/) DAX functions, as explained in [this](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-modify-filter/2-modify-filter-context) Microsoft source, which is referenced later in the [Filter Context Functions](#Filter%20Context%20Functions) section.
 
 > “Filter context applies on top of other contexts, such as row context or query context.”
 
@@ -820,7 +820,7 @@ There are some items on which filter context applied. For example,
 		* For example, if you have a slicer that lets you select a product category, and you want to calculate the average sales for each product category, you can use a formula like this: `Average Sales = AVERAGE(Total Sales)`, then it will calculate the average of the total sales column for each product category. **The filter context in this case could be determined by the slicer that filters the sales table by product category**.
 
 Visualized example of filter context ([source](https://www.statslab-bi.co.nz/project/row-filter-context-dax/)):
-![[Pasted image 20231006101604.png]]
+![Pasted image 20231006101604](Pasted%20image%2020231006101604.png)
 
 You can learn more about filter contexts from [this](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-modify-filter/1-introduction) Microsoft source.
 
@@ -834,14 +834,14 @@ Two possible standard outcomes occur when you add filter expressions to the `CA
 - If the columns (or tables) are already in filter context, the existing filters will be overwritten by the new filters to evaluate the `CALCULATE` expression.
 
 Example to illustrate this:
-Given this DAX formula (mentioned in a later sub-section in [[#Filter Context Functions|Filter Context Functions]]):
+Given this DAX formula (mentioned in a later sub-section in [Filter Context Functions](#Filter%20Context%20Functions)):
 ```EXCEL
 Revenue Red = CALCULATE([Revenue], 'Product'[Color] = "Red")
 ```
 and given that we add that measure to a table to get this:
-![[Pasted image 20231006112010.png|417]]
+![417](Pasted%20image%2020231006112010.png)
 If we now change the table's first column `Region` to the column `Color` (of `Product` table), then we'll get something like this:
-![[Pasted image 20231006112247.png|433]]
+![433](Pasted%20image%2020231006112247.png)
 
 The following bullet points are explanation of the two cases above:
 * Case 1: Because no filter is applied on the **Color** column in the **Product** table, the evaluation of the measure adds a new filter to filter context. 
@@ -858,14 +858,14 @@ The following bullet points are explanation of the two cases above:
 ## Row Context
 
 * **Row Context** is related to **current rows.**
-	* If you create a calculation using the **[[#Calculated Columns|calculated column]]**, the row context involves the **values of all** columns from the **current** row.
-		* If that table [[Power BI#^128yfb|has a relationship with the other table]], then it includes all the **related** values from the other table for that row.
-	* There are some [[#Iterator Functions|iterative functions]] in **DAX** over a table. Those functions involve **multiple** rows during calculation and each with its own **row context**.
+	* If you create a calculation using the **[calculated column](#Calculated%20Columns)**, the row context involves the **values of all** columns from the **current** row.
+		* If that table [](Power%20BI.md#^128yfb|has%20a relationship with%20the other%20table), then it includes all the **related** values from the other table for that row.
+	* There are some [iterative functions](#Iterator%20Functions) in **DAX** over a table. Those functions involve **multiple** rows during calculation and each with its own **row context**.
 
 Visualized example of row context in a calculated column ([source](https://powerbidocs.com/2021/01/07/filter-context-and-row-context-in-power-bi/)):
-![[Pasted image 20231006101527.png]]
+![Pasted image 20231006101527](Pasted%20image%2020231006101527.png)
 
-A visualized example of row context in an iterator function is shown later in the [[#Iterator Functions|Iterator Functions]] section.
+A visualized example of row context in an iterator function is shown later in the [Iterator Functions](#Iterator%20Functions) section.
 
 ## Query Context
 
@@ -895,7 +895,7 @@ DAX can also be used to define row-level security (RLS) rules, which are express
 	* <mark style="background: #FFB8EBA6;">they must pass the table or column into a function to produce a summarization</mark>.
 
 Its appearance is like this:
-![[Pasted image 20231004131654.png]]
+![Pasted image 20231004131654](Pasted%20image%2020231004131654.png)
 
 #### Implicit Measures
 
@@ -931,7 +931,7 @@ Implicit measures aren't suitable for the following case:
 * Are called "compound measures" if they reference one or more measures ([M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-measures/3-compound-measures)).
 	* Example: `Profit = [Revenue] - [Cost]`
 * Are called "quick measures" if you create the measure from Table tools -> calculations -> quick measure as seen below ([M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-measures/4-quick-measures)):
-![[Pasted image 20231004205818.png]]
+![Pasted image 20231004205818](Pasted%20image%2020231004205818.png)
 (for more info on the rest of the steps of creating the quick measure, check [this](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-measures/4-quick-measures#:~:text=In%20the%20Fields,the%20measure%20definition.))
 
 Note that all these measure types are not mutually exclusive.
@@ -967,7 +967,7 @@ TLDR; Power Query doesn't have the concept of a measure.
 * Increases the storage size of your model.
 
 Its appearance is like this:
-![[Pasted image 20231004131317.png]]
+![Pasted image 20231004131317](Pasted%20image%2020231004131317.png)
 
 Note 1: Check out DAX examples of calculated columns and how to deal with fiscal years [here](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/2-calculated-columns).
 
@@ -978,7 +978,7 @@ Note 2 (M source): If your DAX formula needs to reference columns **in other tab
 Generally, try to use the `RELATED` function whenever possible. It will usually perform better than the `LOOKUPVALUE` function due to the ways that relationship and column data is stored and indexed.
 
 Example: suppose you have the following 2 tables:
-![[Pasted image 20231005184103.png|550]]
+![550](Pasted%20image%2020231005184103.png)
 (source: [Adventure Works DW 2020 M03.pbix](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/raw/main/activities/Adventure%20Works%20DW%202020%20M03.pbix) file)
 
 and now the calculated column definition below adds the **Discount Amount** column to the **Sales** table:
@@ -1001,16 +1001,16 @@ Note
 A calculated table can't connect to external data; you need to use Power Query to accomplish that task.
 
 Calculated tables can be useful in various scenarios:
-- [[#Creating a Date Table|Date tables]]
-- [[#Role-Playing Dimensions|Role-playing dimensions]]
-- [[#What-If Analysis (Disconnected Tables)|What-if analysis]]
+- [Date tables](#Creating%20a%20Date%20Table)
+- [Role-playing dimensions](#Role-Playing%20Dimensions)
+- [What-if analysis](#What-If%20Analysis%20(Disconnected%20Tables))
 
 #### Avoiding Multi-Relationships by Using Calculated Tables
 
 [M source](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/1-introduction)
 
 Consider the following scenario:
-![[Pasted image 20231005134733.png]]
+![Pasted image 20231005134733](Pasted%20image%2020231005134733.png)
 Notice that the **Sales** table has three relationships to the **Date** table.
 **In this case**, the active relationship filters the **OrderDateKey** column in the **Sales** table. **Thus**, filters that are applied to the Date table will propagate to the Sales table to **filter by order date; they'll never filter by ship date or due date**. 
 
@@ -1027,10 +1027,10 @@ Therefore, we can enhance the current model structure by doing the following ste
 check [this](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/1-introduction#:~:text=to%20refreshed%20tables.-,Duplicate%20a%20table,-The%20following%20section) and [this](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-add-calculated-tables/1-introduction#:~:text=time%20intelligence.-,Create%20a%20date%20table,-In%20the%20next) to see the full steps of how to create `Ship Date` and `Due Date` tables respectively.
 
 But to summarize, either duplicate the `Date` table by clicking here:
-![[Pasted image 20231005135916.png]]
+![Pasted image 20231005135916](Pasted%20image%2020231005135916.png)
 then executing this: `Ship Date = 'Date'`
 then organizing the columns to be meaningful like this:
-![[Pasted image 20231005140033.png|375]]
+![375](Pasted%20image%2020231005140033.png)
 then marking table as date table on `Ship Date` column.
 
 Or, you can create new table using `CALENDARAUTO` DAX function like this: `Due Date = CALENDARAUTO(6)` (assuming that the financial year for your company ends on June 30 of each year).
@@ -1040,7 +1040,7 @@ Then follow similar organizing steps as previously mentioned.
 You can use _what-if_ parameters to run scenarios and scenario-type analysis on your data. What-if parameters are powerful additions to your Power BI data models and reports because they enable you to look at historical data to analyze potential outcomes if a different scenario had occurred. Additionally, what-if parameters can help you look forward, to predict or forecast what could happen in the future ([M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/8-what-if-parameters)).
 
 When you create a [What-if parameter](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-what-if/), a calculated table is automatically added to your model. Example ([source](https://www.youtube.com/watch?v=6a_5uderwAg)):
-![[Pasted image 20231004113636.png]]
+![Pasted image 20231004113636](Pasted%20image%2020231004113636.png)
 
 What-if parameters allow report users to select or filter by values that are stored in the calculated table. Measure formulas can use selected value(s) in a meaningful way. In the example above, the what-if parameter is the chosen numeric range in `Pct Sales Forecast`, and the measure formula is to multiply this numeric value by the `Total Sales` column to get the `Total Sales Forecast` bars in the bar chart above.
 
@@ -1194,7 +1194,7 @@ Then, `COUNT(Customer['cust_name'])` will be 3, while `COUNTROWS(Customer)` will
 * Side note: Single-column summarization functions (e.g., SUM) are implicitly converted to their iterator counterpart (e.g., SUMX)
 
 The following example illustrates different aspects of an iterator function (filter and row contexts) (M source: the video found [here](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-iterator-functions/1-introduction)):
-![[Pasted image 20231006082949.png]]
+![Pasted image 20231006082949](Pasted%20image%2020231006082949.png)
 Side note: In Power BI's UI, if we didn't add the InventoryKey -> 5,6 filter, then the returned sales table would've contained all the table.
 
 Important note: pleas understand the filter context part (1) in the image above. Consider this other example for illustrating this concept ([M source 1](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/2-statistical-summary#:~:text=Start%20by%20creating%20a%20new%20measure%20called%20Top%2010%20Products.%20Then%2C%20use%20the%20TOPN%20function%2C%20along%20with%20the%20SUMX%20function%2C%20to%20calculate%20your%20top%2010%20products%20by%20total%20sales%2C%20as%20follows), [M source 2](https://learn.microsoft.com/en-us/dax/topn-function-dax)):
@@ -1203,17 +1203,17 @@ Top 10 Products =
 SUMX(TOPN(10, Product, Product[Total Sales]), [Total Sales])
 ```
 The DAX expression above is useful if we want to present the top 10 in a different context, such as how much of the top 10 best-selling products contributed toward the overall total sales:
-![[Pasted image 20231014122341.png]]
+![Pasted image 20231014122341](Pasted%20image%2020231014122341.png)
 So in the image above, notice that because the selected visual filters the `Product` table by country, the `Product` part of the DAX expression above will change depending on the current country filter applied. For example, to visualize the first bar, the expression above was evaluated such that the `Product` table only contains rows related to `United States` value in the `Country` column. 
 
 #### Changing AVERAGEX Count of Values to Get Higher Grain Summarizations
 
 Suppose we have the following tables:
-![[Pasted image 20231006085044.png]]
+![Pasted image 20231006085044](Pasted%20image%2020231006085044.png)
 Such that `Sales Order`:
-![[Pasted image 20231006085717.png]]
+![Pasted image 20231006085717](Pasted%20image%2020231006085717.png)
 and `Sales`:
-![[Pasted image 20231006085743.png]]
+![Pasted image 20231006085743](Pasted%20image%2020231006085743.png)
 
 Now, suppose the required task is the following: "get the average revenue".
 We know that the average means the sum of values divided by the count of values. However, that theory raises a question: What does the count of values represent?
@@ -1228,7 +1228,7 @@ AVERAGEX(
 ```
 because each row in the **Sales** table records a sales order line, it can be more precisely described as _revenue per order line_. Accordingly, you should rename the **Revenue Avg** measure as **Revenue Avg Order Line** so that it's clear to report users about what's being used as the average base.
 The result (if visualized in a table matrix) will be something like this:
-![[Pasted image 20231006090256.png]]
+![Pasted image 20231006090256](Pasted%20image%2020231006090256.png)
 
 Moreover, if we'd like to raise the granularity to the sales order level (a sales order consists of one or more order lines), then we'll add the following measure:
 ```EXCEL
@@ -1239,7 +1239,7 @@ AVERAGEX(
 )
 ```
 Result:
-![[Pasted image 20231006090308.png]]
+![Pasted image 20231006090308](Pasted%20image%2020231006090308.png)
 
 As expected, the average revenue for an order is always higher than the average revenue for a single order line.
 
@@ -1273,7 +1273,7 @@ RANKX(
 )
 ```
 Result:
-![[Pasted image 20231006092316.png]]
+![Pasted image 20231006092316](Pasted%20image%2020231006092316.png)
 Couple of things to notice:
 * We use [`ALL`](https://learn.microsoft.com/en-us/dax/all-function-dax/), not [`VALUES`](https://learn.microsoft.com/en-us/dax/values-function-dax/), in RANKX, because the table visual will group by product (which is a filter on the **Product** table).
 * In the screenshot above, notice that we have the following ranks: `10, 10, 12`. This is because we didn't pass a `<ties>` argument, so it defaulted to `'Skip'`.
@@ -1281,7 +1281,7 @@ Couple of things to notice:
 		* The result in that case will be `10, 10, 11`.
 
 Now, at the end of the screenshot above, we'll have something like this:
-![[Pasted image 20231006092701.png]]
+![Pasted image 20231006092701](Pasted%20image%2020231006092701.png)
 The reason is because the total for all products is ranked. 
 It's not appropriate to rank total products, so you will now use the following logic to modify the measure definition to return BLANK, unless a single product is filtered:
 ```EXCEL
@@ -1319,7 +1319,7 @@ Filters can be:
 	* A table expression filter applies a table object as a filter.
 		* it's likely a DAX function that returns a table object.
 		* Its rows are a subset of those rows that were passed in, meaning the rows where the expression evaluated as `TRUE`.
-	* Commonly, you'll use the [`FILTER`](https://learn.microsoft.com/en-us/dax/filter-function-dax/) DAX function to apply complex filter conditions, including those that can't be defined by a Boolean filter expression. The `FILTER` function is classed as an [[#Iterator Functions|iterator function]], and so you would pass in a table, or table expression, and an expression to evaluate for each row of that table.
+	* Commonly, you'll use the [`FILTER`](https://learn.microsoft.com/en-us/dax/filter-function-dax/) DAX function to apply complex filter conditions, including those that can't be defined by a Boolean filter expression. The `FILTER` function is classed as an [iterator function](#Iterator%20Functions), and so you would pass in a table, or table expression, and an expression to evaluate for each row of that table.
 	* Example: the use of `FILTER` here:
 ```EXCEL
 Revenue Red =
@@ -1367,16 +1367,16 @@ RETURN
 ```
 
 Result of `Customer Segment Broken`:
-![[Pasted image 20231006161034.png]]
+![Pasted image 20231006161034](Pasted%20image%2020231006161034.png)
 Result of `Customer Segment With Calculate` or `Customer Segment With Measure`:
-![[Pasted image 20231006161412.png]]
+![Pasted image 20231006161412](Pasted%20image%2020231006161412.png)
 
 Explanations:
 * Case 1: the calculated column formula produces an incorrect result: Each customer is assigned the value of **High** because the expression `SUM(Sales[Sales Amount])` isn't evaluated in a filter context. Instead, it's evaluated in a row context, so each customer is assessed on the sum of _every_ **Sales Amount** column value in the **Sales** table.
 *  Case 2: Fixes case 1 by forcing the evaluation of the `SUM(Sales[Sales Amount])` expression _for each customer_ using `CALCULATE` to make a context transition that applies the row context column values to filter context. Alternatively, if you've a previously defined measure (e.g., `Revenue`) and evaluate that in row context, context transition will happen automatically. Thus, you don't need to pass measure references to the `CALCULATE` function.
 
-Now, recall in the example of sales commission mentioned in the [[#VALUES, HASONEVALUE, and SELECTEDVALUE Functions (to Examine Filter Context)|VALUES-HASONEVALUE-SELECTEDVALUE section]], we can now modify this example to display the total sales commission like so:
-![[Pasted image 20231006162041.png]]
+Now, recall in the example of sales commission mentioned in the [VALUES-HASONEVALUE-SELECTEDVALUE section](#VALUES,%20HASONEVALUE,%20and%20SELECTEDVALUE%20Functions%20(to%20Examine%20Filter%20Context)), we can now modify this example to display the total sales commission like so:
+![Pasted image 20231006162041](Pasted%20image%2020231006162041.png)
 
 Using iterator function `SUMX` in this DAX expression:
 ```EXCEL
@@ -1404,7 +1404,7 @@ Note: it is meaningless to replace the inner `VALUES` with `SELECTEDVALUE` in th
 
 Example to illustrate:
 Suppose we have this table:
-![[Pasted image 20231006145032.png]]
+![Pasted image 20231006145032](Pasted%20image%2020231006145032.png)
 When looking at the `Revenue` measure, we notice that the `SUM` of this measure is filtered based on the `Group`, `Country`, and `Region` columns of the `Sales Territory` table. Now, what if we want to get the total `SUM` that is not filtered by any of these columns? Answer: we remove all filters related to `Sales Territory` like so:
 ```EXCEL
 Revenue Total Region = CALCULATE([Revenue], REMOVEFILTERS('Sales Territory'))
@@ -1453,7 +1453,7 @@ You can use the [`KEEPFILTERS`](https://learn.microsoft.com/en-us/dax/keepfilte
 
 The following example illustrates KEEPFILTERS vs FILTER vs CALCULATE functions:
 Suppose you have this table (source: a personally modified version of [this](https://github.com/MicrosoftDocs/mslearn-dax-power-bi/raw/main/activities/Adventure%20Works%20DW%202020%20M06.pbix) file ):
-![[Pasted image 20231006145313.png]]
+![Pasted image 20231006145313](Pasted%20image%2020231006145313.png)
 Lets' see how each of the 3 measures are calculated:
 ```EXCEL
 Revenue Red With CALCULATE Only = 
@@ -1569,7 +1569,7 @@ Sales Commission =
     )
 ```
 Result:
-![[Pasted image 20231006153817.png]]
+![Pasted image 20231006153817](Pasted%20image%2020231006153817.png)
 Notice that the total Sales Commission result is BLANK. The reason is because multiple values are in filter context for the Country column in the Sales Territory table. In this case, the HASONEVALUE function returns FALSE, which results in the Revenue measure being multiplied by BLANK (a value multiplied by BLANK is BLANK). Side note: to produce a total, you will need to use an iterator function, which is explained later in this module.
 
 Note: Three other functions that you can use to test filter state are:
@@ -1596,7 +1596,7 @@ RETURN
     )
 ```
 Result:
-![[Pasted image 20231006154002.png]]
+![Pasted image 20231006154002](Pasted%20image%2020231006154002.png)
 In the matrix visual, notice that Revenue % Total Country values are now only displayed when a region is in scope.
 
 ### Time Intelligence Functions
@@ -1611,7 +1611,7 @@ In the matrix visual, notice that Revenue % Total Country values are now only di
 	- What growth in revenue has been achieved over the same period last year?
 	- How many new customers made their first order in each month?
 	- What's the inventory stock on-hand value for the company's products?
-* Important note: Many DAX time intelligence functions are ***concerned with standard date periods***, specifically years, quarters, and months. <mark style="background: #FFB8EBA6;">If you have "irregular time periods", or you need to work with weeks or time periods, then you'll need to use the `CALCULATE` function and pass in hand-crafted date or time filters.</mark> More about CALCULATE function [[#CALCULATE and FILTER Functions|here]].
+* Important note: Many DAX time intelligence functions are ***concerned with standard date periods***, specifically years, quarters, and months. <mark style="background: #FFB8EBA6;">If you have "irregular time periods", or you need to work with weeks or time periods, then you'll need to use the `CALCULATE` function and pass in hand-crafted date or time filters.</mark> More about CALCULATE function [here](#CALCULATE%20and%20FILTER%20Functions).
 	*  Side note: An Example of an "irregular time period" are financial months that begin mid-way through the calendar month.
 
 #### Summarizations Over Time Functions
@@ -1640,7 +1640,7 @@ Revenue YTD = TOTALYTD([Revenue], 'Date'[Date], "6-30")
 ```
 note: The year-end date value of `"6-30"` represents June 30.
 Result when adding `Revenue YTD` column to the table in the screenshot below:
-![[Pasted image 20231005220605.png]]
+![Pasted image 20231005220605](Pasted%20image%2020231005220605.png)
 Notice that it produces a summarization (i.e., accumulation) of the revenue amounts from the beginning of the year through to the filtered month.
 
 ##### Using DATESBETWEEN
@@ -1690,7 +1690,7 @@ RETURN
     CustomersLTD - CustomersPrior
 ```
 Result:
-![[Pasted image 20231006181644.png]]
+![Pasted image 20231006181644](Pasted%20image%2020231006181644.png)
 Notes: 
 * `Customers LTD` measure is a DAX formula of just the `CustomersLTD` DAX variable
 * (In the purple highlight) Notice how Power BI is intelligent enough to add the values when we're not accumulating, and to display the last value when we're accumulating (in both cases, `2459` is returned)
@@ -1715,7 +1715,7 @@ CALCULATE(
 ```
 <mark style="background: #FFB8EBA6;">Technical note</mark>: recall that `LASTDATE` returns a single row of the last date in the current filter context. However, we still have to "aggregate" that row using `SUM`, since measures don't allow direct references to columns.
 Result:
-![[Pasted image 20231006182745.png]]
+![Pasted image 20231006182745](Pasted%20image%2020231006182745.png)
 The measure returns BLANKs for June 2020 because no record exists for the last date in June. According to the data, it hasn't happened yet. To solve this, use the [`LASTNONBLANK`](https://learn.microsoft.com/en-us/dax/lastnonblank-function-dax/) DAX function:
 ```EXCEL
 Stock on Hand =
@@ -1728,13 +1728,13 @@ CALCULATE(
 )
 ```
 Result:
-![[Pasted image 20231006182825.png]]
+![Pasted image 20231006182825](Pasted%20image%2020231006182825.png)
 Note:
 * The `LASTNONBLANK` function is an iterator function:
 	* It returns the last date that produces a non-BLANK result. 
 		* It achieves this result by iterating through all dates in filter context _in descending chronological order_.
 			* When it encounters a non-BLANK result, the function returns the date. That date is then used to filter the `CALCULATE` function.
-	* <mark style="background: #FF5582A6;">Technical note</mark>: The LASTNONBLANK function evaluates its expression in row context. The CALCULATE function must be used to [[#Using CALCULATE for Context Transitions|transition the row context to filter context]] to correctly evaluate the expression.
+	* <mark style="background: #FF5582A6;">Technical note</mark>: The LASTNONBLANK function evaluates its expression in row context. The CALCULATE function must be used to [transition the row context to filter context](#Using%20CALCULATE%20for%20Context%20Transitions) to correctly evaluate the expression.
 
 
 
@@ -1754,7 +1754,7 @@ RETURN
     RevenuePriorYear
 ```
 When adding to table:
-![[Pasted image 20231005220808.png|380]]
+![380](Pasted%20image%2020231005220808.png)
 Notice that it produces results that are similar to the previous year's revenue amounts.
 
 Another example of calculating the yearly change ratio is shown [here](https://learn.microsoft.com/en-us/training/modules/dax-power-bi-time-intelligence/2-functions#:~:text=to%20calculate%20the-,change%20ratio,-.%20Be%20sure%20to).
@@ -1773,16 +1773,16 @@ You can use Performance analyzer in Power BI Desktop to help you find out how ea
 * If we just want to clear the [data engine cache](https://learn.microsoft.com/en-us/training/modules/optimize-model-power-bi/2-performance#:~:text=the%20blank%20page.-,Data%20engine%20cache,-%2D%20When%20a%20query), then we can connect DAX Studio to the data model and then call Clear Cache.
 
 Then:
-![[Pasted image 20231007112753.png]]
+![Pasted image 20231007112753](Pasted%20image%2020231007112753.png)
 Then we select the page of the report that we want to analyze, and interact with the elements of the report that we want to measure. We will see the results of your interactions display in the Performance analyzer pane as we work. When we are finished, we'll select the Stop button.
 
 For more detailed information, see [Use Performance Analyzer to examine report element performance](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-performance-analyzer/).
 
 To review the tasks in order of duration, longest to shortest, right-click the **Sort** icon next to the **Duration (ms)** column header, and then select **Total time** in **Descending** order:
-![[Pasted image 20231007112954.png]]
+![Pasted image 20231007112954](Pasted%20image%2020231007112954.png)
 
 The log information for each visual shows how much time it took (duration) to complete the following categories of tasks:
-![[Pasted image 20231007113032.png]]
+![Pasted image 20231007113032](Pasted%20image%2020231007113032.png)
 - **DAX query** - The time it took for the visual to send the query, along with the time it took Analysis Services to return the results.
 	- To analyze your queries in more detail, you can use DAX Studio, which is a free, open-source tool that is provided by another service.
 - **Visual display** - The time it took for the visual to render on the screen, including the time required to retrieve web images or geocoding.
@@ -1817,15 +1817,15 @@ Tips on how to optimize Power BI performance (i.e., decrease the time it takes t
 		* *Filters* - By default, the Instantly apply basic filter changes option is selected. To force the report users to manually apply filter changes, select one of the alternative options:
 			* Add an apply button to all basic filters to apply changes when you're ready
 			* Add a single apply button to the filter pane to apply changes at once (preview)
-			  ![[Pasted image 20231007122635.png]]
+			  ![Pasted image 20231007122635](Pasted%20image%2020231007122635.png)
 * Regarding visuals:
 	* Per report page, try to limit the number of visuals to the important ones only.
 		* If all the information is important, see if you can present that info as drill-through pages and/or report page tooltips.
 	* Per visual, limit the number of fields (measures or columns) to 100 or less.
 * Regarding DAX
 	* Optimize the DAX code by using more efficient functions.
-		* Example: [[Power BI#^a8h0ge|replacing FILTER with KEEPFILTERS whenever possible]]. Other examples are found [here](https://medium.com/@technologIT/optimizing-dax-code-for-directquery-tips-and-tricks-ab1b5e6fd91f) and [here](https://towardsdatascience.com/analyze-performance-when-aggregating-data-in-power-bi-and-dax-queries-fc00027950a3).
-	* Try to use variables [[Power BI#^4lu9ab|when repeated code is found]] to decrease run time.
+		* Example: [](Power%20BI.md#^a8h0ge|replacing%20FILTER%20with%20KEEPFILTERS%20whenever%20possible). Other examples are found [here](https://medium.com/@technologIT/optimizing-dax-code-for-directquery-tips-and-tricks-ab1b5e6fd91f) and [here](https://towardsdatascience.com/analyze-performance-when-aggregating-data-in-power-bi-and-dax-queries-fc00027950a3).
+	* Try to use variables [](Power%20BI.md#^4lu9ab|when%20repeated%20code%20is%20found) to decrease run time.
 * Regarding the data model
 	* Do not import columns that you don't need in any visuals or relationships.
 	* make sure the columns' data types are correct.
@@ -1872,7 +1872,7 @@ Example: Let's say you have a Power BI report that connects to a SQL database. Y
 	* A role can include 0 or more rules.
 		* Rules enforce filters on model tables by using Data Analysis Expressions (DAX) filter expressions.
 		* 0 rules mean that the role has access to all model data.
-		* Rule expressions are evaluated within [[#Row Context|row context]].
+		* Rule expressions are evaluated within [row context](#Row%20Context).
 			* When the expression returns TRUE, the user can “see” the row.
 		* Rules can be static or dynamic
 			* Static rules use DAX expressions that refer to constants. 
@@ -1883,22 +1883,22 @@ Example: Let's say you have a Power BI report that connects to a SQL database. Y
 				* <mark style="background: #FF5582A6;">Important note</mark> ([M source](https://learn.microsoft.com/en-us/training/modules/enforce-power-bi-model-security/2-restrict-access-to-power-bi-model-data#:~:text=Be%20aware%20that,principal%20name%20format.)): it is preferable to use the latter function, as the former returns `DOMAIN\username` in Power BI Desktop and `username@adventureworks.com` (i.e., User Principal Name (UPN)) in Power BI service. However, the latter function always return UPN.
 			* [CUSTOMDATA](https://learn.microsoft.com/en-us/dax/customdata-function-dax) - Returns the **CustomData** property passed in the connection string. Non-Power BI reporting tools that connect to the dataset by using a connection string can set this property, like Microsoft Excel.
 			* Example rule that restricts data access to the region(s) of the authenticated user: `'AppUser'[UserName] = USERPRINCIPALNAME()`. Thiss will compare the current user's UPN with the ones in the `AppUser` table which will map that user to a specific region, as can be seen by the image below:
-			  ![[Pasted image 20231007170636.png]]
+			  ![Pasted image 20231007170636](Pasted%20image%2020231007170636.png)
 			* Another example ([M source](https://learn.microsoft.com/en-us/training/modules/row-level-security-power-bi/3-dynamic-method)):
-			  ![[Pasted image 20231017150459.png]]
+			  ![Pasted image 20231017150459](Pasted%20image%2020231017150459.png)
 			  then:
-			  ![[Pasted image 20231017150411.png]] 
+			  ![Pasted image 20231017150411](Pasted%20image%2020231017150411.png) 
 	* Role management (creation, validation, etc.) can be done in the following environments:
 		* SQL Server Data Tools (SSDT), if the models are from the Analysis Services of Azure or SQL Server
 		* SQL Server Management Studio (SSMS) or third-party tools like [Tabular Editor](https://tabulareditor.com/) otherwise.
-* It is better to apply a [[#Star schema design|start schema design]] to enforce rules that filter dimension tables, allowing [model relationships](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand) to efficiently propagate those filters to fact tables.
+* It is better to apply a [start schema design](#Star%20schema%20design) to enforce rules that filter dimension tables, allowing [model relationships](https://learn.microsoft.com/en-us/power-bi/transform-model/desktop-relationships-understand) to efficiently propagate those filters to fact tables.
 * Validate roles to ensure they apply the correct filters.
-  ![[Pasted image 20231007171243.png]]
+  ![Pasted image 20231007171243](Pasted%20image%2020231007171243.png)
 * To add members to the role in Power BI service ([M source](https://learn.microsoft.com/en-us/training/modules/row-level-security-power-bi/2-static-method)):
 	* go to our workspace in Power BI service. 
 	* Find the dataset that we created with the same name as our report
 	* Click here:
-	  ![[Pasted image 20231017150849.png]]
+	  ![Pasted image 20231017150849](Pasted%20image%2020231017150849.png)
 	* Then add Microsoft Entra ID users and security groups to the security role. 
 		* When members are added to this role, the DAX filter that you previously defined will be applied to them.
 	* To test the roles in Power BI service, click on (...) icon next to the role that you want to test, then select "Test as role".
@@ -1921,7 +1921,7 @@ When your data model has DirectQuery tables and their data source supports SSO, 
 
 Example scenario:
 Consider that Adventure Works has an Azure SQL Database for their sales operations that resides in the same tenant as Power BI. The database enforces RLS to control access to rows in various database tables. You can create a DirectQuery model that connects to this database without roles and publish it to the Power BI service. ***When you set the data source credentials in the Power BI service, you [enable SSO](https://learn.microsoft.com/en-us/power-bi/connect-data/service-azure-sql-database-with-direct-connect).*** When report consumers open Power BI reports, Power BI passes their identity to the data source. The data source then enforces RLS based on the identity of the report consumer. To enable this option:
-![[Pasted image 20231007171725.png]]
+![Pasted image 20231007171725](Pasted%20image%2020231007171725.png)
 For information about Azure SQL Database RLS, see [Row-level security](https://learn.microsoft.com/en-us/sql/relational-databases/security/row-level-security).
 For more information about data sources that support SSO, see [Single sign-on (SSO) for DirectQuery sources](https://learn.microsoft.com/en-us/power-bi/connect-data/power-bi-data-sources).
 
@@ -1943,12 +1943,12 @@ To set up OLS:
 
 Notes:
 * when a user doesn’t have permission to access a table or column, they get this:
-  ![[Pasted image 20231007181745.png]]
+  ![Pasted image 20231007181745](Pasted%20image%2020231007181745.png)
 * Instead of using OLS, a better approach might be to create a ***separate set of models or reports*** for the different report consumer requirements.
 * We can’t mix RLS and OLS in the same role.
 	* If we need to apply RLS and OLS in the same model, we'll need to create separate roles dedicated to each type.
 * We can’t set table-level security if it breaks a relationship chain:
-  ![[Pasted image 20231007181924.png]]
+  ![Pasted image 20231007181924](Pasted%20image%2020231007181924.png)
 	* However, model relationships that reference a secured column will work, providing that the column’s table isn’t secured.
 * While it isn’t possible to secure measures, a measure that references secured objects is automatically restricted.
 
@@ -1991,11 +1991,11 @@ Audience needs can be met by one, or possibly a combination, of four report type
 	- interpret the story as quickly as possible.
 	- UX is limited by insights that are highly curated toward the audience.
 	- focused, self-explanatory, and clearly labeled.
-	- Dashboards help answer questions such as "How are we doing?" or "Are we there yet?" (recall [[Data Analytics Notes#Types of Analytics|descriptive analysis]]).
+	- Dashboards help answer questions such as "How are we doing?" or "Are we there yet?" (recall [descriptive analysis](Data%20Analytics%20Notes.md#Types of Analytics)).
 - Analytical
 	- High level of UX to discover answers to a broad array of questions.
-	- help answer questions such as "Why did that happen?" or "What might happen next?" (recall [[Data Analytics Notes#Types of Analytics|diagnostic analysis]]).
-	- More info on how to design this report type is shown in a [[#Report Design Principles|later section]].
+	- help answer questions such as "Why did that happen?" or "What might happen next?" (recall [diagnostic analysis](Data%20Analytics%20Notes.md#Types of Analytics)).
+	- More info on how to design this report type is shown in a [later section](#Report%20Design%20Principles).
 - Operational
 	- monitor current or real-time data, make decisions, and act on those decisions.
 	- include buttons that allow the report consumer to navigate within the report and also beyond the report to perform actions in external systems.
@@ -2004,7 +2004,7 @@ Audience needs can be met by one, or possibly a combination, of four report type
 	- provide clear narrative detail and guidance to help with understanding the data.
 Each of these types has a different approach to UI and UX requirements.
 
-![[Pasted image 20231008112343.png|550]]
+![550](Pasted%20image%2020231008112343.png)
 
 Recommendation: check out different report designs in the embedded Power BI report [here](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-requirements/6-explore-designs).
 
@@ -2012,11 +2012,11 @@ Don't forget to design reports with built-in assistance ([M source](https://lear
 * Information page
 	* Dedicate an entire report page that includes instructions and definitions.
 	* Consider adding a back button to the page. Then, add a button in a consistent location on each page that navigates to the information page. Configure these buttons to use the **Information** or **Help** icon.
-* [[Power BI#^fupz9h|Visual header tooltip icon]]
-* [[Power BI#^0zoeia|Button with overlay]]
+* [](Power%20BI.md#^fupz9h|Visual%20header%20tooltip%20icon)
+* [](Power%20BI.md#^0zoeia|Button%20with%20overlay)
 
 Don't forget to design a mobile report layout ([M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/9-reports-mobile)). Check out the illustration below:
-![[Pasted image 20231014115252.png]]
+![Pasted image 20231014115252](Pasted%20image%2020231014115252.png)
 Note that to publish a mobile-optimized version of your report, we can publish the main report as you did previously; the web and mobile versions are published at the same time.
 ## Report Structure
 
@@ -2028,7 +2028,7 @@ A Power BI report:
 	* On each page, _report objects_ are laid out. Report objects include:
 		*  **Visuals** - Visualizations of dataset data.
 		*  **Elements -** Provide visual interest but don't use dataset data. Elements include text boxes, buttons, shapes, and images.
-![[Pasted image 20231008144830.png]]
+![Pasted image 20231008144830](Pasted%20image%2020231008144830.png)
 
 ### Report Design Principles
 
@@ -2037,12 +2037,12 @@ A Power BI report:
 * Avoid combining subjects or opposing objectives on the same page.
 * consider design principles of:
 	* placement
-	  ![[Pasted image 20231008145104.png|425]]
-	  ![[Pasted image 20231008145113.png|425]]
+	  ![425](Pasted%20image%2020231008145104.png)
+	  ![425](Pasted%20image%2020231008145113.png)
 	* balance
 		* Symmetrical: achieved by distributing the weight evenly on both halves of the page.
 		* Asymmetrical: achieved through contrast. Example of this is done using the golden ratio:
-		  ![[Pasted image 20231008145315.png|425]]
+		  ![425](Pasted%20image%2020231008145315.png)
 	* contrast
 	* proximity
 	* repition
@@ -2050,7 +2050,7 @@ A Power BI report:
 Important aspects to be aware of ([M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/3-design-reports)):
 * Space: Spacing applies to the report page margins and the spacing between report objects.
 	* Margins
-	  ![[Pasted image 20231008145553.png]]
+	  ![Pasted image 20231008145553](Pasted%20image%2020231008145553.png)
 	* Object spacing: 
 		* Ensure that you provide sufficient space surrounding, or within, report objects.
 		* Consider using different space depth to visually separate sections of related objects.
@@ -2065,9 +2065,9 @@ Important aspects to be aware of ([M source](https://learn.microsoft.com/en-us/t
 	* <mark style="background: #FF5582A6;">Important tip</mark>: Use the alignment commands on the Format tab, which will help you quickly and accurately align visuals.
 	* Consider laying out the report page with different sections and aligning visuals appropriately within the sections. Sections can be _implied_ or _explicit_:
 		* Implied sections: Define implied sections by aligning groups of visuals in close proximity:
-		  ![[Pasted image 20231008145940.png]]
+		  ![Pasted image 20231008145940](Pasted%20image%2020231008145940.png)
 		* Explicit sections: define explicit sections by using colored shapes and overlaying aligned visuals on those shapes:
-		  ![[Pasted image 20231008150013.png]]
+		  ![Pasted image 20231008150013](Pasted%20image%2020231008150013.png)
 * Color: Ensure that colors are sufficiently contrasting. Color contrast is especially important to create accessible reports for report consumers who have low vision.
 * Consistency:
 	* The quickest way to enforce consistency is to use a report theme. A report theme applies format settings to your entire report, ensuring consistent application of colors, fonts, pages, and visual format options, including the Filters pane styles.
@@ -2080,7 +2080,7 @@ Report objects are laid out on each report page and include:
 - **Visuals** - Visualizations of dataset data (check the steps to create visuals [here](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/4-report-objects#:~:text=You%20can%20use,a%20report%20visual.)).
 - **Elements** - Provide visual interest but don't use dataset data.
 	- The text box deserves a special mention because it's capable of embedding _dynamic values_ that are sourced from the report dataset into paragraphs of text. When the page is filtered, dynamic values are filtered. Technically, the text box isn't a visual. However, in this instance, it behaves like one. It's also available as the _smart narrative_ visual, which automatically summarizes data by using text descriptions and insights.
-	  ![[Pasted image 20231008171105.png]]
+	  ![Pasted image 20231008171105](Pasted%20image%2020231008171105.png)
 	  At design time, you can start with a text box, or you can add the smart narrative visual from the **Visualizations** pane. However you start, the end result will be the same. Then, you can add a dynamic value by using Q&A to ask a question. Additionally, you can format the values.
 
 ### Selecting Report Visuals
@@ -2098,7 +2098,7 @@ Visual types:
 		* Ribbon chart, which has the added benefit of showing rank changes over time
 	* Line charts work well with a consistent flow of data, such as when sales are recorded for every period. If no sales are recorded for some periods, the line chart visual will fill such gaps with a straight line that connects the values of the previous and next periods.
 		* If missing values are a possibility, a column chart might be a better visual choice because it will help to avoid the interpretation of a non-existent trend:
-		  ![[Pasted image 20231008172013.png]]
+		  ![Pasted image 20231008172013](Pasted%20image%2020231008172013.png)
 * Proportional visuals
 	* Proportional visuals show data as part of a whole. They effectively communicate how a value is distributed across a dimension. 
 	* Visuals that you can use for proportionality:
@@ -2109,20 +2109,20 @@ Visual types:
 		* Doughnut chart
 	* Proportional visuals can't plot a mix of positive and negative values. They should be used when all values are positive or all values are negative
 	* In the following example, a 100% Stacked Bar chart visual shows proportional sales across four stores:
-	  ![[Pasted image 20231008190221.png]]
+	  ![Pasted image 20231008190221](Pasted%20image%2020231008190221.png)
 	  Notice that the actual sales value isn't shown. Instead, the proportion of sales is shown.
 * Numeric visuals
 	* Example:
-	  ![[Pasted image 20231008190500.png]]
+	  ![Pasted image 20231008190500](Pasted%20image%2020231008190500.png)
 * Grid visuals
 	* tables and matrices can effectively convey a lot of detailed information.
 		* Tables have a fixed number of columns, and each column can express grouped or summarized data.
 		* Matrices can have groups on columns and rows.
 			* matrices provide one of the best experiences for hierarchical navigation. They allow users to drill down, on the columns or rows, to discover detailed data points of interest.
 			* In the following example, a table visual shows sales and units sold by product. Showing these metrics together in a single visual can be a challenge because ***the scale of values for sales and units is so different***. But by applying conditional formatting, data bars help report consumers quickly ***understand the distribution of values***:
-			  ![[Pasted image 20231008214400.png]]
+			  ![Pasted image 20231008214400](Pasted%20image%2020231008214400.png)
 			  In the next example, a matrix visual displays inventory by product and by store. It uses conditional formatting to show indicators, which provide visual cues to understanding the data:
-			  ![[Pasted image 20231008214442.png]]
+			  ![Pasted image 20231008214442](Pasted%20image%2020231008214442.png)
 	* Note 1: Adding conditional formatting options, such as background colors, font colors, or icons, can enhance values with visual indicators.
 	* Note 2: Check [this](https://medium.com/@raghu.949/power-bi-table-vs-matrix-9512c2da90ab) article to see difference between tables and matrices.
 * Geospatial visuals
@@ -2139,13 +2139,13 @@ Visual types:
 		* A time series.
 	* Now, to select a KPI:
 		* Click this visual:
-		  ![[Pasted image 20231008215633.png]]
+		  ![Pasted image 20231008215633](Pasted%20image%2020231008215633.png)
 		* Enter fields for said visual like this:
-		  ![[Pasted image 20231008215703.png]]
+		  ![Pasted image 20231008215703](Pasted%20image%2020231008215703.png)
 		* Result will look something like this (changes based on value of `Trend axis`):
-		  ![[Pasted image 20231008215718.png]]
+		  ![Pasted image 20231008215718](Pasted%20image%2020231008215718.png)
 * AI visuals
-	* Mentioned in the [[#Power BI Analytic Capabilities]] section.
+	* Mentioned in the [#Power BI Analytic Capabilities](#Power%20BI%20Analytic%20Capabilities) section.
 
 ### Visual Headers
 
@@ -2155,11 +2155,11 @@ Visual types:
 * The visual header appears when you hover the cursor over the report object, and they can launch actions like focus mode, drill up, or drill down. 
 	* You can also access the **More options** menu by selecting the ellipsis (**...**) button. This menu includes sorting options, export, spotlight, and many others.
 * Illustration of visual headers:
-  ![[Pasted image 20231014113536.png]]
+  ![Pasted image 20231014113536](Pasted%20image%2020231014113536.png)
 	* Side note: Always leave sufficient space for the visual headers to appear in the upper-right section of objects, like the image above.
 * Regarding visual header tooltip icons ([M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/7-design-built-in-assistance#:~:text=or%20Help%20icon.-,Visual%20header%20tooltip%20icon,-Within%20the%20visual)) ^fupz9h
 	* we can enable the visual header tooltip. This adds the **Help** (**?**) icon to the visual header. Illustration:
-	  ![[Pasted image 20231014114158.png]]
+	  ![Pasted image 20231014114158](Pasted%20image%2020231014114158.png)
 * Best practices on when to hide visual headers:
 	* when the report consumer isn't familiar with Power BI and you don't intend on teaching them
 		* hide all visual headers
@@ -2180,14 +2180,14 @@ Visual types:
 	- Measure
 		- Implementation note: At report design time in Microsoft Power BI Desktop, **you can create measures except when the model is a live connection to SQL Server Analysis Services multidimensional model**. These measures belong to the report, and so **they're called report-level measures**.
 - Report, page, and visual level filters apply to the structure of the report:
-  ![[Pasted image 20231011072601.png]]
+  ![Pasted image 20231011072601](Pasted%20image%2020231011072601.png)
 
 ### Filters Pane
 
 [M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-filters/2-report-structure)
 
 Use the **Filters** pane to apply filters to the report structure:
-![[Pasted image 20231011072831.png|202]]
+![202](Pasted%20image%2020231011072831.png)
 
 The Filters pane has three **sections**:
 - Filters on all pages
@@ -2220,9 +2220,9 @@ Filters apply to a single field and use **one of following filter types**:
 Filter visibility notes:
 * You can lock filters to ensure that report consumers can't remove or modify them.
 * You can hide filters. A hidden filter isn't visible to report consumers:
-  ![[Pasted image 20231011073529.png]]
+  ![Pasted image 20231011073529](Pasted%20image%2020231011073529.png)
 * You can hide the entire **Filters** pane to ensure that report consumers can't open it:
-  ![[Pasted image 20231011073553.png]]
+  ![Pasted image 20231011073553](Pasted%20image%2020231011073553.png)
 
 For more information, see [Format filters in Power BI reports](https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-report-filter/).
 
@@ -2265,14 +2265,14 @@ Slicer layout notes:
 * Dropdown
 	* use much less space on the report page.
 	* <mark style="background: #D2B3FFA6;">only query the dataset when expanded open. Therefore, they can also help expedite report page rendering.</mark>
-		* Note: other slicer types can have this advantage as well based on [[Power BI#^e1vpye|how you configure Power BI settings to gain performance boost]].
+		* Note: other slicer types can have this advantage as well based on [](Power%20BI.md#^e1vpye|how%20you%20configure%20Power%20BI%20settings%20to%20gain%20performance%20boost).
 * Numeric and date ranges (between, after, less than, etc.)
 	* support format options to select a single value that acts as the lower or upper boundary of the filter.
 	* The reason why numeric and date slicers have additional layouts is because these data types represent continuous values. Therefore, the slicer layouts allow filtering by ranges of continuous values.
 
 
 Note: To change the slicer style, select Format your visual > Slicer settings > Visual > Options > Style:
-![[Pasted image 20231011075824.png]]
+![Pasted image 20231011075824](Pasted%20image%2020231011075824.png)
 
 Check different slicer layouts by watching the video in [this](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-filters/3-slicers#:~:text=Other%20configuration%20options%20are%20available%20for%20you%20to%20modify%20slicer%20behavior%20and%20its%20look.%20To%20learn%20more%2C%20watch%20the%20following%20video%20that%20demonstrates%20how%20to%20configure%20and%20style%20slicers.) Microsoft source.
 
@@ -2285,9 +2285,9 @@ Check different slicer layouts by watching the video in [this](https://learn.mic
 	* To remove the cross filters, they can either select the column again or select a different visual.
 	* To add cross filters from same or other visuals, press the **ctrl** key.
 * Example of disabling cross filters for a certain visual (from video found [here](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-filters/4-advanced-filtering#:~:text=To%20gain%20a%20better%20understanding%20of%20visual%20interactions%2C%20watch%20the%20following%20video%20that%20describes%20a%20use%20case%20and%20shows%20how%20to%20configure%20it.)):
-  ![[Pasted image 20231011092414.png]]
+  ![Pasted image 20231011092414](Pasted%20image%2020231011092414.png)
   To find filters currently a visual:
-  ![[Pasted image 20231011092518.png]]
+  ![Pasted image 20231011092518](Pasted%20image%2020231011092518.png)
 
 For more information, see [Filters and highlighting in Power BI reports](https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-reports-filters-and-highlighting/).
 
@@ -2298,20 +2298,20 @@ Allow report consumers to drill from visuals to other pages which are called dri
 For more information, see [Set up drillthrough in Power BI reports](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-drillthrough/).
 
 Example: right clicking a bar value then choosing the drillthrough page like here:
-![[Pasted image 20231011092806.png]]
+![Pasted image 20231011092806](Pasted%20image%2020231011092806.png)
 
 Steps include:
 * create a _target report page_ that has the visuals you want for the type of entity that you're going to provide drillthrough for.
 * on that created page, drag the field for which you want to enable drillthrough here:
-  ![[Pasted image 20231011093048.png]]
+  ![Pasted image 20231011093048](Pasted%20image%2020231011093048.png)
 * Now users can right-click a data point on the other source pages in your report, and get a context menu that supports drillthrough to that target page.
 
 Note 1: we can pass all applied filters to the drillthrough target page by going to the destination page then clicking here:
-![[Pasted image 20231011104446.png]]
+![Pasted image 20231011104446](Pasted%20image%2020231011104446.png)
 Side note: the filters shown in *italic* above are filters applied from the source page.
 
 Note 2: we can also add a measure or a summarized numeric column to the drillthrough area:
-![[Pasted image 20231011104607.png]]
+![Pasted image 20231011104607](Pasted%20image%2020231011104607.png)
 When you add a measure or summarized numeric column, you can drill through to the page when the field is used in the _Value_ area of a visual.
 
 ### Tooltips
@@ -2323,7 +2323,7 @@ One of the options for customizing how your selected visualizations look is to u
 * When you add a visual, the default tooltip displays the data point's value and category, but you can customize this information to suit your needs.
 * One way to use tooltips is to display ***graphical information***. To do so, follow the steps [here](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-reports/7-format#:~:text=Another%20way%20to,tooltip%20will%20display.).
 	* Note: the final output could look like this (when hovering over the doughnut visual):
-	  ![[Pasted image 20231008215346.png]]
+	  ![Pasted image 20231008215346](Pasted%20image%2020231008215346.png)
 
 For more information, see [Create tooltips based on report pages in Power BI Desktop](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-tooltips/).
 
@@ -2335,7 +2335,7 @@ By default, the report tooltip receives all filters that apply to the visual ([M
 	- Bookmarks that are created by a report consumer are known as _personal bookmarks_.
 - You can invoke bookmarks directly from the **Bookmarks** pane, or you can invoke them indirectly by selecting a button, image, or shape.
 - Illustration on how to create a bookmark ([M source](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/4-bookmarks#:~:text=watch%20the%20following%20video.)):
-  ![[Pasted image 20231014110924.png]]
+  ![Pasted image 20231014110924](Pasted%20image%2020231014110924.png)
 	- Bookmark State: captures different state, relating to data, display, and the current page
 		- The **Data** state captures anything that impacts the queries that Power BI sends to the dataset. (e.g., slicer, sort order, drill depth, etc.)
 		- The **Display** state is related to the visibility of a report object.
@@ -2362,7 +2362,7 @@ By default, the report tooltip receives all filters that apply to the visual ([M
 		- Side note: No performance is impacted by having hidden visuals on a page. Hidden visuals don't run queries.
 	- Drill down multiple visuals and direct depth navigation. Steps shown [here](https://learn.microsoft.com/en-us/training/modules/power-bi-effective-user-experience/4-bookmarks#:~:text=Configure%20each%20bookmark%20to%20capture%20the%20Data,Assign%20the%20bookmarks%20to%20button%20actions.).
 	- Pop-up overlays. Illustration:
-	  ![[Pasted image 20231014112341.png]]
+	  ![Pasted image 20231014112341](Pasted%20image%2020231014112341.png)
 	  Steps for the two required bookmarks: ^0zoeia
 		- Configure the first bookmark to capture the **Display** state.
 		- Ensure that the overlay object is visible, and then update the bookmark.
@@ -2385,7 +2385,7 @@ With report options, you can:
 
 Reduce the number of queries that are sent to the dataset by doing one of the following:
 * Disable cross highlighting/filtering by default.
-* Add an **Apply** button to (mentioned in [[#General Tips|general performance tips section]]):
+* Add an **Apply** button to (mentioned in [general performance tips section](#General%20Tips)):
 	* Slicers.
 	* All basic filters in the filters pane.
 	* The filters pane.
@@ -2396,8 +2396,8 @@ Reduce the number of queries that are sent to the dataset by doing one of the fo
 
 In reading view, report consumers can use many different filter techniques when viewing a Power BI report, such as:
 - Using slicers.
-- [[#Consumer Uses Filters|Using filters]].
-- [[#Interactive Filtering Actions|Applying interactive filtering actions]].
+- [Using filters](#Consumer%20Uses%20Filters).
+- [Applying interactive filtering actions](#Interactive%20Filtering%20Actions).
 - Determining applied filters.
 - Working with persistent filters.
 
@@ -2430,18 +2430,18 @@ Many report consumer interactions apply filters. These interactions can:
 #### Determine Applied Filters
 
 Occasionally, report consumers want to know (or verify) what filters apply to a specific visual. To do so: Hover the cursor over the Filter icon in the visual header, a pop-up window will then appear, describing the filters that affect the visual:
-![[Pasted image 20231011125447.png]]
+![Pasted image 20231011125447](Pasted%20image%2020231011125447.png)
 
 Note 1: Hidden filters aren't visible in the pop-up window.
 
-Note 2: If the **Filter** icon isn't available for a visual, it could be because one of the reasons mentioned in the [[#Report Options|report options section]].
+Note 2: If the **Filter** icon isn't available for a visual, it could be because one of the reasons mentioned in the [report options section](#Report%20Options).
 
 For more information, see [Take a tour of the report Filters pane](https://learn.microsoft.com/en-us/power-bi/consumer/end-user-report-filter#view-only-those-filters-applied-to-a-visual).
 
 #### Persistent Filters
 
 _Persistent filters_ is a feature that saves report consumer's slicer and filter settings. It automatically applies the settings when the report consumer reopens the report. It can be reset from here:
-![[Pasted image 20231011135812.png]]
+![Pasted image 20231011135812](Pasted%20image%2020231011135812.png)
 
 ### Design Choices: Filters vs Slicers vs Visual Interactions
 
@@ -2456,7 +2456,7 @@ Check the link above for full list of advantages and disadvantages of both. Here
 
 Alternatively, we can enable filtering by using visuals. However, a downside to this approach is that some report consumers might not be aware that visuals can cross filter other visuals. 
 Example: In the following bar chart, the report page is filtered by the product Excel:
-![[Pasted image 20231011141228.png]]
+![Pasted image 20231011141228](Pasted%20image%2020231011141228.png)
 
 Tips when designing a report: 
 * Consistency: use either filters or slicers.
@@ -2478,23 +2478,23 @@ For more information, see [Create buttons in Power BI reports](https://learn.mi
 
 * To create statistical functions, you have the following options:
 	* create **quick statistics** from the Visualizations pane:
-	  ![[Pasted image 20231014134042.png]]
+	  ![Pasted image 20231014134042](Pasted%20image%2020231014134042.png)
 	* create statistics using DAX: `Average Qty = AVERAGE(Sales[Order Qty])`
 		* Side note: apparently, using DAX is better in terms of performance ([M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/2-statistical-summary#:~:text=However%2C%20to%20avoid%20performance%20issues%2C%20it%27s%20better%20to%20create%20the%20statistical%20measures%20yourself%20by%20using%20DAX%20functions%20to%20calculate%20average%2C%20sum%2C%20min%2C%20max%2C%20and%20so%20on.))
 * Using histograms is the most common way to display statistics about your datasets.
 	* Histograms are created using the **bar (column) chart** or the **area chart** visuals:
-	  ![[Pasted image 20231014134529.png]]
+	  ![Pasted image 20231014134529](Pasted%20image%2020231014134529.png)
 	* A typical bar or column chart visual in Power BI **relates two data points: a measure and a dimension.** A **histogram** differs slightly from a standard bar chart in that it **only visualizes a single data point**.
-	* you can use grouping/binning techniques to create a clustered column chart. This is mentioned in a later section called [[#Group and Bin Data]].
+	* you can use grouping/binning techniques to create a clustered column chart. This is mentioned in a later section called [#Group and Bin Data](#Group%20and%20Bin%20Data).
 * Performing Top N analysis is a great way to present data that might be important, such as the top 10 selling products. This can be done in 3 ways:
 	* Q&A Visual
-	  ![[Pasted image 20231014134808.png]]
-	  ![[Pasted image 20231014134811.png]]
-	  Side note: Q&A is explained later in the [[#Q&A|Q&A section]]. ^uhio1l
+	  ![Pasted image 20231014134808](Pasted%20image%2020231014134808.png)
+	  ![Pasted image 20231014134811](Pasted%20image%2020231014134811.png)
+	  Side note: Q&A is explained later in the [Q&A section](#Q&A). ^uhio1l
 	* Top N filter type
-	  ![[Pasted image 20231014134858.png]]
+	  ![Pasted image 20231014134858](Pasted%20image%2020231014134858.png)
 	* TOPN DAX function
-		* Example of this is mentioned in the [[#Iterator Functions|Iterator Functions section]]
+		* Example of this is mentioned in the [Iterator Functions section](#Iterator%20Functions)
 
 For more information about the statistical capabilities of Power BI, see [Statistical Functions - DAX](https://learn.microsoft.com/en-us/dax/statistical-functions-dax/).
 
@@ -2508,31 +2508,31 @@ For more information about the statistical capabilities of Power BI, see [Stati
 	* Basic way of identifying outliers:
 		* choose scatter chart from visualizations pane
 		* add fields of interests:
-		  ![[Pasted image 20231014135443.png]]
+		  ![Pasted image 20231014135443](Pasted%20image%2020231014135443.png)
 		* Identify the outliers by yourself:
-		  ![[Pasted image 20231014135503.png]]
+		  ![Pasted image 20231014135503](Pasted%20image%2020231014135503.png)
 	* Advanced way of identifying outliers (on a different example than the one above) ([source](https://www.youtube.com/watch?v=kc3ztxkj0Tc)):
 		* Suppose you want to see the outliers here:
-		  ![[Pasted image 20231014140104.png]]
+		  ![Pasted image 20231014140104](Pasted%20image%2020231014140104.png)
 		  and suppose the business logic dictates that outliers are considered to be customers with `Profit Margins` above 35% **and** with `Total Sales` above 55,000. ^kmz928
 		* Therefore, if we want to manually see where the outliers are, we'll have to look at the x and y axes to see them:
-		  ![[Pasted image 20231014140513.png]]
+		  ![Pasted image 20231014140513](Pasted%20image%2020231014140513.png)
 		* But what if we want to automate this process by separating the y axis (i.e., `Total Sales`) into two groups (i.e., outliers, and non outliers)? Illustration:
-		  ![[Pasted image 20231014140700.png]]
+		  ![Pasted image 20231014140700](Pasted%20image%2020231014140700.png)
 		* Solution: follow these steps: 
 			* Create a *detached table* called `Outlier Detection Logic` (at minute 3:50, 5:00):
-			  ![[Pasted image 20231014135610.png]]
-			  ![[Pasted image 20231014135709.png]]
-		* create DAX measure called `Outlier Sales` that will follow the business logic discussed [[Power BI#^kmz928|above]] in order to sum the `Total Sales` of the outlier customers only (explained at [6:00](https://youtu.be/kc3ztxkj0Tc?t=362)):
-		  ![[Pasted image 20231014141124.png]]
+			  ![Pasted image 20231014135610](Pasted%20image%2020231014135610.png)
+			  ![Pasted image 20231014135709](Pasted%20image%2020231014135709.png)
+		* create DAX measure called `Outlier Sales` that will follow the business logic discussed [](Power%20BI.md#^kmz928|above) in order to sum the `Total Sales` of the outlier customers only (explained at [6:00](https://youtu.be/kc3ztxkj0Tc?t=362)):
+		  ![Pasted image 20231014141124](Pasted%20image%2020231014141124.png)
 		* create complimentary logic for `Non Outlier Sales` measure:
-		  ![[Pasted image 20231014142039.png]]
+		  ![Pasted image 20231014142039](Pasted%20image%2020231014142039.png)
 		* As you can see, these are two DAX formulas. However, we need to use only one DAX formula called `Sales Grouping` to display in the y-axis of the scatter chart. To do so, we use this DAX formula (explained at [8:25](https://youtu.be/kc3ztxkj0Tc?t=503)):
-		  ![[Pasted image 20231014143127.png]]
+		  ![Pasted image 20231014143127](Pasted%20image%2020231014143127.png)
 		* Finally, we add the created measures as fields to the scatter chart:
-		  ![[Pasted image 20231014144229.png]]
+		  ![Pasted image 20231014144229](Pasted%20image%2020231014144229.png)
 		  Note that `Customer Name` and `Grouping` are from `Customers` and `Outlier Detection Logic` tables respectively, while `Profit Margins` (not explicitly explained in [the video](https://www.youtube.com/watch?v=kc3ztxkj0Tc)) and `Sales Grouping` are measures created and stored in its own logical folder:
-		  ![[Pasted image 20231014144750.png]]
+		  ![Pasted image 20231014144750](Pasted%20image%2020231014144750.png)
 
 ## Group and Bin Data
 
@@ -2545,33 +2545,33 @@ Grouping vs binning ([M source](https://learn.microsoft.com/en-us/training/modul
 
 General steps to create groups/bins ([source](https://www.youtube.com/watch?v=D1LO8syugMA)):
 * Prepare your visual. For example:
-  ![[Pasted image 20231014145625.png]]
+  ![Pasted image 20231014145625](Pasted%20image%2020231014145625.png)
 * Add the <mark style="background: #FF5582A6;">group field</mark> to the `Axis` well like so:
-  ![[Pasted image 20231014145456.png]]
+  ![Pasted image 20231014145456](Pasted%20image%2020231014145456.png)
 * You'll now see the visual properly grouped/binned on the chosen axis like so:
-  ![[Pasted image 20231014145542.png]]
+  ![Pasted image 20231014145542](Pasted%20image%2020231014145542.png)
 
 Now, regarding the ***group field***, it can be created as a:
 * Measure (using DAX)
 	* Create measure using this DAX expression (at minute 1:07)
-	  ![[Pasted image 20231014150002.png]]
+	  ![Pasted image 20231014150002](Pasted%20image%2020231014150002.png)
 * Group (using Power BI's UI) (at 2:02)
 	* click on any of these two options:
-	  ![[Pasted image 20231014150205.png]]
+	  ![Pasted image 20231014150205](Pasted%20image%2020231014150205.png)
 	* now, in the new window that opens, you have 2 group types to choose from:
 		* List (at 2:21):
-		  ![[Pasted image 20231014150331.png]]
+		  ![Pasted image 20231014150331](Pasted%20image%2020231014150331.png)
 		*  Bins (screenshot is from another [video](https://youtu.be/BRvdZSfO0DY?t=257)):
-		  ![[Pasted image 20231014150805.png]]
+		  ![Pasted image 20231014150805](Pasted%20image%2020231014150805.png)
 * Column (using Power Query) (at [3:12](https://youtu.be/D1LO8syugMA?t=192))
 	* Open Power Query
 		* This can be done in multiple ways, when of them is to right click the table of interest and clicking "Edit Query"
 	* Highlight the column that you want to bin, then click "Column from examples":
-	  ![[Pasted image 20231014151033.png]]
+	  ![Pasted image 20231014151033](Pasted%20image%2020231014151033.png)
 	* At the first row, type a bin size like "20-40":
-	  ![[Pasted image 20231014151111.png]]
+	  ![Pasted image 20231014151111](Pasted%20image%2020231014151111.png)
 	* Result:
-	  ![[Pasted image 20231014151129.png]]
+	  ![Pasted image 20231014151129](Pasted%20image%2020231014151129.png)
 
 
 ## Clustering
@@ -2581,7 +2581,7 @@ Now, regarding the ***group field***, it can be created as a:
 Clustering allows you to identify a segment (cluster) of data that is similar to each other but dissimilar to the rest of the data. The process of clustering is different to that of grouping, which you accomplished previously.
 
 [This video](https://www.youtube.com/watch?v=NjdZjozKboA) summarizes how to use clustering feature of Power BI, so check it out for details. However, one important thing to note (at minute [1:10](https://youtu.be/NjdZjozKboA?t=70)) is that the fields of the visual (e.g., scatter chart) have to adhere through a certain setup as shown in the image below:
-![[Pasted image 20231014152650.png]]
+![Pasted image 20231014152650](Pasted%20image%2020231014152650.png)
 
 ## Time Series Analysis
 
@@ -2593,7 +2593,7 @@ Clustering allows you to identify a segment (cluster) of data that is similar to
 		* These let us view how your data is progressing over time, which can be helpful in making observations like major events disrupting our data.
 * The result of time series analysis is the best data that you can use for forecasting activities.
 * We can also import a time series custom visual into Power BI Desktop from Microsoft AppSource. Example ([M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/6-time-series-analysis#:~:text=When%20you%20have%20set%20up%20the%20Play%20Axis%20visual%20to%20meet%20your%20requirements%2C%20you%20are%20ready%20to%20use%20it%20with%20your%20other%20visuals.%20Select%20the%20Play%20button%20and%20then%20watch%20how%20the%20data%20in%20each%20visual%20on%20the%20page%20evolves%20over%20the%20time.%20You%20can%20use%20the%20control%20buttons%20to%20pause%20the%20animation%2C%20restart%20it%2C%20and%20so%20on.)):
-	  ![[line chart auto play.gif]]
+	  ![line chart auto play](line%20chart%20auto%20play.gif)
 	* Steps for using **Play Axis (Dynamic Slicer)** visual can be found [here](https://www.youtube.com/watch?v=8G8y5H-MMnQ) or [here](https://www.youtube.com/watch?v=0K-6rKN_xnY).
 
 ## Analyze Feature
@@ -2604,8 +2604,8 @@ Clustering allows you to identify a segment (cluster) of data that is similar to
 * Determines if Power BI has found something that we haven't seen before, or if we want Power BI to give you a different insight into your data. 
 * This feature is particularly useful for <mark style="background: #FFB8EBA6;">explaining the increase and analyzing why the data distribution looks the way that it does</mark>.
 * Example:
-  ![[Pasted image 20231014161057.png]]
-  ![[Pasted image 20231014161105.png]]
+  ![Pasted image 20231014161057](Pasted%20image%2020231014161057.png)
+  ![Pasted image 20231014161105](Pasted%20image%2020231014161105.png)
   If you find this analysis useful, you can add the new visual to your report so that other users can view it. Select the plus (**+**) icon in the upper-right corner of the visual to add it to your report.
 * For more information about the Analyze feature, see [Apply insights in Power BI Desktop to discover where distributions vary (preview)](https://learn.microsoft.com/en-us/power-bi/create-reports/desktop-insights-find-where-different/).
 
@@ -2621,7 +2621,7 @@ Tip: When adding an AI visual to your report, make sure that you size it to beco
 * The **Key influencers** visual helps report consumers understand the factors that drive a particular metric, like sales revenue. 
 * By using AI, Power BI will analyze the data, rank the factors that matter, and then present them as key influencers.
 * Example ([M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/9-use-specialized-visuals#:~:text=The%20capabilities%20of%20the%20Key%20influencers%20visual%20are%20best%20described%20by%20following%20an%20example.%20For%20a%20demonstration%20of%20the%20Key%20influencers%20visual%2C%20watch%20the%20following%20video.)): 
-  ![[Pasted image 20231014172359.png]]
+  ![Pasted image 20231014172359](Pasted%20image%2020231014172359.png)
 * Essentially, the **Key influencers** visual is many visuals inside one frame. When you select a key influencer, an adjacent visual will show a representation of the influencer as a comparison against the remainder of the data. 
 	* Additionally, the **Key influencers** visual includes the **Top segments** view, which shows the highest-ranking segments that contribute to a particular metric.
 * For more information, see [Create key influencers visualizations](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-influencers).
@@ -2633,12 +2633,12 @@ Tip: When adding an AI visual to your report, make sure that you size it to beco
 	* As a result, it's a valuable tool for ad hoc exploration and conducting root cause analysis. 
 * As an AI visual, a decomposition tree provides a guided exploration experience that helps by finding the next dimension for consumers to drill down into.
 * Example ([M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/9-use-specialized-visuals#:~:text=The%20capabilities%20of%20the%20Decomposition%20Tree%20visual%20are%20best%20described%20by%20following%20an%20example.%20For%20a%20demonstration%20of%20the%20Decomposition%20Tree%20visual%2C%20watch%20the%20following%20video.)):
-  ![[Pasted image 20231014172809.png]]
+  ![Pasted image 20231014172809](Pasted%20image%2020231014172809.png)
 * For more information, see [Create and view decomposition tree visuals in Power BI](https://learn.microsoft.com/en-us/power-bi/visuals/power-bi-visualization-decomposition-tree).
 
 ### Q&A
 
-Side note: Q&A can be used in top N analysis as mentioned in the [[Power BI#^uhio1l|Statistical Summaries section]]
+Side note: Q&A can be used in top N analysis as mentioned in the [](Power%20BI.md#^uhio1l|Statistical%20Summaries%20section)
 
 * To optimize the Q&A experience:
 	* ensure that the data field names are user-friendly. 
@@ -2646,14 +2646,14 @@ Side note: Q&A can be used in top N analysis as mentioned in the [[Power BI#^uhi
 	* hide fields, such as fields that are used in model relationships, to restrict their use in Q&A. 
 	* add suggested questions that become prompts in the **Q&A** visual. 
 	* These optimizations can be done by clicking at the cog icon of the Q&A visual ([M source](https://learn.microsoft.com/en-us/training/modules/perform-analytics-power-bi/9-use-specialized-visuals#:~:text=For%20a%20demonstration%20of%20the%20Q%26A%20visual%2C%20watch%20the%20following%20video.)):
-	  ![[Pasted image 20231014173326.png]]
+	  ![Pasted image 20231014173326](Pasted%20image%2020231014173326.png)
 * For more information, see [Use Power BI Q&A to explore your data and create visuals](https://learn.microsoft.com/en-us/power-bi/create-reports/power-bi-tutorial-q-and-a).
 
 Note: The Q&A visual consists of three main elements ([M source](https://learn.microsoft.com/en-us/training/modules/create-dashboards-power-bi/3-explore-data#:~:text=The%20Q%26A%20visual%20consists%20of%20three%20main%20elements%3A)):
 * Question box
 * Pre-populated suggestion tiles
 * Pin visual icon
-	* appears in Power BI service in order to pin the visual to a [[#Dashboards|dashboard]].
+	* appears in Power BI service in order to pin the visual to a [dashboard](#Dashboards).
 # Paginated Reports
 
 [M source](https://learn.microsoft.com/en-us/training/modules/create-paginated-reports-power-bi/1-introduction)
@@ -2671,7 +2671,7 @@ Paginated reports are:
 * not created in Power BI Desktop; they are built by using [Power BI Report Builder](https://www.microsoft.com/en-us/download/details.aspx?id=58158).
 
 Illustrative example:
-  ![[Pasted image 20231014174719.png]]
+  ![Pasted image 20231014174719](Pasted%20image%2020231014174719.png)
 
 Best practices ([M source](https://learn.microsoft.com/en-us/training/modules/create-paginated-reports-power-bi/5-publish)):
 * provide guidance to the user by documenting why this report was created.
@@ -2709,15 +2709,15 @@ Paginated reports:
 To create and configure a **data source**:
 * From **Getting Started** screen -> "New Report" -> "blank report"
 * Then:
-  ![[Pasted image 20231014175857.png]]
+  ![Pasted image 20231014175857](Pasted%20image%2020231014175857.png)
 * Then:
-  ![[Pasted image 20231014175930.png]]
+  ![Pasted image 20231014175930](Pasted%20image%2020231014175930.png)
 * Regarding (3), the **Connection Properties** screen will appear, so follow these steps:
-  ![[Pasted image 20231014180013.png]]
+  ![Pasted image 20231014180013](Pasted%20image%2020231014180013.png)
 
 #### Create and Configure a Dataset
 
-<mark style="background: #FFF3A3A6;">data source vs dataset</mark> definitions in paginated reports (and probably in [[#DirectQuery Model]]):
+<mark style="background: #FFF3A3A6;">data source vs dataset</mark> definitions in paginated reports (and probably in [#DirectQuery Model](#DirectQuery%20Model)):
 * A data source is the **connection information to a particular resource**, like SQL Server.
 * A dataset is the **saved information of the query against the data source**, not the data. 
 	* The data always resides in its original location.
@@ -2725,7 +2725,7 @@ To create and configure a **data source**:
 Now, to create and configure a **dataset**:
 * Right-click **Datasets** in the **Report View** window and select **Add Dataset**.
 * Follow these steps:
-  ![[Pasted image 20231014180346.png]]
+  ![Pasted image 20231014180346](Pasted%20image%2020231014180346.png)
 
 ### Creating a Paginated Table/Matrix and Adding Parameters
 
@@ -2733,14 +2733,14 @@ Now, to create and configure a **dataset**:
 
 * Follow the Microsoft source above to see the steps of creating a table
 * Follow the video [here](https://youtu.be/hEGDJ6SxJEk?t=461) (starting from 7:40) to see the steps of creating a matrix:
-  ![[Pasted image 20231014211345.png]]
+  ![Pasted image 20231014211345](Pasted%20image%2020231014211345.png)
 
 To create a parameter:
 * Follow the steps [here](https://learn.microsoft.com/en-us/training/modules/create-paginated-reports-power-bi/3-paginated-report#:~:text=add%20a%20parameter.-,Add%20parameters,-To%20add%20a).
 * Or follow the steps in the same video referenced above starting from [10:00](https://youtu.be/hEGDJ6SxJEk?t=604):
-  ![[Pasted image 20231014211141.png]]
+  ![Pasted image 20231014211141](Pasted%20image%2020231014211141.png)
   when clicking "Run":
-  ![[Pasted image 20231014211221.png]]
+  ![Pasted image 20231014211221](Pasted%20image%2020231014211221.png)
 
 
 ### Creating Charts in a Paginated Report
@@ -2748,16 +2748,16 @@ To create a parameter:
 [M source](https://learn.microsoft.com/en-us/training/modules/create-paginated-reports-power-bi/4-charts)
 
 * First method of adding charts:
-  ![[Pasted image 20231014211618.png]]
+  ![Pasted image 20231014211618](Pasted%20image%2020231014211618.png)
 * Second method of adding charts:
-  ![[Pasted image 20231014211625.png]]
+  ![Pasted image 20231014211625](Pasted%20image%2020231014211625.png)
 
 Next, choose the type and style of your chart, then, it the chart will be added to the design surface.
 
 When you select the chart, a new window appears to the right. The **Chart Data** screen allows you to format the chart according to the values and axis properties.
 
 Select the plus (**+**) sign beside each section to select the required columns:
-![[Pasted image 20231014211720.png]]
+![Pasted image 20231014211720](Pasted%20image%2020231014211720.png)
 
 For more information on working with charts, you can search Microsoft documentation regarding SSRS reports. All of the material in the SSRS documentation will apply to Power BI paginated reports.
 
@@ -2787,7 +2787,7 @@ Regarding workspace roles:
 * **Admin**
     - Workspaces: Update and delete them ^68di4d
     - People: Add or remove them, including other admins
-    - Change [[Power BI#^u7k3wc|data classifications]] that could be applied to a dashboard.
+    - Change [](Power%20BI.md#^u7k3wc|data%20classifications) that could be applied to a dashboard.
 - **Member**
     - People: Add members or others with lower permissions
     - <mark style="background: #D2B3FFA6;">Apps: Publish, unpublish, and change permissions</mark>
@@ -2795,16 +2795,16 @@ Regarding workspace roles:
     - Workspace content: Create, edit, and delete
         - E.g., reports, dashboards, datasets
     - <mark style="background: #D2B3FFA6;">Reports: Publish them to the workspace</mark>
-    - See **[[#Usage Metric Reports|usage metric reports]]**
+    - See **[usage metric reports](#Usage%20Metric%20Reports)**
     - See **lineage view**
 - **Viewer**
     - View and interact with an item
     - Read data that's stored in workspace dataflows
 - Note:  full permissions, review the [Roles in workspaces documentation](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-roles-new-workspaces#workspace-roles). It is mentioned here also:
-  ![[Pasted image 20231015072419.png]]
+  ![Pasted image 20231015072419](Pasted%20image%2020231015072419.png)
 
 To assign these roles to users, go to the workspace that you've created and, in the upper-left corner of the ribbon, select **Access**:
-![[Pasted image 20231015072458.png]]
+![Pasted image 20231015072458](Pasted%20image%2020231015072458.png)
 
 Notes regarding [building your app section in the Microsoft source](https://learn.microsoft.com/en-us/training/modules/create-manage-workspaces-power-bi/2-distribute-report-dashboard#:~:text=Create%20and%20configure%20an%20app): 
 * We need a Power BI Pro license to publish an App.
@@ -2832,7 +2832,7 @@ In the **Report usage** tab, you can view such details as:
 We can also filter by the distribution method of the report (for example, through sharing or from the workspace directly) and platform type (for example, mobile or web).
 
 We can also view performance metrics on the **Report performance** tab, as shown in the following screenshot:
-![[Pasted image 20231015080346.png]]
+![Pasted image 20231015080346](Pasted%20image%2020231015080346.png)
 
 On the **Report performance** tab, we can view metrics such as:
 - **Typical opening time**
@@ -2872,9 +2872,9 @@ The **deployment pipeline feature**:
 
 Steps to create a deployment pipeline:
 * click here:
-  ![[Pasted image 20231015140500.png]]
+  ![Pasted image 20231015140500](Pasted%20image%2020231015140500.png)
 * After creating the pipeline, you'll see this page:
-  ![[Pasted image 20231015140528.png]]
+  ![Pasted image 20231015140528](Pasted%20image%2020231015140528.png)
 * assign workspaces to each of these stages using the "Assign a workspace" button. Notes:
 	* Only workspaces that are assigned to a Premium capacity will appear. 
 	* we can only assign a single workspace to each pipeline. Power BI will auto generate the two other workspaces that are used in the pipeline.
@@ -2885,20 +2885,20 @@ Testing phase:
 	* This workspace, by default, has the same name as the initial workspace but includes the **Test** suffix.
 	* Testing should emulate conditions that objects will experience after they've been deployed for users. 
 		* Therefore, Power BI allows you to change the source of data that is used during testing by clicking here:
-		  ![[Pasted image 20231015140908.png]]
+		  ![Pasted image 20231015140908](Pasted%20image%2020231015140908.png)
 		  In this example, <mark style="background: #FFB8EBA6;">we want our dataset to be used for testing but with a different data source. To do so we have the following 2 options</mark>:
 			* Create parameters in Power Query Parameters (mentioned in a later section)
 			* Add a new rule:
-			  ![[Pasted image 20231015141111.png]]
+			  ![Pasted image 20231015141111](Pasted%20image%2020231015141111.png)
 			  Then:
-			  ![[Pasted image 20231015141133.png]]
+			  ![Pasted image 20231015141133](Pasted%20image%2020231015141133.png)
 			* Note: we do the steps above again, but this time to transition from the **Test** phase to the **Production** phase.
 
 Notes about additional operations in development phase (logically similar to "git pull"):
 * Suppose we receive a notification that one of the other developers has modified a report. To see the changes to this report:
-  ![[Pasted image 20231015141555.png]]
+  ![Pasted image 20231015141555](Pasted%20image%2020231015141555.png)
   Result:
-  ![[Pasted image 20231015141612.png]]
+  ![Pasted image 20231015141612](Pasted%20image%2020231015141612.png)
 * The difference is typically registered as added or removed objects. If we decide that the changes shouldn't be deployed to the next phase, we can choose to ignore the changes. by selecting a specific report and then selecting **Deploy to test**.
 	* Exercise caution with this tool. Reports are dependent on their datasets. If a dataset has changed, but you don't deploy it with an associated report, the report will not behave correctly.
 
@@ -2913,7 +2913,7 @@ Data lineage view:
 * accessible to **Admin**, **Contributor**, and **Member** roles only.
 * Refers to the path that data takes from the data source to the destination.
 	* Example:
-	  ![[Pasted image 20231015143231.png]] ^zfkx72
+	  ![Pasted image 20231015143231](Pasted%20image%2020231015143231.png) ^zfkx72
 	* Typically, the flow would be **data sources > datasets/dataflows > reports > dashboards**.
 * Simplifies the troubleshooting process
 	* By seeing how data flows from source to destination and determining pain points and bottlenecks.
@@ -2923,34 +2923,34 @@ Data lineage view:
 
 To use lineage view:
 * Go to a workspace, then:
-  ![[Pasted image 20231015143628.png]]
-  This will show the graph that is shown [[Power BI#^zfkx72|above]].
+  ![Pasted image 20231015143628](Pasted%20image%2020231015143628.png)
+  This will show the graph that is shown [](Power%20BI.md#^zfkx72|above).
 
 Now, regarding each card in the lineage view:
 * Data source card
 	* Example:
-	  ![[Pasted image 20231015143854.png]]
+	  ![Pasted image 20231015143854](Pasted%20image%2020231015143854.png)
 	* The card tells us the type and the gateway of the data source.
 		* If you are connected to the data through an on-premises data gateway, this card will tell you more information about the gateway. 
 			* Additionally, if you double-click the card, you will get more details about the data source, such as the file path and the connection status.
 	* Selecting the lower-right icon on the card will highlight the path from the data source to the destination:
-	  ![[Pasted image 20231015144005.png]]
+	  ![Pasted image 20231015144005](Pasted%20image%2020231015144005.png)
 
 
 Dataset/Dataflow cards:
 * Example:
-  ![[Pasted image 20231015144348.png]]
+  ![Pasted image 20231015144348](Pasted%20image%2020231015144348.png)
 * The impact analysis window displays how many workspaces, reports, and dashboards that this dataset is a part of and how many views that this dataset has gathered. We can select **Notify contacts**, which allows you to notify dataset owners (or any other user) of changes in the dataset:
-  ![[Pasted image 20231015144514.png]]
+  ![Pasted image 20231015144514](Pasted%20image%2020231015144514.png)
 * When double clicking this card, we see the following metadata:
-  ![[Pasted image 20231015144251.png]]
+  ![Pasted image 20231015144251](Pasted%20image%2020231015144251.png)
 	* <mark style="background: #FFB8EBA6;">Impact analysis is useful because it allows you to pinpoint datasets that aren't being used or looked at.</mark>
 
 Reports and Dashboards cards:
 * When double clicking:
-  ![[Pasted image 20231015144649.png]]
+  ![Pasted image 20231015144649](Pasted%20image%2020231015144649.png)
 * when clicking on the ellipsis (...) icon:
-  ![[Pasted image 20231015144706.png]]
+  ![Pasted image 20231015144706](Pasted%20image%2020231015144706.png)
 
 For more information, see [Data Lineage](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-data-lineage/).
 
@@ -2970,9 +2970,9 @@ Regarding sensitivity labels:
 * Specifies which data can be exported.
 * Protects content even outside of Power BI
 * To enable it:
-  ![[Pasted image 20231016213638.png]]
+  ![Pasted image 20231016213638](Pasted%20image%2020231016213638.png)
   then:
-  ![[Pasted image 20231016213647.png]]
+  ![Pasted image 20231016213647](Pasted%20image%2020231016213647.png)
 * Possible labels:
 	* None
 	* Personal
@@ -2982,7 +2982,7 @@ Regarding sensitivity labels:
 	* User defined labels from [Microsoft 365 Security Center](https://security.microsoft.com/homepage/)
 * When exporting a labeled dataset:
 	* it could appear like this if we're an authorized user:
-	  ![[Pasted image 20231016213819.png]]
+	  ![Pasted image 20231016213819](Pasted%20image%2020231016213819.png)
 	* Otherwise, we would be denied access to see the data.
 * For more information, see [Apply Data Sensitivity Labels in Power BI](https://learn.microsoft.com/en-us/power-bi/collaborate-share/service-security-apply-data-sensitivity-labels).
 
@@ -3005,9 +3005,9 @@ Managing datasets is important when we want to:
 Gateway software allows us to:
 * retain databases/data-sources on-premise, then access them in cloud services.
 * flow from a user in the cloud, to the on-premise data, then back to the cloud:
-  ![[Pasted image 20231016214604.png]]
+  ![Pasted image 20231016214604](Pasted%20image%2020231016214604.png)
 	* Behind the scenes, the following actions occur:
-	  ![[Pasted image 20231016215420.png]]
+	  ![Pasted image 20231016215420](Pasted%20image%2020231016215420.png)
 		* <mark style="background: #FFB8EBA6;">The cloud service</mark> :
 			* creates a query and the encrypted credentials for the on-premises data source. 
 			* sends them to the gateway queue for processing.
@@ -3053,10 +3053,10 @@ The **Scheduled refresh** feature allows us to:
 Scheduled refresh creation steps:
 * create a gateway connection.
 * select the **Schedule refresh** icon:
-  ![[Pasted image 20231016220639.png]]
+  ![Pasted image 20231016220639](Pasted%20image%2020231016220639.png)
 	* Side note: the on-demand refresh doesn't affect the next scheduled refresh time.
 * Do the following:
-  ![[Pasted image 20231016220543.png]]
+  ![Pasted image 20231016220543](Pasted%20image%2020231016220543.png)
 
 Limitations:
 * Maximum numbers of daily scheduled refreshes:
@@ -3068,9 +3068,9 @@ Limitations:
 
 To check the refresh status you can either:
 * Check it from here:
-  ![[Pasted image 20231016221038.png]]
+  ![Pasted image 20231016221038](Pasted%20image%2020231016221038.png)
 * Or from the refresh history page of the dataset's settings window:
-  ![[Pasted image 20231016221105.png]]
+  ![Pasted image 20231016221105](Pasted%20image%2020231016221105.png)
 
 ## Dataset Incremental Refresh
 
@@ -3098,22 +3098,22 @@ To define an incremental refresh policy, follow these steps:
 		* a <mark style="background: #FFB8EBA6;">filtering window</mark> because they restrict the used data pulled into Power BI desktop to the specified range.
 		* a <mark style="background: #FFB8EBA6;">sliding window</mark> to determine what data to pull into Power BI service.
 	* Definition steps:
-	  ![[Pasted image 20231016222315.png]]
+	  ![Pasted image 20231016222315](Pasted%20image%2020231016222315.png)
 * Use the parameters to apply a filter.
 	* Steps:
 		* Right click a chosen column, then select **custom filter**:
-		  ![[Pasted image 20231016222446.png]]
+		  ![Pasted image 20231016222446](Pasted%20image%2020231016222446.png)
 		* Then, in the **Filter Rows** window that displays:
-		  ![[Pasted image 20231016222531.png]]
+		  ![Pasted image 20231016222531](Pasted%20image%2020231016222531.png)
 		* We should now see a subset of the dataset in Power BI Desktop.
 * Define the incremental refresh policy.
 * Publish changes to Power BI service.
 
 To define the incremental refresh policy, follow these steps:
 * Right click the chosen table which you've applied the filter for, then:
-  ![[Pasted image 20231016222655.png]]
+  ![Pasted image 20231016222655](Pasted%20image%2020231016222655.png)
 * Then, configure the refresh as required. In this example, you will define a refresh policy to store data for five full calendar years, plus data for the current year up to the current date, and incrementally refresh 10 days of data:
-  ![[Pasted image 20231016222734.png]]
+  ![Pasted image 20231016222734](Pasted%20image%2020231016222734.png)
 * The two refresh operations above will apply the following logic (from top to bottom):
 	* <mark style="background: #FFB8EBA6;">load the historical data</mark> for the last five years.
 	* <mark style="background: #FFB8EBA6;">incrementally refresh the data</mark> that was changed in the last 10 days up to the current date <mark style="background: #FFB8EBA6;">and remove calendar years that are older than five years prior to the current date</mark>.
@@ -3133,14 +3133,14 @@ Use case scenario:
 	* Promotion
 		* Promote your datasets when they're **ready for broad usage**.
 		* Requirements:
-			* write permissions on the workspace containing the content to be promoted. I.e., an [[Power BI#^68di4d|Admin]].
+			* write permissions on the workspace containing the content to be promoted. I.e., an [](Power%20BI.md#^68di4d|Admin).
 		* Steps:
 			* In Power BI Service:
-			  ![[Pasted image 20231017073316.png]]
+			  ![Pasted image 20231017073316](Pasted%20image%2020231017073316.png)
 			* Then:
-			  ![[Pasted image 20231017073336.png]]
+			  ![Pasted image 20231017073336](Pasted%20image%2020231017073336.png)
 			* Result:
-			  ![[Pasted image 20231017073421.png]]
+			  ![Pasted image 20231017073421](Pasted%20image%2020231017073421.png)
 			  This indicates that the dataset ready for viewing by all users.
 	* Certification
 		* Use case scenario: 
@@ -3152,7 +3152,7 @@ Use case scenario:
 			* Certification can be a highly selective process, so only the truly reliable and authoritative datasets are used across the organization.
 		* Steps:
 			* To request certification:
-			  ![[Pasted image 20231017073558.png]]
+			  ![Pasted image 20231017073558](Pasted%20image%2020231017073558.png)
 			  If it is greyed out, the organization's admins will provide details in a link titled, _"How do I get my dataset certified?"_ in the **Certified** section.
 
 For more information, see [Promote your dataset](https://learn.microsoft.com/en-us/power-bi/service-datasets-promote/) or [Certify datasets](https://learn.microsoft.com/en-us/power-bi/service-datasets-certify/).
@@ -3171,13 +3171,13 @@ Regarding query caching:
 	* It reduces loading time and increases query speed especially for datasets that are not refreshed often and are accessed frequently.
 	* It respects bookmarks and default filters, so even if we enable query caching, any bookmarks that we have created still exist.
 	* It caches query results to a specific user at a time.
-	* It follows [[#Data Protection Using Sensitivity (Security) Labels|security labels]].
+	* It follows [security labels](#Data%20Protection%20Using%20Sensitivity%20(Security)%20Labels).
 	* It reduces the load on your dedicated capacity by using cloud resources on your premium capacities on Power BI service to load the report.
 * Steps:
 	* Click here:
-	  ![[Pasted image 20231017075030.png]]
+	  ![Pasted image 20231017075030](Pasted%20image%2020231017075030.png)
 	* ThenSelect the **Datasets** tab and expand the **Query Caching** options to see this:
-	  ![[Pasted image 20231017075100.png]]
+	  ![Pasted image 20231017075100](Pasted%20image%2020231017075100.png)
 	* choose one of the available options. The default option is that query caching is turned off; however, we can also select **Off**, which turns off query caching for the specific dataset in question. If we select **On**, <mark style="background: #FFB8EBA6;">query caching will be turned on for this specific dataset only</mark>.
 	* Side notes:
 		* Switching from **On** to **Off** will clear all previously saved query results.
@@ -3200,31 +3200,31 @@ Dashboard characteristics:
 * Its tiles can be sourced from a multitude of places including reports, datasets, other dashboards, Microsoft Excel, SQL Server Reporting Services, and more.
 	* A report element pinned in the dashboard acts as a direct connection between the dashboard and the report that the snapshot came from.
 		* To pin a report to a dashboard, go to the report visual that you want to pin, then:
-		  ![[Pasted image 20231017110035.png]]
+		  ![Pasted image 20231017110035](Pasted%20image%2020231017110035.png)
 		  then:
-		  ![[Pasted image 20231017110044.png]]
+		  ![Pasted image 20231017110044](Pasted%20image%2020231017110044.png)
 	* Dashboard tiles can also be created from ***custom streaming data*** like so ([M source](https://learn.microsoft.com/en-us/training/modules/create-dashboards-power-bi/7-configure-real-time-dashboard)):
-	  ![[Pasted image 20231017133847.png]]
+	  ![Pasted image 20231017133847](Pasted%20image%2020231017133847.png)
 	  this is useful for the following use case scenario: sensors on machines constantly send a stream of data to "IoT hub", where they'll be housed in their native, messy format. From there, we can use a stream insight job to aggregate the data, meaning that it will clean the data and quiet the noisy messages. Then, we can retrieve the data into Power BI as a streaming dataset, where we can consume the information and build the required visuals. This process can be illustrated like this:
-	  ![[Pasted image 20231017134036.png]]
+	  ![Pasted image 20231017134036](Pasted%20image%2020231017134036.png)
 	  For more information, see [Real-time streaming in Power BI](https://learn.microsoft.com/en-us/power-bi/connect-data/service-real-time-streaming).
 * Can pin an entire page of a report (i.e., live page)
 	* Any changes that we make to the report will automatically show on the dashboard when the page is refreshed. In Power BI Desktop, we can make changes to our visuals or data as needed and then ***deploy to the appropriate workspace file, which will update the report and simultaneously update the dashboard as well***.
 * Can create data alerts for pinned visuals:
 	* Steps:
-	  ![[Pasted image 20231017123245.png]]
+	  ![Pasted image 20231017123245](Pasted%20image%2020231017123245.png)
 	  Then:
-	  ![[Pasted image 20231017123254.png]]
+	  ![Pasted image 20231017123254](Pasted%20image%2020231017123254.png)
 	* Note: <mark style="background: #FFB8EBA6;">data alerts are available to whomever has access to the dashboard, not just the dashboard owner</mark>.
 		* I.e., each user can have their own set of alerts.
 	* For more information, see [Data Alerts in Power BI service](https://learn.microsoft.com/en-us/power-bi/create-reports/service-set-data-alerts).
 * Can get quick insights on the dataset
 	* Steps:
-	  ![[Pasted image 20231017132825.png]]
+	  ![Pasted image 20231017132825](Pasted%20image%2020231017132825.png)
 	  Then, this appears:
-	  ![[Pasted image 20231017132838.png]]
+	  ![Pasted image 20231017132838](Pasted%20image%2020231017132838.png)
 	  Clicking on "View insights" will open the **Quick Insights** page for the selected dataset, which contains up to 32 separate insight cards. Illustration of a single insight card:
-	  ![[Pasted image 20231017132934.png]]
+	  ![Pasted image 20231017132934](Pasted%20image%2020231017132934.png)
 	  Clicking on an insight card will make us enter **Focus mode**, where we can:
 		* Filter the visualization using the filters pane.
 		* Pin the insight card to a dashboard.
@@ -3233,9 +3233,9 @@ Dashboard characteristics:
 		* Return to the original insights canvas by selecting Exit Focus mode in the upper-left corner.
 * Can have different dashboard themes
 	* Steps:
-	  ![[Pasted image 20231017133236.png]]
+	  ![Pasted image 20231017133236](Pasted%20image%2020231017133236.png)
 	  where "Custom" will give us these options:
-	  ![[Pasted image 20231017133326.png]]
+	  ![Pasted image 20231017133326](Pasted%20image%2020231017133326.png)
 * Can perform data classification ([M source](https://learn.microsoft.com/en-us/training/modules/create-dashboards-power-bi/8-configure-data-classification))
 	* This will raise security awareness to viewers of a dashboard so that they know what level of security should be considered when viewing or sharing a dashboard. 
 	* This will not enforce policies because data protection does.
@@ -3243,11 +3243,11 @@ Dashboard characteristics:
 		* Only the **dashboard owner who is a Power BI service Admin** can change the dashboard's classification. ^u7k3wc
 	* Classification types: **High Impact**, **Low Impact**, and **Medium Impact**
 	* Steps:
-	  ![[Pasted image 20231017134847.png]]
+	  ![Pasted image 20231017134847](Pasted%20image%2020231017134847.png)
 	  then:
-	  ![[Pasted image 20231017134907.png]]
+	  ![Pasted image 20231017134907](Pasted%20image%2020231017134907.png)
 	  Result:
-	  ![[Pasted image 20231017135034.png]]
+	  ![Pasted image 20231017135034](Pasted%20image%2020231017135034.png)
 * Can set up mobile view
 	* This can be done either from Power BI desktop **for reports**, or from Power BI service **for dashboards**.
 	* Note: in a 2020 June release of Power BI, a new grid has been added to this view so that we can orient our visuals with more ease and overlay visuals on top of each other. This feature can be useful if we want to insert a visual on top of an image.
