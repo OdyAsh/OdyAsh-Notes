@@ -149,9 +149,9 @@ $$\begin{aligned}
 
 \hat{j}&=
 \left[\begin{matrix}{0}\cr{1}\cr\end{matrix}\right]
-\end{aligned}
-$$
+\end{aligned}$$
 
 
+.
 ![](Media-Temp/Pasted%20image%2020231104154916.png)
 ([source](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/intro-unit-vector-notation))
