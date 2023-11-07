@@ -137,9 +137,10 @@ Answer:
 
 Definition: 
 * **A vector that has a magnitude of 1** is a unit vector. 
+* It is 
 * It is also known as Direction Vector.
 
-Specifically, in cartesian coordinates, <mark style="background: #FF5582A6;">the unit vectors along the axis are denoted by i and j respectively</mark>. Their formulae (in $\mathbb{R}^2$):
+Specifically, in cartesian coordinates, <mark style="background: #FF5582A6;">special unit vectors along the axis are denoted by i and j respectively</mark>. Their formulae (in $\mathbb{R}^2$):
 
 $$\begin{aligned}
 \hat{i}&=
@@ -150,6 +151,22 @@ $$\begin{aligned}
 
 Visualization:
 
-![](Media-Temp/Pasted%20image%2020231104154916.png)
+![](Media-Temp/Pasted%20image%2020231106155417.png)
 ([source](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/intro-unit-vector-notation))
+
+These *special vectors* can be generalized to more dimensions. For example, in $\mathbb{R}^3$, we have the following *special* unit vectors:
+
+
+$$\begin{aligned}
+\hat{i}&=
+\left[\begin{matrix}{1}\cr{0}\cr{0}\cr\end{matrix}\right] \cr\cr
+\hat{j}&=
+\left[\begin{matrix}{0}\cr{1}\cr{0}\cr\end{matrix}\right] \cr\cr
+\hat{k}&=
+\left[\begin{matrix}{0}\cr{0}\cr{1}\cr\end{matrix}\right] \cr\cr
+\end{aligned}$$
+
+Moreover, if a vector $\vec{v}$ is not *special*, then its unit vector is denoted by $\left|\left|\vec{v}\right|\right|$. 
+
+Visualization:
 

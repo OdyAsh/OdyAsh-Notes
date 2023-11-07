@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
                 "mode": "source",
                 "source": false
               }
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "3cf6ea7704bfbf22",
@@ -129,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md"
+                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md"
               }
             }
           },
@@ -157,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,19 +173,17 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 294.5,
-    "collapsed": true
+    "width": 294.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,22 +202,23 @@
   },
   "active": "8ad07a4fedd140fb",
   "lastOpenFiles": [
-    "Islam/Marriage/Media-Temp/Pasted image 20231104174200.png",
+    "Mathematics/Linear Algebra/Vectors.md",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231106155417.png",
+    "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+    "Obsidian/Media-Temp/Pasted image 20231104170701.png",
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104130736.png",
+    "Islam/Marriage/Media-Temp/Pasted image 20231104174200.png",
     "Islam/Marriage/Media-Temp/Pasted image 20231104174159.png",
     "Islam/Marriage/Media-Temp/Pasted image 20231104174151.png",
     "Islam/Marriage/Media-Temp/Pasted image 20231104174148.png",
     "Islam/Marriage/Media-Temp",
-    "Mathematics/Linear Algebra/Vectors.md",
     "Obsidian/Debugging Obsidian.md",
-    "Obsidian/Media-Temp/Pasted image 20231104170701.png",
     "Obsidian/Media-Temp/Pasted image 20231104170638.png",
     "Obsidian/Media-Temp/Pasted image 20231104170619.png",
     "Obsidian/Media-Temp",
     "Obsidian/Cool Plugins.md",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104163904.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104163743.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104163010.png",
     "Mathematics/Linear Algebra/Media-Temp",
     "Programming/AI Related/Power BI.md",
     "Mathematics/Linear Algebra/Attachments - Vectors/vector-addition.mp4",
@@ -249,7 +247,6 @@
     "Programming/UX Design/Google's Foundation of UX Design - Course 1.md",
     "Writing/Vocabulary.md",
     "Writing/Blogs/Attachments - How to log EVERYTHING in PyTorch Lightning - A Manual Approach/Nested List and Dict Comprehension - Unravelling Confusing Syntax.md",
-    "Writing/Blogs/How to log EVERYTHING in PyTorch Lightning - A Manual Approach.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

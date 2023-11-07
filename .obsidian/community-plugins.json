@@ -37,5 +37,6 @@
   "obsidian-git",
   "obsidian-trash-explorer",
   "obsidian-link-converter",
-  "obsidian-regex-replace"
+  "obsidian-regex-replace",
+  "nuke-orphans"
 ]
