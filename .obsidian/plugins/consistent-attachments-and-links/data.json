@@ -1,10 +1,10 @@
 {
   "moveAttachmentsWithNote": true,
-  "deleteAttachmentsWithNote": true,
+  "deleteAttachmentsWithNote": false,
   "updateLinks": true,
   "deleteEmptyFolders": true,
   "deleteExistFilesWhenMoveNote": true,
-  "changeNoteBacklinksAlt": false,
+  "changeNoteBacklinksAlt": true,
   "ignoreFolders": [
     ".git/",
     ".obsidian/",

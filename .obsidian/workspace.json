@@ -4,22 +4,47 @@
     "type": "split",
     "children": [
       {
-        "id": "4ebf488a29acfd63",
+        "id": "88bafda230b1efcc",
         "type": "tabs",
         "children": [
           {
-            "id": "8ad07a4fedd140fb",
+            "id": "ba8db5016e6fca5e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+                "file": "Mathematics/Math Jargon.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1b2efce36b459d8d",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Linear Algebra/Vectors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "54bf68a5175ca905",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Math Jargon.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +110,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 419.5
   },
   "right": {
     "id": "3cf6ea7704bfbf22",
@@ -128,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md"
+                "file": "Mathematics/Linear Algebra/Vectors.md"
               }
             }
           },
@@ -156,7 +181,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+                "file": "Mathematics/Linear Algebra/Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,13 +198,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+                "file": "Mathematics/Linear Algebra/Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -200,39 +226,43 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "8ad07a4fedd140fb",
+  "active": "1b2efce36b459d8d",
   "lastOpenFiles": [
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231110205313.png",
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231110175633.png",
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231110205318.png",
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231110205302.png",
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231110204406.png",
     "Mathematics/Linear Algebra/Vectors.md",
+    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231106155417.png",
+    "Mathematics/Math Jargon.md",
+    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231110210612.png",
+    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231110205330.png",
+    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231110204352.png",
+    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231110203317.png",
+    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231110203104.png",
+    "Mathematics/Linear Algebra/Media-Temp",
+    "Mathematics/Linear Algebra/Attachments - Vectors/8Fa29312",
+    "Mathematics/Linear Algebra/Attachments - Vectors/OdyAsh OdyAsh-Notes 0426d00be08d9ad9260b53978380acdbcf74c38a Mathematics-Linear%20Algebra_Media-Temp.zip",
+    "Mathematics/Linear Algebra/Attachments - Vectors/OdyAsh OdyAsh-Notes 0426d00be08d9ad9260b53978380acdbcf74c38a Mathematics-Linear%20Algebra_Media-Temp.zip.crdownload",
+    "Programming/DB/MySQL.md",
+    "Programming/DB/Media-Temp",
+    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية)-Ash-Desktop.md",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231106155417.png",
     "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
-    "Obsidian/Media-Temp/Pasted image 20231104170701.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104130736.png",
-    "Islam/Marriage/Media-Temp/Pasted image 20231104174200.png",
-    "Islam/Marriage/Media-Temp/Pasted image 20231104174159.png",
-    "Islam/Marriage/Media-Temp/Pasted image 20231104174151.png",
-    "Islam/Marriage/Media-Temp/Pasted image 20231104174148.png",
     "Islam/Marriage/Media-Temp",
     "Obsidian/Debugging Obsidian.md",
-    "Obsidian/Media-Temp/Pasted image 20231104170638.png",
-    "Obsidian/Media-Temp/Pasted image 20231104170619.png",
     "Obsidian/Media-Temp",
     "Obsidian/Cool Plugins.md",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104163904.png",
-    "Mathematics/Linear Algebra/Media-Temp",
     "Programming/AI Related/Power BI.md",
     "Mathematics/Linear Algebra/Attachments - Vectors/vector-addition.mp4",
     "Mathematics/Linear Algebra/Attachments - Vectors/ezgif-4-94bf7cbcbf.mp4",
     "Mathematics/Linear Algebra/Attachments - Vectors/ezgif-4-94bf7cbcbf.mp4.crdownload",
-    "Mathematics/Linear Algebra/Attachments - Vectors/vector-addition.gif.crdownload",
-    "Mathematics/Linear Algebra/Attachments - Vectors/vector-scalar-multiplication.gif.crdownload",
     "Programming/AI Related/Data Analytics Notes.md",
     "Programming/Python/Debugging Python Code.md",
     "consistency-report.md",
-    "Obsidian/Media",
     "Programming/Python/Virtual Environments/Conda Environment.md",
     "Virtual Environments/ Conda Environment.md",
-    "Virtual Environments",
     "Obsidian/UI Tips.md",
     "Programming/AI Related/Clustering Algorithms.md",
     "Programming/VS Code/VS Code Tips.md",
@@ -244,9 +274,6 @@
     "Competitions/Egypt IoT And AI 2023/Innovation Notes.md",
     "Secrets/APIs.md",
     "conflict-files-obsidian-git.md",
-    "Programming/UX Design/Google's Foundation of UX Design - Course 1.md",
-    "Writing/Vocabulary.md",
-    "Writing/Blogs/Attachments - How to log EVERYTHING in PyTorch Lightning - A Manual Approach/Nested List and Dict Comprehension - Unravelling Confusing Syntax.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
