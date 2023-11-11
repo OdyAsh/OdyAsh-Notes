@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "88bafda230b1efcc",
+        "id": "d3a3dad75403f797",
         "type": "tabs",
         "children": [
           {
-            "id": "ba8db5016e6fca5e",
+            "id": "b6d6efdc22f61c11",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/AI/Clustering Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "54bf68a5175ca905",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Mathematics/Math Jargon.md",
+                "file": "Programming/DB/MySQL.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.5
+    "width": 300
   },
   "right": {
     "id": "3cf6ea7704bfbf22",
@@ -140,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/AI/Clustering Algorithms.md"
+                "file": "Programming/DB/MySQL.md"
               }
             }
           },
@@ -168,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/AI/Clustering Algorithms.md",
+                "file": "Programming/DB/MySQL.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,18 +173,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/AI/Clustering Algorithms.md",
+                "file": "Programming/DB/MySQL.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 294.5,
-    "collapsed": true
+    "width": 294.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -213,53 +201,54 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "ba8db5016e6fca5e",
+  "active": "b6d6efdc22f61c11",
   "lastOpenFiles": [
-    "Programming/AI/Power BI Questions.md",
-    "Programming/AI/Power BI.md",
-    "Mathematics/Math Jargon.md",
-    "Mathematics/Linear Algebra/Vectors.md",
-    "Programming/Data Engineer",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231110205313.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231110175633.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231110205318.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231110205302.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231110204406.png",
     "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231106155417.png",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231110210612.png",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231110205330.png",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231110204352.png",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231110203317.png",
-    "Mathematics/Linear Algebra/Media-Temp",
-    "Mathematics/Linear Algebra/Attachments - Vectors/8Fa29312",
-    "Mathematics/Linear Algebra/Attachments - Vectors/OdyAsh OdyAsh-Notes 0426d00be08d9ad9260b53978380acdbcf74c38a Mathematics-Linear%20Algebra_Media-Temp.zip",
-    "Mathematics/Linear Algebra/Attachments - Vectors/OdyAsh OdyAsh-Notes 0426d00be08d9ad9260b53978380acdbcf74c38a Mathematics-Linear%20Algebra_Media-Temp.zip.crdownload",
-    "Programming/DB/MySQL.md",
+    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231107092101.png",
+    "Programming/DB/Media-Temp/Pasted image 20231107143803.png",
     "Programming/DB/Media-Temp",
+    "Mathematics/Linear Algebra/Vectors.md",
+    "Programming/DB/MySQL.md",
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231107092101.png",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية)-Ash-Desktop.md",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
     "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231106155417.png",
+    "Obsidian/Media-Temp/Pasted image 20231104170701.png",
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231104130736.png",
+    "Islam/Marriage/Media-Temp/Pasted image 20231104174200.png",
+    "Islam/Marriage/Media-Temp/Pasted image 20231104174159.png",
+    "Islam/Marriage/Media-Temp/Pasted image 20231104174151.png",
+    "Islam/Marriage/Media-Temp/Pasted image 20231104174148.png",
     "Islam/Marriage/Media-Temp",
     "Obsidian/Debugging Obsidian.md",
     "Obsidian/Media-Temp",
     "Obsidian/Cool Plugins.md",
+    "Mathematics/Linear Algebra/Media-Temp",
+    "Programming/AI Related/Power BI.md",
     "Mathematics/Linear Algebra/Attachments - Vectors/vector-addition.mp4",
     "Mathematics/Linear Algebra/Attachments - Vectors/ezgif-4-94bf7cbcbf.mp4",
-    "Programming/AI/Data Analytics Notes.md",
+    "Mathematics/Linear Algebra/Attachments - Vectors/ezgif-4-94bf7cbcbf.mp4.crdownload",
+    "Mathematics/Linear Algebra/Attachments - Vectors/vector-addition.gif.crdownload",
+    "Mathematics/Linear Algebra/Attachments - Vectors/vector-scalar-multiplication.gif.crdownload",
+    "Programming/AI Related/Data Analytics Notes.md",
     "Programming/Python/Debugging Python Code.md",
     "consistency-report.md",
+    "Obsidian/Media",
     "Programming/Python/Virtual Environments/Conda Environment.md",
     "Virtual Environments/ Conda Environment.md",
     "Obsidian/UI Tips.md",
-    "Programming/AI/Clustering Algorithms.md",
+    "Programming/AI Related/Clustering Algorithms.md",
     "Programming/VS Code/VS Code Tips.md",
     "Programming/UX Design/Screen Units.md",
     "README.md",
     "Untitled 1.md",
     "Untitled.md",
+    "Programming/AI Related/Power BI Questions.md",
     "Competitions/Egypt IoT And AI 2023/Innovation Notes.md",
     "Secrets/APIs.md",
     "conflict-files-obsidian-git.md",
+    "Programming/UX Design/Google's Foundation of UX Design - Course 1.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

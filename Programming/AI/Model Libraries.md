@@ -249,23 +249,23 @@ from bs4 import BeautifulSoup
 ## PyTorch Vs PyTorch Lightning
 
 PyTorch:
-![[Pasted image 20230503065504.png|250]]
+![[Attachments - Model Libraries/Pasted image 20230503065504.png|250]]
 Example implementation:
-![[Pasted image 20230503070424.png]]
+![[Attachments - Model Libraries/Pasted image 20230503070424.png]]
 
 PyTorch Lightning:
-![[Pasted image 20230503065442.png]]
+![[Attachments - Model Libraries/Pasted image 20230503065442.png]]
 Example Implementation:
-![[Pasted image 20230503070708.png]]
+![[Attachments - Model Libraries/Pasted image 20230503070708.png]]
 
-![[Pasted image 20230503070749.png]]
+![[Attachments - Model Libraries/Pasted image 20230503070749.png]]
 
 Which is this:
 
-![[Pasted image 20230503070759.png]]
+![[Attachments - Model Libraries/Pasted image 20230503070759.png]]
 
 Final look:
-![[Pasted image 20230503070942.png]]
+![[Attachments - Model Libraries/Pasted image 20230503070942.png]]
 
 # HuggingFace
 
@@ -572,10 +572,10 @@ When a `yield` statement is encountered inside a generator function, it temporar
 ## Show Details About The Model
 
 Given this structure from `model.summary()`:
-![[Pasted image 20230223120308.png]]
+![[Attachments - Model Libraries/Pasted image 20230223120308.png]]
 ...
 
-![[Pasted image 20230223120620.png]]
+![[Attachments - Model Libraries/Pasted image 20230223120620.png]]
 
 Typing this:
 ```python

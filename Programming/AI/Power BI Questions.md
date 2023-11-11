@@ -799,7 +799,7 @@ Note: some questions are paraphrased for me to easily understand.
 
 1
 given this model:
-![[Pasted image 20231018110806.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018110806.png]]
 and these refresh specifications:
 * Sales -> real time
 * Customer -> daily
@@ -815,7 +815,7 @@ Answer (in same order of tables):
 * Dual
 
 reason for using Dual can be visualized like this:
-![[Pasted image 20231018111418.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018111418.png]]
 So `Date` is queried as DirectQuery when dealing with `Sales` and as Import when dealing with `SalesAggregate`
 
 2
@@ -833,7 +833,7 @@ C. Dataverse
 
 3
 Suppose you have these tables:
-![[Pasted image 20231018115643.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018115643.png]]
 You need to perform the following analyses:  
 * Orders sold over time that include a measure of the total order value  
 * Orders by attributes of products sold
@@ -886,7 +886,7 @@ You have a folder that contains 100 CSV files.
 You need to make the file metadata available as a single dataset by using Power BI. The solution must NOT store the data of the CSV files.  
 Which three actions should you perform in sequence. To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order.  
 Select and Place:
-![[Pasted image 20231018134226.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018134226.png]]
 Answer (I think):
 Get data and select folder -> expand attributes -> remove content (note, last two could be switched, I don't know)
 Explanation (source):
@@ -897,24 +897,24 @@ You publish a dataset that contains data from an on-premises Microsoft SQL Serve
 The dataset must be refreshed daily.  
 You need to ensure that the Power BI service can connect to the database and refresh the dataset.  
 Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order:
-![[Pasted image 20231018140245.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018140245.png]]
 Answer:
-![[Pasted image 20231018140256.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018140256.png]]
 Explanation: Check [this](https://youtu.be/iq9M_ncz0tw?t=338) video.
 
 9 (Q19)
 Note: if you have this:
-![[Pasted image 20231018140821.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018140821.png]]
 and you want to unpivot, answer will be:
-![[Pasted image 20231018140901.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018140901.png]]
 
 
 10 (Q20)
 You are using Power BI Desktop to connect to an Azure SQL database.
 The connection is configured as follows:
-![[Pasted image 20231018141140.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018141140.png]]
 what is true in the following statements?:
-![[Pasted image 20231018141156.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018141156.png]]
 Answer:
 10mins, only data (bec. full hierarchy is not checked. If it was checked, then "all the tables")
 
@@ -940,7 +940,7 @@ Each workbook contains a table named Sales. The tables have the same data struct
 You plan to use Power BI to combine both Sales tables into a single table and create visuals based on the data in the table. The solution must ensure that you can publish a separate report and dataset.  
 Which storage mode should you use for the report file and the dataset file? To answer, drag the appropriate modes to the correct files. Each mode may be used once, more than once, or not at all.
 
-![[Pasted image 20231018151039.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018151039.png]]
 Answer:
 <mark style="background: #ABF7F7A6;">Import, DirectQuery</mark>
 
@@ -987,10 +987,10 @@ Answer:
 
 32 (T2, Q7)
 You have this Power BI dataset:
-![[Pasted image 20231018205026.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018205026.png]]
 You need to make the table available as an ***organizational data type in Microsoft Excel***.   (i.e., ***featured tables in Power BI***)
 How should you configure the properties of the table? To answer, select the appropriate options in the answer area:
-![[Pasted image 20231018205049.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018205049.png]]
 
 Answers:
 ID, Name, Yes
@@ -999,7 +999,7 @@ ID, Name, Yes
 
 33 (T2, Q8)
 You have the Power BI model:
-![[Pasted image 20231018214848.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018214848.png]]
 A manager can represent only a single country.  
 You need to use row-level security (RLS) to meet the following requirements:  
 * The managers must only see the data of their respective country.  
@@ -1019,9 +1019,9 @@ Explanation is in [this](https://asankap.wordpress.com/2018/05/28/how-does-row-l
 
 34 (T2, Q9)
 You have a Power BI imported dataset that contains this data model:
-![[Pasted image 20231018221248.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018221248.png]]
 Use the drop-down menus to select the answer choice that completes each statement based on the information presented in the graphic:
-![[Pasted image 20231018221259.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018221259.png]]
 
 Answer:
 <mark style="background: #D2B3FFA6;">Cross filter direction</mark>, star schema
@@ -1035,7 +1035,7 @@ Notes:
 You have a Power BI model that contains a table named Sales and a related date table. Sales contains a measure named Total Sales.  
 You need to create a measure that calculates the total sales from the equivalent month of the previous year.  
 How should you complete the calculation? To answer, select the appropriate options in the answer area:
-![[Pasted image 20231018222930.png]]
+![[Attachments - Power BI Questions/Pasted image 20231018222930.png]]
 
 Answer:
 CALCULATE -> SAMEPERIODLASTYEAR -> 'Date'[Date]
@@ -1077,12 +1077,12 @@ Since it is a Microsoft SQL Server table, query folding can be applied to import
 
 38 (T2, Q19)
 You connect to the data stored in a Microsoft Excel spreadsheet by using Power Query Editor as shown here:
-![[Pasted image 20231020222727.png]]
+![[Attachments - Power BI Questions/Pasted image 20231020222727.png]]
 You need to prepare the data to support the following:  
 ✑ Visualizations that include all measures in the data over time  
 ✑ Year-over-year calculations for all the measures  
 Which four actions should you perform in sequence? To answer, move the appropriate actions from the list of actions to the answer area and arrange them in the correct order:
-![[Pasted image 20231020222741.png]]
+![[Attachments - Power BI Questions/Pasted image 20231020222741.png]]
 Answer1:
 Transpose -> use first row as headers -> unpivot -> rename measure to Year.
 Answer2 (I think this is the correct one):
@@ -1091,33 +1091,33 @@ Explanation:
 if answer1
 then:
 original data (short version):
-![[Pasted image 20231020221600.png]]
+![[Attachments - Power BI Questions/Pasted image 20231020221600.png]]
 Transpose then use first row as header:
-![[Pasted image 20231020221658.png]]
+![[Attachments - Power BI Questions/Pasted image 20231020221658.png]]
 
 Unpivot other columns than "m":
-![[Pasted image 20231020221729.png]]
+![[Attachments - Power BI Questions/Pasted image 20231020221729.png]]
 then, rename "m" to "Year".
 
 However, if answer2
 then:
 original table (short version):
-![[Pasted image 20231020221600.png]]
+![[Attachments - Power BI Questions/Pasted image 20231020221600.png]]
 
 use first row as header:
-![[Pasted image 20231020221914.png]]
+![[Attachments - Power BI Questions/Pasted image 20231020221914.png]]
 
 unpivot columns other than "m":
-![[Pasted image 20231020222405.png]]
+![[Attachments - Power BI Questions/Pasted image 20231020222405.png]]
 
 then, Rename "Attribute" to "Year", then change its datatype to "Date".
 
 39 (T2, Q21)
 You plan to create Power BI dataset to analyze attendance at a school. Data will come from two separate views named View1 and View2 in an Azure SQL database.  
 View1 contains the columns shown in the following table:
-![[Pasted image 20231021110418.png]]
+![[Attachments - Power BI Questions/Pasted image 20231021110418.png]]
 View2 contains the columns shown in the following table:
-![[Pasted image 20231021110427.png]]
+![[Attachments - Power BI Questions/Pasted image 20231021110427.png]]
 The views can be related based on the Class ID column.  
 Class ID is the unique identifier for the specified class, period, teacher, and school year. For example, the same class can be taught by the same teacher during two different periods, but the class will have a different class ID.  
 You need to design a star schema data model by using the data in both views. The solution must facilitate the following analysis:  
@@ -1125,7 +1125,7 @@ You need to design a star schema data model by using the data in both views. The
 ✑ The count of students in attendance by period by day  
 ✑ The average number of students attending a class each month  
 In which table should you include the Teacher First Name and Period Number fields? To answer, select the appropriate options in the answer area:
-![[Pasted image 20231021110447.png]]
+![[Attachments - Power BI Questions/Pasted image 20231021110447.png]]
 
 Answer:
 Teacher Dim., ***Class Dim***.
@@ -1136,11 +1136,11 @@ Period number should be considered in Class dim, because it is a duplicate and i
 
 40 (T2, Q27)
 You are creating a Microsoft Power BI data model that has the tables shown in the following table:
-![[Pasted image 20231021190550.png]]
+![[Attachments - Power BI Questions/Pasted image 20231021190550.png]]
 The Products table is related to the ProductCategory table through the ProductCategoryID column. Each product has one product category.  
 You need to ensure that you can analyze ***sales by product category***.  
 How should you configure the relationship ***from ProductCategory to Products***? To answer, select the appropriate options in the answer area:
-![[Pasted image 20231021190617.png]]
+![[Attachments - Power BI Questions/Pasted image 20231021190617.png]]
 
 Solution:
 one-to-many, single
@@ -1156,7 +1156,7 @@ You import a Power BI dataset that contains the following tables:
 ✑ Product  
 ✑ Product Inventory  
 The Product Inventory table contains 25 million rows. A sample of the data is shown in the following table:
-![[Pasted image 20231021191113.png]]
+![[Attachments - Power BI Questions/Pasted image 20231021191113.png]]
 The Product Inventory table relates to the Date table by using the DateKey column. The Product Inventory table relates to the Product table by using the  
 ProductKey column.  
 You need to reduce the size of the data model ***without losing information***.  
@@ -1199,13 +1199,13 @@ You have a Power BI report named Orders that supports the following analysis:
 ✑ New and repeat customer counts  
 The data model size is nearing the limit for a dataset in shared capacity.  
 The model view for the dataset is shown in the following exhibit:
-![[Pasted image 20231022215109.png]]
+![[Attachments - Power BI Questions/Pasted image 20231022215109.png]]
 The data view for the Orders table is shown in the following exhibit:
-![[Pasted image 20231022215135.png]]
+![[Attachments - Power BI Questions/Pasted image 20231022215135.png]]
 The Orders table relates to the Customers table by using the CustomerID column.  
 The Orders table relates to the Date table by using the OrderDate column.  
 For each of the following statements, select Yes if the statement is true, Otherwise, select No:
-![[Pasted image 20231022215206.png]]
+![[Attachments - Power BI Questions/Pasted image 20231022215206.png]]
 
 Answer:
 No, No, Yes
@@ -1215,7 +1215,7 @@ NOtice how `OrderID` and `ProductID` always change even for the same customer `T
 
 43 (T2, Q35)
 You are creating a Power BI model that contains a table named Store. Store contains the following fields:
-![[Pasted image 20231023212641.png]]
+![[Attachments - Power BI Questions/Pasted image 20231023212641.png]]
 You plan to create a map visual that will show store locations and provide the ability to drill down from Country to State/Province to City.  
 What should you do to ensure that the locations are mapped properly?
 - A. Change the data type of City, State/Province, and Country.
@@ -1231,12 +1231,12 @@ Setting the <mark style="background: #FFF3A3A6;">data category</mark> for these 
 
 44 (T2, Q44)
 You have a table named Sales that contains the following fields:
-![[Pasted image 20231024204745.png]]
+![[Attachments - Power BI Questions/Pasted image 20231024204745.png]]
 You have a table named Transaction Size that contains the following data:
-![[Pasted image 20231024204758.png]]
+![[Attachments - Power BI Questions/Pasted image 20231024204758.png]]
 You need to create a calculated column to classify each transaction as small, medium, or large based on the value in Sales Amount.  
 How should you complete the code? To answer, drag the appropriate values to the correct targets. ***Each value may be used once, more than once, or not at all***:
-![[Pasted image 20231024204826.png]]
+![[Attachments - Power BI Questions/Pasted image 20231024204826.png]]
 
 Answer:
 FILTER, AND, <mark style="background: #FFB8EBA6;">CALCULATE</mark>
@@ -1258,10 +1258,10 @@ A table expression filter applies a table object as a filter. It could be a refe
 
 45 (T2, Q47)
 You are creating a quick measure as shown in the following exhibit:
-![[Pasted image 20231025222401.png]]
+![[Attachments - Power BI Questions/Pasted image 20231025222401.png]]
 You need to create a **monthly rolling average measure for Sales over time**.  
 How should you configure the quick measure calculation?:
-![[Pasted image 20231025222418.png]]
+![[Attachments - Power BI Questions/Pasted image 20231025222418.png]]
 
 Answer:
 <mark style="background: #FFB8EBA6;">Total Sales</mark>, Date, Months
@@ -1269,7 +1269,7 @@ Answer:
 
 46 (T2, Q50)
 From Power Query Editor, you profile the data shown in the following exhibit:
-![[Pasted image 20231025223109.png]]
+![[Attachments - Power BI Questions/Pasted image 20231025223109.png]]
 The IoT GUID and IoT ID columns are unique to each row in the query.  
 You need to **analyze IoT events by the hour and day of the year**. The solution **must improve dataset performance**.  
 Q50: Solution: You **split** the IoT DateTime column into a column named Date and a column named Time.  
@@ -1298,7 +1298,7 @@ A one-to-many relationship exists between the tables.
 You have a report that contains a report-level filter for Products.  
 You need to create a measure that will return the percent of total sales for each product. ***The measure must respect the report-level filter when calculating the total***.  
 How should you complete the DAX measure? To answer, drag the appropriate DAX functions to the correct targets. Each function may be used once, more than once, or not at all. You may need to drag the split bar between panes or scroll to view content.
-![[Pasted image 20231026220638.png]]
+![[Attachments - Power BI Questions/Pasted image 20231026220638.png]]
 
 Answer:
 CALCULATE, <mark style="background: #FF5582A6;">ALLSELECTED</mark>.
@@ -1312,7 +1312,7 @@ Therefore, I think it should be ALLSELECTED.
 
 48 (T2, Q55)
 You have a Power BI data model that analyzes product sales over time. The data model contains the following tables:
-![[Pasted image 20231026221147.png]]
+![[Attachments - Power BI Questions/Pasted image 20231026221147.png]]
 A one-to-many relationship exists between the tables.  
 The auto date/time option for the data model is enabled.  
 ***You need to reduce the size of the data model while maintaining the ability to analyze product sales by month and quarter.***  
@@ -1341,7 +1341,7 @@ You need to create a calculated column named Active Store Name that meets the fo
 • When the value of the Status column is “A”, the value in the Store Name column must be returned.  
 • When the value of the Status column is NOT “A”, the value in the Store Name column that is prefixed with "Inactive - " must be returned.  
 How should you complete the DAX expression? To answer, select the appropriate options in the answer area:
-![[Pasted image 20231031083237.png]]
+![[Attachments - Power BI Questions/Pasted image 20231031083237.png]]
 
 Answer:
 IF, &.
@@ -1352,10 +1352,10 @@ Explanation:
 
 50 (T2, Q63)
 You have the Power BI data model shown in the following exhibit:
-![[Pasted image 20231031085921.png]]
+![[Attachments - Power BI Questions/Pasted image 20231031085921.png]]
 You need to create a measure to count the number of product categories that had products sold during a selected period.  
 How should you complete the DAX expression? To answer, select the appropriate options in the answer area:
-![[Pasted image 20231031085940.png]]
+![[Attachments - Power BI Questions/Pasted image 20231031085940.png]]
 Answer:
 CALCULATE(DISTINCTCOUNT('Product'[ProductCategory]), 'Sales')
 Explanation (my attempt):
