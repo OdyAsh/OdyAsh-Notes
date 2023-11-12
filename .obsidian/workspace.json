@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/AI/Clustering Algorithms.md",
+                "file": "Programming/AI/Data Engineering/Interviews FAQ.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "Pasted image 20231028171955",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/AI/Clustering Algorithms.md"
+                "file": "Programming/AI/Data Engineering/Interviews FAQ.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/AI/Clustering Algorithms.md",
+                "file": "Programming/AI/Data Engineering/Interviews FAQ.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,18 +185,18 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/AI/Clustering Algorithms.md",
+                "file": "Programming/AI/Data Engineering/Interviews FAQ.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 294.5,
-    "collapsed": true
+    "width": 294.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -215,43 +215,45 @@
   },
   "active": "ba8db5016e6fca5e",
   "lastOpenFiles": [
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111162233.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111161137.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111161123.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111161108.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111155931.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111134742.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111134634.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111133706.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111133704.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111133505.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111102324.png",
+    "Programming/AI/Data Engineering/Media-Temp/mapreduce-shuffling-sorting-computerphile.mp4",
+    "Programming/AI/Data Engineering/Media-Temp/Untitled video - Made with Clipchamp.mp4",
+    "Programming/AI/Data Engineering/Media-Temp/mapreduce-shuffling-sorting-computerphile.gif.crswap",
+    "Programming/AI/Data Engineering/Media-Temp",
+    "Programming/AI/Clustering Algorithms.md",
+    "Programming/AI/Data Engineering/Interviews FAQ.md",
+    "Programming/AI/Data Engineering",
     "Programming/AI/Power BI Questions.md",
     "Programming/AI/Power BI.md",
     "Mathematics/Math Jargon.md",
     "Mathematics/Linear Algebra/Vectors.md",
     "Programming/Data Engineer",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231110205313.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231110175633.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231110205318.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231110205302.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231110204406.png",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231106155417.png",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231110210612.png",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231110205330.png",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231110204352.png",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231110203317.png",
     "Mathematics/Linear Algebra/Media-Temp",
     "Mathematics/Linear Algebra/Attachments - Vectors/8Fa29312",
     "Mathematics/Linear Algebra/Attachments - Vectors/OdyAsh OdyAsh-Notes 0426d00be08d9ad9260b53978380acdbcf74c38a Mathematics-Linear%20Algebra_Media-Temp.zip",
     "Mathematics/Linear Algebra/Attachments - Vectors/OdyAsh OdyAsh-Notes 0426d00be08d9ad9260b53978380acdbcf74c38a Mathematics-Linear%20Algebra_Media-Temp.zip.crdownload",
     "Programming/DB/MySQL.md",
-    "Programming/DB/Media-Temp",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية)-Ash-Desktop.md",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
     "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
-    "Islam/Marriage/Media-Temp",
     "Obsidian/Debugging Obsidian.md",
-    "Obsidian/Media-Temp",
     "Obsidian/Cool Plugins.md",
-    "Mathematics/Linear Algebra/Attachments - Vectors/vector-addition.mp4",
-    "Mathematics/Linear Algebra/Attachments - Vectors/ezgif-4-94bf7cbcbf.mp4",
     "Programming/AI/Data Analytics Notes.md",
     "Programming/Python/Debugging Python Code.md",
     "consistency-report.md",
     "Programming/Python/Virtual Environments/Conda Environment.md",
     "Virtual Environments/ Conda Environment.md",
     "Obsidian/UI Tips.md",
-    "Programming/AI/Clustering Algorithms.md",
     "Programming/VS Code/VS Code Tips.md",
     "Programming/UX Design/Screen Units.md",
     "README.md",
@@ -259,7 +261,6 @@
     "Untitled.md",
     "Competitions/Egypt IoT And AI 2023/Innovation Notes.md",
     "Secrets/APIs.md",
-    "conflict-files-obsidian-git.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
