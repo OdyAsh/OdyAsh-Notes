@@ -20,7 +20,7 @@ Solution 1 (preferable): Just install MySQL on a docker container. Steps:
 	* Note 2: you don't have to set the version to `8.0.20`, but you should choose the same version as 
 * Open up `MySQL Workbench` and create a new connection:
   
-  ![](Media-Temp/Pasted%20image%2020231107143803.png)
+  ![](Attachments%20-%20MySQL/Pasted%20image%2020231107143803.png)
   
   Then click `test connection` button (at the bottom-right), and enter the same password used in the docker command that you executed in the above step.
 * Congratulations, you can now use `MySQL Workbench` as an IDE to access your database which is inside a docker container.

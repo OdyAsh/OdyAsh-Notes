@@ -10,7 +10,7 @@ Also, this "Typewriter Scroll" might be responsible for Obsidian being slow when
 # Images Appear in The Same Line When Viewing from GitHub
 
 Example:
-![](Media/Pasted%20image%2020231104084943.png)
+![](Attachments%20-%20Debugging%20Obsidian/Pasted%20image%2020231104084943.png)
 
 Solution:
 Install [this](https://github.com/Gru80/obsidian-regex-replace) plugin from obsidian, then type the following in find:

@@ -324,3 +324,10 @@ $$\nabla\vec{r} = \vec{{r}_{2}} - \vec{{r}_{1}}$$
 
 # Vector Space
 
+
+# Vector Equation
+
+
+
+# Parametric Equation
+
