@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/Docker/Docker Basics.md",
+                "file": "Programming/AI/Power BI Questions.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/Docker/Docker Basics.md"
+                "file": "Programming/AI/Power BI Questions.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/Docker/Docker Basics.md",
+                "file": "Programming/AI/Power BI Questions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/Docker/Docker Basics.md",
+                "file": "Programming/AI/Power BI Questions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,8 +203,11 @@
   },
   "active": "54bf68a5175ca905",
   "lastOpenFiles": [
-    "Mathematics/Linear Algebra/Vectors.md",
+    "Programming/AI/Media-Temp/Pasted image 20231114043844.png",
+    "Programming/AI/Media-Temp/Pasted image 20231114043015.png",
+    "Programming/AI/Media-Temp",
     "Programming/Docker/Docker Basics.md",
+    "Mathematics/Linear Algebra/Vectors.md",
     "Programming/AI/Data Engineering/Interviews FAQ.md",
     "Mathematics/Math Jargon.md",
     "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111161108.png",
@@ -219,7 +222,6 @@
     "Programming/AI/Data Engineering/Attachments - Interviews FAQ/Pasted image 20231111161137.png",
     "Programming/AI/Data Engineering/Attachments - Interviews FAQ/Pasted image 20231111161123.png",
     "Programming/AI/Data Engineering/Attachments - Interviews FAQ/Pasted image 20231111134742.png",
-    "Programming/AI/Data Engineering/Attachments - Interviews FAQ/Pasted image 20231111134634.png",
     "Programming/AI/Data Engineering/Attachments - Interviews FAQ/mapreduce-shuffling-sorting-computerphile.mp4",
     "Programming/AI/Data Engineering/Media-Temp/Untitled video - Made with Clipchamp.mp4",
     "Programming/AI/Data Engineering/Media-Temp/mapreduce-shuffling-sorting-computerphile.gif.crswap",
@@ -230,7 +232,6 @@
     "Programming/AI/Power BI.md",
     "Programming/Data Engineer",
     "Mathematics/Linear Algebra/Media-Temp",
-    "Mathematics/Linear Algebra/Attachments - Vectors/8Fa29312",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية)-Ash-Desktop.md",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
     "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
@@ -248,7 +249,6 @@
     "Untitled 1.md",
     "Untitled.md",
     "Competitions/Egypt IoT And AI 2023/Innovation Notes.md",
-    "Secrets/APIs.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

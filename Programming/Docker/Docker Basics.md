@@ -3,7 +3,7 @@
 Most are from [this](https://www.linkedin.com/learning/learning-docker-17236240) course.
 ## docker run
 e.g:
-![[Pasted image 20230722211957.png]]
+![Pasted image 20230722211957](Attachments%20-%20Docker%20Basics/Pasted%20image%2020230722211957.png)
 Explanation:
 ![[Pasted image 20230722212653.png]]
 Further explanation of what happens under the hood of the "run" command:

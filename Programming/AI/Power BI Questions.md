@@ -1364,7 +1364,56 @@ Explanation (my attempt):
 "during a selected period" -> I think this means we can "select" the desired period from a slicer in the report's page, or in the **Filters** pane, so this filter will automatically propagate to this DAX formula.
 
 
-
 stopped here:
 https://www.examtopics.com/exams/microsoft/pl-300/view/21/
+
+
+51 (T2, Q71)
+You are creating a Power BI model in Power BI Desktop.  
+You need to create a calculated table named Numbers that will contain all the integers from -100 to 100.  
+How should you complete the DAX calculation? To answer, select the appropriate options in the answer area.
+
+![](Media-Temp/Pasted%20image%2020231114043015.png)
+
+Answer:
+<mark style="background: #FFB8EBA6;">GENERATESERIES</mark>, (100, 100, 1)
+
+Further explanation:
+* In GENERATESERIES, the calculated table is named "Numbers" and is created by assigning the output of the GENERATESERIES function to it using the "=" operator.
+* GENERATE Returns a table with the Cartesian product between each row in _table1_ and the table that results from evaluating _table2_ in the context of the current row from _table1_. ([source](https://learn.microsoft.com/en-us/dax/generate-function-dax))
+	* Syntax: `GENERATE(<table1>, <table2>)`
+* GENERATEALL has the same definition apparently, however, here's the difference:
+  
+  ![](Media-Temp/Pasted%20image%2020231114043844.png)
+  
+  ([source](https://youtu.be/bwQlD6Zgkp0?t=99))
+
+
+52 (T2, Q73)
+
+You have a Power BI model that contains a table named Date. The Date table contains the following columns:  
+• Date  
+• Fiscal Year  
+• Fiscal Quarter  
+• Month Name  
+• Calendar Year  
+• Week Number  
+• Month Number  
+• Calendar Quarter  
+You need to create a calculated table based on the Date table. The calculated table must contain only unique combinations of values for Calendar Year, Calendar Quarter, and Calendar Month.  
+Which DAX function should you include in the table definition?
+- A. ADDCOLUMNS
+- B. CALCULATE
+- C. SUMMARIZE
+- D. DATATABLE
+
+Answer:
+C.
+Explanation: [DAX documentation of SUMMARIZE](https://learn.microsoft.com/en-us/dax/summarize-function-dax):
+
+SUMMARIZE: Returns a summary table for the requested totals over a set of groups.
+
+syntax:
+
+`SUMMARIZE (<table>, <groupBy_columnName>[, <groupBy_columnName>]…[, <name>, <expression>]…)`
 
