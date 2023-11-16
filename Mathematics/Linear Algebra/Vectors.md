@@ -327,7 +327,65 @@ $$\nabla\vec{r} = \vec{{r}_{2}} - \vec{{r}_{1}}$$
 
 # Vector Equation
 
+First, recall the parametric equation form [here](Line%20Equations.md#Parametric%20Equation).
 
+Now, let's define a **vector set** as the following:
 
-# Parametric Equation
+$$ S=\left\{c\cdot\vec{r}\;\middle|\;c\in\mathbb{R}\right\}$$
+
+Note: a *vector set* in this case will refer to [Collinear Vectors](#Collinear%20Vectors) that are on the same line only, like the left sub-figures here:
+
+![](Media-Temp/Pasted%20image%2020231116051048.png)
+
+Now, we can create another vector set $L$ whose vectors are collinear to the vectors in $S$ that are NOT on the same line (i.e., the right sub-figures above). The equation for $L$ can be defined as the following:
+
+$$ L=\left\{\vec{x}+t\cdot\vec{r}\;\middle|\;t\in\mathbb{R}\right\}$$
+
+The equation above can help us find a parametric equation form for the [Displacement Vector](#Displacement%20Vector), which had the following vector form:
+
+$$\nabla\vec{r} = \vec{{r}_{2}} - \vec{{r}_{1}}$$
+
+How? Let's deduce this with an example: 
+
+Assume we have the following two [Position Vectors](#Position%20Vector):
+
+$$
+\begin{aligned}
+\vec{r_{1}}&=
+\left[\begin{matrix}{1}\cr{2}\end{matrix}\right] \cr\cr
+\vec{r_{2}}&=
+\left[\begin{matrix}{4}\cr{2}\end{matrix}\right] \cr\cr
+\end{aligned}
+$$
+
+Therefore, the displacement vector will be:
+
+$$
+\nabla \vec{r} = \left[\begin{matrix}{4}\cr{2}\end{matrix}\right] - \left[\begin{matrix}{1}\cr{2}\end{matrix}\right] = \left[\begin{matrix}{3}\cr{0}\end{matrix}\right]
+$$
+
+Now, the vector set $S$ of $\nabla \vec{r}$ can be visualized like this:
+
+![](Media-Temp/Pasted%20image%2020231116064613.png)
+
+But we're not interested in this vector set, we're interested in the vector set $L$ that represents the path from $r_{1}$ to $r_{2}$, so to get this, we evaluate the following expression:
+
+$$ \begin{aligned}
+L&=\left\{\vec{r_{1}}+t\cdot\nabla\vec{r}\;\middle|\;t\in\mathbb{R}\right\} \cr\cr
+L&=\left\{\left[\begin{matrix}{1}\cr{2}\end{matrix}\right]+t\cdot\left[\begin{matrix}{3}\cr{0}\end{matrix}\right]\;\middle|\;t\in\mathbb{R}\right\} \cr\cr
+
+\end{aligned}$$
+Now, convert the vector set into a parametric equation form like so:
+
+$$\begin{aligned}
+x&=1+3t \cr\
+y&=2
+\end{aligned}$$
+
+Side note 1: we can visually represent the vector set $L$ like the red line shown below:
+
+![](Media-Temp/Pasted%20image%2020231116065711.png)
+
+Side note 2: why do we care about constructing a parametric form in the first place?: Because now we can obtain any point on the vector set $L$ given a specific "time" $t$. For example, when $t=0$, $(x,y)=(1,2)$. When $t=0.5$, $(x,y)=(2.5,2)$. When $t=1$, $(x,y)=(4,2)$, and so on.
+
 
