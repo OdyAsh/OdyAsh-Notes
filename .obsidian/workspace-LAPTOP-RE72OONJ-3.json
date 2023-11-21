@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+                "file": "Islam/Pre-Islamic World/Before Muhammad Further Readings.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md"
+                "file": "Islam/Pre-Islamic World/Before Muhammad Further Readings.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+                "file": "Islam/Pre-Islamic World/Before Muhammad Further Readings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+                "file": "Islam/Pre-Islamic World/Before Muhammad Further Readings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,27 +204,24 @@
   "active": "320e60d8afd0aafd",
   "lastOpenFiles": [
     "Mathematics/Linear Algebra/Vectors.md",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231118155103.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231118140819.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231118140740.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231118134707.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231118134007.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231118134005.png",
-    "Islam/Pre-Islamic World/Before Muhammad Further Readings.md",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231116051048.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231116045520.png",
-    "Mathematics/Linear Algebra/Line Equations.md",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231116064613.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231116065711.png",
-    "Mathematics/Linear Algebra/Media-Temp",
     "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
     "Programming/Docker/Docker Basics.md",
+    "Programming/AI/Media-Temp/Pasted image 20231114043844.png",
+    "Programming/AI/Media-Temp/Pasted image 20231114043015.png",
     "Programming/AI/Media-Temp",
     "Programming/AI/Data Engineering/Interviews FAQ.md",
     "Mathematics/Math Jargon.md",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111161108.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111155931.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111133704.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111102223.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231111090943.png",
     "Programming/DB/MySQL.md",
     "Programming/AI/Data Engineering/Attachments - Interviews FAQ",
     "Programming/DB/Attachments - MySQL",
+    "Programming/AI/Data Engineering/Attachments - Interviews FAQ/Pasted image 20231111162233.png",
+    "Programming/AI/Data Engineering/Attachments - Interviews FAQ/Pasted image 20231111161137.png",
+    "Programming/AI/Data Engineering/Attachments - Interviews FAQ/Pasted image 20231111161123.png",
     "Programming/AI/Data Engineering/Attachments - Interviews FAQ/mapreduce-shuffling-sorting-computerphile.mp4",
     "Programming/AI/Data Engineering/Media-Temp/Untitled video - Made with Clipchamp.mp4",
     "Programming/AI/Data Engineering/Media-Temp/mapreduce-shuffling-sorting-computerphile.gif.crswap",
@@ -234,6 +231,7 @@
     "Programming/AI/Power BI Questions.md",
     "Programming/AI/Power BI.md",
     "Programming/Data Engineer",
+    "Mathematics/Linear Algebra/Media-Temp",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية)-Ash-Desktop.md",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
     "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
@@ -248,6 +246,9 @@
     "Programming/VS Code/VS Code Tips.md",
     "Programming/UX Design/Screen Units.md",
     "README.md",
+    "Untitled 1.md",
+    "Untitled.md",
+    "Competitions/Egypt IoT And AI 2023/Innovation Notes.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
