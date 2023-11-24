@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/AI/Data Engineering/DE Road Map.md",
+                "file": "Mathematics/Linear Algebra/Vectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/AI/Data Engineering/DE Road Map.md"
+                "file": "Mathematics/Linear Algebra/Vectors.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/AI/Data Engineering/DE Road Map.md",
+                "file": "Mathematics/Linear Algebra/Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/AI/Data Engineering/DE Road Map.md",
+                "file": "Mathematics/Linear Algebra/Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,9 +203,9 @@
   },
   "active": "3bef671f31283d55",
   "lastOpenFiles": [
+    "Programming/AI/Data Engineering/DE Road Map.md",
     "Programming/AI/Data Engineering/Attachments - DE Interviews FAQ",
     "Programming/AI/Data Engineering/DE Interviews FAQ.md",
-    "Programming/AI/Data Engineering/DE Road Map.md",
     "Mathematics/Linear Algebra/Vectors.md",
     "Mathematics/Linear Algebra/Line Equations.md",
     "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231124103621.png",
@@ -239,7 +239,6 @@
     "Programming/AI/Data Engineering",
     "Programming/AI/Power BI Questions.md",
     "Programming/AI/Power BI.md",
-    "Programming/Data Engineer",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية)-Ash-Desktop.md",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
     "Obsidian/Cool Plugins.md",

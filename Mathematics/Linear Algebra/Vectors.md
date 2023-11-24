@@ -580,6 +580,86 @@ Moreover, any subspace of $\mathbf{R}^n$ can be written as a span of a set of�
 
 The proof of this can be shown [here](https://textbooks.math.gatech.edu/ila/subspaces.html#subsection-24).
 
+## Span Examples
+
+first example ([source](https://slideplayer.com/slide/13391998/)):
+
+Given the following vector set $S$:
+
+$$S = \left\lbrace
+\begin{bmatrix} 1\cr 0\cr 1 \end{bmatrix}, 
+\begin{bmatrix} 1\cr 1\cr 1 \end{bmatrix}, 
+\begin{bmatrix} 1\cr 1\cr 2 \end{bmatrix} 
+\right\rbrace$$
+
+Does this set span $\mathbf{R}^3$? In other words, is every vector in $\mathbf{R}^3$ a linear combination of the vectors in $S$?
+
+Answer:
+
+$$
+\begin{bmatrix} x\cr y\cr z \end{bmatrix} = 
+c_1 \begin{bmatrix} 1\cr 0\cr 1 \end{bmatrix}
++
+c_2 \begin{bmatrix} 1\cr 1\cr 1 \end{bmatrix}
++
+c_3 \begin{bmatrix} 1\cr 1\cr 2 \end{bmatrix}
+$$
+
+Which can be rewritten as:
+
+$$\begin{aligned}
+x &= 1c_1 + 1c_2 + 1c_3 \cr
+y &= 0c_1 + 1c_2 + 1c_3 \cr
+z &= 1c_1 + 1c_2 + 2c_3 \cr
+\end{aligned}$$
+
+Which can be rewritten as:
+
+$$\begin{pmatrix} 
+1&1&1&\vdots&x\cr
+0&1&1&\vdots&y\cr
+1&1&2&\vdots&z\cr
+\end{pmatrix}$$
+
+
+performing [row operations](https://textbooks.math.gatech.edu/ila/row-reduction.html#paragraphs-5), we get:
+
+$$\begin{pmatrix}
+1&0&0&\vdots&x-y\cr
+0&1&0&\vdots&y-z+x\cr
+0&0&1&\vdots&z-x\cr
+\end{pmatrix}$$
+
+Which can be rewritten as:
+
+$$\begin{pmatrix}
+c_1&&&=&x-y\cr
+&c_2&&=&y-z+x\cr
+&&c_3&=&z-x
+\end{pmatrix}$$
+
+Therefore, whatever you substitute for x, y, and z, you will be able to find $c_1$, $c_2$, and $c_3$. Example:
+
+suppose $x=5$, $y=3$, and $z=4$, then we will see that:
+
+$$\begin{pmatrix}
+c_1&&&=&5-3=2\cr
+&c_2&&=&3-4+5=4\cr
+&&c_3&=&4-5=-1\cr
+\end{pmatrix}$$
+
+Therefore:
+
+$$
+\begin{bmatrix} x\cr y\cr z \end{bmatrix} = 
+\begin{bmatrix} 5\cr 3\cr 4 \end{bmatrix} =
+2 \begin{bmatrix} 1\cr 0\cr 1 \end{bmatrix}
++
+4 \begin{bmatrix} 1\cr 1\cr 1 \end{bmatrix}
++
+(-1) \begin{bmatrix} 1\cr 1\cr 2 \end{bmatrix}
+$$
+
 # Linear Independence
 
 [source 1](https://textbooks.math.gatech.edu/ila/linear-independence.html#subsection-19), [source 2](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-independence/v/linear-algebra-introduction-to-linear-independence)
@@ -607,7 +687,7 @@ Example 1:
 
 can the following vector set: 
 * be considered linearly independent?
-* have a vector span in $\mathbf{R}^{3}$? 
+* span all the vectors in $\mathbf{R}^{3}$? 
 
 $$ \left\lbrace
 \begin{bmatrix} 1\cr -1\cr 2 \end{bmatrix}, 
@@ -617,7 +697,7 @@ $$ \left\lbrace
 
 The [system of equations](https://textbooks.math.gatech.edu/ila/systems-of-eqns.html#p-35) formed from the vector set above is [solved algebraically](https://www.khanacademy.org/test-prep/sat/x0a8c2e5f:untitled-652/x0a8c2e5f:heart-of-algebra-lessons-by-skill/a/gtp--sat-math--article--solving-system-of-linear-equations--lesson) in this [video](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-independence/v/span-and-linear-independence-example).
 
-Other solved examples (using the [determinant row opertations](https://textbooks.math.gatech.edu/ila/determinants-definitions-properties.html#det-defn-the-defn)) are mentioned [here](https://textbooks.math.gatech.edu/ila/linear-independence.html#bluebox-26).
+Other solved examples (using the [row operations](https://textbooks.math.gatech.edu/ila/row-reduction.html#paragraphs-5)) are mentioned [here](https://textbooks.math.gatech.edu/ila/linear-independence.html#bluebox-26).
 
 
 # Basis of a Subspace
