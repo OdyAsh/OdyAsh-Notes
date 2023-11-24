@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Mathematics/Linear Algebra/Vectors.md",
+                "file": "Programming/AI/Data Engineering/DE Road Map.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Mathematics/Linear Algebra/Vectors.md"
+                "file": "Programming/AI/Data Engineering/DE Road Map.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Mathematics/Linear Algebra/Vectors.md",
+                "file": "Programming/AI/Data Engineering/DE Road Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Mathematics/Linear Algebra/Vectors.md",
+                "file": "Programming/AI/Data Engineering/DE Road Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -203,25 +203,27 @@
   },
   "active": "3bef671f31283d55",
   "lastOpenFiles": [
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231124194803.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231124194757.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231124194615.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231124194607.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231124194440.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231124194320.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231124194229.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231124194158.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231124194030.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231124193939.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231124193731.png",
+    "Programming/AI/Data Engineering/Media-Temp",
+    "Mathematics/Linear Algebra/Vectors.md",
     "Programming/AI/Data Engineering/DE Road Map.md",
     "Programming/AI/Data Engineering/Attachments - DE Interviews FAQ",
     "Programming/AI/Data Engineering/DE Interviews FAQ.md",
-    "Mathematics/Linear Algebra/Vectors.md",
     "Mathematics/Linear Algebra/Line Equations.md",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231124103621.png",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231124103541.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231124103441.png",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231124100224.png",
     "Obsidian/Debugging Obsidian.md",
     "Programming/VS Code/Debugging.md",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231123161524.png",
     "Mathematics/Linear Algebra/Vectors-Ash-Desktop.md",
     "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231118155103.png",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231118140819.png",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231118140740.png",
-    "Mathematics/Linear Algebra/Attachments - Vectors/Pasted image 20231118134707.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231118134007.png",
     "Islam/Pre-Islamic World/Before Muhammad Further Readings.md",
     "Mathematics/Linear Algebra/Media-Temp",
     "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
@@ -234,7 +236,6 @@
     "Programming/AI/Data Engineering/Attachments - DE Interviews FAQ/mapreduce-shuffling-sorting-computerphile.mp4",
     "Programming/AI/Data Engineering/Media-Temp/Untitled video - Made with Clipchamp.mp4",
     "Programming/AI/Data Engineering/Media-Temp/mapreduce-shuffling-sorting-computerphile.gif.crswap",
-    "Programming/AI/Data Engineering/Media-Temp",
     "Programming/AI/Clustering Algorithms.md",
     "Programming/AI/Data Engineering",
     "Programming/AI/Power BI Questions.md",
