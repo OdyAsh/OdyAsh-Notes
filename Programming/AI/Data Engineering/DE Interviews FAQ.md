@@ -11,7 +11,7 @@ Data engineering is the process of converting the raw entity of data into useful
 
 **OLTP** and **OLAP** look similar but refer to different kinds of database systems. Both of them are online processing systems. When we talk about databases, most people think of **OLTP**. <mark style="background: #FF5582A6;">We can suppose that OLTP systems provide source data to the OLAP data warehouse systems that help us to analyze the data</mark>.
 
-![](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111070425.png)
+![](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111070425.png)
 
 * OLTP -> Online Transactional Processing
 * OLAP -> Online Analytical Processing
@@ -42,7 +42,7 @@ Common systems:
 	- HP Vertica
 	- KDB+
 
-![](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111071016.png)
+![](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111071016.png)
 ([same source](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/whats-the-difference-between-oltp-and-olap-bdcafdffb1c3))
 
 
@@ -66,10 +66,10 @@ Differences: ([source](https://www.integrate.io/blog/snowflake-schemas-vs-star-s
 - Snowflake schemas have no redundant data, so they're easier to maintain.
 - Snowflake schemas are good for [data warehouses](https://www.integrate.io/blog/what-is-a-data-warehouse/) whereas star schemas are better for [datamarts](https://www.integrate.io/glossary/what-is-data-mart/) with simple relationships.
 
-![](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111065641.png)
+![](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111065641.png)
 ([same source](https://www.integrate.io/blog/snowflake-schemas-vs-star-schemas-what-are-they-and-how-are-they-different/))
 
-![](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111070033.png)
+![](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111070033.png)
 ([same source](https://www.integrate.io/blog/snowflake-schemas-vs-star-schemas-what-are-they-and-how-are-they-different/))
 
 
@@ -96,13 +96,13 @@ There are many components involved when working with Hadoop, and some of them ar
 		- a programming language consists of a syntax plus an execution model. The execution model specifies the behavior of elements of the language.
 	- Comparing traditional vs MapReduce approach of managing data in a Master/Slave distribution system ([source](https://taylankabbani96.medium.com/mapreduce-programming-model-a7534aca599b#:~:text=Another%20big%20advantage%20offered%20by%20MapReduce%20is%20what%20we%20call%20Data%20Locality)):
 	  
-	  ![](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111074048.png)
+	  ![](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111074048.png)
 	  
 		- Another MapReduce advantage: **Data Locality.** Simply put, data locality is bringing the processing unit to the data 
 			- I.e., <mark style="background: #FF5582A6;">data locality means performing computation process on the site where the data is being saved instead of sending the data to the unit</mark>, which will significantly reduce the network traffic and consequently running time.
 	- MapReduce steps are explained [here](https://taylankabbani96.medium.com/mapreduce-programming-model-a7534aca599b#:~:text=MapReduce%20programming%20Steps), a brief example:
 	  
-	  ![](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111074329.png)
+	  ![](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111074329.png)
 
 ### MapReduce
 
@@ -116,7 +116,7 @@ IMPORTANT NOTE: "key-value pair" will be abbreviated to KVP.
 
 MapReduce job execution flow (i.e., flow chart):
 
-![](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111084115.png)
+![](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111084115.png)
 
 Each flow chart component is explained below:
 * Input files
@@ -155,7 +155,7 @@ Each flow chart component is explained below:
 		* This aggregation minimizes the data transfer between mapper and **reducer**.
 		* Example of MapReduce process without/with combiner ([source](https://data-flair.training/blogs/hadoop-combiner-tutorial/)):
 		  
-		  ![](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111091026.png)
+		  ![](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111091026.png)
 		  
 		  Side note: it can be seen from the blue/green blocks above that each combiner runs individually on each mapper server.
 		  
@@ -180,15 +180,15 @@ Each flow chart component is explained below:
 					* **Sorting** of these keys happen while sending to reducers.
 					* Example visualization, where the input is from the **mapper** step ([source](https://youtu.be/cvhKoniK5Uo?t=127)):
 					  
-					  ![mapreduce-shuffling-sorting-computerphile](Attachments%20-%20Interviews%20FAQ/mapreduce-shuffling-sorting-computerphile.mp4)
+					  ![mapreduce-shuffling-sorting-computerphile](Attachments%20-%20DE%20Interviews%20FAQ/mapreduce-shuffling-sorting-computerphile.mp4)
 					  
 					  as a GIF:
 					  
-					  ![mapreduce-shuffling-sorting-computerphile](Attachments%20-%20Interviews%20FAQ/mapreduce-shuffling-sorting-computerphile.gif)
+					  ![mapreduce-shuffling-sorting-computerphile](Attachments%20-%20DE%20Interviews%20FAQ/mapreduce-shuffling-sorting-computerphile.gif)
 					  
 					* Another example, where the input is from the **combiner** step ([source](https://stackoverflow.com/questions/22141631/what-is-the-purpose-of-shuffling-and-sorting-phase-in-the-reducer-in-map-reduce)):
 					  
-					  ![](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111102324.png)
+					  ![](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111102324.png)
 					  
 					* Note (unsure): <mark style="background: #D2B3FFA6;">Usually</mark>, every reducer obtains all KVPs <mark style="background: #D2B3FFA6;">with the same key</mark> (which was grouped-by in the shuffling step). However, sometimes, a reducer can contain KVPs with more than one key (like "node 2" in the gif above). 
 						* When this is the case, each reducer employs ***reducer tasks*** for KVPs of each key. 
@@ -214,11 +214,11 @@ Each flow chart component is explained below:
 
 ## NameNode vs DataNode
 
-![|400](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111133505.png)
+![|400](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111133505.png)
 
 ([source](https://pediaa.com/what-is-the-difference-between-namenode-and-datanode-in-hadoop/))
 
-![](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111133706.png)
+![](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111133706.png)
 
 ([source](https://dzone.com/articles/an-introduction-to-hdfs))
 
@@ -307,13 +307,13 @@ Regarding Hadoop streaming:
 
 Visualization:
 
-![](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111134634.png)
+![](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111134634.png)
 
 ([same source](https://data-flair.training/blogs/hadoop-streaming/))
 
 Hadoop Streaming with regards to the MapReduce Job Execution Flow:
 
-![](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111134742.png)
+![](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111134742.png)
 
 
 # Big Data's Five V's
@@ -346,13 +346,13 @@ Hadoop Streaming with regards to the MapReduce Job Execution Flow:
 * It allows organizations to collect, clean, and transform data from various sources <mark style="background: #FF5582A6;">into a structured and usable format for analysis</mark>. 
 * Without ETL, data would remain in its raw, often unstructured state, making it difficult to analyze and gain insights from.
 
-![](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111161123.png)
+![](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111161123.png)
 
 ([source](https://ilegra.com/blog/we-need-to-talk-about-data-build-tool-from-etl-to-dbt/))
 
 with [data build tool](https://ilegra.com/en/we-need-to-talk-about-data-build-tool/) (dbt):
 
-![](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111161137.png)
+![](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111161137.png)
 
 
 # Data Warehouse (DWH) vs Data Lakes
@@ -366,7 +366,7 @@ with [data build tool](https://ilegra.com/en/we-need-to-talk-about-data-build-to
 	* Allows for data to be ingested without a predefined schema.
 	* Designed for big data (i.e., data storage) and data exploration. 
 
-![](Attachments%20-%20Interviews%20FAQ/Pasted%20image%2020231111162233.png)
+![](Attachments%20-%20DE%20Interviews%20FAQ/Pasted%20image%2020231111162233.png)
 
 ([source](https://datasciencedojo.com/blog/data-lake-vs-data-warehouse/))
 
