@@ -320,7 +320,7 @@ $$\overrightarrow{AB} = \overrightarrow{OB} - \overrightarrow{OA}$$
 
 or:
 
-$$\nabla \vec{r} = \vec{r}_{2} - \vec{r}_{1}$$
+$$\nabla \vec{r} = \vec{r}_2 - \vec{r}_1$$
 
 # Vector Equation of a Line
 
@@ -461,7 +461,7 @@ $$ L=\left\lbrace\vec{x}+t\cdot\vec{r}\;\middle|\;t\in\mathbb{R}\right\rbrace$$
 
 The equation above can help us find a parametric equation form for the [Displacement Vector](#Displacement%20Vector), which had the following vector form:
 
-$$\nabla \vec{r} = \vec{{r}_{2}} - \vec{{r}_{1}}$$
+$$\nabla \vec{r} = \vec{r}_2 - \vec{r}_1$$
 
 How? Let's deduce this with an example: 
 
