@@ -320,9 +320,9 @@ $$\overrightarrow{AB} = \overrightarrow{OB} - \overrightarrow{OA}$$
 
 or:
 
-$$\nabla\vec{r} = \vec{{r}_{2}} - \vec{{r}_{1}}$$
+$$\nabla \vec{r} = \vec{{r}_{2}} - \vec{{r}_{1}}$$
 
-## Vector Equation of a Line
+# Vector Equation of a Line
 
 [source 1](https://www.nagwa.com/en/explainers/350134612051/#:~:text=This%20form%20of%20the,vector%20of%20the%20line.), [source 2](https://youtu.be/hWhs2cIj7Cw?t=1191)
 
@@ -484,10 +484,9 @@ Now, the vector set $S$ of $\nabla \vec{r}$ can be visualized like this:
 
 But we're not interested in this vector set, we're interested in the vector set $L$ that represents the path from $r_{1}$ to $r_{2}$, so to get this, we evaluate the following expression:
 
-$$ \begin{aligned}
+$$\begin{aligned}
 L&=\left\{\vec{r_{1}}+t\cdot\nabla\vec{r}\;\middle|\;t\in\mathbb{R}\right\} \cr\cr
 L&=\left\{\left[\begin{matrix}{1}\cr{2}\end{matrix}\right]+t\cdot\left[\begin{matrix}{3}\cr{0}\end{matrix}\right]\;\middle|\;t\in\mathbb{R}\right\} \cr\cr
-
 \end{aligned}$$
 
 ## Parametric Representation of a Vector Equation

@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7ed3ffd3f2c60db1",
+        "id": "c504271472119e86",
         "type": "tabs",
         "children": [
           {
-            "id": "320e60d8afd0aafd",
+            "id": "8e9a0382be61d97e",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -85,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.5,
-    "collapsed": true
+    "width": 419.5
   },
   "right": {
     "id": "3cf6ea7704bfbf22",
@@ -202,8 +201,9 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "320e60d8afd0aafd",
+  "active": "6bdbcbc0f4d6cc2c",
   "lastOpenFiles": [
+    "Mathematics/Linear Algebra/Vectors.md.crdownload",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231123161524.png",
     "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
     "Mathematics/Linear Algebra/Vectors.md",
@@ -218,7 +218,6 @@
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231116045520.png",
     "Mathematics/Linear Algebra/Line Equations.md",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231116064613.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231116065711.png",
     "Mathematics/Linear Algebra/Media-Temp",
     "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
     "Programming/Docker/Docker Basics.md",
