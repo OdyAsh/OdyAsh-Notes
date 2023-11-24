@@ -338,7 +338,11 @@ Since ⃑𝑟 is dependent on the value of the scalar 𝑡 , we often write 
 
 $$\vec{r}(t)=\vec{r}_0+t\vec{d}$$
 
-Note that if we have two distinct points 𝐴(𝑥,𝑦) and 𝐵(𝑥,𝑦) on the line, we can find the direction vector ⃑𝑑 by calculating the vector 𝐴𝐵:
+Note that if we have two distinct points $A (x_1,y_1)$ and $B (x_2,y_2)$ on the line, we can find the direction vector $\vec{d}$ by calculating the vector $AB$:
+
+$$\overrightarrow{AB} = (x_2 - x_1 \;,\; y_2 - y_1)$$
+
+Read additional notes [here](https://www.nagwa.com/en/explainers/350134612051/#:~:text=of%20this%20explainer.-,Key%20Points,-The%20position%20vector).
 
 # Vector Space (Linear Combination of Vectors)
 
@@ -362,26 +366,41 @@ kindly follow the interactive example at [source 1](https://textbooks.math.gatec
 
 # Vector Subspace
 
-[source 1](https://textbooks.math.gatech.edu/ila/subspaces.html#subspaces-defn-of), [source 2](https://brilliant.org/wiki/vector-space/%20%22vector%20space%22), source 3
+[source 1](https://textbooks.math.gatech.edu/ila/subspaces.html#subspaces-defn-of), [source 2](https://brilliant.org/wiki/vector-space/%20%22vector%20space%22), [source 3](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/subspace-basis/v/linear-subspaces)
 
-* A **subspace** is a [vector space](#Vector%20Space%20(Linear%20Combination%20of%20Vectors)) that is entirely contained within another [vector space](https://brilliant.org/wiki/vector-space/ "vector space"). ([source](https://brilliant.org/wiki/subspace/#:~:text=A%20subspace%20is%20a%20vector,4%2C%20C2%2C%20etc.))
-* As a subspace is defined _relative_ to its containing space, both are necessary to fully define one; for example, $\mathbf{R}^2$ is a subspace of $\mathbf{R}^3$, but also of $\mathbf{R}^4$, etc.
-* In general, A _subspace_ of $\mathbf{R}^n$ is a subset $V$ of $\mathbf{R}^n$ satisfying ([source](https://textbooks.math.gatech.edu/ila/subspaces.html#subspaces-defn-of)):
-	* **_Non-emptiness:_** The zero vector is in V
-	* **_Closure under addition:_** If $u$ and $v$ are in $V$, then $u+v$ is also in $V$.
-	* **_Closure under scalar multiplication:_** If $v$ is in $V$ and $c$ is in $\mathbf{R}$, then $c\cdot v$ is also in $V$.
+* Quick definition: A **subspace** is a *special* [vector space](#Vector%20Space%20(Linear%20Combination%20of%20Vectors)) that is entirely contained within another [vector space](https://brilliant.org/wiki/vector-space/ "vector space"). ([source](https://brilliant.org/wiki/subspace/#:~:text=A%20subspace%20is%20a%20vector,4%2C%20C2%2C%20etc.))
+	* The word "special" is used as it requires 3 characteristics mentioned below. 
+	* As a subspace is defined _relative_ to its containing space, both are necessary to fully define one; for example, $\mathbf{R}^2$ is a subspace of $\mathbf{R}^3$, but also of $\mathbf{R}^4$, etc.
+* Formal definition: A _subspace_ of $\mathbf{R}^n$ is a subset $X$ of $\mathbf{R}^n$ satisfying ([source](https://textbooks.math.gatech.edu/ila/subspaces.html#subspaces-defn-of)):
+	* **_Non-emptiness:_** The zero vector is in $X$
+	* **_Closure under addition:_** If $u$ and $v$ are in $X$, then $u+v$ is also in $X$.
+	* **_Closure under scalar multiplication:_** If $v$ is in $X$ and $c$ is in $\mathbf{R}$, then $c\cdot v$ is also in $X$.
 * Subsets versus Subspaces ([source](https://textbooks.math.gatech.edu/ila/subspaces.html#bluebox-32)):
 	* A *subset* of $\mathbf{R}^n$ is any collection of vectors whatsoever.
 	* Therefore, any subspace is considered a subset, but not vice versa, as some subsets don't satisfy the three conditions of that define a subspace.
 
 
-# Vector Span
+# Vector Space vs Set vs Subset vs Subspace
+
+A [vector space](#Vector%20Space%20(Linear%20Combination%20of%20Vectors)) $V$ is a set of vectors constructed from pre-defined vector operations (i.e., vector addition and scalar multiplication). 
+
+A vector set $V$ is a set of vectors that are **not necessarily** constructed from pre-defined vector operations.
+
+Therefore, any vector space is a vector set, but not vice versa.
+
+A vector subset $X$ is a set of vectors that is a part of a bigger vector set (or a vector space) $V$. 
+
+A [vector subspace](#Vector%20Subspace) $X$ is a vector space that has [special characteristics](#Vector%20Subspace), and is a part of a bigger vector space $V$. Note: $V$ must be a vector space in this case, not a vector set.
+
+Therefore a vector subset is a more general (and relaxed) definition of a vector subspace, as the former's definition applies to both vector sets and vector spaces, while the latter's definition applies to vector spaces only.
+
+# Span of a Vector Set (Vector Span)
 
 [source](https://textbooks.math.gatech.edu/ila/spans.html#vectors-defn-span)
 
 English definition: 
 
-The _span_ of $v_1,v_2,\ldots,v_k$ is the collection of all [linear combinations](#Vector%20Space%20(Linear%20Combination%20of%20Vectors)) of $v_1,v_2,\ldots,v_k$, and is denoted $\mathrm{Span}\lbrace v_1,v_2,\ldots,v_k \rbrace$. 
+The _span_ of $v_1,v_2,\ldots,v_k$ is the collection of all [linear combinations](#Vector%20Space%20(Linear%20Combination%20of%20Vectors)) of $v_1,v_2,\ldots,v_k$, and is denoted as $\mathrm{Span}\lbrace v_1,v_2,\ldots,v_k \rbrace$. 
 
 Mathematical definition:
 
@@ -394,7 +413,7 @@ $$
 
 We also say that $\mathrm{Span}\{v_1,v_2,\ldots,v_k\}$ is the subset _spanned by_ or _generated by_ the vectors $v_1,v_2,\ldots,v_k$.
 
-Therefore, 
+## Visualizing Spans
 
 Drawings of spans ([source](https://textbooks.math.gatech.edu/ila/spans.html#paragraphs-9), I highly suggest checking out their interactive examples for clarification of the drawings below):
 
@@ -402,13 +421,101 @@ Drawings of spans ([source](https://textbooks.math.gatech.edu/ila/spans.html#par
 
 ![](Media-Temp/Pasted%20image%2020231118140819.png)
 
+## Correct Terminology
+
+'Vector span' is really not a valid terminology. You can talk about ***the span of a vector set*** but not 'vector span'.
+
+## Vector Space vs Vector Span
+
+[source 1](https://math.stackexchange.com/questions/3786958/what-is-the-difference-between-vector-space-and-vector-span), [source 2](https://www.reddit.com/r/learnmath/comments/6rrf21/difference_between_the_span_of_a_set_of_vectors/)
+
+TLDR; they are the same thing, but we can say that the vector span has the notion of generating/spanning vectors to create a vector space $S$ that is inside a vector space $V$.
+
+In-depth explanation:
+
+A [vector space](#Vector%20Space%20(Linear%20Combination%20of%20Vectors)) is a set of vectors constructed from pre-defined vector operations (i.e., vector addition and scalar multiplication). 
+
+To see how a vector space is related to a vector span, let's define a vector space $V$ which is equal to all of the vectors in $\mathbf{R}^3$.
+
+Now, within that vector space $V$, we can take any subset of vectors, and ask about its span.
+
+Example 1: 
+
+Assume $X$ is a subset of vectors (i.e., a smaller vector space inside of $V$) with the following definition:
+
+$$X=\left\lbrace 
+c_1 \begin{bmatrix} 1\cr 0\cr 0 \end{bmatrix}
++
+c_2 \begin{bmatrix} 0\cr 1\cr 0 \end{bmatrix}
+\;\middle|\; 
+c_1 ,\; c_2 \in \mathbb{R} 
+\right\rbrace$$
+
+Now we can ask about the span of $X$. In other words, <mark style="background: #FF5582A6;">we can ask about the set of all vectors of V that can be reached using only the vectors in X and the vector space operations of V</mark>.
+
+So for the example above, the span of $X$ is actually all of the vectors in $\mathbf{R}^2$, as the third component of both vectors in the definition above is set to 0, so $X$ only spans the x-y coordinate space (not the x-y-z coordinate space). Visualization of this span ([source](https://www.google.com/search?q=vector+spanning+r2+plane&sca_esv=585006090&tbm=isch&sxsrf=AM9HkKk9OPrKUSx8lvSnwJJ8KYzQZZnYJQ:1700812917821&source=lnms&sa=X&ved=2ahUKEwj9367uldyCAxWW7qQKHX0wD_gQ_AUoAXoECAMQAw&biw=1920&bih=923&dpr=1#imgrc=KOWgby21v1AbbM)):
+
+![](Media-Temp/Pasted%20image%2020231124100224.png)
+
+
+Example 2:
+
+Assume $Y$ is a "subset" of vectors of $V$ with the following definition:
+
+$$Y=\left\lbrace 
+c_1 \begin{bmatrix} 1\cr 0\cr 0 \end{bmatrix}
++
+c_2 \begin{bmatrix} 0\cr 1\cr 0 \end{bmatrix}
++
+c_3 \begin{bmatrix} 0\cr 0\cr 1 \end{bmatrix}
+\;\middle|\; 
+c_1 ,\; c_2 ,\; c_3 \in \mathbb{R} 
+\right\rbrace$$
+
+Here, the span of $Y$ is all of the vectors in $\mathbf{R}^3$, so we can say that $\mathrm{Span}\lbrace Y \rbrace = \mathrm{Span}\lbrace V \rbrace$.
+
+Therefore, we can deduce from the two examples above the following statement:
+
+The span of a set of vectors is actually a vector space, and vice versa.
+
+To summarize, a span of a set of vectors $\mathrm{Span}\lbrace S \rbrace$ is a mathematical notation we use to find which vectors in the vector space $V$ can be reached/generated/spanned by a vector space $S$, which is contained in $V$. Dummy visualizations of this:
+
+When $S=X$:
+
+![](Media-Temp/Pasted%20image%2020231124103541.png)
+
+When $S=Y$:
+
+![](Media-Temp/Pasted%20image%2020231124103621.png)
+
+
+## Vector Subspace vs Vector Span
+
+Note the "tldr summary" at the start of the previous section ([Vector Space vs Vector Span](#Vector%20Space%20vs%20Vector%20Span)):
+
+> we can say that the vector span has the notion of generating/spanning vectors to create a vector space $S$ that is inside a vector space $V$.
+
+Notice that when we say:
+
+> a vector space $S$ that is inside a vector space $V$.
+
+This is the exact definition of a [vector subspace](#Vector%20Subspace) (given that $S$ has special characteristics).
+
+Therefore, we can say that Spans are Subspaces and Subspaces are Spans ([source](https://textbooks.math.gatech.edu/ila/subspaces.html#subspaces-spans-are-subspaces)):
+
+If $v_1,v_2,\cdots,v_p$ are any vectors in $\mathbf{R}^n$, then $\mathrm{Span}\lbrace v_1,v_2,\ldots,v_p \rbrace$ is a subspace of $\mathbf{R}^n$. 
+
+Moreover, any subspace of $\mathbf{R}^n$ can be written as a span of a set of $p$ [linearly independent vectors](#Linear%20Independence) in $\mathbf{R}^n$ for $p \leq n$.
+
+The proof of this can be shown [here](https://textbooks.math.gatech.edu/ila/subspaces.html#subsection-24).
+
 # Linear Independence
 
 [source 1](https://textbooks.math.gatech.edu/ila/linear-independence.html#subsection-19), [source 2](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/linear-independence/v/linear-algebra-introduction-to-linear-independence)
 
 Why is this concept useful? ([source](https://textbooks.math.gatech.edu/ila/linear-independence.html#p-274)):
 
-One of the reasons for its usefulness is related to vector spans; Sometimes, a vector set could have one or more **redundant vectors** that will not affect the **span** of this set. For example:
+One of the reasons for its usefulness is related to vector spans; Sometimes, a vector set could have one or more **redundant vectors** that will not affect the [span of this set](#Span%20of%20a%20Vector%20Set%20(Vector%20Span)). For example:
 
 ![](Media-Temp/Pasted%20image%2020231118155103.png)
 

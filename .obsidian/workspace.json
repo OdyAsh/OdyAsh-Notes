@@ -4,11 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "c504271472119e86",
+        "id": "f31cf7dc581e2ef7",
         "type": "tabs",
         "children": [
           {
-            "id": "8e9a0382be61d97e",
+            "id": "8f82828500a7a568",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Mathematics/Linear Algebra/Vectors.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "3bef671f31283d55",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -201,12 +214,18 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "6bdbcbc0f4d6cc2c",
+  "active": "3bef671f31283d55",
   "lastOpenFiles": [
-    "Mathematics/Linear Algebra/Vectors.md.crdownload",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231123161524.png",
-    "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231124103621.png",
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231124103541.png",
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231124103441.png",
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231124100224.png",
+    "Obsidian/Debugging Obsidian.md",
+    "Programming/VS Code/Debugging.md",
     "Mathematics/Linear Algebra/Vectors.md",
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231123161524.png",
+    "Mathematics/Linear Algebra/Vectors-Ash-Desktop.md",
+    "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231118155103.png",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231118140819.png",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231118140740.png",
@@ -214,10 +233,7 @@
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231118134007.png",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231118134005.png",
     "Islam/Pre-Islamic World/Before Muhammad Further Readings.md",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231116051048.png",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231116045520.png",
     "Mathematics/Linear Algebra/Line Equations.md",
-    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231116064613.png",
     "Mathematics/Linear Algebra/Media-Temp",
     "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
     "Programming/Docker/Docker Basics.md",
@@ -238,7 +254,6 @@
     "Programming/Data Engineer",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية)-Ash-Desktop.md",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
-    "Obsidian/Debugging Obsidian.md",
     "Obsidian/Cool Plugins.md",
     "Programming/AI/Data Analytics Notes.md",
     "Programming/Python/Debugging Python Code.md",
@@ -247,8 +262,6 @@
     "Virtual Environments/ Conda Environment.md",
     "Obsidian/UI Tips.md",
     "Programming/VS Code/VS Code Tips.md",
-    "Programming/UX Design/Screen Units.md",
-    "README.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

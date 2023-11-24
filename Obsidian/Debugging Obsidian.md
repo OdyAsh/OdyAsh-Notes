@@ -1,3 +1,7 @@
+# Dealing with GitHub and OneDrive setup
+
+If you're working on one device, decide to commit and push, then kindly WAIT a while for the second device to sync the files (using OneDrive), THEN when OneDrive says everything is up to date, you can use `git pull` on the second device. This should tell you `Everything is up to date`.
+
 # Lage Space between Note Title and text
 
 If you see something like this:
@@ -32,7 +36,9 @@ check out [commits](https://github.com/OdyAsh/OdyAsh-Notes/commits/main/Mathemat
 * Probably any equations that contain any form of matrix/vector (square brackets, parentheses. etc.) can NOT be rendered on the same line of text EVEN IF we're using `$$` instead of `$`.
 	* In that case, you have to start a new line (that has `newline` before and after the equation), make it use `$$`, and it can NOT be in a bullet point.
 * Use `\cr` instead of `\\` to signify `newline` in latex.
+* don't use `{` and `}`, and use `\lbrace` and `\rbrace` instead.
+* don't use `\vec{r}_{1}`, use `\vec{r}_1` instead.
 * don't add spaces around `$$`, and don't add `newlines` between Latex. Example:
   
   ![](Media-Temp/Pasted%20image%2020231104170701.png)
-   
+More details about GitHub problems with MathJax is mentioned in [this](https://nschloe.github.io/2022/05/20/math-on-github.html) article.
