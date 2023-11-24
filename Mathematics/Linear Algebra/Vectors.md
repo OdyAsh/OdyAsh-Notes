@@ -457,7 +457,7 @@ $$ L=\left\{\vec{x}+t\cdot\vec{r}\;\middle|\;t\in\mathbb{R}\right\}$$
 
 The equation above can help us find a parametric equation form for the [Displacement Vector](#Displacement%20Vector), which had the following vector form:
 
-$$\nabla\vec{r} = \vec{{r}_{2}} - \vec{{r}_{1}}$$
+$$\nabla \vec{r} = \vec{{r}_{2}} - \vec{{r}_{1}}$$
 
 How? Let's deduce this with an example: 
 
@@ -484,7 +484,7 @@ Now, the vector set $S$ of $\nabla \vec{r}$ can be visualized like this:
 
 But we're not interested in this vector set, we're interested in the vector set $L$ that represents the path from $r_{1}$ to $r_{2}$, so to get this, we evaluate the following expression:
 
-$$\begin{aligned}
+$$ \begin{aligned}
 L&=\left\{\vec{r_{1}}+t\cdot\nabla\vec{r}\;\middle|\;t\in\mathbb{R}\right\} \cr\cr
 L&=\left\{\left[\begin{matrix}{1}\cr{2}\end{matrix}\right]+t\cdot\left[\begin{matrix}{3}\cr{0}\end{matrix}\right]\;\middle|\;t\in\mathbb{R}\right\} \cr\cr
 \end{aligned}$$
