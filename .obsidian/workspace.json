@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+                "file": "Mathematics/Linear Algebra/Vectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -129,7 +129,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md"
+                "file": "Mathematics/Linear Algebra/Vectors.md"
               }
             }
           },
@@ -157,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+                "file": "Mathematics/Linear Algebra/Vectors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+                "file": "Mathematics/Linear Algebra/Vectors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -185,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 294.5,
-    "collapsed": true
+    "width": 294.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -205,6 +204,8 @@
   },
   "active": "320e60d8afd0aafd",
   "lastOpenFiles": [
+    "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231123161524.png",
+    "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
     "Mathematics/Linear Algebra/Vectors.md",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231118155103.png",
     "Mathematics/Linear Algebra/Media-Temp/Pasted image 20231118140819.png",
@@ -238,7 +239,6 @@
     "Programming/Data Engineer",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية)-Ash-Desktop.md",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
-    "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
     "Obsidian/Debugging Obsidian.md",
     "Obsidian/Cool Plugins.md",
     "Programming/AI/Data Analytics Notes.md",
