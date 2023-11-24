@@ -328,7 +328,7 @@ $$\nabla \vec{r} = \vec{r}_2 - \vec{r}_1$$
 
 instead of writing the [displacement vector](#Displacement%20Vector) in the "change in position vectors" formula, we can rewrite it in the following equation form:
 
-![](Media-Temp/Pasted%20image%2020231123161524.png)
+![](Attachments%20-%20Vectors/Pasted%20image%2020231123161524.png)
 
 So again, the math equation will be:
 
@@ -356,7 +356,7 @@ $$ S=\left\lbrace c \cdot \vec{r} \; \middle| \; c \in \mathbb{R} \right\rbrace$
 
 Note: a *vector set* in this case will refer to [Collinear Vectors](#Collinear%20Vectors) that are on the same line only, like the left sub-figures here:
 
-![](Media-Temp/Pasted%20image%2020231116051048.png)
+![](Attachments%20-%20Vectors/Pasted%20image%2020231116051048.png)
 
 Now, we can create another vector set $L$ whose vectors are collinear to the vectors in $S$ that are NOT on the same line (i.e., the right sub-figures above). The equation for $L$ can be defined as the following:
 
@@ -387,7 +387,7 @@ $$
 
 Now, the vector set $S$ of $\nabla \vec{r}$ can be visualized like this:
 
-![](Media-Temp/Pasted%20image%2020231116064613.png)
+![](Attachments%20-%20Vectors/Pasted%20image%2020231116064613.png)
 
 But we're not interested in this vector set, we're interested in the vector set $L$ that represents the path from $r_{1}$ to $r_{2}$, so to get this, we evaluate the following expression:
 
@@ -411,7 +411,7 @@ Because now we can obtain any point on the vector set $L$ given a specific "time
 
 Side note: we can visually represent the vector set $L$ like the red line shown below:
 
-![](Media-Temp/Pasted%20image%2020231116065711.png)
+![](Attachments%20-%20Vectors/Pasted%20image%2020231116065711.png)
 
 
 
@@ -431,7 +431,7 @@ is called a _linear combination_ of the vectors $v_1,v_2,\ldots,v_k$, with 
 
 kindly follow the interactive example at [source 1](https://textbooks.math.gatech.edu/ila/vectors.html#definition-15) to see how **any vector on the plane in $\mathbf{R}^2$ can be obtained as a linear combination of $v_1,v_2$** ***with suitable coefficients***:
 
-![](Media-Temp/Pasted%20image%2020231118134707.png)
+![](Attachments%20-%20Vectors/Pasted%20image%2020231118134707.png)
 
 
 
@@ -488,9 +488,9 @@ We also say that $\mathrm{Span}\{v_1,v_2,\ldots,v_k\}$ is the subset _spanned
 
 Drawings of spans ([source](https://textbooks.math.gatech.edu/ila/spans.html#paragraphs-9), I highly suggest checking out their interactive examples for clarification of the drawings below):
 
-![|500](Media-Temp/Pasted%20image%2020231118140740.png)
+![|500](Attachments%20-%20Vectors/Pasted%20image%2020231118140740.png)
 
-![](Media-Temp/Pasted%20image%2020231118140819.png)
+![](Attachments%20-%20Vectors/Pasted%20image%2020231118140819.png)
 
 ## Correct Terminology
 
@@ -526,7 +526,7 @@ Now we can ask about the span of $X$. In other words, <mark style="background: #
 
 So for the example above, the span of $X$ is actually all of the vectors in $\mathbf{R}^2$, as the third component of both vectors in the definition above is set to 0, so $X$ only spans the x-y coordinate space (not the x-y-z coordinate space). Visualization of this span ([source](https://www.google.com/search?q=vector+spanning+r2+plane&sca_esv=585006090&tbm=isch&sxsrf=AM9HkKk9OPrKUSx8lvSnwJJ8KYzQZZnYJQ:1700812917821&source=lnms&sa=X&ved=2ahUKEwj9367uldyCAxWW7qQKHX0wD_gQ_AUoAXoECAMQAw&biw=1920&bih=923&dpr=1#imgrc=KOWgby21v1AbbM)):
 
-![](Media-Temp/Pasted%20image%2020231124100224.png)
+![](Attachments%20-%20Vectors/Pasted%20image%2020231124100224.png)
 
 
 Example 2:
@@ -553,11 +553,11 @@ To summarize, a span of a set of vectors $\mathrm{Span}\lbrace S \rbrace$ is a m
 
 When $S=X$:
 
-![](Media-Temp/Pasted%20image%2020231124103541.png)
+![](Attachments%20-%20Vectors/Pasted%20image%2020231124103541.png)
 
 When $S=Y$:
 
-![](Media-Temp/Pasted%20image%2020231124103621.png)
+![](Attachments%20-%20Vectors/Pasted%20image%2020231124103621.png)
 
 
 ## Vector Subspace vs Vector Span
@@ -588,7 +588,7 @@ Why is this concept useful? ([source](https://textbooks.math.gatech.edu/ila/line
 
 One of the reasons for its usefulness is related to vector spans; Sometimes, a vector set could have one or more **redundant vectors** that will not affect the [span of this set](#Span%20of%20a%20Vector%20Set%20(Vector%20Span)). For example:
 
-![](Media-Temp/Pasted%20image%2020231118155103.png)
+![](Attachments%20-%20Vectors/Pasted%20image%2020231118155103.png)
 
 The vectors above are *linearly dependent* (explained below); in each of the sub figures, one vector is in the span of the other(s), so *it doesn't make the span bigger*. <mark style="background: #FF5582A6;">Therefore, the concept of linear dependency can help us find if a vector set has redundant vectors or not</mark>.
 
