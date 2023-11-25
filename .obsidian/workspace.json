@@ -8,12 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "904d3d613570fe75",
+            "id": "5ba5d7c35c5ae8a9",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Programming/AI/Data Engineering/DE Road Map.md",
+                "file": "Programming/AI/Data Engineering/Data Pipeline.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Programming/AI/Data Engineering/DE Road Map.md"
+                "file": "Programming/AI/Data Engineering/Data Pipeline.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Programming/AI/Data Engineering/DE Road Map.md",
+                "file": "Programming/AI/Data Engineering/Data Pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,13 +173,14 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Programming/AI/Data Engineering/DE Road Map.md",
+                "file": "Programming/AI/Data Engineering/Data Pipeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -200,54 +201,54 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "904d3d613570fe75",
+  "active": "5ba5d7c35c5ae8a9",
   "lastOpenFiles": [
-    "Obsidian/Publishing Obsidian.md",
-    "Programming/AI/Data Engineering/DE Road Map.md",
-    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125042406.png",
-    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125041902.png",
-    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125041203.png",
-    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125041201.png",
-    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125040157.png",
-    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125035505.png",
-    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125035445.png",
-    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125035014.png",
-    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231124194803.png",
-    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231124194757.png",
-    "Programming/AI/Data Engineering/Media-Temp",
-    "Mathematics/Linear Algebra/Vectors.md",
-    "Programming/AI/Data Engineering/Attachments - DE Interviews FAQ",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125163538.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125163437.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125162131.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125160826.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125160653.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125160507.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125160151.png",
+    "Business/Business Theory.md",
+    "Business/Economics/Economic Terms.md",
+    "Business/Economics/Media-Temp/Pasted image 20231125143918.png",
+    "Business/Economics/Media-Temp",
+    "Business/Economics",
+    "Programming/AI/Data Engineering/Data Pipeline.md",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125142617.png",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125140856.png",
     "Programming/AI/Data Engineering/DE Interviews FAQ.md",
+    "Programming/AI/Data Engineering/DE Road Map.md",
+    "Communication/Verbal Communication/Linguistics/English/Emotional Association.md",
+    "Communication/Verbal Communication/Linguistics/English",
+    "Communication/Non-Verbal Communication/Kinesics",
+    "Communication/Verbal Communication/Linguistics",
+    "Communication/Verbal Communication/Paralanguage",
+    "Communication/Non-Verbal Communication",
+    "Communication/Verbal Communication",
+    "Communication",
+    "Language",
+    "Obsidian/Publishing Obsidian.md",
+    "Programming/AI/Data Engineering/Media-Temp/Pasted image 20231125042406.png",
+    "Mathematics/Linear Algebra/Vectors.md",
     "Mathematics/Linear Algebra/Line Equations.md",
     "Obsidian/Debugging Obsidian.md",
     "Programming/VS Code/Debugging.md",
     "Mathematics/Linear Algebra/Vectors-Ash-Desktop.md",
     "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
     "Islam/Pre-Islamic World/Before Muhammad Further Readings.md",
-    "Mathematics/Linear Algebra/Media-Temp",
     "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
     "Programming/Docker/Docker Basics.md",
-    "Programming/AI/Media-Temp",
     "Mathematics/Math Jargon.md",
     "Programming/DB/MySQL.md",
-    "Programming/AI/Data Engineering/Attachments - Interviews FAQ",
-    "Programming/DB/Attachments - MySQL",
-    "Programming/AI/Data Engineering/Attachments - DE Interviews FAQ/mapreduce-shuffling-sorting-computerphile.mp4",
-    "Programming/AI/Data Engineering/Media-Temp/Untitled video - Made with Clipchamp.mp4",
-    "Programming/AI/Data Engineering/Media-Temp/mapreduce-shuffling-sorting-computerphile.gif.crswap",
     "Programming/AI/Clustering Algorithms.md",
-    "Programming/AI/Data Engineering",
     "Programming/AI/Power BI Questions.md",
     "Programming/AI/Power BI.md",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية)-Ash-Desktop.md",
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
     "Obsidian/Cool Plugins.md",
     "Programming/AI/Data Analytics Notes.md",
-    "Programming/Python/Debugging Python Code.md",
-    "consistency-report.md",
-    "Programming/Python/Virtual Environments/Conda Environment.md",
-    "Virtual Environments/ Conda Environment.md",
-    "Obsidian/UI Tips.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

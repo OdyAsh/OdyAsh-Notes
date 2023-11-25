@@ -5,6 +5,8 @@
 
 Data engineering is the process of converting the raw entity of data into useful information that can be used for various purposes.
 
+Data engineers are, to a certain extent, a replacement for traditional BI tools. ([source](https://medium.pimpaudben.fr/data-engineer-is-a-transitional-job-ed0074c89646))
+
 # OLTP vs OLAP
 
 [source](https://medium.com/t%C3%BCrk-telekom-bulut-teknolojileri/whats-the-difference-between-oltp-and-olap-bdcafdffb1c3)
