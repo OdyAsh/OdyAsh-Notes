@@ -3,7 +3,7 @@
 
 [amazing source](https://www.montecarlodata.com/blog-data-pipeline-architecture-explained/)
 
-Note: for most of the following sections, we'll refer to data pipeline architectures as (DPAs), even though this isn't a common abbrevation.
+Note: for most of the following sections, we'll refer to data pipeline architectures as (DPAs), even though this isn't a common abbreviation.
 
 ## Definition
 
@@ -126,7 +126,6 @@ Use cases: external factors based on business needs dictates which is better to 
 	* Systems are already built around legacy architecture.
 * Otherwise, ELT is preferred.
 
-
 #### MDS Definition
 
 [source](https://towardsdatascience.com/modern-or-not-what-is-a-data-stack-e6e09e74ae7f)
@@ -239,3 +238,35 @@ Regarding the choice of the technologies used in each MDS block, consider the fo
 * Cost constraints.
 * Time constraints.
 
+### Streaming
+
+![](Media-Temp/Pasted%20image%2020231126170336.png)
+
+Streaming DPA:
+* The pattern can be described as 
+	* **stream**
+		* Thus, inability to fully validate data quality or model the data.
+		* However, gives it advantage of dealing with near-real time data, while previous DPAs dealt with batch data pipelines.
+	* collect
+	* process
+	* store
+	* analyze
+* Runs parallel to [MDS](#ETL) pipelines.
+* Used mainly for data science or machine learning use cases.
+
+### Zero ETL
+
+![](Media-Temp/Pasted%20image%2020231126173729.png)
+
+Zero-ETL:
+* Is a set of integrations that eliminates or minimizes the need to build ETL data pipelines.
+* Is **transferred directly** from one system to another **without** the need for any intermediary steps to **transform** or clean the data. ([source](https://medium.com/starschema-blog/so-whats-all-this-talk-about-zero-etl-integration-aa3b0ca9612b))
+	* This can be useful when no complex data transformation or manipulation is needed.
+* Is also considered to be a data replication tool.
+	* A replication tool will **transfer data in near-real-time** without requiring any intermediate processing or manipulation.
+* Lacks in data governance
+	* As it relies on the systems involved in the transfer to handle these tasks.
+* Is difficult to integrate with other systems outside the ecosystem due to relying on direct data transfer.
+
+Zero-ETL use case example:
+* 

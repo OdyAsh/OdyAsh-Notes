@@ -704,3 +704,21 @@ Other solved examples (using the [row operations](https://textbooks.math.gatech.
 
 [source 1](https://textbooks.math.gatech.edu/ila/dimension.html), [source 2](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/subspace-basis/v/linear-algebra-basis-of-a-subspace)
 
+English definition: 
+
+A "basis" is a **set** of *vectors* where:
+* These *vectors* are [linearly independent](#Linear%20Independence).
+* This **set** [spans](#Span%20of%20a%20Vector%20Set%20(Vector%20Span)) a [subspace](#Vector%20Subspace) $V$.
+
+Mathematical Definition:
+
+* Let $V$ be a subspace of $\mathrm{R}^n$. 
+* A ***basis of $V$*** is a set of vectors: $X = \{v_1,v_2,\cdots,v_m\}$, such that:
+	* $X \subset V$
+	* $V = \mathrm{Span} \left\{ X \right\}$
+	* $X$ is linearly independent
+
+The "basis theorem" talks about the set of vectors applicable to be called "basis of a subspace", and it states the following:
+* **Any** $m$ **linearly independent** vectors in a subspace $V$ **form a basis** for $V$.
+* **Any** $m$ vectors **that span** $V$ **form a basis** for $V$.
+
