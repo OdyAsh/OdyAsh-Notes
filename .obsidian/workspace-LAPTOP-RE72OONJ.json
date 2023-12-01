@@ -8,24 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "452d6c04d12d6b69",
+            "id": "6d78e5a7ea3d3116",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Social Sciences/Psychology/Psychology Jargon.md",
+                "file": "Programming/DB/Media Streaming.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "83f41b57a4e5a7f7",
+            "id": "9335b11b735b5052",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Science.md",
+                "file": "Programming/AI/Data Engineering/DE Road Map.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Social Sciences/Psychology/Psychology Jargon.md"
+                "file": "Programming/DB/Media Streaming.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Social Sciences/Psychology/Psychology Jargon.md",
+                "file": "Programming/DB/Media Streaming.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Social Sciences/Psychology/Psychology Jargon.md",
+                "file": "Programming/DB/Media Streaming.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -213,54 +213,54 @@
       "obsidian-trash-explorer:Open trash explorer": false
     }
   },
-  "active": "452d6c04d12d6b69",
+  "active": "6d78e5a7ea3d3116",
   "lastOpenFiles": [
-    "Sciences/Social Sciences/Psychology/Regulatory Focus Theory.md",
-    "Sciences/Social Sciences/Psychology/Psychology Jargon.md",
-    "Sciences/Social Sciences/Social Sciences.md",
-    "Sciences/Formal Sciences/Computer Science/Computer Science.md",
-    "consistency-report.md",
-    "Sciences/Formal Sciences/Computer Science/Attachments - Computer Science",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Cables.md",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231129122603.png",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Attachments - Cables",
-    "Sciences/Formal Sciences/Computer Science/Untitled",
-    "Sciences/Science.md",
-    "Sciences/Formal Sciences/Computer Science/Attachments - Computer Science/Pasted image 20231201174602.png",
-    "Sciences/Formal Sciences/Computer Science/Media-Temp",
-    "Sciences/Formal Sciences/Formal Sciences.md",
-    "Sciences/Applied Sciences/Applied Sciences.md",
-    "Sciences/Applied Sciences/Media-Temp/Pasted image 20231201110757.png",
-    "Sciences/Applied Sciences/Media-Temp",
-    "Sciences/Applied Sciences",
-    "Sciences/Formal Sciences/Computer Science",
-    "Sciences/Formal Sciences/Mathematics/Mathematics.md",
-    "Sciences/Formal Sciences/Mathematics/Media-Temp/Pasted image 20231201094617.png",
-    "Sciences/Formal Sciences/Mathematics/Media-Temp/Pasted image 20231201094610.png",
-    "Sciences/Formal Sciences/Mathematics/Media-Temp/Pasted image 20231201093554.png",
-    "Sciences/Formal Sciences/Mathematics/Media-Temp/Pasted image 20231201092409.png",
-    "Sciences/Formal Sciences/Mathematics/Media-Temp/Pasted image 20231201090953.png",
-    "Sciences/Formal Sciences/Mathematics/Media-Temp/Pasted image 20231201090335.png",
-    "Sciences/Formal Sciences/Mathematics/Media-Temp/Pasted image 20231201090131.png",
-    "Sciences/Formal Sciences/Mathematics/Media-Temp",
-    "Sciences/Formal Sciences/Mathematics/Math Jargon.md",
+    "Sciences/Social Sciences/Media-Temp/Pasted image 20231201063618.png",
+    "Sciences/Social Sciences/Media-Temp",
+    "Sciences/Natural Sciences/Media-Temp/Pasted image 20231201042607.png",
     "Sciences/Natural Sciences/Natural Sciences.md",
-    "Sciences/Formal Sciences/Media-Temp",
-    "Sciences/Formal Sciences",
-    "Programming/AI/Data Engineering/DE Road Map.md",
-    "Obsidian/Debugging Obsidian.md",
-    "Sciences/Formal Sciences/Mathematics/Linear Algebra/Line Equations.md",
+    "Sciences/Natural Sciences/Media-Temp",
+    "Sciences/Natural Sciences",
+    "Sciences/Media-Temp/Pasted image 20231201041822.png",
+    "Sciences/Media-Temp",
+    "Sciences/Mathematics/Linear Algebra/Attachments - Line Equations/Pasted image 20231116045520.png",
+    "Sciences/Mathematics/Linear Algebra/Attachments - Line Equations",
+    "Sciences/Social Sciences/Social Sciences.md",
+    "Sciences/Science.md",
     "Programming/DB/Media Streaming.md",
-    "Sciences/Formal Sciences/Mathematics/Linear Algebra/Vectors.md",
-    "Sciences/Applied Sciences/Business/Economics/Economic Terms.md",
-    "Sciences/Applied Sciences/Business/Business Theory.md",
+    "Sciences/Social Sciences/Social Studies.md",
+    "Sciences/Mathematics/Linear Algebra/Vectors.md",
+    "Sciences/Mathematics/Linear Algebra/Line Equations.md",
+    "Sciences/Computer Hardware/Cables.md",
+    "Sciences/Business/Economics/Economic Terms.md",
+    "Sciences/Business/Business Theory.md",
+    "Sciences/Untitled",
+    "Sciences",
+    "Sciences/Social Sciences",
     "Programming/AI/Data Engineering/DE Interviews FAQ.md",
+    "Sciences/Computer Hardware/Media-Temp/Pasted image 20231129160042.png",
+    "Sciences/Computer Hardware/Media-Temp/Pasted image 20231129155954.png",
+    "Sciences/Computer Hardware/Media-Temp/Pasted image 20231129140239.png",
+    "Sciences/Computer Hardware/Media-Temp/Pasted image 20231129135600.png",
+    "Sciences/Computer Hardware/Media-Temp/Pasted image 20231129134349.png",
+    "Sciences/Computer Hardware/Media-Temp/Pasted image 20231129134331.png",
+    "Sciences/Computer Hardware/Media-Temp/Pasted image 20231129130757.png",
+    "Sciences/Computer Hardware/Media-Temp",
+    "Sciences/Computer Hardware",
     "Programming/AI/Data Engineering/Data Pipeline.md",
-    "Sciences/Social Sciences/Communication/Verbal Communication/Linguistics/English/Emotional Association.md",
+    "Programming/AI/Data Engineering/DE Road Map.md",
+    "Sciences/Communication/Verbal Communication/Linguistics/English/Emotional Association.md",
     "Obsidian/Publishing Obsidian.md",
+    "Obsidian/Debugging Obsidian.md",
     "Programming/VS Code/Debugging.md",
     "Mathematics/Linear Algebra/Vectors-Ash-Desktop.md",
     "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+    "Islam/Pre-Islamic World/Before Muhammad Further Readings.md",
+    "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
+    "Programming/Docker/Docker Basics.md",
+    "Sciences/Mathematics/Math Jargon.md",
+    "Programming/DB/MySQL.md",
+    "Programming/AI/Clustering Algorithms.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

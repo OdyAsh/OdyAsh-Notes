@@ -9,7 +9,7 @@ $$ (x,y)=(t,1-t)\quad\text{for any}\quad t\in\mathbb{R}.$$
 
 This means that every point on the line has the form $(t,1−t)$ for some real number $t$. In this case, we call $t$ a _parameter_, as it _parameterizes_ the points on the line. Visualization of equation above when substituting for multiple $t$ values:
 
-![](Media-Temp/Pasted%20image%2020231116045520.png)
+![](Attachments%20-%20Line%20Equations/Pasted%20image%2020231116045520.png)
 
 Notice that this is the same line you'll get if you decide to use [the traditional method for drawing lines](https://www.radfordmathematics.com/algebra/line-equations/line-equations-drawing-line-from-equation.html).
 

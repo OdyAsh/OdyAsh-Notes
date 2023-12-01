@@ -233,7 +233,7 @@ Regarding the choice of the technologies used in each MDS block, consider the fo
 * "all in one place" vs "one tool per specific task"
 * "doing on your own" vs "delegating implementation to providers"
 	* The former is usually done using open-source technologies.
-	* The latter can result in a [Vendor Lock-in](../../../Business/Economics/Economic%20Terms.md#Vendor%20Lock-in).
+	* The latter can result in a [Vendor Lock-in](../../../Sciences/Applied%20Sciences/Business/Economics/Economic%20Terms.md#Vendor%20Lock-in).
 * Staff capabilities.
 * Cost constraints.
 * Time constraints.

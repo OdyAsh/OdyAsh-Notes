@@ -4,7 +4,7 @@ Main sources: [source 1](https://www.audiogrounds.com/audio-cable/), [source 2](
 
 ## Jacks and Plugs (F/M Connectors/Sockets)
 
-![](Media-Temp/Pasted%20image%2020231129125137.png)
+![](Attachments%20-%20Cables/Pasted%20image%2020231129125137.png)
 
 * The fixed part of the connection is called JACK. 
 * What you plug into a jack is called PLUG.
@@ -16,7 +16,7 @@ Main sources: [source 1](https://www.audiogrounds.com/audio-cable/), [source 2](
 	* unbalanced
 * Unbalanced audio cables (UACs) have 1 wire and shield (ground), while balanced audio cables (BACs) have 2 wires and shield. Visualization:
   
-  ![](Media-Temp/Pasted%20image%2020231129130757.png)
+  ![](Attachments%20-%20Cables/Pasted%20image%2020231129130757.png)
   
 * A BAC requires devices with balanced output/input stages ([source](https://www.eetimes.com/cross-coupled-output-stages-for-balanced-audio-interfaces/#:~:text=At%20the%20source%2C%20a%20balanced,difference%20between%20the%20two%20signals.)).
 	* At the source, a *balanced output stage (BOS)* **differentially drives** two signal wires
@@ -33,11 +33,11 @@ Main sources: [source 1](https://www.audiogrounds.com/audio-cable/), [source 2](
 		  
 		  At the source's BOS:
 		  
-		  ![](Media-Temp/Pasted%20image%2020231129134331.png)
+		  ![](Attachments%20-%20Cables/Pasted%20image%2020231129134331.png)
 		  
 		  At the receiver's BIS: the cold signal is flipped, which effectively eliminates the noise and outputs a clean audio signal:
 		  
-		  ![](Media-Temp/Pasted%20image%2020231129134349.png)
+		  ![](Attachments%20-%20Cables/Pasted%20image%2020231129134349.png)
 		  
 		* The "noise-free" sound that BACs provide is apparent if the cable is more than 3 meters. Otherwise, UACs provide a similar "noise-free" experience.
 * BAC is relatively more expensive than UACs.
@@ -73,11 +73,11 @@ More information about BACs vs UACs is provided [here](https://www.youtube.com/w
 	* However, using ACs instead of DCs will cause audio jitters/distortion due to the presence of relatively high impedance in DCs' [jacks](#Jacks%20and%20Plugs%20(F/M%20Connectors/Sockets)).
 * Some digital and analog cables may look the same at first glance. For example:
   
-    ![](Media-Temp/Pasted%20image%2020231129135600.png)
+    ![](Attachments%20-%20Cables/Pasted%20image%2020231129135600.png)
     
     Other times, the difference is clear, for example ([source](https://emastered.com/blog/audio-cable-types)):
     
-    ![](Media-Temp/Pasted%20image%2020231129140239.png)
+    ![](Attachments%20-%20Cables/Pasted%20image%2020231129140239.png)
 
 Examples of ACs vs DCs:
 
@@ -131,11 +131,11 @@ Finally, there's a balanced TRRRS with a matching 4.4mm TRRRS connector called P
 
 More details are in [this](https://www.youtube.com/watch?v=m4hy63fEgA0) video.
 
-![](Media-Temp/Pasted%20image%2020231129155954.png)
+![](Attachments%20-%20Cables/Pasted%20image%2020231129155954.png)
 
 ([source](https://www.google.com/search?q=ts+trs+trrs&sca_esv=586305682&tbm=isch&sxsrf=AM9HkKkPC5MEf561nelVH-rCbs0SF_qtaA:1701266369937&source=lnms&sa=X&ved=2ahUKEwiCu5eNr-mCAxXCaqQEHU5hB3UQ_AUoAXoECAEQAw&biw=1396&bih=639&dpr=1.38#imgrc=V8tNljFapQaPAM))
 
-![](Media-Temp/Pasted%20image%2020231129160042.png)
+![](Attachments%20-%20Cables/Pasted%20image%2020231129160042.png)
 
 ([source](https://www.google.com/search?q=ts+trs+trrs&sca_esv=586305682&tbm=isch&sxsrf=AM9HkKkPC5MEf561nelVH-rCbs0SF_qtaA:1701266369937&source=lnms&sa=X&ved=2ahUKEwiCu5eNr-mCAxXCaqQEHU5hB3UQ_AUoAXoECAEQAw&biw=1396&bih=639&dpr=1.38#imgrc=uk-OoHC72nOfJM))
 
@@ -145,13 +145,13 @@ More details are in [this](https://www.youtube.com/watch?v=m4hy63fEgA0) video.
 
 There are three levels of signal that are transmitted via a cable:
 
-![](Media-Temp/Pasted%20image%2020231129122940.png)
+![](Attachments%20-%20Cables/Pasted%20image%2020231129122940.png)
 
 
 
 # Overview of Audio Cables
 
-![](Media-Temp/Pasted%20image%2020231129104925.png)
+![](Attachments%20-%20Cables/Pasted%20image%2020231129104925.png)
 
 ([source](https://www.google.com/search?q=audio+cables+ts+trs+trrs&tbm=isch&ved=2ahUKEwjBgcbj6OiCAxUQVqQEHbnpAW0Q2-cCegQIABAA&oq=audio+cables+ts+trs+trrs&gs_lcp=CgNpbWcQDDoECCMQJzoFCAAQgAQ6CAgAEIAEELEDOgoIABCABBCKBRBDOg0IABCABBCKBRCxAxBDOgYIABAIEB46BwgAEIAEEBhQAFjungJg6a4CaAJwAHgAgAGjAYgBtRiSAQQwLjIymAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=BPpmZcHvB5CskdUPudOH6AY&bih=639&biw=1396#vhid=VL3SpvgWhon5hM&vssid=3981:4zAWe05jEfOr2M))
 

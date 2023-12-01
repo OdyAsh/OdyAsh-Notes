@@ -38,5 +38,6 @@
   "obsidian-trash-explorer",
   "obsidian-link-converter",
   "obsidian-regex-replace",
-  "nuke-orphans"
+  "nuke-orphans",
+  "obsidian-sort-and-permute-lines"
 ]

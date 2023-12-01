@@ -7,7 +7,7 @@
 
 * Disruptive technology is an innovation that significantly alters the way that consumers, industries, or businesses operate. 
 * A disruptive technology sweeps away the systems or habits it replaces because it has attributes that are recognizably superior.
-* So even though the term initially seems to have a [negative connotation](../Communication/Verbal%20Communication/Linguistics/English/Emotional%20Association.md#Connotations), it doesn't!
+* So even though the term initially seems to have a [negative connotation](../../Social%20Sciences/Communication/Verbal%20Communication/Linguistics/English/Emotional%20Association.md#Connotations), it doesn't!
 * Upstarts rather than established companies are the usual source of disruptive technologies.
 
 ## Disruptive Innovation
