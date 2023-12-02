@@ -1,4 +1,3 @@
-#math #linear-algebra 
 
 Main sources:
 [khan academy: Unit 1: Vectors and spaces](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces)
@@ -12,6 +11,12 @@ Technically, we should say "a mathematical object" instead of "something".
 Intuitive example ([source](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/vector-introduction-linear-algebra)):
 
 ![](Attachments%20-%20Vector/Pasted%20image%2020231104130417.png)
+
+# Vector Mind Map
+
+[source 1: sites.oxy.edu](https://sites.oxy.edu/ron/math/214/)
+
+![](Media-Temp/Pasted%20image%2020231202143025.png)
 
 # Vector vs Scalar
 
@@ -309,7 +314,7 @@ $$ \vec{s}=\overrightarrow{AB}$$
 
 this displacement vector is not dependent on that curvy path; It just depends on your initial and final position.
 
-The displacement vector can also be defined as the [change in](../Math%20Jargon.md#"Change%20in...") position vectors:
+The displacement vector can also be defined as the [change in](../../Math%20Jargon.md#"Change%20in...") position vectors:
 
 ![](Attachments%20-%20Vector/Pasted%20image%2020231110210612.png)
 ([source](https://www.google.com/search?q=displacement+vector&tbm=isch&ved=2ahUKEwisjoWej7qCAxV8sicCHeFiBCsQ2-cCegQIABAA&oq=disp&gs_lcp=CgNpbWcQARgAMgQIIxAnMgQIIxAnMgcIABCKBRBDMgcIABCKBRBDMgsIABCABBCxAxCDATIFCAAQgAQyBQgAEIAEMgUIABCABDIFCAAQgAQyBQgAEIAEOgYIABAIEB46CAgAELEDEIMBOggIABCABBCxAzoKCAAQigUQsQMQQ1DsBFiwCGCSDmgAcAB4AIABnAGIAeMFkgEDMC41mAEAoAEBqgELZ3dzLXdpei1pbWfAAQE&sclient=img&ei=G35OZeyUJ_zknsEP4cWR2AI&bih=923&biw=1920#imgrc=Sm0W1jTIiJDh4M))
@@ -666,11 +671,11 @@ $$
 
 Why is this concept useful? ([source](https://textbooks.math.gatech.edu/ila/linear-independence.html#p-274)):
 
-One of the reasons for its usefulness is related to vector spans; Sometimes, a vector set could have one or more **redundant vectors** that will not affect the [span of this set](#Span%20of%20a%20Vector%20Set%20(Vector%20Span)). For example:
+One of the reasons for its usefulness is related to [vector spans](#Correct%20Terminology); Sometimes, a vector set could have one or more **redundant vectors** that will not affect the [span of this set](#Span%20of%20a%20Vector%20Set%20(Vector%20Span)). For example:
 
 ![](Attachments%20-%20Vector/Pasted%20image%2020231118155103.png)
 
-The vectors above are *linearly dependent* (explained below); in each of the sub figures, one vector is in the span of the other(s), so *it doesn't make the span bigger*. <mark style="background: #FF5582A6;">Therefore, the concept of linear dependency can help us find if a vector set has redundant vectors or not</mark>.
+The vectors above are *linearly dependent* (explained below); because in each of the sub figures, one vector is in the span of the other(s), so *it doesn't make the span bigger*. <mark style="background: #FF5582A6;">Therefore, the concept of linear dependency can help us find if a vector set has redundant vectors or not</mark>.
 
 English definition of linearly (in)dependence:
 
@@ -721,4 +726,8 @@ Mathematical Definition:
 The "basis theorem" talks about the set of vectors applicable to be called "basis of a subspace", and it states the following:
 * **Any** $m$ **linearly independent** vectors in a subspace $V$ **form a basis** for $V$.
 * **Any** $m$ vectors **that span** $V$ **form a basis** for $V$.
+
+## Basis Examples
+
+
 
