@@ -153,6 +153,16 @@ Now, to intuitively grasp how subtraction works geometrically, there are two met
 
 ![](Attachments%20-%20Vector/Pasted%20image%2020231104163904.png)
 
+# Vector Product Types
+
+[source 1: Wikipedia](<https://en.wikipedia.org/wiki/Product_(mathematics)#Products_in_linear_algebra>)
+
+* In mathematics, a product is the result of a multiplication of factors.
+* In linear algebra, there are many different kinds of products in linear algebra. Some of these types include:
+	* Scalar multiplication
+	* Dot (scalar) product
+	* Cross product
+
 # Vector Scalar Multiplication
 
 Multiplication visualization ([source](https://makeagif.com/gif/vector-multiplication-by-scalar-G4qCVh)):
@@ -174,6 +184,17 @@ Answer:
 ![](Attachments%20-%20Vector/Pasted%20image%2020231104112518.png)
 
 ![](Attachments%20-%20Vector/Pasted%20image%2020231104112617.png)
+
+## Dot Product (i.e., Scalar Product)
+
+[source 1: gatech](https://textbooks.math.gatech.edu/ila/dot-product.html), [source 2: KA](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/dot-cross-products/v/vector-dot-product-and-vector-length)
+
+Since gatech's textbook perfectly explains this concept [here](https://textbooks.math.gatech.edu/ila/dot-product.html), this section will primarily focus on complementing/summarizing the content present in their textbook.
+
+TODO.
+
+## Cross Product (i.e., Vector Product)
+
 
 
 # Vector Forms
@@ -197,13 +218,13 @@ Different vector forms:
 
 [source](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/intro-unit-vector-notation)
 
-### Special UVs
+### Coordinate Vectors
 
 Definition: 
 * <mark style="background: #FF5582A6;">A vector that has a magnitude of 1 is a unit vector.</mark>
 * It is also known as Direction Vector.
 
-Specifically, in cartesian coordinates, <mark style="background: #FF5582A6;">special unit vectors along the axis are denoted by i and j respectively</mark>. Their formulae (in $\mathbb{R}^2$):
+Specifically, in cartesian coordinates, <mark style="background: #FF5582A6;">special, coordinate unit vectors along the axis are denoted by i and j respectively</mark>. Their formulae (in $\mathbb{R}^2$):
 
 $$\begin{aligned}
 \hat{i}&=
@@ -217,7 +238,7 @@ Visualization:
 ![](Attachments%20-%20Vector/Pasted%20image%2020231106155417.png)
 ([source](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/intro-unit-vector-notation))
 
-These *special vectors* can be generalized to more dimensions. For example, in $\mathbb{R}^3$, we have the following *special* unit vectors:
+These *special vectors* can be generalized to more dimensions. For example, in $\mathbb{R}^3$, we have the following *coordinate vectors*:
 
 
 $$\begin{aligned}
@@ -232,7 +253,7 @@ $$\begin{aligned}
 
 ### General UVs
 
-Moreover, if a vector $\vec{v}$ is not *special*, then its unit vector is denoted by $\left|\left|\vec{v}\right|\right|$. 
+If a vector $\vec{v}$ is not a [coordinate vector](#Coordinate%20Vectors), then it's a general unit vector, and is denoted by $\left|\left|\vec{v}\right|\right|$. 
 
 Visualization:
 ![](Attachments%20-%20Vector/Pasted%20image%2020231107092101.png)
@@ -242,9 +263,15 @@ and its equation:
 
 $$\hat{u}=\frac{\vec{v}}{\left|\left|\vec{v}\right|\right|}$$
 
-where 
+such that:
+
+$$||\hat{u}||=1$$
+
+where:
+
 $\hat{u}$ = normalized vector (i.e., unit vector)
 $\vec{v}$ = non-zero vector
+$\left|\left|\vec{u}\right|\right|$ = norm (or length) of $\vec{u}$, which is equal to 1, since it is a "unit" vector.
 $\left|\left|\vec{v}\right|\right|$ = norm (or length) of $\vec{v}$
 
 ### Exercise Explanation of The UV Formula
@@ -265,13 +292,13 @@ Visualizing the answer:
 
 ### Intuitive Explanation of The UV Formula
 
-From [Vector Multiplication](#Vector%20Scalar%20Multiplication) rule, we have $c \cdot \hat u = \vec v$ 
+From [vector scalar multiplication](#Vector%20Scalar%20Multiplication) rule, we have $c \cdot \hat u = \vec v$ 
 
 dividing both sides by $c$:
 
 $$\hat{u}=\frac{\vec{v}}{c}=\frac{\vec{v}}{\left|\left|\vec{v}\right|\right|}$$
 
-However, this formulation is considered to be the unit vector formula only if $\hat u$ has a magnitude (i.e., $||\hat u||$) equal to 1.
+Such that $c$ must be equal to $\left|\left|\vec{v}\right|\right|$ in order to get a vector $\hat{u}$ of a unit length equal to1.
 
 Essentially, we're saying that:
 * vector multiplication formula: multiply a scalar by a small vector to get a big vector
@@ -704,6 +731,7 @@ The [system of equations](https://textbooks.math.gatech.edu/ila/systems-of-eqns.
 
 Other solved examples (using the [row operations](https://textbooks.math.gatech.edu/ila/row-reduction.html#paragraphs-5)) are mentioned [here](https://textbooks.math.gatech.edu/ila/linear-independence.html#bluebox-26).
 
+Additionally, look at the basis of a subspace's [example section](#Examples%20for%20Finding%20a%20Subspace's%20Basis); you'll find end-notes regarding linear dependency.
 
 # Basis of a Subspace
 
@@ -727,7 +755,90 @@ The "basis theorem" talks about the set of vectors applicable to be called "basi
 * **Any** $m$ **linearly independent** vectors in a subspace $V$ **form a basis** for $V$.
 * **Any** $m$ vectors **that span** $V$ **form a basis** for $V$.
 
-## Basis Examples
+## Dimension of a Subspace
+
+[source 1: gatech](https://textbooks.math.gatech.edu/ila/dimension.html#dimension-defn-dimension)
+
+The **dimension of a subspace** $V$ is the **number of vectors in any basis** of $V$, and is written as $Dim\,(V)$.
 
 
+
+## Examples for Finding a Subspace's Basis
+
+Example 1 ([source: math.stackexchange.com](https://math.stackexchange.com/questions/948178/finding-a-basis-for-a-subspace-in-bbb-r4)):
+
+Let:
+
+$$
+v_1 = 
+\begin{bmatrix} 2 \cr -1 \cr 2 \cr 1 \end{bmatrix}
+,
+v_2 =
+\begin{bmatrix} 1 \cr 0 \cr 1 \cr 0 \end{bmatrix}
+,
+v_3 =
+\begin{bmatrix} 1 \cr 1 \cr 1 \cr -1 \end{bmatrix}
+,
+v_4 =
+\begin{bmatrix} 1 \cr -1 \cr 1 \cr -1 \end{bmatrix}
+$$
+
+Find a basis for the subspace of $\mathbb{R}^4$ spanned by the set $\left\{v_1,v_2,v_3,v_4\right\}$, and mention its dimension.
+
+Answer:
+
+Optional: convert to augmented matrix:
+
+$$
+\left(
+\begin{array}{cccc|c}
+2 & 1 & 1 & 1 & 0 \cr 
+-1 & 0 & 1 & -1 & 0 \cr
+2 & 1 & 1 & 1 & 0 \cr
+1 & 0 & -1 & -1 & 0 \cr
+\end{array} \;
+\right)
+$$
+
+Side note: the above step is optional as we're dealing with a homogenous system of equation. Check [here](https://textbooks.math.gatech.edu/ila/solution-sets.html#solnsets-no-augment) for details.
+
+Convert to matrix:
+
+$$
+\left(
+\begin{matrix} 
+2 & 1 & 1 & 1 \cr 
+-1 & 0 & 1 & -1 \cr
+2 & 1 & 1 & 1 \cr
+1 & 0 & -1 & -1
+\end{matrix} \;
+\right)
+$$
+
+Change this matrix to reduced row echelon form (detailed steps are mentioned at the end):
+
+$$\left( \;
+\begin{matrix} 
+1 & 0 & -1 & 0 \cr 
+0 & 1 & 3 & 0
+\cr 0 & 0 & 0 & 1 
+\cr 0 & 0 & 0 & 0
+\end{matrix} \; 
+\right)$$
+
+Now, assuming the matrix columns represents the coefficients $a, b, c, d$ respectively, and by seeing rows 1, 2, and 3, we see that $a=c, b=-3 \, c, d=0$ respectively. 
+
+Therefore, $v_3$ is dependent on $v_1, v_2$, while $v_1, v_2, v_4$ (i.e., columns 1, 2, and 4) are linearly independent on each other.
+
+Therefore, the basis $B$ is:
+
+$$B = \left\{v_1, v_2, v_4 \right\}$$
+
+Such that $Dim\,(B) = 3$ (as there are 3 vectors in $B$). 
+
+Side note 1: the [steps done](https://textbooks.math.gatech.edu/ila/row-reduction.html#p-107) to get a reduced row echelon form can be seen [here](https://textbooks.math.gatech.edu/ila/demos/rrinter.html?mat=2,1,1,1:-1,0,1,-1:2,1,1,1:1,0,-1,-1&ops=s0:3,r0:1:1,r0:-2:2,r0:-2:3,s1:2,r1:-1:3,m2:-1.2,r2:1:0,r2:-3:1&cur=0), where you can keep clicking the big right arrow to visualize each step. Alternatively, you can look at the end of that page to directly see the steps.
+
+Side note 2: From this result, we can deduce that the set of vectors $v_1, v_2, v_3, v_4$ is a [linear dependent](#Linear%20Independence) vector set.
+
+Other examples are mentioned in [this](https://www.youtube.com/watch?app=desktop&v=kfVI7Tp98WM) and [this](https://www.youtube.com/watch?app=desktop&v=YYQQo6-lx68) video.
 
