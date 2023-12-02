@@ -8,3 +8,7 @@ Social sorting definitions include:
 * Obtaining personal and group data in order to classify people and populations according to varying criteria, to determine who should be targeted for special treatment, suspicion, eligibility, inclusion, etc.
 * Unequal treatment of different groups of people which produces unfavorable outcomes for those who are ultimately disenfranchised (i.e., deprived) by being placed at the bottom of the sorting.
 
+## Fun Facts
+
+The first time I've heard about "social sorting" as in Kurzgesagt's [video](https://youtu.be/fuFlMtZmvY0?t=260): "The Internet is Worse Than Ever – Now What?"
+

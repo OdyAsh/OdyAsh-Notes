@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Social Sciences/Psychology/Psychology Jargon.md",
+                "file": "Sciences/Formal Sciences/Mathematics/Linear Algebra/Vector.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Social Sciences/Psychology/Psychology Jargon.md"
+                "file": "Sciences/Formal Sciences/Mathematics/Linear Algebra/Vector.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Social Sciences/Psychology/Psychology Jargon.md",
+                "file": "Sciences/Formal Sciences/Mathematics/Linear Algebra/Vector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Social Sciences/Psychology/Psychology Jargon.md",
+                "file": "Sciences/Formal Sciences/Mathematics/Linear Algebra/Vector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,11 +215,17 @@
   },
   "active": "452d6c04d12d6b69",
   "lastOpenFiles": [
-    "Sciences/Social Sciences/Psychology/Regulatory Focus Theory.md",
+    "consistency-report.md",
+    "Sciences/Formal Sciences/Mathematics/Linear Algebra/Vector.md",
+    "Sciences/Formal Sciences/Mathematics/Linear Algebra/Line Equations.md",
+    "Sciences/Formal Sciences/Mathematics/Math Jargon.md",
+    "Sciences/Formal Sciences/Mathematics/Mathematics.md",
+    "Sciences/Formal Sciences/Mathematics/Attachments - Mathematics",
+    "Sciences/Formal Sciences/Mathematics/Linear Algebra/Attachments - Vector",
     "Sciences/Social Sciences/Psychology/Psychology Jargon.md",
+    "Sciences/Social Sciences/Psychology/Regulatory Focus Theory.md",
     "Sciences/Social Sciences/Social Sciences.md",
     "Sciences/Formal Sciences/Computer Science/Computer Science.md",
-    "consistency-report.md",
     "Sciences/Formal Sciences/Computer Science/Attachments - Computer Science",
     "Sciences/Formal Sciences/Computer Science/Computer Hardware/Cables.md",
     "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231129122603.png",
@@ -234,24 +240,18 @@
     "Sciences/Applied Sciences/Media-Temp",
     "Sciences/Applied Sciences",
     "Sciences/Formal Sciences/Computer Science",
-    "Sciences/Formal Sciences/Mathematics/Mathematics.md",
-    "Sciences/Formal Sciences/Mathematics/Media-Temp/Pasted image 20231201094617.png",
+    "Sciences/Formal Sciences/Mathematics/Attachments - Mathematics/Pasted image 20231201094617.png",
     "Sciences/Formal Sciences/Mathematics/Media-Temp/Pasted image 20231201094610.png",
-    "Sciences/Formal Sciences/Mathematics/Media-Temp/Pasted image 20231201093554.png",
-    "Sciences/Formal Sciences/Mathematics/Media-Temp/Pasted image 20231201092409.png",
-    "Sciences/Formal Sciences/Mathematics/Media-Temp/Pasted image 20231201090953.png",
-    "Sciences/Formal Sciences/Mathematics/Media-Temp/Pasted image 20231201090335.png",
-    "Sciences/Formal Sciences/Mathematics/Media-Temp/Pasted image 20231201090131.png",
+    "Sciences/Formal Sciences/Mathematics/Attachments - Mathematics/Pasted image 20231201093554.png",
+    "Sciences/Formal Sciences/Mathematics/Attachments - Mathematics/Pasted image 20231201092409.png",
+    "Sciences/Formal Sciences/Mathematics/Attachments - Mathematics/Pasted image 20231201090953.png",
+    "Sciences/Formal Sciences/Mathematics/Attachments - Mathematics/Pasted image 20231201090335.png",
+    "Sciences/Formal Sciences/Mathematics/Attachments - Mathematics/Pasted image 20231201090131.png",
     "Sciences/Formal Sciences/Mathematics/Media-Temp",
-    "Sciences/Formal Sciences/Mathematics/Math Jargon.md",
     "Sciences/Natural Sciences/Natural Sciences.md",
-    "Sciences/Formal Sciences/Media-Temp",
-    "Sciences/Formal Sciences",
     "Programming/AI/Data Engineering/DE Road Map.md",
     "Obsidian/Debugging Obsidian.md",
-    "Sciences/Formal Sciences/Mathematics/Linear Algebra/Line Equations.md",
     "Programming/DB/Media Streaming.md",
-    "Sciences/Formal Sciences/Mathematics/Linear Algebra/Vectors.md",
     "Sciences/Applied Sciences/Business/Economics/Economic Terms.md",
     "Sciences/Applied Sciences/Business/Business Theory.md",
     "Programming/AI/Data Engineering/DE Interviews FAQ.md",
@@ -260,7 +260,6 @@
     "Obsidian/Publishing Obsidian.md",
     "Programming/VS Code/Debugging.md",
     "Mathematics/Linear Algebra/Vectors-Ash-Desktop.md",
-    "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

@@ -14,31 +14,31 @@ Since [Mathematics is rooted in a lot of other sciences](https://nap.nationalaca
 
 *  [Margie Hale's](https://www2.stetson.edu/~mhale/logic/tree.htm) pure Math tree (personal favorite):
   
-  ![](Media-Temp/Pasted%20image%2020231201090953.png)
+  ![](Attachments%20-%20Mathematics/Pasted%20image%2020231201090953.png)
   
   Such that orange/green/yellow "fruits" refer to Algebra/Geometry/Analysis respectively.
   
 * High-level overview of Mathematics ([source: gogeometry.com](https://gogeometry.com/education/mathematics_fields_mind_map.html)):
   
-  ![](Media-Temp/Pasted%20image%2020231201085602.png)
+  ![](Attachments%20-%20Mathematics/Pasted%20image%2020231201085602.png)
   
 * Daniel Tubbenhauer's pure Math mind map ([source](https://www.dtubbenhauer.com/Talk-Dublin-2020.pdf)):
   
-  ![](Media-Temp/Pasted%20image%2020231201092409.png)
+  ![](Attachments%20-%20Mathematics/Pasted%20image%2020231201092409.png)
   
   
 * quantumazaine's Interactive map focusing on a few Math terminologies/problems/historical-milestones under the terms "numbers", "shapes", and "change" can be found [here](https://www.quantamagazine.org/the-map-of-mathematics-20200213/).
   
 * "The map of Mathematics" ([source: Domain of Science's video](https://www.youtube.com/watch?v=OmJ-4B-mS-Y)):
   
-  ![](Media-Temp/Pasted%20image%2020231201085823.png)
+  ![](Attachments%20-%20Mathematics/Pasted%20image%2020231201085823.png)
   
 * Displaying some terminologies of each sub-field ([source: edrawmind](https://www.edrawmind.com/mind-maps/11525/maths-study)):
   
-  ![](Media-Temp/Pasted%20image%2020231201090131.png)
+  ![](Attachments%20-%20Mathematics/Pasted%20image%2020231201090131.png)
 * Displaying Math concepts as "skills" of concepts to be learned ([source: edrawmind](https://www.edrawmind.com/mind-maps/12298/mathematical-skills)):
   
-  ![](Media-Temp/Pasted%20image%2020231201090335.png)
+  ![](Attachments%20-%20Mathematics/Pasted%20image%2020231201090335.png)
 * Other mind maps are mentioned [here](https://www.edrawmind.com/mind-maps/education/maths/page-1), and [here](https://www.quora.com/Is-there-any-diagram-or-tree-of-all-fields-of-mathematics-or-mathematics-evolution).
 
 
@@ -46,7 +46,7 @@ Unfortunately, there aren't many clear mind maps for applied Math (other than go
 
 However, regarding other sciences in which Math can be applied, there is this mind map ([source: colorado.edu](https://www.colorado.edu/amath/academics/undergraduate-program/applied-math-major-bs/recommended-options-applied-math-majors)):
 
-![](Media-Temp/Pasted%20image%2020231201093554.png)
+![](Attachments%20-%20Mathematics/Pasted%20image%2020231201093554.png)
 
 And this list of math-related sciences ([source: Wikipedia](https://en.wikipedia.org/wiki/Applied_mathematics#Associated_mathematical_sciences)):
 * Engineering and technological engineering
@@ -59,5 +59,5 @@ And this list of math-related sciences ([source: Wikipedia](https://en.wikipedia
 
 This Venn-diagram also depicts how Math is incredibly prevalent in other [sciences](../../Science.md) ([source: Vinay Kumar on ResearchGate.net](https://www.researchgate.net/publication/272852982_Mathematics_Is_Science_A_Topic_Revisited_in_Context_of_FCS_of_India)):
 
-![](Media-Temp/Pasted%20image%2020231201094617.png)
+![](Attachments%20-%20Mathematics/Pasted%20image%2020231201094617.png)
 
