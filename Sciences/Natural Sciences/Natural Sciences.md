@@ -3,7 +3,7 @@
 
 [source: gogeometry.com](https://gogeometry.com/mindmap/academic_disciplines_natural.html)
 
-![](Media-Temp/Pasted%20image%2020231201042607.png)
+![](Attachments%20-%20Natural%20Sciences/Pasted%20image%2020231201042607.png)
 Some labels of the mind map above include:
 - Astronomy
 	- Astrobiology

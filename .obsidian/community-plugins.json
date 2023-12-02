@@ -39,5 +39,7 @@
   "obsidian-link-converter",
   "obsidian-regex-replace",
   "nuke-orphans",
-  "obsidian-sort-and-permute-lines"
+  "obsidian-sort-and-permute-lines",
+  "treefocus",
+  "file-cleaner-redux"
 ]

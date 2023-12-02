@@ -10,7 +10,7 @@
 
 [source 1: gogeometry.com](https://gogeometry.com/mindmap/academic_disciplines_social.html), [source 2: postgrad.com](https://www.postgrad.com/subjects/social_sciences/overview/)
 
-![](Media-Temp/Pasted%20image%2020231201063618.png)
+![](Attachments%20-%20Social%20Sciences/Pasted%20image%2020231201063618.png)
 
 Some labels of the mind map above include:
 - Anthropology

@@ -1,0 +1,39 @@
+{
+  "transformPreset": "DEFAULT",
+  "rules": [
+    {
+      "matcher": {
+        "method": "STARTS_WITH",
+        "value": "_",
+        "context": "NAME"
+      },
+      "mode": "DIM",
+      "excludes": []
+    },
+    {
+      "matcher": {
+        "method": "STARTS_WITH",
+        "value": ".",
+        "context": "NAME"
+      },
+      "mode": "DIM",
+      "excludes": []
+    },
+    {
+      "matcher": {
+        "method": "STARTS_WITH",
+        "value": "!",
+        "context": "NAME"
+      },
+      "mode": "HIGHLIGHT",
+      "excludes": []
+    }
+  ],
+  "fileOverwrites": {
+    "Sciences": "HIGHLIGHT",
+    "Sciences/Applied Sciences": "HIGHLIGHT",
+    "Sciences/Formal Sciences": "HIGHLIGHT",
+    "Sciences/Natural Sciences": "HIGHLIGHT",
+    "Sciences/Social Sciences": "HIGHLIGHT"
+  }
+}

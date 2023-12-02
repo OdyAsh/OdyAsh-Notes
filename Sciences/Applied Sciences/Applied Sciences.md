@@ -12,7 +12,7 @@ An applied science:
 
 [Source 1: gogeometry.com](https://gogeometry.com/mindmap/academic_disciplines_profession.html)
 
-![](Media-Temp/Pasted%20image%2020231201110757.png)
+![](Attachments%20-%20Applied%20Sciences/Pasted%20image%2020231201110757.png)
 
 A "comprehensive" list of applied sciences can be found in the "[Outline of Academic Disciplines](https://en.wikipedia.org/wiki/Outline_of_academic_disciplines#Applied_science)" Wikipedia article.
 

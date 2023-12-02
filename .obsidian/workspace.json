@@ -8,24 +8,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "452d6c04d12d6b69",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sciences/Formal Sciences/Mathematics/Linear Algebra/Vector.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "83f41b57a4e5a7f7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Science.md",
+                "file": "Sciences/Formal Sciences/Computer Science/Computer Science.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Formal Sciences/Mathematics/Linear Algebra/Vector.md"
+                "file": "Sciences/Formal Sciences/Computer Science/Computer Science.md"
               }
             }
           },
@@ -168,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Formal Sciences/Mathematics/Linear Algebra/Vector.md",
+                "file": "Sciences/Formal Sciences/Computer Science/Computer Science.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Formal Sciences/Mathematics/Linear Algebra/Vector.md",
+                "file": "Sciences/Formal Sciences/Computer Science/Computer Science.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -210,36 +198,40 @@
       "obsidian-custom-frames:Open chatgpt": false,
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-trash-explorer:Open trash explorer": false
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "file-cleaner-redux:Clean files": false
     }
   },
-  "active": "452d6c04d12d6b69",
+  "active": "83f41b57a4e5a7f7",
   "lastOpenFiles": [
+    "Sciences/Applied Sciences/Programming/AI/Power BI.md",
+    "Sciences/Formal Sciences/Computer Science/Computer Science.md",
     "consistency-report.md",
+    "Sciences/Science.md",
     "Sciences/Formal Sciences/Mathematics/Linear Algebra/Vector.md",
+    "Islam/Books/Disease and Cure (داء و دواء).md",
+    "Islam/Prophet Muhammad/Attachments - Prophet Muhammad.excalidraw",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Attachments - Data Pipeline",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Attachments - DE Road Map",
+    "Sciences/Applied Sciences/Attachments - Applied Sciences",
+    "Sciences/Applied Sciences/Business/Economics/Attachments - Economic Terms",
+    "Sciences/Formal Sciences/Attachments - Formal Sciences",
+    "Sciences/Natural Sciences/Attachments - Natural Sciences",
+    "Sciences/Social Sciences/Attachments - Social Sciences",
+    "Sciences/Attachments - Science",
     "Sciences/Formal Sciences/Mathematics/Linear Algebra/Line Equations.md",
     "Sciences/Formal Sciences/Mathematics/Math Jargon.md",
     "Sciences/Formal Sciences/Mathematics/Mathematics.md",
     "Sciences/Formal Sciences/Mathematics/Attachments - Mathematics",
-    "Sciences/Formal Sciences/Mathematics/Linear Algebra/Attachments - Vector",
     "Sciences/Social Sciences/Psychology/Psychology Jargon.md",
     "Sciences/Social Sciences/Psychology/Regulatory Focus Theory.md",
     "Sciences/Social Sciences/Social Sciences.md",
-    "Sciences/Formal Sciences/Computer Science/Computer Science.md",
-    "Sciences/Formal Sciences/Computer Science/Attachments - Computer Science",
     "Sciences/Formal Sciences/Computer Science/Computer Hardware/Cables.md",
     "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231129122603.png",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Attachments - Cables",
-    "Sciences/Formal Sciences/Computer Science/Untitled",
-    "Sciences/Science.md",
     "Sciences/Formal Sciences/Computer Science/Attachments - Computer Science/Pasted image 20231201174602.png",
-    "Sciences/Formal Sciences/Computer Science/Media-Temp",
     "Sciences/Formal Sciences/Formal Sciences.md",
     "Sciences/Applied Sciences/Applied Sciences.md",
-    "Sciences/Applied Sciences/Media-Temp/Pasted image 20231201110757.png",
-    "Sciences/Applied Sciences/Media-Temp",
-    "Sciences/Applied Sciences",
-    "Sciences/Formal Sciences/Computer Science",
+    "Sciences/Applied Sciences/Attachments - Applied Sciences/Pasted image 20231201110757.png",
     "Sciences/Formal Sciences/Mathematics/Attachments - Mathematics/Pasted image 20231201094617.png",
     "Sciences/Formal Sciences/Mathematics/Media-Temp/Pasted image 20231201094610.png",
     "Sciences/Formal Sciences/Mathematics/Attachments - Mathematics/Pasted image 20231201093554.png",
@@ -247,19 +239,17 @@
     "Sciences/Formal Sciences/Mathematics/Attachments - Mathematics/Pasted image 20231201090953.png",
     "Sciences/Formal Sciences/Mathematics/Attachments - Mathematics/Pasted image 20231201090335.png",
     "Sciences/Formal Sciences/Mathematics/Attachments - Mathematics/Pasted image 20231201090131.png",
-    "Sciences/Formal Sciences/Mathematics/Media-Temp",
     "Sciences/Natural Sciences/Natural Sciences.md",
-    "Programming/AI/Data Engineering/DE Road Map.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Road Map.md",
     "Obsidian/Debugging Obsidian.md",
-    "Programming/DB/Media Streaming.md",
+    "Sciences/Applied Sciences/Programming/DB/Media Streaming.md",
     "Sciences/Applied Sciences/Business/Economics/Economic Terms.md",
     "Sciences/Applied Sciences/Business/Business Theory.md",
-    "Programming/AI/Data Engineering/DE Interviews FAQ.md",
-    "Programming/AI/Data Engineering/Data Pipeline.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Interviews FAQ.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Pipeline.md",
     "Sciences/Social Sciences/Communication/Verbal Communication/Linguistics/English/Emotional Association.md",
     "Obsidian/Publishing Obsidian.md",
-    "Programming/VS Code/Debugging.md",
-    "Mathematics/Linear Algebra/Vectors-Ash-Desktop.md",
+    "Sciences/Applied Sciences/Programming/VS Code/Debugging.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

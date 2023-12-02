@@ -10,7 +10,7 @@
 
 People have categorized sub-types of science in multiple ways. However, we'll mention this mind map to illustrate the branches of science  ([source: MindMeister](https://www.mindmeister.com/1023614692/branches-ofscience), based on this [source: wikipedia](https://en.wikipedia.org/wiki/Branches_of_science)):
 
-![](Media-Temp/Pasted%20image%2020231201073809.png)
+![](Attachments%20-%20Science/Pasted%20image%2020231201073809.png)
 
 Side note 1: the mind map above is not a comprehensive list. In other words, "social sciences" contain many more sub-fields than those stated in the mind map, etc. 
 

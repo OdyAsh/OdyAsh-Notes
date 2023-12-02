@@ -1,7 +1,7 @@
 
 # About Computer Science
 
-source 1: Wikipedia
+[source 1: Wikipedia](https://en.wikipedia.org/wiki/Computer_science)
 
 * Computer science is the study of computation, information, and automation.
 * Computer science spans [theoretical disciplines to applied disciplines](../../Science.md#Branches%20of%20Science%20(Academic%20Disciplines)).
