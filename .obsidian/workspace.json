@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6a4b97ff29efaaf0",
+        "id": "eba3d04809e38132",
         "type": "tabs",
         "children": [
           {
-            "id": "75856e5efa0f2cbb",
+            "id": "0709cae34b3f4f17",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Road Map.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md"
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Road Map.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Road Map.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Road Map.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -202,44 +202,45 @@
       "file-cleaner-redux:Clean files": false
     }
   },
-  "active": "75856e5efa0f2cbb",
+  "active": "0709cae34b3f4f17",
   "lastOpenFiles": [
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20231202143025.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Interviews FAQ.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20231205212153.png",
+    "Sciences/Formal Sciences/Computer Science/Machine Learning/Machine Learning.md",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
+    "Sciences/Formal Sciences/Computer Science/Machine Learning",
+    "Sciences/Formal Sciences/Mathematics/Mathematics.md",
+    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Audio.md",
+    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204131702.png",
+    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204131524.png",
+    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204125859.png",
+    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204125819.png",
+    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204124819.png",
+    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204124202.png",
+    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204124124.png",
+    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204114729.png",
+    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204114706.png",
+    "Sciences/Social Sciences/Social Sciences.md",
+    "Sciences/Science.md",
+    "Sciences/Formal Sciences/Computer Science/Computer Science.md",
+    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp",
+    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Attachments - Audio",
     "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Linear Algebra.md",
     "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Line Equations.md",
     "Sciences/Formal Sciences/Mathematics/Algebra/Algebra.md",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20231202141631.png",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20231202141300.png",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20231202141229.png",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20231202141152.png",
     "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp",
     "Sciences/Formal Sciences/Mathematics/Algebra/Attachments - Algebra",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Attachments - Algebra/Pasted image 20231202135807.png",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Attachments - Algebra/Pasted image 20231202135031.png",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Attachments - Algebra/Pasted image 20231202134838.png",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Attachments - Algebra/Pasted image 20231202134757.png",
     "Sciences/Formal Sciences/Mathematics/Algebra/Media-Temp",
     "Sciences/Formal Sciences/Mathematics/Algebra",
-    "Sciences/Formal Sciences/Mathematics/Mathematics.md",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
     "Sciences/Formal Sciences/Mathematics/Math Jargon.md",
-    "Sciences/Formal Sciences/Computer Science/Computer Science.md",
     "Sciences/Applied Sciences/Programming/AI/Power BI.md",
     "consistency-report.md",
-    "Sciences/Science.md",
     "Islam/Books/Disease and Cure (داء و دواء).md",
     "Islam/Prophet Muhammad/Attachments - Prophet Muhammad.excalidraw",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Attachments - Data Pipeline",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Attachments - DE Road Map",
-    "Sciences/Applied Sciences/Attachments - Applied Sciences",
-    "Sciences/Applied Sciences/Business/Economics/Attachments - Economic Terms",
-    "Sciences/Formal Sciences/Attachments - Formal Sciences",
     "Sciences/Social Sciences/Psychology/Psychology Jargon.md",
     "Sciences/Social Sciences/Psychology/Regulatory Focus Theory.md",
-    "Sciences/Social Sciences/Social Sciences.md",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Cables.md",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231129122603.png",
-    "Sciences/Formal Sciences/Computer Science/Attachments - Computer Science/Pasted image 20231201174602.png",
     "Sciences/Formal Sciences/Formal Sciences.md",
     "Sciences/Applied Sciences/Applied Sciences.md",
     "Sciences/Natural Sciences/Natural Sciences.md",
@@ -248,8 +249,6 @@
     "Sciences/Applied Sciences/Programming/DB/Media Streaming.md",
     "Sciences/Applied Sciences/Business/Economics/Economic Terms.md",
     "Sciences/Applied Sciences/Business/Business Theory.md",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Interviews FAQ.md",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Pipeline.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

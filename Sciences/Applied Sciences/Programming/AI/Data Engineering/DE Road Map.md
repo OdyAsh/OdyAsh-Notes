@@ -1,4 +1,9 @@
 
+# DE Job Description Example
+
+![](Media-Temp/Pasted%20image%2020231205212153.png)
+
+
 # Bash Overview
 
 [amazing source](https://towardsdatascience.com/bash-for-data-scientists-data-engineers-mlops-engineers-a8e389621e2e); please don't forget to like/share/comment in that TWD (towards data science) article if you find the content below useful.

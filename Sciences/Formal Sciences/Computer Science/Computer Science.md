@@ -19,7 +19,7 @@ A more detailed outline of computer science subfields is listed in [this](https:
 
 ## ACM CCS (Computing Classification System)
 
-One well known subject classification system for computer science is the [ACM Computing Classification System](https://en.wikipedia.org/wiki/ACM_Computing_Classification_System "ACM Computing Classification System")  (personal recommendation), which is devised by the [Association for Computing Machinery](https://en.wikipedia.org/wiki/Association_for_Computing_Machinery "Association for Computing Machinery"). It contains the following (incomplete; has only 2 levels of nesting out of possibly 4 levels):
+One well known subject classification system for computer science is the [ACM Computing Classification System](https://en.wikipedia.org/wiki/ACM_Computing_Classification_System "ACM Computing Classification System")  (personal recommendation, can be accessed [here](https://dl.acm.org/ccs)), which is devised by the [Association for Computing Machinery](https://en.wikipedia.org/wiki/Association_for_Computing_Machinery "Association for Computing Machinery"). It contains the following (incomplete; has only 2 levels of nesting out of possibly 4 levels):
 - Applied computing
 	- Arts and humanities
 	- Computer forensics
