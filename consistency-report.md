@@ -319,7 +319,7 @@ No problems found
 - (line 4): `![[Attachments - Browser-Related Automation/Pasted image 20230215070625.png|525]]`
 
 
-[Sciences/Applied Sciences/Programming/API/API Notes.md](Sciences/Applied%20Sciences/Programming/API/API%20Notes.md): 
+[Sciences/Applied Sciences/Programming/API/API Notes.md](Sciences/Applied%20Sciences/Programming/API/Postman.md): 
 - (line 6): `![[Attachments - API Notes/Pasted image 20230224213026.png]]`
 
 
