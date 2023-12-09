@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Road Map.md",
+                "file": "Sciences/Applied Sciences/Programming/API/API Notes.md",
                 "mode": "source",
                 "source": false
               }
@@ -128,7 +128,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Road Map.md"
+                "file": "Sciences/Applied Sciences/Programming/API/API Notes.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Road Map.md",
+                "file": "Sciences/Applied Sciences/Programming/API/API Notes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -173,7 +173,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Road Map.md",
+                "file": "Sciences/Applied Sciences/Programming/API/API Notes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -204,22 +204,26 @@
   },
   "active": "0709cae34b3f4f17",
   "lastOpenFiles": [
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Interviews FAQ.md",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20231205212153.png",
+    "Sciences/Applied Sciences/Programming/API/Media-Temp/Pasted image 20231209044137.png",
+    "Sciences/Applied Sciences/Programming/API/Media-Temp/Pasted image 20231208191818.png",
+    "Sciences/Applied Sciences/Programming/API/Media-Temp/Pasted image 20231208183450.png",
+    "Sciences/Applied Sciences/Programming/API/Media-Temp/Pasted image 20231208164005.png",
+    "Sciences/Applied Sciences/Programming/API/Media-Temp/Pasted image 20231208160812.png",
+    "Sciences/Applied Sciences/Programming/API/Media-Temp/Pasted image 20231208160652.png",
+    "Sciences/Applied Sciences/Programming/API/Media-Temp/Pasted image 20231208160604.png",
+    "Sciences/Applied Sciences/Programming/API/Media-Temp/Pasted image 20231208160533.png",
+    "Sciences/Applied Sciences/Programming/API/Media-Temp/Pasted image 20231208160123.png",
+    "Sciences/Applied Sciences/Programming/API/Media-Temp/Pasted image 20231208155914.png",
+    "Sciences/Applied Sciences/Programming/API/Media-Temp/Pasted image 20231208155816.png",
+    "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+    "Sciences/Applied Sciences/Programming/API/API Notes.md",
+    "Sciences/Applied Sciences/Programming/API/Media-Temp",
     "Sciences/Formal Sciences/Computer Science/Machine Learning/Machine Learning.md",
+    "Sciences/Applied Sciences/Applied Computer Science",
     "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
     "Sciences/Formal Sciences/Computer Science/Machine Learning",
     "Sciences/Formal Sciences/Mathematics/Mathematics.md",
     "Sciences/Formal Sciences/Computer Science/Computer Hardware/Audio.md",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204131702.png",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204131524.png",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204125859.png",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204125819.png",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204124819.png",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204124202.png",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204124124.png",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204114729.png",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp/Pasted image 20231204114706.png",
     "Sciences/Social Sciences/Social Sciences.md",
     "Sciences/Science.md",
     "Sciences/Formal Sciences/Computer Science/Computer Science.md",
@@ -237,8 +241,6 @@
     "consistency-report.md",
     "Islam/Books/Disease and Cure (داء و دواء).md",
     "Islam/Prophet Muhammad/Attachments - Prophet Muhammad.excalidraw",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Attachments - Data Pipeline",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Attachments - DE Road Map",
     "Sciences/Social Sciences/Psychology/Psychology Jargon.md",
     "Sciences/Social Sciences/Psychology/Regulatory Focus Theory.md",
     "Sciences/Formal Sciences/Formal Sciences.md",
@@ -248,7 +250,6 @@
     "Obsidian/Debugging Obsidian.md",
     "Sciences/Applied Sciences/Programming/DB/Media Streaming.md",
     "Sciences/Applied Sciences/Business/Economics/Economic Terms.md",
-    "Sciences/Applied Sciences/Business/Business Theory.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
