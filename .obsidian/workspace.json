@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+                "file": "Islam/Meetings/جلسة سورة المائدة.md",
                 "mode": "source",
                 "source": false
               }
@@ -140,7 +140,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md"
+                "file": "Islam/Meetings/جلسة سورة المائدة.md"
               }
             }
           },
@@ -168,7 +168,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+                "file": "Islam/Meetings/جلسة سورة المائدة.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +185,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+                "file": "Islam/Meetings/جلسة سورة المائدة.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,6 +224,9 @@
   },
   "active": "cc84a3f97b4d57b5",
   "lastOpenFiles": [
+    "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
+    "Islam/Meetings/جلسة سورة المائدة.md",
+    "Islam/Meetings",
     "Sciences/Applied Sciences/Programming/Cyber Security/OAuth.md",
     "Sciences/Applied Sciences/Programming/API/Postman.md",
     "Sciences/Applied Sciences/Programming/API/API Notes.md",
@@ -241,7 +244,6 @@
     "Sciences/Applied Sciences/Programming/API/Attachments - Postman/Pasted image 20231208160652.png",
     "Sciences/Applied Sciences/Programming/API/Attachments - Postman/Pasted image 20231208160604.png",
     "Sciences/Applied Sciences/Programming/API/Attachments - Postman/Pasted image 20231208160533.png",
-    "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
     "Sciences/Applied Sciences/Programming/API/Media-Temp",
     "Sciences/Formal Sciences/Computer Science/Machine Learning/Machine Learning.md",
     "Sciences/Applied Sciences/Applied Computer Science",
@@ -257,7 +259,6 @@
     "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Linear Algebra.md",
     "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Line Equations.md",
     "Sciences/Formal Sciences/Mathematics/Algebra/Algebra.md",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp",
     "Sciences/Formal Sciences/Mathematics/Math Jargon.md",
     "Sciences/Applied Sciences/Programming/AI/Power BI.md",
     "consistency-report.md",
