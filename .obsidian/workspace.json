@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "eba3d04809e38132",
+        "id": "6a739df791bb7344",
         "type": "tabs",
         "children": [
           {
-            "id": "cc84a3f97b4d57b5",
+            "id": "6765ddf5fd6797fc",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Meetings/جلسة سورة المائدة.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "0709cae34b3f4f17",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sciences/Applied Sciences/Programming/API/Postman.md",
+                "file": "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
                 "mode": "source",
                 "source": false
               }
@@ -60,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "autorelo",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -97,7 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 419.5
+    "width": 401.5
   },
   "right": {
     "id": "3cf6ea7704bfbf22",
@@ -108,10 +96,10 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f389826702bb98f9",
+            "id": "9ce51b1df8a2ccb0",
             "type": "leaf",
             "state": {
-              "type": "git-view",
+              "type": "timeline",
               "state": {}
             }
           },
@@ -120,6 +108,22 @@
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "f389826702bb98f9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "4848212af0ea4c31",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
               "state": {}
             }
           },
@@ -140,16 +144,8 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Meetings/جلسة سورة المائدة.md"
+                "file": "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md"
               }
-            }
-          },
-          {
-            "id": "f07397f9519fb7b4",
-            "type": "leaf",
-            "state": {
-              "type": "reminder-list",
-              "state": {}
             }
           },
           {
@@ -158,7 +154,9 @@
             "state": {
               "type": "all-properties",
               "state": {
-                "sortOrder": "frequency"
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
               }
             }
           },
@@ -168,7 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/Meetings/جلسة سورة المائدة.md",
+                "file": "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -185,7 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/Meetings/جلسة سورة المائدة.md",
+                "file": "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -200,76 +198,78 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 294.5
+    "width": 336.5
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-day-planner:Timeline": false,
+      "daily-notes:Open today's daily note": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-custom-frames:Open chatgpt": false,
+      "obsidian-custom-frames:Open chatgpt": true,
       "omnisearch:Omnisearch": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
       "obsidian-trash-explorer:Open trash explorer": false,
-      "file-cleaner-redux:Clean files": false
+      "file-cleaner-redux:Clean files": false,
+      "periodic-notes:Open today": false
     }
   },
-  "active": "cc84a3f97b4d57b5",
+  "active": "6765ddf5fd6797fc",
   "lastOpenFiles": [
-    "Islam/Books/What a Muslim Cannot be Ignorant of (ما لا يسع المسلم جهله).md",
-    "Islam/Meetings/جلسة سورة المائدة.md",
-    "Islam/Meetings",
-    "Sciences/Applied Sciences/Programming/Cyber Security/OAuth.md",
-    "Sciences/Applied Sciences/Programming/API/Postman.md",
-    "Sciences/Applied Sciences/Programming/API/API Notes.md",
-    "Sciences/Applied Sciences/Programming/API/Attachments - API Notes",
-    "Sciences/Applied Sciences/Programming/API/Attachments - API Notes/Pasted image 20231209045211.png",
-    "Sciences/Applied Sciences/Programming/API/Attachments - OAuth/Pasted image 20230224213026.png",
-    "Sciences/Applied Sciences/Programming/API/Attachments - Postman",
-    "Sciences/Applied Sciences/Programming/Cyber Security",
-    "Sciences/Applied Sciences/Programming/API/Attachments - OAuth",
-    "Sciences/Applied Sciences/Programming/API/Attachments - Postman/Pasted image 20231209044137.png",
-    "Sciences/Applied Sciences/Programming/API/Attachments - Postman/Pasted image 20231208191818.png",
-    "Sciences/Applied Sciences/Programming/API/Media-Temp/Pasted image 20231208183450.png",
-    "Sciences/Applied Sciences/Programming/API/Attachments - Postman/Pasted image 20231208164005.png",
-    "Sciences/Applied Sciences/Programming/API/Attachments - Postman/Pasted image 20231208160812.png",
-    "Sciences/Applied Sciences/Programming/API/Attachments - Postman/Pasted image 20231208160652.png",
-    "Sciences/Applied Sciences/Programming/API/Attachments - Postman/Pasted image 20231208160604.png",
-    "Sciences/Applied Sciences/Programming/API/Attachments - Postman/Pasted image 20231208160533.png",
-    "Sciences/Applied Sciences/Programming/API/Media-Temp",
-    "Sciences/Formal Sciences/Computer Science/Machine Learning/Machine Learning.md",
-    "Sciences/Applied Sciences/Applied Computer Science",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
-    "Sciences/Formal Sciences/Computer Science/Machine Learning",
-    "Sciences/Formal Sciences/Mathematics/Mathematics.md",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Audio.md",
-    "Sciences/Social Sciences/Social Sciences.md",
-    "Sciences/Science.md",
-    "Sciences/Formal Sciences/Computer Science/Computer Science.md",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Media-Temp",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Attachments - Audio",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Linear Algebra.md",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Line Equations.md",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Algebra.md",
-    "Sciences/Formal Sciences/Mathematics/Math Jargon.md",
-    "Sciences/Applied Sciences/Programming/AI/Power BI.md",
     "consistency-report.md",
-    "Islam/Books/Disease and Cure (داء و دواء).md",
-    "Sciences/Social Sciences/Psychology/Psychology Jargon.md",
-    "Sciences/Social Sciences/Psychology/Regulatory Focus Theory.md",
-    "Sciences/Formal Sciences/Formal Sciences.md",
-    "Sciences/Applied Sciences/Applied Sciences.md",
-    "Sciences/Natural Sciences/Natural Sciences.md",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Road Map.md",
-    "Obsidian/Debugging Obsidian.md",
+    "Islam/The Quran/Attachments - 54. Surah Al-Qamar (القمر).excalidraw",
+    "Sciences/Applied Sciences/Programming/Python/Python Environments/Attachments - Interaction between Different Modules and Packages",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Attachments - Linear Algebra",
+    "Tasks/Personal Tasks/Weekly/Attachments - 2024-W01",
+    "Excalidraw/Drawing 2024-01-07 04.53.02.excalidraw.md",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
+    "Tasks/Personal Tasks/Weekly/2024-W01.md",
+    "Tasks/Personal Tasks/Daily/2024-01-07.md",
+    "Tasks/Personal Tasks/Yearly/Annual Template.md",
+    "Tasks/Personal Tasks/Yearly/Annual Template.md.crdownload",
+    "Tasks/Personal Tasks/Weekly/Weekly Template.md",
+    "Tasks/Personal Tasks/Weekly/Weekly Template.md.crdownload",
+    "Tasks/Personal Tasks/Monthly/Monthly Template.md",
+    "Tasks/Personal Tasks/Monthly/Monthly Template.md.crdownload",
+    "Tasks/Personal Tasks/Daily/Daily Template.md",
+    "Tasks/Personal Tasks/Daily/Daily Template.md.crdownload",
+    "Tasks/Personal Tasks/Weekly/Attachments - 2024-W01/2024-01.md",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
+    "Tasks/Personal Tasks/Daily/2024-01-01.md",
+    "Tasks/Personal Tasks/Weekly/Attachments - 2024-W01/2024-01-07.md",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. TMP.md",
+    "Tasks/Personal Tasks/Daily",
+    "Tasks/Personal Tasks/Yearly",
+    "Sciences/Applied Sciences/Programming/Python/Python Environments/Interaction between Different Modules and Packages.md",
+    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
+    "Islam/Characteristics/Procrastination (الكسل).md",
+    "Secrets/Work Drafts.md",
+    "Sciences/Applied Sciences/Programming/Python/Optimizations.md",
+    "Sciences/Applied Sciences/Programming/Python/Dealing with Date and Time.md",
+    "Sciences/Applied Sciences/Programming/Python/Debugging Python Code.md",
+    "Islam/Meetings/جلسة سورة الأنعام.md",
+    "Islam/Meetings/جلسة.md",
+    "Islam/The Quran/Attachments - 54. Surah Al-Qamar (القمر).excalidraw/Pasted Image 20231229142947_237.png",
+    "Islam/The Quran/Attachments - 54. Surah Al-Qamar (القمر).excalidraw/Pasted Image 20231229143005_243.png",
+    "Islam/The Quran/Attachments - 54. Surah Al-Qamar (القمر).excalidraw/Pasted Image 20231229142813_190.png",
+    "Islam/Books/Facilitated Jurisprudence (الفقه الميسر).md",
+    "Islam/The Quran/54. Surah Al-Qamar (القمر).excalidraw.md",
+    "Islam/The Quran/53. Surah An-Najm (النجم).excalidraw.md",
+    "Sciences/Applied Sciences/Programming/Python/Python Environments/Attachments - Interaction between Different Modules and Packages/Pasted image 20231219145144.png",
+    "Sciences/Applied Sciences/Programming/Python/Python Environments/Attachments - Interaction between Different Modules and Packages/Pasted image 20231219144047.png",
+    "Sciences/Applied Sciences/Programming/Python/Python Environments/Attachments - Interaction between Different Modules and Packages/Pasted image 20231219124154.png",
+    "Sciences/Applied Sciences/Programming/Python/Python Environments/Media-Temp/Pasted image 20231219124016.png",
+    "Sciences/Applied Sciences/Programming/Python/Python Environments/Media-Temp/Pasted image 20231219123519.png",
+    "Sciences/Applied Sciences/Programming/Python/Python Environments/Media-Temp/Pasted image 20231219123507.png",
+    "Sciences/Applied Sciences/Programming/Python/Python Environments/Media-Temp/Pasted image 20231219122501.png",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

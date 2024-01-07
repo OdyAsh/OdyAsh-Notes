@@ -1,0 +1,34 @@
+{
+  "showGettingStartedBanner": true,
+  "hasMigratedDailyNoteSettings": true,
+  "hasMigratedWeeklyNoteSettings": false,
+  "daily": {
+    "folder": "Tasks/Personal Tasks/Daily",
+    "template": "Tasks/Personal Tasks/Daily/Daily Template.md",
+    "enabled": true
+  },
+  "weekly": {
+    "format": "",
+    "template": "Tasks/Personal Tasks/Weekly/Weekly Template.md",
+    "folder": "Tasks/Personal Tasks/Weekly",
+    "enabled": true
+  },
+  "monthly": {
+    "format": "",
+    "template": "Tasks/Personal Tasks/Monthly/Monthly Template.md",
+    "folder": "Tasks/Personal Tasks/Monthly",
+    "enabled": true
+  },
+  "quarterly": {
+    "format": "",
+    "template": "",
+    "folder": "Tasks/Personal Tasks/Quarterly",
+    "enabled": true
+  },
+  "yearly": {
+    "format": "",
+    "template": "Tasks/Personal Tasks/Yearly/Annual Template.md",
+    "folder": "Tasks/Personal Tasks/Yearly",
+    "enabled": true
+  }
+}

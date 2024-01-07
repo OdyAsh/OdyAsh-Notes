@@ -211,7 +211,7 @@ res
 2. What worked for me personally (if you want to install using conda/mamba): don't install from the generated conda command in [this](https://pytorch.org/get-started/locally/#:~:text=Compute%20Platform-,Run%20this%20Command,-%3A) webpage. Instead, use the following command ([source](https://pytorch.org/get-started/previous-versions/#:~:text=conda%20install%20pytorch%3D%3D1.13.1%20torchvision%3D%3D0.14.1%20torchaudio%3D%3D0.13.1%20%2Dc%20pytorch)) (side note: if you want to use PyTorch Lightning, then conda install it first):
 `conda install pytorch==x.x.x torchvision torchaudio -c pytorch`
 
-verify by running this block (`cudnn` is optional I believe, but you should [[../Python/Virtual Environments/Conda Environment#Installing CUDA|get it]]):
+verify by running this block (`cudnn` is optional I believe, but you should [[../Python/Python Environments/Conda Environment#Installing CUDA|get it]]):
 ``` python
 import torch
 print(torch.__version__)
@@ -507,7 +507,7 @@ def encode(imgPath):
 which is taken from [here](https://towardsdatascience.com/image-captioning-with-keras-teaching-computers-to-describe-pictures-c88a46a311b8#:~:text=feature%20vector%20as-,follows,-%3A), and is explicitly talked about [here](<https://stackoverflow.com/questions/59305025/why-does-keras-inceptionv3-preprocess-input-and-plt-imshowimg-make-pictures-so#:~:text=The%20preprocessing%20is%20(supposed%20to%20be)%20exactly%20the%20one%20used%20to%20train%20the%20Inception%20model.%20So%2C%20if%20you%20are%20going%20to%20use%20a%20pretrained%20Inception%2C%20it%27s%20essential%20to%20have%20this%20preprocessing%2C%20otherwise%20the%20Inception%20model%20will%20have%20terrible%20performance>)
 
 ## Installation Notes
-(Quick note: if you're planning to use GPU, you have to make sure you have the CUDA/cudnn support on your platform that are compatible with the TF version that you will install based on the two options below, you can check more about how to get CUDA/cudnn [[../Python/Virtual Environments/Conda Environment#Installing CUDA|here]])
+(Quick note: if you're planning to use GPU, you have to make sure you have the CUDA/cudnn support on your platform that are compatible with the TF version that you will install based on the two options below, you can check more about how to get CUDA/cudnn [[../Python/Python Environments/Conda Environment#Installing CUDA|here]])
 
 ([source](https://stackoverflow.com/questions/41402409/tensorflow-doesnt-seem-to-see-my-gpu?answertab=modifieddesc#tab-top:~:text=conda%20install%20tensorflow%3D2*%3Dgpu*))
 run this command in CMD while in a conda/mamba activated environment:

@@ -10,6 +10,7 @@
 1.  Highlight code that you want to fold/unfold
 2.  ctrl+k+0 (or 1) to fold
 3.  ctrl+k+j to unfold
+4. (personal note: for me, the shortcuts are found below)
 
 [source](https://www.grepper.com/tpc/visual+code+collapse+all)
 

@@ -1,7 +1,7 @@
 
 # DE Job Description Example
 
-![](Media-Temp/Pasted%20image%2020231205212153.png)
+![](Attachments%20-%20DE%20Road%20Map/Pasted%20image%2020231205212153.png)
 
 
 # Bash Overview

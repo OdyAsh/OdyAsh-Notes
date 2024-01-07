@@ -17,12 +17,12 @@ source: Wikipedia
 
 Mind map of Math basics and how they relate to **geometric** and **computational aspects** of linear algebra:
 
-![](Media-Temp/Pasted%20image%2020231202141300.png)
+![](Attachments%20-%20Linear%20Algebra/Pasted%20image%2020231202141300.png)
 
 About the mind map above: The skills from high school math you need to “import” to your study of linear algebra are geometry, functions, and the tricks for solving systems of equations.
 
 Mind map of Linear Algebra's applications:
 
-![](Media-Temp/Pasted%20image%2020231202141631.png)
+![](Attachments%20-%20Linear%20Algebra/Pasted%20image%2020231202141631.png)
 
 For detailed mind maps about some Linear Algebra terminologies (e.g., vectors and matrices), either check [this](https://sites.oxy.edu/ron/math/214/) website, or check my other notes which also reference some of these mind maps. 

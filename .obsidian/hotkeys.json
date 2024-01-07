@@ -8,15 +8,6 @@
       "key": "D"
     }
   ],
-  "obsidian-excalidraw-plugin:Split text by lines": [
-    {
-      "modifiers": [
-        "Mod",
-        "Shift"
-      ],
-      "key": "F"
-    }
-  ],
   "obsidian-excalidraw-plugin:Split text by space (Arabic)": [
     {
       "modifiers": [
@@ -54,5 +45,21 @@
   "table-editor-obsidian:table-control-bar": [],
   "editor:delete-paragraph": [],
   "editor:open-link-in-new-leaf": [],
-  "editor:toggle-checklist-status": []
+  "editor:toggle-checklist-status": [],
+  "heycalmdown-navigate-cursor-history:cursor-position-backward": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowLeft"
+    }
+  ],
+  "heycalmdown-navigate-cursor-history:cursor-position-forward": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "ArrowRight"
+    }
+  ]
 }

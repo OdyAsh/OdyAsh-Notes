@@ -174,7 +174,7 @@ More details are in [this](https://www.youtube.com/watch?v=m4hy63fEgA0) video.
 			* Same definitions as dBu, but the reference voltage level is now 1V, instead of 0.775V.
 		* Comparison between dBu and dBV ([source: audiouniversityonline.com](https://audiouniversityonline.com/consumer-vs-professional-audio-levels-what-is-the-difference/)):
 		  
-		  ![](Media-Temp/Pasted%20image%2020231204131702.png)
+		  ![](Attachments%20-%20Audio/Pasted%20image%2020231204131702.png)
 		  
 * The dB [measurement levels increase](https://www.sciencedirect.com/topics/engineering/decibel-scale) almost exponentially. 
 	* 10 dB is 10 times more intense than 0 dB. 
@@ -184,24 +184,24 @@ More details are in [this](https://www.youtube.com/watch?v=m4hy63fEgA0) video.
 			* E.g.: 10 watt amplifier has "3 dB more power" than 5, because $10 \cdot log_{10} (10/5)=3$
 			* Other examples:
 			  
-			  ![|350](Media-Temp/Pasted%20image%2020231204125819.png)
+			  ![|350](Attachments%20-%20Audio/Pasted%20image%2020231204125819.png)
 			  
 	* Number of dBs = $20 \cdot log_{10} (V_1/V_2)$ where $V_1$ and $V_2$ are the two **voltages** being compared.
 		* Therefore, 6dB represents a doubling in power.
 			* E.g.: 4V has "6 dB more voltage"  than 2V, because $20 \cdot log_{10} (4/2)=6$
 			* Other examples:
 			  
-			  ![|345](Media-Temp/Pasted%20image%2020231204125859.png)
+			  ![|345](Attachments%20-%20Audio/Pasted%20image%2020231204125859.png)
 			  
 	* Visualizations of dBm as red and dBV as blue respectively:
 	  
-	  ![](Media-Temp/Pasted%20image%2020231204124819.png)
+	  ![](Attachments%20-%20Audio/Pasted%20image%2020231204124819.png)
 
 Visualizations of the decibel scale:
 
-![](Media-Temp/Pasted%20image%2020231203093501.png)
+![](Attachments%20-%20Audio/Pasted%20image%2020231203093501.png)
 
-![](Media-Temp/Pasted%20image%2020231203093523.png)
+![](Attachments%20-%20Audio/Pasted%20image%2020231203093523.png)
 
 ([source: residential-acoustics.com](https://residential-acoustics.com/decibel-levels-sometimes-negative/))
 
@@ -215,7 +215,7 @@ There are three levels of signal that are transmitted via a cable:
 
 Alternative visualization about the difference between mic-level signal, instrument-level signal, line-level signal, and speaker-level signal ([source: blackghostaudio.com](https://www.blackghostaudio.com/blog/audio-signal-levels-explained-mic-instrument-line-and-speaker)):
 
-![](Media-Temp/Pasted%20image%2020231203114737.png)
+![](Attachments%20-%20Audio/Pasted%20image%2020231203114737.png)
 
 ## Line Level
 
@@ -231,7 +231,7 @@ Alternative visualization about the difference between mic-level signal, instrum
 	* Hi-fis
 	* Consumer electronics such as TVs and MP3 players
 
-![](Media-Temp/Pasted%20image%2020231203154440.png)
+![](Attachments%20-%20Audio/Pasted%20image%2020231203154440.png)
 
 ## Mic Level
 
@@ -241,7 +241,7 @@ Alternative visualization about the difference between mic-level signal, instrum
 * requires a pre-amplifier to bring it up to line level. 
 * Microphone level is usually specified between -60 and -40 dBu. (dBu and dBV are decibel measurements relative to voltage.)
 
-![](Media-Temp/Pasted%20image%2020231203154550.png)
+![](Attachments%20-%20Audio/Pasted%20image%2020231203154550.png)
 
 ## Instrument Level
 
@@ -254,7 +254,7 @@ Alternative visualization about the difference between mic-level signal, instrum
 	* a Hi-Z input on a mic preamp
 	* a DI box
 
-![](Media-Temp/Pasted%20image%2020231204111151.png)
+![](Attachments%20-%20Audio/Pasted%20image%2020231204111151.png)
 
 ## Phono Level
 
@@ -263,7 +263,7 @@ Alternative visualization about the difference between mic-level signal, instrum
 * Weaker than mic level.
 * Produced by turntables used to play Vinyl records.
 
-![](Media-Temp/Pasted%20image%2020231204113930.png)
+![](Attachments%20-%20Audio/Pasted%20image%2020231204113930.png)
 
 ## Speaker Level
 
@@ -276,4 +276,4 @@ Alternative visualization about the difference between mic-level signal, instrum
 	* consumer hi-fi systems
 	* 
 
-![](Media-Temp/Pasted%20image%2020231204114729.png)
+![](Attachments%20-%20Audio/Pasted%20image%2020231204114729.png)

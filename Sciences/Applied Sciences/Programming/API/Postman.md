@@ -1,8 +1,11 @@
 
+TODO: complete this file and also reference theory found in [OAuth](../Cyber%20Security/OAuth.md)
 
 # OAuth 2.0 Use Cases
 
 ## Using YouTube Data API V3 and Postman
+
+NOTE: Incomplete tutorial.
 
 Resources that can help (even though they could be about different APIs, but encapsulates the essential steps of the OAuth2 work flow):
 

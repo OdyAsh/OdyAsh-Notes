@@ -6,7 +6,6 @@
   "dataview",
   "excalibrain",
   "obsidian-kanban",
-  "obsidian-reminder-plugin",
   "mousewheel-image-zoom",
   "obsidian-languagetool-plugin",
   "cm-editor-syntax-highlight-obsidian",
@@ -41,5 +40,12 @@
   "nuke-orphans",
   "obsidian-sort-and-permute-lines",
   "treefocus",
-  "file-cleaner-redux"
+  "file-cleaner-redux",
+  "editor-width-slider",
+  "remember-cursor-position",
+  "heycalmdown-navigate-cursor-history",
+  "calendar",
+  "obsidian-columns",
+  "obsidian-day-planner",
+  "periodic-notes"
 ]

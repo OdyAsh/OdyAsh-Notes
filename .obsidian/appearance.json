@@ -5,7 +5,8 @@
   "enabledCssSnippets": [
     "image-details",
     "bullet-points",
-    "spaces-between-paragraphs"
+    "spaces-between-paragraphs",
+    "responsive-youtube"
   ],
   "translucency": false
 }
