@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
+                "file": "Sciences/Applied Sciences/Programming/Python/Advanced Syntax.md",
                 "mode": "source",
                 "source": false
               }
@@ -96,14 +96,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "9ce51b1df8a2ccb0",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {}
-            }
-          },
-          {
             "id": "663b36946512b5f1",
             "type": "leaf",
             "state": {
@@ -144,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md"
+                "file": "Sciences/Applied Sciences/Programming/Python/Advanced Syntax.md"
               }
             }
           },
@@ -166,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
+                "file": "Sciences/Applied Sciences/Programming/Python/Advanced Syntax.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -183,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
+                "file": "Sciences/Applied Sciences/Programming/Python/Advanced Syntax.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -196,9 +188,16 @@
               "type": "advanced-tables-toolbar",
               "state": {}
             }
+          },
+          {
+            "id": "fb16f26fa3616ad4",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "horizontal",
@@ -224,13 +223,16 @@
   },
   "active": "6765ddf5fd6797fc",
   "lastOpenFiles": [
+    "Sciences/Applied Sciences/Programming/Python/Debugging Python Code.md",
+    "Sciences/Applied Sciences/Programming/Python/Advanced Syntax.md",
+    "Secrets/Work Drafts.md",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
     "consistency-report.md",
     "Islam/The Quran/Attachments - 54. Surah Al-Qamar (القمر).excalidraw",
     "Sciences/Applied Sciences/Programming/Python/Python Environments/Attachments - Interaction between Different Modules and Packages",
     "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Attachments - Linear Algebra",
     "Tasks/Personal Tasks/Weekly/Attachments - 2024-W01",
     "Excalidraw/Drawing 2024-01-07 04.53.02.excalidraw.md",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
     "Tasks/Personal Tasks/Weekly/2024-W01.md",
     "Tasks/Personal Tasks/Daily/2024-01-07.md",
     "Tasks/Personal Tasks/Yearly/Annual Template.md",
@@ -251,10 +253,8 @@
     "Sciences/Applied Sciences/Programming/Python/Python Environments/Interaction between Different Modules and Packages.md",
     "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
     "Islam/Characteristics/Procrastination (الكسل).md",
-    "Secrets/Work Drafts.md",
     "Sciences/Applied Sciences/Programming/Python/Optimizations.md",
     "Sciences/Applied Sciences/Programming/Python/Dealing with Date and Time.md",
-    "Sciences/Applied Sciences/Programming/Python/Debugging Python Code.md",
     "Islam/Meetings/جلسة سورة الأنعام.md",
     "Islam/Meetings/جلسة.md",
     "Islam/The Quran/Attachments - 54. Surah Al-Qamar (القمر).excalidraw/Pasted Image 20231229142947_237.png",
@@ -262,7 +262,6 @@
     "Islam/The Quran/Attachments - 54. Surah Al-Qamar (القمر).excalidraw/Pasted Image 20231229142813_190.png",
     "Islam/Books/Facilitated Jurisprudence (الفقه الميسر).md",
     "Islam/The Quran/54. Surah Al-Qamar (القمر).excalidraw.md",
-    "Islam/The Quran/53. Surah An-Najm (النجم).excalidraw.md",
     "Sciences/Applied Sciences/Programming/Python/Python Environments/Attachments - Interaction between Different Modules and Packages/Pasted image 20231219145144.png",
     "Sciences/Applied Sciences/Programming/Python/Python Environments/Attachments - Interaction between Different Modules and Packages/Pasted image 20231219144047.png",
     "Sciences/Applied Sciences/Programming/Python/Python Environments/Attachments - Interaction between Different Modules and Packages/Pasted image 20231219124154.png",
