@@ -309,7 +309,7 @@ where BigQuery fits in the DE picture:
 
 ![](Media-Temp/Pasted%20image%2020240113100136.png)
 
-## BigQuery Implementation
+## BigQuery Implementation Overview
 
 Customer-centric view of how BigQuery operates under the hood ([source](<[source](https://medium.com/google-cloud/the-12-components-of-google-bigquery-c2b49829a7c7)>)):
 
@@ -323,77 +323,7 @@ Customer-centric view of how BigQuery operates under the hood ([source](<[source
 * Storage and Compute are separated.
 	* Communication between them happens through Jupiter.
 
-### How BigQuery Stores Data
-
-#capacitor #columnar-storage #run-length-encoding #dictionary-encoding
-
-Now ([source: 3:40](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/wbnR5/introduction-to-bigquery)), <mark style="background: #FFF3A3A6;">BigQuery uses "Capacitor" for storage optimization purposes</mark>, and is defined as:
-- A columnar storage file format used in BigQuery.
-- Enhances query speed by storing data in a compressed, efficient manner.
-
-This "compressed manner" is essentially:
-- **Run Length Encoding:**
-    - Compresses repetitive values into a count and a single value.
-    - Example: “Q1” appears 300 times, encoded as (Q1, 1, 300).
-- **Dictionary Encoding:**
-    - Maps distinct values to integers for efficient storage.
-    - Example: Unique product IDs are assigned integer identifiers.
-
-So basically:
-- Capacitor uses both run length and dictionary encoding.
-- Optimizes storage efficiency and query performance.
-
-Diagram illustration:
-
-![](Media-Temp/Pasted%20image%2020240114074302.png)
-
-### How BigQuery Run Queries
-
-[source: 4:05](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/wbnR5/introduction-to-bigquery)
-
-- **BigQuery Slot:**
-    - Represents a unit of CPU, memory, and networking resources.
-    - Includes supporting technologies and sub-services.
-    - Specifications may vary during query execution.
-        - I.e., some slots may have more CPU, etc., than others.
-
-
-![](Media-Temp/Pasted%20image%2020240114075144.png)
-
-**Slot Allocation Factors:**
-- **Default Quota:** Each account has a default limit of 2000 slots for on-demand querying.
-- **Flat Rate Pricing:** Offers reserved slots for consistent billing.
-- **Query Complexity:** Simple queries using fewer slots execute faster.
-- **Concurrent Queries:** Slots are shared among all queries; excess demand leads to slower execution.
-	- "Excess demand" example: If you've reserved 10,000 slots but you have 30 concurrent queries that together ask for 15,000 slots, the queries will not get all the slots they require.
-
-
-![](Media-Temp/Pasted%20image%2020240114075400.png)
-
-### How BigQuery Structures Information
-
-[source](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/b9AEc/get-started-with-bigquery)
-
-![](Media-Temp/Pasted%20image%2020240114181155.png)
-
-### SQL Query's Lifecycle in BigQuery
-
-[source: 1:10](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/b9AEc/get-started-with-bigquery) 
-
-- **BigQuery Query and Storage Services:**
-    - **Separate but Collaborative:** The query service is distinct from the storage service, yet they work in tandem.
-    - **Native Tables:** Querying native tables within BigQuery’s public data project is common and highly efficient.
-    - **Data Organization:** Both services internally organize data to facilitate efficient querying of large datasets.
-- **Query Execution:**
-    - **Federated Queries:** Is an option for querying of external data sources, like CSV files in Cloud Storage, without loading into BigQuery.
-    - **Temporary Tables:** Query results are placed in temporary tables, visible in the UI for 24 hours, enabling cache usage for repeat queries.
-    - **Cache and Charges:** Cached query results are free, while permanent destination tables incur storage charges.
-
-Now, since querying and storage are separate, we can separate the costs as well:
-
-![](Media-Temp/Pasted%20image%2020240114170434.png)
-
-## Loading Data into BigQuery
+## How BigQuery Loads Data
 
 [source: 3:00](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/DcYqO/load-data-into-bigquery)
 
@@ -442,15 +372,157 @@ JavaScript in this case can contain other libraries.
 
 Google has its own set of UDFs [here](https://github.com/GoogleCloudPlatform/bigquery-utils).
 
+## How BigQuery Stores Data
+
+#capacitor #columnar-storage #run-length-encoding #dictionary-encoding
+
+Now ([source: 3:40](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/wbnR5/introduction-to-bigquery)), <mark style="background: #FFF3A3A6;">BigQuery uses "Capacitor" for storage optimization purposes</mark>, and is defined as:
+- A columnar storage file format used in BigQuery.
+- Enhances query speed by storing data in a compressed, efficient manner.
+
+This "compressed manner" is essentially:
+- **Run Length Encoding:**
+    - Compresses repetitive values into a count and a single value.
+    - Example: “Q1” appears 300 times, encoded as (Q1, 1, 300).
+- **Dictionary Encoding:**
+    - Maps distinct values to integers for efficient storage.
+    - Example: Unique product IDs are assigned integer identifiers.
+
+So basically:
+- Capacitor uses both run length and dictionary encoding.
+- Optimizes storage efficiency and query performance.
+
+Diagram illustration:
+
+![](Media-Temp/Pasted%20image%2020240114074302.png)
+
+## Partitioned Tables
+
+#partitioned-table #table-pruning #ingestion-time-partitioning #partially-sorted-table
+
+[source 1](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/7dOQL/optimize-with-partitioning-and-clustering), [source 2](https://towardsdatascience.com/how-to-reduce-your-analytics-costs-with-bigquery-partitioned-tables-9298c274bf7d), [source 3](https://cloud.google.com/bigquery/docs/clustered-tables), [source 4](https://cloud.google.com/bigquery/docs/partitioned-tables), [source 5](https://cloud.google.com/bigquery/docs/partitioned-tables#:~:text=column%2Dpartitioned%20table.-,Ingestion%20time%20partitioning,are%20based%20on%20UTC%20time.), [source 6](https://hoffa.medium.com/bigquery-optimized-cluster-your-tables-65e2f684594b)
+
+A partitioned table ([s2](https://towardsdatascience.com/how-to-reduce-your-analytics-costs-with-bigquery-partitioned-tables-9298c274bf7d)):
+
+![](Media-Temp/Pasted%20image%2020240115140649.png)
+
+More about partitioning ([s4](https://cloud.google.com/bigquery/docs/partitioned-tables)):
+* A partitioned table is divided into segments, called partitions.
+* If a query uses a qualifying filter on the value of the partitioning column, <mark style="background: #FFF3A3A6;">BigQuery can scan the partitions that match the filter and skip the remaining partitions.</mark> 
+	* This process is called [pruning](https://cloud.google.com/bigquery/docs/querying-partitioned-tables).
+* In a partitioned table, data is stored in physical blocks, each of which holds one partition of data. 
+* Each partitioned table maintains various metadata about the sort properties across all operations that modify it. 
+	* The metadata lets BigQuery more accurately estimate a query cost before the query is run.
+	* Examples of metadata: the partitioning key, partition ranges, the number of rows in each partition, and partition properties.
+		* "Partition properties" include the rules and behaviors for how data is organized, stored, and accessed within each partition.
+
+Methods of partitioning ([s1](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/7dOQL/optimize-with-partitioning-and-clustering)):
+
+![](Media-Temp/Pasted%20image%2020240115141855.png)
+
+Note ([s5](https://cloud.google.com/bigquery/docs/partitioned-tables#:~:text=column%2Dpartitioned%20table.-,Ingestion%20time%20partitioning,are%20based%20on%20UTC%20time.)): When you create a table partitioned by "<mark style="background: #FFF3A3A6;">ingestion time</mark>", BigQuery automatically assigns rows to partitions based on the time when BigQuery ingests the data. This happens by creating a <mark style="background: #FFF3A3A6;">pseudocolumn</mark>, which is a virtual column used for partitioning, such as the `_PARTITIONTIME` column in BigQuery, which represents the ingestion time but <mark style="background: #ABF7F7A6;">isn’t physically stored in the table.</mark>
+
+Implementation note: 
+
+![](Media-Temp/Pasted%20image%2020240115142800.png)
+
+that's the only way BigQuery can quickly discard unnecessary partitions. It will also allow BigQuery use the table's metadata to <mark style="background: #ABF7F7A6;">more accurately estimate the query's cost before it is run.</mark>
+
+Partitioning summary and benefits:
+
+![](Media-Temp/Pasted%20image%2020240115145004.png)
+
+## Clustered Tables
+
+#clustered-table #record-colocation
+
+Same sources in [Partitioned Tables](#Partitioned%20Tables) section.
+
+A clustered and partitioned table ([s3](https://cloud.google.com/bigquery/docs/clustered-tables)):
+
+![](Media-Temp/Pasted%20image%2020240115140835.png)
+
+More about clustering:
+* A clustered table in BigQuery is a table that **sorts data** into storage blocks of colocated records **based on the values in** user-defined **clustered columns**.
+	* <mark style="background: #FFF3A3A6;">Record colocation</mark> refers to the practice of storing related records close together to improve query performance by minimizing the amount of data scanned.
+* Over time as more and more operations modify a table, the degree to which the data is sorted begins to weaken and the table becomes only <mark style="background: #FFF3A3A6;">partially sorted</mark>. 
+* In a partially sorted table, queries that use the clustering columns may need to scan more blocks compared to a table that is fully sorted.
+* BigQuery periodically re-clusters your data:
+  
+  ![](Media-Temp/Pasted%20image%2020240115143652.png)
+  
+	* Previously, you can re-cluster the data in a partition table by running any redundant query on the partition column(s). For example:
+	  
+	  ![](Media-Temp/Pasted%20image%2020240115143602.png)
+
+When to use clustering?:
+
+![](Media-Temp/Pasted%20image%2020240115145431.png)
+
+Implementation note: If you don't have partitioned columns and you want the benefits of clustering, you can:
+* create a fake underscore date column of type date and have all the values being null.
+* use "ingestion time" method of partitioning
+* This is just an implementation caveat within BigQuery; where it requires that a table has any column that can be partitioned in order for clustering mechanism to be applicable on that table.
+
+Summary, benefits, and caveats of clustering:
+
+![](Media-Temp/Pasted%20image%2020240115145301.png)
+
+## How BigQuery Run Queries
+
+[source: 4:05](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/wbnR5/introduction-to-bigquery)
+
+- **BigQuery Slot:**
+    - Represents a unit of CPU, memory, and networking resources.
+    - Includes supporting technologies and sub-services.
+    - Specifications may vary during query execution.
+        - I.e., some slots may have more CPU, etc., than others.
+
+
+![](Media-Temp/Pasted%20image%2020240114075144.png)
+
+**Slot Allocation Factors:**
+- **Default Quota:** Each account has a default limit of 2000 slots for on-demand querying.
+- **Flat Rate Pricing:** Offers reserved slots for consistent billing.
+- **Query Complexity:** Simple queries using fewer slots execute faster.
+- **Concurrent Queries:** Slots are shared among all queries; excess demand leads to slower execution.
+	- "Excess demand" example: If you've reserved 10,000 slots but you have 30 concurrent queries that together ask for 15,000 slots, the queries will not get all the slots they require.
+
+
+![](Media-Temp/Pasted%20image%2020240114075400.png)
+
+## How BigQuery Structures Information
+
+[source](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/b9AEc/get-started-with-bigquery)
+
+![](Media-Temp/Pasted%20image%2020240114181155.png)
+
+## SQL Query's Lifecycle in BigQuery
+
+[source: 1:10](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/b9AEc/get-started-with-bigquery) 
+
+- **BigQuery Query and Storage Services:**
+    - **Separate but Collaborative:** The query service is distinct from the storage service, yet they work in tandem.
+    - **Native Tables:** Querying native tables within BigQuery’s public data project is common and highly efficient.
+    - **Data Organization:** Both services internally organize data to facilitate efficient querying of large datasets.
+- **Query Execution:**
+    - **Federated Queries:** Is an option for querying of external data sources, like CSV files in Cloud Storage, without loading into BigQuery.
+    - **Temporary Tables:** Query results are placed in temporary tables, visible in the UI for 24 hours, enabling cache usage for repeat queries.
+    - **Cache and Charges:** Cached query results are free, while permanent destination tables incur storage charges.
+
+Now, since querying and storage are separate, we can separate the costs as well:
+
+![](Media-Temp/Pasted%20image%2020240114170434.png)
+
 ## Schema Design
 
 #schema-design 
 
-### Denormalization using Nested and Repeated Fields
+### Normalized vs Denormalized Tables
 
-#nested-fields #repeated-fields #googlesql #standard-sql
+#table-normalization #table-denormalization
 
-[source 1](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/X4GjI/schema-design), [source 2](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/VGWmR/nested-and-repeated-fields), [source 3](https://cloud.google.com/bigquery/docs/best-practices-performance-nested), [source 4](https://cloud.google.com/bigquery/docs/migration/schema-data-overview#denormalization)
+[source 1](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/X4GjI/schema-design), [source 2](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/VGWmR/nested-and-repeated-fields), [source 3](https://cloud.google.com/bigquery/docs/best-practices-performance-nested), [source 4](https://cloud.google.com/bigquery/docs/migration/schema-data-overview#denormalization), [source 5](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/23f9f/demo-nested-and-repeated-fields), [source 6](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/xbJOp/design-the-optimal-schema-for-bigquery)
 
 Normalizing vs Denormalizing data ([s2](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/VGWmR/nested-and-repeated-fields)):
 
@@ -486,9 +558,18 @@ More about denormalization ([s1](https://www.coursera.org/learn/data-lakes-data-
 	  
 	  ![](Media-Temp/Pasted%20image%2020240115100800.png)
 	  
-- Nested fields, a type of repeated field, preserve relational data patterns while enabling efficient columnar processing.
-- Utilizing nested and repeated fields in BigQuery improves performance, especially with data from relational databases, so they are keys for integrating these databases with BigQuery.
+	- Nested fields, a type of repeated field, preserve relational data patterns while enabling efficient columnar processing.
+	- Utilizing nested and repeated fields in BigQuery improves performance, especially with data from relational databases, so they are keys for integrating these databases with BigQuery.
 
+Guidelines ([s6](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/xbJOp/design-the-optimal-schema-for-bigquery)):
+
+![](Media-Temp/Pasted%20image%2020240115213503.png)
+
+### Nested Fields
+
+#nested-fields  #googlesql #standard-sql
+
+Same sources in [Normalized vs Denormalized Tables](#Normalized%20vs%20Denormalized%20Tables) section.
 
 More on nested fields ([s2](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/VGWmR/nested-and-repeated-fields), [s3](https://cloud.google.com/bigquery/docs/best-practices-performance-nested)):
 * Nesting data lets you represent foreign entities inline.
@@ -498,6 +579,91 @@ More on nested fields ([s2](https://www.coursera.org/learn/data-lakes-data-wareh
 * Example columns of nested fields: the highlighted columns which belong to the `event, pickup, destination` foreign entities (i.e., tables) in the table below:
   
   ![](Media-Temp/Pasted%20image%2020240115103543.png)
+
+Nested fields Implementation notes: suppose you have a table with these columns ([s5](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/23f9f/demo-nested-and-repeated-fields)):
+
+![](Media-Temp/Pasted%20image%2020240115205851.png)
+
+Side-note: Quick preview on repeated values:
+
+![](Media-Temp/Pasted%20image%2020240115205957.png)
+
+
+Ok, but what if we want to access `input_script_bytes` column?
+
+We can run this query to do so:
+
+```sql
+SELECT
+  block_id,
+  MAX(i.input_sequence_number) AS max_seq_number,
+  COUNT(t.transaction_id) as num_transactions_in_block
+FROM `bigquery-public-data.bitcoin_blockchain.blocks` AS b
+-- Use the nested STRUCT within BLOCKS table for transactions instead of a separate JOIN
+, b.transactions AS t
+, t.inputs as i
+GROUP BY block_id;
+
+```
+
+Notice how we write `b` for the `blocks` table, `b.transaction as t` to access the outer nested table, and `t.inputs as i` to access the inner nested table, then `i.input_sequence_number` to access the requested column. 
+
+Query output:
+
+![](Media-Temp/Pasted%20image%2020240115212236.png)
+
+Side note: but what does `,` refer to? it's a [CROSS JOIN](https://cloud.google.com/blog/topics/developers-practitioners/bigquery-explained-working-joins-nested-repeated-data#:~:text=join%20types%3A-,BigQuery%20join%20types,-Let%E2%80%99s%20look%20at) operation. Moreover, in the context of BigQuery, nested fields, and [repeated fields](#Repeated%20Fields), it is a <mark style="background: #FFF3A3A6;">correlated cross join operation</mark>, which only unpacks the elements associated with a single row ([source](https://www.cloudskillsboost.google/focuses/3696?parent=catalog#:~:text=only%20unpacks%20the%20elements%20associated%20with%20a%20single%20row.)). In other words, if we imagine 'transactions' as a nested table inside of 'blocks' table, then we need to join these 2 tables such that the rows match each other.
+
+
+### Repeated Fields
+
+#repeated-fields
+
+Same sources in [Normalized vs Denormalized Tables](#Normalized%20vs%20Denormalized%20Tables) section.
+
+Look at the purple rectangles in the [nested fields](#Nested%20Fields) section.
+
+Now, let's look at the part we're interested in querying ([s5](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/23f9f/demo-nested-and-repeated-fields)):
+
+![](Media-Temp/Pasted%20image%2020240115212413.png)
+
+To convert an `ARRAY` into a set of rows, also known as "flattening," use the [`UNNEST`](https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax#unnest_operator) operator. `UNNEST` takes an `ARRAY` and returns a table with a single row for each element in the `ARRAY`. ([source](https://cloud.google.com/bigquery/docs/arrays#flattening_arrays)) 
+
+Example of flattening a repeated field:
+
+```sql
+SELECT DISTINCT 
+    block_id,
+    TIMESTAMP_MILLIS(timestamp) AS timestamp,
+    t.transaction_id,
+    t.outputs.output_satoshis AS satoshi_value,
+    t.outputs.output_satoshis * 0.00000001 AS btc_value
+FROM `bigquery-public-data.bitcoin_blockchain.blocks` AS b
+JOIN b.transactions AS t
+JOIN UNNEST(t.outputs)
+ORDER BY btc_value DESC
+LIMIT 10;
+```
+
+Output of query:
+
+![](Media-Temp/Pasted%20image%2020240115212721.png)
+
+Now, a common error that can be found due to forgetting to `UNNEST`:
+
+![](Media-Temp/Pasted%20image%2020240115212836.png)
+
+Ok, but why didn't this error come up in the [Nested Fields](#Nested%20Fields) section's example? Because if you see the SQL of that example, you'll notice that we're grouping by `block_id`, so we don't need to display/map these repeated values to each row, instead we aggregate it (by getting the `MAX`, `COUNT`, etc.) and display the result.
+
+### Nested and Repeated Fields
+
+#nested-fields #repeated-fields 
+
+summary:
+
+![](Media-Temp/Pasted%20image%2020240115204009.png)
+
+
 
 
 # Options to Build ML Models
