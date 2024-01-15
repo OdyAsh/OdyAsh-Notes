@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "6a739df791bb7344",
+        "id": "ebc62b014846e823",
         "type": "tabs",
         "children": [
           {
-            "id": "6765ddf5fd6797fc",
+            "id": "55335e9a7013a34b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/Python/Advanced Syntax.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "autorelo",
+                "query": "five",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/Python/Advanced Syntax.md"
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md"
               }
             }
           },
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/Python/Advanced Syntax.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/Python/Advanced Syntax.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -221,10 +221,27 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "6765ddf5fd6797fc",
+  "active": "55335e9a7013a34b",
   "lastOpenFiles": [
-    "Sciences/Applied Sciences/Programming/Python/Debugging Python Code.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115124933.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115103543.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115102559.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115101301.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115100800.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115100405.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115100352.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115100123.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115100105.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115100033.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115095414.png",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
+    "Sciences/Applied Sciences/Prompt Engineering/Programming Prompts.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Interviews FAQ.md",
+    "Sciences/Applied Sciences/Prompt Engineering",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Pipeline.md",
     "Sciences/Applied Sciences/Programming/Python/Advanced Syntax.md",
+    "Sciences/Applied Sciences/Programming/Python/Debugging Python Code.md",
     "Secrets/Work Drafts.md",
     "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
     "consistency-report.md",
@@ -244,31 +261,14 @@
     "Tasks/Personal Tasks/Daily/Daily Template.md",
     "Tasks/Personal Tasks/Daily/Daily Template.md.crdownload",
     "Tasks/Personal Tasks/Weekly/Attachments - 2024-W01/2024-01.md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
     "Tasks/Personal Tasks/Daily/2024-01-01.md",
     "Tasks/Personal Tasks/Weekly/Attachments - 2024-W01/2024-01-07.md",
     "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. TMP.md",
     "Tasks/Personal Tasks/Daily",
-    "Tasks/Personal Tasks/Yearly",
     "Sciences/Applied Sciences/Programming/Python/Python Environments/Interaction between Different Modules and Packages.md",
     "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
     "Islam/Characteristics/Procrastination (الكسل).md",
     "Sciences/Applied Sciences/Programming/Python/Optimizations.md",
-    "Sciences/Applied Sciences/Programming/Python/Dealing with Date and Time.md",
-    "Islam/Meetings/جلسة سورة الأنعام.md",
-    "Islam/Meetings/جلسة.md",
-    "Islam/The Quran/Attachments - 54. Surah Al-Qamar (القمر).excalidraw/Pasted Image 20231229142947_237.png",
-    "Islam/The Quran/Attachments - 54. Surah Al-Qamar (القمر).excalidraw/Pasted Image 20231229143005_243.png",
-    "Islam/The Quran/Attachments - 54. Surah Al-Qamar (القمر).excalidraw/Pasted Image 20231229142813_190.png",
-    "Islam/Books/Facilitated Jurisprudence (الفقه الميسر).md",
-    "Islam/The Quran/54. Surah Al-Qamar (القمر).excalidraw.md",
-    "Sciences/Applied Sciences/Programming/Python/Python Environments/Attachments - Interaction between Different Modules and Packages/Pasted image 20231219145144.png",
-    "Sciences/Applied Sciences/Programming/Python/Python Environments/Attachments - Interaction between Different Modules and Packages/Pasted image 20231219144047.png",
-    "Sciences/Applied Sciences/Programming/Python/Python Environments/Attachments - Interaction between Different Modules and Packages/Pasted image 20231219124154.png",
-    "Sciences/Applied Sciences/Programming/Python/Python Environments/Media-Temp/Pasted image 20231219124016.png",
-    "Sciences/Applied Sciences/Programming/Python/Python Environments/Media-Temp/Pasted image 20231219123519.png",
-    "Sciences/Applied Sciences/Programming/Python/Python Environments/Media-Temp/Pasted image 20231219123507.png",
-    "Sciences/Applied Sciences/Programming/Python/Python Environments/Media-Temp/Pasted image 20231219122501.png",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
