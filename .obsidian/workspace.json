@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#table-clustering",
+                "query": "tag:#spaced-repetition",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +81,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -136,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md"
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md"
               }
             }
           },
@@ -158,7 +159,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +176,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,14 +191,15 @@
             }
           },
           {
-            "id": "fb16f26fa3616ad4",
+            "id": "d0606d86e1c90780",
             "type": "leaf",
             "state": {
               "type": "timeline",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -221,8 +223,9 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "55335e9a7013a34b",
+  "active": "d0606d86e1c90780",
   "lastOpenFiles": [
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115213503.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115212836.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115212721.png",
@@ -233,9 +236,7 @@
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115205851.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115204719.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115204143.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115204009.png",
     "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
     "Sciences/Applied Sciences/Prompt Engineering/Programming Prompts.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Interviews FAQ.md",
     "Sciences/Applied Sciences/Prompt Engineering",
