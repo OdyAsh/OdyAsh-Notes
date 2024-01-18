@@ -1,7 +1,7 @@
 # Tips
 ## Remove Redundant Whitespaces
 
-![[Attachments - Dealing with Strings/Pasted image 20230310205337.png|475]]
+![](Attachments%20-%20Dealing%20with%20Strings/Pasted%20image%2020230310205337.png)
 
 Notice that if we swapped the replace() functions, then one "|" would remain
 
@@ -17,47 +17,47 @@ print(f'{var_a:<30}{var_b:<30}{var_c:<30}')
 
 note: RLT == Right To Left
 
-![[Attachments - Dealing with Strings/Pasted image 20230308200432.png|225]]
+![](Attachments%20-%20Dealing%20with%20Strings/Pasted%20image%2020230308200432.png)
 so if first element is in arabic, then jupyter notebook actually flips the content of the list when it is displayed, yet the indexing is the based on what was written in the code.
 
 another example:
-![[Attachments - Dealing with Strings/Pasted image 20230308200604.png|275]]
+![](Attachments%20-%20Dealing%20with%20Strings/Pasted%20image%2020230308200604.png)
 numbers also apply:
-![[Attachments - Dealing with Strings/Pasted image 20230308200702.png|275]]
+![](Attachments%20-%20Dealing%20with%20Strings/Pasted%20image%2020230308200702.png)
 
 A little caveat about symbols:
-![[Attachments - Dealing with Strings/Pasted image 20230308201426.png|275]]
+![](Attachments%20-%20Dealing%20with%20Strings/Pasted%20image%2020230308201426.png)
 but when extending other arabic letters:
-![[Attachments - Dealing with Strings/Pasted image 20230308201503.png|300]]
+![](Attachments%20-%20Dealing%20with%20Strings/Pasted%20image%2020230308201503.png)
 
 
 however, if we introduce a non-arabic letter, notebook displays the continuous blocks of arabic letters from RTL, even though they are still indexed as what is seen in code:
-![[Attachments - Dealing with Strings/Pasted image 20230308200855.png|275]]
+![](Attachments%20-%20Dealing%20with%20Strings/Pasted%20image%2020230308200855.png)
 
 This can lead to impossible-to-debug outputs:
-![[Attachments - Dealing with Strings/Pasted image 20230308203432.png|450]]
+![](Attachments%20-%20Dealing%20with%20Strings/Pasted%20image%2020230308203432.png)
 
 solution: don't ever use english letters in arabic strings/lists (replace them with symbols or numbers or remove them, for example "a" here is switched to "1"):
-![[Attachments - Dealing with Strings/Pasted image 20230308203518.png|400]]
+![](Attachments%20-%20Dealing%20with%20Strings/Pasted%20image%2020230308203518.png)
 (now this is kind of debug-able :D)
 
 Other examples:
 
-![[Attachments - Dealing with Strings/Pasted image 20230308193435.png|200]]
+![](Attachments%20-%20Dealing%20with%20Strings/Pasted%20image%2020230308193435.png)
 
 
-![[Attachments - Dealing with Strings/Pasted image 20230308193440.png|200]]
+![](Attachments%20-%20Dealing%20with%20Strings/Pasted%20image%2020230308193440.png)
 
-![[Attachments - Dealing with Strings/Pasted image 20230308193444.png|200]]
+![](Attachments%20-%20Dealing%20with%20Strings/Pasted%20image%2020230308193444.png)
 
 A more complex example:
 
-![[Attachments - Dealing with Strings/Pasted image 20230308194442.png]]
+![](Attachments%20-%20Dealing%20with%20Strings/Pasted%20image%2020230308194442.png)
 
-![[Attachments - Dealing with Strings/Pasted image 20230308194953.png]]
+![](Attachments%20-%20Dealing%20with%20Strings/Pasted%20image%2020230308194953.png)
 
 output:
-![[Attachments - Dealing with Strings/Pasted image 20230308195032.png]]
+![](Attachments%20-%20Dealing%20with%20Strings/Pasted%20image%2020230308195032.png)
 
 
 but if we remove {score:0.2f}, output will be:

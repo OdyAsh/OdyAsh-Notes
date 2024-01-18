@@ -21,5 +21,5 @@ get it [here](https://www.figma.com/community/plugin/929607085343688745/Color-Sh
 
 [source](https://en.git.ir/udemy-design-user-interface-for-linkedin-amazon-with-figma/) (02:40)
 
-![[Attachments - Figma Notes/Pasted image 20230704180645.png|550]]
+![](Attachments%20-%20Figma%20Notes/Pasted%20image%2020230704180645.png)
 

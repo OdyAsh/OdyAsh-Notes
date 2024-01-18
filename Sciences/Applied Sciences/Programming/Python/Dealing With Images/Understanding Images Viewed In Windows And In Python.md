@@ -1,13 +1,13 @@
 
 Suppose you have this image as viewed in Windows File Explorer:
-![[Attachments - Understanding Images Viewed In Windows And In Python/Pasted image 20230310090431.png]]
+![](Attachments%20-%20Understanding%20Images%20Viewed%20In%20Windows%20And%20In%20Python/Pasted%20image%2020230310090431.png)
 Also, you know that this image has EXIF metadata, such that orientation key (i.e., 274) is set to 6, which means that, when viewing this image from an editing software (or in our case, python's **pillow** library), then it should be rotated 90 degrees clockwise (CW). Here's a full map of different orientation values to illustrate this ([source](https://sirv.com/help/articles/rotate-photos-to-be-upright/#:~:text=EXIF%20orientation%20values,-The%208%20EXIF&text=%3D%200%20degrees%2C%20mirrored%3A%20image,image%20is%20on%20its%20side.)):
-![[Attachments - Understanding Images Viewed In Windows And In Python/Pasted image 20230310090746.png]]
-![[Attachments - Understanding Images Viewed In Windows And In Python/Pasted image 20230310090923.png|500]]
+![](Attachments%20-%20Understanding%20Images%20Viewed%20In%20Windows%20And%20In%20Python/Pasted%20image%2020230310090746.png)
+![](Attachments%20-%20Understanding%20Images%20Viewed%20In%20Windows%20And%20In%20Python/Pasted%20image%2020230310090923.png)
 
 However, as you've seen above, <mark style="background: #D2B3FFA6;">windows honors EXIF orientation tag</mark>, which could make you think that these images are fine:
 
-![[Attachments - Understanding Images Viewed In Windows And In Python/Pasted image 20230310091037.png|725]]
+![](Attachments%20-%20Understanding%20Images%20Viewed%20In%20Windows%20And%20In%20Python/Pasted%20image%2020230310091037.png)
 
 When in reality, **all of them have an orientation value of 6 and will be rotated when processed in python**, <mark style="background: #D2B3FFA6;">as pillow does not auto-rotate images.</mark>  ([source](https://github.com/python-pillow/Pillow/issues/4703))
 proof:
@@ -17,7 +17,7 @@ img_thumbnail = Image.open(img_path)
 img_thumbnail.show()
 ```
 when image is shown:
-![[Attachments - Understanding Images Viewed In Windows And In Python/Pasted image 20230310094717.png|350]]
+![](Attachments%20-%20Understanding%20Images%20Viewed%20In%20Windows%20And%20In%20Python/Pasted%20image%2020230310094717.png)
 
 However, if add write the following code:
 ```python
@@ -25,16 +25,16 @@ img_thumbnail = ImageOps.exif_transpose(img_thumbnail)
 img_thumbnail.show()
 ```
 It will show correctly:
-![[Attachments - Understanding Images Viewed In Windows And In Python/Pasted image 20230310094816.png|250]]
+![|425](Attachments%20-%20Understanding%20Images%20Viewed%20In%20Windows%20And%20In%20Python/Pasted%20image%2020230310094816.png)
 
 You can even verify this with JPEG Lossless Rotator Program:
-![[Attachments - Understanding Images Viewed In Windows And In Python/Pasted image 20230310094843.png|400]]
+![](Attachments%20-%20Understanding%20Images%20Viewed%20In%20Windows%20And%20In%20Python/Pasted%20image%2020230310094843.png)
 
 Ok, so what to do?
 You have two options:
 1. If you're see that all images in your image folder (windows file explorer) are fine and don't need orienting, then tell python's pillow to transpose the image based on the orientation value, which is automatically done using the `ImageOps.exif_transpose()` function, but take care that <mark style="background: #FF5582A6;">when that function returns a Pillow Image object, its EXIF metadata will not include an orientation value</mark>, which is what we want:
 
-![[Attachments - Understanding Images Viewed In Windows And In Python/Pasted image 20230310100312.png|200]]
+![](Attachments%20-%20Understanding%20Images%20Viewed%20In%20Windows%20And%20In%20Python/Pasted%20image%2020230310100312.png)
 
 
 2. if most of the images appear in windows file explorer as rotated, then they're probably taken correctly, but <mark style="background: #D2B3FFA6;">the mobile phone's accelerometer probably acted funny such that a wrong orientation tag was applied</mark> ([source](https://superuser.com/questions/975288/why-arent-images-rotated-in-windows-photo-viewer#:~:text=own%20question.%20%E2%80%9C%E2%80%A6-,the%20%22landscape%22%20orientation%20is%20photographically%20correct%2C%20though%20the%20camera%20may%20have%20been%20in%20a%20funny%20position%20causing%20an%20accelerometer%20to%20think%20that%20a%20%22portrait%22%20orientation%20was%20intended,-.%E2%80%9D%20Windows%20Photo)). In that case, it is better to change the orientation value to become 1 (i.e., normal):

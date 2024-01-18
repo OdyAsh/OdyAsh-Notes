@@ -1,6 +1,6 @@
 # Modifying Folders
 If you're having difficulty installing/writing/deleting something related to a folder, go to the folder in which you are running the progr am which is installing/writing/deleting --> right click --> properties --> security, then:
-![[Attachments - Windows Tips/Pasted image 20230330114749.png|650]]
+![](Attachments%20-%20Windows%20Tips/Pasted%20image%2020230330114749.png)
 
 source: first comment in [this](https://www.youtube.com/watch?v=7CpkRbVOrpw) video
 

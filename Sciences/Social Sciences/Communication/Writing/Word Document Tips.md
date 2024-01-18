@@ -4,6 +4,6 @@
 
 Word online:
 
-![[Attachments - Word Document Tips/how to add citations to word online using mendeley.gif]]
+![](Attachments%20-%20Word%20Document%20Tips/how%20to%20add%20citations%20to%20word%20online%20using%20mendeley.gif)
 
 
