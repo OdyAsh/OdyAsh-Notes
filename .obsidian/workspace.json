@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/Apache Spark.md",
+                "file": "Sciences/Applied Sciences/Programming/Versioning/Git.md",
                 "mode": "source",
                 "source": false
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/Apache Spark.md"
+                "file": "Sciences/Applied Sciences/Programming/Versioning/Git.md"
               }
             }
           },
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/Apache Spark.md",
+                "file": "Sciences/Applied Sciences/Programming/Versioning/Git.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/Apache Spark.md",
+                "file": "Sciences/Applied Sciences/Programming/Versioning/Git.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,8 +197,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -224,24 +223,28 @@
   },
   "active": "55335e9a7013a34b",
   "lastOpenFiles": [
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
+    "Sciences/Applied Sciences/Programming/Versioning/Git And GitHub.md",
+    "Sciences/Applied Sciences/Programming/Versioning/Git.md",
+    "Sciences/Applied Sciences/Programming/Versioning/Media-Temp/Pasted image 20240119223744.png",
+    "Sciences/Applied Sciences/Programming/Versioning/Media-Temp/Pasted image 20240119223306.png",
+    "Sciences/Applied Sciences/Programming/Versioning/Media-Temp/Pasted image 20240119223215.png",
+    "Sciences/Applied Sciences/Programming/Versioning/Media-Temp/Pasted image 20240119221321.png",
+    "Sciences/Applied Sciences/Programming/Versioning/Media-Temp/Pasted image 20240119221304.png",
+    "Sciences/Applied Sciences/Programming/Versioning/Media-Temp/Pasted image 20240119221141.png",
+    "Sciences/Applied Sciences/Programming/Versioning/Media-Temp/Pasted image 20240119220203.png",
+    "Sciences/Applied Sciences/Programming/Versioning/Media-Temp/Pasted image 20240119220117.png",
+    "Sciences/Applied Sciences/Programming/Versioning/Media-Temp/Pasted image 20240119215748.png",
+    "Sciences/Applied Sciences/Programming/Versioning/Media-Temp/Pasted image 20240119215652.png",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
+    "Sciences/Applied Sciences/Programming/Versioning/Media-Temp/git-commands-visualized.gif.crdownload",
+    "Sciences/Applied Sciences/Programming/Versioning/Media-Temp",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Apache Spark.md",
     "consistency-report.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
     "Islam/The Quran/54. Surah Al-Qamar (القمر).excalidraw.md",
     "Sciences/Applied Sciences/Programming/UX Design/Google's Foundation of UX Design - Course 1.md",
     "Tasks/Personal Tasks/Weekly/2024-W01.md",
     "Sciences/Applied Sciences/Programming/Python/Dealing with Images/Understanding Images Viewed In Windows And In Python.md",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240118135116.png",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115213503.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115212836.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115212721.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115212413.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115212236.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115212208.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115205957.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115205851.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240115204719.png",
     "Sciences/Applied Sciences/Prompt Engineering/Programming Prompts.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Interviews FAQ.md",
     "Sciences/Applied Sciences/Prompt Engineering",
@@ -263,13 +266,9 @@
     "Tasks/Personal Tasks/Monthly/Monthly Template.md",
     "Tasks/Personal Tasks/Monthly/Monthly Template.md.crdownload",
     "Tasks/Personal Tasks/Daily/Daily Template.md",
-    "Tasks/Personal Tasks/Daily/Daily Template.md.crdownload",
     "Tasks/Personal Tasks/Weekly/Attachments - 2024-W01/2024-01.md",
     "Tasks/Personal Tasks/Daily/2024-01-01.md",
     "Tasks/Personal Tasks/Weekly/Attachments - 2024-W01/2024-01-07.md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. TMP.md",
-    "Tasks/Personal Tasks/Daily",
-    "Sciences/Applied Sciences/Programming/Python/Python Environments/Interaction between Different Modules and Packages.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
