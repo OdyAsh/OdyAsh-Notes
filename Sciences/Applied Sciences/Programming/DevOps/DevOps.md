@@ -1,4 +1,5 @@
 
+[source 1](https://youtu.be/h9K1NnqwUvE?t=611), [source 2](https://www.youtube.com/watch?v=42UP1fxi2SY)
 # Software Methodologies
 
 #software-methodologies  #waterfall-methodology  #agile-methodology
@@ -7,7 +8,7 @@ Info can be found on my Google Drive BUE's [SPM notes](https://drive.google.com/
 
 # Why DevOps
 
-[source 1](https://youtu.be/h9K1NnqwUvE?t=611)
+
 
 Small side note: some screenshots below were adapted from the sources (i.e., I made some edits).
 
@@ -43,6 +44,10 @@ Side note: These are not all the possible tools:
 ![](Media-Temp/Pasted%20image%2020240122121617.png)
 
 ([s1](https://youtu.be/h9K1NnqwUvE?t=844))
+
+Another toolset ([s2](https://www.youtube.com/watch?v=42UP1fxi2SY)):
+
+![](Media-Temp/Pasted%20image%2020240122165025.png)
 
 # DevOps Advantages
 
