@@ -48,10 +48,10 @@ Visualization of ETL [DPA](#Data%20Pipeline%20Architectures) design:
 
 * **The Hadoop era**, roughly 2011 to 2017, arguably ushered in big data processing capabilities to mainstream organizations. 
 * Data was primarily hosted in on-premises databases with non-scalable storage. 
-* Despite **Hadoop’s** parallel and distributed processing, compute was a limited resource as well. 
-	* Therefore, <mark style="background: #ADCCFFA6;">storage and computing (processing) were coupled together</mark>.
+* Despite <mark style="background: #FFB8EBA6;">Hadoop’s</mark> parallel and distributed processing, compute was a limited resource as well. 
+	* In other words, <mark style="background: #FFB8EBA6;">storage and computing (processing) were coupled together</mark>.
 * As a result, data engineers spent considerable time modeling data and optimizing queries to fit within these constraints. 
-* [DPA](#Data%20Pipeline%20Architectures) typically <mark style="background: #ADCCFFA6;">consisted of hardcoded pipelines that cleaned, normalized, and transformed the data prior to loading into a database using an ETL pattern</mark>.
+* [DPA](#Data%20Pipeline%20Architectures) typically <mark style="background: #FFB8EBA6;">consisted of hardcoded pipelines that cleaned, normalized, and transformed the data prior to loading into a database using an ETL pattern.</mark>
 * Some companies still apply this ETL pattern in the cloud,
 	* particularly for production pipelines where [data contracts](https://www.montecarlodata.com/blog-data-contracts-explained/) can help reduce data downtime.
 

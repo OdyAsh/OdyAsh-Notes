@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/DevOps/CI-CD.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Pipeline.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "95cc1ae200dc70fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sciences/Formal Sciences/Mathematics/Mathematics.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +60,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "TODO",
+                "query": "ADCCFFA6",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -81,7 +93,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -136,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/DevOps/CI-CD.md"
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Pipeline.md"
               }
             }
           },
@@ -158,7 +171,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/DevOps/CI-CD.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Pipeline.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +188,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/DevOps/CI-CD.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Pipeline.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,6 +237,14 @@
   },
   "active": "9a07200c9609af7e",
   "lastOpenFiles": [
+    "Obsidian/My Obsidian.md",
+    "Sciences/Formal Sciences/Mathematics/Mathematics.md",
+    "Obsidian/Media-Temp/Pasted image 20240123050057.png",
+    "Obsidian/Media-Temp/Pasted image 20240123045858.png",
+    "Obsidian/Media-Temp",
+    "Obsidian/UI Tips.md",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
+    "Sciences/Applied Sciences/Programming/DevOps/CI-CD.md",
     "Sciences/Applied Sciences/Programming/DevOps/Media-Temp/Pasted image 20240122171617.png",
     "Sciences/Applied Sciences/Programming/DevOps/Media-Temp/Pasted image 20240122171205.png",
     "Sciences/Applied Sciences/Programming/DevOps/Media-Temp/Pasted image 20240122171203.png",
@@ -231,17 +252,12 @@
     "Sciences/Applied Sciences/Programming/DevOps/Media-Temp/Pasted image 20240122170140.png",
     "Sciences/Applied Sciences/Programming/DevOps/DevOps.md",
     "Sciences/Applied Sciences/Programming/DevOps/Media-Temp/Pasted image 20240122165025.png",
-    "Sciences/Applied Sciences/Programming/DevOps/CI-CD.md",
     "Sciences/Applied Sciences/Programming/DevOps/Media-Temp/Pasted image 20240122164229.png",
     "Sciences/Applied Sciences/Programming/DevOps/Media-Temp/Pasted image 20240122163632.png",
-    "Sciences/Applied Sciences/Programming/DevOps/Media-Temp/Pasted image 20240122163613.png",
-    "Sciences/Applied Sciences/Programming/DevOps/Media-Temp/Pasted image 20240122151355.png",
-    "Sciences/Applied Sciences/Programming/DevOps/Media-Temp/Pasted image 20240122150402.png",
     "Sciences/Applied Sciences/Programming/DevOps/Media-Temp",
     "Sciences/Applied Sciences/Programming/Versioning/Git.md",
     "Sciences/Applied Sciences/Programming/DevOps",
     "Secrets/Work Drafts.md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
     "Sciences/Applied Sciences/Prompt Engineering/Programming Prompts.md",
     "Sciences/Applied Sciences/Programming/Python/Advanced Syntax.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
@@ -260,16 +276,12 @@
     "Tasks/Personal Tasks/Weekly/Weekly Template.md",
     "Tasks/Personal Tasks/Weekly/Weekly Template.md.crdownload",
     "Tasks/Personal Tasks/Monthly/Monthly Template.md",
-    "Tasks/Personal Tasks/Monthly/Monthly Template.md.crdownload",
     "Tasks/Personal Tasks/Daily/Daily Template.md",
     "Tasks/Personal Tasks/Monthly/2024-01.md",
     "Tasks/Personal Tasks/Daily/2024-01-01.md",
     "Tasks/Personal Tasks/2024-01-07.md",
     "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. TMP.md",
     "Sciences/Applied Sciences/Programming/Python/Python Environments/Interaction between Different Modules and Packages.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
-    "Islam/Characteristics/Procrastination (الكسل).md",
-    "Sciences/Applied Sciences/Programming/Python/Optimizations.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
