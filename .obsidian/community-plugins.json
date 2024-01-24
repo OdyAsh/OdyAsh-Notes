@@ -20,7 +20,6 @@
   "text-extractor",
   "obsidian-editor-shortcuts",
   "obsidian-outliner",
-  "obsidian-quiet-outline",
   "obsidian-image-toolkit",
   "oz-image-plugin",
   "obsidian-pandoc",
@@ -47,5 +46,6 @@
   "calendar",
   "obsidian-columns",
   "obsidian-day-planner",
-  "periodic-notes"
+  "periodic-notes",
+  "obsidian-quiet-outline"
 ]

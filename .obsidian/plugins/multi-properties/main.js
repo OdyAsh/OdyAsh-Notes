@@ -32,10 +32,10 @@ __export(main_exports, {
   default: () => MultiPropPlugin
 });
 module.exports = __toCommonJS(main_exports);
-var import_obsidian3 = require("obsidian");
+var import_obsidian6 = require("obsidian");
 
-// src/PropModal.ts
-var import_obsidian = require("obsidian");
+// src/AddPropModal.ts
+var import_obsidian2 = require("obsidian");
 
 // node_modules/svelte/src/runtime/internal/utils.js
 function noop() {
@@ -389,7 +389,7 @@ function outro_and_destroy_block(block, lookup) {
     lookup.delete(block.key);
   });
 }
-function update_keyed_each(old_blocks, dirty, get_key, dynamic, ctx, list, lookup, node, destroy, create_each_block3, next, get_context) {
+function update_keyed_each(old_blocks, dirty, get_key, dynamic, ctx, list, lookup, node, destroy, create_each_block6, next, get_context) {
   let o = old_blocks.length;
   let n = list.length;
   let i = o;
@@ -406,7 +406,7 @@ function update_keyed_each(old_blocks, dirty, get_key, dynamic, ctx, list, looku
     const key = get_key(child_ctx);
     let block = lookup.get(key);
     if (!block) {
-      block = create_each_block3(key, child_ctx);
+      block = create_each_block6(key, child_ctx);
       block.c();
     } else if (dynamic) {
       updates.push(() => block.p(child_ctx, dirty));
@@ -535,7 +535,7 @@ function make_dirty(component, i) {
   }
   component.$$.dirty[i / 31 | 0] |= 1 << i % 31;
 }
-function init(component, options, instance3, create_fragment3, not_equal, props, append_styles2 = null, dirty = [-1]) {
+function init(component, options, instance6, create_fragment6, not_equal, props, append_styles2 = null, dirty = [-1]) {
   const parent_component = current_component;
   set_current_component(component);
   const $$ = component.$$ = {
@@ -561,7 +561,7 @@ function init(component, options, instance3, create_fragment3, not_equal, props,
   };
   append_styles2 && append_styles2($$.root);
   let ready = false;
-  $$.ctx = instance3 ? instance3(component, options.props || {}, (i, ret, ...rest) => {
+  $$.ctx = instance6 ? instance6(component, options.props || {}, (i, ret, ...rest) => {
     const value = rest.length ? rest[0] : ret;
     if ($$.ctx && not_equal($$.ctx[i], $$.ctx[i] = value)) {
       if (!$$.skip_bound && $$.bound[i])
@@ -574,7 +574,7 @@ function init(component, options, instance3, create_fragment3, not_equal, props,
   $$.update();
   ready = true;
   run_all($$.before_update);
-  $$.fragment = create_fragment3 ? create_fragment3($$.ctx) : false;
+  $$.fragment = create_fragment6 ? create_fragment6($$.ctx) : false;
   if (options.target) {
     if (options.hydrate) {
       start_hydrating();
@@ -876,7 +876,7 @@ function __awaiter(thisArg, _arguments, P, generator) {
   });
 }
 
-// src/PropInput.svelte
+// src/AddPropInput.svelte
 function add_css(target) {
   append_styles(target, "svelte-lb92c0", "input.svelte-lb92c0{max-height:25px;overflow-x:auto}select.svelte-lb92c0{height:21px}#name-input.svelte-lb92c0{flex-grow:0}.modal-input-container.svelte-lb92c0{width:95%;display:flex;flex-direction:row;align-items:center;gap:10px;margin-top:10px}.btn-inactive.svelte-lb92c0{cursor:not-allowed;pointer-events:none;opacity:0.7}");
 }
@@ -1169,7 +1169,7 @@ function instance($$self, $$props, $$invalidate) {
     input0_input_handler
   ];
 }
-var PropInput = class extends SvelteComponent {
+var AddPropInput = class extends SvelteComponent {
   constructor(options) {
     super();
     init(
@@ -1188,7 +1188,7 @@ var PropInput = class extends SvelteComponent {
     );
   }
 };
-var PropInput_default = PropInput;
+var AddPropInput_default = AddPropInput;
 
 // src/helpers.ts
 function parseValue(input, type) {
@@ -1203,6 +1203,13 @@ function parseValue(input, type) {
 }
 function removeExtraCommas(str) {
   return str.replace(/^,*(.*?),*$/g, "$1").replace(/,{2,}/g, ",");
+}
+function cleanTags(str) {
+  let cleanStr = str;
+  for (let index in KNOWN_BAD_CHARACTERS) {
+    cleanStr = cleanStr.replaceAll(KNOWN_BAD_CHARACTERS[index], "");
+  }
+  return cleanStr;
 }
 var KNOWN_BAD_CHARACTERS = [
   "\u2012",
@@ -1327,16 +1334,16 @@ var KNOWN_BAD_CHARACTERS = [
   "#"
 ];
 
-// src/PropForm.svelte
+// src/AddPropForm.svelte
 var { Map: Map_1 } = globals;
 function add_css2(target) {
   append_styles(target, "svelte-iixbfw", ".modal-inputs-container.svelte-iixbfw{height:200px;width:100%;overflow-y:scroll;border-radius:5px;border-style:solid;display:flex;flex-direction:column;align-items:center}.modal-add-container.svelte-iixbfw{margin-top:10px}.alert-container.svelte-iixbfw{display:flex;flex-direction:column;align-items:center;justify-content:center;margin-bottom:10px;background-color:red;font-weight:bold}.hidden.svelte-iixbfw{display:none}");
 }
 function get_each_context2(ctx, list, i) {
   const child_ctx = ctx.slice();
-  child_ctx[17] = list[i];
-  child_ctx[18] = list;
-  child_ctx[19] = i;
+  child_ctx[18] = list[i];
+  child_ctx[19] = list;
+  child_ctx[20] = i;
   return child_ctx;
 }
 function create_each_block2(key_1, ctx) {
@@ -1345,34 +1352,34 @@ function create_each_block2(key_1, ctx) {
   let updating_nameVal;
   let current;
   function propinput_nameVal_binding(value) {
-    ctx[11](
+    ctx[13](
       value,
       /*input*/
-      ctx[17]
+      ctx[18]
     );
   }
   let propinput_props = {
     isFirst: (
       /*input*/
-      ctx[17].isFirst
+      ctx[18].isFirst
     ),
     id: (
       /*input*/
-      ctx[17].id
+      ctx[18].id
     ),
     removeInput: (
       /*removeInput*/
-      ctx[5]
+      ctx[7]
     )
   };
   if (
     /*input*/
-    ctx[17].nameDef !== void 0
+    ctx[18].nameDef !== void 0
   ) {
     propinput_props.nameVal = /*input*/
-    ctx[17].nameDef;
+    ctx[18].nameDef;
   }
-  propinput = new PropInput_default({ props: propinput_props });
+  propinput = new AddPropInput_default({ props: propinput_props });
   binding_callbacks.push(() => bind(propinput, "nameVal", propinput_nameVal_binding));
   return {
     key: key_1,
@@ -1391,18 +1398,18 @@ function create_each_block2(key_1, ctx) {
       ctx = new_ctx;
       const propinput_changes = {};
       if (dirty & /*inputEls*/
-      8)
+      16)
         propinput_changes.isFirst = /*input*/
-        ctx[17].isFirst;
+        ctx[18].isFirst;
       if (dirty & /*inputEls*/
-      8)
+      16)
         propinput_changes.id = /*input*/
-        ctx[17].id;
+        ctx[18].id;
       if (!updating_nameVal && dirty & /*inputEls*/
-      8) {
+      16) {
         updating_nameVal = true;
         propinput_changes.nameVal = /*input*/
-        ctx[17].nameDef;
+        ctx[18].nameDef;
         add_flush_callback(() => updating_nameVal = false);
       }
       propinput.$set(propinput_changes);
@@ -1440,13 +1447,18 @@ function create_fragment2(ctx) {
   let p2;
   let t9;
   let form;
+  let label;
+  let input_1;
+  let t10_value = "Overwrite existing properties";
+  let t10;
+  let t11;
   let div3;
   let each_blocks = [];
   let each_1_lookup = new Map_1();
-  let t10;
+  let t12;
   let div4;
   let a;
-  let t12;
+  let t14;
   let div5;
   let button;
   let current;
@@ -1454,11 +1466,11 @@ function create_fragment2(ctx) {
   let dispose;
   let each_value = ensure_array_like(
     /*inputEls*/
-    ctx[3]
+    ctx[4]
   );
   const get_key = (ctx2) => (
     /*input*/
-    ctx2[17].id
+    ctx2[18].id
   );
   for (let i = 0; i < each_value.length; i += 1) {
     let child_ctx = get_each_context2(ctx, each_value, i);
@@ -1475,7 +1487,7 @@ function create_fragment2(ctx) {
       div1 = element("div");
       t2 = text(
         /*alertText*/
-        ctx[2]
+        ctx[3]
       );
       t3 = space();
       p0 = element("p");
@@ -1488,21 +1500,28 @@ function create_fragment2(ctx) {
       p2.textContent = 'If you want to add Tags, use the name "tags".';
       t9 = space();
       form = element("form");
+      label = element("label");
+      input_1 = element("input");
+      t10 = text(t10_value);
+      t11 = space();
       div3 = element("div");
       for (let i = 0; i < each_blocks.length; i += 1) {
         each_blocks[i].c();
       }
-      t10 = space();
+      t12 = space();
       div4 = element("div");
       a = element("a");
       a.textContent = "Add";
-      t12 = space();
+      t14 = space();
       div5 = element("div");
       button = element("button");
       button.textContent = "Submit";
       attr(div1, "id", "alert-text");
       attr(div2, "id", "alert-container");
       attr(div2, "class", "alert-container hidden svelte-iixbfw");
+      attr(input_1, "type", "checkbox");
+      input_1.checked = /*overwrite*/
+      ctx[0];
       attr(div3, "class", "modal-inputs-container svelte-iixbfw");
       attr(a, "class", "a-btn");
       attr(a, "href", "href");
@@ -1519,7 +1538,7 @@ function create_fragment2(ctx) {
       append(div2, t1);
       append(div2, div1);
       append(div1, t2);
-      ctx[10](div2);
+      ctx[12](div2);
       append(div6, t3);
       append(div6, p0);
       append(div6, t5);
@@ -1528,37 +1547,47 @@ function create_fragment2(ctx) {
       append(div6, p2);
       append(div6, t9);
       append(div6, form);
+      append(form, label);
+      append(label, input_1);
+      append(label, t10);
+      append(form, t11);
       append(form, div3);
       for (let i = 0; i < each_blocks.length; i += 1) {
         if (each_blocks[i]) {
           each_blocks[i].m(div3, null);
         }
       }
-      append(form, t10);
+      append(form, t12);
       append(form, div4);
       append(div4, a);
-      append(form, t12);
+      append(form, t14);
       append(form, div5);
       append(div5, button);
-      ctx[12](form);
+      ctx[14](form);
       current = true;
       if (!mounted) {
         dispose = [
           listen(
+            input_1,
+            "change",
+            /*onCheckboxChange*/
+            ctx[5]
+          ),
+          listen(
             a,
             "click",
             /*addInput*/
-            ctx[4]
+            ctx[6]
           ),
           listen(
             button,
             "click",
             /*onSubmit*/
-            ctx[6]
+            ctx[8]
           ),
           listen(form, "submit", prevent_default(
             /*submit_handler*/
-            ctx[9]
+            ctx[11]
           ))
         ];
         mounted = true;
@@ -1566,17 +1595,22 @@ function create_fragment2(ctx) {
     },
     p(ctx2, [dirty]) {
       if (!current || dirty & /*alertText*/
-      4)
+      8)
         set_data(
           t2,
           /*alertText*/
-          ctx2[2]
+          ctx2[3]
         );
+      if (!current || dirty & /*overwrite*/
+      1) {
+        input_1.checked = /*overwrite*/
+        ctx2[0];
+      }
       if (dirty & /*inputEls, removeInput*/
-      40) {
+      144) {
         each_value = ensure_array_like(
           /*inputEls*/
-          ctx2[3]
+          ctx2[4]
         );
         group_outros();
         each_blocks = update_keyed_each(each_blocks, dirty, get_key, 1, ctx2, each_value, each_1_lookup, div3, outro_and_destroy_block, create_each_block2, null, get_each_context2);
@@ -1601,11 +1635,11 @@ function create_fragment2(ctx) {
       if (detaching) {
         detach(div6);
       }
-      ctx[10](null);
+      ctx[12](null);
       for (let i = 0; i < each_blocks.length; i += 1) {
         each_blocks[i].d();
       }
-      ctx[12](null);
+      ctx[14](null);
       mounted = false;
       run_all(dispose);
     }
@@ -1613,11 +1647,16 @@ function create_fragment2(ctx) {
 }
 function instance2($$self, $$props, $$invalidate) {
   let { submission } = $$props;
-  const overwrite = true;
+  let { overwrite } = $$props;
+  let { changeBool } = $$props;
   let countInputs = 1;
   let formEl;
   let errorEl;
   let alertText = ".";
+  function onCheckboxChange() {
+    $$invalidate(0, overwrite = !overwrite);
+    changeBool(overwrite);
+  }
   let inputEls = [{ id: 1, isFirst: true, nameDef: "" }];
   function addInput() {
     countInputs++;
@@ -1626,11 +1665,11 @@ function instance2($$self, $$props, $$invalidate) {
       isFirst: false,
       nameDef: ""
     };
-    $$invalidate(3, inputEls = [...inputEls, newInput]);
+    $$invalidate(4, inputEls = [...inputEls, newInput]);
   }
   function removeInput(id) {
     return __awaiter(this, void 0, void 0, function* () {
-      $$invalidate(3, inputEls = inputEls.filter((input) => input.id !== id));
+      $$invalidate(4, inputEls = inputEls.filter((input) => input.id !== id));
       yield tick();
       let inputs = formEl.querySelectorAll("input");
       if (!inputs)
@@ -1647,15 +1686,8 @@ function instance2($$self, $$props, $$invalidate) {
     else
       return false;
   }
-  function cleanTags(str) {
-    let cleanStr = str;
-    for (let index in KNOWN_BAD_CHARACTERS) {
-      cleanStr = cleanStr.replaceAll(KNOWN_BAD_CHARACTERS[index], "");
-    }
-    return cleanStr;
-  }
   function runError(errorText) {
-    $$invalidate(2, alertText = errorText);
+    $$invalidate(3, alertText = errorText);
     errorEl.classList.remove("hidden");
   }
   function onSubmit() {
@@ -1673,6 +1705,10 @@ function instance2($$self, $$props, $$invalidate) {
       if (!(input.previousElementSibling.children[0] instanceof HTMLOptionElement))
         return;
       let name = input.value;
+      if (name === "") {
+        input.reportValidity();
+        return;
+      }
       let value = parseValue(input.nextElementSibling, input.nextElementSibling.type);
       if (typeof value === "string") {
         if (name === "tags") {
@@ -1691,6 +1727,8 @@ function instance2($$self, $$props, $$invalidate) {
       };
       obj.set(name, propObj);
     });
+    if (obj.size < inputs.length)
+      return;
     submission(obj);
   }
   function submit_handler(event) {
@@ -1699,76 +1737,376 @@ function instance2($$self, $$props, $$invalidate) {
   function div2_binding($$value) {
     binding_callbacks[$$value ? "unshift" : "push"](() => {
       errorEl = $$value;
-      $$invalidate(1, errorEl);
+      $$invalidate(2, errorEl);
     });
   }
   function propinput_nameVal_binding(value, input) {
     if ($$self.$$.not_equal(input.nameDef, value)) {
       input.nameDef = value;
-      $$invalidate(3, inputEls);
+      $$invalidate(4, inputEls);
     }
   }
   function form_binding($$value) {
     binding_callbacks[$$value ? "unshift" : "push"](() => {
       formEl = $$value;
-      $$invalidate(0, formEl);
+      $$invalidate(1, formEl);
     });
   }
   $$self.$$set = ($$props2) => {
     if ("submission" in $$props2)
-      $$invalidate(7, submission = $$props2.submission);
+      $$invalidate(9, submission = $$props2.submission);
+    if ("overwrite" in $$props2)
+      $$invalidate(0, overwrite = $$props2.overwrite);
+    if ("changeBool" in $$props2)
+      $$invalidate(10, changeBool = $$props2.changeBool);
   };
   return [
+    overwrite,
     formEl,
     errorEl,
     alertText,
     inputEls,
+    onCheckboxChange,
     addInput,
     removeInput,
     onSubmit,
     submission,
-    overwrite,
+    changeBool,
     submit_handler,
     div2_binding,
     propinput_nameVal_binding,
     form_binding
   ];
 }
-var PropForm = class extends SvelteComponent {
+var AddPropForm = class extends SvelteComponent {
   constructor(options) {
     super();
-    init(this, options, instance2, create_fragment2, safe_not_equal, { submission: 7, overwrite: 8 }, add_css2);
-  }
-  get overwrite() {
-    return this.$$.ctx[8];
+    init(
+      this,
+      options,
+      instance2,
+      create_fragment2,
+      safe_not_equal,
+      {
+        submission: 9,
+        overwrite: 0,
+        changeBool: 10
+      },
+      add_css2
+    );
   }
 };
-var PropForm_default = PropForm;
+var AddPropForm_default = AddPropForm;
 
-// src/PropModal.ts
-var PropModal = class extends import_obsidian.Modal {
-  constructor(app, submission) {
+// src/AddConfirmModal.ts
+var import_obsidian = require("obsidian");
+
+// src/AddConfirmForm.svelte
+function add_css3(target) {
+  append_styles(target, "svelte-135liin", ".msg.svelte-135liin{font-weight:bold;padding-bottom:10px}");
+}
+function get_each_context3(ctx, list, i) {
+  const child_ctx = ctx.slice();
+  child_ctx[7] = list[i][0];
+  child_ctx[8] = list[i][1];
+  return child_ctx;
+}
+function create_each_block3(ctx) {
+  let li;
+  let t0_value = (
+    /*propName*/
+    ctx[7] + ""
+  );
+  let t0;
+  let t1;
+  let t2_value = (
+    /*prop*/
+    ctx[8].data + ""
+  );
+  let t2;
+  let t3;
+  return {
+    c() {
+      li = element("li");
+      t0 = text(t0_value);
+      t1 = text(": ");
+      t2 = text(t2_value);
+      t3 = space();
+    },
+    m(target, anchor) {
+      insert(target, li, anchor);
+      append(li, t0);
+      append(li, t1);
+      append(li, t2);
+      append(li, t3);
+    },
+    p(ctx2, dirty) {
+      if (dirty & /*props*/
+      1 && t0_value !== (t0_value = /*propName*/
+      ctx2[7] + ""))
+        set_data(t0, t0_value);
+      if (dirty & /*props*/
+      1 && t2_value !== (t2_value = /*prop*/
+      ctx2[8].data + ""))
+        set_data(t2, t2_value);
+    },
+    d(detaching) {
+      if (detaching) {
+        detach(li);
+      }
+    }
+  };
+}
+function create_fragment3(ctx) {
+  let div;
+  let form;
+  let p0;
+  let t1;
+  let p1;
+  let t3;
+  let ul;
+  let t4;
+  let p2;
+  let t6;
+  let button0;
+  let t8;
+  let button1;
+  let mounted;
+  let dispose;
+  let each_value = ensure_array_like([.../*props*/
+  ctx[0]]);
+  let each_blocks = [];
+  for (let i = 0; i < each_value.length; i += 1) {
+    each_blocks[i] = create_each_block3(get_each_context3(ctx, each_value, i));
+  }
+  return {
+    c() {
+      div = element("div");
+      form = element("form");
+      p0 = element("p");
+      p0.textContent = `${/*msg*/
+      ctx[4]}`;
+      t1 = space();
+      p1 = element("p");
+      p1.textContent = "The following props will be added:";
+      t3 = space();
+      ul = element("ul");
+      for (let i = 0; i < each_blocks.length; i += 1) {
+        each_blocks[i].c();
+      }
+      t4 = space();
+      p2 = element("p");
+      p2.textContent = "Are you sure you wish to proceed?";
+      t6 = space();
+      button0 = element("button");
+      button0.textContent = "Confirm";
+      t8 = space();
+      button1 = element("button");
+      button1.textContent = "Cancel";
+      attr(p0, "class", "msg svelte-135liin");
+      attr(button0, "class", "mod-warning");
+      attr(button0, "type", "submit");
+    },
+    m(target, anchor) {
+      insert(target, div, anchor);
+      append(div, form);
+      append(form, p0);
+      append(form, t1);
+      append(form, p1);
+      append(form, t3);
+      append(form, ul);
+      for (let i = 0; i < each_blocks.length; i += 1) {
+        if (each_blocks[i]) {
+          each_blocks[i].m(ul, null);
+        }
+      }
+      append(form, t4);
+      append(form, p2);
+      append(form, t6);
+      append(form, button0);
+      append(form, t8);
+      append(form, button1);
+      ctx[6](button1);
+      if (!mounted) {
+        dispose = [
+          listen(button1, "click", function() {
+            if (is_function(
+              /*cancel*/
+              ctx[2]
+            ))
+              ctx[2].apply(this, arguments);
+          }),
+          listen(form, "submit", prevent_default(function() {
+            if (is_function(
+              /*submission*/
+              ctx[1]
+            ))
+              ctx[1].apply(this, arguments);
+          }))
+        ];
+        mounted = true;
+      }
+    },
+    p(new_ctx, [dirty]) {
+      ctx = new_ctx;
+      if (dirty & /*props*/
+      1) {
+        each_value = ensure_array_like([.../*props*/
+        ctx[0]]);
+        let i;
+        for (i = 0; i < each_value.length; i += 1) {
+          const child_ctx = get_each_context3(ctx, each_value, i);
+          if (each_blocks[i]) {
+            each_blocks[i].p(child_ctx, dirty);
+          } else {
+            each_blocks[i] = create_each_block3(child_ctx);
+            each_blocks[i].c();
+            each_blocks[i].m(ul, null);
+          }
+        }
+        for (; i < each_blocks.length; i += 1) {
+          each_blocks[i].d(1);
+        }
+        each_blocks.length = each_value.length;
+      }
+    },
+    i: noop,
+    o: noop,
+    d(detaching) {
+      if (detaching) {
+        detach(div);
+      }
+      destroy_each(each_blocks, detaching);
+      ctx[6](null);
+      mounted = false;
+      run_all(dispose);
+    }
+  };
+}
+function instance3($$self, $$props, $$invalidate) {
+  let { props } = $$props;
+  let { overwrite = true } = $$props;
+  let { submission } = $$props;
+  let { cancel } = $$props;
+  let btnCancel;
+  const msg = overwrite ? "Any pre-existing text props will have their values overwritten." : "Any pre-existing text props will have their values be appended to.";
+  onMount(() => {
+    btnCancel.focus();
+  });
+  function button1_binding($$value) {
+    binding_callbacks[$$value ? "unshift" : "push"](() => {
+      btnCancel = $$value;
+      $$invalidate(3, btnCancel);
+    });
+  }
+  $$self.$$set = ($$props2) => {
+    if ("props" in $$props2)
+      $$invalidate(0, props = $$props2.props);
+    if ("overwrite" in $$props2)
+      $$invalidate(5, overwrite = $$props2.overwrite);
+    if ("submission" in $$props2)
+      $$invalidate(1, submission = $$props2.submission);
+    if ("cancel" in $$props2)
+      $$invalidate(2, cancel = $$props2.cancel);
+  };
+  return [props, submission, cancel, btnCancel, msg, overwrite, button1_binding];
+}
+var AddConfirmForm = class extends SvelteComponent {
+  constructor(options) {
+    super();
+    init(
+      this,
+      options,
+      instance3,
+      create_fragment3,
+      safe_not_equal,
+      {
+        props: 0,
+        overwrite: 5,
+        submission: 1,
+        cancel: 2
+      },
+      add_css3
+    );
+  }
+};
+var AddConfirmForm_default = AddConfirmForm;
+
+// src/AddConfirmModal.ts
+var AddConfirmModal = class extends import_obsidian.Modal {
+  constructor(app, props, overwrite, submission) {
     super(app);
+    this.props = props;
+    this.overwrite = overwrite;
     this.submission = submission;
   }
-  onSubmit(props) {
-    this.submission(props);
+  onSubmit() {
+    this.submission(true);
+    this.close();
+  }
+  onCancel() {
+    this.submission(false);
     this.close();
   }
   onOpen() {
     this.titleEl.createEl("h2", { text: "Add Properties" });
-    this.component = new PropForm_default({
+    this.component = new AddConfirmForm_default({
       target: this.contentEl,
       props: {
-        submission: this.onSubmit.bind(this)
+        props: this.props,
+        overwrite: this.overwrite,
+        submission: this.onSubmit.bind(this),
+        cancel: this.onCancel.bind(this)
+      }
+    });
+  }
+};
+
+// src/AddPropModal.ts
+var PropModal = class extends import_obsidian2.Modal {
+  constructor(app, submission, overwrite, changeBool) {
+    super(app);
+    this.submission = submission;
+    this.overwrite = overwrite;
+    this.changeBool = changeBool;
+  }
+  //Run form submission if user clicks confirm.
+  onConfirm(bool) {
+    if (bool) {
+      this.submission(this.props);
+      this.close();
+    }
+  }
+  updateBool(bool) {
+    this.overwrite = bool;
+    this.changeBool(bool);
+  }
+  //Pull up confirmation form when user submits base form.
+  onSubmit(props) {
+    this.props = props;
+    new AddConfirmModal(
+      this.app,
+      this.props,
+      this.overwrite,
+      this.onConfirm.bind(this)
+    ).open();
+  }
+  onOpen() {
+    this.titleEl.createEl("h2", { text: "Add Properties" });
+    this.component = new AddPropForm_default({
+      target: this.contentEl,
+      props: {
+        submission: this.onSubmit.bind(this),
+        overwrite: this.overwrite,
+        changeBool: this.updateBool.bind(this)
       }
     });
   }
 };
 
 // src/SettingTab.ts
-var import_obsidian2 = require("obsidian");
-var SettingTab = class extends import_obsidian2.PluginSettingTab {
+var import_obsidian3 = require("obsidian");
+var SettingTab = class extends import_obsidian3.PluginSettingTab {
   constructor(app, plugin) {
     super(app, plugin);
     this.plugin = plugin;
@@ -1776,7 +2114,7 @@ var SettingTab = class extends import_obsidian2.PluginSettingTab {
   display() {
     let { containerEl } = this;
     containerEl.empty();
-    new import_obsidian2.Setting(containerEl).setName("Overwrite existing text.").setDesc(
+    new import_obsidian3.Setting(containerEl).setName("Overwrite existing text.").setDesc(
       "When adding a property with a name that already exists, the text will overwrite the prop's existing value.  If left disabled, the new value will be appended to the old as a List."
     ).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.overwrite);
@@ -1785,7 +2123,7 @@ var SettingTab = class extends import_obsidian2.PluginSettingTab {
         await this.plugin.saveSettings();
       });
     });
-    new import_obsidian2.Setting(containerEl).setName("Recursive Iteration.").setDesc(
+    new import_obsidian3.Setting(containerEl).setName("Recursive Iteration.").setDesc(
       "When toggled on, while looping through all files in a folder, you will also loop through any sub-folders."
     ).addToggle((toggle) => {
       toggle.setValue(this.plugin.settings.recursive);
@@ -1797,127 +2135,567 @@ var SettingTab = class extends import_obsidian2.PluginSettingTab {
   }
 };
 
-// src/main.ts
-var defaultSettings = {
-  overwrite: false,
-  recursive: true
-};
-var MultiPropPlugin = class extends import_obsidian3.Plugin {
-  async onload() {
-    await this.loadSettings();
-    this.addSettingTab(new SettingTab(this.app, this));
-    this.registerEvent(
-      this.app.workspace.on("file-menu", (menu, file) => {
-        if (file instanceof import_obsidian3.TFolder) {
-          menu.addItem((item) => {
-            item.setIcon("tag").setTitle("Add props to folder's notes").onClick(
-              () => new PropModal(this.app, (props) => {
-                this.searchThroughFolders(
-                  file,
-                  this.addPropertiesCallback(props)
-                );
-              }).open()
-            );
-          });
-        }
-      })
-    );
-    this.registerEvent(
-      this.app.workspace.on("files-menu", (menu, files) => {
-        menu.addItem((item) => {
-          item.setIcon("tag").setTitle("Add props to selected files").onClick(
-            () => new PropModal(this.app, (props) => {
-              this.searchThroughFiles(
-                files,
-                this.addPropertiesCallback(props)
-              );
-            }).open()
-          );
-        });
-      })
-    );
-    this.registerEvent(
-      this.app.workspace.on("search:results-menu", (menu, leaf) => {
-        menu.addItem((item) => {
-          item.setIcon("tag").setTitle("Add props to search results").onClick(() => {
-            let files = [];
-            leaf.dom.vChildren.children.forEach((e) => {
-              files.push(e.file);
-            });
-            if (!files.length) {
-              new import_obsidian3.Notice("No files to add properties to.", 4e3);
-              return;
-            }
-            new PropModal(this.app, (props) => {
-              this.searchThroughFiles(
-                files,
-                this.addPropertiesCallback(props)
-              );
-            }).open();
-          });
-        });
-      })
+// src/RemoveModal.ts
+var import_obsidian5 = require("obsidian");
+
+// src/RemovePropForm.svelte
+function add_css4(target) {
+  append_styles(target, "svelte-1q2r7gq", ".name-container.svelte-1q2r7gq{display:flex;flex-direction:column;gap:5px;margin-top:10px;margin-bottom:20px}.alert-container.svelte-1q2r7gq{display:flex;flex-direction:column;align-items:center;justify-content:center;margin-bottom:10px;background-color:red;font-weight:bold}.hidden.svelte-1q2r7gq{display:none}");
+}
+function get_each_context4(ctx, list, i) {
+  const child_ctx = ctx.slice();
+  child_ctx[9] = list[i];
+  return child_ctx;
+}
+function create_each_block4(ctx) {
+  let label;
+  let input;
+  let input_value_value;
+  let t0;
+  let t1_value = (
+    /*name*/
+    ctx[9] + ""
+  );
+  let t1;
+  let t2;
+  let mounted;
+  let dispose;
+  function change_handler(...args) {
+    return (
+      /*change_handler*/
+      ctx[7](
+        /*name*/
+        ctx[9],
+        ...args
+      )
     );
   }
-  /** Add properties from a Map to a note.
-   */
-  addProperties(file, props, overwrite) {
-    let propCache = this.app.metadataCache.getAllPropertyInfos();
-    this.app.fileManager.processFrontMatter(file, (frontmatter) => {
-      for (const [key, value] of props) {
-        if (!frontmatter[key] || overwrite) {
-          frontmatter[key] = value.data;
-          continue;
+  return {
+    c() {
+      label = element("label");
+      input = element("input");
+      t0 = space();
+      t1 = text(t1_value);
+      t2 = space();
+      attr(input, "type", "checkbox");
+      input.value = input_value_value = /*name*/
+      ctx[9];
+    },
+    m(target, anchor) {
+      insert(target, label, anchor);
+      append(label, input);
+      append(label, t0);
+      append(label, t1);
+      append(label, t2);
+      if (!mounted) {
+        dispose = listen(input, "change", change_handler);
+        mounted = true;
+      }
+    },
+    p(new_ctx, dirty) {
+      ctx = new_ctx;
+      if (dirty & /*names*/
+      1 && input_value_value !== (input_value_value = /*name*/
+      ctx[9])) {
+        input.value = input_value_value;
+      }
+      if (dirty & /*names*/
+      1 && t1_value !== (t1_value = /*name*/
+      ctx[9] + ""))
+        set_data(t1, t1_value);
+    },
+    d(detaching) {
+      if (detaching) {
+        detach(label);
+      }
+      mounted = false;
+      dispose();
+    }
+  };
+}
+function create_fragment4(ctx) {
+  let div4;
+  let div2;
+  let div0;
+  let t1;
+  let div1;
+  let t2;
+  let t3;
+  let p;
+  let t5;
+  let form;
+  let div3;
+  let t6;
+  let button;
+  let mounted;
+  let dispose;
+  let each_value = ensure_array_like(
+    /*names*/
+    ctx[0]
+  );
+  let each_blocks = [];
+  for (let i = 0; i < each_value.length; i += 1) {
+    each_blocks[i] = create_each_block4(get_each_context4(ctx, each_value, i));
+  }
+  return {
+    c() {
+      div4 = element("div");
+      div2 = element("div");
+      div0 = element("div");
+      div0.textContent = "ERROR";
+      t1 = space();
+      div1 = element("div");
+      t2 = text(
+        /*alertText*/
+        ctx[2]
+      );
+      t3 = space();
+      p = element("p");
+      p.textContent = "Select the properties you wish to remove from the file selection.";
+      t5 = space();
+      form = element("form");
+      div3 = element("div");
+      for (let i = 0; i < each_blocks.length; i += 1) {
+        each_blocks[i].c();
+      }
+      t6 = space();
+      button = element("button");
+      button.textContent = "Confirm";
+      attr(div1, "id", "alert-text");
+      attr(div2, "id", "alert-container");
+      attr(div2, "class", "alert-container hidden svelte-1q2r7gq");
+      attr(div3, "class", "name-container svelte-1q2r7gq");
+      attr(button, "type", "submit");
+    },
+    m(target, anchor) {
+      insert(target, div4, anchor);
+      append(div4, div2);
+      append(div2, div0);
+      append(div2, t1);
+      append(div2, div1);
+      append(div1, t2);
+      ctx[6](div2);
+      append(div4, t3);
+      append(div4, p);
+      append(div4, t5);
+      append(div4, form);
+      append(form, div3);
+      for (let i = 0; i < each_blocks.length; i += 1) {
+        if (each_blocks[i]) {
+          each_blocks[i].m(div3, null);
         }
-        let type1 = value.type;
-        let type2 = propCache[key.toLowerCase()].type;
-        if (!canBeAppended(type1, type2)) {
-          frontmatter[key] = value.data;
-          continue;
-        } else {
-          let arr = mergeIntoArrays(frontmatter[key], value.data);
-          frontmatter[key] = arr;
-          continue;
+      }
+      append(form, t6);
+      append(form, button);
+      if (!mounted) {
+        dispose = listen(form, "submit", prevent_default(
+          /*onSubmit*/
+          ctx[4]
+        ));
+        mounted = true;
+      }
+    },
+    p(ctx2, [dirty]) {
+      if (dirty & /*alertText*/
+      4)
+        set_data(
+          t2,
+          /*alertText*/
+          ctx2[2]
+        );
+      if (dirty & /*names, handleCheckboxChange*/
+      9) {
+        each_value = ensure_array_like(
+          /*names*/
+          ctx2[0]
+        );
+        let i;
+        for (i = 0; i < each_value.length; i += 1) {
+          const child_ctx = get_each_context4(ctx2, each_value, i);
+          if (each_blocks[i]) {
+            each_blocks[i].p(child_ctx, dirty);
+          } else {
+            each_blocks[i] = create_each_block4(child_ctx);
+            each_blocks[i].c();
+            each_blocks[i].m(div3, null);
+          }
         }
+        for (; i < each_blocks.length; i += 1) {
+          each_blocks[i].d(1);
+        }
+        each_blocks.length = each_value.length;
+      }
+    },
+    i: noop,
+    o: noop,
+    d(detaching) {
+      if (detaching) {
+        detach(div4);
+      }
+      ctx[6](null);
+      destroy_each(each_blocks, detaching);
+      mounted = false;
+      dispose();
+    }
+  };
+}
+function instance4($$self, $$props, $$invalidate) {
+  let { names = [] } = $$props;
+  let { submission } = $$props;
+  let errorEl;
+  let alertText = ".";
+  let propNames = [];
+  names.sort();
+  function handleCheckboxChange(event, string) {
+    const isChecked = event.target.checked;
+    if (isChecked) {
+      propNames = [...propNames, string];
+    } else {
+      propNames = propNames.filter((selected) => selected !== string);
+    }
+  }
+  function onSubmit() {
+    if (propNames.length === 0) {
+      $$invalidate(2, alertText = "Please select at least one property to remove.");
+      errorEl.classList.remove("hidden");
+      return;
+    }
+    submission(propNames);
+  }
+  function div2_binding($$value) {
+    binding_callbacks[$$value ? "unshift" : "push"](() => {
+      errorEl = $$value;
+      $$invalidate(1, errorEl);
+    });
+  }
+  const change_handler = (name, event) => handleCheckboxChange(event, name);
+  $$self.$$set = ($$props2) => {
+    if ("names" in $$props2)
+      $$invalidate(0, names = $$props2.names);
+    if ("submission" in $$props2)
+      $$invalidate(5, submission = $$props2.submission);
+  };
+  return [
+    names,
+    errorEl,
+    alertText,
+    handleCheckboxChange,
+    onSubmit,
+    submission,
+    div2_binding,
+    change_handler
+  ];
+}
+var RemovePropForm = class extends SvelteComponent {
+  constructor(options) {
+    super();
+    init(this, options, instance4, create_fragment4, safe_not_equal, { names: 0, submission: 5 }, add_css4);
+  }
+};
+var RemovePropForm_default = RemovePropForm;
+
+// src/RemoveConfirmModal.ts
+var import_obsidian4 = require("obsidian");
+
+// src/RemoveConfirmForm.svelte
+function get_each_context5(ctx, list, i) {
+  const child_ctx = ctx.slice();
+  child_ctx[6] = list[i];
+  return child_ctx;
+}
+function create_each_block5(ctx) {
+  let li;
+  let t0_value = (
+    /*name*/
+    ctx[6] + ""
+  );
+  let t0;
+  let t1;
+  return {
+    c() {
+      li = element("li");
+      t0 = text(t0_value);
+      t1 = space();
+    },
+    m(target, anchor) {
+      insert(target, li, anchor);
+      append(li, t0);
+      append(li, t1);
+    },
+    p(ctx2, dirty) {
+      if (dirty & /*names*/
+      1 && t0_value !== (t0_value = /*name*/
+      ctx2[6] + ""))
+        set_data(t0, t0_value);
+    },
+    d(detaching) {
+      if (detaching) {
+        detach(li);
+      }
+    }
+  };
+}
+function create_fragment5(ctx) {
+  let div;
+  let form;
+  let p0;
+  let t3;
+  let ul;
+  let t4;
+  let p1;
+  let t6;
+  let button0;
+  let t8;
+  let button1;
+  let mounted;
+  let dispose;
+  let each_value = ensure_array_like(
+    /*names*/
+    ctx[0]
+  );
+  let each_blocks = [];
+  for (let i = 0; i < each_value.length; i += 1) {
+    each_blocks[i] = create_each_block5(get_each_context5(ctx, each_value, i));
+  }
+  return {
+    c() {
+      div = element("div");
+      form = element("form");
+      p0 = element("p");
+      p0.textContent = `The following ${/*word*/
+      ctx[4]} will be removed:`;
+      t3 = space();
+      ul = element("ul");
+      for (let i = 0; i < each_blocks.length; i += 1) {
+        each_blocks[i].c();
+      }
+      t4 = space();
+      p1 = element("p");
+      p1.textContent = "Are you sure you wish to proceed?";
+      t6 = space();
+      button0 = element("button");
+      button0.textContent = "Delete";
+      t8 = space();
+      button1 = element("button");
+      button1.textContent = "Cancel";
+      attr(button0, "class", "mod-warning");
+      attr(button0, "type", "submit");
+    },
+    m(target, anchor) {
+      insert(target, div, anchor);
+      append(div, form);
+      append(form, p0);
+      append(form, t3);
+      append(form, ul);
+      for (let i = 0; i < each_blocks.length; i += 1) {
+        if (each_blocks[i]) {
+          each_blocks[i].m(ul, null);
+        }
+      }
+      append(form, t4);
+      append(form, p1);
+      append(form, t6);
+      append(form, button0);
+      append(form, t8);
+      append(form, button1);
+      ctx[5](button1);
+      if (!mounted) {
+        dispose = [
+          listen(button1, "click", function() {
+            if (is_function(
+              /*cancel*/
+              ctx[2]
+            ))
+              ctx[2].apply(this, arguments);
+          }),
+          listen(form, "submit", prevent_default(function() {
+            if (is_function(
+              /*submission*/
+              ctx[1]
+            ))
+              ctx[1].apply(this, arguments);
+          }))
+        ];
+        mounted = true;
+      }
+    },
+    p(new_ctx, [dirty]) {
+      ctx = new_ctx;
+      if (dirty & /*names*/
+      1) {
+        each_value = ensure_array_like(
+          /*names*/
+          ctx[0]
+        );
+        let i;
+        for (i = 0; i < each_value.length; i += 1) {
+          const child_ctx = get_each_context5(ctx, each_value, i);
+          if (each_blocks[i]) {
+            each_blocks[i].p(child_ctx, dirty);
+          } else {
+            each_blocks[i] = create_each_block5(child_ctx);
+            each_blocks[i].c();
+            each_blocks[i].m(ul, null);
+          }
+        }
+        for (; i < each_blocks.length; i += 1) {
+          each_blocks[i].d(1);
+        }
+        each_blocks.length = each_value.length;
+      }
+    },
+    i: noop,
+    o: noop,
+    d(detaching) {
+      if (detaching) {
+        detach(div);
+      }
+      destroy_each(each_blocks, detaching);
+      ctx[5](null);
+      mounted = false;
+      run_all(dispose);
+    }
+  };
+}
+function instance5($$self, $$props, $$invalidate) {
+  let { names = ["test", "test2"] } = $$props;
+  let { submission } = $$props;
+  let { cancel } = $$props;
+  let btnCancel;
+  const word = names.length > 1 ? "properties" : "property";
+  onMount(() => {
+    btnCancel.focus();
+  });
+  function button1_binding($$value) {
+    binding_callbacks[$$value ? "unshift" : "push"](() => {
+      btnCancel = $$value;
+      $$invalidate(3, btnCancel);
+    });
+  }
+  $$self.$$set = ($$props2) => {
+    if ("names" in $$props2)
+      $$invalidate(0, names = $$props2.names);
+    if ("submission" in $$props2)
+      $$invalidate(1, submission = $$props2.submission);
+    if ("cancel" in $$props2)
+      $$invalidate(2, cancel = $$props2.cancel);
+  };
+  return [names, submission, cancel, btnCancel, word, button1_binding];
+}
+var RemoveConfirmForm = class extends SvelteComponent {
+  constructor(options) {
+    super();
+    init(this, options, instance5, create_fragment5, safe_not_equal, { names: 0, submission: 1, cancel: 2 });
+  }
+};
+var RemoveConfirmForm_default = RemoveConfirmForm;
+
+// src/RemoveConfirmModal.ts
+var RemoveConfirmModal = class extends import_obsidian4.Modal {
+  constructor(app, names, submission) {
+    super(app);
+    if (!names || names.length === 0) {
+      new import_obsidian4.Notice("No properties to remove");
+      return;
+    }
+    this.names = names;
+    this.submission = submission;
+  }
+  onSubmit() {
+    this.submission(true);
+    this.close();
+  }
+  onCancel() {
+    this.submission(false);
+    this.close();
+  }
+  onOpen() {
+    this.titleEl.createEl("h2", { text: "Remove Properties" });
+    this.component = new RemoveConfirmForm_default({
+      target: this.contentEl,
+      props: {
+        names: this.names,
+        submission: this.onSubmit.bind(this),
+        cancel: this.onCancel.bind(this)
       }
     });
   }
-  /**
-   * Callback function to run addProperties inside iterative functions.
-   */
-  addPropertiesCallback(props) {
-    return (file) => {
-      this.addProperties(file, props, this.settings.overwrite);
-    };
+};
+
+// src/RemoveModal.ts
+var RemoveModal = class extends import_obsidian5.Modal {
+  constructor(app, names, submission) {
+    if (!names || names.length === 0) {
+      new import_obsidian5.Notice("No properties to remove");
+      return;
+    }
+    super(app);
+    this.names = names;
+    this.submission = submission;
   }
-  /** Iterates through all files in a folder and runs callback on each. */
-  searchThroughFolders(folder, callback) {
-    for (let obj of folder.children) {
-      if (obj instanceof import_obsidian3.TFolder) {
-        if (this.settings.recursive) {
-          this.searchThroughFolders(obj, callback);
-        }
-      }
-      if (obj instanceof import_obsidian3.TFile && obj.extension === "md") {
-        callback(obj);
-      }
+  onConfirm(bool) {
+    if (bool) {
+      this.submission(this.props);
+      this.close();
     }
   }
-  /** Iterates through selection of files and runs a given callback function on that file. */
-  searchThroughFiles(arr, callback) {
-    for (let el of arr) {
-      if (el instanceof import_obsidian3.TFile && el.extension === "md") {
-        callback(el);
+  onSubmit(props) {
+    this.props = props;
+    new RemoveConfirmModal(
+      this.app,
+      this.props,
+      this.onConfirm.bind(this)
+    ).open();
+  }
+  onOpen() {
+    this.titleEl.createEl("h2", { text: "Remove Properties" });
+    this.component = new RemovePropForm_default({
+      target: this.contentEl,
+      props: {
+        names: this.names,
+        submission: this.onSubmit.bind(this)
       }
-    }
-  }
-  async loadSettings() {
-    this.settings = Object.assign({}, defaultSettings, await this.loadData());
-  }
-  async saveSettings() {
-    await this.saveData(this.settings);
+    });
   }
 };
+
+// src/frontmatter.ts
+function addProperties(app, file, props, overwrite) {
+  let propCache = app.metadataCache.getAllPropertyInfos();
+  app.fileManager.processFrontMatter(file, (frontmatter) => {
+    for (const [key, value] of props) {
+      if (!frontmatter[key] || overwrite) {
+        frontmatter[key] = value.data;
+        continue;
+      }
+      let type1 = value.type;
+      let type2 = propCache[key.toLowerCase()].type;
+      if (!canBeAppended(type1, type2)) {
+        frontmatter[key] = value.data;
+        continue;
+      } else {
+        let arr = mergeIntoArrays(frontmatter[key], value.data);
+        frontmatter[key] = arr;
+        continue;
+      }
+    }
+  });
+}
+async function addPropToSet(app, set, file) {
+  await app.fileManager.processFrontMatter(file, (frontmatter) => {
+    for (const key in frontmatter) {
+      set.add(key);
+    }
+  });
+  return set;
+}
+function removeProperties(app, file, props) {
+  app.fileManager.processFrontMatter(file, (frontmatter) => {
+    for (const prop of props) {
+      delete frontmatter[prop];
+    }
+  });
+}
 function canBeAppended(str1, str2) {
   let arr = ["number", "date", "datetime", "checkbox"];
   if (arr.includes(str1) || arr.includes(str2))
@@ -1930,3 +2708,181 @@ function mergeIntoArrays(...args) {
   const unique = [...new Set(flattened)];
   return unique;
 }
+
+// src/main.ts
+var defaultSettings = {
+  overwrite: false,
+  recursive: true
+};
+var MultiPropPlugin = class extends import_obsidian6.Plugin {
+  async loadSettings() {
+    this.settings = Object.assign({}, defaultSettings, await this.loadData());
+  }
+  async saveSettings() {
+    await this.saveData(this.settings);
+  }
+  async changeOverwrite(bool) {
+    this.settings.overwrite = bool;
+    await this.saveSettings();
+  }
+  async onload() {
+    await this.loadSettings();
+    this.addSettingTab(new SettingTab(this.app, this));
+    this.registerEvent(
+      this.app.workspace.on("file-menu", (menu, folder) => {
+        if (folder instanceof import_obsidian6.TFolder) {
+          menu.addItem((item) => {
+            item.setIcon("archive").setTitle("Add props to folder's notes").onClick(() => this.createPropModal(folder));
+          });
+        }
+      })
+    );
+    this.registerEvent(
+      this.app.workspace.on("file-menu", (menu, folder) => {
+        if (folder instanceof import_obsidian6.TFolder) {
+          menu.addItem((item) => {
+            item.setIcon("archive").setTitle("Remove props from folder's notes").onClick(async () => this.createRemoveModal(folder));
+          });
+        }
+      })
+    );
+    this.registerEvent(
+      this.app.workspace.on("files-menu", (menu, files) => {
+        menu.addItem((item) => {
+          item.setIcon("archive").setTitle("Add props to selected files").onClick(() => this.createPropModal(files));
+        });
+      })
+    );
+    this.registerEvent(
+      this.app.workspace.on("files-menu", (menu, files) => {
+        menu.addItem((item) => {
+          item.setIcon("archive").setTitle("Remove props from selected files").onClick(async () => this.createRemoveModal(files));
+        });
+      })
+    );
+    this.registerEvent(
+      this.app.workspace.on("search:results-menu", (menu, leaf) => {
+        menu.addItem((item) => {
+          item.setIcon("archive").setTitle("Add props to search results").onClick(() => {
+            let files = this.getFilesFromSearch(leaf);
+            if (!files.length) {
+              new import_obsidian6.Notice("No files to add properties to.", 4e3);
+              return;
+            }
+            this.createPropModal(files);
+          });
+        });
+      })
+    );
+    this.registerEvent(
+      this.app.workspace.on("search:results-menu", (menu, leaf) => {
+        menu.addItem((item) => {
+          item.setIcon("archive").setTitle("Remove props from search results").onClick(async () => {
+            let files = this.getFilesFromSearch(leaf);
+            if (!files.length) {
+              new import_obsidian6.Notice("No files to remove properties from.", 4e3);
+              return;
+            }
+            this.createRemoveModal(files);
+          });
+        });
+      })
+    );
+  }
+  async getPropsFromFolder(folder, names) {
+    for (let obj of folder.children) {
+      if (obj instanceof import_obsidian6.TFile && obj.extension === "md") {
+        names = await addPropToSet(this.app, names, obj);
+      }
+      if (obj instanceof import_obsidian6.TFolder) {
+        if (this.settings.recursive) {
+          this.getPropsFromFolder(obj, names);
+        }
+      }
+    }
+    return [...names];
+  }
+  async getPropsFromFiles(files, names) {
+    for (let file of files) {
+      if (file instanceof import_obsidian6.TFile && file.extension === "md") {
+        names = await addPropToSet(this.app, names, file);
+      }
+    }
+    return [...names];
+  }
+  /** Iterates through all files in a folder and runs callback on each file. */
+  searchFolders(folder, callback) {
+    for (let obj of folder.children) {
+      if (obj instanceof import_obsidian6.TFolder) {
+        if (this.settings.recursive) {
+          this.searchFolders(obj, callback);
+        }
+      }
+      if (obj instanceof import_obsidian6.TFile && obj.extension === "md") {
+        callback(obj);
+      }
+    }
+  }
+  /** Iterates through selection of files and runs a given callback function on that file. */
+  searchFiles(files, callback) {
+    for (let file of files) {
+      if (file instanceof import_obsidian6.TFile && file.extension === "md") {
+        callback(file);
+      }
+    }
+  }
+  /** Get all files from a search result. */
+  getFilesFromSearch(leaf) {
+    let files = [];
+    leaf.dom.vChildren.children.forEach((e) => {
+      files.push(e.file);
+    });
+    return files;
+  }
+  /** Create modal for removing properties.  
+   * Will call a different function depending on whether files or a folder is used. */
+  createPropModal(iterable) {
+    let iterateFunc;
+    if (iterable instanceof import_obsidian6.TFolder) {
+      iterateFunc = (props) => this.searchFolders(iterable, this.addPropsCallback(props));
+    } else {
+      iterateFunc = (props) => this.searchFiles(iterable, this.addPropsCallback(props));
+    }
+    new PropModal(
+      this.app,
+      iterateFunc,
+      this.settings.overwrite,
+      this.changeOverwrite.bind(this)
+    ).open();
+  }
+  /** Create modal for removing properties.  
+   * Will call a different function depending on whether files or a folder is used. */
+  async createRemoveModal(iterable) {
+    let names;
+    let iterateFunc;
+    if (iterable instanceof import_obsidian6.TFolder) {
+      names = await this.getPropsFromFolder(iterable, /* @__PURE__ */ new Set());
+      iterateFunc = (props) => this.searchFolders(iterable, this.removePropsCallback(props));
+    } else {
+      names = await this.getPropsFromFiles(iterable, /* @__PURE__ */ new Set());
+      iterateFunc = (props) => this.searchFiles(iterable, this.removePropsCallback(props));
+    }
+    if (names.length === 0) {
+      new import_obsidian6.Notice("No properties to remove");
+      return;
+    }
+    new RemoveModal(this.app, names, iterateFunc).open();
+  }
+  /** Callback function to run addProperties inside iterative functions.*/
+  addPropsCallback(props) {
+    return (file) => {
+      addProperties(this.app, file, props, this.settings.overwrite);
+    };
+  }
+  /** Callback function to run removeProperties inside iterative functions. */
+  removePropsCallback(props) {
+    return (file) => {
+      removeProperties(this.app, file, props);
+    };
+  }
+};

@@ -1,4 +1,45 @@
-#spark
+#apache-spark
+
+[source 1](https://medium.com/analytics-vidhya/solving-complex-big-data-problems-using-combinations-of-window-functions-deep-dive-in-pyspark-b1830eb00b7d), [source 2](https://www.databricks.com/blog/2014/01/21/spark-and-hadoop.html), [source 3](https://www.youtube.com/watch?v=AGgyf9bO_8M&list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi), [source 4](https://emerginginsightsnow.com/2015/05/17/apache-spark-ecosystem-grows-rapidly-has-hadoop-met-its-match/), [source 5](https://mydataexperiments.com/2017/04/11/hadoop-ecosystem-a-quick-glance/)
+
+# Spark vs Hadoop
+
+## How Apache Spark Fits into Hadoop
+
+#apache-spark  #hadoop  #hdfs  #standalone-spark-deployment  #simr-deployment  #hadoop-yarn-depolyment  #mapreduce 
+
+* <mark style="background: #FFB86CA6;">Spark is intended to enhance, not replace, the Hadoop stack.</mark>
+* Spark reads/writes data from/to storage systems like HDFS. In other words, <mark style="background: #FFB86CA6;">Spark cares about performing computations on the data (i.e., data processing).</mark>
+
+There are three ways to deploy Spark in a Hadoop cluster: standalone, YARN, and SIMR (Spark in MapReduce):
+
+![](Media-Temp/Pasted%20image%2020240124151740.png)
+
+([s2](https://www.databricks.com/blog/2014/01/21/spark-and-hadoop.html#:~:text=there%20are%20three%20ways%20to%20deploy%20Spark%20in%20a%20Hadoop%20cluster%3A%20standalone%2C%20YARN%2C%20and%20SIMR.))
+
+* <mark style="background: #FFF3A3A6;">Standalone Spark deployment</mark>: Statically allocate resources to part (or all) of a Hadoop cluster, and <mark style="background: #FFB8EBA6;">run Spark side-by-side with Hadoop's MapReduce</mark> (MR). This is a good choice for [Hadoop 1.x users](Hadoop.md#Hadoop%20Core%20Components%20(V1.0%20vs%20V2.0)).
+* <mark style="background: #FFF3A3A6;">Hadoop YARN deployment</mark>: [Hadoop 2.x users](Hadoop.md#Hadoop%20Core%20Components%20(V1.0%20vs%20V2.0)) who use YARN can simply run Spark on YARN without any pre-installation or administrative access required.
+* <mark style="background: #FFF3A3A6;">Spark In MapReduce (SIMR)</mark>: For the [Hadoop 2.x users](Hadoop.md#Hadoop%20Core%20Components%20(V1.0%20vs%20V2.0)) who are not running YARN yet, they can use SIMR to <mark style="background: #FFB8EBA6;">launch Spark jobs inside MapReduce to just experiment with Spark</mark> and use its shell within a couple of minutes after downloading it!
+
+Important note: Spark doesn't have to use Hadoop's ecosystem. For example, look at the tools/methods underlined in red below ([s3](https://youtu.be/AGgyf9bO_8M?list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&t=685)):
+
+![](Media-Temp/Pasted%20image%2020240124162013.png)
+
+## Spark Ecosystem vs Hadoop Ecosystem
+
+#apache-spark  #hadoop  #data-ecosystem  
+
+<mark style="background: #D2B3FFA6;">Hadoop requires external libraries to perform certain functionalities, while Spark may have these functionalities built-in it's ecosystem</mark> ([s3, 13:40](https://youtu.be/AGgyf9bO_8M?list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&t=822)). This is why Spark can sometimes get confused with Hadoop; as Spark's ecosystem has become big enough to the point where it can rely on other built-in or supported third-party libraries to establish a data stack different than Hadoop's data stack.
+
+Subset of Spark's built-in libraries' ecosystem ([s4](https://emerginginsightsnow.com/2015/05/17/apache-spark-ecosystem-grows-rapidly-has-hadoop-met-its-match/)):
+
+![](Media-Temp/Pasted%20image%2020240124163832.png)
+
+You can compare the ecosystem above with [Hadoop's ecosystem](Hadoop.md#Hadoop%20Ecosystem), noting that the latter's libraries aren't all built-in.
+
+Side note 1: the Spark's affiliations, supported third-libraries, and built-in libraries ([s4](https://emerginginsightsnow.com/2015/05/17/apache-spark-ecosystem-grows-rapidly-has-hadoop-met-its-match/#:~:text=Spark%20Support%20Grows%20Quickly%20Among%20Platform%20Providers)):
+
+![](Media-Temp/Pasted%20image%2020240124164315.png)
 
 # Important Concepts
 
@@ -6,7 +47,6 @@
 
 #pyspark #window-specification
 
-[source 1](https://medium.com/analytics-vidhya/solving-complex-big-data-problems-using-combinations-of-window-functions-deep-dive-in-pyspark-b1830eb00b7d), 
 
 Essentially ([s1](https://medium.com/analytics-vidhya/solving-complex-big-data-problems-using-combinations-of-window-functions-deep-dive-in-pyspark-b1830eb00b7d)):
 

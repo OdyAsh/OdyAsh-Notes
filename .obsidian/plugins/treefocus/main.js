@@ -251,6 +251,7 @@ var Log = class {
      * - plugin id from {@link PluginMeta.id}
      */
   static debug(message, ...args) {
+    return;
     if (import_obsidian2.Platform.isDesktopApp) {
       if (true) {
         console.log(`[DEBUG][${PluginInfo.pluginId}]: ${message}`, ...args);
@@ -264,6 +265,7 @@ var Log = class {
    * - plugin id from {@link PluginInfo.pluginId}
    */
   static log(message, ...args) {
+    return;
     console.log(`[INFO] [${PluginInfo.pluginId}]: ${message}`, ...args);
   }
   /**
@@ -292,6 +294,7 @@ var Log = class {
    * - event name
    */
   static eventFired(event, ...args) {
+    return;
     console.log(`[EVENT][${PluginInfo.pluginId}]: ${event}`, ...args);
   }
 };
