@@ -1,6 +1,9 @@
 #apache-spark
 
-[source 1](https://medium.com/analytics-vidhya/solving-complex-big-data-problems-using-combinations-of-window-functions-deep-dive-in-pyspark-b1830eb00b7d), [source 2](https://www.databricks.com/blog/2014/01/21/spark-and-hadoop.html), [source 3](https://www.youtube.com/watch?v=AGgyf9bO_8M&list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi), [source 4](https://emerginginsightsnow.com/2015/05/17/apache-spark-ecosystem-grows-rapidly-has-hadoop-met-its-match/), [source 5](https://mydataexperiments.com/2017/04/11/hadoop-ecosystem-a-quick-glance/)
+[source 2](https://www.databricks.com/blog/2014/01/21/spark-and-hadoop.html), [source 3](https://www.youtube.com/watch?v=AGgyf9bO_8M&list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi), [source 4](https://emerginginsightsnow.com/2015/05/17/apache-spark-ecosystem-grows-rapidly-has-hadoop-met-its-match/), [source 5](https://mydataexperiments.com/2017/04/11/hadoop-ecosystem-a-quick-glance/), [source 6](https://inoxoft.com/blog/key-differences-between-mapreduce-and-spark/), [source 7](https://www.youtube.com/watch?v=GAK3mbI_sPY&list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&index=3), [source 8](https://www.quora.com/What-is-the-difference-between-spark-and-pyspark), [source 9](https://www.youtube.com/watch?v=YEGnTKRHpu8&list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&index=3), [source 10](https://www.javatpoint.com/apache-spark-architecture), [source 11](https://mallikarjuna_g.gitbooks.io/spark/content/), [source 12](<https://www.databricks.com/glossary/what-are-spark-applications#:~:text=The%20driver%20process%20runs%20your,the%20executors%20(defined%20momentarily).>), 
+
+Side notes:
+* ([s11](https://mallikarjuna_g.gitbooks.io/spark/content/)) is amazing for mastering Spark. It is neither a book, nor a bunch of articles; it's something in between, and its explanations are straight to the point. Kudos to [Jacek Laskowski](https://pl.linkedin.com/in/jaceklaskowski)
 
 # Spark vs Hadoop
 
@@ -35,50 +38,113 @@ Subset of Spark's built-in libraries' ecosystem ([s4](https://emerginginsightsno
 
 ![](Media-Temp/Pasted%20image%2020240124163832.png)
 
-You can compare the ecosystem above with [Hadoop's ecosystem](Hadoop.md#Hadoop%20Ecosystem), noting that the latter's libraries aren't all built-in.
+You can compare the ecosystem above with [Hadoop's ecosystem](Hadoop.md#Hadoop's%20Ecosystem), noting that the latter's libraries aren't all built-in.
 
 Side note 1: the Spark's affiliations, supported third-libraries, and built-in libraries ([s4](https://emerginginsightsnow.com/2015/05/17/apache-spark-ecosystem-grows-rapidly-has-hadoop-met-its-match/#:~:text=Spark%20Support%20Grows%20Quickly%20Among%20Platform%20Providers)):
 
 ![](Media-Temp/Pasted%20image%2020240124164315.png)
 
-# Important Concepts
 
-## Window
+## Spark vs Hadoop's MapReduce
 
-#pyspark #window-specification
+#apache-spark  #hadoop  #mapreduce  #caching  #disk-oriented  #memory-oriented
+
+![](Media-Temp/Pasted%20image%2020240125101019.png)
+
+([s6](https://inoxoft.com/blog/key-differences-between-mapreduce-and-spark/#anchor-comparing-spark-and-hadoop-mapreduce-differences))
+
+Other differences ([s7, 8:40](https://youtu.be/GAK3mbI_sPY?list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&t=520)):
+
+![](Media-Temp/Pasted%20image%2020240125101955.png)
+
+Visualization of <mark style="background: #FFF3A3A6;">in-memory caching</mark> ([s7, 3:14](https://youtu.be/GAK3mbI_sPY?list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&t=194)). I.e., how Spark is <mark style="background: #FFF3A3A6;">memory-oriented</mark> while Hadoop is <mark style="background: #FFF3A3A6;">disk-oriented</mark>:
+
+![](Media-Temp/Pasted%20image%2020240125101213.png)
+
+Side note: At the very end, both the Spark and Hadoop jobs store the final processed data into the hard disk.
+
+# Spark Architecture
+
+![](Media-Temp/Pasted%20image%2020240125121533.png)
+
+([s10](https://www.javatpoint.com/apache-spark-architecture#:~:text=Let%27s%20understand%20the%20Spark%20architecture))
+
+## Spark Driver
+
+#apache-spark  #spark-architecture  #spark-driver  #driver-process  #driver-program  
+
+<mark style="background: #FFF3A3A6;">Spark driver</mark> ([s11](https://mallikarjuna_g.gitbooks.io/spark/content/spark-driver.html)) is the Spark application’s driver process:
+* A <mark style="background: #FFF3A3A6;">driver process</mark>  runs your main() function, sits on a node in the cluster, and is responsible for three things ([s12](<https://www.databricks.com/glossary/what-are-spark-applications#:~:text=The%20driver%20process%20runs%20your,the%20executors%20(defined%20momentarily).>)):
+	* maintaining information about the Spark Application.
+	* responding to a user’s program or input
+	* analyzing, distributing, and scheduling work across the executors (defined momentarily).
+
+Spark driver is a JVM process that <mark style="background: #D2B3FFA6;">hosts</mark> [SparkContext](https://mallikarjuna_g.gitbooks.io/spark/content/spark-sparkcontext.html) for a Spark application, and also hosts the [Web UI](https://mallikarjuna_g.gitbooks.io/spark/content/spark-webui.html) for the environment.. It is the <mark style="background: #FFF3A3A6;">master node</mark> in a Spark application ([s11](https://mallikarjuna_g.gitbooks.io/spark/content/spark-driver.html)).
+
+Spark driver splits a Spark application into tasks and schedules them to run on executors ([s11](https://mallikarjuna_g.gitbooks.io/spark/content/spark-driver.html)).
+
+<mark style="background: #FFB86CA6;">Spark driver creates Spark Context, RDDs, and executes transformations and actions</mark> ([s11](https://mallikarjuna_g.gitbooks.io/spark/content/spark-driver.html)) .
+
+Overview visualization of what the driver process does ([s12](<https://www.databricks.com/glossary/what-are-spark-applications#:~:text=The%20driver%20process%20runs%20your,the%20executors%20(defined%20momentarily).>)):
+
+![](Media-Temp/Pasted%20image%2020240125142054.png)
+
+Spark driver's internal services (adapted from [s11](https://mallikarjuna_g.gitbooks.io/spark/content/spark-driver.html)):
+
+![](Media-Temp/Pasted%20image%2020240125143003.png)
+
+## Spark Context
+
+#apache-spark  #spark-architecture 
+
+Side note: Most of the following info until the visualization below are from ([s11](https://mallikarjuna_g.gitbooks.io/spark/content/spark-sparkcontext.html)).
+
+<mark style="background: #FFF3A3A6;">Spark context</mark> is the entry oint to Spark for a Spark application.
+
+Note: You could also assume that <mark style="background: #ADCCFFA6;">a Spark Context instance is a Spark application</mark>.
+
+It [sets up internal services](https://mallikarjuna_g.gitbooks.io/spark/content/spark-sparkcontext-creating-instance-internals.html) and establishes a connection to a [Spark execution environment (deployment mode)](https://mallikarjuna_g.gitbooks.io/spark/content/spark-deployment-environments.html).
+
+Once a [`SparkContext` instance is created](https://mallikarjuna_g.gitbooks.io/spark/content/spark-sparkcontext.html#creating-instance) you can use it to [create RDDs](https://mallikarjuna_g.gitbooks.io/spark/content/spark-sparkcontext.html#creating-rdds), [accumulators](https://mallikarjuna_g.gitbooks.io/spark/content/spark-sparkcontext.html#creating-accumulators) and [broadcast variables](https://mallikarjuna_g.gitbooks.io/spark/content/spark-sparkcontext.html#broadcast), access Spark services and [run jobs](https://mallikarjuna_g.gitbooks.io/spark/content/spark-sparkcontext.html#runJob) (until `SparkContext` is [stopped](https://mallikarjuna_g.gitbooks.io/spark/content/spark-sparkcontext.html#stop)).
+
+Visualization of Spark Context's internal workings ([s11](https://mallikarjuna_g.gitbooks.io/spark/content/spark-sparkcontext.html) ):
+
+![](Media-Temp/Pasted%20image%2020240125144217.png)
+
+# PySpark
+
+#pyspark  
+
+## PySpark vs Apache Spark
+
+#pyspark  #apache-spark 
+
+![](Media-Temp/Pasted%20image%2020240125102807.png)
+
+([s8](https://www.quora.com/What-is-the-difference-between-spark-and-pyspark#:~:text=Let%E2%80%99s%20consider%20an%20example%20to%20make%20things%20easier%20to%20understand))
+
+## PySpark vs Pandas
+
+#pyspark  #pandas  #immutable  #lazy-execution  #eager-execution  #pyspark-transform
+
+![](Media-Temp/Pasted%20image%2020240125103033.png)
+
+([s9, 1:30](https://youtu.be/YEGnTKRHpu8?list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&t=92))
+
+Side note 1: "access is slower" in PySpark because it has to retrieve (i.e., access) the data from multiple nodes.
 
 
-Essentially ([s1](https://medium.com/analytics-vidhya/solving-complex-big-data-problems-using-combinations-of-window-functions-deep-dive-in-pyspark-b1830eb00b7d)):
 
-![](Media-Temp/Pasted%20image%2020240118135116.png)
+# Important Spark Concepts
 
-suppose you have this PySpark code:
+## Resilient Distributed Datasets (RDDs)
 
-```python
-from pyspark.sql.window import Window
-from pyspark.sql.functions import sum
+#apache-spark  #rdd  
 
-window_spec = Window.orderBy("Age")
-df_with_cumsum = df.withColumn("CumulativeSalary", sum("Salary").over(window_spec))
-```
 
-Explanation:
+## Data Lineage Graph (DLG)
 
-In the context of PySpark, a <mark style="background: #FFF3A3A6;">window specification defines ***how to*** apply a function to a group of rows</mark> (i.e., a <mark style="background: #FFF3A3A6;">frame</mark>) in a DataFrame. 
+#apache-spark  #data-lineage-graph
 
-A window specification is used with <mark style="background: #FFF3A3A6;">window functions, which are designed to perform calculations across sets of rows that are related to the current row.</mark> This is similar to how an aggregate function operates but with a focus on individual rows.
-
-Here's an in-depth look at the components of a window specification within PySpark:
-
-- **Partitioning**: The `partitionBy` method can be used to divide the data into partitions (or groups) based on the values of one or more columns. Each partition is treated as an independent group for window calculations. If `partitionBy` is not specified, the entire dataset is treated as a single partition.
-
-- **Ordering**: The `orderBy` method is used to define the ordering of the rows within each partition. In the case of cumulative sum, as in your example, ordering determines the sequence in which the rows' values will be added together.
-
-- <mark style="background: #FFF3A3A6;">Frame Specification: This defines which rows will be included in the frame for each row's calculation.</mark> The frame can be specified using methods like `rowsBetween` or `rangeBetween`. If not explicitly defined, the frame includes all rows in the partition from the start up to the current row, which is suitable for cumulative calculations.
-
-In the code snippet above, the window specification is defined as `window_spec = Window.orderBy("Age")`. This means that the window function will operate over the rows ordered by the "Age" column, and since there is no `partitionBy` clause, the entire DataFrame is assumed to be a single partition.
-
-The cumulative sum is then calculated using `sum("Salary").over(window_spec)`, which means <mark style="background: #CACFD9A6;">for each row in the DataFrame, PySpark will sum up the "Salary" values of all rows up to and including the current row, based on the order defined by "Age".</mark> This cumulative sum is then added to the DataFrame as a new column called "CumulativeSalary".
-
-The concept of window specification in PySpark is essential for performing advanced analytics where you need to carry out calculations across groups of rows <mark style="background: #FF5582A6;">while still retaining the individual row-level detail</mark>.
+Side note: apparently, DLG is not a well-known acronym for data lineage graph, but I'll personally use it when referencing this term multiple times :\].
 

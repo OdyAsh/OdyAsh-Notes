@@ -20,7 +20,7 @@
             }
           },
           {
-            "id": "95cc1ae200dc70fe",
+            "id": "a075c7e3f960e2a4",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -30,9 +30,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "95cc1ae200dc70fe",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#apache-spark",
+                "query": "tag:#pyspark",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -149,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/Apache Spark.md"
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md"
               }
             }
           },
@@ -171,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/Apache Spark.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -188,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/Apache Spark.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -215,7 +227,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -237,24 +249,30 @@
   },
   "active": "95cc1ae200dc70fe",
   "lastOpenFiles": [
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125184550.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Hadoop.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125163021.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125162942.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125162936.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Apache Spark.md",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240124164315.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240124163932.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240124163832.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240124162013.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240124151740.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125144217.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125144210.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125143003.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125142157.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125142054.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125121533.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125121051.png",
+    "Sciences/Formal Sciences/Mathematics/Graph Theory/Directed Acyclic Graph (DAG).md",
+    "Sciences/Formal Sciences/Mathematics/Math Jargon.md",
+    "Sciences/Formal Sciences/Mathematics/Graph Theory",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Untitled.md",
     "Sciences/Formal Sciences/Mathematics/Mathematics.md",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240124121701.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240124121658.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Engineering.md",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240124120959.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240124120912.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Pipeline.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Road Map.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
     "Obsidian/My Obsidian.md",
-    "Obsidian/Media-Temp/Pasted image 20240123050057.png",
     "Obsidian/Media-Temp",
     "Obsidian/UI Tips.md",
     "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
@@ -277,11 +295,6 @@
     "Tasks/Personal Tasks/Weekly/2024-W01.md",
     "Tasks/Personal Tasks/Yearly/Annual Template.md",
     "Tasks/Personal Tasks/Yearly/Annual Template.md.crdownload",
-    "Tasks/Personal Tasks/Weekly/Weekly Template.md",
-    "Tasks/Personal Tasks/Weekly/Weekly Template.md.crdownload",
-    "Tasks/Personal Tasks/Monthly/Monthly Template.md",
-    "Tasks/Personal Tasks/Daily/Daily Template.md",
-    "Tasks/Personal Tasks/Monthly/2024-01.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
