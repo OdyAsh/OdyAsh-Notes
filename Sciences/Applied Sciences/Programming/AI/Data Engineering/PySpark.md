@@ -1,6 +1,6 @@
 #pyspark 
 
-[source 1](https://www.quora.com/What-is-the-difference-between-spark-and-pyspark), [source 2](https://www.youtube.com/watch?v=YEGnTKRHpu8&list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&index=3), [source 3](https://medium.com/analytics-vidhya/solving-complex-big-data-problems-using-combinations-of-window-functions-deep-dive-in-pyspark-b1830eb00b7d), [source 4](https://yuanxu-li.github.io/technical/2018/06/10/reduce-and-fold-in-spark.html), [source 5](https://github.com/tirthajyoti/Spark-with-Python), [source 6](https://www.youtube.com/watch?v=rkoYVCJPX6o&list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&index=6)
+[source 1](https://www.quora.com/What-is-the-difference-between-spark-and-pyspark), [source 2](https://www.youtube.com/watch?v=YEGnTKRHpu8&list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&index=3), [source 3](https://medium.com/analytics-vidhya/solving-complex-big-data-problems-using-combinations-of-window-functions-deep-dive-in-pyspark-b1830eb00b7d), [source 4](https://yuanxu-li.github.io/technical/2018/06/10/reduce-and-fold-in-spark.html), [source 5](https://github.com/tirthajyoti/Spark-with-Python), [source 6](https://www.youtube.com/watch?v=rkoYVCJPX6o&list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&index=6), [source 7](https://towardsdatascience.com/parallelize-pandas-dataframe-computations-w-spark-dataframe-bba4c924487c), [source 8](https://medium.zenika.com/a-comparison-between-rdd-dataframe-and-dataset-in-spark-from-a-developers-point-of-view-a539b5acf734), [source 9](https://igorshvab.medium.com/from-pandas-to-pyspark-dataframes-c25104879c29)
 
 # PySpark vs Apache Spark
 
@@ -19,6 +19,20 @@
 ([s2, 1:30](https://youtu.be/YEGnTKRHpu8?list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&t=92))
 
 Side note 1: "access is slower" in PySpark because it has to retrieve (i.e., access) the data from multiple nodes.
+
+## PySpark DataFrame vs Pandas DataFrame
+
+#pyspark  #pyspark-dataframe  #spark-dataframe  #pandas-dataframe  #pandas
+
+![](Media-Temp/Pasted%20image%2020240126145130.png)
+
+([s7](https://towardsdatascience.com/parallelize-pandas-dataframe-computations-w-spark-dataframe-bba4c924487c))
+
+![](Media-Temp/Pasted%20image%2020240126145307.png)
+
+([s8](https://medium.zenika.com/a-comparison-between-rdd-dataframe-and-dataset-in-spark-from-a-developers-point-of-view-a539b5acf734#705c))
+
+<mark style="background: #ADCCFFA6;">Important</mark>: images comparing between the two DataFrame types can be found in ([s9](https://igorshvab.medium.com/from-pandas-to-pyspark-dataframes-c25104879c29#:~:text=Below%20is%20short%20cheatsheet)).
 
 # PySpark Syntax
 
@@ -150,7 +164,6 @@ Example 1 ([s6, 17:20](https://youtu.be/rkoYVCJPX6o?list=PLlUZLZydkS7_8WnK8fMENm
 ![](Media-Temp/Pasted%20image%2020240125184550.png)
 
 
-# Important PySpark Concepts
 
 ## PySpark Window
 

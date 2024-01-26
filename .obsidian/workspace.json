@@ -56,7 +56,7 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -173,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md"
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md"
               }
             }
           },
@@ -195,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -212,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
+                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -259,23 +259,24 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "b65f4c8e5504c5f4",
+  "active": "95cc1ae200dc70fe",
   "lastOpenFiles": [
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240126145307.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240126145133.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240126145130.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Apache Spark.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125184550.png",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Hadoop.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240126144538.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240126144452.png",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125184550.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125163021.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125162942.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125162936.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Apache Spark.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125144217.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125144210.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125143003.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125142157.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125142054.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125121533.png",
     "Sciences/Formal Sciences/Mathematics/Graph Theory/Directed Acyclic Graph (DAG).md",
     "Sciences/Formal Sciences/Mathematics/Math Jargon.md",
     "Sciences/Formal Sciences/Mathematics/Graph Theory",
@@ -305,7 +306,6 @@
     "Islam/Meetings/جلسة.md",
     "Tasks/Personal Tasks/Daily/2024-01-07.md",
     "Tasks/Personal Tasks/Weekly/2024-W01.md",
-    "Tasks/Personal Tasks/Yearly/Annual Template.md",
     "Tasks/Personal Tasks/Yearly/Annual Template.md.crdownload",
     "Islam/The Quran/Untitled.canvas"
   ]

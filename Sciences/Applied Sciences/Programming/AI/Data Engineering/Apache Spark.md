@@ -1,7 +1,6 @@
 #apache-spark
 
-[source 2](https://www.databricks.com/blog/2014/01/21/spark-and-hadoop.html), [source 3](https://www.youtube.com/watch?v=AGgyf9bO_8M&list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi), [source 4](https://emerginginsightsnow.com/2015/05/17/apache-spark-ecosystem-grows-rapidly-has-hadoop-met-its-match/), [source 5](https://mydataexperiments.com/2017/04/11/hadoop-ecosystem-a-quick-glance/), [source 6](https://inoxoft.com/blog/key-differences-between-mapreduce-and-spark/), [source 7](https://www.youtube.com/watch?v=GAK3mbI_sPY&list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&index=3), [source 8](https://www.quora.com/What-is-the-difference-between-spark-and-pyspark), [source 9](https://www.youtube.com/watch?v=YEGnTKRHpu8&list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&index=3), [source 10](https://www.javatpoint.com/apache-spark-architecture), [source 11](https://mallikarjuna_g.gitbooks.io/spark/content/), [source 12](<https://www.databricks.com/glossary/what-are-spark-applications#:~:text=The%20driver%20process%20runs%20your,the%20executors%20(defined%20momentarily).>), 
-
+[source 2](https://www.databricks.com/blog/2014/01/21/spark-and-hadoop.html), [source 3](https://www.youtube.com/watch?v=AGgyf9bO_8M&list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi), [source 4](https://emerginginsightsnow.com/2015/05/17/apache-spark-ecosystem-grows-rapidly-has-hadoop-met-its-match/), [source 5](https://mydataexperiments.com/2017/04/11/hadoop-ecosystem-a-quick-glance/), [source 6](https://inoxoft.com/blog/key-differences-between-mapreduce-and-spark/), [source 7](https://www.youtube.com/watch?v=GAK3mbI_sPY&list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&index=3), [source 8](https://www.quora.com/What-is-the-difference-between-spark-and-pyspark), [source 9](https://www.youtube.com/watch?v=YEGnTKRHpu8&list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&index=3), [source 10](https://www.javatpoint.com/apache-spark-architecture), [source 11](https://mallikarjuna_g.gitbooks.io/spark/content/), [source 12](<https://www.databricks.com/glossary/what-are-spark-applications#:~:text=The%20driver%20process%20runs%20your,the%20executors%20(defined%20momentarily).>), [source 13](https://www.youtube.com/watch?v=71ntq5LImRc), 
 Side notes:
 * ([s11](https://mallikarjuna_g.gitbooks.io/spark/content/)) is amazing for mastering Spark. It is neither a book, nor a bunch of articles; it's something in between, and its explanations are straight to the point. Kudos to [Jacek Laskowski](https://pl.linkedin.com/in/jaceklaskowski)
 
@@ -134,15 +133,27 @@ Visualization of Spark Context's internal workings ([s11](https://mallikarjuna_g
 Side note 1: "access is slower" in PySpark because it has to retrieve (i.e., access) the data from multiple nodes.
 
 
-
-# Important Spark Concepts
-
-## Resilient Distributed Datasets (RDDs)
+# Resilient Distributed Datasets (RDDs)
 
 #apache-spark  #rdd  
 
+TODO.
 
-## Data Lineage Graph (DLG)
+# RDD vs Spark DataFrame vs Spark Datasets
+
+#apache-spark  #rdd  #spark-dataframe  #dataframe  #spark-dataset #pyspark-dataframe  #pandas-dataframe  #pandas
+
+![](Media-Temp/Pasted%20image%2020240126144452.png)
+
+([s13](https://www.youtube.com/watch?v=71ntq5LImRc))
+
+![](Media-Temp/Pasted%20image%2020240126144538.png)
+
+([s13](https://www.youtube.com/watch?v=71ntq5LImRc))
+
+Check the [PySpark](PySpark.md) note for [difference](PySpark.md#PySpark%20DataFrame%20vs%20Pandas%20DataFrame) between PySpark's DataFrame and Pandas' DataFrame.
+
+# Data Lineage Graph (DLG)
 
 #apache-spark  #data-lineage-graph
 
