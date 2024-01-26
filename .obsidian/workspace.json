@@ -42,9 +42,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "b65f4c8e5504c5f4",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 3
       }
     ],
     "direction": "vertical"
@@ -73,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#pyspark",
+                "query": "tag:#التخطيط",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -161,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md"
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md"
               }
             }
           },
@@ -183,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md",
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md",
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -247,8 +259,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "95cc1ae200dc70fe",
+  "active": "b65f4c8e5504c5f4",
   "lastOpenFiles": [
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125184550.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Hadoop.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125163021.png",
@@ -261,8 +276,6 @@
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125142157.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125142054.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125121533.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125121051.png",
     "Sciences/Formal Sciences/Mathematics/Graph Theory/Directed Acyclic Graph (DAG).md",
     "Sciences/Formal Sciences/Mathematics/Math Jargon.md",
     "Sciences/Formal Sciences/Mathematics/Graph Theory",
@@ -275,7 +288,6 @@
     "Obsidian/My Obsidian.md",
     "Obsidian/Media-Temp",
     "Obsidian/UI Tips.md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
     "Sciences/Applied Sciences/Programming/DevOps/CI-CD.md",
     "Sciences/Applied Sciences/Programming/DevOps/DevOps.md",
     "Sciences/Applied Sciences/Programming/DevOps/Media-Temp",
