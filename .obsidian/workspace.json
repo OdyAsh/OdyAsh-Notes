@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Artificial Intelligence (AI) - Practical.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
                 "mode": "source",
                 "source": false
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Artificial Intelligence (AI) - Practical.md"
+                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md"
               }
             }
           },
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Artificial Intelligence (AI) - Practical.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Artificial Intelligence (AI) - Practical.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,10 +224,13 @@
   },
   "active": "b65f4c8e5504c5f4",
   "lastOpenFiles": [
-    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240131091658.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Engineering.md",
+    "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
+    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240131104055.png",
+    "Sciences/Applied Sciences/Programming/AI/Attachments - AI - FAQs",
+    "Sciences/Applied Sciences/Programming/AI/Attachments - AI - FAQs/Pasted image 20240131091658.png",
     "Sciences/Applied Sciences/Programming/AI/Media-Temp",
     "Sciences/Applied Sciences/Applied Sciences.md",
-    "Sciences/Applied Sciences/Programming/AI/Artificial Intelligence (AI) - Practical.md",
     "Sciences/Formal Sciences/Computer Science/Computer Science.md",
     "Secrets/Islam Personal Journey/الله السميع البصير المُجيب.md",
     "Secrets/Islam Personal Journey/Media-Temp/Pasted image 20240130043620.png",
@@ -247,14 +250,11 @@
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240126144452.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125184550.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125163021.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125162942.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240125162936.png",
     "Sciences/Formal Sciences/Mathematics/Graph Theory/Directed Acyclic Graph (DAG).md",
     "Sciences/Formal Sciences/Mathematics/Math Jargon.md",
     "Sciences/Formal Sciences/Mathematics/Graph Theory",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Untitled.md",
     "Sciences/Formal Sciences/Mathematics/Mathematics.md",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Engineering.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Pipeline.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Road Map.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
@@ -269,7 +269,6 @@
     "Secrets/Work Drafts.md",
     "Sciences/Applied Sciences/Prompt Engineering/Programming Prompts.md",
     "Sciences/Applied Sciences/Programming/Versioning/Media-Temp",
-    "Sciences/Applied Sciences/Prompt Engineering",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
