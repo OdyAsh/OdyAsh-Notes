@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
                 "mode": "source",
                 "source": false
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md"
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md"
               }
             }
           },
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -224,8 +224,14 @@
   },
   "active": "b65f4c8e5504c5f4",
   "lastOpenFiles": [
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Engineering.md",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
+    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
     "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
+    "Sciences/Applied Sciences/Programming/Azure/Setup Webjobs for Python Programs.md",
+    "Secrets/Work Drafts.md",
+    "Secrets/APIs.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Engineering.md",
     "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240131104055.png",
     "Sciences/Applied Sciences/Programming/AI/Attachments - AI - FAQs",
     "Sciences/Applied Sciences/Programming/AI/Attachments - AI - FAQs/Pasted image 20240131091658.png",
@@ -237,9 +243,7 @@
     "Secrets/Islam Personal Journey/Media-Temp",
     "Islam/Prophet Muhammad/Timeline of Prophet Muhammad.md",
     "Secrets/Islam Personal Journey",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
     "Islam/Courses/Forqan Academy (أكادمية الفرقان)/السيرة",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240126145307.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240126145133.png",
@@ -264,10 +268,7 @@
     "Sciences/Applied Sciences/Programming/DevOps/CI-CD.md",
     "Sciences/Applied Sciences/Programming/DevOps/DevOps.md",
     "Sciences/Applied Sciences/Programming/DevOps/Media-Temp",
-    "Sciences/Applied Sciences/Programming/Versioning/Git.md",
     "Sciences/Applied Sciences/Programming/DevOps",
-    "Secrets/Work Drafts.md",
-    "Sciences/Applied Sciences/Prompt Engineering/Programming Prompts.md",
     "Sciences/Applied Sciences/Programming/Versioning/Media-Temp",
     "Islam/The Quran/Untitled.canvas"
   ]

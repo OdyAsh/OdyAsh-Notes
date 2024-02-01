@@ -163,3 +163,4 @@ Now, regarding ICS specializations , I'll ***personally*** rank comprehensive sp
 
 
 Note about the "required knowledge" bullet point: this doesn't necessarily mean AI is the hardest and IS is the easiest, but it means, in my opinion, that AI is the most field that will simply require more time to mostly grasp, as you'll need to heavily apply the "[Constructivism](https://www.buffalo.edu/catt/develop/theory/constructivism.html)" learning theory previously talked about in the [Mentality about Specialization Aspects](#Mentality%20about%20Specialization%20Aspects) section. 
+
