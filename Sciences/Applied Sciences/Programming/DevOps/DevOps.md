@@ -8,8 +8,6 @@ Info can be found on my Google Drive BUE's [SPM notes](https://drive.google.com/
 
 # Why DevOps
 
-
-
 Small side note: some screenshots below were adapted from the sources (i.e., I made some edits).
 
 First, check out the disadvantages of agile methodology [here](https://docs.google.com/document/d/1K2nEnkRRQeRPM-xP1SrIpsEPMb9OfKnH6tkoHpp9bzM/edit#bookmark=id.rl8eijn6j8vs).
@@ -55,3 +53,6 @@ Another toolset ([s2](https://www.youtube.com/watch?v=42UP1fxi2SY)):
 
 ([s1](https://youtu.be/h9K1NnqwUvE?t=974))
 
+# MLOps
+
+Check the [MLOps](../AI/Data%20Engineering/MLOps.md) note 🙌!
