@@ -1,2 +1,2 @@
 # OdyAsh-Notes
-Notes ranging from Programming, and file management to Islamic notes :]
+Obsidian notes ranging from Programming and file management to Islamic topics :]
