@@ -9,6 +9,9 @@ Abbreviations:
 * "uni." -> university.
 * AI / SE / IS / CN / CS -> Artificial Intelligence / Software Engineering / Information Systems / Computer Networks / Computer Science.
 * DS / DE / ANN / ML / NLP -> Data Science / Data Engineering / Artificial Neural Networks / Machine Learning / Natural Language Processing
+* Y2S2 -> Year 2 after prep, Semester 2 (similar logic for Y3S1, Y3S2)
+* Y3S1/2 -> Year 3 after prep, spans semester 1 and 2 (GP only)
+* GP -> Graduation Project
 
 # Using AI to Summarize The Questions
 
@@ -18,6 +21,11 @@ Now, the questions as of #2024-01-31  were summarized by [Microsoft's copilot](h
     - What is the mentality needed to determine which specialization to pick?
     - If interested in two majors, how to choose between them?
     - Which specialization is the most comprehensive and could help land a job in most tech fields?
+	    - Note that the "comprehensive" part of the question will be answered in the [Knowledge Overlaps and Requirements Per Specialization](#Knowledge%20Overlaps%20and%20Requirements%20Per%20Specialization) section, but for the "job" part of the question:
+			- In Egypt, remotely or on-site: SE.
+			- Outside of Egypt:
+				- Remotely: SE.
+				- On-site: SE, but specific AI/IS data-related jobs are also prevalent, especially [Data Engineering](Data%20Engineering/Data%20Engineering.md).
     - Which specialization is better if you want to work in embedded systems or robotics?
 2. **AI vs SE vs CS vs IS**
     - What is the difference between SE, CS, and IS if looking for a job in these fields (web front and/or back, mobile, cloud)?
@@ -70,7 +78,6 @@ Now, the questions as of #2024-01-31  were summarized by [Microsoft's copilot](h
 10. **Personal Experience**
     - What made you pick AI? What was your goal and how did you reverse engineer it to reach it?
 
-Now,
 
 # Presentation Preparation
 
@@ -81,6 +88,40 @@ At first, I was searching for an AI tool that will help me generate slides based
 
 # Choosing your Specialization
 
+## BUE Modules Per Specialization
+
+tool used: [here](https://bioinformatics.psb.ugent.be/webtools/Venn/).
+
+Sources (from least outdated to most outdated): 
+* search for ICS Excel file shared by one of the TAs [here](https://livebueedu-my.sharepoint.com/personal/ashraf196280_bue_edu_eg/_layouts/15/onedrive.aspx?view=3), and check for the `Modules Teams` sheet:
+  
+  ![](Media-Temp/Pasted%20image%2020240202145927.png)
+* [This](https://learn1.bue.edu.eg/course/index.php?categoryid=4) E-Learning page.
+
+The list of modules of each specialization can be found [here](https://docs.google.com/document/d/1wExON8zV3sbf1hoipts_LsznLfMOWYJM9EPi7qAipwU/edit#heading=h.843zzs6wkts).
+
+The intersection between the specializations' modules can be seen [here](https://docs.google.com/spreadsheets/d/1SzKZXzVGHpCSpZO9bACl-XES3CoZFkIxDRLIOXJk5rY/edit?usp=drive_link):
+
+Side note 1: some modules are optional to some specializations, and mandatory to others. For example, Computer Security is mandatory for AI (and CN?), but optional for SE (and CS?)
+
+Side note 2: 
+* In Y3S1, you usually have 3 core modules, 2 optional modules, and GP (total: 6 modules). 
+* In Y3S2, 2 core module, 2 optional modules, and GP (total: 5 modules). 
+	* Side note: technically, the GP has the weight of 2 modules in this semester.
+	* So across Y3, the GP constitutes the weight of 3 entire modules; 1 for the dissertation paper, and 2 for the implementation.
+* I think you can apply for more than 2 optional modules for CS though, since it has very few core modules, but their total modules in semester 1 and 2 are also 6 and 5.
+
+Side note 3:
+* The optional modules are kind of flexible per major. For example, in the list below, you'll see that only AI and CS can take ANN module. However, I've seen SE students ask exception from the ANN module leader to take it as an optional module. 
+* However, I strongly don't advise this (especially for ANN module).
+
+Side note 4:
+* You can see how students ranked some of these modules (especially SE ones) [here](https://docs.google.com/spreadsheets/d/1JXXjh4JpUOrgQWG4c1LfpiOvKas7fOnupnkeEGyQy6I/edit?usp=drive_link) based on [this](https://docs.google.com/forms/d/e/1FAIpQLScVycV2o_Oe1myUim-9tfKRkbyFMVRP-tFzoSYqkdzuOCGH3w/viewform?usp=sf_link) Google form.
+
+and visualized here (where each number means the number of modules per visualized subset):
+
+![|350](Media-Temp/Pasted%20image%2020240202144820.png)
+
 ## Mentality about Specialization Aspects
 
 This section answers these questions:
@@ -88,7 +129,7 @@ This section answers these questions:
 - What is the mentality needed to determine which specialization to pick?
 - If interested in two majors, how to choose between them?
 
-Some of my thoughts are adapted from [here](https://getnotable.ai/n/RIo6On7oEB) (where I knew the [getnotable.ai](https://getnotable.ai/home) website from [Reddit](https://www.reddit.com/r/ChatGPT/comments/16db0zp/comment/kgaohzo/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)), and these notes were summarized from [this](https://dev.to/marcbeaujean/should-new-developers-specialize-j46) dev.to post.
+Side note: Some of my thoughts are adapted from [here](https://getnotable.ai/n/RIo6On7oEB) (where I knew the [getnotable.ai](https://getnotable.ai/home) website from [Reddit](https://www.reddit.com/r/ChatGPT/comments/16db0zp/comment/kgaohzo/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button)), and these notes were summarized from [this](https://dev.to/marcbeaujean/should-new-developers-specialize-j46) dev.to post.
 
 Common aspects to consider for each specialization, from most important to least important (in my opinion):
 
@@ -107,18 +148,13 @@ Common aspects to consider for each specialization, from most important to least
 	* Do you learn better from [videos](https://www.youtube.com/playlist?list=PLp9GhZXYWKAx7ynTHL4RC2f_g6LIlknTH) or [articles](https://medium.com/)/[papers](https://www.reddit.com/r/learnmachinelearning/comments/173pvsv/where_do_you_get_your_ai_news/)/[blogs](https://daily.dev/)?
 	* Are you good at getting [very specific info](https://www.youtube.com/watch?v=bmnimxjaarM) from [barely known resources](https://www.youtube.com/@noone988-Ahmed-Fathi/playlists)?
 * Job type.
-	* IT jobs are [generally](https://www.reddit.com/r/cscareerquestions/comments/8sfo6e/comment/e0z844w/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) CRUD jobs or kind-of-non-[CRUD](https://www.reddit.com/r/learnprogramming/comments/4k7n9y/what_is_a_crud_job/) jobs.
+	* IT jobs are [generally](https://www.reddit.com/r/cscareerquestions/comments/8sfo6e/comment/e0z844w/?utm_source=share&utm_medium=web3x&utm_name=web3xcss&utm_term=1&utm_content=share_button) CRUD jobs or kind-of-non-[CRUD](https://www.reddit.com/r/learnprogramming/comments/4k7n9y/what_is_a_crud_job/) jobs. Do you tolerate both? Or do you have a preference?
 
 
 ## Knowledge Overlaps and Requirements Per Specialization
 
 This sections answers:
 - Which specialization is the most comprehensive and could help land a job in most tech fields?
-	- Note that the job part of the question won't be discussed here, but the short answer:
-		- In Egypt, remotely or on-site: SE.
-		- Outside of Egypt:
-			- Remotely: SE.
-			- On-site: SE, but specific AI/IS data-related jobs are also prevalent, especially [Data Engineering](Data%20Engineering/Data%20Engineering.md).
 - Which specialization is better if you want to work in embedded systems or robotics?
 	- I will simply answer this here: in the BUE, I believe they're all not beneficial for embedded systems (as we've already taken that content before specializing). Moreover, for robotics, there's a subject in AI called "AI Planning for Robot Systems". However, ***until 2022***, it delved into the history and high-level knowledge about the origin of robotics, instead of practical tools/knowledge on how to implement systems for robotics. Check the headers of [this](https://www.reddit.com/r/robotics/comments/kpkne5/how_to_get_started_in_robotics_education_career/#:~:text=Programming%3A%20If%20you%20want%20to,bring%20while%20developing%20robotics%20software.) reddit answer to see what you might need to learn for this field.
 
