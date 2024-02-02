@@ -27,7 +27,8 @@ Now, the questions as of #2024-01-31  were summarized by [Microsoft's copilot](h
 				- Remotely: SE.
 				- On-site: SE, but specific AI/IS data-related jobs are also prevalent, especially [Data Engineering](Data%20Engineering/Data%20Engineering.md).
     - Which specialization is better if you want to work in embedded systems or robotics?
-2. **AI vs SE vs CS vs IS**
+    	- In the BUE, I believe they're all not beneficial for embedded systems (as we've already taken that content before specializing). Moreover, for robotics, there's a subject in AI called "AI Planning for Robot Systems". However, ***until 2022***, it delved into the history and high-level knowledge about the origin of robotics, instead of practical tools/knowledge on how to implement systems for robotics. Check the headers of [this](https://www.reddit.com/r/robotics/comments/kpkne5/how_to_get_started_in_robotics_education_career/#:~:text=Programming%3A%20If%20you%20want%20to,bring%20while%20developing%20robotics%20software.) reddit answer to see what you might need to learn for embedded/robotics field.
+1. **AI vs SE vs CS vs IS**
     - What is the difference between SE, CS, and IS if looking for a job in these fields (web front and/or back, mobile, cloud)?
         - First of all, let's agree that if you want to work in one of the fields mentioned above, then you'll major in SE.
         - SE:
@@ -40,19 +41,23 @@ Now, the questions as of #2024-01-31  were summarized by [Microsoft's copilot](h
     - Can I study both web dev and mobile dev and/or any other field with uni. and be able to grasp the content?
         - In the BUE, and as of 2023, I don't think there's a module which teaches mobile dev. However, you might be able to juggle between studying SE and mobile dev due to [overlapping knowledge required for mobile and web dev](https://medium.com/@godlinjosheelasugki/are-you-a-mobile-app-developer-considering-a-move-to-web-development-df16e232f58b#:~:text=The%20Overlapping%20Skills&text=These%20include%3A,across%20mobile%20and%20web%20development.).
         - By the same logic, if you're in any other major, I think it will be more difficult, since you'll find a few overlapping knowledge.
-3. **AI Specialization** (answered in [AI Specialization Questions](#AI%20Specialization%20Questions) section)
+2. **AI Specialization** (answered in [AI Specialization Questions](#AI%20Specialization%20Questions) section)
     - Is the education from uni. enough for AI or do I need extra courses?
     - What are the important courses for AI?
     - Is 3D Gaming an optional in AI or removed?
     - In the AI optional modules, is the module called humanoid robots interesting and what exactly do we do in it?
     - What math should I know before going through AI?
     - Can I balance SE and AI courses?
-4. **SE Specialization** (answered [here](https://docs.google.com/spreadsheets/d/1JXXjh4JpUOrgQWG4c1LfpiOvKas7fOnupnkeEGyQy6I/edit?usp=drive_link) based on [this](https://docs.google.com/forms/d/e/1FAIpQLScVycV2o_Oe1myUim-9tfKRkbyFMVRP-tFzoSYqkdzuOCGH3w/viewform?usp=sf_link) Google form)
+3. **SE Specialization** (answered [here](https://docs.google.com/spreadsheets/d/1JXXjh4JpUOrgQWG4c1LfpiOvKas7fOnupnkeEGyQy6I/edit?usp=drive_link) based on [this](https://docs.google.com/forms/d/e/1FAIpQLScVycV2o_Oe1myUim-9tfKRkbyFMVRP-tFzoSYqkdzuOCGH3w/viewform?usp=sf_link) Google form)
     - If my Java skills are not the best, will I face any difficulties in SE?
+	    - Answered by various graduates [here](https://docs.google.com/spreadsheets/d/1JXXjh4JpUOrgQWG4c1LfpiOvKas7fOnupnkeEGyQy6I/edit#gid=895784434&range=U:U).
     - How heavy is coding in SE?
         - Compared to other specializations? The heaviest.
     - What are the important courses for SE?
-5. **Job Market**
+	    - Various graduates' answers (based on  [this](https://docs.google.com/forms/d/e/1FAIpQLScVycV2o_Oe1myUim-9tfKRkbyFMVRP-tFzoSYqkdzuOCGH3w/viewform?usp=sf_link) Google form) is visualized below:
+	      
+	      ![](Media-Temp/Pasted%20image%2020240202204833.png)
+1. **Job Market** (answered in the [Job Market Questions](#Job%20Market%20Questions) section)
     - Will I find a good job? If yes, what’s the minimum salary?
     - Which specialization realistically gets most opportunities to travel outside Egypt?
     - What is the most optimal and easiest specialization to help land a remote job?
@@ -66,24 +71,26 @@ Now, the questions as of #2024-01-31  were summarized by [Microsoft's copilot](h
     - Is there a huge gap between college modules and the work field (are the skills we learn in uni enough to land a job)?
     - Since the job market in tech is tough right now and companies are not hiring fresh grads like they used to in 2020-2022, how many jobs exist right now for SE and AI?
     - How much experience is needed to land a job in development and SE specializations?
-        - Don't know, will ask ISA.
-6. **Graduation Projects**
+2. **Graduation Projects**
     - How are graduation projects in SE, CS, IS, and AI like? Are they all group projects and how do they look like?
-7. **Prerequisites**
+	    - In the BUE, we're one of the few faculties where the GP is individual, not group.
+	    - You might find [this](https://drive.google.com/file/d/1hXQQn30uBJziQM9iX9atL-War-X2DW67/view?usp=sharing) sample ideas document to be useful. Of course, you can choose your own GP idea, or improve a GP done by someone else, like a [memes project](https://github.com/OdyAsh/graduation_project?tab=readme-ov-file#graduation-project) :\].
+3. **Prerequisites**
     - What are the prerequisites for SE, AI, CS, and IS specializations so we don’t go in blind?
-8. **Cross-specialization Modules**
+	    - Answered by various graduates [here](https://docs.google.com/spreadsheets/d/1JXXjh4JpUOrgQWG4c1LfpiOvKas7fOnupnkeEGyQy6I/edit#gid=895784434&range=X:X).
+4. **Cross-specialization Modules**
     - If I want to take some AI modules if I am in SE, can I do that?
-9. **Masters Programs**
+	    - Check the side notes of the [BUE Modules Per Specialization](#BUE%20Modules%20Per%20Specialization) section.
+	    - However, as I said before, I personally don't recommend this.
+	    - If you are great at math however, then you'll possibly be able to balance the modules, but I still wouldn't recommend doing this.
+5. **Masters Programs**
     - What are the available masters programs in AI field and which are the highest in demand to land a job?
-10. **Personal Experience**
+	    - Check [MBZUAI](https://mbzuai.ac.ae/study/msc-programs/), [Nile university](https://itcs.nu.edu.eg/program/artificial-intelligence), and [this](https://edurank.org/cs/ai/eg/#:~:text=Below%20is%20a,to%20final%20scores.) list of Egypt universities.
+	    - As of 2023, the BUE doesn't have an AI masters. However, the ICS masters that it has is flexible. In other words, you get to choose the topic of your project, and what's important in any masters is the master thesis and project that you do at the end. 
+6. **Personal Experience**
     - What made you pick AI? What was your goal and how did you reverse engineer it to reach it?
+	    - Will be answered in the video ISA :\].
 
-
-# Presentation Preparation
-
-At first, I was searching for an AI tool that will help me generate slides based on the bullet points above, so it was either [slidemaker](https://www.slidemake.com/) (which I knew from [reddit](https://www.reddit.com/r/powerpoint/comments/11qj9ba/i_created_an_aipowered_powerpoint_maker_to/?sort=new)), or [gamma.app](https://gamma.app/) (which I knew from [there's an ai for that](https://theresanaiforthat.com/presentation-slides/?ref=suggest&sort=most-saved)), or [prezo.ai](https://prezo.ai/) (also from there's an ai for that), but then I decided to choose gamma.app:
-
-![](Attachments%20-%20AI%20-%20FAQs/Pasted%20image%2020240131091658.png)
 
 
 # Choosing your Specialization
@@ -117,6 +124,10 @@ Side note 3:
 
 Side note 4:
 * You can see how students ranked some of these modules (especially SE ones) [here](https://docs.google.com/spreadsheets/d/1JXXjh4JpUOrgQWG4c1LfpiOvKas7fOnupnkeEGyQy6I/edit?usp=drive_link) based on [this](https://docs.google.com/forms/d/e/1FAIpQLScVycV2o_Oe1myUim-9tfKRkbyFMVRP-tFzoSYqkdzuOCGH3w/viewform?usp=sf_link) Google form.
+	* Side note 1: just skip to the columns to the right, since the columns on the left aren't really readable.
+	* Side note 2: Visualization of the columns in the left:
+	  
+	  ![](Media-Temp/Pasted%20image%2020240202204833.png)
 
 and visualized here (where each number means the number of modules per visualized subset):
 
@@ -156,7 +167,6 @@ Common aspects to consider for each specialization, from most important to least
 This sections answers:
 - Which specialization is the most comprehensive and could help land a job in most tech fields?
 - Which specialization is better if you want to work in embedded systems or robotics?
-	- I will simply answer this here: in the BUE, I believe they're all not beneficial for embedded systems (as we've already taken that content before specializing). Moreover, for robotics, there's a subject in AI called "AI Planning for Robot Systems". However, ***until 2022***, it delved into the history and high-level knowledge about the origin of robotics, instead of practical tools/knowledge on how to implement systems for robotics. Check the headers of [this](https://www.reddit.com/r/robotics/comments/kpkne5/how_to_get_started_in_robotics_education_career/#:~:text=Programming%3A%20If%20you%20want%20to,bring%20while%20developing%20robotics%20software.) reddit answer to see what you might need to learn for this field.
 
 This section is related to the `capabilities` and `job market` bullet points in [Mentality about Specialization Aspects](#Mentality%20about%20Specialization%20Aspects) section.
 
@@ -252,4 +262,97 @@ Note about the "required knowledge" bullet point: this doesn't necessarily mean 
 	- Difficult. You can balance SE and IS maybe, but it is difficult to balance SE and AI due to the few [overlapping](https://www.computer.org/csdl/magazine/so/2022/06/09928183/1HJux2cbygM#:~:text=A%20number%20of%20skills,systems%2C%20or%20engineering%20knowledge.) [hard-skills](https://youtu.be/0FFLFcB9xfQ?t=15) they require. For example, basic code design like OOP (even though it's [rarely used](https://medium.com/mlops-community/jupyter-notebooks-in-production-4e0d38803251#:~:text=I%20find%20them,sounds%20like%20nonsense) in some AI jobs due to the prevalence of [Jupyter Notebooks](https://www.youtube.com/watch?v=eJDxcR1V7Qg)), and [basic code refactoring](https://www.youtube.com/watch?v=OHEFXKTiJ00).
 	- Don't let that discourage you, you can technically balance between the two, but you'll most likely possess [a T-shaped skillset, not a pi-shaped skillset](https://www.bridgeinteractive.co.uk/insights/why-startups-should-seek-out-the-t-shaped-skill-set-for-their-next-hire#:~:text=I%2Dshaped%20%E2%80%93%20These,particularly%20in%20leadership.).
 
+# Job Market Questions
+
+- Will I find a good job? If yes, what’s the minimum salary?
+	- "good" can be defined in so many ways. High salary? Healthy work environment? A lot of work-from-home days? High growth rate of soft/hard skills?
+	- The "minimum" salary is relative, and depends on the job environment you're at. For example, I personally like to classify Egypt's IT job market for a fresh graduate into 5 environment levels:
+		- Internship environment: same environment as "local/IT environment" mentioned below, but you work mainly to learn, not to earn :\].
+		- Academic environment; Teaching Assistant (TA) job, professor/instructor, researcher. etc.
+		- Local environment: Those are the IT companies that you find near Cairo's busy streets, etc. 
+		- IT environment: Smart village in El Sheikh Zayed, etc.
+		- Freelancing environment.
+	- So sometimes, you'll see the senior level positions of a local environment get similar salaries to entry-level positions of an IT environment. HOWEVER, that senior could be working at a new project for a semi-startup company, and so they're learning much more than a possibly mundane job of a corporate company. That's why the definition of a "good" job really matters.
+	- Of course, this is all subjective based on what I've seen happen to my friends.
+	- But to answer the question, a very minimum salary is 3k EGP for intern jobs, 5k for academic/teaching jobs, 7k for local jobs. 15k for corporate jobs. Again, this is based on what I've seen.
+
+
+- Which specialization realistically gets most opportunities to travel outside Egypt?
+	- As far as I know, none. You travel outside by making connections. 
+	- Keep in touch with that smart dude who's been freelancing/studying/remotely-working while you're barely surviving uni. 
+	- To BUE students, you are in the **B**UE, you get to see a lot of non-Egyptians here. Know them. Ask them questions while showing respects. After time, they will remember you when you come by again.
+	- Go to IT job fairs like Engineerex. I know someone who got to work in the same company as me, by attending a job fare, filling out forms, and engaging with the staff there. You may land a job here, and the connections you make facilitate your travel.
+	- Build up an online brand. That can be done by taking freelancing jobs, showcasing your work on LinkedIn, or [blogging](https://dev.to/).
+		- I've been interviewed for a UK job because of LinkedIn.
+	- Finally, and most importantly, I personally think travelling outside is over-rated. If you get relatively good money or work remotely from Egypt, stay. That's just personal advice. It's good to learn about other cultures, but living there means that, one by one, you slowly lose your Arabian identity. Obviously someone might ask: "and what's the problem with that?", and I don't think I can shortly respond to this question, so I'll just leave it unanswered here, but [feel free to message me](https://www.linkedin.com/in/ashrafharess/) if you want to hear my opinion, I love discussions like these :\].
+
+
+- What is the most optimal and easiest specialization to help land a remote job?
+	- Software Engineering. Specifically, web development.
+	- However, AI is slowly [taking over](https://youtu.be/pPvoccZKjF8?t=55) this area.
+	- But [generally](https://www.youtube.com/watch?v=NJMgDqHyXbo), mobile/web/ui/ux development and testing jobs, and some of these are in SE.
+
+
+- Are the jobs in AI as interesting as the topics?
+	- That depends on your definition of "interesting".
+	- Regarding data science, yes. Data analytics/science jobs are 80% similar to the data science module.
+	- Regarding ANN, rarely. ANN teaches us the historical models which are foundation for DL/NLP.
+	- Regarding ML/DL/NLP, yes to some degree; most of the "interesting" stuff will be shrouded with [CI-CD](../DevOps/CI-CD.md) logic for [MLOps](Data%20Engineering/MLOps.md). However, advanced ML/DL/NLP jobs may get you working on low-level model details, which could be interesting/challenging, but some of these jobs require a masters degree.
+	- In my opinion, the most interesting/challenging jobs are academic/research related; [R&D jobs](https://ai-jobs.net/insights/rd-explained/#:~:text=R%26D%2C%20in%20the%20context%20of,problems%20and%20improve%20existing%20systems.), researcher jobs, etc.
+
+
+- Are there good and many jobs for the AI department in the Egyptian market?
+	- If you have connections/online presence, yes.
+	- Compared to SE jobs, fewer.
+	- Personally, I've seen a lot more data analytics/science jobs than ML/DL/NLP engineer jobs.
+
+
+- Can graduates find jobs easily?
+	- If you have connections/online presence, yes.
+	- If you ask questions and fill forms in IT job fairs, probably yes.
+	- If you apply for the occasional BUE Student Hub initiatives (build your CV, etc.), then most-likely, yes. 
+
+
+- What jobs are there for AI graduates in the Egyptian market?
+	- Examples: Data Scientist, Data Analyst, ML Engineer, DL Engineer, NLP Engineer, MLOps engineer, etc.
+	- Descriptions can be found [here](https://www.geeksforgeeks.org/most-demanded-job-roles-in-artificial-intelligence/).
+
+
+- What jobs are there for SE graduates in the Egyptian market?
+	- Examples: Testing jobs, web dev. jobs, mobile dev. jobs, application dev. jobs, UI/UX jobs, DevOps jobs.
+	- Answers by various graduates can be found [here](https://docs.google.com/spreadsheets/d/1JXXjh4JpUOrgQWG4c1LfpiOvKas7fOnupnkeEGyQy6I/edit#gid=895784434&range=W:W).
+
+
+- Does choosing a specific major make you lose out on many job opportunities?
+	- Not really, the majors' modules are introductory, so it's relatively easy to migrate from one IT domain to another.
+	- Answers by various graduates can be found [here](https://docs.google.com/spreadsheets/d/1JXXjh4JpUOrgQWG4c1LfpiOvKas7fOnupnkeEGyQy6I/edit#gid=895784434&range=T:T).
+
+
+- For a specific sector like AI security, which major would be better?
+	- AI, until the new security (CSec) specialization opens in the BUE.
+	- Moreover, applying security in AI usually means [finding solutions to security problems using AI tools](https://youtu.be/V6GPVN2zbS0?t=1221) (e.g., 20:00 to 21:30, where AI is used to detect abnormal activities in a company's network of devices).
+	- It could also mean [using AI tools securely](https://youtu.be/PqjDPBBuqVE?t=78).
+	- Both of these are not covered in AI specialization, but AI is still the most relevant specialization for these topics.
+
+
+- Is there a huge gap between college modules and the work field (are the skills we learn in uni enough to land a job)?
+	- In AI, the gap is not too big. You'll primarily notice that you'll probably need to understand and use [DevOps](../DevOps/DevOps.md)/[MLOps](Data%20Engineering/MLOps.md) tools (git, Docker, MLFlow, Jenkins, etc.).
+	- Answers by various graduates can be found [here](https://docs.google.com/spreadsheets/d/1JXXjh4JpUOrgQWG4c1LfpiOvKas7fOnupnkeEGyQy6I/edit#gid=895784434&range=S:S).
+
+
+- Since the job market in tech is tough right now and companies are not hiring fresh grads like they used to in 2020-2022, how many jobs exist right now for SE and AI?
+	- Even though the rise of AI tools and increase in the number of IT fresh graduates have negatively affected the possibility of landing a job, you shouldn't worry.
+	- There are fewer jobs in some IT domains, yes, but be aware that there are also new IT domains that are starting to get attention again or for the first time. For example, [prompt engineering](https://youtu.be/yu27PWzJI_Y?t=66) (new job), or [Data Engineering](Data%20Engineering/Data%20Engineering.md) (old job, but still heavily required).
+
+
+- How much experience is needed to land a job in development and SE specializations?
+	- Answered by various graduates [here](https://docs.google.com/spreadsheets/d/1JXXjh4JpUOrgQWG4c1LfpiOvKas7fOnupnkeEGyQy6I/edit#gid=895784434&range=R:R).
+
+# Side Content - Video Preparation
+
+## Presentation Preparation
+
+At first, I was searching for an AI tool that will help me generate slides based on the bullet points above, so it was either [slidemaker](https://www.slidemake.com/) (which I knew from [reddit](https://www.reddit.com/r/powerpoint/comments/11qj9ba/i_created_an_aipowered_powerpoint_maker_to/?sort=new)), or [gamma.app](https://gamma.app/) (which I knew from [there's an ai for that](https://theresanaiforthat.com/presentation-slides/?ref=suggest&sort=most-saved)), or [prezo.ai](https://prezo.ai/) (also from there's an ai for that), but then I decided to choose gamma.app:
+
+![](Attachments%20-%20AI%20-%20FAQs/Pasted%20image%2020240131091658.png)
 
