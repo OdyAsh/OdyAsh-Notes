@@ -2,7 +2,7 @@
 
 #computer-science  #cs  #artificial-intelligence  #ai  #faq
 
-The following [questions](https://livebueedu-my.sharepoint.com/:x:/g/personal/ashraf196280_bue_edu_eg/EYZW4Ai4aGZNkrS0gdYiAsEBPgNcs7-gevJxupUX4vQ-xQ?e=VbGmq7) are taken from an excel sheet I did a while back where I asked BUE students if they had any concerns with AI, but since there are questions related to the practical side of computer science, I added this note to [Applied Sciences](../../Applied%20Sciences.md) instead of [Formal Sciences](../../../Formal%20Sciences/Formal%20Sciences.md) :\].
+The following questions are taken from an [excel sheet](https://livebueedu-my.sharepoint.com/:x:/g/personal/ashraf196280_bue_edu_eg/EYZW4Ai4aGZNkrS0gdYiAsEBPgNcs7-gevJxupUX4vQ-xQ?e=VbGmq7) I did a while back where I asked BUE students if they had any concerns with AI, but since there are questions related to the practical side of computer science, I added this note to [Applied Sciences](../../Applied%20Sciences.md) instead of [Formal Sciences](../../../Formal%20Sciences/Formal%20Sciences.md) :\].
 
 Abbreviations:
 * "sp" -> "Specialization".
@@ -107,7 +107,7 @@ Sources (from least outdated to most outdated):
 
 The list of modules of each specialization can be found [here](https://docs.google.com/document/d/1wExON8zV3sbf1hoipts_LsznLfMOWYJM9EPi7qAipwU/edit#heading=h.843zzs6wkts).
 
-The intersection between the specializations' modules can be seen [here](https://docs.google.com/spreadsheets/d/1SzKZXzVGHpCSpZO9bACl-XES3CoZFkIxDRLIOXJk5rY/edit?usp=drive_link):
+IMPORTANT: The intersection between the specializations' modules can be seen [here](https://docs.google.com/spreadsheets/d/1SzKZXzVGHpCSpZO9bACl-XES3CoZFkIxDRLIOXJk5rY/edit?usp=drive_link) .
 
 Side note 1: some modules are optional to some specializations, and mandatory to others. For example, Computer Security is mandatory for AI (and CN?), but optional for SE (and CS?)
 

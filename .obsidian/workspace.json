@@ -14,6 +14,24 @@
               "type": "markdown",
               "state": {
                 "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "af86ead2f814d7b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a12fd01597587cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQ - Video Preparation - TEMP.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 401.5,
+    "collapsed": true
   },
   "right": {
     "id": "3cf6ea7704bfbf22",
@@ -136,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md"
+                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQ - Video Preparation - TEMP.md"
               }
             }
           },
@@ -158,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQ - Video Preparation - TEMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
+                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQ - Video Preparation - TEMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,8 +216,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -222,13 +240,16 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f586be63464ecf2e",
+  "active": "3a12fd01597587cc",
   "lastOpenFiles": [
+    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240203073746.png",
+    "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
+    "Sciences/Applied Sciences/Programming/AI/AI - FAQ - Video Preparation - TEMP.md",
+    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240203072506.png",
+    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
     "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240202204833.png",
     "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240202145927.png",
     "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240202144820.png",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
-    "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/MLOps.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240201080239.png",
     "Sciences/Applied Sciences/Programming/DevOps/DevOps.md",
@@ -254,10 +275,8 @@
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240126145307.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240126145133.png",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240126145130.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Apache Spark.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Hadoop.md",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240126144538.png",
     "Sciences/Formal Sciences/Mathematics/Graph Theory/Directed Acyclic Graph (DAG).md",
     "Sciences/Formal Sciences/Mathematics/Math Jargon.md",
     "Sciences/Formal Sciences/Mathematics/Graph Theory",
@@ -265,7 +284,6 @@
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Pipeline.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Road Map.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
-    "Obsidian/My Obsidian.md",
     "Obsidian/Media-Temp",
     "Sciences/Applied Sciences/Programming/DevOps/Media-Temp",
     "Sciences/Applied Sciences/Programming/DevOps",

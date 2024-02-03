@@ -31,7 +31,6 @@
   "media-extended",
   "mathlinks",
   "math-booster",
-  "consistent-attachments-and-links",
   "obsidian-git",
   "obsidian-trash-explorer",
   "obsidian-link-converter",
@@ -47,5 +46,6 @@
   "obsidian-columns",
   "obsidian-day-planner",
   "periodic-notes",
-  "obsidian-quiet-outline"
+  "obsidian-quiet-outline",
+  "consistent-attachments-and-links"
 ]
