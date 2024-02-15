@@ -225,8 +225,7 @@ Now, other intuitive definitions can be understood once we establish the followi
   
   ![dot-product-int-def-1](Attachments%20-%20Vector/dot-product-int-def-1.gif)
   
-* Note that this "x" part will become negative once the angle between them is greater than 90°. To intuitively explain why it will become negative, I'll paste a YT comment from stating a possible application of the dot product:
-	* 
+* Note that this "x" part will become negative once the angle between them is greater than 90°.
 
 Applications of the dot product are mentioned in [Dot Product Use Cases](#Dot%20Product%20Use%20Cases) section.
 

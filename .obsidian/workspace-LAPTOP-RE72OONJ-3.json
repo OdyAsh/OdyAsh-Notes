@@ -13,7 +13,25 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
+                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
+                "mode": "preview",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "af86ead2f814d7b5",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "3a12fd01597587cc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQ - Video Preparation - TEMP.md",
                 "mode": "source",
                 "source": false
               }
@@ -48,7 +66,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "autoreloa",
+                "query": "mlops",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -85,7 +103,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 401.5
+    "width": 401.5,
+    "collapsed": true
   },
   "right": {
     "id": "3cf6ea7704bfbf22",
@@ -136,7 +155,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md"
+                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQ - Video Preparation - TEMP.md"
               }
             }
           },
@@ -158,7 +177,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
+                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQ - Video Preparation - TEMP.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +194,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
+                "file": "Sciences/Applied Sciences/Programming/AI/AI - FAQ - Video Preparation - TEMP.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,13 +216,11 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 336.5,
-    "collapsed": true
+    "width": 331.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -223,54 +240,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "f586be63464ecf2e",
+  "active": "3a12fd01597587cc",
   "lastOpenFiles": [
-    "Sciences/Applied Sciences/Programming/Python/Python Environments/Interaction between Different Modules and Packages.md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
-    "Obsidian/Publishing Obsidian.md",
-    "Sciences/Applied Sciences/Programming/AI/Model Libraries.md",
-    "Sciences/Applied Sciences/Programming/AI/AI - FAQs - Video Preparation.md",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Matrix.md",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه/Jurisprudence (الفقه).md",
-    "Sciences/Applied Sciences/Programming/AI/Metabase.md",
-    "Secrets/Metabase Guide.pdf",
-    "Metabase Guide.pdf",
-    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240209092622.png",
-    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240209092353.png",
-    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240209092323.png",
-    "Sciences/Applied Sciences/Programming/Docker/Metabase and Docker Caveats.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه",
+    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240203073746.png",
     "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
-    "Sciences/Applied Sciences/Programming/Docker/Media-Temp/Pasted image 20240205172726.png",
-    "Sciences/Applied Sciences/Programming/Docker/Media-Temp/Pasted image 20240205172503.png",
-    "Sciences/Applied Sciences/Programming/Docker/Media-Temp/Pasted image 20240205143151.png",
-    "Sciences/Applied Sciences/Programming/Docker/Media-Temp/Pasted image 20240205141136.png",
-    "Sciences/Applied Sciences/Programming/Docker/Media-Temp/Pasted image 20240205140932.png",
-    "Sciences/Applied Sciences/Programming/Docker/Media-Temp",
-    "Sciences/Applied Sciences/Programming/Docker/Docker Basics.md",
-    "Obsidian/My Obsidian.md",
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Pipeline.md",
-    "Sciences/Formal Sciences/Computer Science/Machine Learning/Machine Learning.md",
-    "Sciences/Applied Sciences/Programming/AI/Clustering Algorithms.md",
-    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Audio.md",
-    "Sciences/Applied Sciences/Programming/AI/Attachments - AI - FAQs - Video Preparation",
+    "Sciences/Applied Sciences/Programming/AI/AI - FAQ - Video Preparation - TEMP.md",
+    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240203072506.png",
     "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
-    "Sciences/Applied Sciences/Programming/AI/Attachments - AI - FAQs - Video Preparation/Pasted image 20240203073746.png",
-    "Sciences/Applied Sciences/Programming/AI/Attachments - AI - FAQs - Video Preparation/Pasted image 20240203072506.png",
+    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240202204833.png",
+    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240202145927.png",
+    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240202144820.png",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/MLOps.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240201080239.png",
     "Sciences/Applied Sciences/Programming/DevOps/DevOps.md",
+    "Sciences/Formal Sciences/Computer Science/Machine Learning/Machine Learning.md",
     "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
     "Sciences/Applied Sciences/Programming/Azure/Setup Webjobs for Python Programs.md",
     "Secrets/Work Drafts.md",
     "Secrets/APIs.md",
     "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Engineering.md",
+    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240131104055.png",
     "Sciences/Applied Sciences/Programming/AI/Attachments - AI - FAQs",
+    "Sciences/Applied Sciences/Programming/AI/Attachments - AI - FAQs/Pasted image 20240131091658.png",
     "Sciences/Applied Sciences/Programming/AI/Media-Temp",
+    "Sciences/Applied Sciences/Applied Sciences.md",
+    "Sciences/Formal Sciences/Computer Science/Computer Science.md",
+    "Secrets/Islam Personal Journey/الله السميع البصير المُجيب.md",
+    "Secrets/Islam Personal Journey/Media-Temp/Pasted image 20240130043620.png",
     "Secrets/Islam Personal Journey/Media-Temp",
+    "Islam/Prophet Muhammad/Timeline of Prophet Muhammad.md",
     "Secrets/Islam Personal Journey",
     "Islam/Courses/Forqan Academy (أكادمية الفرقان)/السيرة",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/PySpark.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240126145307.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Media-Temp/Pasted image 20240126145133.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Apache Spark.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Hadoop.md",
+    "Sciences/Formal Sciences/Mathematics/Graph Theory/Directed Acyclic Graph (DAG).md",
+    "Sciences/Formal Sciences/Mathematics/Math Jargon.md",
+    "Sciences/Formal Sciences/Mathematics/Graph Theory",
+    "Sciences/Formal Sciences/Mathematics/Mathematics.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Pipeline.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/DE Road Map.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/GCP Big Data And ML Fundamentals Course.md",
+    "Obsidian/Media-Temp",
+    "Sciences/Applied Sciences/Programming/DevOps/Media-Temp",
+    "Sciences/Applied Sciences/Programming/DevOps",
+    "Sciences/Applied Sciences/Programming/Versioning/Media-Temp",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
