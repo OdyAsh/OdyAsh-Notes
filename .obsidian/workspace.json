@@ -197,8 +197,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -224,6 +223,9 @@
   },
   "active": "5e4e00deaef7899a",
   "lastOpenFiles": [
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
+    "conflict-files-obsidian-git.md",
+    "Islam/The Quran/60. Surah Al-Mumtahanah (الممتحنة).md",
     "Islam/The Quran/Media-Temp/Pasted image 20240226065733.png",
     "Islam/The Quran/Media-Temp/Pasted image 20240226065620.png",
     "Islam/The Quran/Media-Temp/Pasted image 20240226064526.png",
@@ -232,7 +234,6 @@
     "Islam/The Quran/Media-Temp/Pasted image 20240226064458.png",
     "Islam/The Quran/Media-Temp/Pasted image 20240226064437.png",
     "Islam/The Quran/Media-Temp/Pasted image 20240226062050.png",
-    "Islam/The Quran/60. Surah Al-Mumtahanah (الممتحنة).md",
     "Tasks/Personal Tasks/Weekly/2024-W01.md",
     "Tasks/Personal Tasks/Weekly/2024-W08.md",
     "Tasks/Personal Tasks/Daily/2024-02-25.md",
@@ -240,7 +241,6 @@
     "Tasks/Personal Tasks/Daily/2024-02-26.md",
     "Tasks/Personal Tasks/Weekly/Weekly Template.md",
     "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
     "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
     "Islam/Courses/Self Restart (إعادة تشغيل الذات)/Media-Temp/Pasted image 20240224125823.png",
     "Islam/Courses/Self Restart (إعادة تشغيل الذات)/Media-Temp",
@@ -259,7 +259,6 @@
     "Secrets/Metabase Guide.pdf",
     "Metabase Guide.pdf",
     "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240209092622.png",
-    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240209092353.png",
     "Sciences/Applied Sciences/Programming/Docker/Metabase and Docker Caveats.md",
     "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه",
     "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
