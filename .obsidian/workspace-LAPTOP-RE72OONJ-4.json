@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "aeac022dbe9221f8",
+        "id": "d734f188e2a262ad",
         "type": "tabs",
         "children": [
           {
-            "id": "5e4e00deaef7899a",
+            "id": "f586be63464ecf2e",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/The Quran/60. Surah Al-Mumtahanah (الممتحنة).md",
+                "file": "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
                 "mode": "source",
                 "source": false
               }
@@ -136,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/The Quran/60. Surah Al-Mumtahanah (الممتحنة).md"
+                "file": "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md"
               }
             }
           },
@@ -158,7 +158,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/The Quran/60. Surah Al-Mumtahanah (الممتحنة).md",
+                "file": "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +175,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/The Quran/60. Surah Al-Mumtahanah (الممتحنة).md",
+                "file": "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -190,7 +190,7 @@
             }
           },
           {
-            "id": "60435b7bb97c97ba",
+            "id": "9ce51b1df8a2ccb0",
             "type": "leaf",
             "state": {
               "type": "timeline",
@@ -202,7 +202,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 336.5
+    "width": 336.5,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -222,33 +223,11 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5e4e00deaef7899a",
+  "active": "f586be63464ecf2e",
   "lastOpenFiles": [
-    "Islam/The Quran/Media-Temp/Pasted image 20240226065733.png",
-    "Islam/The Quran/Media-Temp/Pasted image 20240226065620.png",
-    "Islam/The Quran/Media-Temp/Pasted image 20240226064526.png",
-    "Islam/The Quran/Media-Temp/Pasted image 20240226064521.png",
-    "Islam/The Quran/Media-Temp/Pasted image 20240226064517.png",
-    "Islam/The Quran/Media-Temp/Pasted image 20240226064458.png",
-    "Islam/The Quran/Media-Temp/Pasted image 20240226064437.png",
-    "Islam/The Quran/Media-Temp/Pasted image 20240226062050.png",
-    "Islam/The Quran/60. Surah Al-Mumtahanah (الممتحنة).md",
-    "Tasks/Personal Tasks/Weekly/2024-W01.md",
-    "Tasks/Personal Tasks/Weekly/2024-W08.md",
-    "Tasks/Personal Tasks/Daily/2024-02-25.md",
-    "Tasks/Personal Tasks/Daily/2024-02-29.md",
-    "Tasks/Personal Tasks/Daily/2024-02-26.md",
-    "Tasks/Personal Tasks/Weekly/Weekly Template.md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/Media-Temp/Pasted image 20240224125823.png",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/Media-Temp",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/Untitled.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الحديث/Hadith (الحديث).md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الحديث",
     "Sciences/Applied Sciences/Programming/Python/Python Environments/Interaction between Different Modules and Packages.md",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
     "Obsidian/Publishing Obsidian.md",
     "Sciences/Applied Sciences/Programming/AI/Model Libraries.md",
     "Sciences/Applied Sciences/Programming/AI/AI - FAQs - Video Preparation.md",
@@ -260,16 +239,38 @@
     "Metabase Guide.pdf",
     "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240209092622.png",
     "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240209092353.png",
+    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240209092323.png",
     "Sciences/Applied Sciences/Programming/Docker/Metabase and Docker Caveats.md",
     "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه",
     "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
+    "Sciences/Applied Sciences/Programming/Docker/Media-Temp/Pasted image 20240205172726.png",
+    "Sciences/Applied Sciences/Programming/Docker/Media-Temp/Pasted image 20240205172503.png",
+    "Sciences/Applied Sciences/Programming/Docker/Media-Temp/Pasted image 20240205143151.png",
+    "Sciences/Applied Sciences/Programming/Docker/Media-Temp/Pasted image 20240205141136.png",
+    "Sciences/Applied Sciences/Programming/Docker/Media-Temp/Pasted image 20240205140932.png",
     "Sciences/Applied Sciences/Programming/Docker/Media-Temp",
     "Sciences/Applied Sciences/Programming/Docker/Docker Basics.md",
     "Obsidian/My Obsidian.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Pipeline.md",
+    "Sciences/Formal Sciences/Computer Science/Machine Learning/Machine Learning.md",
+    "Sciences/Applied Sciences/Programming/AI/Clustering Algorithms.md",
+    "Sciences/Formal Sciences/Computer Science/Computer Hardware/Audio.md",
     "Sciences/Applied Sciences/Programming/AI/Attachments - AI - FAQs - Video Preparation",
+    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
+    "Sciences/Applied Sciences/Programming/AI/Attachments - AI - FAQs - Video Preparation/Pasted image 20240203073746.png",
+    "Sciences/Applied Sciences/Programming/AI/Attachments - AI - FAQs - Video Preparation/Pasted image 20240203072506.png",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/MLOps.md",
+    "Sciences/Applied Sciences/Programming/DevOps/DevOps.md",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
+    "Sciences/Applied Sciences/Programming/Azure/Setup Webjobs for Python Programs.md",
+    "Secrets/Work Drafts.md",
+    "Secrets/APIs.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/Data Engineering.md",
     "Sciences/Applied Sciences/Programming/AI/Attachments - AI - FAQs",
     "Sciences/Applied Sciences/Programming/AI/Media-Temp",
     "Secrets/Islam Personal Journey/Media-Temp",
+    "Secrets/Islam Personal Journey",
+    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/السيرة",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
