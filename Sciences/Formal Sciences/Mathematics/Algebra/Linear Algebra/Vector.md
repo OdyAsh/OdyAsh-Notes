@@ -618,7 +618,7 @@ Read additional notes [here](https://www.nagwa.com/en/explainers/350134612051/#:
 
 [source 1](https://www.khanacademy.org/math/linear-algebra/vectors-and-spaces/vectors/v/linear-algebra-parametric-representations-of-lines), [source 2](https://www.youtube.com/watch?v=PyPp4QvQY3Q)
 
-First, recall the parametric equation form [here](Line%20Equations.md#Parametric%20Equation).
+First, recall the parametric equation form [here](Algebraic%20Equations.md#Parametric%20Equation).
 
 Now, let's define a **vector set** as the following:
 

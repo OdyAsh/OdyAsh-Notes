@@ -8,18 +8,43 @@
         "type": "tabs",
         "children": [
           {
-            "id": "5e4e00deaef7899a",
+            "id": "f7dd155a276895c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/The Quran/60. Surah Al-Mumtahanah (الممتحنة).md",
+                "file": "Sciences/Formal Sciences/Mathematics/Geometry/Geometry.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ff78e99cb607e3f0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Algebraic Equations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "58f0b2e4eb89c520",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tasks/تكليفات حول محور السلوكيات والعادات.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -48,7 +73,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "autoreloa",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -136,7 +161,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/The Quran/60. Surah Al-Mumtahanah (الممتحنة).md"
+                "file": "Tasks/تكليفات حول محور السلوكيات والعادات.md"
               }
             }
           },
@@ -158,7 +183,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/The Quran/60. Surah Al-Mumtahanah (الممتحنة).md",
+                "file": "Tasks/تكليفات حول محور السلوكيات والعادات.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -175,7 +200,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/The Quran/60. Surah Al-Mumtahanah (الممتحنة).md",
+                "file": "Tasks/تكليفات حول محور السلوكيات والعادات.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -197,7 +222,8 @@
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
@@ -218,57 +244,58 @@
       "file-cleaner-redux:Clean files": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "obsidian-excalidraw-plugin:Create new drawing": false,
+      "random-note:Open random note": false,
+      "publish:Publish changes...": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "5e4e00deaef7899a",
+  "active": "58f0b2e4eb89c520",
   "lastOpenFiles": [
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
+    "Tasks/تكليفات حول محور السلوكيات والعادات.md",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Matrix.md",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240305173348.png",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240305173339.png",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Algebraic Equations.md",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240304202856.png",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240304202844.png",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240304202827.png",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240304202522.png",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240304202512.png",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240304201956.png",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240303204229.png",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240303203610.png",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
+    "Sciences/Applied Sciences/Programming/UX Design/Key Components of Web Design.md",
+    "Sciences/Formal Sciences/Mathematics/Geometry/Geometry.md",
+    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
+    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه/Jurisprudence (الفقه).md",
     "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
-    "conflict-files-obsidian-git.md",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Attachments - Algebraic Equations",
+    "Sciences/Applied Sciences/Programming/Python/Python Environments/Conda Environment.md",
+    "Sciences/Formal Sciences/Mathematics/Geometry/Media-Temp",
+    "Sciences/Formal Sciences/Mathematics/Geometry",
+    "Tasks/Personal Tasks/Daily/2024-02-26.md",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/Untitled.md",
     "Islam/The Quran/60. Surah Al-Mumtahanah (الممتحنة).md",
-    "Islam/The Quran/Media-Temp/Pasted image 20240226065733.png",
-    "Islam/The Quran/Media-Temp/Pasted image 20240226065620.png",
-    "Islam/The Quran/Media-Temp/Pasted image 20240226064526.png",
-    "Islam/The Quran/Media-Temp/Pasted image 20240226064521.png",
-    "Islam/The Quran/Media-Temp/Pasted image 20240226064517.png",
-    "Islam/The Quran/Media-Temp/Pasted image 20240226064458.png",
-    "Islam/The Quran/Media-Temp/Pasted image 20240226064437.png",
-    "Islam/The Quran/Media-Temp/Pasted image 20240226062050.png",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/Media-Temp",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)",
+    "conflict-files-obsidian-git.md",
     "Tasks/Personal Tasks/Weekly/2024-W01.md",
     "Tasks/Personal Tasks/Weekly/2024-W08.md",
     "Tasks/Personal Tasks/Daily/2024-02-25.md",
     "Tasks/Personal Tasks/Daily/2024-02-29.md",
-    "Tasks/Personal Tasks/Daily/2024-02-26.md",
     "Tasks/Personal Tasks/Weekly/Weekly Template.md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/Media-Temp/Pasted image 20240224125823.png",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/Media-Temp",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/Untitled.md",
     "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الحديث/Hadith (الحديث).md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
     "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الحديث",
     "Sciences/Applied Sciences/Programming/Python/Python Environments/Interaction between Different Modules and Packages.md",
     "Obsidian/Publishing Obsidian.md",
     "Sciences/Applied Sciences/Programming/AI/Model Libraries.md",
-    "Sciences/Applied Sciences/Programming/AI/AI - FAQs - Video Preparation.md",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Matrix.md",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه/Jurisprudence (الفقه).md",
-    "Sciences/Applied Sciences/Programming/AI/Metabase.md",
     "Secrets/Metabase Guide.pdf",
     "Metabase Guide.pdf",
-    "Sciences/Applied Sciences/Programming/AI/Media-Temp/Pasted image 20240209092622.png",
-    "Sciences/Applied Sciences/Programming/Docker/Metabase and Docker Caveats.md",
     "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه",
-    "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
     "Sciences/Applied Sciences/Programming/Docker/Media-Temp",
-    "Sciences/Applied Sciences/Programming/Docker/Docker Basics.md",
-    "Obsidian/My Obsidian.md",
-    "Sciences/Applied Sciences/Programming/AI/Attachments - AI - FAQs - Video Preparation",
-    "Sciences/Applied Sciences/Programming/AI/Attachments - AI - FAQs",
-    "Sciences/Applied Sciences/Programming/AI/Media-Temp",
-    "Secrets/Islam Personal Journey/Media-Temp",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

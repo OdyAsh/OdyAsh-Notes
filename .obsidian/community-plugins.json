@@ -34,7 +34,6 @@
   "obsidian-git",
   "obsidian-trash-explorer",
   "obsidian-link-converter",
-  "obsidian-regex-replace",
   "nuke-orphans",
   "obsidian-sort-and-permute-lines",
   "treefocus",
@@ -47,5 +46,6 @@
   "obsidian-day-planner",
   "periodic-notes",
   "obsidian-quiet-outline",
-  "consistent-attachments-and-links"
+  "consistent-attachments-and-links",
+  "global-search-and-replace"
 ]

@@ -27,6 +27,60 @@ then, just in case, upgrade pip:
 python.exe -m pip install --upgrade pip
 ``` 
 
+# Activating Conda Environment on CMD vs PowerShell
+
+If you're using [Windows CMD](https://en.wikipedia.org/wiki/Cmd.exe#:~:text=Command%20Prompt%2C%20also%20known%20as,On%20Windows%20CE%20.), then after creating a Conda environment using a script like this:
+
+```cmd
+conda create -p PROJECT_PATH/.conda python=3.8
+```
+
+Then, you can just activate it using:
+
+```cmd
+conda activate PROJECT_PATH/.conda
+```
+
+Then, you can verify that this is the active environment by running:
+
+```cmd
+ conda env list
+```
+
+and seeing that there is an asterisk (\*) next to the Conda environment that you activated.
+
+Meanwhile, if you use [Windows PowerShell](https://en.wikipedia.org/wiki/PowerShell), then you have to follow extra steps like so ([source](https://saturncloud.io/blog/activating-conda-environment-from-powershell-a-guide-for-data-scientists/)):
+
+first enable unrestricted PowerShell script execution by running this in PowerShell:
+
+ ```powershell
+ set-executionpolicy unrestricted
+```
+
+Then, to use Conda from PowerShell, initialize it by running this in PowerShell:
+
+```powershell
+conda init powershell
+```
+
+Then, restart your PowerShell terminal, then run:
+
+```powershell
+conda activate PROJECT_PATH/.conda
+```
+
+Then, you can verify that this is the active environment by running:
+
+```cmd
+ conda env list
+```
+
+Don't forget to make sure PowerShell execution policy was restricted to current user by running the following in PowerShell:
+
+```powershell
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+```
+
 # Conda Tips
 
 ## Tip 1: Use `mamba` Instead Of `conda` 

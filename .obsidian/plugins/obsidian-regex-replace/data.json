@@ -1,6 +1,6 @@
 {
-  "findText": "(\\!\\[.*?\\]\\(.*?\\.\\w{3}\\)|\\[\\[.*?\\.\\w{3}\\]\\])",
-  "replaceText": "<br>$1<br>",
+  "findText": "إسبوع",
+  "replaceText": "أسبوع",
   "useRegEx": true,
   "selOnly": false,
   "caseInsensitive": false,
