@@ -1,4 +1,6 @@
 
+Note: Any terminology that expands in its definition or content will most likely be moved to its own page.
+
 # Social Sorting
 
 [source 1: lawinsider.com](https://www.lawinsider.com/dictionary/social-sorting)

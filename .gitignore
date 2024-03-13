@@ -1,9 +1,9 @@
 # be sure to add data.json for plugins that contain API keys
 .obsidian/plugins/image2latex/data.json
-
+.obsidian/plugins/remember-cursor-position/cursor-positions.json
 
 .obsidian/plugins/obsidian-completr/scanned_words.txt
-
+.obsidian/plugins/obsidian-dictionary-plugin/cache.json
 
 Islam/Courses/Self Restart (إعادة تشغيل الذات)/*
 

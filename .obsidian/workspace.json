@@ -8,31 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f7dd155a276895c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Sciences/Formal Sciences/Mathematics/Geometry/Geometry.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "ff78e99cb607e3f0",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Algebraic Equations.md",
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/E.1 الإستعداد لرمضان.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "58f0b2e4eb89c520",
+            "id": "a70263da56a6f693",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -42,9 +30,45 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "239cd31efb26cd7b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Secrets/Islam Personal Journey/الله السميع البصير المُجيب.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "b1249edf8f3fddf0",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/ADHD - Attention-Deficit Hyperactive Disorder.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "965289de6bdacfac",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Hyperfocus.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "vertical"
@@ -73,7 +97,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "tag:#2024-01-29",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -156,12 +180,20 @@
             }
           },
           {
+            "id": "15c8bd153d173051",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          },
+          {
             "id": "7e86c7e358fec7c9",
             "type": "leaf",
             "state": {
               "type": "outline",
               "state": {
-                "file": "Tasks/تكليفات حول محور السلوكيات والعادات.md"
+                "file": "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Hyperfocus.md"
               }
             }
           },
@@ -183,7 +215,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Tasks/تكليفات حول محور السلوكيات والعادات.md",
+                "file": "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Hyperfocus.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -200,7 +232,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Tasks/تكليفات حول محور السلوكيات والعادات.md",
+                "file": "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Hyperfocus.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -223,7 +255,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -249,53 +281,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "58f0b2e4eb89c520",
+  "active": "965289de6bdacfac",
   "lastOpenFiles": [
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
+    "Personal Dictionary/en-US/Bouts.md",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Hyperfocus.md",
+    "Personal Dictionary/en-US",
+    "Personal Dictionary",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/ADHD - Attention-Deficit Hyperactive Disorder.md",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240313080909.png",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/E.1 الإستعداد لرمضان.md",
     "Tasks/تكليفات حول محور السلوكيات والعادات.md",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/NDDs - Neurodevelopmental Disorders.md",
+    "Sciences/Social Sciences/Psychology/Neuropsychology.md",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Psychological Disorders.md",
+    "Secrets/Islam Personal Journey/الله السميع البصير المُجيب.md",
+    "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
+    "Islam/Pre-Islamic World/Before Muhammad Further Readings.md",
+    "Secrets/Islam Personal Journey/Media-Temp/Pasted image 20240310072652.png",
+    "Secrets/Islam Personal Journey/Media-Temp/Pasted image 20240309223326.png",
+    "Secrets/Islam Personal Journey/Media-Temp/Pasted image 20240309222812.png",
+    "Secrets/Islam Personal Journey/Media-Temp/Pasted image 20240309222312.png",
+    "Secrets/Islam Personal Journey/Media-Temp/Pasted image 20240309222301.png",
+    "Sciences/Social Sciences/Social Sciences.md",
+    "Sciences/Social Sciences/Psychology/Miscellaneous Terminologies/Psychology Miscellaneous Terminologies.md",
+    "Sciences/Social Sciences/Psychology/Miscellaneous Terminologies",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
     "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Matrix.md",
+    "Sciences/Applied Sciences/Programming/Docker/Metabase and Docker Caveats.md",
+    "Sciences/Applied Sciences/Programming/Docker/Docker Basics.md",
+    "Sciences/Applied Sciences/Programming/Managing Names, Files and Directories/Python OS and Glob.md",
+    "Sciences/Formal Sciences/Mathematics/Geometry/Geometry.md",
+    "Tasks/Media-Temp/Pasted image 20240306185835.png",
+    "Tasks/Media-Temp",
+    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Algebraic Equations.md",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
     "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240305173348.png",
     "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240305173339.png",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Algebraic Equations.md",
     "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240304202856.png",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240304202844.png",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240304202827.png",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240304202522.png",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240304202512.png",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240304201956.png",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240303204229.png",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Media-Temp/Pasted image 20240303203610.png",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
     "Sciences/Applied Sciences/Programming/UX Design/Key Components of Web Design.md",
-    "Sciences/Formal Sciences/Mathematics/Geometry/Geometry.md",
     "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
     "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه/Jurisprudence (الفقه).md",
     "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
     "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Attachments - Algebraic Equations",
-    "Sciences/Applied Sciences/Programming/Python/Python Environments/Conda Environment.md",
     "Sciences/Formal Sciences/Mathematics/Geometry/Media-Temp",
-    "Sciences/Formal Sciences/Mathematics/Geometry",
-    "Tasks/Personal Tasks/Daily/2024-02-26.md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/Untitled.md",
-    "Islam/The Quran/60. Surah Al-Mumtahanah (الممتحنة).md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/Media-Temp",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)",
-    "conflict-files-obsidian-git.md",
-    "Tasks/Personal Tasks/Weekly/2024-W01.md",
-    "Tasks/Personal Tasks/Weekly/2024-W08.md",
-    "Tasks/Personal Tasks/Daily/2024-02-25.md",
-    "Tasks/Personal Tasks/Daily/2024-02-29.md",
-    "Tasks/Personal Tasks/Weekly/Weekly Template.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الحديث/Hadith (الحديث).md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الحديث",
-    "Sciences/Applied Sciences/Programming/Python/Python Environments/Interaction between Different Modules and Packages.md",
-    "Obsidian/Publishing Obsidian.md",
-    "Sciences/Applied Sciences/Programming/AI/Model Libraries.md",
-    "Secrets/Metabase Guide.pdf",
-    "Metabase Guide.pdf",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه",
-    "Sciences/Applied Sciences/Programming/Docker/Media-Temp",
     "Islam/The Quran/Untitled.canvas"
   ]
 }
