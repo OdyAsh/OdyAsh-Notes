@@ -9,6 +9,8 @@
 
 Outline notes to structure my [online presentation](https://gamma.app/public/QAs-for-CS-Specializations-FAQs-from-BUE-Students-tdswg9e7u1e5hk4) and video.
 
+NOTE: some parts of the video has been cut (due to poor audio quality, etc.), so the timestamps below aren't exactly accurate.
+
 * Introduction (0:00)
 	* Introduce yourself
 		* I generally dislike this section, but I'll do it just for the [social proof](https://www.linkedin.com/pulse/psychology-video-ginger-bell/#:~:text=The%20Principle%20of%20Social%20Proof%20refers,based%20on%20their%20opinion.%5B4%5D) effect :/.

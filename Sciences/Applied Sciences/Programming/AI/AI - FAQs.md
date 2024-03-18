@@ -4,6 +4,8 @@
 
 The following questions are taken from an [excel sheet](https://livebueedu-my.sharepoint.com/:x:/g/personal/ashraf196280_bue_edu_eg/EYZW4Ai4aGZNkrS0gdYiAsEBPgNcs7-gevJxupUX4vQ-xQ?e=VbGmq7) I did a while back where I asked BUE students if they had any concerns with AI, but since there are questions related to the practical side of computer science, I added this note to [Applied Sciences](../../Applied%20Sciences.md) instead of [Formal Sciences](../../../Formal%20Sciences/Formal%20Sciences.md) :\].
 
+NOTE: a lot of the answers below will be subjective and maybe outdated by the time you read it, so make sure to double check the info here on the internet! 🙌
+
 Abbreviations:
 * "sp" -> "Specialization".
 * "uni." -> university.

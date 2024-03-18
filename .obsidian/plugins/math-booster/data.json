@@ -151,5 +151,7 @@
     "searchModalRange": "recent",
     "searchModalDvQuery": ""
   },
-  "excludedFiles": []
+  "excludedFiles": [
+    "Sciences/Applied Sciences/Programming/AI/Personal/MBZUAI Exam Preparation.md"
+  ]
 }

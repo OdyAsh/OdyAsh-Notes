@@ -1,6 +1,16 @@
 
 #note-taking
 
+# Personal Tips about Obsidian Community Plugins
+
+## Remember Cursor vs Navigate Cursor History
+
+I personally found issues when using the "Remember Cursor" plugin (e.g., clicking on a backlink for a certain header in another page leads me to the last cursor position of that other page, instead of the header that I wanted to focus on), but I didn't find these issues in "Navigate Cursor" plugin.
+
+![](Media-Temp/Pasted%20image%2020240315081809.png)
+
+However, massive respect to both developers either way!
+
 # Meaning of Highlight Colors
 
 #highlighting

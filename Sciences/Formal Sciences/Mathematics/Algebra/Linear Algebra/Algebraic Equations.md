@@ -87,37 +87,83 @@ Side note 1: The 2 equations above are called the [Implicit Equations](#Implicit
 
 Side note 2: Check [this](https://personal.math.ubc.ca/~tbjw/ila/systems-of-linear-equations.html#subsection-8) section to see how we can visualize the solution set in the [Parametric Form](Algebraic%20Equations.md#Parametric%20Equation) instead of implicit equations.
 
-## Solving SLE
-
-### Solving SLE Using Gaussian Elimination Method
+## Solving SLE Using Gaussian Elimination (i.e., Row Reduction) Method
 
 In mathematics, **Gaussian elimination**, also known as **row reduction**, is an [algorithm](https://en.wikipedia.org/wiki/Algorithm "Algorithm") for solving [systems of linear equations](https://en.wikipedia.org/wiki/System_of_linear_equations "System of linear equations"). The method is named after [Carl Friedrich Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss "Carl Friedrich Gauss") (1777–1855) ([source: wikipedia](https://en.wikipedia.org/wiki/Gaussian_elimination)).
 
 We will solve systems of linear equations algebraically using the *elimination* method. In other words, we will combine the equations in various ways to try to eliminate as many variables as possible from each equation ([s1](https://personal.math.ubc.ca/~tbjw/ila/row-reduction.html#row-reduction-elimination)).
 
-There are three valid operations we can perform on an SLE:
+Note: You can see the relationship between augmented matrix and linear systems and vector equations [here](Matrix.md#Defining%20Augmented%20Matrices%20by%20Relating%20Them%20to%20Linear%20Systems%20and%20Vector%20Equations).
+
+### SLE as a Linear System
+
+There are three valid operations we can perform on an SLE ([s1](https://personal.math.ubc.ca/~tbjw/ila/row-reduction.html#row-reduction-elimination)):
 
 ![](Media-Temp/Pasted%20image%2020240229192020.png)
 
-### Solving SLE Using Augmented Matrices
+### SLE as an Augmented Matrix
 
-The relationship between row operations and augmented matrices:
+Side note: you can read more about augmented matrices [here](Matrix.md#Defining%20Augmented%20Matrices%20by%20Relating%20Them%20to%20Linear%20Systems%20and%20Vector%20Equations).
 
-Solving equations by elimination requires writing the variables $x,y,z$ and the equals sign $=$ over and over again, merely as placeholders. 
+Here is the row reduction algorithm, summarized in pictures ([s1](https://personal.math.ubc.ca/~tbjw/ila/row-reduction.html#p-173)):
 
-Since the coefficient _numbers_ are the only thing that change, we can make our life easier by extracting only the numbers, and putting them in a box (called augmented matrix):
+![](Media-Temp/Pasted%20image%2020240314093206.png)
 
-$$\left\{\begin{array}{cccc|c}x+2y+3z=&6\\2x-3y+2z=&14\\3x+y-z=&-2\end{array}\right.\;\;\xrightarrow{\mathrm{becomes}}\left(\begin{array}{rrr|r}1&2&3&6\\2&-3&2&14\\3&1&-1&-2\end{array}\right)$$
+Side note: observe that the step "Get 1 here" can either be done using step **a** or **b** (or both) in the pseudocode below.
 
-<mark style="background: #FFF3A3A6;">The word “augmented” refers to the vertical line</mark>, which we draw to remind ourselves where the equals sign belongs.
+Assuming you're familiar with the [possible row operations](Matrix.md#Possible%20Row%20Operations), here is the row reduction algorithm as pseudocode ([s1](https://personal.math.ubc.ca/~tbjw/ila/row-reduction.html#algo-row-reduction)):
 
-<mark style="background: #FFF3A3A6;">A matrix is a grid of numbers without the vertical line</mark>.
+1. **Step 1a:** Swap the first row with a lower one so a leftmost nonzero entry is in the first row (if necessary).
+2. **Step 1b:** Scale the first row so that its first nonzero entry is equal to 1.
+3. **Step 1c:** Use row replacement so all entries below this 1 are 0.
+---
+1. **Step 2a:** Swap the second row with a lower one so that the leftmost nonzero entry is in the second row.
+2. **Step 2b:** Scale the second row so that its first nonzero entry is equal to 1.
+3. **Step 2c:** Use row replacement so all entries below this one are zero.
+---
+1. **Step 3a:** Swap the third row with a lower one so that the leftmost nonzero entry is in the third row.
+2. ...Repeat the process until all rows have been processed...
+---
+1. **Last Step:** Use row replacement to clear all entries above the pivots, starting with the last pivot.
 
-The relationship between vector equations and augmented matrices:
+#### Examples
 
-![](Media-Temp/Pasted%20image%2020240303191450.png)
+An example is provided [here](https://personal.math.ubc.ca/~tbjw/ila/row-reduction.html#p-173) (click on the word "Example").
 
-Now, you can read more about augmented matrices [here](Matrix.md#Augmented%20Matrix).
+Another example: convert the following augmented matrix to RREF:
+
+
+$$
+\left(\begin{array}{rrr|r}2&-1&3&3\cr4&2&-2&2\cr6&-3&1&9\end{array}\right)
+$$
+
+Answer:
+
+![](Media-Temp/Pasted%20image%2020240314103208.png)
+
+Note: If you don't understand how this matrix is a REF, check [this](Sciences/Formal%20Sciences/Mathematics/Algebra/Linear%20Algebra/Matrix.md#Row%20Echelon%20Form%20REF).
+
+Continuing:
+
+![](Media-Temp/Pasted%20image%2020240314103847.png)
+
+Therefore:
+
+$$\begin{alignat*}{3}
+1x&+0y&+0z&=1 \cr 
+0x&+1y&+0z&=-1 \cr 
+0x&+0y&+1z&=0
+\end{alignat*}$$
+
+In other words, the final answer is:
+
+$$
+x=1,\space y=-1,\space z=0
+$$
+
+Note 1: If you don't understand how this matrix is a RREF, check [this](Matrix.md#Reduced%20Row%20Echelon%20Form%20(RREF)).
+
+Note 2: you can visualize the answer [here](https://personal.math.ubc.ca/~tbjw/ila/demos/rrinter.html?mat=2,-1,3,3:4,2,-2,2:6,-3,1,9&ops=m0:1.2,r0:-4:1,r0:-6:2,m1:1.4,m2:-1.8,r2:2:1,r2:-3.2:0,r1:1.2:0&cur=0) (click the right blue arrow to see different row operations).
 
 # Implicit Equation
 
