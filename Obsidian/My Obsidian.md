@@ -43,7 +43,7 @@ Unfortunately, I'm not consistent with the meaning behind each highlight color I
 	* Hex code: `#CACFD9A6`
 * <mark style="background: #ABF7F7A6;">Cyan</mark>: Used to indicate a "huh, interesting" kind of information.
 	* Hex code: `#ABF7F7A6`
-* <mark style="background: #ADCCFFA6;">Blue</mark>: Same as cyan, but like, "huh, very cool" kind of information :\].
+* <mark style="background: #ADCCFFA6;">Blue</mark>: Same as cyan, but like, "huh, very cool" kind of information :].
 	* Hex code: `#ADCCFFA6`
 * <mark style="background: #BBFABBA6;">Green</mark>: Information that usually refers to other topics.
 	* Hex code: `#BBFABBA6`
