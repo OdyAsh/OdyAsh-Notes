@@ -1,7 +1,7 @@
 {
   "useCache": true,
   "hideExcluded": false,
-  "ignoreDiacritics": true,
+  "ignoreDiacritics": false,
   "indexedFileTypes": [],
   "PDFIndexing": false,
   "officeIndexing": false,
@@ -17,7 +17,7 @@
   "highlight": true,
   "showPreviousQueryResults": true,
   "simpleSearch": false,
-  "fuzziness": "1",
+  "fuzziness": "2",
   "weightBasename": 2,
   "weightDirectory": 2,
   "weightH1": 1.5,

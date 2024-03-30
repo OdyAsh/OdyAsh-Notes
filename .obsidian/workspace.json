@@ -11,8 +11,12 @@
             "id": "8cf8b2dd7fded61b",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Tasks/تكليفات حول محور السلوكيات والعادات.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,7 +48,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "tag:#big-picture",
+                "query": "إبن القي",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -139,7 +143,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Tasks/تكليفات حول محور السلوكيات والعادات.md"
+              }
             }
           },
           {
@@ -160,6 +166,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Tasks/تكليفات حول محور السلوكيات والعادات.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -176,6 +183,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Tasks/تكليفات حول محور السلوكيات والعادات.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -198,7 +206,7 @@
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -224,53 +232,54 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8cf8b2dd7fded61b",
+  "active": "6bdbcbc0f4d6cc2c",
   "lastOpenFiles": [
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Algebraic Equations.md",
-    "Personal Dictionary/en-US/Bouts.md",
-    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Hyperfocus.md",
+    "Islam/Quran Related/The Quran/Yunus/99.md",
+    "Islam/Quran Related/The Quran/Yunus/98.md",
+    "Islam/Quran Related/The Quran/Yunus/97.md",
+    "Islam/Quran Related/The Quran/Yunus/96.md",
+    "Islam/Quran Related/The Quran/Yunus/95.md",
+    "Islam/Quran Related/The Quran/Yunus/94.md",
+    "Islam/Quran Related/The Quran/Yunus/93.md",
+    "Islam/Quran Related/The Quran/Yunus/92.md",
+    "Islam/Quran Related/The Quran/Yunus/91.md",
+    "Islam/Quran Related/The Quran/Yunus/90.md",
+    "Islam/Quran Related/The Quran/Yunus/9.md",
+    "Islam/Quran Related/The Quran/Yunus/89.md",
+    "Islam/Quran Related/The Quran/Yunus/88.md",
+    "Islam/Quran Related/The Quran/Yunus/87.md",
+    "Islam/Quran Related/The Quran/Yunus/86.md",
+    "Islam/Quran Related/The Quran/Yunus/85.md",
+    "Islam/Quran Related/The Quran/Yunus/84.md",
+    "Islam/Quran Related/The Quran/Yunus/83.md",
+    "Islam/Quran Related/The Quran/Yunus/82.md",
+    "Islam/Quran Related/The Quran/Yunus/81.md",
+    "Islam/Quran Related/The Quran/Yunus/80.md",
+    "Islam/Quran Related/The Quran/Yunus/8.md",
+    "Islam/Quran Related/The Quran/Yunus/79.md",
+    "Islam/Quran Related/The Quran/Yunus/78.md",
+    "Islam/Quran Related/The Quran/Yunus/77.md",
+    "Islam/Quran Related/The Quran/Yunus/76.md",
+    "Islam/Quran Related/The Quran/Yunus",
+    "Islam/Quran Related/The Quran/Ya-Sin",
+    "Islam/Quran Related/The Quran/Taha",
+    "Islam/Quran Related/The Quran/Sad",
+    "Islam/Quran Related/The Quran/Saba",
+    "Islam/Quran Related/The Quran/Quraysh",
+    "Islam/Quran Related/The Quran/Qaf",
+    "Islam/Quran Related/The Quran/Nuh",
+    "Islam/Quran Related/The Quran/Muhammad",
+    "Islam/Quran Related/The Quran/Maryam",
+    "Tasks/Media-Temp/Pasted image 20240325063549.png",
     "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240323133141.png",
     "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240323120859.png",
-    "Obsidian/My Obsidian.md",
     "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240320120524.png",
     "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240320115000.png",
-    "tmp/post 0.md",
-    "Secrets/blog posts/coskun deniz python and selenium series.zip",
-    "Secrets/blog posts/coskun deniz python and selenium series/Designing a Twitter Data Extractor/Designing a Twitter Data Extractor Tool Using Python - Part 4 (Reporters) _ by Cosku.mhtml",
-    "Secrets/blog posts/coskun deniz python and selenium series/Designing a Twitter Data Extractor/Designing a Twitter Data Extractor Tool Using Python - Part 3 (Extractors) _ by Cosk.mhtml",
-    "Secrets/blog posts/coskun deniz python and selenium series/Designing a Twitter Data Extractor/Designing a Twitter Data Extractor Tool Using Python - Part 2 (Models) _ by Cosk.mhtml",
-    "Secrets/blog posts/coskun deniz python and selenium series/Browser Automation with Python and Selenium/13_ Working with Select Elements _ by Coskun Deniz _ Nerd For Tech _ Medi.mhtml",
-    "Secrets/blog posts/coskun deniz python and selenium series/Browser Automation with Python and Selenium/14_ Mouse Actions _ by Coskun Deniz _ Python in Plain English-python.plai.mhtml",
-    "Secrets/blog posts/coskun deniz python and selenium series/Browser Automation with Python and Selenium/12_ Managing Alerts _ by Coskun Deniz _ Nerd For Tech _ Medium-medium.com.mhtml",
-    "Secrets/blog posts/coskun deniz python and selenium series/Browser Automation with Python and Selenium/11_ Working with Cookies _ by Coskun Deniz _ Python in Plain English-pyth.mhtml",
-    "Secrets/blog posts/coskun deniz python and selenium series/Browser Automation with Python and Selenium/10_ Executing JavaScript _ by Coskun Deniz _ Python in Plain English-arch.mhtml",
-    "Secrets/blog posts/coskun deniz python and selenium series/Misc/YouTube Views Tracker with Excel and Google Sheets Integration using Python _ by Coskun Deniz _ Medium-codenineeig.mhtml",
-    "Islam/The Quran/62. Surah Al-Jumu'ah (الجمعة).md",
     "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240320073521.png",
     "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240320064037.png",
     "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240320064026.png",
-    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/ADHD - Attention-Deficit Hyperactive Disorder.md",
-    "Tasks/تكليفات حول محور السلوكيات والعادات.md",
     "Secrets/Exam Preparations/2024 Exam/40.png",
     "Secrets/Exam Preparations/2024 Exam/39.png",
-    "Secrets/Exam Preparations/2024 Exam/38.png",
-    "Secrets/Exam Preparations/MBZUAI Exam Preparation.md",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Matrix.md",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Vector.md",
-    "Islam/The Quran/x. Surah ... (ال) - Template.md",
-    "Islam/The Quran/60. Surah Al-Mumtahanah (الممتحنة).md",
-    "Islam/The Quran/1. Surah Al-Fatiha (الفاتحة).md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/E.1 الإستعداد لرمضان.md",
-    "Secrets/Islam Personal Journey/الله السميع البصير المُجيب.md",
-    "Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Linear Algebra.md",
-    "[Matrix](Sciences/Formal Sciences/Mathematics/Algebra/Linear Algebra/Matrix.md",
-    "Sciences/Applied Sciences/Programming/AI/AI - FAQs.md",
-    "Sciences/Applied Sciences/Programming/AI/AI - FAQs - Video Preparation.md",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
-    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/NDDs - Neurodevelopmental Disorders.md",
-    "Sciences/Social Sciences/Psychology/Neuropsychology.md",
-    "Sciences/Social Sciences/Psychology/Psychological Disorders/Psychological Disorders.md",
-    "Islam/Pre-Islamic World/Before Muhammad.excalidraw.md",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

@@ -1,0 +1,11 @@
+{
+	"id": "arabic-search",
+	"name": "Arabic Search",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Provides miscellaneous search support for Arabic in Obsidian.",
+	"author": "OdyAsh",
+	"authorUrl": "https://github.com/OdyAsh",
+	"fundingUrl": "https://obsidian.md/pricing",
+	"isDesktopOnly": false
+}

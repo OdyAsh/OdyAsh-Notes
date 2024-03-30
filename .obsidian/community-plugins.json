@@ -46,5 +46,6 @@
   "obsidian-quiet-outline",
   "consistent-attachments-and-links",
   "global-search-and-replace",
-  "obsidian-dictionary-plugin"
+  "obsidian-dictionary-plugin",
+  "hot-reload"
 ]
