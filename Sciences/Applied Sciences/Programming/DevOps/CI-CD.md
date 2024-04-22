@@ -94,3 +94,18 @@ Artifact:
 *  Shops use either the term <mark style="background: #FFF3A3A6;">deployment unit</mark> or <mark style="background: #FFF3A3A6;">deployment artifact</mark> to describe the distinct component of code that needs to be released into production.
 	* Some of these components might be a binary file such as java or a jar file .
 
+
+
+# Useful Practices
+
+## Code Inspection
+
+### Cyclomatic Complexity
+
+Cyclomatic complexity is a measure used to determine the complexity of a program. It measures the number of independent linear paths through the method. These are determined by the number and complexity of conditional branches. When we have a low cyclomatic complexity, this means the method is easy to read, understand, and test ([source](https://printige.net/product/pro-devops-with-google-cloud-platform/)).
+
+Check [this](https://www.youtube.com/watch?v=wttTdvHhmNc) video to calculate it. Summary:
+
+![](Media-Temp/Pasted%20image%2020240420151732.png)
+
+Another great quick video that explains it is [this](https://www.youtube.com/watch?v=tgoOR49i0o0) one. 

@@ -43,9 +43,9 @@
   "obsidian-columns",
   "obsidian-day-planner",
   "periodic-notes",
-  "obsidian-quiet-outline",
   "consistent-attachments-and-links",
   "global-search-and-replace",
   "obsidian-dictionary-plugin",
-  "hot-reload"
+  "hot-reload",
+  "obsidian-quiet-outline"
 ]

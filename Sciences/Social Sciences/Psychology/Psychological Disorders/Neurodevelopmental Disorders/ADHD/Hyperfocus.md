@@ -86,6 +86,7 @@ Hyperfocus is thought to result from the following:
 	* <mark style="background: #FFB86CA6;">This dopamine deficiency makes it hard to “shift gears” to take up boring-but-necessary tasks</mark>.
 	* Side note: this is also the case for [distractibility](https://www.additudemag.com/distractibility-not-just-an-adhd-thing/)
 * The need of <mark style="background: #ABF7F7A6;">a coping mechanism</mark> ([s2](https://www.additudemag.com/understanding-adhd-hyperfocus/#:~:text=such%20intense%20concentration%20is%20actually%20a%20coping%20mechanism.)).
+	* This is implicitly explained in this section: [Emotional Discomfort](Sciences/Social%20Sciences/Psychology/Psychological%20Disorders/Neurodevelopmental%20Disorders/ADHD/Hyperfocus.md#Emotional%20Discomfort).
 
 Other reasons are mentioned in the "[Lower Attention Span - Causes and Solutions](#Lower%20Attention%20Span%20-%20Causes%20and%20Solutions)" section.
 
@@ -306,7 +307,7 @@ Instead, give your full attention to this distraction for a few minutes by doing
 * Increase the urge surfing time (i.e., "x") each time an old distraction habit comes up.
 
 ![](Media-Temp/Pasted%20image%2020240323120859.png)
-#### Roadmap
+### Roadmap
 
 ![](Media-Temp/Pasted%20image%2020240323133141.png)
 

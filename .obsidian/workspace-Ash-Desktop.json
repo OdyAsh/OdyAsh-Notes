@@ -4,35 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "4495b71f1672e95c",
+        "id": "a8582b6cc1bfb06b",
         "type": "tabs",
         "children": [
           {
-            "id": "1e1cd308311e3335",
+            "id": "1260bc7154dd4d8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/AI/Data Engineering/MLOps.md",
+                "file": "Islam/Quran Related/The Quran/057 - Al-hadid/1.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ced0ffd02e3f855c",
+            "id": "67626d900d0d9d4c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/Docker/Docker Basics.md",
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d9694f7f0c1d234c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Tasks/تكليفات حول محور السلوكيات والعادات.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "aa8e69f84c374ae8",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -61,7 +85,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "docker",
+                "query": "tag:#اللا-هدف",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -86,8 +110,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -150,7 +173,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/Docker/Docker Basics.md"
+                "file": "Tasks/تكليفات حول محور السلوكيات والعادات.md"
               }
             }
           },
@@ -172,7 +195,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/Docker/Docker Basics.md",
+                "file": "Tasks/تكليفات حول محور السلوكيات والعادات.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -189,7 +212,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/Docker/Docker Basics.md",
+                "file": "Tasks/تكليفات حول محور السلوكيات والعادات.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -219,7 +242,6 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "omnisearch:Omnisearch": false,
       "obsidian-day-planner:Timeline": false,
       "daily-notes:Open today's daily note": false,
       "switcher:Open quick switcher": false,
@@ -228,6 +250,7 @@
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
       "obsidian-custom-frames:Open chatgpt": true,
+      "omnisearch:Omnisearch": false,
       "obsidian-trash-explorer:Open trash explorer": false,
       "file-cleaner-redux:Clean files": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
@@ -237,41 +260,39 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "ced0ffd02e3f855c",
+  "active": "d9694f7f0c1d234c",
   "lastOpenFiles": [
-    "Sciences/Applied Sciences/Programming/AI/Data Engineering/MLOps.md",
-    "Sciences/Applied Sciences/Programming/Docker/Docker Basics.md",
-    "Secrets/Work Drafts.md",
-    "Sciences/Applied Sciences/Programming/DB/MySQL.md",
-    "Sciences/Applied Sciences/Programming/Docker/Metabase and Docker Caveats.md",
-    "Sciences/Applied Sciences/Programming/Docker/Attachments - Metabase and Docker Caveats",
-    "Sciences/Applied Sciences/Programming/DevOps/DevOps.md",
-    "Sciences/Applied Sciences/Programming/DevOps/CI-CD.md",
+    "Tasks/المُنخفض.md",
+    "Islam/Quran Related/The Quran/057 - Al-hadid/1.md",
     "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
-    "Sciences/Applied Sciences/Programming/DevOps/Media-Temp/Pasted image 20240420151732.png",
+    "Tasks/تكليفات حول محور السلوكيات والعادات.md",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Hyperfocus.md",
     "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
     "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
-    "Islam/Quran Related/The Quran/064 - At-taghabun/11.md",
-    "Islam/Quran Related/The Quran/058 - Al-mujadila/6.md",
-    "Islam/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
-    "Islam/Quran Related/The Quran/058 - Al-mujadila/7.md",
-    "Islam/Quran Related/The Quran/058 - Al-mujadila/5.md",
-    "Islam/Quran Related/The Quran/058 - Al-mujadila/8.md",
-    "Islam/Quran Related/The Quran/064 - At-taghabun/6.md",
-    "Islam/Quran Related/The Quran/064 - At-taghabun/7.md",
-    "Islam/Quran Related/The Quran/064 - At-taghabun/10.md",
-    "Islam/Quran Related/The Quran/064 - At-taghabun/9.md",
-    "Islam/Quran Related/The Quran/064 - At-taghabun/8.md",
-    "Islam/Quran Related/The Quran/064 - At-taghabun/5.md",
-    "Islam/Quran Related/The Quran/064 - At-taghabun/2.md",
-    "Islam/Quran Related/The Quran/064 - At-taghabun/3.md",
-    "Islam/Quran Related/The Quran/064 - At-taghabun/4.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
     "Islam/Quran Related/The Quran/057 - Al-hadid/Media-Temp/Pasted image 20240403093446.png",
     "Islam/Quran Related/The Quran/057 - Al-hadid/Media-Temp/Pasted image 20240403092903.png",
     "Islam/Quran Related/The Quran/057 - Al-hadid/Media-Temp",
     "Tasks/Media-Temp/Pasted image 20240401092832.png",
+    "Personal Dictionary/ar/تطويق.md",
+    "Personal Dictionary/en-US/Bouts.md",
     "Personal Dictionary/ar",
+    "Islam/Quran Related/The Quran/Yunus/99.md",
+    "Islam/Quran Related/The Quran/Yunus/98.md",
+    "Islam/Quran Related/The Quran/Yunus/97.md",
+    "Islam/Quran Related/The Quran/Yunus/96.md",
+    "Islam/Quran Related/The Quran/Yunus/95.md",
+    "Islam/Quran Related/The Quran/Yunus/94.md",
+    "Islam/Quran Related/The Quran/Yunus/93.md",
+    "Islam/Quran Related/The Quran/Yunus/92.md",
+    "Islam/Quran Related/The Quran/Yunus/91.md",
+    "Islam/Quran Related/The Quran/Yunus/90.md",
+    "Islam/Quran Related/The Quran/Yunus/9.md",
+    "Islam/Quran Related/The Quran/Yunus/89.md",
+    "Islam/Quran Related/The Quran/Yunus/88.md",
+    "Islam/Quran Related/The Quran/Yunus/87.md",
+    "Islam/Quran Related/The Quran/Yunus/86.md",
+    "Islam/Quran Related/The Quran/Yunus/85.md",
+    "Islam/Quran Related/The Quran/Yunus/84.md",
     "Islam/Quran Related/The Quran/Yunus",
     "Islam/Quran Related/The Quran/Ya-Sin",
     "Islam/Quran Related/The Quran/Taha",
@@ -279,12 +300,14 @@
     "Islam/Quran Related/The Quran/Saba",
     "Islam/Quran Related/The Quran/Quraysh",
     "Islam/Quran Related/The Quran/Qaf",
+    "Islam/Quran Related/The Quran/Nuh",
     "Tasks/Media-Temp/Pasted image 20240325063549.png",
     "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240323133141.png",
     "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240323120859.png",
     "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240320120524.png",
     "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240320115000.png",
     "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240320073521.png",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240320064037.png",
     "Islam/The Quran/Untitled.canvas"
   ]
 }

@@ -11,11 +11,11 @@ Normally, the `metabase.jar` file will require Java 11+ (as of 2023), so follow 
 1. Download Java 11 from [here](https://www.oracle.com/java/technologies/javase/jdk11-archive-downloads.html#:~:text=Windows%20x64%20Installer,141.41%20MB) and install it.
 2. Open Java configuration:
    
-   ![](Media-Temp/Pasted%20image%2020240205172503.png)
+   ![](Attachments%20-%20Metabase%20and%20Docker%20Caveats/Pasted%20image%2020240205172503.png)
    
 3. Add new Java path:
    
-   ![](Media-Temp/Pasted%20image%2020240205172726.png)
+   ![](Attachments%20-%20Metabase%20and%20Docker%20Caveats/Pasted%20image%2020240205172726.png)
    
 If you don't do this, then in the [migrating](#Migrating%20from%20H2%20DB%20of%20Metabase%20to%20PostgreSQL) section, you may get this error:
 
@@ -30,15 +30,15 @@ Most of the steps are taken from [here](https://www.metabase.com/docs/latest/ins
 1. In the project's root directory (I'll refer to it as `PROJ` from now on), create `metabase_h2_backup` directory.
 2. Copy `metabase.db` directory from MB's docker container to `metabase_h2_backup`:
    
-   ![](Media-Temp/Pasted%20image%2020240205140932.png)
+   ![](Attachments%20-%20Metabase%20and%20Docker%20Caveats/Pasted%20image%2020240205140932.png)
    
 3. Extract the `.db` files inside the `metabase.db` directory to the outside and delete `metabase.db` directory such that the `metabase_h2_backup` directory looks like this:
    
-   ![](Media-Temp/Pasted%20image%2020240205141136.png)
+   ![](Attachments%20-%20Metabase%20and%20Docker%20Caveats/Pasted%20image%2020240205141136.png)
    
 4. In `metabase_h2_backup` directory, install the [version of](https://www.metabase.com/docs/latest/releases) `metabase.jar` file that is the same as the version of your production metabase at the time of installation, which can be seen here:
    
-   ![](Media-Temp/Pasted%20image%2020240205143151.png)
+   ![](Attachments%20-%20Metabase%20and%20Docker%20Caveats/Pasted%20image%2020240205143151.png)
    
 5. Make sure the PostgreSQL container is running (I don't know if it is ok to run the production Metabase container as well, but I remember running it while doing this and no problems happened).
 6. Run the following commands in command prompt (cmd):
@@ -61,8 +61,6 @@ Look at the YAML example section below to visualize the `MB_DB_USER_FILE`
 
 
 Check [this](https://www.metabase.com/docs/v0.48/installation-and-operation/upgrading-metabase).
-
-
 
 # Example of Docker Compose YAML File for Metabase
    

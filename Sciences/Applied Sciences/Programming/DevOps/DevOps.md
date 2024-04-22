@@ -56,3 +56,11 @@ Another toolset ([s2](https://www.youtube.com/watch?v=42UP1fxi2SY)):
 # MLOps
 
 Check the [MLOps](../AI/Data%20Engineering/MLOps.md) note 🙌!
+
+
+# Common Terminologies in DevOps
+
+## Promotion
+
+The term <mark style="background: #FFF3A3A6;">“code promotion”</mark> is used to describe the process of promoting modifications made to source code. After modifications to source code have been reviewed and found to be up to standard, they are promoted from the development branch to the testing or production branch ([source](https://medium.com/@niitwork0921/code-promotion-vs-artifact-promotion-which-one-should-you-use-474500c5b341)).
+

@@ -97,46 +97,7 @@ Popular frameworks in Python:
 
 ## Docker
 
-* Docker is an open-source containerization platform that revolutionizes software deployment by enabling developers to package applications and their dependencies into lightweight, self-contained, and isolated containers.
-* Unlike traditional application deployment methods, Docker provides a consistent and reproducible environment across different machines.
-
-How does it work?:
-* It is an API.
-* Docker listens on the port that you configured your container with.
-* Docker run/build/pull commands are listened/received by the Docker daemon, then the daemon operates on the images/containers based on the listened command.
-* docker daemon is like the "server" in the REST API framework.
-*  The Docker Engine executes the steps found in the dockerfile and executes it.
-	* These steps define the image to be built. A container can be then created and run from this image.
-* Docker images are typically stored in a registry (i.e., market place), such as Docker Hub or a private registry.
-* OOP analogy: "image" is like a class, "container" is like an object
-* "image" is like a blueprint, "container" is like the tangible implementation of that "image".
-* Containers:
-	* Leverage the host system's kernel.
-		* Unlike virtual machines, which require their own operating system kernel.
-	* Can be managed via the Docker Engine API or the docker client.
-	* Can communicate 
-	* Kubernates allow different containers to communicate with each other via orchestration.
-* In a dockerfile, the "ENTRYPOINT" (e.g., "python") is what will executes the commands in "CMD" (e.g., "--version", so full example will be "python --version")
-
-### Virtual Machine vs Docker Containers
-
-Docker advantages:
-* Resource efficiency
-	* Virtual machines require a full operating system to run each instance where docker containers share the host operating system, reducing resource consumption.
-* Portability
-	* Virtual machines encapsulate an entire OS and application stack making it its size very big, while containers are platform-independent, so it can be run on any system with docker installed.
-* Performance
-	* VMs have a slight performance overhead due to the abstraction layer between the guest and host OS while docker containers have minimal performance overhead since they can directly work on the host OS, leveraging its kernel
-
-In detail: VM - Containers:
-* Hardware-level process isolation - OS level process isolation
-* Each VM has a separate OS - Each container can share OS
-* Ready-made VMs are difficult to find - pre-built docker containers are easily available
-* **VMs can move to new host easily** - docker container has to be deleted, then re-created with the new specifications.
-* **VMs have additional security**, as the containers share the same kernel, so if someone were able to find vulnerabilities in the OS level, they can access other containers. - Containers are less secure than VMs.
-* VMs boot in minutes - Containers boot in seconds
-* VMs use more resources - Containers use less resources
-* VMs are a few GBs - Containers are lightweight (KBs/MBs)
+Explained in the [Docker Basics](../../Docker/Docker%20Basics.md) file.
 
 ## Cloud Deployment
 
