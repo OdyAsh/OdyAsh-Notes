@@ -1,0 +1,86 @@
+#folder
+# Programming TOC
+
+%% Begin Waypoint %%
+- **AI**
+	- [AI - FAQs - Video Preparation](./AI/AI%20-%20FAQs%20-%20Video%20Preparation.md)
+	- [AI - FAQs](./AI/AI%20-%20FAQs.md)
+	- [Clustering Algorithms](./AI/Clustering%20Algorithms.md)
+	- [Data Analytics Notes](./AI/Data%20Analytics%20Notes.md)
+	- **[Data Engineering](./AI/Data%20Engineering/Data%20Engineering.md)**
+		- [Apache Spark](./AI/Data%20Engineering/Apache%20Spark.md)
+		- [Data Pipeline](./AI/Data%20Engineering/Data%20Pipeline.md)
+		- [DE Interviews FAQ](./AI/Data%20Engineering/DE%20Interviews%20FAQ.md)
+		- [DE Road Map](./AI/Data%20Engineering/DE%20Road%20Map.md)
+		- [GCP Big Data And ML Fundamentals Course](./AI/Data%20Engineering/GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course.md)
+		- [Hadoop](./AI/Data%20Engineering/Hadoop.md)
+		- [MLOps](./AI/Data%20Engineering/MLOps.md)
+		- [PySpark](./AI/Data%20Engineering/PySpark.md)
+	- [Google Colab + VSCode + GitHub](./AI/Google%20Colab%20+%20VSCode%20+%20GitHub.md)
+	- [Metabase](./AI/Metabase.md)
+	- [Model Libraries](./AI/Model%20Libraries.md)
+	- [Power BI Questions](./AI/Power%20BI%20Questions.md)
+	- [Power BI](./AI/Power%20BI.md)
+- **API**
+	- [API Notes](./API/API%20Notes.md)
+	- [Postman](./API/Postman.md)
+- **Automation**
+	- [Browser-Related Automation](./Automation/Browser-Related%20Automation.md)
+- **Azure**
+	- [Setup Webjobs for Python Programs](./Azure/Setup%20Webjobs%20for%20Python%20Programs.md)
+- **Company Related**
+	- [Sharing Script for Company-Level Sharing Without Major Alterations](./Company%20Related/Sharing%20Script%20for%20Company-Level%20Sharing%20Without%20Major%20Alterations.md)
+- **Cyber Security**
+	- [OAuth](./Cyber%20Security/OAuth.md)
+- **DB**
+	- [Converting SQLite to pyodbc](./DB/Converting%20SQLite%20to%20pyodbc.md)
+	- [Media Streaming](./DB/Media%20Streaming.md)
+	- [MySQL](./DB/MySQL.md)
+- **[DevOps](./DevOps/DevOps.md)**
+	- [CI-CD](./DevOps/CI-CD.md)
+- **Django**
+	- **Debugging**
+		- [Import Problems](./Django/Debugging/Import%20Problems.md)
+	- **Tips**
+		- [Django's manage.py](./Django/Tips/Django's%20manage.py.md)
+- **Docker**
+	- [Docker Basics](./Docker/Docker%20Basics.md)
+	- [Metabase and Docker Caveats](./Docker/Metabase%20and%20Docker%20Caveats.md)
+- **HTML and CSS**
+	- [CSS New Info](./HTML%20and%20CSS/CSS%20New%20Info.md)
+	- [HTML New Info](./HTML%20and%20CSS/HTML%20New%20Info.md)
+- **Managing Names, Files and Directories**
+	- [File Renaming Tools](./Managing%20Names,%20Files%20and%20Directories/File%20Renaming%20Tools.md)
+	- [Python OS and Glob](./Managing%20Names,%20Files%20and%20Directories/Python%20OS%20and%20Glob.md)
+	- [Regex](./Managing%20Names,%20Files%20and%20Directories/Regex.md)
+	- [Windows Tips](./Managing%20Names,%20Files%20and%20Directories/Windows%20Tips.md)
+- **Python**
+	- [Advanced Syntax](./Python/Advanced%20Syntax.md)
+	- [Dealing with Date and Time](./Python/Dealing%20with%20Date%20and%20Time.md)
+	- **Dealing with Images**
+		- [Understanding Images Viewed In Windows And In Python](./Python/Dealing%20with%20Images/Understanding%20Images%20Viewed%20In%20Windows%20And%20In%20Python.md)
+	- [Dealing with Strings](./Python/Dealing%20with%20Strings.md)
+	- [Debugging Python Code](./Python/Debugging%20Python%20Code.md)
+	- [Optimizations](./Python/Optimizations.md)
+	- **Python Environments**
+		- [Conda Environment](./Python/Python%20Environments/Conda%20Environment.md)
+		- [Interaction between Different Modules and Packages](./Python/Python%20Environments/Interaction%20between%20Different%20Modules%20and%20Packages.md)
+- **Scraping**
+	- [General Tips](./Scraping/General%20Tips.md)
+	- [Xpath in Python](./Scraping/Xpath%20in%20Python.md)
+- **Terminals**
+	- [Powershell](./Terminals/Powershell.md)
+- **UX Design**
+	- [Figma Notes](./UX%20Design/Figma%20Notes.md)
+	- [Google's Foundation of UX Design - Course 1](./UX%20Design/Google's%20Foundation%20of%20UX%20Design%20-%20Course%201.md)
+	- [Key Components of Web Design](./UX%20Design/Key%20Components%20of%20Web%20Design.md)
+	- [Layout Component](./UX%20Design/Layout%20Component.md)
+	- [Screen Units](./UX%20Design/Screen%20Units.md)
+- **Versioning**
+	- [Git And GitHub](./Versioning/Git%20And%20GitHub.md)
+	- [Git](./Versioning/Git.md)
+- **VS Code**
+	- [Debugging](./VS%20Code/Debugging.md)
+	- [VS Code Tips](./VS%20Code/VS%20Code%20Tips.md)
+
+%% End Waypoint %%

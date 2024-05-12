@@ -1,0 +1,277 @@
+{
+  "main": {
+    "id": "35bd2dd277baf3a4",
+    "type": "split",
+    "children": [
+      {
+        "id": "4495b71f1672e95c",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "ced0ffd02e3f855c",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "3f8a75ed64b3c3d4",
+    "type": "split",
+    "children": [
+      {
+        "id": "3c52b6ae0ee21884",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6bdbcbc0f4d6cc2c",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "4da5280c5d464a20",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "tag:#الرجاء  ",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "a905cf30debbcec2",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "a6ff4f02a31396fb",
+            "type": "leaf",
+            "state": {
+              "type": "trash-explorer",
+              "state": {}
+            }
+          }
+        ],
+        "currentTab": 1
+      }
+    ],
+    "direction": "horizontal",
+    "width": 401.5
+  },
+  "right": {
+    "id": "3cf6ea7704bfbf22",
+    "type": "split",
+    "children": [
+      {
+        "id": "bec558081e6a4499",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "d0dae67ff7ad1d17",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {}
+            }
+          },
+          {
+            "id": "f389826702bb98f9",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "4848212af0ea4c31",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
+            }
+          },
+          {
+            "id": "791db778f6819cf6",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "15c8bd153d173051",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "7e86c7e358fec7c9",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md"
+              }
+            }
+          },
+          {
+            "id": "fb1ad7268537996a",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              }
+            }
+          },
+          {
+            "id": "e9ec5e6e3f5172be",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b9a9d28c97d4c081",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "ade7019b09af1e14",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
+          },
+          {
+            "id": "60435b7bb97c97ba",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 336.5
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "omnisearch:Omnisearch": false,
+      "obsidian-day-planner:Timeline": false,
+      "daily-notes:Open today's daily note": false,
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "obsidian-custom-frames:Open chatgpt": true,
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "file-cleaner-redux:Clean files": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "random-note:Open random note": false,
+      "publish:Publish changes...": false,
+      "periodic-notes:Open today": false
+    }
+  },
+  "active": "ced0ffd02e3f855c",
+  "lastOpenFiles": [
+    "Secrets/K2S RMS Extra Notes.md",
+    "Sciences/Applied Sciences/Programming/Docker/Docker Basics.md",
+    "Sciences/Applied Sciences/Programming/AI/Data Engineering/MLOps.md",
+    "Sciences/Applied Sciences/Programming/DB/MySQL.md",
+    "Sciences/Applied Sciences/Programming/Docker/Metabase and Docker Caveats.md",
+    "Sciences/Applied Sciences/Programming/Docker/Attachments - Metabase and Docker Caveats",
+    "Sciences/Applied Sciences/Programming/DevOps/DevOps.md",
+    "Sciences/Applied Sciences/Programming/DevOps/CI-CD.md",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
+    "Sciences/Applied Sciences/Programming/DevOps/Media-Temp/Pasted image 20240420151732.png",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/2. Daily Habits (العادات اليومية).md",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/1. Preparatory Introduction (مقدمات إستعدادية).md",
+    "Islam/Quran Related/The Quran/064 - At-taghabun/11.md",
+    "Islam/Quran Related/The Quran/058 - Al-mujadila/6.md",
+    "Islam/Prophet Ibrahim/Prophet Ibrahim Further Readings.md",
+    "Islam/Quran Related/The Quran/058 - Al-mujadila/7.md",
+    "Islam/Quran Related/The Quran/058 - Al-mujadila/5.md",
+    "Islam/Quran Related/The Quran/058 - Al-mujadila/8.md",
+    "Islam/Quran Related/The Quran/064 - At-taghabun/6.md",
+    "Islam/Quran Related/The Quran/064 - At-taghabun/7.md",
+    "Islam/Quran Related/The Quran/064 - At-taghabun/10.md",
+    "Islam/Quran Related/The Quran/064 - At-taghabun/9.md",
+    "Islam/Quran Related/The Quran/064 - At-taghabun/8.md",
+    "Islam/Quran Related/The Quran/064 - At-taghabun/5.md",
+    "Islam/Quran Related/The Quran/064 - At-taghabun/2.md",
+    "Islam/Quran Related/The Quran/064 - At-taghabun/3.md",
+    "Islam/Quran Related/The Quran/064 - At-taghabun/4.md",
+    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة/Islamic Doctrine (العقيدة).md",
+    "Islam/Quran Related/The Quran/057 - Al-hadid/Media-Temp/Pasted image 20240403093446.png",
+    "Islam/Quran Related/The Quran/057 - Al-hadid/Media-Temp/Pasted image 20240403092903.png",
+    "Islam/Quran Related/The Quran/057 - Al-hadid/Media-Temp",
+    "Tasks/Media-Temp/Pasted image 20240401092832.png",
+    "Personal Dictionary/ar",
+    "Islam/Quran Related/The Quran/Yunus",
+    "Islam/Quran Related/The Quran/Ya-Sin",
+    "Islam/Quran Related/The Quran/Taha",
+    "Islam/Quran Related/The Quran/Sad",
+    "Islam/Quran Related/The Quran/Saba",
+    "Islam/Quran Related/The Quran/Quraysh",
+    "Islam/Quran Related/The Quran/Qaf",
+    "Tasks/Media-Temp/Pasted image 20240325063549.png",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240323133141.png",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240323120859.png",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240320120524.png",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240320115000.png",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Media-Temp/Pasted image 20240320073521.png",
+    "Islam/The Quran/Untitled.canvas"
+  ]
+}

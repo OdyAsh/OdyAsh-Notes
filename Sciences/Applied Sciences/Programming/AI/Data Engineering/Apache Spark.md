@@ -153,9 +153,39 @@ TODO.
 
 Check the [PySpark](PySpark.md) note for [difference](PySpark.md#PySpark%20DataFrame%20vs%20Pandas%20DataFrame) between PySpark's DataFrame and Pandas' DataFrame.
 
+## Spark Schema
+
+A schema in Spark defines the column names and associated data types for a DataFrame ([source](https://www.oreilly.com/library/view/learning-spark-2nd/9781492050032/ch03.html)). Defining a schema up front as opposed to taking a schema-on-read approach offers three benefits:
+
+* Spark doesn't have to infer data types. 
+* Spark won't create a separate job just to read a large portion of your file to ascertain the schema.
+* You can detect errors early if data doesn’t match the schema.
+
+You can define a Spark schema programmatically or using a DDL string. Example of the former:
+
+```python
+# In Python
+from pyspark.sql.types import * 
+schema = StructType([
+	StructType(List(StructField("Id",IntegerType,false), 
+	StructField("First",StringType,false), 
+	StructField("Last",StringType,false), 
+	StructField("Url",StringType,false), 
+	StructField("Published",StringType,false), 
+	StructField("Hits",IntegerType,false),
+	StructField("Campaigns",ArrayType(StringType,true),false)))
+])
+```
+
+Example of the latter:
+
+```python
+# Define schema for our data using DDL 
+schema = "`Id` INT, `First` STRING, `Last` STRING, `Url` STRING, `Published` STRING, `Hits` INT, `Campaigns` ARRAY<STRING>"
+```
+
 # Data Lineage Graph (DLG)
 
 #apache-spark  #data-lineage-graph
 
 Side note: apparently, DLG is not a well-known acronym for data lineage graph, but I'll personally use it when referencing this term multiple times :\].
-

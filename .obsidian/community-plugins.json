@@ -30,7 +30,6 @@
   "media-extended",
   "mathlinks",
   "math-booster",
-  "obsidian-git",
   "obsidian-trash-explorer",
   "obsidian-link-converter",
   "nuke-orphans",
@@ -47,5 +46,8 @@
   "global-search-and-replace",
   "obsidian-dictionary-plugin",
   "hot-reload",
-  "obsidian-quiet-outline"
+  "obsidian-git",
+  "obsidian-quiet-outline",
+  "folder-note-plugin",
+  "waypoint"
 ]

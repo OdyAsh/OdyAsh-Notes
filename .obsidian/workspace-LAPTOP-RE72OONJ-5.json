@@ -4,15 +4,19 @@
     "type": "split",
     "children": [
       {
-        "id": "ecfea38fd7a8fe46",
+        "id": "f4fea1c1e2ea4bc2",
         "type": "tabs",
         "children": [
           {
-            "id": "cda5f50594651ff0",
+            "id": "62e5d7baf1d92602",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Sciences/Applied Sciences/Programming/Python/Python Environments/Conda Environment.md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -97,6 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Sciences/Applied Sciences/Programming/Python/Python Environments/Conda Environment.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Sciences/Applied Sciences/Programming/Python/Python Environments/Conda Environment.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +152,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Sciences/Applied Sciences/Programming/Python/Python Environments/Conda Environment.md"
+              }
             }
           }
         ]
@@ -175,28 +183,6 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "cda5f50594651ff0",
-  "lastOpenFiles": [
-    "Media-Temp/Pasted image 20240314082630.png.md",
-    "Islam/Pre-Islamic World/The Kaaba.md",
-    "Sciences/Applied Sciences/Prompt Engineering/Programming Prompts.md",
-    "Sciences/Applied Sciences/Programming/Programming.md",
-    "Sciences/Applied Sciences/Programming/AI/AI - FAQs - Video Preparation.md",
-    "t.me/E3adettashgheel.md",
-    "t.me",
-    "Sciences/Social Sciences/Communication/Writing/Blogs/Attachments - How to log EVERYTHING in PyTorch Lightning - A Manual Approach/Nested List and Dict Comprehension - Unravelling Confusing Syntax.md",
-    "Personal Dictionary/ar/ar.md",
-    "Secrets/Exam Preparations/MBZUAI Exam Preparation.md",
-    "Tasks/Personal Tasks/Weekly/2024-W01.md",
-    "Tasks/Personal Tasks/Weekly/Attachments - 2024-W01/2024-01.md",
-    "Tasks/Personal Tasks/Weekly/Attachments - 2024-W01/2024-01-07.md",
-    "Tasks/Personal Tasks/Yearly/Annual Template.md",
-    "Tasks/Personal Tasks/Daily/2024-01-07.md",
-    "Tasks/Personal Tasks/Weekly/2024-W08.md",
-    "Media-Temp",
-    "Media-Temp/Pasted image 20240316085042.png.md",
-    "Sciences/Applied Sciences/Programming/Python/Python Environments/Conda Environment.md",
-    "Sciences/Applied Sciences/Programming/Terminals/Media-Temp",
-    "Sciences/Applied Sciences/Programming/Terminals"
-  ]
+  "active": "83f5b977bb1ea4dc",
+  "lastOpenFiles": []
 }

@@ -256,13 +256,27 @@ To summarize encryption vs locking:  <mark style="background: #FF5582A6;">Encryp
 
 
 
-# NoOps and Serverless Computing
+# NoOps
+
+A NoOps (No Operations) environment is one that doesn't require management from an operations team, as maintenance, monitoring, and scaling are automated. Check more details here: [NoOps](../../DevOps/DevOps.md#NoOps). 
+
+Dataflow is [serverless](#Serverless%20Computing) and noops ([source](https://youtu.be/ISDsNP9yZG4?t=57)).
 
 
-A NoOps (No Operations) environment is one that doesn't require management from an operations team, as maintenance, monitoring, and scaling are automated.
+# Serverless Computing
 
+Serverless computing is a cloud computing execution model where the cloud provider manages infrastructure tasks on behalf of the users, including tasks like resource provisioning, performance tuning, and ensuring pipeline reliability. 
 
-Serverless computing is a cloud computing execution model where the cloud provider manages infrastructure tasks on behalf of the users, including tasks like resource provisioning, performance tuning, and ensuring pipeline reliability.
+Dataflow is serverless and [noops](#NoOps) ([source](https://youtu.be/ISDsNP9yZG4?t=57)).
+
+Illustration of a serverless architecture ([source](https://martinfowler.com/bliki/Serverless.html)):
+
+![](Media-Temp/Pasted%20image%2020240424203746.png)
+
+Serverless vs PaaS ([source](https://www.cloudflare.com/learning/serverless/glossary/serverless-vs-paas/)): 
+![](Media-Temp/Pasted%20image%2020240424201231.png)
+
+Another great explanation is provided [here](https://www.xtivia.com/blog/compare-faas-paas-saas/#:~:text=and%20many%20more.-,Serverless%20Computing,-In%20a%20nutshell).
 
 
 # Cloud SQL

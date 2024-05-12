@@ -149,7 +149,7 @@ NOTE: some parts of the video has been cut (due to poor audio quality, etc.), so
 		* ال "لا هدف", أو , إتخاذ الوسائل كغايات
 	* Another reason, perfectionism:
 		* [وهم الكمال](https://www.youtube.com/watch?v=UIWkz1AtYrM&list=PL8qNfNNjw6acCMuZMtItyCGlqbiA4eKdV)
-	* (note to self: I might mention [this](t.me/E3adettashgheel), based on the context of the recording when I'm ending it).
+	* (note to self: I might mention [this](https://t.me/E3adettashgheel), based on the context of the recording when I'm ending it).
 
 <br>
 

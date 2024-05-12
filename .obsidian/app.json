@@ -27,5 +27,8 @@
   "showUnsupportedFiles": true,
   "useMarkdownLinks": true,
   "showLineNumber": true,
-  "newFileLocation": "current"
+  "newFileLocation": "current",
+  "userIgnoreFilters": [
+    "\"/https.*/\""
+  ]
 }

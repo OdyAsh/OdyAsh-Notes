@@ -4,7 +4,8 @@ After that, I suggest checking out [this](https://towardsdatascience.com/require
 
 # Libmamba
 
-Read more about it and follow installation steps from [here](https://www.anaconda.com/blog/a-faster-conda-for-a-growing-community). To summarize the commands:
+Currently, the best and the safest option is to use libmamba. Read more about it and follow installation steps from [here](https://www.anaconda.com/blog/a-faster-conda-for-a-growing-community). To summarize the commands:
+
 ```cmd
 conda update -n base conda
 conda install -n base conda-libmamba-solver
