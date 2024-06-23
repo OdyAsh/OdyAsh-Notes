@@ -15,7 +15,7 @@ Side notes:
 
 There are three ways to deploy Spark in a Hadoop cluster: standalone, YARN, and SIMR (Spark in MapReduce):
 
-![](Media-Temp/Pasted%20image%2020240124151740.png)
+![](Attachments%20-%20Apache%20Spark/Pasted%20image%2020240124151740.png)
 
 ([s2](https://www.databricks.com/blog/2014/01/21/spark-and-hadoop.html#:~:text=there%20are%20three%20ways%20to%20deploy%20Spark%20in%20a%20Hadoop%20cluster%3A%20standalone%2C%20YARN%2C%20and%20SIMR.))
 
@@ -25,7 +25,7 @@ There are three ways to deploy Spark in a Hadoop cluster: standalone, YARN, and 
 
 Important note: Spark doesn't have to use Hadoop's ecosystem. For example, look at the tools/methods underlined in red below ([s3](https://youtu.be/AGgyf9bO_8M?list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&t=685)):
 
-![](Media-Temp/Pasted%20image%2020240124162013.png)
+![](Attachments%20-%20Apache%20Spark/Pasted%20image%2020240124162013.png)
 
 ## Spark Ecosystem vs Hadoop Ecosystem
 
@@ -35,36 +35,36 @@ Important note: Spark doesn't have to use Hadoop's ecosystem. For example, look 
 
 Subset of Spark's built-in libraries' ecosystem ([s4](https://emerginginsightsnow.com/2015/05/17/apache-spark-ecosystem-grows-rapidly-has-hadoop-met-its-match/)):
 
-![](Media-Temp/Pasted%20image%2020240124163832.png)
+![](Attachments%20-%20Apache%20Spark/Pasted%20image%2020240124163832.png)
 
 You can compare the ecosystem above with [Hadoop's ecosystem](Hadoop.md#Hadoop's%20Ecosystem), noting that the latter's libraries aren't all built-in.
 
 Side note 1: the Spark's affiliations, supported third-libraries, and built-in libraries ([s4](https://emerginginsightsnow.com/2015/05/17/apache-spark-ecosystem-grows-rapidly-has-hadoop-met-its-match/#:~:text=Spark%20Support%20Grows%20Quickly%20Among%20Platform%20Providers)):
 
-![](Media-Temp/Pasted%20image%2020240124164315.png)
+![](Attachments%20-%20Apache%20Spark/Pasted%20image%2020240124164315.png)
 
 
 ## Spark vs Hadoop's MapReduce
 
 #apache-spark  #hadoop  #mapreduce  #caching  #disk-oriented  #memory-oriented
 
-![](Media-Temp/Pasted%20image%2020240125101019.png)
+![](Attachments%20-%20Apache%20Spark/Pasted%20image%2020240125101019.png)
 
 ([s6](https://inoxoft.com/blog/key-differences-between-mapreduce-and-spark/#anchor-comparing-spark-and-hadoop-mapreduce-differences))
 
 Other differences ([s7, 8:40](https://youtu.be/GAK3mbI_sPY?list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&t=520)):
 
-![](Media-Temp/Pasted%20image%2020240125101955.png)
+![](Attachments%20-%20Apache%20Spark/Pasted%20image%2020240125101955.png)
 
 Visualization of <mark style="background: #FFF3A3A6;">in-memory caching</mark> ([s7, 3:14](https://youtu.be/GAK3mbI_sPY?list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&t=194)). I.e., how Spark is <mark style="background: #FFF3A3A6;">memory-oriented</mark> while Hadoop is <mark style="background: #FFF3A3A6;">disk-oriented</mark>:
 
-![](Media-Temp/Pasted%20image%2020240125101213.png)
+![](Attachments%20-%20Apache%20Spark/Pasted%20image%2020240125101213.png)
 
 Side note: At the very end, both the Spark and Hadoop jobs store the final processed data into the hard disk.
 
 # Spark Architecture
 
-![](Media-Temp/Pasted%20image%2020240125121533.png)
+![](Attachments%20-%20Apache%20Spark/Pasted%20image%2020240125121533.png)
 
 ([s10](https://www.javatpoint.com/apache-spark-architecture#:~:text=Let%27s%20understand%20the%20Spark%20architecture))
 
@@ -86,11 +86,11 @@ Spark driver splits a Spark application into tasks and schedules them to run on 
 
 Overview visualization of what the driver process does ([s12](<https://www.databricks.com/glossary/what-are-spark-applications#:~:text=The%20driver%20process%20runs%20your,the%20executors%20(defined%20momentarily).>)):
 
-![](Media-Temp/Pasted%20image%2020240125142054.png)
+![](Attachments%20-%20Apache%20Spark/Pasted%20image%2020240125142054.png)
 
 Spark driver's internal services (adapted from [s11](https://mallikarjuna_g.gitbooks.io/spark/content/spark-driver.html)):
 
-![](Media-Temp/Pasted%20image%2020240125143003.png)
+![](Attachments%20-%20Apache%20Spark/Pasted%20image%2020240125143003.png)
 
 ## Spark Context
 
@@ -108,7 +108,7 @@ Once a [`SparkContext` instance is created](https://mallikarjuna_g.gitbooks.io
 
 Visualization of Spark Context's internal workings ([s11](https://mallikarjuna_g.gitbooks.io/spark/content/spark-sparkcontext.html) ):
 
-![](Media-Temp/Pasted%20image%2020240125144217.png)
+![](Attachments%20-%20Apache%20Spark/Pasted%20image%2020240125144217.png)
 
 # PySpark
 
@@ -118,7 +118,7 @@ Visualization of Spark Context's internal workings ([s11](https://mallikarjuna_g
 
 #pyspark  #apache-spark 
 
-![](Media-Temp/Pasted%20image%2020240125102807.png)
+![](Attachments%20-%20Apache%20Spark/Pasted%20image%2020240125102807.png)
 
 ([s8](https://www.quora.com/What-is-the-difference-between-spark-and-pyspark#:~:text=Let%E2%80%99s%20consider%20an%20example%20to%20make%20things%20easier%20to%20understand))
 
@@ -126,7 +126,7 @@ Visualization of Spark Context's internal workings ([s11](https://mallikarjuna_g
 
 #pyspark  #pandas  #immutable  #lazy-execution  #eager-execution  #pyspark-transform
 
-![](Media-Temp/Pasted%20image%2020240125103033.png)
+![](Attachments%20-%20Apache%20Spark/Pasted%20image%2020240125103033.png)
 
 ([s9, 1:30](https://youtu.be/YEGnTKRHpu8?list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&t=92))
 
@@ -143,11 +143,11 @@ TODO.
 
 #apache-spark  #rdd  #spark-dataframe  #dataframe  #spark-dataset #pyspark-dataframe  #pandas-dataframe  #pandas
 
-![](Media-Temp/Pasted%20image%2020240126144452.png)
+![](Attachments%20-%20Apache%20Spark/Pasted%20image%2020240126144452.png)
 
 ([s13](https://www.youtube.com/watch?v=71ntq5LImRc))
 
-![](Media-Temp/Pasted%20image%2020240126144538.png)
+![](Attachments%20-%20Apache%20Spark/Pasted%20image%2020240126144538.png)
 
 ([s13](https://www.youtube.com/watch?v=71ntq5LImRc))
 

@@ -25,13 +25,14 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Quran Related/62. Surah Al-Jumu'ah (الجمعة).md",
+                "file": "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -60,7 +61,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "#النوم",
+                "query": "2020240114072721",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": true,
@@ -121,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/Courses/Finance (بالبركة والقلم)/ضبط البوصلة في الفلوس.md",
+                "file": "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -138,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/Courses/Finance (بالبركة والقلم)/ضبط البوصلة في الفلوس.md",
+                "file": "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -173,7 +174,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Courses/Finance (بالبركة والقلم)/ضبط البوصلة في الفلوس.md"
+                "file": "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer.md"
               }
             }
           },
@@ -222,14 +223,33 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "8f644dbaf9d5eea6",
+  "active": "5db4aa5fbb0dba5a",
   "lastOpenFiles": [
+    "Sciences/Applied Sciences/Programming/Data Engineering/PySpark.md",
+    "Sciences/Applied Sciences/Programming/Data Engineering/Attachments - Apache Spark",
+    "Sciences/Applied Sciences/Programming/Data Engineering/Attachments - PySpark/Pasted image 20240125103033.png",
+    "Sciences/Applied Sciences/Programming/Data Engineering/Attachments - PySpark/Pasted image 20240125102807.png",
+    "Sciences/Applied Sciences/Programming/Data Engineering/Attachments - PySpark",
+    "Sciences/Applied Sciences/Programming/Data Engineering/MLOps.md",
+    "Sciences/Applied Sciences/Programming/Data Engineering/Attachments - MLOps",
+    "Sciences/Applied Sciences/Programming/Data Engineering/Hadoop.md",
+    "Sciences/Applied Sciences/Programming/Data Engineering/Attachments - Hadoop",
+    "Sciences/Applied Sciences/Programming/Data Engineering/DE Road Map.md",
+    "Sciences/Applied Sciences/Programming/Data Engineering/DE Interviews FAQ.md",
+    "Sciences/Applied Sciences/Programming/Data Engineering/Data Pipeline.md",
+    "Sciences/Applied Sciences/Programming/Data Engineering/Data Engineering.md",
+    "Sciences/Applied Sciences/Programming/Data Engineering/Attachments - Data Engineering",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer.md",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Big Data And ML Fundamentals Course.md",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/Attachments - GCP Big Data And ML Fundamentals Course/Pasted image 20240111182352.png",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/Attachments - GCP Big Data And ML Fundamentals Course",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP",
+    "Islam/Quran Related/62. Surah Al-Jumu'ah (الجمعة).md",
+    "Islam/Courses/Finance (بالبركة والقلم)/ضبط البوصلة في الفلوس.md",
     "Islam/Courses/Finance (بالبركة والقلم)/قائمة أفكار ضبط البوصلة.pdf",
     "Islam/Courses/Finance (بالبركة والقلم)/قائمة أفكار ضبط البوصلة.pdf.crdownload",
     "Islam/Quran Related/66. Surah Al-Tahreem (التحريم).md",
-    "Islam/Courses/Finance (بالبركة والقلم)/ضبط البوصلة في الفلوس.md",
     "Islam/Courses/Finance (بالبركة والقلم)",
-    "Islam/Quran Related/62. Surah Al-Jumu'ah (الجمعة).md",
     "Islam/Quran Related/Media-Temp/Pasted image 20240618191034.png",
     "Islam/Quran Related/Media-Temp/Pasted image 20240618191026.png",
     "Islam/Quran Related/Media-Temp/Pasted image 20240618191017.png",
@@ -237,7 +257,6 @@
     "Islam/Quran Related/Media-Temp/Pasted image 20240618190938.png",
     "Islam/Quran Related/Media-Temp/Pasted image 20240618190922.png",
     "Islam/Quran Related/Media-Temp/Pasted image 20240618185954.png",
-    "Islam/Quran Related/Media-Temp/Pasted image 20240618185453.png",
     "Islam/Quran Related/53. Surah An-Najm (النجم).md",
     "Personal Dictionary/ar/إدراج.md",
     "Personal Dictionary/ar/تطويق.md",
@@ -246,29 +265,11 @@
     "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
     "Personal Dictionary/en-US/Edifice.md",
     "Islam/Courses/Helper (معين)/3.1 خارطة أشرف.md",
-    "Islam/Courses/Helper (معين)/Media-Temp/Pasted image 20240614193246.png",
-    "Islam/Courses/Helper (معين)/Media-Temp/Pasted image 20240614192533.png",
-    "Islam/Courses/Helper (معين)/Media-Temp",
     "Zettelkasten/Fleeting Notes/AI/Recursive Character Text Splitter.md",
-    "Zettelkasten/Fleeting Notes/AI/Media-Temp",
     "Islam/Courses/Helper (معين)/قضية التوفيق والحرمان لا المعرفة والبيان.md",
-    "Zettelkasten/Fleeting Notes/AI",
     "Islam/Courses/Helper (معين)/كيفية معرفة المهارات.md",
     "Islam/Courses/Helper (معين)/لماذا سميت عمرة.md",
     "Tasks/Personal Tasks/Daily/2024-06-03.md",
-    "Tasks/Personal Tasks/Daily/2024-06-04.md",
-    "Islam/Courses/Helper (معين)/3.0 تلخيص - الخارطة والمنهجية (الخطة).pdf",
-    "Islam/Courses/Helper (معين)/3.3 نصائح من لطفي على العادات.mdenc",
-    "Personal Dictionary/en-US/Bouts.md",
-    "Personal Dictionary/en-US/Runner's High.md",
-    "Personal Dictionary/en-US/Morphine.md",
-    "Islam/Courses/Helper (معين)/3.2. كتابة_الأهداف_وتقسيمها_إلى_مشاريع_ومهام.pdf",
-    "Tasks/Personal Tasks/Daily/2024-06-02.md",
-    "Islam/Courses/Helper (معين)/كتابة_الأهداف_وتقسيمها_إلى_مشاريع_ومهام.pdf",
-    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
-    "Islam/Courses/Helper (معين)/2. المقدمة التعريفية لبرنامج معين.md",
-    "Islam/Courses/Helper (معين)/نصيحة من لطفي على العادات.7z",
-    "Tasks/Personal Tasks/Weekly/2024-W22.md",
-    "Zettelkasten/The Hierarchy of Defense Mechanisms.md"
+    "Tasks/Personal Tasks/Daily/2024-06-04.md"
   ]
 }

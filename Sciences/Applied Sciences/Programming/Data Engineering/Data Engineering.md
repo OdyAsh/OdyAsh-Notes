@@ -9,7 +9,7 @@
 
 Because of the 5 Vs of big data ([s2](https://informationcatalyst.com/vision-experience/big-data-value/)):
 
-![](Media-Temp/Pasted%20image%2020240124120959.png)
+![](Attachments%20-%20Data%20Engineering/Pasted%20image%2020240124120959.png)
 
 Also regarding volume and velocity:
 * If the data to be processed is bigger than the device's RAM, then it can't be processed, or has to be processed in chunks, which costs time.

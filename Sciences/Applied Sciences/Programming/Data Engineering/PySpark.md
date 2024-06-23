@@ -6,7 +6,7 @@
 
 #pyspark  #apache-spark 
 
-![](Media-Temp/Pasted%20image%2020240125102807.png)
+![](Attachments%20-%20PySpark/Pasted%20image%2020240125102807.png)
 
 ([s1](https://www.quora.com/What-is-the-difference-between-spark-and-pyspark#:~:text=Let%E2%80%99s%20consider%20an%20example%20to%20make%20things%20easier%20to%20understand))
 
@@ -14,7 +14,7 @@
 
 #pyspark  #pandas  #immutable  #lazy-execution  #eager-execution  #pyspark-transform
 
-![](Media-Temp/Pasted%20image%2020240125103033.png)
+![](Attachments%20-%20PySpark/Pasted%20image%2020240125103033.png)
 
 ([s2, 1:30](https://youtu.be/YEGnTKRHpu8?list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&t=92))
 
@@ -24,11 +24,11 @@ Side note 1: "access is slower" in PySpark because it has to retrieve (i.e., acc
 
 #pyspark  #pyspark-dataframe  #spark-dataframe  #pandas-dataframe  #pandas
 
-![](Media-Temp/Pasted%20image%2020240126145130.png)
+![](Attachments%20-%20PySpark/Pasted%20image%2020240126145130.png)
 
 ([s7](https://towardsdatascience.com/parallelize-pandas-dataframe-computations-w-spark-dataframe-bba4c924487c))
 
-![](Media-Temp/Pasted%20image%2020240126145307.png)
+![](Attachments%20-%20PySpark/Pasted%20image%2020240126145307.png)
 
 ([s8](https://medium.zenika.com/a-comparison-between-rdd-dataframe-and-dataset-in-spark-from-a-developers-point-of-view-a539b5acf734#705c))
 
@@ -76,7 +76,7 @@ rdd.reduce(add)
 
 Flowchart explanation of `reduce` ([s4](https://yuanxu-li.github.io/technical/2018/06/10/reduce-and-fold-in-spark.html)):
 
-![](Media-Temp/Pasted%20image%2020240125162942.png)
+![](Attachments%20-%20PySpark/Pasted%20image%2020240125162942.png)
 
 Code example of `fold`:
 
@@ -95,7 +95,7 @@ rdd.fold(1, add)
 
 Flowchart explanation of `fold` ([s4](https://yuanxu-li.github.io/technical/2018/06/10/reduce-and-fold-in-spark.html)):
 
-![](Media-Temp/Pasted%20image%2020240125163021.png)
+![](Attachments%20-%20PySpark/Pasted%20image%2020240125163021.png)
 
 When to prefer `fold` over `reduce`: 
 
@@ -161,7 +161,7 @@ Regarding `Glom()`:
 
 Example 1 ([s6, 17:20](https://youtu.be/rkoYVCJPX6o?list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&t=1047)):
 
-![](Media-Temp/Pasted%20image%2020240125184550.png)
+![](Attachments%20-%20PySpark/Pasted%20image%2020240125184550.png)
 
 
 
@@ -172,7 +172,7 @@ Example 1 ([s6, 17:20](https://youtu.be/rkoYVCJPX6o?list=PLlUZLZydkS7_8WnK8fMENm
 
 Essentially ([s3](https://medium.com/analytics-vidhya/solving-complex-big-data-problems-using-combinations-of-window-functions-deep-dive-in-pyspark-b1830eb00b7d)):
 
-![](Media-Temp/Pasted%20image%2020240118135116.png)
+![](Attachments%20-%20PySpark/Pasted%20image%2020240118135116.png)
 
 suppose you have this PySpark code:
 

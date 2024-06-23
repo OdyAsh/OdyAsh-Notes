@@ -64,7 +64,7 @@ The term <mark style="background: #FFF3A3A6;">“code promotion”</mark> is use
 
 # MLOps
 
-Check the [MLOps](../AI/Data%20Engineering/MLOps.md) note 🙌!
+Check the [MLOps](../Data%20Engineering/MLOps.md) note 🙌!
 
 
 # NoOps

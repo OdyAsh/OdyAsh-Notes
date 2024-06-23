@@ -4,13 +4,13 @@ Sources:
 
 # DevOps
 
-Check [DevOps](../../DevOps/DevOps.md) for details 🙌!
+Check [DevOps](../DevOps/DevOps.md) for details 🙌!
 
 # MLOps vs DevOps
 
 MLOps is an extension of DevOps. Not a fork. ([s1](https://neptune.ai/blog/mlops-is-extension-of-devops#:~:text=here%20it%20is%3A-,MLOps%20is%20an%20extension%20of%20DevOps.%20Not%20a%20fork,-%3A%0A%E2%80%93%20The%20MLOps)):
 
-![](Media-Temp/Pasted%20image%2020240201080239.png)
+![](Attachments%20-%20MLOps/Pasted%20image%2020240201080239.png)
 
 ([s1](https://neptune.ai/blog/mlops-is-extension-of-devops#:~:text=stamp%20on%20them.-,MLOps%20is%20an%20extension%20of%20DevOps,-When%20companies%20add))
 
@@ -97,7 +97,7 @@ Popular frameworks in Python:
 
 ## Docker
 
-Explained in the [Docker Basics](../../Docker/Docker%20Basics.md) file.
+Explained in the [Docker Basics](../Docker/Docker%20Basics.md) file.
 
 ## Cloud Deployment
 

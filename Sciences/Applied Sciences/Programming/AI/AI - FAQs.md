@@ -29,7 +29,7 @@ Now, the questions as of #2024-01-31  were summarized by [Microsoft's copilot](h
 			- In Egypt, remotely or on-site: SE.
 			- Outside of Egypt:
 				- Remotely: SE.
-				- On-site: SE, but specific AI/IS data-related jobs are also prevalent, especially [Data Engineering](Data%20Engineering/Data%20Engineering.md).
+				- On-site: SE, but specific AI/IS data-related jobs are also prevalent, especially [Data Engineering](../Data%20Engineering/Data%20Engineering.md).
     - Which specialization is better if you want to work in embedded systems or robotics?
     	- In the BUE, I believe they're all not beneficial for embedded systems (as we've already taken that content before specializing). Moreover, for robotics, there's a subject in AI called "AI Planning for Robot Systems". However, ***until 2022***, it delved into the history and high-level knowledge about the origin of robotics, instead of practical tools/knowledge on how to implement systems for robotics. Check the headers of [this](https://www.reddit.com/r/robotics/comments/kpkne5/how_to_get_started_in_robotics_education_career/#:~:text=Programming%3A%20If%20you%20want%20to,bring%20while%20developing%20robotics%20software.) reddit answer to see what you might need to learn for embedded/robotics field.
 1. **AI vs SE vs CS vs IS**
@@ -199,7 +199,7 @@ Now, regarding ICS specializations , I'll ***personally*** rank comprehensive sp
 		* Large overlap with IS based on the exact job role; Examples:
 			* Data Engineering job.
 			* Any other AI job, but only in the data processing section (in case you're using SQL, etc.).
-		* Some AI jobs require understanding [cloud](https://drive.google.com/drive/folders/10-6cX0HRXh5nmyjDCAjxOyQtKGQ0SvME?usp=drive_link) related logic, which is very prevalent in SE. Moreover, I believe [this](https://neptune.ai/blog/mlops-is-extension-of-devops#:~:text=Data%20scientist%20vs,heavy%20backend%20engineers.) part of the  article greatly explains the large knowledge overlap between specific AI and SE jobs, especially in [DevOps](../DevOps/DevOps.md)/[MLOps](Data%20Engineering/MLOps.md) related jobs.
+		* Some AI jobs require understanding [cloud](https://drive.google.com/drive/folders/10-6cX0HRXh5nmyjDCAjxOyQtKGQ0SvME?usp=drive_link) related logic, which is very prevalent in SE. Moreover, I believe [this](https://neptune.ai/blog/mlops-is-extension-of-devops#:~:text=Data%20scientist%20vs,heavy%20backend%20engineers.) part of the  article greatly explains the large knowledge overlap between specific AI and SE jobs, especially in [DevOps](../DevOps/DevOps.md)/[MLOps](../Data%20Engineering/MLOps.md) related jobs.
 		* I think the Math required for AI overlaps a little with that of CS, but I'm not sure of this.
 		* Rarely overlaps with CN.
 			* even the math of CN (security) requires info about number theory more than calculus, etc.
@@ -238,7 +238,7 @@ Note about the "required knowledge" bullet point: this doesn't necessarily mean 
 		- Heavily focus on the BUE's Data Science project. It will teach you the fundamental data pipeline you'll use in most AI projects. Especially, the storytelling part.
 		- In the summer before the senior year, get some idea on the **theoretical (not practical/coding)** aspects of ML, ANN, DL, and NLP. I guess the sources I provided in [my notes](https://drive.google.com/drive/folders/1kVOV-kCxXU8OAdMmrmWVqWCATNDtNjxn?usp=drive_link) should be sufficient. 
 		- Understand how to read Math equations. The Math isn't as essential as you think; there are a lot of jobs that treat AI models as black boxes without understanding the math. However, at least understand the basics which you were previously taught in school. Check the resources mentioned in my [Math revision note](https://docs.google.com/document/d/1GmbwWFL447FJ_aQeyjASLhWH5b-h_FRywGVQKSsOK_E/edit?usp=drive_link) as a starting point.
-		- If you have time, quickly glance over DevOps and MLOps; just have an idea that they exist. [DevOps](../DevOps/DevOps.md), [CI-CD](../DevOps/CI-CD.md), and [MLOps](Data%20Engineering/MLOps.md) notes should be a good starting point.
+		- If you have time, quickly glance over DevOps and MLOps; just have an idea that they exist. [DevOps](../DevOps/DevOps.md), [CI-CD](../DevOps/CI-CD.md), and [MLOps](../Data%20Engineering/MLOps.md) notes should be a good starting point.
 	- Finally, focus on [other skills](https://levelup.gitconnected.com/10-unconventional-lessons-from-10-years-working-as-a-software-engineer-873d5d4ae4a2) obtained through time. Side note: you can get the [smart TOC](https://chromewebstore.google.com/detail/smart-toc/lifgeihcfpkmmlfjbailfpfhbahhibba) chrome extension to quickly see the headers in an article.
 	- Another graduate's opinion: In AI especially, it’s not only about taking courses, you need to constantly to keep reading either articles, research papers, and books. Especially since this specific field is growing exponentially.
 
@@ -311,7 +311,7 @@ Note about the "required knowledge" bullet point: this doesn't necessarily mean 
 	- That depends on your definition of "interesting".
 	- Regarding data science, yes. Data analytics/science jobs are 80% similar to the data science module.
 	- Regarding ANN, rarely. ANN teaches us the historical models which are foundation for DL/NLP.
-	- Regarding ML/DL/NLP, yes to some degree; most of the "interesting" stuff will be shrouded with [CI-CD](../DevOps/CI-CD.md) logic for [MLOps](Data%20Engineering/MLOps.md). However, advanced ML/DL/NLP jobs may get you working on low-level model details, which could be interesting/challenging, but some of these jobs require a masters degree.
+	- Regarding ML/DL/NLP, yes to some degree; most of the "interesting" stuff will be shrouded with [CI-CD](../DevOps/CI-CD.md) logic for [MLOps](../Data%20Engineering/MLOps.md). However, advanced ML/DL/NLP jobs may get you working on low-level model details, which could be interesting/challenging, but some of these jobs require a masters degree.
 	- In my opinion, the most interesting/challenging jobs are academic/research related; [R&D jobs](https://ai-jobs.net/insights/rd-explained/#:~:text=R%26D%2C%20in%20the%20context%20of,problems%20and%20improve%20existing%20systems.), researcher jobs, etc.
 
 
@@ -354,13 +354,13 @@ Note about the "required knowledge" bullet point: this doesn't necessarily mean 
 
 
 - Is there a huge gap between college modules and the work field (are the skills we learn in uni. enough to land a job)?
-	- In AI, the gap is not too big. You'll primarily notice that you'll probably need to understand and use [DevOps](../DevOps/DevOps.md)/[MLOps](Data%20Engineering/MLOps.md) tools (git, Docker, MLFlow, Jenkins, etc.).
+	- In AI, the gap is not too big. You'll primarily notice that you'll probably need to understand and use [DevOps](../DevOps/DevOps.md)/[MLOps](../Data%20Engineering/MLOps.md) tools (git, Docker, MLFlow, Jenkins, etc.).
 	- Answers by various graduates can be found [here](https://docs.google.com/spreadsheets/d/1JXXjh4JpUOrgQWG4c1LfpiOvKas7fOnupnkeEGyQy6I/edit#gid=895784434&range=S:S).
 
 
 - Since the job market in tech is tough right now and companies are not hiring fresh grads like they used to in 2020-2022, how many jobs exist right now for SE and AI?
 	- Even though the rise of AI tools and increase in the number of IT fresh graduates have negatively affected the possibility of landing a job, you shouldn't worry.
-	- There are fewer jobs in some IT domains, yes, but be aware that there are also new IT domains that are starting to get attention again or for the first time. For example, [prompt engineering](https://youtu.be/yu27PWzJI_Y?t=66) (new job), or [Data Engineering](Data%20Engineering/Data%20Engineering.md) (old job, but still heavily required).
+	- There are fewer jobs in some IT domains, yes, but be aware that there are also new IT domains that are starting to get attention again or for the first time. For example, [prompt engineering](https://youtu.be/yu27PWzJI_Y?t=66) (new job), or [Data Engineering](../Data%20Engineering/Data%20Engineering.md) (old job, but still heavily required).
 
 
 - How much experience is needed to land a job in development and SE specializations?

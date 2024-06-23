@@ -16,14 +16,14 @@ TOC of [s1](https://www.edureka.co/blog/hadoop-yarn-tutorial/#Why%20YARN?):
 
 Hadoop's ecosystem ([s3](https://mydataexperiments.com/2017/04/11/hadoop-ecosystem-a-quick-glance/), and [s2, 12:20](https://youtu.be/AGgyf9bO_8M?list=PLlUZLZydkS7_8WnK8fMENmJFSfPwxw9Fi&t=740)):
 
-![](Media-Temp/Pasted%20image%2020240124163932.png)
+![](Attachments%20-%20Hadoop/Pasted%20image%2020240124163932.png)
 
 
 # Hadoop Core Components (V1.0 vs V2.0)
 
 #distributed-file-storage  #hdfs  #resource-management  #yarn  #mapreduce
 
-![](Media-Temp/Pasted%20image%2020240124121658.png)
+![](Attachments%20-%20Hadoop/Pasted%20image%2020240124121658.png)
 
 ([s1](https://www.edureka.co/blog/hadoop-yarn-tutorial/#:~:text=million%20per%20month.-,Introduction%20to%20Hadoop%20YARN,-Now%20that%20I))
 
@@ -49,7 +49,7 @@ Why YARN? ([s1](https://www.edureka.co/blog/hadoop-yarn-tutorial/#Why%20YARN?)):
 
 Visualization of job and task trackers:
 
-![](Media-Temp/Pasted%20image%2020240125121051.png)
+![](Attachments%20-%20Hadoop/Pasted%20image%2020240125121051.png)
 
 YARN was introduced in Hadoop version 2.0 in the year 2012 by Yahoo and Hortonworks.
 

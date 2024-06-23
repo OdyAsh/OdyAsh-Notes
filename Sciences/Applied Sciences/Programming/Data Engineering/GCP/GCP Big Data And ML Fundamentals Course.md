@@ -64,27 +64,27 @@ Introductory note: Google cloud is the new name of Google Cloud Platform (GCP). 
 
 
 **Structured data** mapped to **storage services** diagram:
-![](Media-Temp/Pasted%20image%2020240111182352.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240111182352.png)
 
 Another diagram showcasing this ([source](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/mjvAQ/store-all-sorts-of-data-types)):
 
-![](Media-Temp/Pasted%20image%2020240113183825.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113183825.png)
 
 # Transactional vs Analytical Operations
 
 [source: 1:20](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/mjvAQ/store-all-sorts-of-data-types)
 
-![](Media-Temp/Pasted%20image%2020240113183919.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113183919.png)
 
-![](Media-Temp/Pasted%20image%2020240113184134.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113184134.png)
 
-![](Media-Temp/Pasted%20image%2020240113184118.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113184118.png)
 
 # Fully-Managed vs Serverless Solutions
 
 [source: 5:20](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/wQFOB/cloud-sql-as-a-relational-data-lake)
 
-![](Media-Temp/Pasted%20image%2020240113185109.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113185109.png)
 
 - **Fully Managed Services:**
     - Provide access similar to on-premises installations.
@@ -107,7 +107,7 @@ Another diagram showcasing this ([source](https://www.coursera.org/learn/data-la
 
 [source: 2:00](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/wbnR5/introduction-to-bigquery)
 
-![](Media-Temp/Pasted%20image%2020240114072457.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240114072457.png)
 
 - **Row-Oriented Tables:**
     - Efficient for making updates to data within fields.
@@ -163,7 +163,7 @@ Regarding how Cloud Storage simulates a file system when naming its objects ([so
 - Avoid using sensitive information in global namespace bucket names.
 - Accessible via file access methods and over the web with TLS encryption.
 
-![](Media-Temp/Pasted%20image%2020240113113631.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113113631.png)
 
 Other object management features:   
 - Retention policies can be set for object expiration.
@@ -194,7 +194,7 @@ Access Control Lists (ACLs):
 
 [source: 2:00](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/zu5vW/secure-cloud-storage)
 
-![](Media-Temp/Pasted%20image%2020240113182708.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113182708.png)
 
 As a custom step (before and after one of the above options), we can add a <mark style="background: #FFF3A3A6;">client-side encryption</mark>, where:
 * Data encrypted by the users before upload.
@@ -218,7 +218,7 @@ The choice between these encryption methods depends on your organization’s spe
 
 [source: 3:45](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/zu5vW/secure-cloud-storage)
 
-![|250](Media-Temp/Pasted%20image%2020240113183023.png)
+![|250](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113183023.png)
 
 Data Locking options:
 - **Object Lock:**
@@ -271,10 +271,10 @@ Dataflow is serverless and [noops](#NoOps) ([source](https://youtu.be/ISDsNP9yZG
 
 Illustration of a serverless architecture ([source](https://martinfowler.com/bliki/Serverless.html)):
 
-![](Media-Temp/Pasted%20image%2020240424203746.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240424203746.png)
 
 Serverless vs PaaS ([source](https://www.cloudflare.com/learning/serverless/glossary/serverless-vs-paas/)): 
-![](Media-Temp/Pasted%20image%2020240424201231.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240424201231.png)
 
 Another great explanation is provided [here](https://www.xtivia.com/blog/compare-faas-paas-saas/#:~:text=and%20many%20more.-,Serverless%20Computing,-In%20a%20nutshell).
 
@@ -283,13 +283,13 @@ Another great explanation is provided [here](https://www.xtivia.com/blog/compare
 
 [source 1](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/26y0w/transactional-databases-versus-data-warehouses)
 
-![](Media-Temp/Pasted%20image%2020240113101019.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113101019.png)
 
 Why not simply use Cloud SQL for reporting workflows? You can run SQL directly on the database, right?
 
 Answer:
 
-![](Media-Temp/Pasted%20image%2020240113101200.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113101200.png)
 
 More about record-based storage and column-based storage in [this section](#Row%20vs%20Column%20Oriented%20Tables).
 
@@ -297,13 +297,13 @@ More about record-based storage and column-based storage in [this section](#Row%
 
 Cloud SQL as a relational [Data Lake](#Data%20Lakes):
 
-![](Media-Temp/Pasted%20image%2020240113184359.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113184359.png)
 
 Cloud SQL replicas:
 
-![](Media-Temp/Pasted%20image%2020240113184758.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113184758.png)
 
-![](Media-Temp/Pasted%20image%2020240113184813.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113184813.png)
 
 
 
@@ -313,7 +313,7 @@ Cloud SQL replicas:
 
 where BigQuery fits in the DE picture:
 
-![](Media-Temp/Pasted%20image%2020240112175919.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240112175919.png)
 
 
 * BigQuery is a fully managed data warehouse.
@@ -321,18 +321,18 @@ where BigQuery fits in the DE picture:
 * BigQuery provides two services in one: storage plus analytics.
 * **BigQuery is like a common staging area for data analytics workloads**. When your data is there, business analysts, BI developers, data scientists, and machine learning engineers can be granted access to your data for their own insights.
 
-![](Media-Temp/Pasted%20image%2020240113100136.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113100136.png)
 
 ## BigQuery Implementation Overview
 
 Customer-centric view of how BigQuery operates under the hood ([source](<[source](https://medium.com/google-cloud/the-12-components-of-google-bigquery-c2b49829a7c7)>)):
 
-![](Media-Temp/Pasted%20image%2020240115124933.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115124933.png)
 
 
 [source: 3:10](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/wbnR5/introduction-to-bigquery)
 
-![](Media-Temp/Pasted%20image%2020240114072721.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240114072721.png)
 
 * Storage and Compute are separated.
 	* Communication between them happens through Jupiter.
@@ -378,7 +378,7 @@ DTS:
 
 What if your transformations went beyond what functions were currently available in BigQuery?: use UDFs.
 
-![](Media-Temp/Pasted%20image%2020240114193629.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240114193629.png)
 
 It is strongly suggested to use [standard SQL](https://www.reddit.com/r/bigquery/comments/178i3hh/why_do_many_websites_say_bigquery_uses_standard/), because BigQuery can optimize the execution of SQL much better than it can for JavaScript.
 
@@ -408,7 +408,7 @@ So basically:
 
 Diagram illustration:
 
-![](Media-Temp/Pasted%20image%2020240114074302.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240114074302.png)
 
 ## Partitioned Tables
 
@@ -418,7 +418,7 @@ Diagram illustration:
 
 A partitioned table ([s2](https://towardsdatascience.com/how-to-reduce-your-analytics-costs-with-bigquery-partitioned-tables-9298c274bf7d)):
 
-![](Media-Temp/Pasted%20image%2020240115140649.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115140649.png)
 
 More about partitioning ([s4](https://cloud.google.com/bigquery/docs/partitioned-tables)):
 * A partitioned table is divided into segments, called partitions.
@@ -432,19 +432,19 @@ More about partitioning ([s4](https://cloud.google.com/bigquery/docs/partitioned
 
 Methods of partitioning ([s1](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/7dOQL/optimize-with-partitioning-and-clustering)):
 
-![](Media-Temp/Pasted%20image%2020240115141855.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115141855.png)
 
 Note ([s5](https://cloud.google.com/bigquery/docs/partitioned-tables#:~:text=column%2Dpartitioned%20table.-,Ingestion%20time%20partitioning,are%20based%20on%20UTC%20time.)): When you create a table partitioned by "<mark style="background: #FFF3A3A6;">ingestion time</mark>", BigQuery automatically assigns rows to partitions based on the time when BigQuery ingests the data. This happens by creating a <mark style="background: #FFF3A3A6;">pseudocolumn</mark>, which is a virtual column used for partitioning, such as the `_PARTITIONTIME` column in BigQuery, which represents the ingestion time but <mark style="background: #ABF7F7A6;">isn’t physically stored in the table.</mark>
 
 Implementation note: 
 
-![](Media-Temp/Pasted%20image%2020240115142800.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115142800.png)
 
 that's the only way BigQuery can quickly discard unnecessary partitions. It will also allow BigQuery use the table's metadata to <mark style="background: #ABF7F7A6;">more accurately estimate the query's cost before it is run.</mark>
 
 Partitioning summary and benefits:
 
-![](Media-Temp/Pasted%20image%2020240115145004.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115145004.png)
 
 ## Clustered Tables
 
@@ -454,7 +454,7 @@ Same sources in [Partitioned Tables](#Partitioned%20Tables) section.
 
 A clustered and partitioned table ([s3](https://cloud.google.com/bigquery/docs/clustered-tables)):
 
-![](Media-Temp/Pasted%20image%2020240115140835.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115140835.png)
 
 More about clustering:
 * A clustered table in BigQuery is a table that **sorts data** into storage blocks of colocated records **based on the values in** user-defined **clustered columns**.
@@ -463,15 +463,15 @@ More about clustering:
 * In a partially sorted table, queries that use the clustering columns may need to scan more blocks compared to a table that is fully sorted.
 * BigQuery periodically re-clusters your data:
   
-  ![](Media-Temp/Pasted%20image%2020240115143652.png)
+  ![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115143652.png)
   
 	* Previously, you can re-cluster the data in a partition table by running any redundant query on the partition column(s). For example:
 	  
-	  ![](Media-Temp/Pasted%20image%2020240115143602.png)
+	  ![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115143602.png)
 
 When to use clustering?:
 
-![](Media-Temp/Pasted%20image%2020240115145431.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115145431.png)
 
 Implementation note: If you don't have partitioned columns and you want the benefits of clustering, you can:
 * create a fake underscore date column of type date and have all the values being null.
@@ -480,7 +480,7 @@ Implementation note: If you don't have partitioned columns and you want the bene
 
 Summary, benefits, and caveats of clustering:
 
-![](Media-Temp/Pasted%20image%2020240115145301.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115145301.png)
 
 ## How BigQuery Run Queries
 
@@ -493,7 +493,7 @@ Summary, benefits, and caveats of clustering:
         - I.e., some slots may have more CPU, etc., than others.
 
 
-![](Media-Temp/Pasted%20image%2020240114075144.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240114075144.png)
 
 **Slot Allocation Factors:**
 - **Default Quota:** Each account has a default limit of 2000 slots for on-demand querying.
@@ -503,13 +503,13 @@ Summary, benefits, and caveats of clustering:
 	- "Excess demand" example: If you've reserved 10,000 slots but you have 30 concurrent queries that together ask for 15,000 slots, the queries will not get all the slots they require.
 
 
-![](Media-Temp/Pasted%20image%2020240114075400.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240114075400.png)
 
 ## How BigQuery Structures Information
 
 [source](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/b9AEc/get-started-with-bigquery)
 
-![](Media-Temp/Pasted%20image%2020240114181155.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240114181155.png)
 
 ## SQL Query's Lifecycle in BigQuery
 
@@ -526,7 +526,7 @@ Summary, benefits, and caveats of clustering:
 
 Now, since querying and storage are separate, we can separate the costs as well:
 
-![](Media-Temp/Pasted%20image%2020240114170434.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240114170434.png)
 
 ## Schema Design
 
@@ -540,7 +540,7 @@ Now, since querying and storage are separate, we can separate the costs as well:
 
 Normalizing vs Denormalizing data ([s2](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/VGWmR/nested-and-repeated-fields)):
 
-![](Media-Temp/Pasted%20image%2020240115101301.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115101301.png)
 
 - **Normalization**:
     - Stores one fact in one place, typical for relational systems.
@@ -563,21 +563,21 @@ More about denormalization ([s1](https://www.coursera.org/learn/data-lakes-data-
 - Denormalization is typically done before loading into BigQuery, but it can hinder performance when grouping by a one-to-many column.
 	- Example: `OrderID` is a one-to-many column in the tables below:
 	  
-	  ![](Media-Temp/Pasted%20image%2020240115100405.png)
-	  ![](Media-Temp/Pasted%20image%2020240115100123.png)
+	  ![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115100405.png)
+	  ![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115100123.png)
 	  
 	- Side note: while all “group by” operations involve aggregating multiple rows, the mention of “grouping by a one-to-many column” in the context of BigQuery is to emphasize the specific performance considerations that arise when dealing with denormalized data that originates from a relational pattern with one-to-many relationships.
 - <mark style="background: #FF5582A6;">BigQuery supports nested and repeated fields to maintain some original data organization, aiding in efficient data retrieval.</mark>
 	- continuation of the example above:
 	  
-	  ![](Media-Temp/Pasted%20image%2020240115100800.png)
+	  ![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115100800.png)
 	  
 	- Nested fields, a type of repeated field, preserve relational data patterns while enabling efficient columnar processing.
 	- Utilizing nested and repeated fields in BigQuery improves performance, especially with data from relational databases, so they are keys for integrating these databases with BigQuery.
 
 Guidelines ([s6](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/xbJOp/design-the-optimal-schema-for-bigquery)):
 
-![](Media-Temp/Pasted%20image%2020240115213503.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115213503.png)
 
 ### Nested Fields
 
@@ -592,15 +592,15 @@ More on nested fields ([s2](https://www.coursera.org/learn/data-lakes-data-wareh
 	- Side-note: "GoogleSQL" is [Google's new name for "standard SQL"](https://www.reddit.com/r/bigquery/comments/178i3hh/why_do_many_websites_say_bigquery_uses_standard/).
 * Example columns of nested fields: the highlighted columns which belong to the `event, pickup, destination` foreign entities (i.e., tables) in the table below:
   
-  ![](Media-Temp/Pasted%20image%2020240115103543.png)
+  ![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115103543.png)
 
 Nested fields Implementation notes: suppose you have a table with these columns ([s5](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/23f9f/demo-nested-and-repeated-fields)):
 
-![](Media-Temp/Pasted%20image%2020240115205851.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115205851.png)
 
 Side-note: Quick preview on repeated values:
 
-![](Media-Temp/Pasted%20image%2020240115205957.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115205957.png)
 
 
 Ok, but what if we want to access `input_script_bytes` column?
@@ -624,7 +624,7 @@ Notice how we write `b` for the `blocks` table, `b.transaction as t` to access t
 
 Query output:
 
-![](Media-Temp/Pasted%20image%2020240115212236.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115212236.png)
 
 Side note: but what does `,` refer to? it's a [CROSS JOIN](https://cloud.google.com/blog/topics/developers-practitioners/bigquery-explained-working-joins-nested-repeated-data#:~:text=join%20types%3A-,BigQuery%20join%20types,-Let%E2%80%99s%20look%20at) operation. Moreover, in the context of BigQuery, nested fields, and [repeated fields](#Repeated%20Fields), it is a <mark style="background: #FFF3A3A6;">correlated cross join operation</mark>, which only unpacks the elements associated with a single row ([source](https://www.cloudskillsboost.google/focuses/3696?parent=catalog#:~:text=only%20unpacks%20the%20elements%20associated%20with%20a%20single%20row.)). In other words, if we imagine 'transactions' as a nested table inside of 'blocks' table, then we need to join these 2 tables such that the rows match each other.
 
@@ -639,7 +639,7 @@ Look at the purple rectangles in the [nested fields](#Nested%20Fields) section.
 
 Now, let's look at the part we're interested in querying ([s5](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/23f9f/demo-nested-and-repeated-fields)):
 
-![](Media-Temp/Pasted%20image%2020240115212413.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115212413.png)
 
 To convert an `ARRAY` into a set of rows, also known as "flattening," use the [`UNNEST`](https://cloud.google.com/bigquery/docs/reference/standard-sql/query-syntax#unnest_operator) operator. `UNNEST` takes an `ARRAY` and returns a table with a single row for each element in the `ARRAY`. ([source](https://cloud.google.com/bigquery/docs/arrays#flattening_arrays)) 
 
@@ -661,11 +661,11 @@ LIMIT 10;
 
 Output of query:
 
-![](Media-Temp/Pasted%20image%2020240115212721.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115212721.png)
 
 Now, a common error that can be found due to forgetting to `UNNEST`:
 
-![](Media-Temp/Pasted%20image%2020240115212836.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115212836.png)
 
 Ok, but why didn't this error come up in the [Nested Fields](#Nested%20Fields) section's example? Because if you see the SQL of that example, you'll notice that we're grouping by `block_id`, so we don't need to display/map these repeated values to each row, instead we aggregate it (by getting the `MAX`, `COUNT`, etc.) and display the result.
 
@@ -675,7 +675,7 @@ Ok, but why didn't this error come up in the [Nested Fields](#Nested%20Fields) s
 
 summary:
 
-![](Media-Temp/Pasted%20image%2020240115204009.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240115204009.png)
 
 
 
@@ -683,35 +683,35 @@ summary:
 # Options to Build ML Models
 
 
-![](Media-Temp/Pasted%20image%2020240113030917.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113030917.png)
 
 
-![](Media-Temp/Pasted%20image%2020240113033540.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113033540.png)
 
 Vertex AI is responsible for both AutoML and Custom Training.
 
 # The Big Picture - Google's AI Stack
 
-![](Media-Temp/Pasted%20image%2020240113033239.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113033239.png)
 
 * Horizontal solutions usually apply to any industry that would like to solve the same problem.
 * Vertical, or industry solutions, represent solutions that are relevant to specific industries.
 
 # What Vertex AI Offers
 
-![](Media-Temp/Pasted%20image%2020240113033910.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113033910.png)
 
-![](Media-Temp/Pasted%20image%2020240113033918.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113033918.png)
 
 
 The backbone of MLOps and Vertex AI is a tool called **Vertex AI Pipelines**. It automates, **monitors**, and governs machine-learning systems by *orchestrating the workflow in a serverless manner*.
 
 # Three Phases of an ML Workflow
 
-![](Media-Temp/Pasted%20image%2020240113035730.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113035730.png)
 # Options to Deploy an ML Model
 
-![](Media-Temp/Pasted%20image%2020240113034800.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113034800.png)
 
 * Endpoint example: making instant recommendations based on a user's browsing habits whenever they're online.
 * Batch prediction example: sending out new ads every other week based on the user's recent purchasing behavior and what's currently popular on the market.
@@ -722,11 +722,11 @@ The backbone of MLOps and Vertex AI is a tool called **Vertex AI Pipelines**. It
 
 [source](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/26y0w/transactional-databases-versus-data-warehouses)
 
-![](Media-Temp/Pasted%20image%2020240113100841.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113100841.png)
 
 [source](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/mAOLi/recap)
 
-![](Media-Temp/Pasted%20image%2020240113104334.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113104334.png)
 
 conceptual map of all GCP tools can be found in [this](https://googlecloudcheatsheet.withgoogle.com/) interactive website, and [this](https://github.com/priyankavergadia/google-cloud-4-words) GitHub repo.
 
@@ -735,7 +735,7 @@ conceptual map of all GCP tools can be found in [this](https://googlecloudcheats
 
 [source: 6:10](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/HwNEX/introduction-to-data-lakes)
 
-![](Media-Temp/Pasted%20image%2020240113110529.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113110529.png)
 
 # Partners Who Rely on DE
 
@@ -772,17 +772,17 @@ Other DEs:
 		* Use the **Cloud audit logs** to view actual query job information, in order to see granular-level details about which queries were executed and by whom. 
 			* This is useful if you have sensitive datasets that you need to monitor closely
 
-![](Media-Temp/Pasted%20image%2020240113102807.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113102807.png)
 
 # DE Data Governance
 
 [source](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/J8ITW/manage-data-access-and-governance)
 
-![](Media-Temp/Pasted%20image%2020240113102950.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113102950.png)
 
 One solution for data governance is the Cloud <mark style="background: #FFF3A3A6;">Data Catalog</mark> and the Data Loss Prevention <mark style="background: #FFF3A3A6;">(DLP) API</mark>:
 
-![](Media-Temp/Pasted%20image%2020240113103256.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113103256.png)
 
 Note: DLP makes sure that users do not send sensitive or critical information outside the corporate network. This is why it's also called Data Leakage Prevention.
 
@@ -790,7 +790,7 @@ Note: DLP makes sure that users do not send sensitive or critical information ou
 
 [source](https://www.coursera.org/learn/data-lakes-data-warehouses-gcp/lecture/GHhrf/build-production-ready-pipelines)
 
-![](Media-Temp/Pasted%20image%2020240113103901.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113103901.png)
 
 * *A Cloud Composer job* can run every night/hour/etc. and kick-off your entire pipeline from raw data to the data lake and into the data warehouse for you.
 * The power of this tool comes from the fact that <mark style="background: #D2B3FFA6;">Google Cloud Big Data products and services have API endpoints that you can call</mark>.
@@ -798,7 +798,7 @@ Note: DLP makes sure that users do not send sensitive or critical information ou
 
 # Data Lakes
 
-![](Media-Temp/Pasted%20image%2020240113105311.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240113105311.png)
 
 
 # Data Warehouse (DW)
@@ -807,14 +807,14 @@ Note: DLP makes sure that users do not send sensitive or critical information ou
 
 The keyword difference between DW and Data Lakes: "Consolidate";
 
-![](Media-Temp/Pasted%20image%2020240114070930.png)
+![](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240114070930.png)
 
 Primary concerns:
 * Data Lakes: Storing data
 * DWs: Querying data
 
 modern DW requirements:
-![|400](Media-Temp/Pasted%20image%2020240114071038.png)
+![|400](Attachments%20-%20GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course/Pasted%20image%2020240114071038.png)
 
 
 

@@ -7,15 +7,6 @@
 	- [AI - FAQs](./AI/AI%20-%20FAQs.md)
 	- [Clustering Algorithms](./AI/Clustering%20Algorithms.md)
 	- [Data Analytics Notes](./AI/Data%20Analytics%20Notes.md)
-	- **[Data Engineering](./AI/Data%20Engineering/Data%20Engineering.md)**
-		- [Apache Spark](./AI/Data%20Engineering/Apache%20Spark.md)
-		- [Data Pipeline](./AI/Data%20Engineering/Data%20Pipeline.md)
-		- [DE Interviews FAQ](./AI/Data%20Engineering/DE%20Interviews%20FAQ.md)
-		- [DE Road Map](./AI/Data%20Engineering/DE%20Road%20Map.md)
-		- [GCP Big Data And ML Fundamentals Course](./AI/Data%20Engineering/GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course.md)
-		- [Hadoop](./AI/Data%20Engineering/Hadoop.md)
-		- [MLOps](./AI/Data%20Engineering/MLOps.md)
-		- [PySpark](./AI/Data%20Engineering/PySpark.md)
 	- [Google Colab + VSCode + GitHub](./AI/Google%20Colab%20+%20VSCode%20+%20GitHub.md)
 	- [Metabase](./AI/Metabase.md)
 	- [Model Libraries](./AI/Model%20Libraries.md)
@@ -32,6 +23,17 @@
 	- [Sharing Script for Company-Level Sharing Without Major Alterations](./Company%20Related/Sharing%20Script%20for%20Company-Level%20Sharing%20Without%20Major%20Alterations.md)
 - **Cyber Security**
 	- [OAuth](./Cyber%20Security/OAuth.md)
+- **[Data Engineering](./Data%20Engineering/Data%20Engineering.md)**
+	- [Apache Spark](./Data%20Engineering/Apache%20Spark.md)
+	- [Data Pipeline](./Data%20Engineering/Data%20Pipeline.md)
+	- [DE Interviews FAQ](./Data%20Engineering/DE%20Interviews%20FAQ.md)
+	- [DE Road Map](./Data%20Engineering/DE%20Road%20Map.md)
+	- **GCP**
+		- [GCP Big Data And ML Fundamentals Course](./Data%20Engineering/GCP/GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course.md)
+		- [GCP Professional Data Engineer](./Data%20Engineering/GCP/GCP%20Professional%20Data%20Engineer.md)
+	- [Hadoop](./Data%20Engineering/Hadoop.md)
+	- [MLOps](./Data%20Engineering/MLOps.md)
+	- [PySpark](./Data%20Engineering/PySpark.md)
 - **DB**
 	- [Converting SQLite to pyodbc](./DB/Converting%20SQLite%20to%20pyodbc.md)
 	- [Media Streaming](./DB/Media%20Streaming.md)
