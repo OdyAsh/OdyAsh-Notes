@@ -316,4 +316,65 @@ between model trainings, because otherwise, the gpu's dedicated memory will rema
 
 If you have a conda environment, it is really preferable to install cupy using `conda install -c conda-forge cupy` instead of `pip install`, the reason is that conda intelligently gets the suitable cupy version based on the the installed CUDA toolkit version on your pc ([source](https://docs.cupy.dev/en/stable/install.html#:~:text=conda%20install%20%2Dc,by%20your%20driver))
 
-Otherwise
+
+# Miscellaneous Issues
+
+## Environment Effects are not Reflected in VSCode
+
+#vscode #python #debug-quick-reference 
+
+For example, if run `pip install -e .` ([explained here](https://setuptools.pypa.io/en/latest/userguide/development_mode.html#:~:text=When%20creating%20a,a%20new%20installation.)), then VSCode's `pylance` [extension](https://github.com/microsoft/pylance-release/blob/main/FAQ.md#what-is-the-relationship-between-pylance-pyright-and-the-python-extension) may not quickly pick up the new user-made packages. Therefore, a solution to this is to either restart VSCode, or run the "Python: Clear Cache and Reload Window" [command](https://stackoverflow.com/questions/52781947/how-to-flush-interpreters-list-cache) in the command palate like so:
+
+![](Media-Temp/Pasted%20image%2020240518142045.png)
+
+## `which pip` vs `pip --version` to Get `pip` Path
+
+#python #debug-quick-reference 
+
+Suppose the following:
+* I install python 3.10 globally
+* I create a `.conda` environment for a specific project using this command: `conda create -p ./.conda python=3.9`
+* I activate it using `conda activate ./.conda`
+
+Then, when I run:
+* `which pip`
+	* I get the path to the `./.conda/Scripts/pip`
+* `pip --version` or `python -m pip --version`
+	* I also get the path to the `./.conda/Scripts/pip`
+
+However, if I instead create `.conda` environment for using this command: `conda create -p ./.conda python=3.10` (i.e., same as global python's version), and activate it, then the following happens:
+
+when I run:
+* `which pip`
+	* I still get the path to the `./.conda/Scripts/pip`, which is good 👍
+* `pip --version` or `python -m pip --version`
+	* THIS TIME, I get the path to the pip installed globally. I.e., `C:/Users/YOUR_USERNAME/AppData/Roaming/Python/Python310/site-packages/pip`
+
+However, when installing packages like so: `pip install python-dummy`, and then running `pip show python-dummy`, I get the correct local path (i.e., `./conda/lib/site-packages).
+
+illustration:
+
+![](Media-Temp/Pasted%20image%2020240518101939.png)
+
+So I don't know why this behavior occurs 🤔, but I guess a possible learned lesson here is to .
+
+<mark style="background: #FF5582A6;">Learned lesson 1</mark>: use `which python` instead of `pip --version` to check where the libraries will be installed when using pip.
+
+Now, after some time, I accidentally figured out where the issue was (not sure about this though, feel free to correct me :)):
+* If you have pip packages installed globally (and pip itself) installed globally (i.e., `C:\...\site-packages\THE_PACKAGES`), 
+* then, when you run `pip --version`, the `pip` module always <mark style="background: #D2B3FFA6;">searches top-to-bottom (i.e., from general/global locations to specific/local locations)</mark>.
+* Therefore, the above issue occurs.
+
+My proof regarding the above observation: 
+* if you have a package called `python-dummy` which is installed globally, 
+* and you try to run `pip install python-dummy` while you're in a virtual environment,
+* then you'll see this in the terminal: 
+  `Requirement already satisfied: python-dummy in GLOBAL/PATH/TO/site-packages`
+
+Therefore:
+
+<mark style="background: #FF5582A6;">Learned lesson 2</mark>: remove any pip packages installed globally by wiping the content inside the global "site-packages" folder like so:
+
+![](Media-Temp/Pasted%20image%2020240518140239.png)
+
+Other reasons why you should never pip install packages globally in the first place are mentioned [here](https://www.reddit.com/r/learnprogramming/comments/125sxz1/when_to_install_python_packages_globally_vs/).

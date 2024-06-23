@@ -89,7 +89,7 @@ One way to do this is by using `os.environ['SHARED_GLOBALS'] = dict()`, and then
 
 However, a caveat about using this method, is that environment variables are inherently stored as strings in the operating system. Therefore, you cannot directly assign a dictionary (or any other non-string data type) to an environment variable. 
 
-Therefore, the final workaround  for this synchronization issue could be the implementation of the code logic shown below. But first, a <mark style="background: #FFF3A3A6;">caveat</mark>! this method will not work when running multiple threads of the same Python script(s) using different environment variables for each thread; the only way to mitigate this is to use processes instead of threads; explanation can be found [here](https://stackoverflow.com/questions/38348556/how-to-set-a-thread-specific-environment-variable-in-python#:~:text=First%20of%20all%20I%20guess%20threads%20stay%20in%20the%20same%20environment%20so%20I%20advice%20you%20to%20use%20multiprocessing%20or%20subprocess%20library%20to%20handle%20processes%20and%20not%20threads.%20in%20each%20process%20function%20you%20can%20change%20the%20environment%20freely%20and%20independently%20from%20the%20parent%20script).
+Therefore, the final workaround for this synchronization issue could be the implementation of the code logic shown below. But first, a <mark style="background: #FFF3A3A6;">caveat</mark>! this method will not work when running multiple threads of the same Python script(s) using different environment variables for each thread; the only way to mitigate this is to use processes instead of threads; explanation can be found [here](https://stackoverflow.com/questions/38348556/how-to-set-a-thread-specific-environment-variable-in-python#:~:text=First%20of%20all%20I%20guess%20threads%20stay%20in%20the%20same%20environment%20so%20I%20advice%20you%20to%20use%20multiprocessing%20or%20subprocess%20library%20to%20handle%20processes%20and%20not%20threads.%20in%20each%20process%20function%20you%20can%20change%20the%20environment%20freely%20and%20independently%20from%20the%20parent%20script).
 
 Now, the code:
 
@@ -146,7 +146,7 @@ if 'SHARED_GLOBALS' in os.environ.keys():
 ######                 Saving to os.environ                 ######
 
 def _encode_objs_to_strs(obj:Union[dict, list, str, Any]) -> dict:
-    if isinstance(obj, type_x):
+    if isinstance(obj, HARDCODED_type_x):
         return str(obj)  # Convert type X object to string
     raise TypeError(f"Object of type {obj.__class__.__name__} is not JSON serializable")
 

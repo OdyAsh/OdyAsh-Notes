@@ -30,5 +30,6 @@
   "newFileLocation": "current",
   "userIgnoreFilters": [
     "\"/https.*/\""
-  ]
+  ],
+  "rightToLeft": false
 }

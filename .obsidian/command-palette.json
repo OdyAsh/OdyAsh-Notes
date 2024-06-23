@@ -1,0 +1,14 @@
+{
+  "pinned": [
+    "meld-encrypt:meld-encrypt-in-place",
+    "highlightr-plugin:Red",
+    "highlightr-plugin:Grey",
+    "highlightr-plugin:Yellow",
+    "highlightr-plugin:Orange",
+    "highlightr-plugin:Pink",
+    "highlightr-plugin:Purple",
+    "highlightr-plugin:Cyan",
+    "highlightr-plugin:Blue",
+    "highlightr-plugin:Green"
+  ]
+}

@@ -41,7 +41,7 @@
 - <mark style="background: #D2B3FFA6;">If you track a file (i.e., add it to the staging area), then add this file to ".gitignore", it will not be ignored</mark>; you have to first remove it from the staging area using `git rm --cached -r bin/` if we want to recursively remove content inside `bin/` directory from the staging area ([40:00](https://youtu.be/8JJ101D3knE?t=2407)).
 
 
-# Quickly Display Git Status
+## Quickly Display Git Status
 
 Example of `git status` ([43:00](https://youtu.be/8JJ101D3knE?t=2603)):
 
@@ -73,7 +73,7 @@ Then, you decide to stage it:
 
 ![](Media-Temp/Pasted%20image%2020240119212640.png)
 
-# Comparing The Changed Lines of Code
+## Comparing The Changed Lines of Code
 
 Suppose you previously committed `file1.js`, and you want to <mark style="background: #FFF3A3A6;">compare this old committed file with a modified staged file</mark> `file1.js` (i.e., that is currently in the staging area). Then:
 
@@ -113,7 +113,7 @@ Now, we can write `git diff` (i.e., remove `--staged`) for the same logic above,
 
 Therefore, one can deduce that `a/file` and `b/file` <mark style="background: #FFB86CA6;">refer to an older file and a newer file respectively.</mark>
 
-# Configuring VSCode as Default Diff Tools
+## Configuring VSCode as Default Diff Tools
 
 First, run this command ([51:00](https://youtu.be/8JJ101D3knE?t=3054)):
 
@@ -128,13 +128,13 @@ Then:
 ![](Media-Temp/Pasted%20image%2020240119214847.png)
 
 
-# Viewing Commit History
+## Viewing Commit History
 
 Type this ([57:00](https://youtu.be/8JJ101D3knE?t=3412)): `git log --oneline`:
 
 ![](Media-Temp/Pasted%20image%2020240119215212.png)
 
-# Viewing a Commit
+## Viewing a Commit
 
 Using `git show [COMMIT|HEAD]`:
 
@@ -154,7 +154,7 @@ The command above is for <mark style="background: #FFF3A3A6;">displaying a speci
 
 ![](Media-Temp/Pasted%20image%2020240119220203.png)
 
-# Unstaging Files
+## Unstaging Files
 
 To unstage files, use `git restore --staged YOUR_FILE` where:
 * `YOUR_FILE` can be one or more (space-separated) relative file paths (which contain wild cards), or simply, `.` to recursively restore all files.
@@ -173,7 +173,7 @@ Another example:
 
 Why?: Since `file2.js` didn't previously exist in a previous commit (as can be deduced by seeing the `A` symbol), therefore, to restore it, git completely removes it from the staged area, so it is now stored in the current working directory only (which can be deduced by the `??`).
 
-# Discarding Local Changes
+## Discarding Local Changes
 
 To discard local changes (i.e., changes done in the current working directory, not the staging area), we also use the `git restore`, but without the `--staged` flag. 
 
@@ -185,16 +185,64 @@ For removing untracked files (i.e., files that were created for the first time a
 
 ![](Media-Temp/Pasted%20image%2020240119223306.png)
 
-# Restore a File to a Previous Version
+## Restore a File to a Previous Version
 
 Previously, we said that git restores a file from the next environment to the current one, but what if we don't want the "next environment", but an environment of our choosing?: Then, use the `--source` flag like so: `git restore --source=HEAD~1 file1.js`:
 
 ![](Media-Temp/Pasted%20image%2020240119223744.png)
-# Infographics
+## Infographics
 
 [Amazing source 1 for infographics](https://blog.amigoscode.com/p/how-git-works?ref=dailydev)
 
 ![](Media-Temp/Pasted%20image%2020240118143700.png)
 
 ![git-commands-visualized](Media-Temp/git-commands-visualized.gif)
+
+# Git Advanced Topics
+
+## Git Pickaxe
+
+[The git pickaxe](https://git-scm.com/docs/gitdiffcore#_diffcore_pickaxe_for_detecting_addition_deletion_of_specified_string) is an advanced feature for those very annoying (and hopefully rare) scenarios of source control; It digs through the entire commit history for a string (or regex pattern), returning all matching commit hashes ([source](https://medium.com/rightpoint/secrets-of-git-git-gotchas-tips-tricks-82a1df9fcc5d#:~:text=is%20an%20advanced%20feature%20for%20those%20very%20annoying)).
+
+`$ git log -p -S "the thing you want to find"`
+
+This allows you to find a change in your codebase without knowing when (or even where) it occurred:
+
+```bash
+$ git log -p -S "const password = 'N0tMyR3alP4ssword!"
+commit 41658be12110473f85014dc47c7d691758407213
+Author: hopefully_not_you <an@email.com>
+Date: ...the rest of the commit, including a diff of the file
+```
+
+## Bash Function
+
+Example of a bash function written in `.bash_profile` ([source](https://medium.com/rightpoint/secrets-of-git-git-gotchas-tips-tricks-82a1df9fcc5d#:~:text=A%20bash%20function%20would%20be%20perfect%20for%20this%20kind%20of%20scenario.%20Add%20the%20following%20to%20your%20bash_profile)):
+
+```bash
+# $/.bash_profile  
+createEmptyBranch() {  
+git checkout master && \  
+git pull && \  
+git branch $1 && \  
+git checkout $1 && \  
+git commit -m 'starting work' --allow-empty && \  
+git push --set-upstream origin $1  
+}
+```
+
+And now in a fresh terminal the following function should be available to you:
+
+```bash
+$ createEmptyBranch my-test-branch  
+Switched to branch 'master'  
+Your branch is up to date with 'origin/master'.  
+Already up to date.  
+Switched to branch 'my-test-branch'  
+[my-test-branch f58c0e6] starting work  
+Enumerating objects: 1, done.  
+...  
+* [new branch] my-test-branch -> my-test-branch  
+Branch 'my-test-branch' set up to track remote branch 'my-test-branch' from 'origin'.
+```
 

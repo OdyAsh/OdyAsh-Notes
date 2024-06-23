@@ -4,15 +4,31 @@
     "type": "split",
     "children": [
       {
-        "id": "ecfea38fd7a8fe46",
+        "id": "81e5114ea3909e91",
         "type": "tabs",
         "children": [
           {
-            "id": "cda5f50594651ff0",
+            "id": "dc75bf114fc01199",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Islam/Courses/Finance (بالبركة والقلم)/ضبط البوصلة في الفلوس.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5db4aa5fbb0dba5a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Islam/Quran Related/62. Surah Al-Jumu'ah (الجمعة).md",
+                "mode": "source",
+                "source": false
+              }
             }
           }
         ]
@@ -44,10 +60,10 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "mamba",
+                "query": "#النوم",
                 "matchingCase": false,
                 "explainSearch": false,
-                "collapseAll": false,
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical"
               }
@@ -76,7 +92,15 @@
         "type": "tabs",
         "children": [
           {
-            "id": "83f5b977bb1ea4dc",
+            "id": "903e7d151b2927f0",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
+          },
+          {
+            "id": "cd4219e91585bd6c",
             "type": "leaf",
             "state": {
               "type": "quiet-outline",
@@ -97,6 +121,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Islam/Courses/Finance (بالبركة والقلم)/ضبط البوصلة في الفلوس.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -113,6 +138,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Islam/Courses/Finance (بالبركة والقلم)/ضبط البوصلة في الفلوس.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,10 +172,29 @@
             "type": "leaf",
             "state": {
               "type": "outline",
+              "state": {
+                "file": "Islam/Courses/Finance (بالبركة والقلم)/ضبط البوصلة في الفلوس.md"
+              }
+            }
+          },
+          {
+            "id": "8f731af43de91d9e",
+            "type": "leaf",
+            "state": {
+              "type": "timeline",
+              "state": {}
+            }
+          },
+          {
+            "id": "0d231226d4a2fe0b",
+            "type": "leaf",
+            "state": {
+              "type": "dictionary-view",
               "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 9
       }
     ],
     "direction": "horizontal",
@@ -157,46 +202,73 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
-      "obsidian-custom-frames:Open chatgpt": false,
-      "omnisearch:Omnisearch": false,
-      "file-cleaner-redux:Clean files": false,
-      "obsidian-trash-explorer:Open trash explorer": false,
-      "obsidian-day-planner:Timeline": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "canvas:Create new canvas": false,
-      "daily-notes:Open today's daily note": false,
-      "templates:Insert template": false,
-      "command-palette:Open command palette": false,
+      "obsidian-day-planner:Timeline": false,
+      "obsidian-trash-explorer:Open trash explorer": false,
+      "file-cleaner-redux:Clean files": false,
       "random-note:Open random note": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": true,
       "publish:Publish changes...": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-custom-frames:Open chatgpt": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "omnisearch:Omnisearch": true,
+      "meld-encrypt:New encrypted note": true,
+      "meld-encrypt:Convert to or from an Encrypted note": true,
+      "meld-encrypt:Encrypt/Decrypt": true,
       "periodic-notes:Open today": false
     }
   },
-  "active": "cda5f50594651ff0",
+  "active": "8f644dbaf9d5eea6",
   "lastOpenFiles": [
-    "Media-Temp/Pasted image 20240314082630.png.md",
-    "Islam/Pre-Islamic World/The Kaaba.md",
-    "Sciences/Applied Sciences/Prompt Engineering/Programming Prompts.md",
-    "Sciences/Applied Sciences/Programming/Programming.md",
-    "Sciences/Applied Sciences/Programming/AI/AI - FAQs - Video Preparation.md",
-    "t.me/E3adettashgheel.md",
-    "t.me",
-    "Sciences/Social Sciences/Communication/Writing/Blogs/Attachments - How to log EVERYTHING in PyTorch Lightning - A Manual Approach/Nested List and Dict Comprehension - Unravelling Confusing Syntax.md",
-    "Personal Dictionary/ar/ar.md",
-    "Secrets/Exam Preparations/MBZUAI Exam Preparation.md",
-    "Tasks/Personal Tasks/Weekly/2024-W01.md",
-    "Tasks/Personal Tasks/Weekly/Attachments - 2024-W01/2024-01.md",
-    "Tasks/Personal Tasks/Weekly/Attachments - 2024-W01/2024-01-07.md",
-    "Tasks/Personal Tasks/Yearly/Annual Template.md",
-    "Tasks/Personal Tasks/Daily/2024-01-07.md",
-    "Tasks/Personal Tasks/Weekly/2024-W08.md",
-    "Media-Temp",
-    "Media-Temp/Pasted image 20240316085042.png.md",
-    "Sciences/Applied Sciences/Programming/Python/Python Environments/Conda Environment.md",
-    "Sciences/Applied Sciences/Programming/Terminals/Media-Temp",
-    "Sciences/Applied Sciences/Programming/Terminals"
+    "Islam/Courses/Finance (بالبركة والقلم)/قائمة أفكار ضبط البوصلة.pdf",
+    "Islam/Courses/Finance (بالبركة والقلم)/قائمة أفكار ضبط البوصلة.pdf.crdownload",
+    "Islam/Quran Related/66. Surah Al-Tahreem (التحريم).md",
+    "Islam/Courses/Finance (بالبركة والقلم)/ضبط البوصلة في الفلوس.md",
+    "Islam/Courses/Finance (بالبركة والقلم)",
+    "Islam/Quran Related/62. Surah Al-Jumu'ah (الجمعة).md",
+    "Islam/Quran Related/Media-Temp/Pasted image 20240618191034.png",
+    "Islam/Quran Related/Media-Temp/Pasted image 20240618191026.png",
+    "Islam/Quran Related/Media-Temp/Pasted image 20240618191017.png",
+    "Islam/Quran Related/Media-Temp/Pasted image 20240618190957.png",
+    "Islam/Quran Related/Media-Temp/Pasted image 20240618190938.png",
+    "Islam/Quran Related/Media-Temp/Pasted image 20240618190922.png",
+    "Islam/Quran Related/Media-Temp/Pasted image 20240618185954.png",
+    "Islam/Quran Related/Media-Temp/Pasted image 20240618185453.png",
+    "Islam/Quran Related/53. Surah An-Najm (النجم).md",
+    "Personal Dictionary/ar/إدراج.md",
+    "Personal Dictionary/ar/تطويق.md",
+    "Personal Dictionary/ar/تثبيط.md",
+    "Personal Dictionary/en-US/Startle.md",
+    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
+    "Personal Dictionary/en-US/Edifice.md",
+    "Islam/Courses/Helper (معين)/3.1 خارطة أشرف.md",
+    "Islam/Courses/Helper (معين)/Media-Temp/Pasted image 20240614193246.png",
+    "Islam/Courses/Helper (معين)/Media-Temp/Pasted image 20240614192533.png",
+    "Islam/Courses/Helper (معين)/Media-Temp",
+    "Zettelkasten/Fleeting Notes/AI/Recursive Character Text Splitter.md",
+    "Zettelkasten/Fleeting Notes/AI/Media-Temp",
+    "Islam/Courses/Helper (معين)/قضية التوفيق والحرمان لا المعرفة والبيان.md",
+    "Zettelkasten/Fleeting Notes/AI",
+    "Islam/Courses/Helper (معين)/كيفية معرفة المهارات.md",
+    "Islam/Courses/Helper (معين)/لماذا سميت عمرة.md",
+    "Tasks/Personal Tasks/Daily/2024-06-03.md",
+    "Tasks/Personal Tasks/Daily/2024-06-04.md",
+    "Islam/Courses/Helper (معين)/3.0 تلخيص - الخارطة والمنهجية (الخطة).pdf",
+    "Islam/Courses/Helper (معين)/3.3 نصائح من لطفي على العادات.mdenc",
+    "Personal Dictionary/en-US/Bouts.md",
+    "Personal Dictionary/en-US/Runner's High.md",
+    "Personal Dictionary/en-US/Morphine.md",
+    "Islam/Courses/Helper (معين)/3.2. كتابة_الأهداف_وتقسيمها_إلى_مشاريع_ومهام.pdf",
+    "Tasks/Personal Tasks/Daily/2024-06-02.md",
+    "Islam/Courses/Helper (معين)/كتابة_الأهداف_وتقسيمها_إلى_مشاريع_ومهام.pdf",
+    "Islam/Courses/Self Restart (إعادة تشغيل الذات)/3. السلوكيات والعادات.md",
+    "Islam/Courses/Helper (معين)/2. المقدمة التعريفية لبرنامج معين.md",
+    "Islam/Courses/Helper (معين)/نصيحة من لطفي على العادات.7z",
+    "Tasks/Personal Tasks/Weekly/2024-W22.md",
+    "Zettelkasten/The Hierarchy of Defense Mechanisms.md"
   ]
 }

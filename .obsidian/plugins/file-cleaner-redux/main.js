@@ -174,18 +174,21 @@ var require_moment = __commonJS({
         };
       }
       function isValid(m) {
-        if (m._isValid == null) {
-          var flags = getParsingFlags(m), parsedParts = some.call(flags.parsedDateParts, function(i) {
+        var flags = null, parsedParts = false, isNowValid = m._d && !isNaN(m._d.getTime());
+        if (isNowValid) {
+          flags = getParsingFlags(m);
+          parsedParts = some.call(flags.parsedDateParts, function(i) {
             return i != null;
-          }), isNowValid = !isNaN(m._d.getTime()) && flags.overflow < 0 && !flags.empty && !flags.invalidEra && !flags.invalidMonth && !flags.invalidWeekday && !flags.weekdayMismatch && !flags.nullInput && !flags.invalidFormat && !flags.userInvalidated && (!flags.meridiem || flags.meridiem && parsedParts);
+          });
+          isNowValid = flags.overflow < 0 && !flags.empty && !flags.invalidEra && !flags.invalidMonth && !flags.invalidWeekday && !flags.weekdayMismatch && !flags.nullInput && !flags.invalidFormat && !flags.userInvalidated && (!flags.meridiem || flags.meridiem && parsedParts);
           if (m._strict) {
             isNowValid = isNowValid && flags.charsLeftOver === 0 && flags.unusedTokens.length === 0 && flags.bigHour === void 0;
           }
-          if (Object.isFrozen == null || !Object.isFrozen(m)) {
-            m._isValid = isNowValid;
-          } else {
-            return isNowValid;
-          }
+        }
+        if (Object.isFrozen == null || !Object.isFrozen(m)) {
+          m._isValid = isNowValid;
+        } else {
+          return isNowValid;
         }
         return m._isValid;
       }
@@ -499,11 +502,56 @@ var require_moment = __commonJS({
         var format2 = this._relativeTime[diff2 > 0 ? "future" : "past"];
         return isFunction(format2) ? format2(output) : format2.replace(/%s/i, output);
       }
-      var aliases = {};
-      function addUnitAlias(unit, shorthand) {
-        var lowerCase = unit.toLowerCase();
-        aliases[lowerCase] = aliases[lowerCase + "s"] = aliases[shorthand] = unit;
-      }
+      var aliases = {
+        D: "date",
+        dates: "date",
+        date: "date",
+        d: "day",
+        days: "day",
+        day: "day",
+        e: "weekday",
+        weekdays: "weekday",
+        weekday: "weekday",
+        E: "isoWeekday",
+        isoweekdays: "isoWeekday",
+        isoweekday: "isoWeekday",
+        DDD: "dayOfYear",
+        dayofyears: "dayOfYear",
+        dayofyear: "dayOfYear",
+        h: "hour",
+        hours: "hour",
+        hour: "hour",
+        ms: "millisecond",
+        milliseconds: "millisecond",
+        millisecond: "millisecond",
+        m: "minute",
+        minutes: "minute",
+        minute: "minute",
+        M: "month",
+        months: "month",
+        month: "month",
+        Q: "quarter",
+        quarters: "quarter",
+        quarter: "quarter",
+        s: "second",
+        seconds: "second",
+        second: "second",
+        gg: "weekYear",
+        weekyears: "weekYear",
+        weekyear: "weekYear",
+        GG: "isoWeekYear",
+        isoweekyears: "isoWeekYear",
+        isoweekyear: "isoWeekYear",
+        w: "week",
+        weeks: "week",
+        week: "week",
+        W: "isoWeek",
+        isoweeks: "isoWeek",
+        isoweek: "isoWeek",
+        y: "year",
+        years: "year",
+        year: "year"
+      };
       function normalizeUnits(units) {
         return typeof units === "string" ? aliases[units] || aliases[units.toLowerCase()] : void 0;
       }
@@ -519,10 +567,24 @@ var require_moment = __commonJS({
         }
         return normalizedInput;
       }
-      var priorities = {};
-      function addUnitPriority(unit, priority) {
-        priorities[unit] = priority;
-      }
+      var priorities = {
+        date: 9,
+        day: 11,
+        weekday: 11,
+        isoWeekday: 11,
+        dayOfYear: 4,
+        hour: 13,
+        millisecond: 16,
+        minute: 14,
+        month: 8,
+        quarter: 7,
+        second: 15,
+        weekYear: 1,
+        isoWeekYear: 1,
+        week: 5,
+        isoWeek: 5,
+        year: 1
+      };
       function getPrioritizedUnits(unitsObj) {
         var units = [], u;
         for (u in unitsObj) {
@@ -535,70 +597,7 @@ var require_moment = __commonJS({
         });
         return units;
       }
-      function isLeapYear(year) {
-        return year % 4 === 0 && year % 100 !== 0 || year % 400 === 0;
-      }
-      function absFloor(number) {
-        if (number < 0) {
-          return Math.ceil(number) || 0;
-        } else {
-          return Math.floor(number);
-        }
-      }
-      function toInt(argumentForCoercion) {
-        var coercedNumber = +argumentForCoercion, value = 0;
-        if (coercedNumber !== 0 && isFinite(coercedNumber)) {
-          value = absFloor(coercedNumber);
-        }
-        return value;
-      }
-      function makeGetSet(unit, keepTime) {
-        return function(value) {
-          if (value != null) {
-            set$1(this, unit, value);
-            hooks.updateOffset(this, keepTime);
-            return this;
-          } else {
-            return get(this, unit);
-          }
-        };
-      }
-      function get(mom, unit) {
-        return mom.isValid() ? mom._d["get" + (mom._isUTC ? "UTC" : "") + unit]() : NaN;
-      }
-      function set$1(mom, unit, value) {
-        if (mom.isValid() && !isNaN(value)) {
-          if (unit === "FullYear" && isLeapYear(mom.year()) && mom.month() === 1 && mom.date() === 29) {
-            value = toInt(value);
-            mom._d["set" + (mom._isUTC ? "UTC" : "") + unit](value, mom.month(), daysInMonth(value, mom.month()));
-          } else {
-            mom._d["set" + (mom._isUTC ? "UTC" : "") + unit](value);
-          }
-        }
-      }
-      function stringGet(units) {
-        units = normalizeUnits(units);
-        if (isFunction(this[units])) {
-          return this[units]();
-        }
-        return this;
-      }
-      function stringSet(units, value) {
-        if (typeof units === "object") {
-          units = normalizeObjectUnits(units);
-          var prioritized = getPrioritizedUnits(units), i, prioritizedLen = prioritized.length;
-          for (i = 0; i < prioritizedLen; i++) {
-            this[prioritized[i].unit](units[prioritized[i].unit]);
-          }
-        } else {
-          units = normalizeUnits(units);
-          if (isFunction(this[units])) {
-            return this[units](value);
-          }
-        }
-        return this;
-      }
-      var match1 = /\d/, match2 = /\d\d/, match3 = /\d{3}/, match4 = /\d{4}/, match6 = /[+-]?\d{6}/, match1to2 = /\d\d?/, match3to4 = /\d\d\d\d?/, match5to6 = /\d\d\d\d\d\d?/, match1to3 = /\d{1,3}/, match1to4 = /\d{1,4}/, match1to6 = /[+-]?\d{1,6}/, matchUnsigned = /\d+/, matchSigned = /[+-]?\d+/, matchOffset = /Z|[+-]\d\d:?\d\d/gi, matchShortOffset = /Z|[+-]\d\d(?::?\d\d)?/gi, matchTimestamp = /[+-]?\d+(\.\d{1,3})?/, matchWord = /[0-9]{0,256}['a-z\u00A0-\u05FF\u0700-\uD7FF\uF900-\uFDCF\uFDF0-\uFF07\uFF10-\uFFEF]{1,256}|[\u0600-\u06FF\/]{1,256}(\s*?[\u0600-\u06FF]{1,256}){1,2}/i, regexes;
+      var match1 = /\d/, match2 = /\d\d/, match3 = /\d{3}/, match4 = /\d{4}/, match6 = /[+-]?\d{6}/, match1to2 = /\d\d?/, match3to4 = /\d\d\d\d?/, match5to6 = /\d\d\d\d\d\d?/, match1to3 = /\d{1,3}/, match1to4 = /\d{1,4}/, match1to6 = /[+-]?\d{1,6}/, matchUnsigned = /\d+/, matchSigned = /[+-]?\d+/, matchOffset = /Z|[+-]\d\d:?\d\d/gi, matchShortOffset = /Z|[+-]\d\d(?::?\d\d)?/gi, matchTimestamp = /[+-]?\d+(\.\d{1,3})?/, matchWord = /[0-9]{0,256}['a-z\u00A0-\u05FF\u0700-\uD7FF\uF900-\uFDCF\uFDF0-\uFF07\uFF10-\uFFEF]{1,256}|[\u0600-\u06FF\/]{1,256}(\s*?[\u0600-\u06FF]{1,256}){1,2}/i, match1to2NoLeadingZero = /^[1-9]\d?/, match1to2HasZero = /^([1-9]\d|\d)/, regexes;
       regexes = {};
       function addRegexToken(token2, regex, strictRegex) {
         regexes[token2] = isFunction(regex) ? regex : function(isStrict, localeData2) {
@@ -618,6 +617,20 @@ var require_moment = __commonJS({
       }
       function regexEscape(s) {
         return s.replace(/[-\/\\^$*+?.()|[\]{}]/g, "\\$&");
+      }
+      function absFloor(number) {
+        if (number < 0) {
+          return Math.ceil(number) || 0;
+        } else {
+          return Math.floor(number);
+        }
+      }
+      function toInt(argumentForCoercion) {
+        var coercedNumber = +argumentForCoercion, value = 0;
+        if (coercedNumber !== 0 && isFinite(coercedNumber)) {
+          value = absFloor(coercedNumber);
+        }
+        return value;
       }
       var tokens = {};
       function addParseToken(token2, callback) {
@@ -646,7 +659,133 @@ var require_moment = __commonJS({
           tokens[token2](input, config._a, config, token2);
         }
       }
+      function isLeapYear(year) {
+        return year % 4 === 0 && year % 100 !== 0 || year % 400 === 0;
+      }
       var YEAR = 0, MONTH = 1, DATE = 2, HOUR = 3, MINUTE = 4, SECOND = 5, MILLISECOND = 6, WEEK = 7, WEEKDAY = 8;
+      addFormatToken("Y", 0, 0, function() {
+        var y = this.year();
+        return y <= 9999 ? zeroFill(y, 4) : "+" + y;
+      });
+      addFormatToken(0, ["YY", 2], 0, function() {
+        return this.year() % 100;
+      });
+      addFormatToken(0, ["YYYY", 4], 0, "year");
+      addFormatToken(0, ["YYYYY", 5], 0, "year");
+      addFormatToken(0, ["YYYYYY", 6, true], 0, "year");
+      addRegexToken("Y", matchSigned);
+      addRegexToken("YY", match1to2, match2);
+      addRegexToken("YYYY", match1to4, match4);
+      addRegexToken("YYYYY", match1to6, match6);
+      addRegexToken("YYYYYY", match1to6, match6);
+      addParseToken(["YYYYY", "YYYYYY"], YEAR);
+      addParseToken("YYYY", function(input, array) {
+        array[YEAR] = input.length === 2 ? hooks.parseTwoDigitYear(input) : toInt(input);
+      });
+      addParseToken("YY", function(input, array) {
+        array[YEAR] = hooks.parseTwoDigitYear(input);
+      });
+      addParseToken("Y", function(input, array) {
+        array[YEAR] = parseInt(input, 10);
+      });
+      function daysInYear(year) {
+        return isLeapYear(year) ? 366 : 365;
+      }
+      hooks.parseTwoDigitYear = function(input) {
+        return toInt(input) + (toInt(input) > 68 ? 1900 : 2e3);
+      };
+      var getSetYear = makeGetSet("FullYear", true);
+      function getIsLeapYear() {
+        return isLeapYear(this.year());
+      }
+      function makeGetSet(unit, keepTime) {
+        return function(value) {
+          if (value != null) {
+            set$1(this, unit, value);
+            hooks.updateOffset(this, keepTime);
+            return this;
+          } else {
+            return get(this, unit);
+          }
+        };
+      }
+      function get(mom, unit) {
+        if (!mom.isValid()) {
+          return NaN;
+        }
+        var d = mom._d, isUTC = mom._isUTC;
+        switch (unit) {
+          case "Milliseconds":
+            return isUTC ? d.getUTCMilliseconds() : d.getMilliseconds();
+          case "Seconds":
+            return isUTC ? d.getUTCSeconds() : d.getSeconds();
+          case "Minutes":
+            return isUTC ? d.getUTCMinutes() : d.getMinutes();
+          case "Hours":
+            return isUTC ? d.getUTCHours() : d.getHours();
+          case "Date":
+            return isUTC ? d.getUTCDate() : d.getDate();
+          case "Day":
+            return isUTC ? d.getUTCDay() : d.getDay();
+          case "Month":
+            return isUTC ? d.getUTCMonth() : d.getMonth();
+          case "FullYear":
+            return isUTC ? d.getUTCFullYear() : d.getFullYear();
+          default:
+            return NaN;
+        }
+      }
+      function set$1(mom, unit, value) {
+        var d, isUTC, year, month, date;
+        if (!mom.isValid() || isNaN(value)) {
+          return;
+        }
+        d = mom._d;
+        isUTC = mom._isUTC;
+        switch (unit) {
+          case "Milliseconds":
+            return void (isUTC ? d.setUTCMilliseconds(value) : d.setMilliseconds(value));
+          case "Seconds":
+            return void (isUTC ? d.setUTCSeconds(value) : d.setSeconds(value));
+          case "Minutes":
+            return void (isUTC ? d.setUTCMinutes(value) : d.setMinutes(value));
+          case "Hours":
+            return void (isUTC ? d.setUTCHours(value) : d.setHours(value));
+          case "Date":
+            return void (isUTC ? d.setUTCDate(value) : d.setDate(value));
+          case "FullYear":
+            break;
+          default:
+            return;
+        }
+        year = value;
+        month = mom.month();
+        date = mom.date();
+        date = date === 29 && month === 1 && !isLeapYear(year) ? 28 : date;
+        void (isUTC ? d.setUTCFullYear(year, month, date) : d.setFullYear(year, month, date));
+      }
+      function stringGet(units) {
+        units = normalizeUnits(units);
+        if (isFunction(this[units])) {
+          return this[units]();
+        }
+        return this;
+      }
+      function stringSet(units, value) {
+        if (typeof units === "object") {
+          units = normalizeObjectUnits(units);
+          var prioritized = getPrioritizedUnits(units), i, prioritizedLen = prioritized.length;
+          for (i = 0; i < prioritizedLen; i++) {
+            this[prioritized[i].unit](units[prioritized[i].unit]);
+          }
+        } else {
+          units = normalizeUnits(units);
+          if (isFunction(this[units])) {
+            return this[units](value);
+          }
+        }
+        return this;
+      }
       function mod(n, x) {
         return (n % x + x) % x;
       }
@@ -681,9 +820,7 @@ var require_moment = __commonJS({
       addFormatToken("MMMM", 0, 0, function(format2) {
         return this.localeData().months(this, format2);
       });
-      addUnitAlias("month", "M");
-      addUnitPriority("month", 8);
-      addRegexToken("M", match1to2);
+      addRegexToken("M", match1to2, match1to2NoLeadingZero);
       addRegexToken("MM", match1to2, match2);
       addRegexToken("MMM", function(isStrict, locale3) {
         return locale3.monthsShortRegex(isStrict);
@@ -783,7 +920,6 @@ var require_moment = __commonJS({
         }
       }
       function setMonth(mom, value) {
-        var dayOfMonth;
         if (!mom.isValid()) {
           return mom;
         }
@@ -797,8 +933,9 @@ var require_moment = __commonJS({
             }
           }
         }
-        dayOfMonth = Math.min(mom.date(), daysInMonth(mom.year(), value));
-        mom._d["set" + (mom._isUTC ? "UTC" : "") + "Month"](value, dayOfMonth);
+        var month = value, date = mom.date();
+        date = date < 29 ? date : Math.min(date, daysInMonth(mom.year(), month));
+        void (mom._isUTC ? mom._d.setUTCMonth(month, date) : mom._d.setMonth(month, date));
         return mom;
       }
       function getSetMonth(value) {
@@ -851,65 +988,23 @@ var require_moment = __commonJS({
         function cmpLenRev(a, b) {
           return b.length - a.length;
         }
-        var shortPieces = [], longPieces = [], mixedPieces = [], i, mom;
+        var shortPieces = [], longPieces = [], mixedPieces = [], i, mom, shortP, longP;
         for (i = 0; i < 12; i++) {
           mom = createUTC([2e3, i]);
-          shortPieces.push(this.monthsShort(mom, ""));
-          longPieces.push(this.months(mom, ""));
-          mixedPieces.push(this.months(mom, ""));
-          mixedPieces.push(this.monthsShort(mom, ""));
+          shortP = regexEscape(this.monthsShort(mom, ""));
+          longP = regexEscape(this.months(mom, ""));
+          shortPieces.push(shortP);
+          longPieces.push(longP);
+          mixedPieces.push(longP);
+          mixedPieces.push(shortP);
         }
         shortPieces.sort(cmpLenRev);
         longPieces.sort(cmpLenRev);
         mixedPieces.sort(cmpLenRev);
-        for (i = 0; i < 12; i++) {
-          shortPieces[i] = regexEscape(shortPieces[i]);
-          longPieces[i] = regexEscape(longPieces[i]);
-        }
-        for (i = 0; i < 24; i++) {
-          mixedPieces[i] = regexEscape(mixedPieces[i]);
-        }
         this._monthsRegex = new RegExp("^(" + mixedPieces.join("|") + ")", "i");
         this._monthsShortRegex = this._monthsRegex;
         this._monthsStrictRegex = new RegExp("^(" + longPieces.join("|") + ")", "i");
         this._monthsShortStrictRegex = new RegExp("^(" + shortPieces.join("|") + ")", "i");
-      }
-      addFormatToken("Y", 0, 0, function() {
-        var y = this.year();
-        return y <= 9999 ? zeroFill(y, 4) : "+" + y;
-      });
-      addFormatToken(0, ["YY", 2], 0, function() {
-        return this.year() % 100;
-      });
-      addFormatToken(0, ["YYYY", 4], 0, "year");
-      addFormatToken(0, ["YYYYY", 5], 0, "year");
-      addFormatToken(0, ["YYYYYY", 6, true], 0, "year");
-      addUnitAlias("year", "y");
-      addUnitPriority("year", 1);
-      addRegexToken("Y", matchSigned);
-      addRegexToken("YY", match1to2, match2);
-      addRegexToken("YYYY", match1to4, match4);
-      addRegexToken("YYYYY", match1to6, match6);
-      addRegexToken("YYYYYY", match1to6, match6);
-      addParseToken(["YYYYY", "YYYYYY"], YEAR);
-      addParseToken("YYYY", function(input, array) {
-        array[YEAR] = input.length === 2 ? hooks.parseTwoDigitYear(input) : toInt(input);
-      });
-      addParseToken("YY", function(input, array) {
-        array[YEAR] = hooks.parseTwoDigitYear(input);
-      });
-      addParseToken("Y", function(input, array) {
-        array[YEAR] = parseInt(input, 10);
-      });
-      function daysInYear(year) {
-        return isLeapYear(year) ? 366 : 365;
-      }
-      hooks.parseTwoDigitYear = function(input) {
-        return toInt(input) + (toInt(input) > 68 ? 1900 : 2e3);
-      };
-      var getSetYear = makeGetSet("FullYear", true);
-      function getIsLeapYear() {
-        return isLeapYear(this.year());
       }
       function createDate(y, m, d, h, M, s, ms) {
         var date;
@@ -981,13 +1076,9 @@ var require_moment = __commonJS({
       }
       addFormatToken("w", ["ww", 2], "wo", "week");
       addFormatToken("W", ["WW", 2], "Wo", "isoWeek");
-      addUnitAlias("week", "w");
-      addUnitAlias("isoWeek", "W");
-      addUnitPriority("week", 5);
-      addUnitPriority("isoWeek", 5);
-      addRegexToken("w", match1to2);
+      addRegexToken("w", match1to2, match1to2NoLeadingZero);
       addRegexToken("ww", match1to2, match2);
-      addRegexToken("W", match1to2);
+      addRegexToken("W", match1to2, match1to2NoLeadingZero);
       addRegexToken("WW", match1to2, match2);
       addWeekParseToken(["w", "ww", "W", "WW"], function(input, week, config, token2) {
         week[token2.substr(0, 1)] = toInt(input);
@@ -1025,12 +1116,6 @@ var require_moment = __commonJS({
       });
       addFormatToken("e", 0, 0, "weekday");
       addFormatToken("E", 0, 0, "isoWeekday");
-      addUnitAlias("day", "d");
-      addUnitAlias("weekday", "e");
-      addUnitAlias("isoWeekday", "E");
-      addUnitPriority("day", 11);
-      addUnitPriority("weekday", 11);
-      addUnitPriority("isoWeekday", 11);
       addRegexToken("d", match1to2);
       addRegexToken("e", match1to2);
       addRegexToken("E", match1to2);
@@ -1185,7 +1270,7 @@ var require_moment = __commonJS({
         if (!this.isValid()) {
           return input != null ? this : NaN;
         }
-        var day = this._isUTC ? this._d.getUTCDay() : this._d.getDay();
+        var day = get(this, "Day");
         if (input != null) {
           input = parseWeekday(input, this.localeData());
           return this.add(input - day, "d");
@@ -1318,16 +1403,14 @@ var require_moment = __commonJS({
       }
       meridiem("a", true);
       meridiem("A", false);
-      addUnitAlias("hour", "h");
-      addUnitPriority("hour", 13);
       function matchMeridiem(isStrict, locale3) {
         return locale3._meridiemParse;
       }
       addRegexToken("a", matchMeridiem);
       addRegexToken("A", matchMeridiem);
-      addRegexToken("H", match1to2);
-      addRegexToken("h", match1to2);
-      addRegexToken("k", match1to2);
+      addRegexToken("H", match1to2, match1to2HasZero);
+      addRegexToken("h", match1to2, match1to2NoLeadingZero);
+      addRegexToken("k", match1to2, match1to2NoLeadingZero);
       addRegexToken("HH", match1to2, match2);
       addRegexToken("hh", match1to2, match2);
       addRegexToken("kk", match1to2, match2);
@@ -1433,7 +1516,7 @@ var require_moment = __commonJS({
         return globalLocale;
       }
       function isLocaleNameSane(name) {
-        return name.match("^[^/\\\\]*$") != null;
+        return !!(name && name.match("^[^/\\\\]*$"));
       }
       function loadLocale(name) {
         var oldLocale = null, aliasedRequire;
@@ -3049,14 +3132,17 @@ var require_moment = __commonJS({
         return locale3._eraYearOrdinalRegex || matchUnsigned;
       }
       function computeErasParse() {
-        var abbrPieces = [], namePieces = [], narrowPieces = [], mixedPieces = [], i, l, eras = this.eras();
+        var abbrPieces = [], namePieces = [], narrowPieces = [], mixedPieces = [], i, l, erasName, erasAbbr, erasNarrow, eras = this.eras();
         for (i = 0, l = eras.length; i < l; ++i) {
-          namePieces.push(regexEscape(eras[i].name));
-          abbrPieces.push(regexEscape(eras[i].abbr));
-          narrowPieces.push(regexEscape(eras[i].narrow));
-          mixedPieces.push(regexEscape(eras[i].name));
-          mixedPieces.push(regexEscape(eras[i].abbr));
-          mixedPieces.push(regexEscape(eras[i].narrow));
+          erasName = regexEscape(eras[i].name);
+          erasAbbr = regexEscape(eras[i].abbr);
+          erasNarrow = regexEscape(eras[i].narrow);
+          namePieces.push(erasName);
+          abbrPieces.push(erasAbbr);
+          narrowPieces.push(erasNarrow);
+          mixedPieces.push(erasName);
+          mixedPieces.push(erasAbbr);
+          mixedPieces.push(erasNarrow);
         }
         this._erasRegex = new RegExp("^(" + mixedPieces.join("|") + ")", "i");
         this._erasNameRegex = new RegExp("^(" + namePieces.join("|") + ")", "i");
@@ -3076,10 +3162,6 @@ var require_moment = __commonJS({
       addWeekYearFormatToken("ggggg", "weekYear");
       addWeekYearFormatToken("GGGG", "isoWeekYear");
       addWeekYearFormatToken("GGGGG", "isoWeekYear");
-      addUnitAlias("weekYear", "gg");
-      addUnitAlias("isoWeekYear", "GG");
-      addUnitPriority("weekYear", 1);
-      addUnitPriority("isoWeekYear", 1);
       addRegexToken("G", matchSigned);
       addRegexToken("g", matchSigned);
       addRegexToken("GG", match1to2, match2);
@@ -3095,7 +3177,7 @@ var require_moment = __commonJS({
         week[token2] = hooks.parseTwoDigitYear(input);
       });
       function getSetWeekYear(input) {
-        return getSetWeekYearHelper.call(this, input, this.week(), this.weekday(), this.localeData()._week.dow, this.localeData()._week.doy);
+        return getSetWeekYearHelper.call(this, input, this.week(), this.weekday() + this.localeData()._week.dow, this.localeData()._week.dow, this.localeData()._week.doy);
       }
       function getSetISOWeekYear(input) {
         return getSetWeekYearHelper.call(this, input, this.isoWeek(), this.isoWeekday(), 1, 4);
@@ -3134,8 +3216,6 @@ var require_moment = __commonJS({
         return this;
       }
       addFormatToken("Q", 0, "Qo", "quarter");
-      addUnitAlias("quarter", "Q");
-      addUnitPriority("quarter", 7);
       addRegexToken("Q", match1);
       addParseToken("Q", function(input, array) {
         array[MONTH] = (toInt(input) - 1) * 3;
@@ -3144,9 +3224,7 @@ var require_moment = __commonJS({
         return input == null ? Math.ceil((this.month() + 1) / 3) : this.month((input - 1) * 3 + this.month() % 3);
       }
       addFormatToken("D", ["DD", 2], "Do", "date");
-      addUnitAlias("date", "D");
-      addUnitPriority("date", 9);
-      addRegexToken("D", match1to2);
+      addRegexToken("D", match1to2, match1to2NoLeadingZero);
       addRegexToken("DD", match1to2, match2);
       addRegexToken("Do", function(isStrict, locale3) {
         return isStrict ? locale3._dayOfMonthOrdinalParse || locale3._ordinalParse : locale3._dayOfMonthOrdinalParseLenient;
@@ -3157,8 +3235,6 @@ var require_moment = __commonJS({
       });
       var getSetDayOfMonth = makeGetSet("Date", true);
       addFormatToken("DDD", ["DDDD", 3], "DDDo", "dayOfYear");
-      addUnitAlias("dayOfYear", "DDD");
-      addUnitPriority("dayOfYear", 4);
       addRegexToken("DDD", match1to3);
       addRegexToken("DDDD", match3);
       addParseToken(["DDD", "DDDD"], function(input, array, config) {
@@ -3169,16 +3245,12 @@ var require_moment = __commonJS({
         return input == null ? dayOfYear : this.add(input - dayOfYear, "d");
       }
       addFormatToken("m", ["mm", 2], 0, "minute");
-      addUnitAlias("minute", "m");
-      addUnitPriority("minute", 14);
-      addRegexToken("m", match1to2);
+      addRegexToken("m", match1to2, match1to2HasZero);
       addRegexToken("mm", match1to2, match2);
       addParseToken(["m", "mm"], MINUTE);
       var getSetMinute = makeGetSet("Minutes", false);
       addFormatToken("s", ["ss", 2], 0, "second");
-      addUnitAlias("second", "s");
-      addUnitPriority("second", 15);
-      addRegexToken("s", match1to2);
+      addRegexToken("s", match1to2, match1to2HasZero);
       addRegexToken("ss", match1to2, match2);
       addParseToken(["s", "ss"], SECOND);
       var getSetSecond = makeGetSet("Seconds", false);
@@ -3207,8 +3279,6 @@ var require_moment = __commonJS({
       addFormatToken(0, ["SSSSSSSSS", 9], 0, function() {
         return this.millisecond() * 1e6;
       });
-      addUnitAlias("millisecond", "ms");
-      addUnitPriority("millisecond", 16);
       addRegexToken("S", match1to3, match1);
       addRegexToken("SS", match1to3, match2);
       addRegexToken("SSS", match1to3, match3);
@@ -3549,18 +3619,12 @@ var require_moment = __commonJS({
           }
         }
       }
-      function valueOf$1() {
-        if (!this.isValid()) {
-          return NaN;
-        }
-        return this._milliseconds + this._days * 864e5 + this._months % 12 * 2592e6 + toInt(this._months / 12) * 31536e6;
-      }
       function makeAs(alias) {
         return function() {
           return this.as(alias);
         };
       }
-      var asMilliseconds = makeAs("ms"), asSeconds = makeAs("s"), asMinutes = makeAs("m"), asHours = makeAs("h"), asDays = makeAs("d"), asWeeks = makeAs("w"), asMonths = makeAs("M"), asQuarters = makeAs("Q"), asYears = makeAs("y");
+      var asMilliseconds = makeAs("ms"), asSeconds = makeAs("s"), asMinutes = makeAs("m"), asHours = makeAs("h"), asDays = makeAs("d"), asWeeks = makeAs("w"), asMonths = makeAs("M"), asQuarters = makeAs("Q"), asYears = makeAs("y"), valueOf$1 = asMilliseconds;
       function clone$1() {
         return createDuration(this);
       }
@@ -3718,7 +3782,7 @@ var require_moment = __commonJS({
       addParseToken("x", function(input, array, config) {
         config._d = new Date(toInt(input));
       });
-      hooks.version = "2.29.4";
+      hooks.version = "2.30.1";
       setHookCallback(createLocal);
       hooks.fn = proto;
       hooks.min = min;
@@ -3808,9 +3872,18 @@ var enUS = {
         Description: "The folders below should be excluded from or included in the cleanup process."
       },
       Attachments: {
-        Label: "Attachment extensions",
-        Description: "Unused attachements which should be cleaned up, the `.*` wildcard can be used to select all extensions. Comma-separated.",
-        Placeholder: "Example:.jpg, .png, .pdf, .*"
+        Excluded: {
+          Label: "Excluded Attachment extensions",
+          Description: "List of extensions that should be ignored during cleanup, all other files are included, the `.*` wildcard can be used to select all extensions. Comma-separated.",
+          Placeholder: "Example:.jpg, .png, .pdf, .*"
+        },
+        Included: {
+          Label: "Included Attachment extensions",
+          Description: "List of extensions that should be included during cleanup, all other files are ignored, the `.*` wildcard can be used to select all extensions. Comma-separated.",
+          Placeholder: "Example:.jpg, .png, .pdf, .*"
+        },
+        Label: "Excluded / Included Extensions",
+        Description: "The attachment extensiosn below should be excluded from or included in the cleanup process."
       },
       IgnoredFrontmatter: {
         Label: "Ignored frontmatter",
@@ -4000,6 +4073,7 @@ var DEFAULT_SETTINGS = {
   deletionDestination: Deletion.SystemTrash,
   excludeInclude: ExcludeInclude.Exclude,
   excludedFolders: [],
+  attachmentsExcludeInclude: ExcludeInclude.Include,
   attachmentExtensions: [],
   deletionConfirmation: true,
   runOnStartup: false,
@@ -4045,12 +4119,19 @@ var FileCleanerSettingTab = class extends import_obsidian2.PluginSettingTab {
       text.inputEl.rows = 8;
       text.inputEl.cols = 30;
     });
-    new import_obsidian2.Setting(containerEl).setName(translate().Settings.RegularOptions.Attachments.Label).setDesc(translate().Settings.RegularOptions.Attachments.Description).addTextArea((text) => {
+    new import_obsidian2.Setting(containerEl).setName(translate().Settings.RegularOptions.Attachments.Label).setDesc(translate().Settings.RegularOptions.Attachments.Description).addToggle((toggle) => {
+      toggle.setValue(Boolean(this.plugin.settings.attachmentsExcludeInclude));
+      toggle.onChange((value) => {
+        this.plugin.settings.attachmentsExcludeInclude = Number(value);
+        this.display();
+      });
+    });
+    new import_obsidian2.Setting(containerEl).setName(this.plugin.settings.attachmentsExcludeInclude ? translate().Settings.RegularOptions.Attachments.Included.Label : translate().Settings.RegularOptions.Attachments.Excluded.Label).setDesc(this.plugin.settings.attachmentsExcludeInclude ? translate().Settings.RegularOptions.Attachments.Included.Description : translate().Settings.RegularOptions.Attachments.Excluded.Description).addTextArea((text) => {
       text.setValue(this.plugin.settings.attachmentExtensions.map((ext) => `.${ext}`).join(", ")).onChange((value) => __async(this, null, function* () {
         this.plugin.settings.attachmentExtensions = value.split(",").map((ext) => ext.trim()).filter((ext) => ext.startsWith(".") && ext.length > 1).filter((ext) => ext !== "").map((ext) => ext.replace(/^\./, ""));
         this.plugin.saveSettings();
       }));
-      text.setPlaceholder(translate().Settings.RegularOptions.Attachments.Placeholder);
+      text.setPlaceholder(this.plugin.settings.attachmentsExcludeInclude ? translate().Settings.RegularOptions.Attachments.Included.Placeholder : translate().Settings.RegularOptions.Attachments.Excluded.Placeholder);
       text.inputEl.rows = 3;
       text.inputEl.cols = 30;
     });
@@ -4133,31 +4214,58 @@ function removeFiles(files, app, settings) {
     }
   });
 }
-function runCleanup(app, settings) {
+function getInUseAttachments(app) {
+  return Object.entries(app.metadataCache.resolvedLinks).map(([parent, child]) => Object.keys(child)).filter((file) => file.length > 0).reduce((prev, cur) => [...prev, ...cur], []).filter((file) => !file.endsWith(".md"));
+}
+function getCanvasCardAttachments(canvasNode) {
+  const matches = canvasNode.text.matchAll(/[!]?\[\[(.*?)\]\]/g);
+  const files = Array.from(matches).map((file) => {
+    if (file[0].startsWith("![["))
+      return file[1];
+    else
+      return `${file[1]}.md`;
+  });
+  return files;
+}
+function getCanvasAttachments(app) {
   return __async(this, null, function* () {
-    const indexingStart = Date.now();
-    const excludedFoldersRegex = RegExp(`^${settings.excludedFolders.join("|")}`);
-    const extensions = [...settings.attachmentExtensions].filter((extension) => extension !== "*");
-    if (settings.attachmentExtensions.includes("*"))
-      extensions.push("\\.*");
-    const allowedExtensions = RegExp(`${["md", ...extensions].join("|")}`);
-    const inUseAttachments = Object.entries(app.metadataCache.resolvedLinks).map(([parent, child]) => Object.keys(child)).filter((file) => file.length > 0).reduce((prev, cur) => [...prev, ...cur], []).filter((file) => !file.endsWith(".md"));
     const canvasAttachmentsInitial = yield Promise.all(app.vault.getFiles().filter((file) => file.extension == "canvas").map((file) => __async(this, null, function* () {
       return yield app.vault.read(file).then((raw) => {
         if (file.stat.size === 0)
           return [];
         try {
           const data = JSON.parse(raw);
-          return data["nodes"].filter((node) => node.type === "file" && !node.file.endsWith(".md")).map((node) => node.file).reduce((prev, cur) => [...prev, cur], []);
+          if (!data["nodes"])
+            return [];
+          const fileNodes = data["nodes"].filter((node) => node.type === "file" && !node.file.endsWith(".md")).map((node) => node.file).reduce((prev, cur) => [...prev, cur], []);
+          const cardNodes = data["nodes"].filter((node) => node.type === "text").map((node) => getCanvasCardAttachments(node)).reduce((prev, cur) => [...prev, ...cur], []);
+          return [...fileNodes, ...cardNodes];
         } catch (error) {
           new import_obsidian3.Notice(`Failed to parse canvas file: ${file.path}`);
         }
       });
     })));
-    const canvasAttachments = canvasAttachmentsInitial.reduce((prev, cur) => [...prev, ...cur], []);
+    return canvasAttachmentsInitial.filter((f) => f.length > 0).reduce((prev, cur) => [...prev, ...cur], []);
+  });
+}
+function runCleanup(app, settings) {
+  return __async(this, null, function* () {
+    const indexingStart = Date.now();
+    console.log(`File Cleaner Redux: Starting cleanup`);
+    const excludedFoldersRegex = RegExp(`^${settings.excludedFolders.join("|")}`);
+    const extensions = [...settings.attachmentExtensions].filter((extension) => extension !== "*");
+    if (settings.attachmentExtensions.includes("*"))
+      extensions.push(".*");
+    const allowedExtensions = RegExp(`^(${["md", ...extensions].join("|")})$`);
+    const inUseAttachments = getInUseAttachments(app);
+    const canvasAttachments = yield getCanvasAttachments(app);
     const allFilesAndFolders = app.vault.getAllLoadedFiles();
     const allFolders = allFilesAndFolders.filter((node) => node.hasOwnProperty("children"));
-    const initialEmptyFolders = settings.removeFolders ? allFolders.filter((folder) => folder.children.length === 0) : [];
+    const initialEmptyFolders = settings.removeFolders ? allFolders.filter((folder) => {
+      if (folder.isRoot())
+        return false;
+      return folder.children.length === 0;
+    }) : [];
     const emptyFolders = [];
     for (const folder of initialEmptyFolders) {
       let parent = folder.parent;
@@ -4170,7 +4278,13 @@ function runCleanup(app, settings) {
       }
     }
     const allFiles = allFilesAndFolders.filter((node) => !node.hasOwnProperty("children"));
-    const files = allFiles.filter((file) => file.extension.match(allowedExtensions)).filter((file) => {
+    const files = allFiles.filter((file) => settings.attachmentsExcludeInclude ? file.extension.match(allowedExtensions) : !file.extension.match(allowedExtensions)).filter((file) => {
+      if (file.extension !== "canvas")
+        return true;
+      if (file.stat.size < 50)
+        return true;
+      return false;
+    }).filter((file) => {
       if (file.extension !== "md")
         return true;
       const fileCache = app.metadataCache.getFileCache(file);
@@ -4182,8 +4296,11 @@ function runCleanup(app, settings) {
       if (settings.ignoredFrontmatter.length === 0)
         return false;
       if (sections.length === 1 && sections.at(0).type === "yaml") {
-        if (fileFrontmatter.toString() === settingsFrontmatter.toString())
-          return true;
+        for (const frontmatter of fileFrontmatter) {
+          if (!settingsFrontmatter.contains(frontmatter))
+            return false;
+        }
+        return true;
       }
       return false;
     }).filter((file) => !inUseAttachments.includes(file.path) && !canvasAttachments.includes(file.path) && file);
@@ -4196,13 +4313,21 @@ function runCleanup(app, settings) {
     });
     const indexingDuration = Date.now() - indexingStart;
     console.log(`File Cleaner Redux: Finished indexing ${allFiles.length} files and ${allFolders.length} folders in ${indexingDuration}ms`);
-    if (filesAndFolders.length == 0) {
-      new import_obsidian3.Notice(translate().Notifications.NoFileToClean);
-      return;
+    console.debug("Folders:");
+    for (const folder of emptyFolders) {
+      console.debug(folder);
+    }
+    console.debug("Files:");
+    for (const file of files) {
+      console.debug(file);
     }
     const fileCountText = `${files.length} file(s)`;
     const folderCountText = `${emptyFolders.length} folder(s)`;
     console.log(`File Cleaner Redux: Found ${fileCountText} and ${folderCountText} to remove`);
+    if (filesAndFolders.length == 0) {
+      new import_obsidian3.Notice(translate().Notifications.NoFileToClean);
+      return;
+    }
     if (!settings.deletionConfirmation)
       removeFiles(filesAndFolders, app, settings);
     else {
@@ -4256,4 +4381,4 @@ var FileCleanerPlugin = class extends import_obsidian4.Plugin {
 //! license : MIT
 //! moment.js
 //! momentjs.com
-//! version : 2.29.4
+//! version : 2.30.1

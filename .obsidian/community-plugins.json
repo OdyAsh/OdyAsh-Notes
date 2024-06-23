@@ -27,7 +27,6 @@
   "latex-matrices",
   "image2latex",
   "obsidian-hide-sidebars-when-narrow",
-  "media-extended",
   "mathlinks",
   "math-booster",
   "obsidian-trash-explorer",
@@ -49,5 +48,7 @@
   "obsidian-git",
   "obsidian-quiet-outline",
   "folder-note-plugin",
-  "waypoint"
+  "waypoint",
+  "meld-encrypt",
+  "obsidian-rtl"
 ]
