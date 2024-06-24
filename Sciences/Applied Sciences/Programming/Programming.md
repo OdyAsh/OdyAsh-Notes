@@ -30,7 +30,11 @@
 	- [DE Road Map](./Data%20Engineering/DE%20Road%20Map.md)
 	- **GCP**
 		- [GCP Big Data And ML Fundamentals Course](./Data%20Engineering/GCP/GCP%20Big%20Data%20And%20ML%20Fundamentals%20Course.md)
-		- [GCP Professional Data Engineer](./Data%20Engineering/GCP/GCP%20Professional%20Data%20Engineer.md)
+		- [GCP Professional Data Engineer Notes from Question Dumps](./Data%20Engineering/GCP/GCP%20Professional%20Data%20Engineer%20Notes%20from%20Question%20Dumps.md)
+		- [GCP Professional Data Engineer Question Dump 1 - Easily Solved](./Data%20Engineering/GCP/GCP%20Professional%20Data%20Engineer%20Question%20Dump%201%20-%20Easily%20Solved.md)
+		- [GCP Professional Data Engineer Question Dump 2 - Understood](./Data%20Engineering/GCP/GCP%20Professional%20Data%20Engineer%20Question%20Dump%202%20-%20Understood.md)
+		- [GCP Professional Data Engineer Question Dump 3 - Memorize](./Data%20Engineering/GCP/GCP%20Professional%20Data%20Engineer%20Question%20Dump%203%20-%20Memorize.md)
+		- [GCP Professional Data Engineer Question Dump](./Data%20Engineering/GCP/GCP%20Professional%20Data%20Engineer%20Question%20Dump.md)
 	- [Hadoop](./Data%20Engineering/Hadoop.md)
 	- [MLOps](./Data%20Engineering/MLOps.md)
 	- [PySpark](./Data%20Engineering/PySpark.md)

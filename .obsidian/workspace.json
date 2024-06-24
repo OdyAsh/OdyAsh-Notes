@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Courses/Finance (بالبركة والقلم)/ضبط البوصلة في الفلوس.md",
+                "file": "Personal Dictionary/ar/استقى.md",
                 "mode": "source",
                 "source": false
               }
@@ -25,14 +25,49 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer.md",
+                "file": "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer Notes from Question Dumps.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "d5ad6978c6b74b8b",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer Question Dump 1 - Easily Solved.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "219f29da5b41a1b1",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer Question Dump 2 - Understood.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "2b44ffb1b54073b9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer Question Dump 3 - Memorize.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -122,7 +157,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer.md",
+                "file": "Personal Dictionary/ar/استقى.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +174,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer.md",
+                "file": "Personal Dictionary/ar/استقى.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -174,7 +209,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer.md"
+                "file": "Personal Dictionary/ar/استقى.md"
               }
             }
           },
@@ -194,8 +229,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 9
+        ]
       }
     ],
     "direction": "horizontal",
@@ -223,8 +257,35 @@
       "periodic-notes:Open today": false
     }
   },
-  "active": "5db4aa5fbb0dba5a",
+  "active": "903e7d151b2927f0",
   "lastOpenFiles": [
+    "Personal Dictionary/ar/أحرى.md",
+    "Personal Dictionary/ar/استقى.md",
+    "Personal Dictionary/ar/درك.md",
+    "Personal Dictionary/ar/اِسْتَسَاغَ.md",
+    "Personal Dictionary/ar/توخ.md",
+    "Personal Dictionary/ar/السنة التوجيهية.md",
+    "Personal Dictionary/ar/جلَّى.md",
+    "Personal Dictionary/ar/جلال.md",
+    "Personal Dictionary/ar/تَفَهُّم.md",
+    "Personal Dictionary/ar/إفرنج.md",
+    "Islam/Courses/Finance (بالبركة والقلم)/ضبط البوصلة في الفلوس.md",
+    "Personal Dictionary/ar/إدراج.md",
+    "Personal Dictionary/ar/تطويق.md",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer Question Dump.md",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer Question Dump 3 - Memorize.md",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer Notes from Question Dumps.md",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer Question Dump 1 - Easily Solved.md",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/Media-Temp/Pasted image 20240623194400.png",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/Media-Temp/Pasted image 20240623184101.png",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/Media-Temp/Pasted image 20240623183616.png",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/Media-Temp/Pasted image 20240623183551.png",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/Media-Temp/Pasted image 20240623183549.png",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/Media-Temp/Pasted image 20240623175531.png",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/Media-Temp/Pasted image 20240623175356.png",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/Media-Temp/Pasted image 20240623174837.png",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/Media-Temp",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer Question Dump 2 - Understood.md",
     "Sciences/Applied Sciences/Programming/Data Engineering/PySpark.md",
     "Sciences/Applied Sciences/Programming/Data Engineering/Attachments - Apache Spark",
     "Sciences/Applied Sciences/Programming/Data Engineering/Attachments - PySpark/Pasted image 20240125103033.png",
@@ -239,37 +300,10 @@
     "Sciences/Applied Sciences/Programming/Data Engineering/Data Pipeline.md",
     "Sciences/Applied Sciences/Programming/Data Engineering/Data Engineering.md",
     "Sciences/Applied Sciences/Programming/Data Engineering/Attachments - Data Engineering",
-    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer.md",
     "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Big Data And ML Fundamentals Course.md",
-    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/Attachments - GCP Big Data And ML Fundamentals Course/Pasted image 20240111182352.png",
     "Sciences/Applied Sciences/Programming/Data Engineering/GCP/Attachments - GCP Big Data And ML Fundamentals Course",
     "Sciences/Applied Sciences/Programming/Data Engineering/GCP",
-    "Islam/Quran Related/62. Surah Al-Jumu'ah (الجمعة).md",
-    "Islam/Courses/Finance (بالبركة والقلم)/ضبط البوصلة في الفلوس.md",
     "Islam/Courses/Finance (بالبركة والقلم)/قائمة أفكار ضبط البوصلة.pdf",
-    "Islam/Courses/Finance (بالبركة والقلم)/قائمة أفكار ضبط البوصلة.pdf.crdownload",
-    "Islam/Quran Related/66. Surah Al-Tahreem (التحريم).md",
-    "Islam/Courses/Finance (بالبركة والقلم)",
-    "Islam/Quran Related/Media-Temp/Pasted image 20240618191034.png",
-    "Islam/Quran Related/Media-Temp/Pasted image 20240618191026.png",
-    "Islam/Quran Related/Media-Temp/Pasted image 20240618191017.png",
-    "Islam/Quran Related/Media-Temp/Pasted image 20240618190957.png",
-    "Islam/Quran Related/Media-Temp/Pasted image 20240618190938.png",
-    "Islam/Quran Related/Media-Temp/Pasted image 20240618190922.png",
-    "Islam/Quran Related/Media-Temp/Pasted image 20240618185954.png",
-    "Islam/Quran Related/53. Surah An-Najm (النجم).md",
-    "Personal Dictionary/ar/إدراج.md",
-    "Personal Dictionary/ar/تطويق.md",
-    "Personal Dictionary/ar/تثبيط.md",
-    "Personal Dictionary/en-US/Startle.md",
-    "Islam/Marriage/Marital Life Rehabilitation Course (الدورة التأهيلية للحياة الزوجية).md",
-    "Personal Dictionary/en-US/Edifice.md",
-    "Islam/Courses/Helper (معين)/3.1 خارطة أشرف.md",
-    "Zettelkasten/Fleeting Notes/AI/Recursive Character Text Splitter.md",
-    "Islam/Courses/Helper (معين)/قضية التوفيق والحرمان لا المعرفة والبيان.md",
-    "Islam/Courses/Helper (معين)/كيفية معرفة المهارات.md",
-    "Islam/Courses/Helper (معين)/لماذا سميت عمرة.md",
-    "Tasks/Personal Tasks/Daily/2024-06-03.md",
-    "Tasks/Personal Tasks/Daily/2024-06-04.md"
+    "Islam/Courses/Finance (بالبركة والقلم)/قائمة أفكار ضبط البوصلة.pdf.crdownload"
   ]
 }
