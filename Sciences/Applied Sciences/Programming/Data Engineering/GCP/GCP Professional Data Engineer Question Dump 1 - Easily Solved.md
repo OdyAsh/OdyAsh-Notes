@@ -74,3 +74,21 @@ A shipping company has live package-tracking data that is sent to an Apache Kafk
 
 Sol: B
 
+
+# Question #: 213
+Topic #: 1
+
+Your company's customer_order table in BigQuery stores the order history for 10 million customers, with a table size of 10 PB. You need to create a dashboard for the support team to view the order history. The dashboard has two filters, country_name and username. Both are string data types in the BigQuery table. When a filter is applied, the dashboard fetches the order history from the table and displays the query results. However, the dashboard is slow to show the results when applying the filters to the following query:  
+  
+  
+  
+How should you redesign the BigQuery table to support faster access?
+
+·         A. Cluster the table by country and username fields.
+
+·         B. Cluster the table by country field, and partition by username field.
+
+·         C. Partition the table by country and username fields.
+
+·         D. Partition the table by _PARTITIONTIME.
+
