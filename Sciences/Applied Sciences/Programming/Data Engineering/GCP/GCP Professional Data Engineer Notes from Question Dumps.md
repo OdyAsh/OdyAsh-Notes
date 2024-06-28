@@ -10,6 +10,8 @@ Overview:
 - Centralized data storage and processing across distributed environments.
 
 **Usage:**
+- Merge (i.e., centralize) data between GCS and BQ
+  - [source](https://www.youtube.com/watch?v=nHLYzJ4a3X4&t=157s)
 - Manage data across cloud and on-premises environments.
 - Automate data discovery, metadata management, and policy enforcement.
 - Enhance data security and compliance.
