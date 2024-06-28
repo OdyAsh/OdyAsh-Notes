@@ -37,3 +37,17 @@ You are using BigQuery with a multi-region dataset that includes a table with th
 
 Sol: A (reason why not C is shown [here](https://www.examtopics.com/discussions/google/view/129858-exam-professional-data-engineer-topic-1-question-211/#:~:text=Selected%20Answer%3A%20A-,Why%20not%20C,-%3A%0A%0AA%20table%20snapshot)) ... However, I thought that since the table is updated multiple times a day ... therefore a daily snapshot isn't enough ... rather it should be multiple times per day, so I thought the answer would be D. ... but apparently it's not cost-effective ... so IDK ...
 
+# Question #: 216  
+Topic #: 1
+
+You are developing an Apache Beam pipeline to extract data from a Cloud SQL instance by using JdbcIO. You have two projects running in Google Cloud. The pipeline will be deployed and executed on Dataflow in Project A. The Cloud SQL. instance is running in Project B and does not have a public IP address. After deploying the pipeline, you noticed that the pipeline failed to extract data from the Cloud SQL instance due to connection failure. You verified that VPC Service Controls and shared VPC are not in use in these projects. You want to resolve this error while ensuring that the data does not go through the public internet. What should you do?
+
+·         A. Set up VPC Network Peering between Project A and Project B. Add a firewall rule to allow the peered subnet range to access all instances on the network.
+
+·         B. Turn off the external IP addresses on the Dataflow worker. Enable Cloud NAT in Project A.
+
+·         C. Add the external IP addresses of the Dataflow worker as authorized networks in the Cloud SQL instance.
+
+·         D. Set up VPC Network Peering between Project A and Project B. Create a Compute Engine instance without external IP address in Project B on the peered subnet to serve as a proxy server to the Cloud SQL database.
+
+Sol: A. (even though some answered with D. ... I'll just answer with A.)
