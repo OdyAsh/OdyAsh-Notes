@@ -1,53 +1,10 @@
-# Question #: 215
 
-You are administering a BigQuery dataset that uses a customer-managed encryption key (CMEK). You need to share the dataset with a partner organization that does not have access to your CMEK. What should you do?
 
-·         A. Provide the partner organization a copy of your CMEKs to decrypt the data.
-
-·         B. Export the tables to parquet files to a Cloud Storage bucket and grant the storageinsights.viewer role on the bucket to the partner organization.
-
-·         C. Copy the tables you need to share to a dataset without CMEKs. Create an Analytics Hub listing for this dataset.
-
-·         D. Create an authorized view that contains the CMEK to decrypt the data when accessed.
-
-# Question #: 216  
-Topic #: 1
-
-[[All Professional Data Engineer Questions]](https://www.examtopics.com/exams/google/professional-data-engineer/)
-
-You are developing an Apache Beam pipeline to extract data from a Cloud SQL instance by using JdbcIO. You have two projects running in Google Cloud. The pipeline will be deployed and executed on Dataflow in Project A. The Cloud SQL. instance is running in Project B and does not have a public IP address. After deploying the pipeline, you noticed that the pipeline failed to extract data from the Cloud SQL instance due to connection failure. You verified that VPC Service Controls and shared VPC are not in use in these projects. You want to resolve this error while ensuring that the data does not go through the public internet. What should you do?
-
-·         A. Set up VPC Network Peering between Project A and Project B. Add a firewall rule to allow the peered subnet range to access all instances on the network.
-
-·         B. Turn off the external IP addresses on the Dataflow worker. Enable Cloud NAT in Project A.
-
-·         C. Add the external IP addresses of the Dataflow worker as authorized networks in the Cloud SQL instance.
-
-·         D. Set up VPC Network Peering between Project A and Project B. Create a Compute Engine instance without external IP address in Project B on the peered subnet to serve as a proxy server to the Cloud SQL database.
-
-# Question #: 217  
-Topic #: 1
-
-[[All Professional Data Engineer Questions]](https://www.examtopics.com/exams/google/professional-data-engineer/)
-
-You have a BigQuery table that contains customer data, including sensitive information such as names and addresses. You need to share the customer data with your data analytics and consumer support teams securely. The data analytics team needs to access the data of all the customers, but must not be able to access the sensitive data. The consumer support team needs access to all data columns, but must not be able to access customers that no longer have active contracts. You enforced these requirements by using an authorized dataset and policy tags. After implementing these steps, the data analytics team reports that they still have access to the sensitive columns. You need to ensure that the data analytics team does not have access to restricted data. What should you do? (Choose two.)
-
-·         A. Create two separate authorized datasets; one for the data analytics team and another for the consumer support team.
-
-·         B. Ensure that the data analytics team members do not have the Data Catalog Fine-Grained Reader role for the policy tags.
-
-·         C. Replace the authorized dataset with an authorized view. Use row-level security and apply filter_expression to limit data access.
-
-·         D. Remove the bigquery.dataViewer role from the data analytics team on the authorized datasets.
-
-·         E. Enforce access control in the policy tag taxonomy.
 
 # Question #: 218  
 Topic #: 1
 
-[[All Professional Data Engineer Questions]](https://www.examtopics.com/exams/google/professional-data-engineer/)
-
-You have a Cloud SQL for PostgreSQL instance in Region’ with one read replica in Region2 and another read replica in Region3. An unexpected event in Region’ requires that you perform disaster recovery by promoting a read replica in Region2. You need to ensure that your application has the same database capacity available before you switch over the connections. What should you do?
+You have a Cloud SQL for PostgreSQL instance in Region1 with one read replica in Region2 and another read replica in Region3. An unexpected event in Region1                                            requires that you perform disaster recovery by promoting a read replica in Region2. You need to ensure that your application has the same database capacity available before you switch over the connections. What should you do?
 
 ·         A. Enable zonal high availability on the primary instance. Create a new read replica in a new region.
 
