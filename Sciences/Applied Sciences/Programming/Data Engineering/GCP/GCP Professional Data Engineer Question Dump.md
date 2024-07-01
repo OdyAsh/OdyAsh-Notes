@@ -1,68 +1,7 @@
 
 
-
-# Question #: 218  
-Topic #: 1
-
-You have a Cloud SQL for PostgreSQL instance in Region1 with one read replica in Region2 and another read replica in Region3. An unexpected event in Region1                                            requires that you perform disaster recovery by promoting a read replica in Region2. You need to ensure that your application has the same database capacity available before you switch over the connections. What should you do?
-
-·         A. Enable zonal high availability on the primary instance. Create a new read replica in a new region.
-
-·         B. Create a cascading read replica from the existing read replica in Region3.
-
-·         C. Create two new read replicas from the new primary instance, one in Region3 and one in a new region.
-
-·         D. Create a new read replica in Region1, promote the new read replica to be the primary instance, and enable zonal high availability.
-
-# Question #: 219  
-Topic #: 1
-
-[[All Professional Data Engineer Questions]](https://www.examtopics.com/exams/google/professional-data-engineer/)
-
-You orchestrate ETL pipelines by using Cloud Composer. One of the tasks in the Apache Airflow directed acyclic graph (DAG) relies on a third-party service. You want to be notified when the task does not succeed. What should you do?
-
-·         A. Assign a function with notification logic to the on_retry_callback parameter for the operator responsible for the task at risk.
-
-·         B. Configure a Cloud Monitoring alert on the sla_missed metric associated with the task at risk to trigger a notification.
-
-·         C. Assign a function with notification logic to the on_failure_callback parameter tor the operator responsible for the task at risk.
-
-·         D. Assign a function with notification logic to the sla_miss_callback parameter for the operator responsible for the task at risk.
-
-# Question #: 220  
-Topic #: 1
-
-[[All Professional Data Engineer Questions]](https://www.examtopics.com/exams/google/professional-data-engineer/)
-
-You are migrating your on-premises data warehouse to BigQuery. One of the upstream data sources resides on a MySQL. database that runs in your on-premises data center with no public IP addresses. You want to ensure that the data ingestion into BigQuery is done securely and does not go through the public internet. What should you do?
-
-·         A. Update your existing on-premises ETL tool to write to BigQuery by using the BigQuery Open Database Connectivity (ODBC) driver. Set up the proxy parameter in the simba.googlebigqueryodbc.ini file to point to your data center’s NAT gateway.
-
-·         B. Use Datastream to replicate data from your on-premises MySQL database to BigQuery. Set up Cloud Interconnect between your on-premises data center and Google Cloud. Use Private connectivity as the connectivity method and allocate an IP address range within your VPC network to the Datastream connectivity configuration. Use Server-only as the encryption type when setting up the connection profile in Datastream.
-
-·         C. Use Datastream to replicate data from your on-premises MySQL database to BigQuery. Use Forward-SSH tunnel as the connectivity method to establish a secure tunnel between Datastream and your on-premises MySQL database through a tunnel server in your on-premises data center. Use None as the encryption type when setting up the connection profile in Datastream.
-
-·         D. Use Datastream to replicate data from your on-premises MySQL database to BigQuery. Gather Datastream public IP addresses of the Google Cloud region that will be used to set up the stream. Add those IP addresses to the firewall allowlist of your on-premises data center. Use IP Allowlisting as the connectivity method and Server-only as the encryption type when setting up the connection profile in Datastream.
-
-# Question #: 221  
-Topic #: 1
-
-[[All Professional Data Engineer Questions]](https://www.examtopics.com/exams/google/professional-data-engineer/)
-
-You store and analyze your relational data in BigQuery on Google Cloud with all data that resides in US regions. You also have a variety of object stores across Microsoft Azure and Amazon Web Services (AWS), also in US regions. You want to query all your data in BigQuery daily with as little movement of data as possible. What should you do?
-
-·         A. Use BigQuery Data Transfer Service to load files from Azure and AWS into BigQuery.
-
-·         B. Create a Dataflow pipeline to ingest files from Azure and AWS to BigQuery.
-
-·         C. Load files from AWS and Azure to Cloud Storage with Cloud Shell gsutil rsync arguments.
-
-·         D. Use the BigQuery Omni functionality and BigLake tables to query files in Azure and AWS.
-
 # Question #: 222  
 Topic #: 1
-
-[[All Professional Data Engineer Questions]](https://www.examtopics.com/exams/google/professional-data-engineer/)
 
 You have a variety of files in Cloud Storage that your data science team wants to use in their models. Currently, users do not have a method to explore, cleanse, and validate the data in Cloud Storage. You are looking for a low code solution that can be used by your data science team to quickly cleanse and explore data within Cloud Storage. What should you do?
 
