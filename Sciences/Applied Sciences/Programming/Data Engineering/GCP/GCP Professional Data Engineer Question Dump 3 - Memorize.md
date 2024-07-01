@@ -67,4 +67,18 @@ You have a Cloud SQL for PostgreSQL instance in Region1 with one read replica in
 
 <mark style="background: #FF5582A6;">Sol: C.</mark>
 
+# Question #: 225  
+Topic #: 1
+
+Your organization stores customer data in an on-premises Apache Hadoop cluster in Apache Parquet format. Data is processed on a daily basis by Apache Spark jobs that run on the cluster. You are migrating the Spark jobs and Parquet data to Google Cloud. BigQuery will be used on future transformation pipelines so you need to ensure that your data is available in BigQuery. You want to use managed services, while minimizing ETL data processing changes and overhead costs. What should you do?
+
+·         A. Migrate your data to Cloud Storage and migrate the metadata to Dataproc Metastore (DPMS). Refactor Spark pipelines to write and read data on Cloud Storage, and run them on Dataproc Serverless.
+
+·         B. Migrate your data to Cloud Storage and register the bucket as a Dataplex asset. Refactor Spark pipelines to write and read data on Cloud Storage, and run them on Dataproc Serverless.
+
+·         C. Migrate your data to BigQuery. Refactor Spark pipelines to write and read data on BigQuery, and run them on Dataproc Serverless.
+
+·         D. Migrate your data to BigLake. Refactor Spark pipelines to write and read data on Cloud Storage, and run them on Dataproc on Compute Engine.
+
+Sol: <mark style="background: #FF5582A6;">A. or C.</mark> (Check [here](https://www.examtopics.com/discussions/google/view/129872-exam-professional-data-engineer-topic-1-question-225/) for discussions)
 
