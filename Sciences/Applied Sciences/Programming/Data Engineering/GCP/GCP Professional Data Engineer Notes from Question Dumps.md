@@ -27,6 +27,20 @@ Overview:
 
 Terminologies are mentioned in [Data Mesh](#Data%20Mesh)
 
+# Dataform vs Dataprep vs Data Fusion
+
+
+| Feature/  <br>Service | **Dataprep**                                    | **Data Fusion**                                 | **Dataform**                                             |
+| --------------------- | ----------------------------------------------- | ----------------------------------------------- | -------------------------------------------------------- |
+| **Infrastructure**    | Serverless, scalable and easy to manage         | Fully managed, balancing control and simplicity | Serverless, reducing operational complexities            |
+| **Data Sources**      | Supports various, not limited to BigQuery       | Diverse connectivity beyond BigQuery            | Exclusively tailored for BigQuery                        |
+| **Ease of Use**       | Intuitive visual interface for all skill levels | Code-free visual interface, beginner-friendly   | User-friendly, especially for SQL enthusiasts            |
+| **Use Cases**         | Versatile for different data processing needs   | Ideal for comprehensive data integration        | Best suited for managing and crafting BigQuery pipelines |
+| **Pricing**           | Depends on complexity, potentially intricate    | Moderate pricing, considerations for budget     | Free, integrated into BigQuery costs                     |
+
+
+([source](https://www.cobry.co.uk/dataform-vs-dataprep-vs-data-fusion#:~:text=Comparison%3A%20Dataform%20vs%20Dataprep%20vs%20Data%20Fusion))
+
 # Dataflow
 
 * Dataflow allows you to process data in near-real time
