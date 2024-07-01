@@ -51,3 +51,20 @@ You are developing an Apache Beam pipeline to extract data from a Cloud SQL inst
 ·         D. Set up VPC Network Peering between Project A and Project B. Create a Compute Engine instance without external IP address in Project B on the peered subnet to serve as a proxy server to the Cloud SQL database.
 
 Sol: A. (even though some answered with D. ... I'll just answer with A.)
+
+# Question #: 218  
+Topic #: 1
+
+You have a Cloud SQL for PostgreSQL instance in Region1 with one read replica in Region2 and another read replica in Region3. An unexpected event in Region1                                            requires that you perform disaster recovery by promoting a read replica in Region2. You need to ensure that your application has the same database capacity available before you switch over the connections. What should you do?
+
+·         A. Enable zonal high availability on the primary instance. Create a new read replica in a new region.
+
+·         B. Create a cascading read replica from the existing read replica in Region3.
+
+·         C. Create two new read replicas from the new primary instance, one in Region3 and one in a new region. <mark style="background: #FFF3A3A6;">(Ie., cross-region read replicas)</mark>
+
+·         D. Create a new read replica in Region1, promote the new read replica to be the primary instance, and enable zonal high availability.
+
+<mark style="background: #FF5582A6;">Sol: C.</mark>
+
+
