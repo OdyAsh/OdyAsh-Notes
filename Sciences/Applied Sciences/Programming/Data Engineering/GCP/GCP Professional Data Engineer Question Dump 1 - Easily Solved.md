@@ -92,3 +92,48 @@ How should you redesign the BigQuery table to support faster access?
 
 ·         D. Partition the table by _PARTITIONTIME.
 
+# Question #: 219  
+Topic #: 1
+
+You orchestrate ETL pipelines by using Cloud Composer. One of the tasks in the Apache Airflow directed acyclic graph (DAG) relies on a third-party service. You want to be notified when the task does not succeed. What should you do?
+
+·         A. Assign a function with notification logic to the on_retry_callback parameter for the operator responsible for the task at risk.
+
+·         B. Configure a Cloud Monitoring alert on the sla_missed metric associated with the task at risk to trigger a notification.
+
+·         C. Assign a function with notification logic to the on_failure_callback parameter tor the operator responsible for the task at risk.
+
+·         D. Assign a function with notification logic to the sla_miss_callback parameter for the operator responsible for the task at risk.
+
+Sol: C.
+
+# Question #: 220  
+Topic #: 1
+
+You are migrating your on-premises data warehouse to BigQuery. One of the upstream data sources resides on a MySQL. database that runs in your on-premises data center with no public IP addresses. You want to ensure that the data ingestion into BigQuery is done securely and does not go through the public internet. What should you do?
+
+·         A. Update your existing on-premises ETL tool to write to BigQuery by using the BigQuery Open Database Connectivity (ODBC) driver. Set up the proxy parameter in the simba.googlebigqueryodbc.ini file to point to your data center’s NAT gateway.
+
+·         B. Use <mark style="background: #FFF3A3A6;">Datastream (a Change Data Capture, CDC service)</mark> to replicate data from your on-premises MySQL database to BigQuery. Set up Cloud Interconnect between your on-premises data center and Google Cloud. Use Private connectivity as the connectivity method and allocate an IP address range within your VPC network to the Datastream connectivity configuration. Use Server-only as the encryption type when setting up the connection profile in Datastream.
+
+·         C. Use Datastream to replicate data from your on-premises MySQL database to BigQuery. Use Forward-SSH tunnel as the connectivity method to establish a secure tunnel between Datastream and your on-premises MySQL database through a tunnel server in your on-premises data center. Use None as the encryption type when setting up the connection profile in Datastream.
+
+·         D. Use Datastream to replicate data from your on-premises MySQL database to BigQuery. Gather Datastream public IP addresses of the Google Cloud region that will be used to set up the stream. Add those IP addresses to the firewall allowlist of your on-premises data center. Use IP Allowlisting as the connectivity method and Server-only as the encryption type when setting up the connection profile in Datastream.
+
+Sol: B.
+
+# Question #: 221  
+Topic #: 1
+
+You store and analyze your relational data in BigQuery on Google Cloud with all data that resides in US regions. You also have a variety of object stores across Microsoft Azure and Amazon Web Services (AWS), also in US regions. You want to query all your data in BigQuery daily with as little movement of data as possible. What should you do?
+
+·         A. Use BigQuery Data Transfer Service to load files from Azure and AWS into BigQuery.
+
+·         B. Create a Dataflow pipeline to ingest files from Azure and AWS to BigQuery.
+
+·         C. Load files from AWS and Azure to Cloud Storage with Cloud Shell gsutil rsync arguments.
+
+·         D. Use the <mark style="background: #FFF3A3A6;">BigQuery Omni functionality</mark> and BigLake tables to query files in Azure and AWS.
+
+Sol: D.
+
