@@ -1,0 +1,14 @@
+Any work has one of these 2 states (or both, but by different members!):
+
+* Project 
+  * Expansion phase
+  * Has a start an end date.
+  * Example 1: Building an apartment
+  * Example 2: Creating a new big feature in a software project.
+  * KPIs: valued increments of a new feature (when they get delivered, rate of errors, etc.), etc.
+* Operations
+  * Maintenance phase
+  * Continuous
+  * Example 1: Maintaining an apartment
+  * Example 2: Monthly ingestion of data in a data-focused project.
+  * KPIs: outages, recovery time, running costs.
