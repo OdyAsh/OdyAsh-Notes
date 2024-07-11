@@ -211,3 +211,39 @@ You stream order data by using a Dataflow pipeline, and write the aggregated res
 
 Sol: B.
 
+# Question #: 230  
+Topic #: 1
+
+You need to modernize your existing on-premises data strategy. Your organization currently uses:  
+• Apache Hadoop clusters for processing multiple large data sets, including on-premises Hadoop Distributed File System (HDFS) for data replication.  
+• Apache Airflow to orchestrate hundreds of ETL pipelines with thousands of job steps.  
+  
+You need to set up a new architecture in Google Cloud that can handle your Hadoop workloads and requires minimal changes to your existing orchestration processes. What should you do?
+
+·         A. Use Bigtable for your large workloads, with connections to Cloud Storage to handle any HDFS use cases. Orchestrate your pipelines with Cloud Composer.
+
+·         B. Use Dataproc to migrate Hadoop clusters to Google Cloud, and Cloud Storage to handle any HDFS use cases. Orchestrate your pipelines with Cloud Composer.
+
+·         C. Use Dataproc to migrate Hadoop clusters to Google Cloud, and Cloud Storage to handle any HDFS use cases. Convert your ETL pipelines to Dataflow.
+
+·         D. Use Dataproc to migrate your Hadoop clusters to Google Cloud, and Cloud Storage to handle any HDFS use cases. Use Cloud Data Fusion to visually design and deploy your ETL pipelines.
+
+Sol: B.
+
+# Question #: 232  
+Topic #: 1
+
+You are on the data governance team and are implementing security requirements to deploy resources. You need to ensure that resources are limited to only the europe-west3 region. You want to follow Google-recommended practices.  
+
+What should you do?
+
+·         A. Set the constraints/gcp.resourceLocations organization policy constraint to in:europe-west3-locations.
+
+·         B. Deploy resources with Terraform and implement a variable validation rule to ensure that the region is set to the europe-west3 region for all resources.
+
+·         C. Set the constraints/gcp.resourceLocations organization policy constraint to in:eu-locations.
+
+·         D. Create a Cloud Function to monitor all resources created and automatically destroy the ones created outside the europe-west3 region.
+
+Sol: A.
+
