@@ -1,40 +1,7 @@
 
 
-
-# Question #: 228  
-Topic #: 1
-
-You have a streaming pipeline that ingests data from Pub/Sub in production. You need to update this streaming pipeline with improved business logic. You need to ensure that the updated pipeline reprocesses the previous two days of delivered Pub/Sub messages. What should you do? (Choose two.)
-
-·         A. Use the Pub/Sub subscription clear-retry-policy flag
-
-·         B. Use Pub/Sub Snapshot capture two days before the deployment.
-
-·         C. Create a new Pub/Sub subscription two days before the deployment.
-
-·         D. Use the Pub/Sub subscription retain-acked-messages flag.
-
-·         E. Use Pub/Sub Seek with a timestamp.
-
-# Question #: 229  
-Topic #: 1
-
-[[All Professional Data Engineer Questions]](https://www.examtopics.com/exams/google/professional-data-engineer/)
-
-You currently use a SQL-based tool to visualize your data stored in BigQuery. The data visualizations require the use of outer joins and analytic functions. Visualizations must be based on data that is no less than 4 hours old. Business users are complaining that the visualizations are too slow to generate. You want to improve the performance of the visualization queries while minimizing the maintenance overhead of the data preparation pipeline. What should you do?
-
-·         A. Create materialized views with the allow_non_incremental_definition option set to true for the visualization queries. Specify the max_staleness parameter to 4 hours and the enable_refresh parameter to true. Reference the materialized views in the data visualization tool.
-
-·         B. Create views for the visualization queries. Reference the views in the data visualization tool.
-
-·         C. Create a Cloud Function instance to export the visualization query results as parquet files to a Cloud Storage bucket. Use Cloud Scheduler to trigger the Cloud Function every 4 hours. Reference the parquet files in the data visualization tool.
-
-·         D. Create materialized views for the visualization queries. Use the incremental updates capability of BigQuery materialized views to handle changed data automatically. Reference the materialized views in the data visualization tool.
-
 # Question #: 230  
 Topic #: 1
-
-[[All Professional Data Engineer Questions]](https://www.examtopics.com/exams/google/professional-data-engineer/)
 
 You need to modernize your existing on-premises data strategy. Your organization currently uses:  
 • Apache Hadoop clusters for processing multiple large data sets, including on-premises Hadoop Distributed File System (HDFS) for data replication.  
