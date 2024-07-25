@@ -145,6 +145,37 @@ Disadvantages:
 * Usage using example columns:
 	* Partitioning the data by create_date will allow BigQuery to prune partitions that are not relevant to the query by date.
 
+## Views vs Materialized Views
+
+([source](https://cloud.google.com/bigquery/docs/views-intro#comparison_to_materialized_views))
+
+* Views are virtual and provide a reusable reference to a set of data, but do not physically store any data.
+* Materialized views are defined using SQL, like a regular view, but physically store the data which BigQuery uses to improve performance.
+  * This is done by periodically caching the results of a query.
+  * Any incremental data changes from the base tables are automatically added to the materialized views.
+  * 
+* For further comparison, see materialized views features.
+
+### Refreshed Materialized Views
+
+([source](https://cloud.google.com/bigquery/docs/materialized-views-manage#refresh))
+
+* Normally, BigQuery reads only the changes since the last time materialized view was refreshed.
+* Refreshing a materialized view updates the view's cached results to reflect the current state of its base tables, but very recent streamed data might not be included during a refresh of the materialized view.
+* However, queries always read streamed data regardless of whether a materialized view is used.
+* When creating non-incremental materialized views, you should also configure a refresh policy to ensure a periodic refresh of the materialized view (will require manual refresh without it).
+
+### Non-Incremental Materialized Views
+
+* An incremental materialized view automatically/incrementally propagates changes from base table to it ([source](https://cloud.google.com/bigquery/docs/materialized-views-intro#:~:text=Any%20incremental%20data%20changes%20from%20the%20base%20tables%20are%20automatically%20added%20to%20the%20materialized%20views)).
+* A non-incremental materialized view fully loads base table instead, so it supports more SQL syntax ([source](https://cloud.google.com/bigquery/docs/materialized-views-create#non-incremental)).
+
+### Staleness in Materialized Views
+
+* The materialized view always represents the state of the base tables within the max_staleness interval ([source](https://cloud.google.com/bigquery/docs/materialized-views-create#non-incremental)).
+  * If the last refresh is too stale and doesn't represent the base tables within the max_staleness interval, then the query reads the base tables.
+* see [Data staleness](https://cloud.google.com/bigquery/docs/materialized-views-create#data_staleness) for more details. 
+
 # Memorystore for Redis
 
 Main sources:
