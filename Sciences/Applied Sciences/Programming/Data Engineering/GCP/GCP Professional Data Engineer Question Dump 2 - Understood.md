@@ -94,3 +94,18 @@ You currently use a SQL-based tool to visualize your data stored in BigQuery. Th
 ·         D. Create materialized views for the visualization queries. Use the incremental updates capability of BigQuery materialized views to handle changed data automatically. Reference the materialized views in the data visualization tool.
 
 Sol: A. Explanation: "outer joins & analytic functions" aren't supported in mat. views, but are usable in non-inc. mat. views, so we have to set the allow_/// param. to true. max_staleness param will store the new changes from base table into non-inc. mat. view by running its query after max_staleness time passes., and the enable_refresh param. will automatically refresh the non-inc. mat. view at a periodic time (otherwise, we have to manually refresh ourselves each time we want to display the newly arrived data). ([discussion](https://www.examtopics.com/discussions/google/view/129876-exam-professional-data-engineer-topic-1-question-229/))
+
+# Question #: 233  
+Topic #: 1
+
+You are a BigQuery admin supporting a team of data consumers who run ad hoc queries and downstream reporting in tools such as Looker. All data and users are combined under a single organizational project. You recently noticed some slowness in query results and want to troubleshoot where the slowdowns are occurring. You think that there might be some job queuing or slot contention occurring as users run jobs, which slows down access to results. You need to investigate the query job information and determine where performance is being affected. What should you do?
+
+·         A. Use slot reservations for your project to ensure that you have enough query processing capacity and are able to allocate available slots to the slower queries.
+
+·         B. Use Cloud Monitoring to view BigQuery metrics and set up alerts that let you know when a certain percentage of slots were used.
+
+·         C. Use available administrative resource charts to determine how slots are being used and how jobs are performing over time. Run a query on the INFORMATION_SCHEMA to review query performance.
+
+·         D. Use Cloud Logging to determine if any users or downstream consumers are changing or deleting access grants on tagged resources.
+
+Sol: C., [discussion](https://www.examtopics.com/discussions/google/view/130176-exam-professional-data-engineer-topic-1-question-233/)
