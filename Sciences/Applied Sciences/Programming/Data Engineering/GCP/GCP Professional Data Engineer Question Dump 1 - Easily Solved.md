@@ -230,6 +230,24 @@ You need to set up a new architecture in Google Cloud that can handle your Hadoo
 
 Sol: B.
 
+# Question #: 231 
+Topic #: 1
+
+You recently deployed several data processing jobs into your Cloud Composer 2 environment. You notice that some tasks are failing in Apache Airflow. On the monitoring dashboard, you see an increase in the total workers memory usage, and there were worker pod evictions. You need to resolve these errors. What should you do? (Choose two.)
+
+·         A. Increase the directed acyclic graph (DAG) file parsing interval.
+
+·         B. Increase the Cloud Composer 2 environment size from medium to large.
+
+·         C. Increase the maximum number of workers and reduce worker concurrency.
+
+·         D. Increase the memory available to the Airflow workers.
+
+·         E. Increase the memory available to the Airflow triggered.
+
+Sol: C., D. ... [discussion](https://www.examtopics.com/discussions/google/view/130340-exam-professional-data-engineer-topic-1-question-231/)
+
+
 # Question #: 232  
 Topic #: 1
 
@@ -246,4 +264,3 @@ What should you do?
 ·         D. Create a Cloud Function to monitor all resources created and automatically destroy the ones created outside the europe-west3 region.
 
 Sol: A.
-
