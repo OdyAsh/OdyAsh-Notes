@@ -6,16 +6,17 @@ Currently, the quickest way for you to access this vault is by [searching the fi
 Alternatively (and this the better option), you can access the vault by:
 
 1. [Installing](https://obsidian.md/download) [Obsidian](https://obsidian.md/)
+   1. Side note: To see awesome [digital gardens](https://publish.obsidian.md/dakotamurray/2.00+-+Wiki/general/Digital+Gardening) that people like you and me made, you can see their hosted websites [here](https://obsidian.md/publish#:~:text=Explore%20Publish%20sites%20by%20the%20Obsidian%20community) and [here](https://www.reddit.com/r/ObsidianMD/comments/18wl8ao/i_wanna_know_of_more_examples_of_blogs_made_using/).
 
-2. Cloning this repository to your local machine
+3. Cloning this repository to your local machine
    1. ![How To Clone GitHub Repo](https://github.com/OdyAsh/OdyAsh-Notes/blob/main/Obsidian/Attachments%20-%20GitHub%20Readme/clone-a-repo.png)
 
-3. Extracting the zip file to a folder (this folder is called an `Obsidian Vault`)
+4. Extracting the zip file to a folder (this folder is called an `Obsidian Vault`)
 
-4. Opening the vault in Obsidian
+5. Opening the vault in Obsidian
    1. ![How to Open an Obsidian Vault](https://github.com/OdyAsh/OdyAsh-Notes/blob/main/Obsidian/Attachments%20-%20GitHub%20Readme/open-a-vault.png)
 
-5. Accompanying me in my learning Odyssey! :]
+6. Accompanying me in my learning Odyssey! :]
    1. ![OdyAsh Origin](https://github.com/OdyAsh/OdyAsh-Notes/blob/main/Obsidian/Attachments%20-%20GitHub%20Readme/OdyAsh%20Origin.gif)
 
 
