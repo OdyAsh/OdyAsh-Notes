@@ -4,7 +4,7 @@ After that, I suggest checking out [this](https://towardsdatascience.com/require
 
 # Libmamba
 
-Currently, the best and the safest option is to use libmamba. Read more about it and follow installation steps from [here](https://www.anaconda.com/blog/a-faster-conda-for-a-growing-community). To summarize the commands:
+Currently, the best and the safest option (imo) is to use libmamba. Read more about it and follow installation steps from [here](https://www.anaconda.com/blog/a-faster-conda-for-a-growing-community). To summarize the commands:
 
 ```cmd
 conda update -n base conda
@@ -84,6 +84,8 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 # Conda Tips
 
+Note: tips 1 and 2 are outdated.
+
 ## Tip 1: Use `mamba` Instead Of `conda` 
 
 To install mamba, follow [this](https://biapol.github.io/blog/mara_lampert/getting_started_with_mambaforge_and_python/readme.html) (and try to install it for this user only, not admin, and leave the cache option unchecked).
@@ -94,12 +96,12 @@ To install mamba, follow [this](https://biapol.github.io/blog/mara_lampert/getti
 
 Why? Because of the following scenario that I previously faced:
 * I installed library "A" using pip
-* used command to get `environment.yml` file (which will include "A")
+* used command to create `environment.yml` file (which will include "A")
 * pip uninstalled "A"
-* used command to get `environment.yml` file again, but this time, "A" wasn't removed, as it was installed using pip, so conda can't track these changes.
+* used command to re-create `environment.yml` file again, but this time, "A" wasn't removed, as it was installed using pip, so conda can't track these changes.
 
 But what if you have already a project with both pip and conda installed packages?
-Then for each time you pip uninstall a package, you must add it to a file called pip-removed.txt , and for each time you conda export an environment.yml file, you must make sure all packages in pip-removed.txt are not in the exported environment.yml file... but that's the easy way...
+Then for each time you pip uninstall a package, you must add it to a file called pip-removed.txt , and for each time you create an environment.yml file, you must make sure all packages in pip-removed.txt are not in the created environment.yml file... but that's the easy way...
 
 However, IF you want to lose your soul (or have already lost it), you can do the following (courtesy of the [chat history](https://sharegpt.com/c/zCNgQOx) with ChatGPT):
 1. add `pip_install.py` to your main project's directory, and write this code in it: ^vi0c08
@@ -221,7 +223,7 @@ python pip_install.py exif requrests pillow
 python pip_uninstall.py exif requrests pillow
 ```
 
-5. Possible to do: find a way for the following logic: if you `pip install` or `pip uninstall`, then a python script `update_env_yml.py` runs which captures the output of this command: `pip list`, and update `env['dependencies'][-1]['pip']` list such that it matches what is outputted by `pip list` (i.e., `package_name==package_version` for each package)
+5. Possible ToDo: find a way for the following logic: if you `pip install` or `pip uninstall`, then a python script `update_env_yml.py` runs which captures the output of this command: `pip list`, and update `env['dependencies'][-1]['pip']` list such that it matches what is outputted by `pip list` (i.e., `package_name==package_version` for each package)
 
 ## Tip 3: Build Conda Package From PyPi Package
 
@@ -267,13 +269,13 @@ To fix this you could try to:
 1. loosen the range of package versions you've specified
 2. remove package versions to allow pip attempt to solve the dependency conflict
 
-At times like these, it is importing to check why this occurs.
+At times like these, it is important to check why this occurs.
 Inspecting the `environment.yml` file, we see the following:
 
 `opencv-contrib-python==4.7.0.72`
 `opencv-python==4.7.0.72`
 
-the solution here, is to delete one of them (say, the `opencv-contrib-python` one), and make the other have version `4.6.0.66`
+the solution here is to delete one of them (say, the `opencv-contrib-python` one), and make the other have version `4.6.0.66`
 
 # Get Libraries Explicitly Mentioned Only
 Steps:

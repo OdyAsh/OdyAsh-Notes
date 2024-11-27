@@ -1,5 +1,7 @@
 {
-  "fileDirections": {},
+  "fileDirections": {
+    "Islam/Books/Guiding Logic (المنطق التوجيهي).md": "auto"
+  },
   "defaultDirection": "ltr",
   "rememberPerFile": true,
   "setNoteTitleDirection": true,

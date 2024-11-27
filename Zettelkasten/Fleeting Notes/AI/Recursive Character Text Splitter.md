@@ -1,7 +1,16 @@
 #ai #nlp #chunking
+
+# Algorithm
+
+The parameters are as follows (s1):
+- **chunkSize:** This specifies the target length for each chunk.
+	- E.g., 100 characters.
+		- Side note: the word "chunk" changes based on the algorithm, so here, a "chunk" is a character, but in other algorithms, a "chunk" usually refers to a token 
+- **separators (optional):** This is a list of characters (e.g., newline, period, comma) that act as preferred breaking points.
+
 # Explanation by Example
 
-Example text:
+Example text (s2):
 
 ```python
 text = """What I Worked On
@@ -18,7 +27,8 @@ The first programs I tried writing were on the IBM 1401 that our school district
 For our text splitter, we'll consider a chunk size of 100 characters and the order of the characters used for splitting will be `my_splitter_order = ['\n\n', '\n', ' ', '' ]`.
 
 Overview logic of recursive splitting:
-1. Get all the text (for later consistency, let's call it a "level-0 (L0) substring", where this substring == the whole string):
+1. Get all the text 
+   (for later consistency, let's call it a "level-0 (L0) substring", where the word "substring" here means the whole string):
    
    ![](Media-Temp/Pasted%20image%2020240606211822.png)
    
@@ -73,4 +83,5 @@ The steps above can be summarized in the following points:
 
 # Sources
 
-s1: https://dev.to/eteimz/understanding-langchains-recursivecharactertextsplitter-2846
+* s1: https://medium.com/@developer.yasir.pk/understanding-recursive-character-text-splitting-8419518db6f4
+* s2: https://dev.to/eteimz/understanding-langchains-recursivecharactertextsplitter-2846

@@ -86,15 +86,16 @@
   "library2": {
     "type": "excalidrawlib",
     "version": 2,
-    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.0.18",
+    "source": "https://github.com/zsviczian/obsidian-excalidraw-plugin/releases/tag/2.1.7",
     "libraryItems": [
       {
         "status": "unpublished",
         "elements": [
           {
             "type": "rectangle",
-            "version": 383,
-            "versionNonce": 1376451900,
+            "version": 384,
+            "versionNonce": 336306345,
+            "index": "a0",
             "isDeleted": false,
             "id": "PCojDzltWKh_-7LmTtvoT",
             "fillStyle": "hachure",
@@ -121,14 +122,15 @@
                 "id": "aTmZlXvI"
               }
             ],
-            "updated": 1674888822338,
+            "updated": 1727614176802,
             "link": null,
             "locked": false
           },
           {
             "type": "text",
-            "version": 13,
-            "versionNonce": 302113852,
+            "version": 14,
+            "versionNonce": 1014684263,
+            "index": "a1",
             "isDeleted": false,
             "id": "aTmZlXvI",
             "fillStyle": "hachure",
@@ -148,7 +150,7 @@
             "frameId": null,
             "roundness": null,
             "boundElements": [],
-            "updated": 1674888844408,
+            "updated": 1727614176802,
             "link": null,
             "locked": false,
             "fontSize": 16,
@@ -159,8 +161,7 @@
             "verticalAlign": "middle",
             "containerId": "PCojDzltWKh_-7LmTtvoT",
             "originalText": "...",
-            "lineHeight": 1.25,
-            "baseline": 14
+            "lineHeight": 1.25
           }
         ],
         "id": "_RYTScq5-nF0XKvXA_Yet",
