@@ -1,5 +1,5 @@
-# OdyAsh-Notes - A Host for my Second Brain
-[Obsidian](https://obsidian.md/) notes ranging from Programming and file management to Islamic topics :]
+# OdyAsh-Notes - My Digital Garden
+My [Obsidian](https://obsidian.md/) notes for different fields (Programming, Mathematics, etc.)
 
 Currently, the quickest way for you to access this vault is by [searching the files through GitHub itself](https://stackoverflow.com/a/61471327/13626137) (although the markdown files aren't formatted on GitHub as well as Obsidian) 
 
