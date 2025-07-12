@@ -3,5 +3,5 @@
   "maximumDepth": 6,
   "listStyle": "number",
   "useMarkdown": true,
-  "githubCompat": false
+  "githubCompat": true
 }

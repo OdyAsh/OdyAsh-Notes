@@ -29,11 +29,5 @@
       "excludes": []
     }
   ],
-  "fileOverwrites": {
-    "Sciences": "HIGHLIGHT",
-    "Sciences/Applied Sciences": "HIGHLIGHT",
-    "Sciences/Formal Sciences": "HIGHLIGHT",
-    "Sciences/Natural Sciences": "HIGHLIGHT",
-    "Sciences/Social Sciences": "HIGHLIGHT"
-  }
+  "fileOverwrites": {}
 }

@@ -5,6 +5,8 @@
 - **AI**
 	- [AI - FAQs - Video Preparation](./AI/AI%20-%20FAQs%20-%20Video%20Preparation.md)
 	- [AI - FAQs](./AI/AI%20-%20FAQs.md)
+	- [Anthropic Claude](./AI/Anthropic%20Claude.md)
+	- [Claude Code](./AI/Claude%20Code.md)
 	- [Clustering Algorithms](./AI/Clustering%20Algorithms.md)
 	- [Data Analytics Notes](./AI/Data%20Analytics%20Notes.md)
 	- [Google Colab + VSCode + GitHub](./AI/Google%20Colab%20+%20VSCode%20+%20GitHub.md)
@@ -40,6 +42,7 @@
 	- [PySpark](./Data%20Engineering/PySpark.md)
 - **DB**
 	- [Converting SQLite to pyodbc](./DB/Converting%20SQLite%20to%20pyodbc.md)
+	- [DB IDEs](./DB/DB%20IDEs.md)
 	- [Media Streaming](./DB/Media%20Streaming.md)
 	- [MySQL](./DB/MySQL.md)
 - **[DevOps](./DevOps/DevOps.md)**
@@ -67,6 +70,7 @@
 		- [Understanding Images Viewed In Windows And In Python](./Python/Dealing%20with%20Images/Understanding%20Images%20Viewed%20In%20Windows%20And%20In%20Python.md)
 	- [Dealing with Strings](./Python/Dealing%20with%20Strings.md)
 	- [Debugging Python Code](./Python/Debugging%20Python%20Code.md)
+	- [Logging](./Python/Logging.md)
 	- [Optimizations](./Python/Optimizations.md)
 	- **Python Environments**
 		- [Conda Environment](./Python/Python%20Environments/Conda%20Environment.md)

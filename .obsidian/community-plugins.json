@@ -15,7 +15,6 @@
   "convert-url-to-iframe",
   "obsidian-plugin-toc",
   "text-extractor",
-  "obsidian-outliner",
   "obsidian-image-toolkit",
   "oz-image-plugin",
   "obsidian-pandoc",
@@ -48,6 +47,9 @@
   "math-booster",
   "dataview",
   "github-copilot",
+  "obsidian-text-format",
+  "automatic-table-of-contents",
   "obsidian-editor-shortcuts",
-  "obsidian-text-format"
+  "obsidian-outliner",
+  "obsidian-custom-attachment-location"
 ]

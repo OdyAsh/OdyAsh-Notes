@@ -1,3 +1,46 @@
+# Git Quick Tips
+
+This section is setup for me to quickly get answers to common git questions. I will be adding to this as I learn more about git.
+
+If you want to learn the basics, kindly check the [Git Basics](#Git%20Basics) section below.
+
+## How to Resolve PR Merge Conflicts
+
+Suppose your branch (in your forked repo) is called "codebase-documentation", and you want to make a PR to "develop" branch found on the upstream repo (i.e., the original repo that you forked). Now, suppose a merge conflict happens (i.e., another member has pushed changes to "develop", so your PR can't be merged automatically). To resolve this, follow these steps (alternative approach that uses `merge` [here](https://qiita.com/H-Toshi/items/a263ba4059c7be5d876e)):
+
+ 1. First, ensure your local repo is up-to-date with the upstream repo by running:
+ 
+    ```bash
+    git checkout develop
+    git pull upstream/develop
+    ```
+
+  2. Now, switch back to your branch and rebase it with the latest changes from "develop" using the below commands.
+     (side note: )
+  3. 
+  
+```bash
+    git checkout codebase-documentation
+    git rebase develop
+ ```
+
+  3. Now, resolve the conflicts that appear (if any), then commit the changes:
+
+
+```bash
+    git add .
+    git commit -m "Resolved conflicts"
+```
+
+  4. Finally, push the changes to your branch:
+
+  ```bash
+      git push origin codebase-documentation
+  ```
+  
+  5. Now, go to your PR on GitHub and refresh the page. You should see that the conflicts have been resolved.
+  
+
 # Git Basics
 
 [source 1](https://www.youtube.com/watch?v=8JJ101D3knE), [source 2](https://tammy.ai/e/oBvRi1NShMVo6?type=pro)

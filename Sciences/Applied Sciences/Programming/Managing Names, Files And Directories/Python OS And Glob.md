@@ -1,5 +1,7 @@
 # Using `glob` Library To Get All Paths
 
+Side note: Check [this](https://teaching.idallen.com/cst8207/19w/notes/190_glob_patterns.html) awesome resource if you want to understand globs in depth.
+
 ```python
 image_paths = glob.glob(os.path.join(base_path, '**/*.jpg'), recursive=True) + glob.glob(os.path.join(base_path, '**/*.png'), recursive=True)
 ```

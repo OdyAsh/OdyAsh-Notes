@@ -8,5 +8,7 @@
     "spaces-between-paragraphs",
     "responsive-youtube"
   ],
-  "translucency": false
+  "translucency": false,
+  "baseFontSizeAction": true,
+  "nativeMenus": true
 }

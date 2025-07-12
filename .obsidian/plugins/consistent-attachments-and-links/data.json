@@ -1,23 +1,23 @@
 {
-  "moveAttachmentsWithNote": true,
-  "deleteAttachmentsWithNote": false,
-  "updateLinks": true,
-  "deleteEmptyFolders": true,
-  "deleteExistFilesWhenMoveNote": true,
-  "changeNoteBacklinksAlt": true,
-  "ignoreFolders": [
+  "consistencyReportFile": "consistency-report.md",
+  "emptyAttachmentFolderBehavior": "DeleteWithEmptyParents",
+  "excludePaths": [
+    "/consistency\\-report\\.md$/",
     ".git/",
     ".obsidian/",
     ".github/",
     ".trash/"
   ],
-  "ignoreFiles": [
-    "consistency\\-report\\.md"
-  ],
-  "ignoreFilesRegex": [
-    {}
-  ],
-  "attachmentsSubfolder": "Attachments - ${filename}",
-  "consistencyReportFile": "consistency-report.md",
-  "useBuiltInObsidianLinkCaching": false
+  "excludePathsFromAttachmentCollecting": [],
+  "includePaths": [],
+  "shouldChangeNoteBacklinksDisplayText": true,
+  "shouldCollectAttachmentsAutomatically": false,
+  "shouldDeleteAttachmentsWithNote": false,
+  "shouldDeleteExistingFilesWhenMovingNote": false,
+  "shouldMoveAttachmentsWithNote": false,
+  "shouldShowBackupWarning": false,
+  "shouldUpdateLinks": true,
+  "treatAsAttachmentExtensions": [
+    ".excalidraw.md"
+  ]
 }

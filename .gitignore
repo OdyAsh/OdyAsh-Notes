@@ -1,17 +1,29 @@
-# be sure to add data.json for plugins that contain API keys
+# be sure to add data.json for plugins that contain API keys or sensitive information
 .obsidian/plugins/image2latex/data.json
 .obsidian/plugins/remember-cursor-position/cursor-positions.json
 
 .obsidian/plugins/obsidian-completr/scanned_words.txt
 .obsidian/plugins/obsidian-dictionary-plugin/cache.json
 
+.obsidian/plugins/github-copilot/*
+
+Islam/Marriage/A-B Marriage (ألف باء الزواج)/Lesson Tasks/*
+Islam/Courses/Al Binaa Al Manhaji (البناء المنهجي)/Exams/*
+Islam/Courses/Alzahrawan (الزهراوان)/*
 Islam/Courses/Finance (بالبركة والقلم)/*
 Islam/Courses/Form of Ramadan (فورمة رمضان)/*
 Islam/Courses/Forqan Academy (أكادمية الفرقان)/*
-Islam/Courses/Self Restart (إعادة تشغيل الذات)/*
 Islam/Courses/Helper (معين)/*
+Islam/Courses/Learning Tajweed (تعلم التجويد)/*
+Islam/Courses/Media-Temp/*
+Islam/Courses/Ramadan Preparation (فورمة رمضان)/*
+Islam/Courses/Self Restart (إعادة تشغيل الذات)/*
+
 Islam/Books/Addiction Books/Revival*
+Islam/Books/Miscellaneous and Personal Books/*
+
 
 Secrets/*
 Tasks/*
-Islam/Books/Miscellaneous and Personal Books/*
+
+/.stfolder

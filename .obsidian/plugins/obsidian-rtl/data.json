@@ -1,10 +1,13 @@
 {
   "fileDirections": {
-    "Islam/Books/Guiding Logic (المنطق التوجيهي).md": "auto"
+    "Islam/Books/Guiding Logic (المنطق التوجيهي).md": "auto",
+    "Islam/Courses/Learning Tajweed (تعلم التجويد)/محاضرة 1 - مقدمة.md": "rtl",
+    "Islam/Marriage/A-B Marriage (ألف باء الزواج)/Lesson Notes/01 - بدايات وتنبيهات ومقدمات - حول المعلم والمتعلم أو الجمهور.md": "rtl"
   },
   "defaultDirection": "ltr",
   "rememberPerFile": true,
   "setNoteTitleDirection": true,
   "setYamlDirection": false,
+  "preventRTLFrontmatter": false,
   "statusBar": true
 }

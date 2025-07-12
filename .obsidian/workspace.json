@@ -4,65 +4,24 @@
     "type": "split",
     "children": [
       {
-        "id": "20077d2fce49ee07",
+        "id": "2693275972649d4b",
         "type": "tabs",
         "children": [
           {
-            "id": "068c10b28476b0d9",
+            "id": "6cf32d595e4f454c",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Islam/Courses/Form of Ramadan (فورمة رمضان)/Exams/الامتحان الأول - فورمة رمضان.md",
+                "file": "Islam/Marriage/A-B Marriage (ألف باء الزواج)/Lesson Tasks/test.md",
                 "mode": "source",
                 "source": false
               },
               "icon": "lucide-file",
-              "title": "الامتحان الأول - فورمة رمضان"
-            }
-          },
-          {
-            "id": "826e4343005e4714",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/محاضرة الفرقان 12 - كتاب الحج - (4) أنواع الحج وأسماء الأيام والأماكن.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "محاضرة الفرقان 12 - كتاب الحج - (4) أنواع الحج وأسماء الأيام والأماكن"
-            }
-          },
-          {
-            "id": "ba60838543e9f565",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/محاضرة الفرقان 13 - كتاب الحج - (5) حج الإفراد والإقران والتمتع.md",
-                "mode": "source",
-                "source": false
-              },
-              "icon": "lucide-file",
-              "title": "محاضرة الفرقان 13 - كتاب الحج - (5) حج الإفراد والإقران والتمتع"
-            }
-          },
-          {
-            "id": "5e3d4a1e9f99482a",
-            "type": "leaf",
-            "state": {
-              "type": "release-notes",
-              "state": {
-                "currentVersion": "1.7.7"
-              },
-              "icon": "lucide-file",
-              "title": "Release Notes 1.7.7"
+              "title": "test"
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "vertical"
@@ -81,7 +40,8 @@
             "state": {
               "type": "file-explorer",
               "state": {
-                "sortOrder": "alphabetical"
+                "sortOrder": "alphabetical",
+                "autoReveal": false
               },
               "icon": "lucide-folder-closed",
               "title": "Files"
@@ -93,7 +53,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "import ",
+                "query": "20250531144233",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -118,7 +78,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 293.5
   },
   "right": {
     "id": "810420d1d063c90d",
@@ -139,16 +99,6 @@
             }
           },
           {
-            "id": "cd4219e91585bd6c",
-            "type": "leaf",
-            "state": {
-              "type": "quiet-outline",
-              "state": {},
-              "icon": "lines-of-text",
-              "title": "Quiet Outline"
-            }
-          },
-          {
             "id": "b2208a3d7f0d4560",
             "type": "leaf",
             "state": {
@@ -164,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Islam/Courses/Forqan Academy (أكادمية الفرقان)/التزكية 1/محاضرة الفرقان 11 - الترهيب في البعد عن الوحيين.md",
+                "file": "Islam/Marriage/A-B Marriage (ألف باء الزواج)/Lesson Notes/01 - بدايات وتنبيهات ومقدمات - حول المعلم والمتعلم أو الجمهور.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -174,7 +124,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks for محاضرة الفرقان 11 - الترهيب في البعد عن الوحيين"
+              "title": "Backlinks for 01 - بدايات وتنبيهات ومقدمات - حول المعلم والمتعلم أو الجمهور"
             }
           },
           {
@@ -183,12 +133,12 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Islam/Courses/Forqan Academy (أكادمية الفرقان)/التزكية 1/محاضرة الفرقان 11 - الترهيب في البعد عن الوحيين.md",
+                "file": "Islam/Marriage/A-B Marriage (ألف باء الزواج)/Lesson Notes/01 - بدايات وتنبيهات ومقدمات - حول المعلم والمتعلم أو الجمهور.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               },
               "icon": "links-going-out",
-              "title": "Outgoing links from محاضرة الفرقان 11 - الترهيب في البعد عن الوحيين"
+              "title": "Outgoing links from 01 - بدايات وتنبيهات ومقدمات - حول المعلم والمتعلم أو الجمهور"
             }
           },
           {
@@ -198,24 +148,12 @@
               "type": "tag",
               "state": {
                 "sortOrder": "frequency",
-                "useHierarchy": true
-              },
-              "icon": "lucide-tags",
-              "title": "Tags"
-            }
-          },
-          {
-            "id": "57cfff2028f18009",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency",
+                "useHierarchy": true,
                 "showSearch": false,
                 "searchQuery": ""
               },
-              "icon": "lucide-archive",
-              "title": "All properties"
+              "icon": "lucide-tags",
+              "title": "Tags"
             }
           },
           {
@@ -224,20 +162,13 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Islam/Courses/Forqan Academy (أكادمية الفرقان)/التزكية 1/محاضرة الفرقان 11 - الترهيب في البعد عن الوحيين.md"
+                "file": "Islam/Marriage/A-B Marriage (ألف باء الزواج)/Lesson Notes/01 - بدايات وتنبيهات ومقدمات - حول المعلم والمتعلم أو الجمهور.md",
+                "followCursor": false,
+                "showSearch": false,
+                "searchQuery": ""
               },
               "icon": "lucide-list",
-              "title": "Outline of محاضرة الفرقان 11 - الترهيب في البعد عن الوحيين"
-            }
-          },
-          {
-            "id": "8f731af43de91d9e",
-            "type": "leaf",
-            "state": {
-              "type": "timeline",
-              "state": {},
-              "icon": "sheets-in-box",
-              "title": "Day Planner Timeline"
+              "title": "Outline of 01 - بدايات وتنبيهات ومقدمات - حول المعلم والمتعلم أو الجمهور"
             }
           },
           {
@@ -249,18 +180,61 @@
               "icon": "quote-glyph",
               "title": "Dictionary"
             }
+          },
+          {
+            "id": "d83d1dc2434c2d1d",
+            "type": "leaf",
+            "state": {
+              "type": "planner-timeline",
+              "state": {},
+              "icon": "sheets-in-box",
+              "title": "Timeline"
+            }
+          },
+          {
+            "id": "23d7d4fd178a4aa4",
+            "type": "leaf",
+            "state": {
+              "type": "github-copilot-chat-view",
+              "state": {},
+              "icon": "bot-message-square",
+              "title": "Copilot Chat"
+            }
+          },
+          {
+            "id": "2ebba562fd3aa4d8",
+            "type": "leaf",
+            "state": {
+              "type": "quiet-outline",
+              "state": {},
+              "icon": "lines-of-text",
+              "title": "Quiet Outline"
+            }
+          },
+          {
+            "id": "78f2cbd94463f4a0",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency",
+                "showSearch": false,
+                "searchQuery": ""
+              },
+              "icon": "lucide-archive",
+              "title": "All properties"
+            }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 470.5
   },
   "left-ribbon": {
     "hiddenItems": {
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
-      "obsidian-day-planner:Timeline": false,
       "obsidian-trash-explorer:Open trash explorer": false,
       "file-cleaner-redux:Clean files": false,
       "random-note:Open random note": false,
@@ -269,62 +243,67 @@
       "command-palette:Open command palette": true,
       "publish:Publish changes...": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-custom-frames:Open chatgpt": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "obsidian-custom-frames:Open chatgpt": true,
       "omnisearch:Omnisearch": true,
       "meld-encrypt:New encrypted note": true,
       "meld-encrypt:Convert to or from an Encrypted note": true,
-      "meld-encrypt:Encrypt/Decrypt": true,
+      "obsidian-git:Open Git source control": false,
+      "obsidian-day-planner:Open Timeline": false,
+      "obsidian-day-planner:Open Multi-Day View": false,
+      "meld-encrypt:Encrypt Selection": false,
+      "meld-encrypt:Decrypt Selection": false,
+      "obsidian-excalidraw-plugin:New drawing": false,
+      "obsidian-kanban:Create new board": false,
       "periodic-notes:Open today": false
     }
   },
-  "active": "903e7d151b2927f0",
+  "active": "6cf32d595e4f454c",
   "lastOpenFiles": [
-    "a.md",
-    "a..md",
-    "Obsidian/Attachments - GitHub Readme/open-a-vault.png",
-    "Obsidian/Attachments - GitHub Readme/image.png",
-    "image.png",
-    "Islam/Courses/Form of Ramadan (فورمة رمضان)/videos/005 أحاديث إصلاح القلوب.md",
-    "Islam/Courses/Form of Ramadan (فورمة رمضان)/Exams/الامتحان الأول - فورمة رمضان.md",
-    "Islam/Courses/Form of Ramadan (فورمة رمضان)/Exams",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/محاضرة الفرقان 13 - كتاب الحج - (5) حج الإفراد والإقران والتمتع.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/محاضرة الفرقان 12 - كتاب الحج - (4) أنواع الحج وأسماء الأيام والأماكن.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/مقاومة الإلحاد/محاضرة الفرقان 12 - الإلحاد العلمي.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/مقاومة الإلحاد/محاضرة الفرقان 13 - الإلحاد الشهواني.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/مقاومة الإلحاد/محاضرة الفرقان 1 - نبذة وتعريفات.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/العقيدة 2/محاضرة الفرقان 13 - الولاء والبراء معناه وضوابطه.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/Media-Temp/Pasted image 20241115083133.png",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/محاضرة الفرقان 11 - كتاب الحج - (3) العمرة.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/محاضرة الفرقان 10 - كتاب الحج - (2) من الباب الثاني إلى الرابع.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/محاضرة الفرقان 14 - كتاب الحج - (6) ختام كتاب الحج.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/محاضرة الفرقان 9 - كتاب الحج - (1) في مقدمات الحج.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/محاضرة الفرقان 15 - كتاب الجهاد - الجزء1.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/التزكية 1/محاضرة الفرقان 13 - كيف يكون سفر الهجرة إلى الله والرسول.md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/محاضرة الفرقان 1 - باب صلاة الجنازة وأحكامها (الجزء1).md",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/Media-Temp/Pasted image 20241113073645.png",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/Media-Temp/Pasted image 20241113073510.png",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/Media-Temp/Pasted image 20241113073000.png",
-    "Personal Dictionary/en-UK/Quid.md",
-    "Personal Dictionary/ar/وعر.md",
-    "Personal Dictionary/en-UK",
-    "Sciences/Applied Sciences/Applied Sciences.md",
-    "Sciences/Applied Sciences/Programming/Programming.md",
-    "Sciences/Applied Sciences/Programming/Managing Names, Files and Directories/Windows Tips.md",
+    "Islam/Marriage/A-B Marriage (ألف باء الزواج)/Lesson Notes/01 - بدايات وتنبيهات ومقدمات - حول المعلم والمتعلم أو الجمهور.md",
+    "Islam/Marriage/A-B Marriage (ألف باء الزواج)/Lesson Tasks/test.md",
+    "Islam/Marriage/A-B Marriage (ألف باء الزواج)/Lesson Tasks",
+    "Islam/Marriage/A-B Marriage (ألف باء الزواج)/Lesson Notes/Attachments - 01 - بدايات وتنبيهات ومقدمات - حول المعلم والمتعلم أو الجمهور",
+    "Sciences/Applied Sciences/Programming/Terminals/Attachments - Powershell/Pasted image 20250531144233.png",
+    "Sciences/Applied Sciences/Programming/Terminals/Attachments - Powershell/Pasted image 20250531144532.png",
+    "Sciences/Applied Sciences/Programming/Terminals/Powershell.md",
+    "Sciences/Applied Sciences/Programming/Terminals/Attachments - Powershell",
+    "Sciences/Applied Sciences/Programming/DB/DB IDEs.md",
+    "Sciences/Applied Sciences/Programming/DB/Media-Temp/Pasted image 20250304100025.png",
+    "Sciences/Applied Sciences/Programming/DB/Media Streaming.md",
+    "Sciences/Applied Sciences/Programming/DB/Converting SQLite to pyodbc.md",
+    "Sciences/Applied Sciences/Engineering/Electrical Engineering/Attachments - USB Standards and Port Types of Charging Cables/Pasted image 20250414175341.png",
+    "Sciences/Applied Sciences/Engineering/Electrical Engineering/Media-Temp/Pasted image 20250414174850.png",
+    "Sciences/Applied Sciences/Engineering/Electrical Engineering/Media-Temp/Pasted image 20250414115207.png",
+    "Sciences/Applied Sciences/Engineering/Electrical Engineering/USB Standards and Port Types of Charging Cables.md",
+    "Sciences/Applied Sciences/Engineering/Electrical Engineering/Attachments - USB Standards and Port Types of Charging Cables/Pasted image 20250414174216.png",
+    "Sciences/Applied Sciences/Chemistry/Physical Chemistry/Electrochemistry/Battery and Charging Terminologies and Technologies.md",
+    "Sciences/Applied Sciences/Chemistry/Physical Chemistry/Electrochemistry/Attachments - Battery and Charging Terminologies and Technologies",
+    "Sciences/Applied Sciences/Chemistry/Physical Chemistry/Electrochemistry/Attachments - Battery and Charging Terminologies and Technologies/Pasted image 20250414091044.png",
+    "Islam/Marriage/A-B Marriage (ألف باء الزواج)/Lesson Notes/Attachments - 01 - بدايات وتنبيهات ومقدمات - حول المعلم والمتعلم أو الجمهور/Pasted image 20250711182225.png",
+    "Islam/Marriage/A-B Marriage (ألف باء الزواج)/Lesson Notes/Media-Temp",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/Hyperfocus.md",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/ADHD/ADHD - Attention-Deficit Hyperactive Disorder.md",
+    "Sciences/Social Sciences/Psychology/Neuropsychology.md",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Psychological Disorders.md",
+    "Sciences/Social Sciences/Psychology/Psychological Disorders/Neurodevelopmental Disorders/NDDs - Neurodevelopmental Disorders.md",
+    "Sciences/Applied Sciences/Programming/Python/Python Environments/Conda Environment.md",
     "Sciences/Applied Sciences/Programming/Managing Names, Files and Directories/Python OS and Glob.md",
-    "Sciences/Applied Sciences/Programming/Managing Names, Files and Directories/File Renaming Tools.md",
-    "Sciences/Applied Sciences/Programming/Python/Optimizations.md",
+    "Sciences/Applied Sciences/Programming/Python/Logging.md",
     "Sciences/Applied Sciences/Programming/Python/Debugging Python Code.md",
-    "Islam/Courses/Form of Ramadan (فورمة رمضان)/videos/008 أحاديث إصلاح القلوب الدرس 4 أوصاف القلوب الشيخ عبد الرزاق البدر.srt",
-    "Islam/Courses/Form of Ramadan (فورمة رمضان)/videos/008 أحاديث إصلاح القلوب الدرس 4 أوصاف القلوب الشيخ عبد الرزاق البدر.mp4",
-    "Islam/Courses/Form of Ramadan (فورمة رمضان)/videos/008 أحاديث إصلاح القلوب الدرس 3 أوصاف القلوب الشيخ عبد الرزاق البدر.srt",
-    "Islam/Courses/Form of Ramadan (فورمة رمضان)/videos/006 أحاديث إصلاح القلوب الدرس 2 صلاح القلب بالإيمان الشيخ عبد الرزاق البدر.mp4",
-    "Islam/Courses/Form of Ramadan (فورمة رمضان)/videos/007 أحاديث إصلاح القلوب الدرس 3 طهارة القلوب الشيخ عبد الرزاق البدر.srt",
-    "Islam/Courses/Form of Ramadan (فورمة رمضان)/videos/006 أحاديث إصلاح القلوب الدرس 2 صلاح القلب بالإيمان الشيخ عبد الرزاق البدر.srt",
-    "Islam/Courses/Form of Ramadan (فورمة رمضان)/videos/faster-whisper-xxl.exe",
-    "Islam/Courses/Form of Ramadan (فورمة رمضان)/videos/008 أحاديث إصلاح القلوب الدرس 3 أوصاف القلوب الشيخ عبد الرزاق البدر.mp4",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/Media-Temp/Pasted image 20241029090405.png",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/Media-Temp/Pasted image 20241029090201.png",
-    "Islam/Courses/Forqan Academy (أكادمية الفرقان)/الفقه 2/Media-Temp/Pasted image 20241029084107.png"
+    "Sciences/Applied Sciences/Programming/Python/Logging",
+    "Sciences/Applied Sciences/Programming/Data Engineering/GCP/GCP Professional Data Engineer Question Dump.md",
+    "Sciences/Applied Sciences/Programming/Data Engineering/DE Road Map.md",
+    "Sciences/Applied Sciences/Engineering/Electrical Engineering/Attachments - USB Standards and Port Types of Charging Cables/Pasted image 20250414175227.png",
+    "Sciences/Applied Sciences/Engineering/Electrical Engineering/Attachments - USB Standards and Port Types of Charging Cables",
+    "Sciences/Applied Sciences/Engineering/Electrical Engineering/Media-Temp",
+    "Sciences/Formal Sciences/Formal Sciences.md",
+    "Sciences/Applied Sciences/Engineering/Electrical Engineering",
+    "Sciences/Applied Sciences/Applied Sciences.md",
+    "Sciences/Applied Sciences/Engineering",
+    "Islam/Courses/Learning Tajweed (تعلم التجويد)/محاضرة 1 - مقدمة.md",
+    "Sciences/Applied Sciences/Programming/Programming.md",
+    "Sciences/Social Sciences/Social Sciences.md",
+    "Sciences/Natural Sciences/Natural Sciences.md",
+    "Sciences/Applied Sciences/Programming/AI/Anthropic Claude.md"
   ]
 }

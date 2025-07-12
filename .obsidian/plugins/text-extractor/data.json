@@ -3,5 +3,6 @@
     "eng",
     "ara"
   ],
-  "rightClickMenu": true
+  "rightClickMenu": true,
+  "useSystemOCR": false
 }
