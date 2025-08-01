@@ -14,6 +14,7 @@
 	- [Model Libraries](./AI/Model%20Libraries.md)
 	- [Power BI Questions](./AI/Power%20BI%20Questions.md)
 	- [Power BI](./AI/Power%20BI.md)
+	- [Tarteel AI ML Notes](./AI/Tarteel%20AI%20ML%20Notes.md)
 - **API**
 	- [API Notes](./API/API%20Notes.md)
 	- [Postman](./API/Postman.md)
@@ -55,6 +56,9 @@
 - **Docker**
 	- [Docker Basics](./Docker/Docker%20Basics.md)
 	- [Metabase and Docker Caveats](./Docker/Metabase%20and%20Docker%20Caveats.md)
+- **Frontend**
+	- **Flutter**
+		- [Flutter Notes](./Frontend/Flutter/Flutter%20Notes.md)
 - **HTML and CSS**
 	- [CSS New Info](./HTML%20and%20CSS/CSS%20New%20Info.md)
 	- [HTML New Info](./HTML%20and%20CSS/HTML%20New%20Info.md)
